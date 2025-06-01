@@ -1,0 +1,2596 @@
+sequence/NN not/RB str/NN
+base/JJ buffer/NN
+read/VB buffer/NN
+write/VB buffer/NN
+read/VB pickle/NN buffer/NN
+write/VB excel/NNP buffer/NN
+read/VB csv/NNP buffer/NN
+test/VB sub/NN dict/NN
+test/VB non/RB dict/NN mapping/NN
+versioneer/NNP config/NN
+not/RB this/DT method/NN
+int/NN casting/VBG na/NNP n/NNP error/NN
+null/JJ frequency/NN error/NN
+performance/NN warning/NN
+unsupported/JJ function/NN call/NN
+unsorted/JJ index/NN error/NN
+parser/NN error/NN
+d/FW type/NN warning/NN
+empty/JJ data/NNS error/NN
+parser/NN warning/NN
+merge/VB error/NN
+abstract/JJ method/NN error/NN
+num/NN ba/FW util/NN error/NN
+duplicate/JJ label/NN error/NN
+invalid/JJ index/NN error/NN
+data/NN error/NN
+specification/NN error/NN
+chained/JJ assignment/NN error/NN
+num/NN expr/NN clobbering/VBG error/NN
+undefined/JJ variable/NN error/NN
+indexing/NN error/NN
+pyperclip/NNP exception/NN
+pyperclip/NNP windows/NNS exception/NN
+css/NNP warning/NN
+possible/JJ data/NN loss/NN error/NN
+closed/JJ file/NN error/NN
+incompatibility/NN warning/NN
+attribute/NN conflict/NN warning/NN
+database/NN error/NN
+possible/JJ precision/NN loss/NN
+value/NN label/NN type/NN mismatch/NN
+invalid/JJ column/NN name/NN
+categorical/JJ conversion/NN warning/NN
+lossy/JJ set/VB item/NN error/NN
+no/DT buffer/NN present/JJ
+invalid/JJ comparison/NN
+subclassed/VBN series/NNS
+subclassed/VBN data/NNS frame/NN
+plot/NN accessor/NN
+options/NNS
+hist/NNP plot/NN
+kde/NNP plot/NN
+mpl/NNP plot/NN
+plane/NN plot/NN
+scatter/NN plot/NN
+hex/NN bin/JJ plot/NN
+line/NN plot/NN
+area/NN plot/NN
+bar/NN plot/NN
+barh/NNP plot/NN
+pie/NN plot/NN
+box/NN plot/NN
+bp/NNP
+time/NN converter/NN
+time/NN formatter/NN
+period/NN converter/NN
+datetime/NN converter/NN
+pandas/NNP auto/JJ date/NN formatter/NN
+pandas/NNP auto/JJ date/NN locator/NN
+milli/NN second/NN locator/NNP
+time/NN series/NNS date/NN locator/NN
+time/NN series/NNS date/NN formatter/NN
+time/NN series/NNS timedelta/NNP formatter/NN
+data/NN frame/NN
+index/NN slice/NN
+indexing/VBG mixin/NN
+location/NN indexer/NN
+loc/NN indexer/NN
+i/PRP loc/NN indexer/NN
+scalar/NN access/NN indexer/NN
+at/IN indexer/NNP
+i/PRP at/IN indexer/NNP
+flags/NNS
+disallow/VB
+bottleneck/NN switch/NN
+nd/NNP frame/NN
+pandas/NNP object/NN
+no/DT new/JJ attributes/NNS mixin/NN
+selection/NN mixin/NN
+index/NN ops/NN mixin/NN
+dir/NN names/NNS mixin/NN
+pandas/NNP delegate/NN
+cached/VBN accessor/NN
+ops/NN mixin/NN
+series/NN
+resampler/NNP
+group/NN by/IN mixin/NNP
+datetime/NN index/NN resampler/NNP
+datetime/NN index/NN resampler/NNP groupby/NNP
+period/NN index/NN resampler/NNP
+period/NN index/NN resampler/NNP groupby/NNP
+timedelta/NNP index/NN resampler/NNP
+timedelta/NNP index/NN resampler/NNP groupby/NNP
+time/NN grouper/NN
+multi/JJ index/NN u/FW int/NNP engine/NN
+multi/JJ index/NN py/FW int/NNP engine/NN
+multi/JJ index/NN
+period/NN index/NN
+interval/NN index/NN
+extension/NN index/NN
+nd/NNP array/NN backed/VBN extension/NN index/NN
+properties/NNS
+arrow/NN temporal/JJ properties/NNS
+datetime/NN properties/NNS
+timedelta/NNP properties/NNS
+period/NN properties/NNS
+combined/VBN datetime/NN like/IN properties/NNS
+index/NN
+range/NN index/NN
+datetime/NN index/NN
+categorical/JJ index/NN
+timedelta/NNP index/NNP
+datetime/NN index/NN ops/NN mixin/NN
+datetime/NNP timedelta/NNP mixin/NNP
+pandas/NNP buffer/NN
+pandas/NNP buffer/NN py/NNP arrow/NN
+pandas/NNP data/NNS frame/NN x/FW chg/NNP
+pandas/NNP column/NN
+dl/NNP pack/NN device/NN type/NN
+d/NN type/NN kind/NN
+column/NN null/JJ type/NN
+column/NN buffers/NNS
+categorical/JJ description/NN
+buffer/NN
+column/NN
+arrow/NN c/FW types/NNS
+endianness/NN
+year/NN month/NN day/NN dict/NN
+full/JJ datetime/NN dict/NN
+index/NN type/NN
+series/NN type/NN
+index/NN model/NN
+series/NN model/NN
+iloc/NNP type/NN
+i/PRP loc/NN model/NN
+py/NNP tables/NNS scope/NN
+term/NN
+constant/NN
+bin/JJ op/NN
+filter/NN bin/JJ op/NN
+joint/JJ filter/NN bin/JJ op/NN
+condition/NN bin/NN op/NN
+joint/JJ condition/NN bin/NN op/NN
+unary/JJ op/NN
+py/NNP tables/NNS expr/NN visitor/NN
+py/NNP tables/NNS expr/NN
+term/NN value/NN
+deep/JJ chain/NN map/NN
+scope/NN
+op/NN
+div/NNP
+math/NN call/NN
+func/NN node/NN
+abstract/JJ engine/NN
+num/NN expr/NN engine/NN
+python/NNP engine/NN
+base/JJ expr/NN visitor/NN
+pandas/NNP expr/NN visitor/NN
+python/NNP expr/NN visitor/NN
+expr/NN
+group/VB by/IN indexing/NN mixin/NN
+group/VB by/IN positional/JJ selector/NN
+group/VB by/IN nth/NNP selector/NN
+wrapped/JJ cython/NNP op/NN
+base/JJ grouper/NN
+bin/JJ grouper/NN
+data/NNS splitter/NN
+series/NN splitter/NN
+frame/NN splitter/NN
+named/VBN agg/NNP
+series/NN group/VB by/IN
+data/NN frame/NN group/VB by/IN
+output/NN key/NN
+grouper/NN
+grouping/NN
+group/NN by/IN plot/NN
+base/JJ group/NN by/RB
+group/VB by/IN
+join/NN unit/NN
+block/NN
+ea/NNP backed/VBN block/NN
+extension/NN block/NN
+numpy/NNP block/NN
+nd/NNP array/NN backed/VBN extension/NN block/NN
+datetime/NN like/IN block/NN
+datetime/NN tz/NNP block/NN
+block/NN pair/NN info/NN
+base/NN block/NN manager/NN
+block/NN manager/NN
+single/JJ block/NN manager/NN
+concatenator/NN
+merge/VB operation/NN
+ordered/VBN merge/VB
+as/IN of/IN merge/VB
+unstacker/NN
+extension/NN d/NN type/NN
+storage/NN extension/NN d/NN type/NN
+registry/NN
+pandas/NNP extension/NN d/NN type/NN
+categorical/JJ d/NN type/NN type/NN
+categorical/JJ d/NN type/NN
+datetime/NN tzd/NN type/NN
+period/NN d/NN type/NN
+interval/NN d/NN type/NN
+numpy/NNP ead/NNP type/NN
+base/JJ masked/VBN d/NN type/NN
+sparse/JJ d/NN type/NN
+arrow/NN d/NN type/NN
+nd/NNP frame/NN describer/NN abstract/NN
+series/NN describer/NN
+data/NN frame/NN describer/NN
+select/VB n/CD
+select/VB n/CD series/NNS
+select/VB n/CD frame/NN
+object/NN string/NN array/NN mixin/NN
+base/JJ string/NN array/NN methods/NNS
+string/NN methods/NNS
+string/NN d/NN type/NN
+base/JJ string/NN array/NN
+string/NN array/NN
+period/NN array/NN
+numpy/NN extension/NN array/NN
+interval/NN array/NN
+numeric/JJ d/NN type/NN
+numeric/JJ array/NN
+base/JJ masked/VBN array/NN
+nd/NNP array/NN backed/VBN extension/NN array/NN
+boolean/NN d/NN type/NN
+boolean/NN array/NN
+extension/NN array/NN
+extension/NN array/NN supports/VBZ any/DT all/DT
+extension/NN ops/NN mixin/NN
+extension/NN scalar/NN ops/NN mixin/NN
+arrow/NN string/NN array/NN mixin/NN
+datetime/NN array/NN
+floating/JJ d/NN type/NN
+floating/JJ array/NN
+float32/NNP d/NN type/NN
+float64/NNP d/NN type/NN
+categorical/JJ
+categorical/JJ accessor/NN
+arrow/NN string/NN array/NN
+arrow/NN string/NN array/NN numpy/NNP semantics/NN
+integer/NN d/NN type/NN
+integer/NN array/NN
+int8/NNP d/NN type/NN
+int16/NNP d/NN type/NN
+int32/NNP d/NN type/NN
+int64/NN d/NN type/NN
+uint8/NNP d/NN type/NN
+uint16/NNP d/NN type/NN
+uint32/NNP d/NN type/NN
+uint64/NNP d/NN type/NN
+timedelta/NNP array/NN
+datetime/NN like/IN array/NN mixin/NN
+date/NN like/IN ops/NN
+time/NN like/IN ops/NN
+base/JJ accessor/NN
+sparse/JJ accessor/NN
+sparse/JJ frame/NN accessor/NN
+ellipsis/NN
+sparse/JJ array/NN
+arrow/NN period/NN type/NN
+arrow/NN interval/NN type/NN
+forbidden/JJ extension/NN type/NN
+arrow/NN accessor/NN
+list/NN accessor/NN
+struct/NN accessor/NN
+arrow/NN extension/NN array/NN
+base/JJ indexer/NN
+fixed/JJ window/NN indexer/NN
+variable/JJ window/NN indexer/NN
+variable/JJ offset/NN window/NN indexer/NN
+expanding/JJ indexer/NN
+fixed/JJ forward/JJ window/NN indexer/NN
+groupby/NNP indexer/NN
+exponential/JJ moving/JJ window/NN indexer/NN
+exponential/JJ moving/JJ window/NN
+exponential/JJ moving/JJ window/NN groupby/NNP
+online/JJ exponential/JJ moving/JJ window/NN
+ewm/NNP mean/JJ state/NNP
+base/JJ window/NN
+base/JJ window/NN groupby/NNP
+window/NN
+rolling/JJ and/CC expanding/JJ mixin/NN
+rolling/JJ
+rolling/JJ groupby/NNP
+expanding/JJ
+expanding/JJ groupby/NNP
+test/VB nanops/NNPS data/NN frame/NN
+test/VB ensure/VB numeric/NNP
+test/VB nan/NNP var/NN fixed/VBN values/NNS
+test/VB nan/NNP skew/JJ fixed/VBN values/NNS
+test/VB nan/NNP kurt/NNP fixed/VBN values/NNS
+test/VB datetime/NNP 64/CD na/NNP n/NN ops/NN
+test/VB factorize/VB
+test/VB unique/JJ
+test/NN i/PRP sin/NNP
+like/IN nan/NNP
+test/VB value/NN counts/NNS
+test/VB duplicated/VBN
+test/VB hash/NN table/NN
+test/VB rank/NN
+test/VB mode/NN
+test/VB diff/NN
+test/VB take/VB
+test/VB extension/NN take/VB
+x/FW
+my/PRP$ accessor/NN
+bad/JJ
+some/DT call/NN
+test/NN is/VBZ bool/NN indexer/NN
+my/PRP$ list/NN
+test/VB flags/NNS
+test/NN multi/JJ level/NN
+test/VB sorted/VBN
+test/VB expressions/NNS
+my/PRP$ class/NN
+foo/NNP
+test/VB sorting/NN
+test/VB merge/VB
+test/VB safe/JJ sort/NN
+my/PRP$ ea/NNP
+test/VB extension/NN array/NN
+test/VB masked/VBN arrays/NNS
+test/VB 2/CD d/NN compat/NN
+test/VB sparse/JJ array/NN
+test/VB string/NN array/NN
+test/VB interval/NN array/NN
+test/VB arrow/NN array/NN
+test/VB logical/NN ops/NNS
+old/JJ arrow/NN extension/NN array/NN
+dummy/JJ d/NN type/NN
+dummy/JJ array/NN
+test/VB extension/NN array/NN d/NN type/NN
+capturing/VBG string/NN array/NN
+test/VB numpy/NN extension/NN array/NN
+test/VB datetime/NN array/NN
+test/VB period/NN array/NN
+test/VB categorical/JJ
+float/NN attr/NN d/NN type/NN
+float/NN attr/NN array/NN
+list/NN d/NN type/NN
+list/NN array/NN
+date/NN d/NN type/NN
+date/NN array/NN
+base/JJ set/NN item/NN tests/NNS
+base/JJ parsing/VBG tests/NNS
+base/JJ casting/VBG tests/NNS
+base/JJ reduce/VB tests/NNS
+base/JJ printing/VBG tests/NNS
+base/JJ missing/VBG tests/NNS
+base/JJ ops/NNS util/NN
+base/JJ arithmetic/JJ ops/NNS tests/NNS
+base/JJ comparison/NN ops/NNS tests/NNS
+base/JJ unary/JJ ops/NNS tests/NNS
+base/JJ accumulate/VB tests/NNS
+base/JJ d/NN type/NN tests/NNS
+base/JJ constructors/NNS tests/NNS
+base/JJ extension/NN tests/NNS
+dim/NN 2/CD compat/NN tests/NNS
+nd/NNP array/NN backed/VBN 2d/NNP tests/NNS
+base/JJ interface/NN tests/NNS
+base/JJ get/VB item/NN tests/NNS
+base/JJ index/NN tests/NNS
+base/JJ methods/NNS tests/NNS
+extension/NN tests/NNS
+base/JJ reshaping/VBG tests/NNS
+base/JJ groupby/NNP tests/NNS
+jsond/NNP type/NN
+json/NNP array/NN
+test/VB json/NNP array/NN
+decimal/JJ d/NN type/NN
+decimal/JJ array/NN
+test/VB decimal/JJ array/NN
+decimal/JJ array/NN without/IN from/IN sequence/NN
+decimal/JJ array/NN without/IN coercion/NN
+test/VB set/NN ops/NNS
+test/VB set/NN ops/NNS unsorted/JJ
+test/VB contains/VBZ
+test/VB get/VB loc/NN
+e/FW
+test/VB get/VB indexer/NN
+test/VB convert/VB slice/NN indexer/NN
+test/VB put/VB mask/NN
+custom/JJ index/NN
+test/VB datetime/NN engine/NN
+test/VB timedelta/NNP engine/NN
+test/VB numeric/JJ engine/NN
+test/VB object/NN engine/NN
+test/VB datetime/NN like/NNP
+test/VB common/JJ
+test/VB conversion/NN
+test/VB round/NN trips/NNS
+test/VB indexing/VBG
+test/VB rendering/VBG
+test/VB reductions/NNS
+test/VB index/NN constructor/NN inference/NN
+test/VB d/NN type/NN enforced/VBN
+test/VB index/NN constructor/NN unwrapping/VBG
+array/NN like/IN
+test/VB index/NN construction/NN errors/NNS
+test/VB base/NN
+test/VB numeric/JJ base/NN
+test/VB index/NN
+test/VB mixed/VBN int/NN index/NN
+test/VB index/NN utils/NNS
+test/VB timedelta/NNP index/NN
+test/VB timedelta/NNP index/NN difference/NN
+test/VB get/VB item/NN
+test/VB where/WRB
+test/VB maybe/RB cast/VB slice/NN bound/NN
+test/VB vectorized/VBN timedelta/NNP
+test/VB freq/NN
+test/VB timedelta/NNP index/NN arithmetic/JJ
+test/VB pickle/NN
+test/VB timedelta/NNP index/NN ops/NNS
+test/VB timedelta/NNP index/NN delete/NN
+test/VB timedeltas/NNP
+test/VB join/VB
+test/VB search/NN sorted/VBN
+test/VB timedelta/NNP index/NN rendering/VBG
+test/VB timedelta/NNP index/NN factorize/VBB
+test/VB timedelta/NNP index/NN shift/VB
+test/VB timedelta/NNP index/NN insert/NN
+test/VB repeat/NN
+test/VB fill/VB na/NNP
+test/VB set/VB ops/NNS sort/NN
+test/VB slice/NN locs/NNS
+test/VB get/VB slice/NN bounds/NNS
+test/VB astype/NNP
+test/VB float/NN numeric/JJ index/NN
+test/VB numeric/JJ int/NN
+test/VB int/NN numeric/JJ index/NN
+test/VB float/NN 16/CD index/NN
+test/VB join/VB int64/NNP index/NN
+test/VB join/VB uint64/NNP index/NNP
+test/VB interval/NN index/NN
+test/VB interval/NN range/NN
+constructor/NN tests/NNS
+test/VB from/IN arrays/NNS
+test/VB from/IN breaks/NNS
+test/VB from/IN tuples/NNS
+test/VB class/NN constructors/NNS
+test/VB equals/NNS
+astype/NNP tests/NNS
+test/VB int/NN subtype/NN
+test/VB float/NN subtype/NN
+test/VB datetime/NN like/IN subtype/NN
+test/VB interval/NN index/NN rendering/NN
+test/VB interval/NN tree/NN
+test/VB categorical/JJ index/NN constructors/NNS
+test/VB categorical/JJ index/NN
+test/VB categorical/JJ index/NN 2/CD
+test/VB reindex/NN
+test/VB append/VB
+test/VB categorical/JJ index/NN repr/NN
+equals/VBZ tests/NNS
+test/VB period/NN index/NN equals/NNS
+test/VB datetime/NN index/NN equals/NNS
+test/VB timedelta/NNP index/NN equals/NNS
+test/VB sort/NN values/NNS
+drop/VB duplicates/NNS
+test/VB drop/VB duplicates/NNS period/NN index/NN
+test/VB drop/VB duplicates/NNS datetime/NN index/NN
+test/VB drop/VB duplicates/NNS timedelta/NNP index/NN
+test/VB get/VB indexer/NN non/RB unique/JJ
+test/VB period/NN index/NN
+test/VB period/NN index/NN disallowed/VBN freqs/NNS
+test/VB simple/JJ new/JJ
+test/VB shallow/JJ copy/VB
+test/VB series/NN period/NN
+test/VB get/VB value/NN
+test/VB as/IN of/IN locs/NNS
+test/VB resolution/NN
+test/VB period/NN representation/NN
+test/VB period/NN index/NN conversion/NN
+test/VB period/NN index/NN ops/NNS
+test/VB period/NN range/NN keywords/NNS
+test/VB period/NN range/NN
+test/VB period/NN range/NN disallowed/VBN freqs/NNS
+test/VB search/VB sorted/VBN
+test/VB period/NN index/NN rendering/NN
+test/VB period/NN index/NN shift/VB
+test/VB to/TO timestamp/NN
+test/VB period/NN index/NN as/IN type/NN
+test/VB insert/VB
+test/VB datetime/NN index/NN set/VB ops/NNS
+test/VB business/NN datetime/NN index/NN
+test/VB custom/JJ datetime/NN index/NN
+test/VB datetime/NN index/NN
+test/VB time/NN series/NN
+test/VB indexer/NN between/IN time/NN
+test/VB datetime/NN index/NN ops/NN
+test/VB datetime/NN index/NN arithmetic/JJ
+test/VB datetime/NN index/NN reindex/VB
+fixed/JJ offset/NN
+test/VB datetime/NN index/NN timezones/NNS
+test/VB datetime/NN index/NN iteration/NN
+test/VB timestamp/NN equiv/NN date/NN range/NN
+test/NN date/NN ranges/NNS
+test/NN date/NN range/NN tz/NNP
+test/VB gen/VB range/NN generation/NN
+test/VB business/NN date/NN range/NN
+test/VB custom/JJ date/NN range/NN
+test/VB date/NN range/NN non/RB na/NNP no/NNP
+test/VB date/NN range/NN non/RB tick/NN freq/NN
+test/VB split/NN
+test/VB slicing/NN
+test/VB datetime/NN index/NN rendering/NN
+test/VB to/TO period/NN
+test/VB datetime/NN index/NN factorize/VB
+test/VB datetime/NN index/NN shift/VB
+test/VB tz/NNP localize/VB
+test/VB to/IN series/NNP
+test/VB as/IN of/IN
+test/VB delete/VB
+test/VB date/NN time/NN index/NN to/TO julian/NNP date/NN
+test/VB to/TO py/NNP datetime/NN
+test/VB normalize/VB
+test/VB datetime/NN index/NN round/NN
+test/VB to/NN frame/NN
+test/VB datetime/NN index/NN fill/VB na/TO
+test/VB tz/NNP convert/VB
+test/VB map/NN
+test/VB get/VB level/NN values/NNS
+test/VB is/VBZ lex/NNP sorted/VBN
+test/VB lex/NNP sort/NN depth/NN
+test/VB repr/NN
+test/VB range/NN index/NN set/NN ops/NNS
+test/VB range/NN index/NN constructors/NNS
+test/VB range/NN index/NN
+test/VB index/NN set/VB ops/NNS
+test/VB index/NN constructor/NN
+test/VB index/NN rendering/NN
+test/VB reshape/VB
+test/VB comparison/NN
+test/VB timedelta/NNP 64/CD array/NN like/IN comparisons/NNS
+test/VB timedelta/NNP 64/CD array/NN comparisons/NNS
+test/VB timedelta/NNP 64/CD arithmetic/JJ unsorted/JJ
+test/VB add/VB sub/NN na/NNP t/FW masking/NN
+test/VB timedelta/NNP array/NN like/IN add/VB sub/VB ops/NNS
+test/VB timedelta/NNP array/NN like/IN mul/VB div/VB ops/NNS
+test/VB timedelta/NNP 64/CD array/NN like/IN arithmetic/NN
+test/VB datetime/NN 64/CD array/NN like/IN comparisons/NNS
+test/VB datetime/NN 64/CD series/NN comparison/NN
+test/VB datetime/NN index/NN comparisons/NNS
+test/VB datetime/NN 64/CD arithmetic/NN
+test/VB datetime/NN 64/CD date/NN offset/NN arithmetic/NN
+test/VB datetime/NN 64/CD overflow/NN handling/NN
+test/VB timestamp/NN series/NN arithmetic/NN
+test/VB numeric/JJ comparisons/NNS
+test/VB numeric/JJ array/NN like/IN arithmetic/NN with/IN datetime/NN like/IN
+test/VB division/NN by/IN zero/CD
+test/VB multiplication/NN division/NN
+test/VB addition/NN subtraction/NN
+test/VB u/FW func/NN compat/NN
+test/VB object/NN d/FW type/NN equivalence/NN
+test/VB numeric/JJ arithmetic/JJ unsorted/JJ
+test/VB period/NN array/NN like/IN comparisons/NNS
+test/VB period/NN index/NN comparisons/NNS
+test/VB period/NN series/NN comparisons/NNS
+test/VB period/NN index/NN series/NN comparison/NN consistency/NN
+test/VB period/NN frame/NN arithmetic/NN
+test/VB period/NN index/NN arithmetic/NN
+test/VB period/NN series/NNP arithmetic/NNP
+test/VB period/NN index/NN series/NN methods/NNS
+test/VB object/NN comparisons/NNS
+test/VB arithmetic/NN
+my/PRP$ index/NN
+test/VB categorical/JJ comparisons/NNS
+test/VB time/NN conversion/NN formats/NNS
+test/VB to/TO datetime/NN
+test/VB to/TO datetime/NN unit/NN
+test/VB to/TO datetime/NN data/NN frame/NN
+test/VB to/TO datetime/NNP misc/NNP
+test/VB guess/NN datetime/NN format/NN
+test/VB to/TO datetime/NN infer/NN format/NN
+test/VB days/NNS in/IN month/NN
+test/VB datetime/NN parsing/NN wrappers/NNS
+test/VB origin/NN
+test/VB should/MD cache/VB
+test/VB to/TO time/NN
+test/VB index/NN reductions/NNS
+test/VB series/NN reductions/NNS
+test/VB datetime/NN 64/CD series/NN reductions/NNS
+test/VB categorical/JJ series/NN reductions/NNS
+test/VB series/NN mode/NN
+test/VB datetime/NN like/IN stat/NN reductions/NNS
+test/VB series/NN stat/NN reductions/NNS
+test/VB eval/NN
+test/VB type/NN casting/NN
+test/VB alignment/NN
+test/VB operations/NNS
+test/VB math/NN
+test/VB scope/NN
+test/VB validate/VB
+test/VB selection/NN
+test/VB grouping/NN
+test/VB get/VB group/NN
+test/VB iteration/NN
+test/VB numeric/JJ only/RB
+test/VB engine/NN
+test/VB counting/NN
+raising/VBG object/NN exception/NN
+raising/VBG object/NN
+test/VB group/VB by/IN
+group/NN var/NN test/NN mixin/NN
+test/VB group/NN var/NN float64/NNP
+test/VB group/NN var/NN float32/NNP
+test/VB named/JJ aggregation/NN series/NN
+test/VB named/JJ aggregation/NN data/NNS frame/NN
+test/VB lambda/NN mangling/NN
+fn/NNP class/NN
+test/VB data/NNS frame/NN plots/NNS
+test/VB data/NNS frame/NN group/VB by/IN plots/NNS
+test/VB series/NN plots/NNS
+test/VB ts/NNP plot/NN
+test/VB get/VB standard/JJ colors/NNS
+test/VB registration/NN
+test/VB date/NN time/NN converter/NN
+test/VB period/NN converter/NN
+axis/NN
+test/VB time/NN delta/NN converter/NN
+mock/VB axis/NN
+test/VB data/NNS frame/NN color/NNP
+test/VB hist/NNP with/IN by/IN
+test/VB box/NN with/IN by/IN
+test/VB data/NNS frame/NN plots/NNS subplots/NNS
+test/VB data/NN frame/NN plots/NNS groupby/NNP
+test/VB frame/NN legend/NN
+test/VB types/NNS
+base/NN
+test/VB pd/NNP api/NNP
+test/VB api/NNP
+test/VB errors/NNS
+test/VB util/NNP
+test/VB testing/NN
+test/VB block/NN
+test/VB block/NN manager/NN
+test/VB block/NN placement/NN
+test/VB can/MD hold/VB element/NN
+test/VB should/MD store/VB
+test/VB pad/VB backfill/NN
+test/VB infinity/NN
+test/VB hash/NN table/NN unsorted/JJ
+test/VB py/NNP object/NN hash/NN table/NN with/IN nans/NNPS
+test/VB hash/NN table/NN with/IN nans/NNPS
+test/VB help/NN functions/NNS
+test/VB help/NN functions/NNS with/IN nans/NNPS
+test/VB misc/NNP
+test/VB indexer/NN
+test/VB config/NN
+test/VB get/VB dummies/NNS
+test/VB union/NN categoricals/NNS
+test/VB cross/JJ tab/NN
+test/VB cartesian/JJ product/NN
+test/VB melt/NN
+test/VB l/FW reshape/VB
+test/VB wide/JJ to/TO long/JJ
+test/VB pivot/NN table/NN
+mock/VB unstacker/NN
+test/NN pivot/NN
+test/VB merge/VB multi/JJ
+test/VB join/VB multi/JJ multi/JJ
+test/VB merge/VB ordered/JJ
+not/RB a/DT data/NNS frame/NN
+test/VB merge/VB d/NN types/NNS
+test/VB merge/VB categorical/JJ
+test/VB merge/VB on/IN indexes/NNS
+test/VB as/IN of/IN merge/VB
+test/VB empty/JJ concat/NN
+test/VB invalid/JJ concat/NN
+test/VB datetime/NN concat/NN
+test/VB timezone/NN concat/NN
+test/VB period/NN concat/NN
+test/VB concatenate/VB
+custom/JJ iterator/NN 1/CD
+custom/JJ iterator/NN 2/CD
+test/VB concat/NN append/VB common/NN
+test/VB series/NN concat/NN
+test/VB index/NN concat/NN
+test/VB multi/JJ index/NN concat/NN
+test/VB categorical/JJ concat/NN
+test/VB concat/NN sort/NN
+test/VB data/NNS frame/NN concat/NN
+test/VB stata/NNP
+test/VB basic/JJ
+test/VB parquet/NN py/NNP arrow/NN
+test/VB parquet/NN fast/JJ parquet/NN
+test/VB compression/NN
+test/VB protocol/NN
+mock/VB read/NN response/NN
+my/PRP$ tz/NNP
+custom/JJ fs/NNP path/NN
+test/VB common/JJ io/NNP capabilities/NNS
+test/VB m/FW map/NN wrapper/NN
+test/VB error/NN
+mock/VB sqlite/NNP connection/NN
+dummy/JJ exception/NN
+temporary/JJ
+test/NN
+test/VB memory/NN fs/NNP
+test/VB clipboard/NN
+test/VB read/VB html/NNP
+unseekable/JJ string/NNP io/NNP
+mock/VB file/NN
+error/NN thread/NN
+test/VB feather/NN
+my/PRP$ mapping/NN
+test/VB p/NNP print/NN thing/NN
+test/VB format/NN base/NN
+test/VB data/NNS frame/NN formatting/NN
+a/FW
+test/VB series/NN formatting/NN
+test/VB generic/JJ array/NN formatter/NN
+d/NN type/NN stub/NN
+ext/NN type/NN stub/NN
+test/VB float/NN array/NN formatter/NN
+test/VB timedelta/NNP 64/CD formatter/NN
+test/VB datetime/NNP 64/CD formatter/NN
+test/VB format/NN percentiles/NNS
+test/VB table/NN schema/NN repr/NN
+test/VB html/NNP index/NN
+test/VB repr/NN html/NNP
+test/VB eng/NN formatter/NN
+test/VB to/TO csv/NNP
+mock/VB encoding/NN
+test/VB data/NNS frame/NN to/TO string/NN formatters/NNS
+test/VB data/NNS frame/NN to/TO string/NN col/NNP space/NN
+test/VB data/NNS frame/NN to/TO string/NN header/NN
+test/VB data/NNS frame/NN to/TO string/NN line/NN width/NN
+test/VB to/TO string/NN numeric/JJ formatting/NN
+test/VB data/NNS frame/NN to/TO string/NN
+test/VB series/NN to/TO string/NN
+test/VB to/TO latex/NNP
+test/VB to/TO latex/NNP long/JJ table/NN
+test/VB to/TO latex/NNP header/NN
+test/VB to/TO latex/NNP bold/NN
+test/VB to/TO latex/NN caption/NN label/NN
+test/VB to/TO latex/NN escape/NN
+test/VB to/TO latex/NN position/NN
+test/VB to/TO latex/NN formatters/NNS
+test/VB to/TO latex/NN multiindex/NNP
+custom/JJ styler/NN
+test/VB styler/NN
+test/VB x/FW port/NN
+test/VB sas/NNP
+test/VB sas/NNP 7/CD b/CD dat/NNP
+test/VB hdf/NNP store/NN subclass/NN
+test/VB read/VB py/NNP tables/NNS hdf5/NNP
+table/NN 1/CD
+table/NN 2/CD
+table/NN 3/CD
+test/VB readers/NNS
+test/VB excel/NNP file/NN read/NN
+test/VB round/JJ trip/NN
+test/VB excel/NNP writer/NN
+test/VB excel/NNP writer/NN engine/NN tests/NNS
+dummy/JJ class/NN
+test/VB fs/NNP path/NN
+test/VB build/VB schema/NN
+test/VB table/NN schema/NN type/NN
+test/VB table/NN orient/NN
+test/VB table/NN orient/NN reader/NN
+my/PRP$ reader/NN
+test/VB pandas/NNP container/NN
+binary/JJ thing/NN
+test/VB object/NN
+test/VB json/NNP normalize/VB
+test/VB nested/VBN to/TO record/VB
+test/VB ultra/JJ json/NNP tests/NNS
+o/FW 2/CD
+o/FW 1/CD
+dict/NN test/NN
+test/VB numpy/NNP json/NNP tests/NNS
+test/VB pandas/NNP json/NNP tests/NNS
+invalid/JJ dialect/NN
+base/JJ parser/NN
+c/NNP parser/NN
+c/NNP parser/NN high/JJ memory/NN
+c/NNP parser/NNP low/NNP memory/NNP
+python/NNP parser/NN
+py/NNP arrow/NN parser/NN
+test/VB s/FW 3/CD
+no/DT next/JJ buffer/NN
+test/VB text/NN reader/NN
+test/VB unsupported/JJ features/NNS
+invalid/JJ buffer/NN
+no/DT seek/VB tell/VB buffer/NN
+my/PRP$ text/NN file/NN reader/NN
+my/PRP$ c/NNP parser/NN wrapper/NN
+test/VB is/VBZ na/NNP
+test/VB na/NNP obj/NN
+test/VB lib/NN missing/VBG
+test/VB is/VBZ valid/JJ na/NNP for/IN d/NN type/NN
+test/VB numpy/NNP ead/NNP type/NN
+not/RB tzd/NNP type/NN
+my/PRP$ numeric/JJ d/NN type/NN
+mock/VB numpy/NNP like/IN array/NN
+not/RB list/NN like/IN
+my/PRP$ data/NN frame/NN
+d/NN type/NN list/NN
+dict/NN like/IN
+hashable/JJ class/NN
+unhashable/JJ class/NN 1/CD
+unhashable/JJ class/NN 2/CD
+test/VB inference/NN
+test/VB type/NN inference/NN
+dummy/JJ
+test/VB number/NN scalar/NN
+test/VB is/VBZ scalar/NN
+numeric/NN
+test/VB categorical/JJ d/NN type/NN
+test/VB datetime/NN tzd/NN type/NN
+test/VB period/NN d/NN type/NN
+test/VB interval/NN d/NN type/NN
+test/VB categorical/JJ d/NN type/NN parametrized/VBN
+test/VB abc/NNP classes/NNS
+test/VB data/NNS frame/NN constructors/NNS
+dummy/JJ container/NN
+iter/NN
+custom/JJ dict/NN
+list/NN
+datetime/NN subclass/NN
+test/VB data/NNS frame/NN constructor/NN index/NN inference/NN
+test/VB data/NNS frame/NN constructor/NN with/IN d/NN type/NN coercion/NN
+test/VB data/NNS frame/NN constructor/NN with/IN datetime/NN tz/NNP
+test/VB from/IN scalar/NN
+test/VB allow/VB non/RB na/NNP no/NNP
+test/VB data/NNS frame/NN nonunique/JJ indexes/NNS
+test/VB data/NNS frame/NN subclassing/NN
+custom/JJ series/NN
+custom/JJ data/NNS frame/NN
+my/PRP$ subclass/NN with/IN metadata/NN
+simple/JJ data/NNS frame/NN sub/NN class/NN
+simple/JJ series/NN sub/NN class/NN
+test/VB subclass/NN without/IN constructor/NN
+dummy/JJ element/NN
+test/VB frame/NN comparisons/NNS
+test/VB frame/NN flex/JJ comparisons/NN
+test/VB frame/NN flex/JJ arithmetic/NN
+test/VB frame/NN arithmetic/NN
+test/VB frame/NN arithmetic/NN unsorted/JJ
+test/VB data/NNS frame/NN alter/VB axes/NNS
+test/VB data/NNS frame/NN analytics/NNS
+test/VB data/NNS frame/NN reductions/NNS
+test/VB nuisance/NN columns/NNS
+test/VB empty/JJ data/NNS frame/NN reductions/NNS
+test/VB as/IN array/NN
+test/VB data/NNS frame/NN repr/NN
+test/VB data/NNS frame/NN logical/JJ operators/NNS
+test/VB data/NNS frame/NN validate/VB
+test/VB data/NNS frame/NN reshape/VB
+test/VB stack/VB unstack/VB multi/JJ level/NN
+test/VB data/NNS frame/NN unary/JJ operators/NNS
+test/VB data/NNS frame/NN block/NN internals/NNS
+test/VB compat/NN
+test/VB data/NNS frame/NN eval/NN
+test/VB data/NNS frame/NN query/NN with/IN multi/JJ index/NN
+test/VB data/NNS frame/NN query/NN num/NN expr/NN pandas/NNP
+my/PRP$ dense/JJ
+my/PRP$ dropout/NN
+my/PRP$ model/NN
+activity/NN regularization/NN layer/NN
+custom/JJ callback/NN
+loss/NN and/CC error/NN printing/NN callback/NN
+early/JJ stopping/VBG at/IN min/JJ loss/NN
+custom/JJ learning/NN rate/NN scheduler/NN
+linear/JJ
+compute/VB sum/NN
+mlp/NNP block/NN
+outer/JJ layer/NN
+outer/JJ layer/NN with/IN kernel/NN regularizer/NN
+custom/JJ dropout/NN
+sampling/NN
+encoder/NN
+decoder/NN
+variational/JJ auto/JJ encoder/NN
+custom/JJ model/NN
+my/PRP$ layer/NN
+temporal/JJ split/NN
+custom/JJ embedding/NN
+my/PRP$ activation/NN
+temporal/JJ softmax/NNP
+custom/JJ dense/NNP
+custom/JJ rnn/NNP
+gan/NNP
+custom/JJ mse/NNP
+categorical/JJ true/JJ positives/NNS
+logistic/JJ endpoint/NN
+example/NN py/NNP dataset/NN
+example/NN torch/NNP dataset/NN
+loss/NN history/NN
+keras/NNP export/NN
+example/NN model/NN
+clone/NN model/NN test/NN
+sequential/JJ
+model/NN test/NN
+multi/JJ input/NN model/NN
+nested/JJ layer/NN
+double/JJ nested/JJ layer/NN
+variable/JJ mapping/NN test/NN
+functional/JJ
+sequential/JJ test/NN
+dict/NN layer/NN
+list/NN layer/NN
+dynamic/JJ layer/NN
+bad/JJ layer/NN
+model/NN
+functional/JJ test/NN
+canary/NN
+variable/NN
+name/NN scope/NN
+jax/NNP trainer/NN
+jax/NNP epoch/NN iterator/NN
+jax/NNP layer/NN
+jax/NNP distribution/NN lib/NN test/NN
+sharding/NN capture/NN layer/NN
+jax/NNP optimizer/NN
+device/NN test/NN
+compute/NN output/NN spec/JJ test/NN
+tensor/NN flow/NN trainer/NNP
+deprecated/VBN compiled/VBN metric/NN
+tf/NNP epoch/NN iterator/NN
+tf/NNP layer/NN
+optimizer/NN distribute/VB test/NN
+tf/NNP name/NN scope/NN test/NN
+custom/JJ model/NN x/FW
+custom/JJ signature/NN model/NN
+saved/VBN model/NN test/NN
+custom/JJ layer/NN
+custom/JJ layer/NN list/NN
+custom/JJ layer/NN dict/NN
+adder/NN
+distribute/VB test/NN
+tf/NNP optimizer/NN
+keras/NNP auto/JJ trackable/JJ
+torch/NNP trainer/NN
+torch/NNP epoch/NN iterator/NN
+torch/NNP layer/NN
+custom/JJ gradient/NN
+custom/JJ gradient/NN function/NN
+adam/NNP
+lion/NNP
+torch/NNP optimizer/NN
+adam/NNP w/FW
+nadam/NNP
+rms/NNP prop/NN
+ada/NNP grad/NN
+ada/NNP max/NN
+sgd/NNP
+torch/NNP parallel/JJ optimizer/NN
+ada/NNP delta/NN
+numpy/NNP trainer/NN
+numpy/NNP layer/NN
+keras/NNP variable/NN
+auto/JJ cast/NN scope/NN
+variable/NN initialization/NN test/NN
+variable/NN properties/NNS test/NN
+variable/NN numpy/NNP value/NN and/CC assignment/NN test/NN
+variable/NN d/FW type/NN shape/NN n/FW dim/NN repr/NNP
+variable/NN operations/NNPS test/NN
+variable/NN binary/JJ operations/NNPS test/NN
+test/VB standardize/VB shape/NN with/IN torch/NNP
+test/VB standardize/VB shape/NN with/IN out/RP torch/NNP
+keras/NNP tensor/NN test/NN
+convert/VB conv/NN transpose/NN padding/NN args/NNP jax/NNP test/NN
+convert/VB conv/NN transpose/NN padding/NN args/NNP torch/NNP test/NN
+compute/VB conv/NN transpose/NN padding/NN args/NNP for/IN jax/NNP test/NN
+compute/VB conv/NN transpose/NN padding/NN args/NNP for/IN torch/NNP test/NN
+get/VB output/NN shape/NN given/VBN tf/NNP padding/NN test/NN
+d/FW types/NNS test/NN
+test/VB stateless/JJ scope/NN
+global/JJ state/NN test/NN
+stateless/JJ scope/NN
+name/NN scope/NN test/NN
+keras/NNP tensor/NN
+container/NN
+random/JJ layer/NN
+export/NN archive/NN test/NN
+test/VB tfsm/NNP layer/NN
+export/VB archive/NN
+tfsm/NNP layer/NN
+serializable/JJ dict/NN
+safe/JJ mode/NN scope/NN
+object/NN sharing/NN scope/NN
+disk/NN io/NNP store/NN
+h/FW 5/CD io/NNP store/NN
+h/FW 5/CD entry/NN
+npz/NNP io/NNP store/NN
+custom/JJ object/NN scope/NN
+layer/NN with/IN custom/JJ saving/NN
+model/NN with/IN custom/JJ saving/NN
+compile/VB overriding/JJ model/NN
+compile/VB overriding/JJ sequential/JJ
+subclass/NN functional/JJ
+saving/VBG test/NN
+saving/VBG api/NNP test/NN
+growth/NN factor/NN
+factor/NN layer/NN
+complex/JJ model/NN
+saving/VBG battle/NN test/NN
+normal/JJ model/NN
+weird/JJ model/NN
+save/VB model/NN tests/NNS
+load/VB model/NN tests/NNS
+load/VB weights/NNS tests/NNS
+save/VB model/NN tests/NNS warning/NN
+nested/JJ custom/JJ layer/NN
+wrapper/NN layer/NN
+serialization/NN lib/NN test/NN
+plain/JJ functional/JJ subclass/NN
+functional/JJ subclass/NN w/FW custom/JJ init/NN
+shared/JJ activation/NN
+my/PRP$ wrapper/NN
+test/VB object/NN registration/NN
+custom/JJ class/NN
+test/NN class/NN
+other/JJ test/NN class/NN
+alpha/NN dropout/NN
+random/JJ height/NN
+random/JJ width/NN
+thresholded/VBN re/NNP lu/NNP
+reduction/NN
+timeseries/NNS generator/NN
+iterator/NN
+batch/NN from/IN files/NNS mixin/NN
+directory/NN iterator/NN
+numpy/NNP array/NN iterator/NN
+data/NN frame/NN iterator/NN
+image/NN data/NN generator/NN
+tokenizer/NN
+json/NNP utils/NNS test/NN all/DT backends/NNS
+enum/NN
+json/NNP utils/NNS test/NN tf/NNP
+masked/VBN tensor/NN
+disable/VB shared/VBN object/NN scope/NN
+noop/NN loading/NN scope/NN
+shared/VBN object/NN loading/NN scope/NN
+shared/VBN object/NN config/NN
+shared/VBN object/NN saving/NN scope/NN
+legacy/NN h/FW 5/CD weights/NNS test/NN
+legacy/NN h/FW 5/CD whole/JJ model/NN test/NN
+registered/JJ sub/NN layer/NN
+legacy/NN h/FW 5/CD backwards/NNS compat/NN test/NN
+directory/NN creation/NN test/NN
+re/NNP lu/NNP
+mish/NNP
+activations/NNS test/NN
+loss/NN
+example/NN loss/NN
+loss/NN test/NN
+mean/JJ squared/JJ error/NN test/NN
+mean/JJ absolute/JJ error/NN test/NN
+mean/JJ absolute/JJ percentage/NN error/NN test/NN
+mean/JJ squared/JJ logarithmic/JJ error/NN test/NN
+hinge/NN test/NN
+squared/JJ hinge/NN test/NN
+categorical/JJ hinge/NN test/NN
+cosine/NN similarity/NN test/NN
+huber/NNP loss/NNP test/NN
+log/NN cosh/NN test/NN
+kl/NNP divergence/NN test/NN
+poisson/NN test/NN
+binary/JJ crossentropy/NNP test/NN
+categorical/JJ crossentropy/NNP test/NN
+sparse/JJ categorical/JJ crossentropy/NNP test/NN
+binary/JJ focal/JJ crossentropy/NNP test/NN
+categorical/JJ focal/JJ crossentropy/NNP test/NN
+ctc/NNP test/NN
+dice/NN test/NN
+loss/NN function/NN wrapper/NN
+mean/JJ squared/JJ error/NN
+mean/JJ absolute/JJ error/NN
+mean/JJ absolute/JJ percentage/NN error/NN
+mean/JJ squared/JJ logarithmic/JJ error/NN
+cosine/NN similarity/NN
+huber/NNP
+log/NN cosh/NNP
+hinge/NN
+squared/JJ hinge/NN
+categorical/JJ hinge/NN
+kl/NNP divergence/NN
+poisson/NN
+binary/JJ crossentropy/NNP
+binary/JJ focal/JJ crossentropy/NNP
+categorical/JJ crossentropy/NNP
+categorical/JJ focal/JJ crossentropy/NNP
+sparse/JJ categorical/JJ crossentropy/NNP
+ctc/NNP
+dice/NN
+device/NN mesh/NN
+tensor/NNP layout/NN
+distribution/NN
+data/NNS parallel/NN
+model/NN parallel/NN
+layout/NN map/NN
+multi/JJ process/NN initialize/VBP test/NN
+device/NN mesh/NN test/NN
+tensor/NNP layout/NN test/NN
+distribution/NN test/NN
+data/NNS parallel/JJ distribution/NN test/NN
+model/NN parallel/JJ distribution/NN test/NN
+layout/NN map/NN test/NN
+seed/NN generator/NN test/NN
+random/JJ test/NN
+seed/NN generator/NN
+optimizer/NN test/NN
+ada/NNP max/NN test/NN
+adam/NNP w/FW test/NNP
+ftrl/NNP
+rms/NNP prop/NN test/NN
+scatter/NN update/NN optimizer/NN
+optimizer/NN sparse/JJ test/NN
+ada/NNP delta/NN test/NN
+loss/NN scale/NN optimizer/NN
+loss/NN scale/NN optimizer/NN test/NN
+ftrl/NNP test/NN
+sgd/NNP test/NN
+base/JJ optimizer/NN
+ada/NNP grad/NN test/NN
+ada/NNP factor/NN
+adam/NNP test/NN
+lion/NNP test/NN
+legacy/NN optimizer/NN warning/NN
+optimizer/NN
+ada/NNP factor/NN test/NN
+nadam/NNP test/NN
+learning/NN rate/NN schedule/NN
+exponential/JJ decay/NN
+piecewise/JJ constant/JJ decay/NN
+polynomial/JJ decay/NN
+inverse/JJ time/NN decay/NN
+cosine/NN decay/NN
+cosine/NN decay/NN restarts/NNS
+test/VB fit/NN lr/NNP schedules/NNS flow/NN
+exponential/JJ decay/NN test/NN
+piecewise/JJ constant/JJ decay/NN test/NN
+linear/JJ decay/NN test/NN
+sqrt/NNP decay/NN test/NN
+inverse/JJ time/NN decay/NN test/NN
+cosine/NN decay/NN test/NN
+cosine/NN decay/NN restarts/NNS test/NN
+constraints/NNS test/NN
+constraint/NN
+max/JJ norm/NN
+non/RB neg/NN
+unit/NN norm/NN
+min/JJ max/JJ norm/NN
+regularizers/NNS test/NN
+validate/VB float/NN arg/NN test/NN
+regularizer/NNP
+l/FW 1/CD l/FW 2/CD
+l/FW 1/CD
+l/FW 2/CD
+orthogonal/JJ regularizer/NN
+naming/NN utils/NNPS test/NN
+object/NN without/IN name/NN
+object/NN without/IN name/NN or/CC class/NN
+mock/JJ keras/NNP object/NN
+path/NN to/IN string/NN test/NN
+non/RB string/NN typed/JJ path/NN object/NN
+resolve/VB path/NN test/NN
+is/VBZ path/NN in/IN dir/NN test/NN
+is/VBZ link/NN in/IN dir/NN test/NN
+filter/VB safe/JJ paths/NNS test/NN
+extract/VB archive/NNP test/NN
+get/VB file/NN test/NN
+hash/VB file/NN test/NN
+test/VB validate/VB file/NN
+resolve/VB hasher/NN test/NN
+is/VBZ remote/JJ path/NN test/NN
+test/VB raise/VB if/IN no/DT g/FW file/NN
+text/VB dataset/NN from/IN directory/NN test/NN
+torch/NNP module/NN wrapper/NN
+image/NN dataset/NN from/IN directory/NN test/NN
+flax/NN layer/NN
+timeseries/NNS dataset/NN test/NN
+tree/NN test/NN
+prog/NN bar/NN
+dot/NN not/RB track/VBP scope/NN
+tracker/NN
+tracked/VBN list/NN
+tracked/VBN dict/NN
+tracked/VBN set/NN
+dataset/NN utils/NNS test/NN
+dataset/NN
+classifier/NN
+classifier/NN with/IN no/DT special/JJ casing/NN
+torch/NNP utils/NNS test/NN
+test/VB numerical/JJ utils/NNS
+flax/NN training/NN independent/JJ model/NN
+flax/NN dropout/NN model/NN
+flax/NN batch/NN norm/NN model/NN
+test/VB jax/NNP layer/NN
+test/VB model/NN
+my/PRP$ flax/NN layer/NN
+named/JJ point/NN
+tracking/NN test/NN
+tf/NNP graph/NN scope/NN
+dynamic/JJ backend/NN
+dl/NNP prog/NNS bar/NN
+python/NNP utils/NNS test/NN
+lazy/JJ module/NN
+test/VB random/JJ seed/NN setting/NN
+test/VB io/NNP utils/NNS
+test/VB count/NN loc/NN
+map/VB to/IN none/PRP
+pad/VB sequences/NNS test/NN
+summary/VB utils/NNS test/NN
+d/FW type/NN size/NN tests/NNS
+is/VBZ float/NN tests/NNS
+cast/VB to/IN common/JJ d/FW type/NN
+audio/NN dataset/NN from/IN directory/NN test/NN
+segment/NN sum/NN
+segment/NN max/NN
+top/JJ k/CD
+in/IN top/JJ k/CD
+logsumexp/NNP
+extract/VB sequences/NNS
+fft/NNP
+fft/NNP 2/CD
+rfft/NNP
+irfft/NNP
+stft/NNP
+istft/NNP
+r/NNP sqrt/NNP
+erf/NNP
+erf/NNP inv/NNP
+dummy/JJ layer/NN
+node/NN test/NN
+op/NN with/IN multiple/JJ inputs/NNS
+op/NN with/IN multiple/JJ outputs/NNS
+op/NN with/IN custom/JJ constructor/NN
+operation/NN test/NN
+absolute/JJ
+abs/JJ
+add/VB
+all/DT
+any/DT
+a/DT max/NN
+amin/NNP
+append/VB
+a/DT range/NN
+arccos/NNP
+arc/NNP cosh/NN
+arcsin/NNP
+arc/NNP sinh/NNP
+arctan/NNP
+arctan/NNP 2/CD
+arc/NNP tanh/NNP
+arg/NNP max/JJ
+arg/NNP min/JJ
+arg/NN sort/NN
+array/NN
+average/NN
+bin/JJ count/NN
+broadcast/VB to/IN
+ceil/VB
+clip/VB
+concatenate/VB
+conjugate/VB
+conj/VB
+copy/VB
+cos/NN
+cosh/NN
+count/VB nonzero/JJ
+cross/VB
+cumprod/NNP
+cumsum/NNP
+diag/NN
+diagonal/NN
+diff/NN
+digitize/VB
+dot/VB
+einsum/NNP
+empty/JJ
+equal/JJ
+exp/NN
+expand/VB dims/NNS
+expm/NNP 1/CD
+flip/VB
+floor/VB
+full/JJ
+full/JJ like/JJ
+get/VB item/NN
+greater/JJR
+greater/JJR equal/JJ
+h/FW stack/NN
+identity/NN
+i/PRP mag/VBP
+is/VBZ close/JJ
+is/VBZ finite/JJ
+is/VBZ inf/NNP
+is/VBZ nan/NNP
+less/JJR
+less/JJR equal/JJ
+linspace/NNP
+log/NN
+log10/NNP
+log/NN 1/CD p/FW
+log2/NNP
+log/NN add/VBP exp/NN
+logical/JJ and/CC
+logical/JJ not/RB
+logical/JJ or/CC
+log/VB space/NN
+mat/NN mul/NN
+max/NN
+maximum/NN
+median/NN
+mesh/NN grid/NN
+min/NN
+minimum/NN
+mod/NN
+move/NN axis/NN
+nan/NNP to/IN num/NN
+n/FW dim/NN
+nonzero/NNP
+not/RB equal/JJ
+ones/NN like/CC
+zeros/NNS like/CC
+outer/JJ
+pad/NN
+prod/NN
+quantile/NN
+ravel/VB
+real/JJ
+reciprocal/JJ
+repeat/VB
+reshape/VB
+roll/VB
+round/VB
+sign/VB
+sin/NNP
+sinh/NNP
+size/NN
+sort/VB
+split/VB
+stack/NN
+std/NNP
+swapaxes/NNPS
+take/VB
+take/VB along/IN axis/NN
+tan/NNP
+tanh/NNP
+tensor/NN dot/NN
+tile/VB
+trace/VB
+tri/NNP
+tril/NNP
+triu/NNP
+v/FW dot/NN
+v/FW stack/NN
+where/WRB
+subtract/VB
+multiply/VB
+divide/VB
+divide/VB no/DT nan/NNP
+true/RB divide/VB
+power/NN
+negative/VB
+square/VB
+sqrt/NNP
+squeeze/VB
+transpose/VB
+mean/VB
+var/NNP
+sum/NN
+zeros/NNS
+ones/NNS
+eye/NN
+floor/NN divide/NN
+logical/JJ xor/NNP
+correlate/VB
+function/NN
+nn/NNP ops/NNP dynamic/JJ shape/NN test/NN
+softmax/NNP layer/NN
+nn/NNP ops/NN static/JJ shape/NN test/NN
+nn/NNP ops/NN correctness/NN test/NN
+test/VB logit/NN recovery/NN
+nn/NNP ops/NN d/JJ type/NN test/NN
+linalg/NNP ops/NN dynamic/JJ shape/NN test/NN
+linalg/NNP ops/NN static/JJ shape/NN test/NN
+linalg/NNP ops/NN correctness/NN test/NN
+qr/NNP op/NN test/NN
+scatter/NN
+scatter/NN update/NN
+slice/NN
+slice/NN update/NN
+while/IN loop/NN
+stop/VB gradient/NN
+f/FW ori/NNP loop/NN
+unstack/NNP
+cast/VB
+cond/NNP
+symbolic/JJ arguments/NNS
+math/NN ops/NN dynamic/JJ shape/NN test/NN
+math/NN ops/NN static/JJ shape/NN test/NN
+math/NN ops/NN correctness/NN test/NN
+math/NN d/FW type/NN test/NN
+extract/VB sequences/NNS op/NNP test/NN
+segment/NN sum/NN test/NN
+segment/NN max/NN test/NNP
+top/JJ k/CD test/NN
+in/IN top/JJ k/CD test/NN
+logsumexp/NNP test/NN
+fft/NNP test/NN
+fft/NNP 2/CD test/NN
+rfft/NNP test/NN
+istft/NNP test/NN
+operation/NN utils/NNS test/NN
+numpy/NNP two/CD input/NN ops/NN dynamic/JJ shape/NN test/NN
+numpy/NNP two/CD input/NN ops/NN static/JJ shape/NN test/NN
+numpy/NNP one/CD input/NN ops/NN dynamic/JJ shape/NN test/NN
+numpy/NNP one/CD input/NN ops/NN static/JJ shape/NN test/NN
+numpy/NNP two/CD input/NN ops/NN corretness/NN test/NN
+numpy/NNP one/CD input/NN ops/NN correctness/NN test/NN
+numpy/NN array/NN create/VB ops/NN correctness/NN test/NN
+sparse/JJ test/NN
+numpy/NNP d/FW type/NN test/NN
+relu/NNP
+relu/NNP 6/CD
+sigmoid/NNP
+soft/JJ plus/NN
+soft/JJ sign/NN
+silu/NNP
+log/NN sigmoid/NNP
+leaky/JJ relu/NNP
+hard/JJ sigmoid/NNP
+hard/JJ silu/NNP
+elu/NNP
+selu/NNP
+gelu/NNP
+softmax/NNP
+log/NN softmax/NNP
+max/JJ pool/VB
+average/JJ pool/VB
+conv/NNP
+depthwise/RB conv/NNP
+separable/JJ conv/NNP
+conv/NN transpose/VB
+one/CD hot/JJ
+multi/JJ hot/JJ
+moments/NNS
+batch/NN norm/NNP
+ctc/NNP loss/NN
+normalize/VB
+resize/VB
+affine/JJ transform/NN
+extract/VB patches/NNP
+map/VB coordinates/NNS
+pad/VB images/NNS
+crop/VB images/NNS
+cholesky/NNP
+det/NNP
+eig/NNP
+inv/NNP
+lu/NNP factor/NN
+norm/NN
+qr/NNP
+solve/VB
+solve/VB triangular/JJ
+svd/NNP
+operation/NN
+node/NN
+keras/NNP history/NN
+core/NN ops/NN static/JJ shape/NN test/NN
+core/NN ops/NN correctness/NN test/NN
+example/NN layer/NN
+core/NN ops/NN d/NN type/NN test/NN
+core/NN ops/NN calls/NNS tests/NNS
+image/NN ops/NN dynamic/JJ shape/NN test/NN
+image/NN ops/NN static/JJ shape/NN test/NN
+image/NN ops/NN correctness/NN test/NN
+function/NN test/NN
+symbolic/JJ arguments/NNS test/NN
+random/JJ normal/NN
+truncated/JJ normal/NN
+random/JJ uniform/NN
+variance/NN scaling/NN
+glorot/NNP uniform/NN
+glorot/NNP normal/NN
+lecun/NNP normal/NN
+lecun/NNP uniform/NN
+he/NNP normal/NN
+he/NNP uniform/NN
+orthogonal/JJ initializer/NN
+constant/NN initializers/NNS test/NN
+initializers/NNS test/NN
+initializer/NN
+d/FW type/NN policy/NN test/NN
+float/NN d/FW type/NN policy/NN test/NN
+quantized/JJ d/FW type/NN policy/NN test/NN
+d/FW type/NN policy/NN global/JJ functions/NNS test/NN
+float/NN d/FW type/NN policy/NN edge/NN cases/NNS test/NN
+quantized/JJ d/FW type/NN policy/NN edge/NN cases/NNS test/NN
+d/FW type/NN policy/NN global/JJ functions/NNS edge/NN cases/NNS test/NN
+d/FW type/NN policy/NN
+float/NN d/FW type/NN policy/NN
+quantized/JJ d/FW type/NN policy/NN
+test/NN case/NN
+get/VB test/NN data/NNS test/NN
+class/NN distribution/NN tests/NNS
+named/JJ product/NN test/NN
+mean/JJ metric/NN wrapper/NN
+io/NNP u/FW base/NN
+io/NNP u/FW
+binary/NN io/NNP u/FW
+mean/NN io/NNP u/FW
+one/CD hot/JJ io/NNP u/FW
+one/CD hot/JJ mean/NN io/NNP u/FW
+confusion/NN matrix/NN
+auc/NNP curve/NN
+auc/NNP summation/NN method/NN
+example/NN metric/NN
+metric/NN test/NN
+f/FW beta/NN score/NN
+f/FW 1/CD score/NN
+false/JJ positives/NNS test/NN
+false/JJ negatives/NNS test/NN
+true/JJ negatives/NNS test/NN
+true/JJ positive/JJ test/NN
+precision/NN test/NN
+recall/NN test/NN
+sensitivity/NN at/IN specificity/NN test/NN
+specificity/NN at/IN sensitivity/NN test/NN
+precision/NN at/IN recall/NN test/NN
+recall/VB at/IN precision/NN test/NN
+auc/NNP test/NN
+multi/JJ auc/NNP test/NN
+metric/NN
+root/JJ mean/JJ squared/VBN error/NN test/NN
+log/NN cosh/NN error/NN test/NN
+r/FW 2/CD score/NN test/NN
+accuracy/NN test/NN
+binary/JJ accuracy/NN test/NN
+categorical/JJ accuracy/NN test/NN
+sparse/JJ categorical/JJ accuracy/NN test/NN
+top/JJ k/CD categorical/JJ accuracy/NN test/NN
+sparse/JJ top/JJ k/CD categorical/JJ accuracy/NN test/NN
+f/FW beta/NN score/NN test/NN
+f/FW 1/CD score/NN test/NN
+io/NNP u/FW test/NNP
+binary/NN io/NN u/FW test/NN
+mean/NN io/NNP u/FW test/NN
+one/CD hot/JJ io/NNP u/FW test/NN
+one/CD hot/JJ mean/NN io/NNP u/FW test/NN
+accuracy/NN
+binary/JJ accuracy/NN
+categorical/JJ accuracy/NN
+sparse/JJ categorical/JJ accuracy/NN
+top/JJ k/CD categorical/JJ accuracy/NN
+sparse/JJ top/JJ k/CD categorical/JJ accuracy/NN
+root/JJ mean/JJ squared/JJ error/NN
+log/NN cosh/NN error/NN
+r/FW 2/CD score/NN
+confusion/NN matrix/NN condition/NN count/NN
+false/JJ positives/NNS
+false/JJ negatives/NNS
+true/JJ negatives/NNS
+true/JJ positives/NNS
+precision/NN
+recall/NN
+sensitivity/NN specificity/NN base/NN
+sensitivity/NN at/IN specificity/NN
+specificity/NN at/IN sensitivity/NN
+precision/NN at/IN recall/NN
+recall/NN at/IN precision/NN
+auc/NNP
+sum/NN test/NN
+mean/NN test/NN
+metric/NN wrapper/NN test/NN
+callback/NN
+callback/NN list/NN
+swap/VB ema/NNP weights/NNS test/NN
+prog/NN bar/NN logger/NN
+reduce/VB lr/NNP on/IN plateau/NNP
+reduce/VB lr/NNP on/IN plateau/NNP test/NN
+learning/NN rate/NN scheduler/NN test/NN
+learning/NN rate/NN scheduler/NN
+summary/NN iterator/NN
+summary/NN file/NN
+test/VB tensor/NN board/NN v/NN 2/CD
+layer/NN with/IN summary/NN
+terminate/VB on/IN na/NNP n/NN test/NN
+callback/NN test/NN
+cbk/NNP
+tensor/NN board/NN
+swap/VB ema/NN weights/NNS
+csv/NNP logger/NN
+custom/JJ dialect/NN
+terminate/VB on/IN na/NNP n/NN
+csv/NNP logger/NN test/NN
+history/NN
+lambda/NN callback/NN
+model/NN checkpoint/NN
+lambda/NN callback/NN test/NN
+early/JJ stopping/NN
+remote/JJ monitor/NN
+interrupting/VBG callback/NN
+canary/NNP layer/NN
+backup/VB and/CC restore/VB callback/NN test/NN
+model/NN checkpoint/NN test/NN
+early/JJ stopping/NN test/NN
+dummy/JJ model/NN
+backup/VB and/CC restore/VB
+custom/JJ scale/NN layer/NN
+test/VB image/NN net/NN utils/NNS
+stochastic/JJ depth/NN
+layer/NN scale/NN
+applications/NNS test/NN
+quantizers/NNS test/NN
+quantizer/NN
+abs/JJ max/NN quantizer/NNP
+layer/NN
+call/VB spec/NN
+call/NN context/NN
+input/NN spec/NN
+layer/NN test/NN
+test/NN layer/NN
+some/DT layer/NN
+rng/NNP layer/NN
+rng/NNP list/NN layer/NN
+layer/NN with/IN metric/NN
+nested/JJ layer/NN with/IN metric/NN
+layer/NN with/IN unbuilt/JJ state/NN
+kwargs/NNP layer/NN with/IN unbuilt/JJ state/NN
+activity/NN regularizer/NN
+loss/NN layer/NN
+training/NN layer/NN
+wrapped/JJ training/NN layer/NN
+training/NN layer/NN explicit/JJ
+inner/JJ layer/NN one/CD
+inner/JJ layer/NN two/CD
+inner/JJ layer/NN three/CD
+mixed/JJ precision/NN layer/NN
+basic/JJ masked/VBN layer/NN
+nested/JJ input/NN masked/VBN layer/NN
+positional/JJ inputs/NNS masked/VBN layer/NN
+positional/JJ nested/JJ inputs/NNS masked/VBN layer/NN
+non/RB trainable/JJ weights/NNS layer/NN
+nested/VBN non/RB trainable/JJ weights/NNS layer/NN
+no/DT shape/NN suffix/NN
+non/RB matching/JJ argument/NN
+matching/JJ arguments/NNS
+subset/NN arguments/NNS
+single/JJ argument/NN
+no/DT training/NN specified/VBN
+random/JJ crop/NN
+mel/NNP spectrogram/NN
+resizing/NN
+string/NN lookup/NN test/NN
+index/NN lookup/NN
+null/JJ initializer/NN
+index/NN lookup/NN layer/NN test/NN
+discretization/NN
+random/JJ contrast/NN test/NN
+random/JJ zoom/NN
+hashing/NN test/NN
+hashed/VBN crossing/NN
+hashed/VBN crossing/NN test/NN
+random/JJ flip/NN
+mocked/VBN random/JJ flip/NN
+random/JJ flip/NN test/NN
+feature/NN
+feature/NN space/NN
+random/JJ brightness/NN test/NN
+hashing/NN
+integer/NN lookup/NN test/NN
+center/NN crop/NN
+random/JJ contrast/NN
+text/NN vectorization/NN test/NN
+random/JJ brightness/NN
+random/JJ rotation/NN test/NN
+discretization/NN test/NN
+random/JJ translation/NN
+resizing/VBG test/NN
+feature/NN space/NN test/NN
+rescaling/NN
+rescaling/NN test/NN
+string/NN lookup/NN
+random/JJ zoom/NN test/NN
+center/NN crop/NN test/NN
+normalization/NN
+integer/NN lookup/NN
+category/NN encoding/NN test/NN
+mel/NNP spectrogram/NN test/NN
+random/JJ crop/NN test/NN
+random/JJ rotation/NN
+tf/NNP data/NN layer/NN
+category/NN encoding/NN
+text/NN vectorization/NN
+random/JJ translation/NN test/NN
+normalization/NN test/NN
+max/JJ pooling/NN 1/CD d/FW
+max/JJ pooling/NN 3d/NNP
+average/JJ pooling/NN 3d/NNP
+average/JJ pooling/NN 1/CD d/FW
+global/JJ average/JJ pooling/NN 2/CD d/FW
+base/JJ global/JJ pooling/NN
+global/JJ max/JJ pooling/NN 3d/NNP
+global/JJ average/JJ pooling/JJ basic/JJ test/NN
+global/JJ average/JJ pooling/NN correctness/NN test/NN
+max/JJ pooling/NN basic/JJ test/NN
+max/JJ pooling/NN correctness/NN test/NN
+average/JJ pooling/JJ basic/JJ test/NN
+average/JJ pooling/NN correctness/NN test/NN
+global/JJ max/JJ pooling/NN 2/CD d/FW
+global/JJ average/JJ pooling/NN 3d/NNP
+global/JJ max/JJ pooling/NN 1/CD d/FW
+global/JJ max/JJ pooling/NN basic/JJ test/NN
+global/JJ max/JJ pooling/NN correctness/NN test/NN
+max/JJ pooling/NN 2/CD d/FW
+global/JJ average/JJ pooling/NN 1/CD d/NNP
+base/JJ pooling/NN
+average/JJ pooling/NN 2/CD d/FW
+p/FW re/NNP lu/NNP test/NNP
+re/NNP lu/NNP test/NN
+activation/NN
+p/FW re/NNP lu/NNP
+activation/NN test/NN
+elu/NNP test/NN
+leaky/JJ re/NNP lu/NNP test/NN
+leaky/JJ re/NNP lu/NNP
+elu/NNP
+softmax/NNP test/NN
+time/NN distributed/JJ test/NN
+masked/JJ dense/JJ
+assert/VB num/NN queries/NNS context/NN
+assert/VB template/NN used/JJ context/NN
+assert/VB template/NN not/RB used/JJ context/NN
+database/NN operation/NN forbidden/VBN
+database/NN failure/NN
+simple/JJ test/NN case/NN
+transaction/NN test/NN case/NN
+test/NN data/NN
+check/VB condition/NN
+quiet/JJ wsgi/NNP request/NN handler/NN
+fs/NNP files/NNS handler/NN
+static/JJ files/NNS handler/NN
+media/NN files/NNS handler/NN
+live/JJ server/NN thread/NN
+live/JJ server/NN test/NN case/NN
+serialize/VB mixin/NN
+debug/VB sql/NNP text/NN test/NN result/NN
+pdb/NNP debug/NN result/NN
+dummy/JJ list/NN
+remote/JJ test/NN result/NN
+remote/JJ test/NN runner/NN
+parallel/JJ test/NN suite/NN
+shuffler/NN
+discover/VB runner/NN
+redirect/VB cycle/NN error/NN
+fake/JJ payload/NN
+client/NN handler/NN
+async/JJ client/NN handler/NN
+request/NN factory/NN
+async/JJ request/NN factory/NN
+client/NN mixin/NN
+client/NN
+async/JJ client/NN
+element/NN
+root/NN element/NN
+html/NNP parse/NN error/NN
+parser/NN
+approximate/VB
+context/NN list/NN
+test/NN state/NN
+test/NN context/NN decorator/NN
+override/VB settings/NNS
+modify/VB settings/NNS
+override/VB system/NN checks/NNS
+capture/VB queries/NNS context/NN
+ignore/VB warnings/NNS
+override/VB script/NN prefix/NN
+logging/VBG capture/NN mixin/NN
+isolate/VB apps/NNS
+time/NN keeper/NN
+null/JJ time/NN keeper/NN
+token/NN base/NN
+operator/NN
+literal/JJ
+end/NN token/NN
+if/IN parser/NN
+template/NN does/VBZ not/RB exist/VBP
+template/NN syntax/NN error/NN
+context/NN pop/NN exception/NN
+context/NN dict/NN
+base/NN context/NN
+context/NN
+render/VB context/NN
+request/NN context/NN
+content/NN not/RB rendered/VBN error/NN
+simple/JJ template/NN response/NN
+template/NN response/NN
+token/NN type/NN
+variable/NN does/VBZ not/RB exist/VBP
+origin/NN
+template/NN
+token/NN
+lexer/NN
+debug/VB lexer/NN
+filter/NN expression/NN
+node/NN list/NN
+text/NN node/NN
+variable/NN node/NN
+invalid/JJ template/NN library/NN
+library/NN
+tag/VB helper/NN node/NN
+simple/JJ node/NN
+inclusion/NN node/NN
+engine/NN
+block/NN context/NN
+block/NN node/NN
+extends/VBZ node/NN
+include/VB node/NN
+auto/JJ escape/NN control/NN node/NNP
+comment/NN node/NN
+csrf/NNP token/NN node/NN
+cycle/NN node/NN
+debug/VB node/NN
+filter/NN node/NN
+first/NN of/IN node/NN
+for/IN node/NN
+if/IN changed/VBN node/NN
+if/NN node/NN
+lorem/NNP node/NN
+regroup/VB node/NN
+load/VB node/NN
+now/JJ node/NN
+reset/VB cycle/NN node/NN
+spaceless/JJ node/NN
+template/NN tag/NN node/NN
+url/NNP node/NN
+verbatim/JJ node/NN
+width/NN ratio/NN node/NN
+with/IN node/NN
+template/NN literal/NN
+template/NN if/NN parser/NN
+invalid/JJ template/NN engine/NN error/NN
+engine/NN handler/NN
+template/NN strings/NNS
+base/JJ engine/NN
+jinja/NNP 2/CD
+django/NNP templates/NNS
+loader/NN
+resolver/NN 404/CD
+no/DT reverse/JJ match/NN
+resolver/NN match/NN
+locale/NN regex/NN descriptor/NN
+check/VB url/NNP mixin/NN
+regex/NN pattern/NN
+locale/NN regex/NNP route/NN descriptor/NN
+route/NN pattern/NN
+locale/NN prefix/NN pattern/NN
+url/NNP pattern/NN
+url/NNP resolver/NN
+int/NNP converter/NN
+string/NN converter/NN
+uuid/NNP converter/NN
+slug/NN converter/NN
+path/NN converter/NN
+transaction/NN management/NN error/NN
+atomic/JJ
+error/NN
+interface/NN error/NN
+operational/JJ error/NN
+integrity/NN error/NN
+internal/JJ error/NN
+programming/NN error/NN
+not/RB supported/VBN error/NN
+database/NN error/NN wrapper/NN
+connection/NN handler/NN
+connection/NN router/NN
+index/NN expression/NN
+sq/NNP lite/JJ numeric/JJ mixin/NN
+combinable/JJ
+base/JJ expression/NN
+expression/NN
+combined/JJ expression/NN
+duration/NN expression/NN
+temporal/JJ subtraction/NN
+f/FW
+resolved/VBN outer/JJ ref/NN
+outer/JJ ref/NN
+sliced/JJ
+func/NN
+value/NN
+raw/NN sql/NNP
+star/NN
+database/NN default/NN
+col/NN
+ref/NN
+expression/NN list/NN
+order/VB by/IN list/NN
+expression/NN wrapper/NN
+negated/JJ expression/NN
+when/WRB
+case/NN
+subquery/NN
+exists/VBZ
+order/VB by/IN
+window/NN frame/NN exclusion/NN
+window/NN frame/NN
+row/NN range/NN
+value/NN range/NN
+lookup/NN
+transform/VB
+builtin/JJ lookup/NN
+field/NN get/VBP db/NNP prep/NN value/NN mixin/NN
+field/NN get/VBP db/NN prep/NN value/NN iterable/NN mixin/NN
+postgres/NNP operator/NN lookup/NN
+exact/JJ
+i/PRP exact/VBP
+greater/JJR than/IN
+greater/JJR than/IN or/CC equal/JJ
+less/JJR than/IN
+less/JJR than/IN or/CC equal/JJ
+integer/NN field/NN overflow/NN
+integer/NN field/NN float/NN rounding/NN
+integer/NN field/NN exact/VBP
+integer/NN greater/JJR than/IN
+integer/NN greater/JJR than/IN or/CC equal/JJ
+integer/NN less/JJR than/IN
+integer/NN less/JJR than/IN or/CC equal/JJ
+in/IN
+pattern/NN lookup/NN
+contains/VBZ
+i/PRP contains/VBZ
+starts/VBZ with/IN
+i/PRP starts/VBZ with/IN
+ends/VBZ with/IN
+i/PRP ends/VBZ with/IN
+range/NN
+is/VBZ null/JJ
+regex/NNP
+i/PRP regex/NNP
+year/NN lookup/NN
+year/NN exact/RB
+year/NN gt/NNP
+year/NN gte/NNP
+year/NN lt/NNP
+year/NN lte/NNP
+uuid/NNP text/NN mixin/NN
+uuidi/NNP exact/VBP
+uuid/NNP contains/VBZ
+uuidi/NNP contains/VBZ
+uuid/NNP starts/VBZ with/IN
+uuidi/NNP starts/VBZ with/IN
+uuid/NNP ends/VBZ with/IN
+uuidi/NNP ends/VBZ with/IN
+model/NN signal/NN
+deferred/JJ
+model/NN base/NN
+model/NN state/NN fields/NNS cache/NN descriptor/NN
+model/NN state/NN
+on/IN conflict/NN
+q/FW
+deferred/JJ attribute/NN
+class/NN or/CC instance/NN method/NN
+register/NN lookup/NN mixin/NN
+filtered/JJ relation/NN
+base/JJ manager/NN
+manager/NN
+manager/NN descriptor/NN
+empty/JJ manager/NN
+base/JJ constraint/NN
+check/VB constraint/NN
+deferrable/JJ
+unique/JJ constraint/NN
+protected/JJ error/NN
+restricted/JJ error/NN
+collector/NN
+alters/VBZ data/NN
+aggregate/NN
+avg/NN
+count/NN
+std/NN dev/NN
+variance/NN
+base/JJ iterable/JJ
+model/NN iterable/JJ
+raw/JJ model/NN iterable/JJ
+values/NNS iterable/JJ
+values/NNS list/NN iterable/JJ
+named/VBN values/NNS list/NN iterable/JJ
+flat/JJ values/NNS list/NN iterable/JJ
+query/NN set/NN
+instance/NN check/NN meta/NN
+empty/JJ query/NN set/NN
+raw/JJ query/NN set/NN
+prefetch/NN
+related/JJ populator/NN
+repr/NNP enum/NN
+int/NN enum/NN
+str/NN enum/NN
+choices/NNS type/NN
+choices/NNS
+integer/NN choices/NNS
+text/NN choices/NNS
+position/NN ref/NN
+sql/NNP compiler/NN
+sql/NNP insert/VBP compiler/NNP
+sql/NNP delete/VBP compiler/NN
+sql/NNP update/VBP compiler/NN
+sql/NNP aggregate/VBP compiler/NNP
+delete/VB query/NN
+update/VB query/NN
+insert/VB query/NN
+aggregate/VB query/NN
+multi/JJ join/VB
+join/VB
+base/JJ table/NN
+where/WRB node/NN
+nothing/NN node/NN
+extra/JJ where/WRB
+subquery/NN constraint/NN
+raw/JJ query/NNP
+query/NN
+join/VB promoter/NN
+a/DT cos/NN
+asin/NNP
+a/DT tan/NNP
+a/DT tan/NNP 2/CD
+cot/NN
+degrees/NNS
+ln/NNP
+pi/NNP
+radians/NNPS
+random/NN
+timezone/NN mixin/NN
+extract/VB
+extract/VB year/NN
+extract/VB iso/NNP year/NN
+extract/VB month/NN
+extract/VB day/NN
+extract/VB week/NN
+extract/VB week/NN day/NN
+extract/VB iso/NNP week/NN day/NN
+extract/VB quarter/NN
+extract/VB hour/NN
+extract/VB minute/NN
+extract/VB second/NN
+now/NN
+trunc/VB base/NN
+trunc/VB
+trunc/VB year/NN
+trunc/VB quarter/NN
+trunc/VB month/NN
+trunc/VB week/NN
+trunc/VB day/NN
+trunc/VB date/NN
+trunc/VB time/NN
+trunc/VB hour/NN
+trunc/VB minute/NN
+trunc/VB second/NN
+cume/NN dist/NN
+dense/JJ rank/NN
+first/JJ value/NN
+lag/JJ lead/NN function/NN
+lag/NN
+last/JJ value/NN
+lead/NN
+nth/NN value/NN
+n/FW tile/NN
+percent/NN rank/NN
+rank/NN
+row/NN number/NN
+fix/VB decimal/JJ input/NN mixin/NN
+fix/VB duration/NN input/NN mixin/NN
+numeric/JJ output/NN field/NN mixin/NN
+coalesce/VB
+collate/VB
+greatest/JJS
+json/NNP object/NN
+arg/NN joiner/NN
+least/JJS
+null/JJ if/IN
+my/PRP$ sql/NNP sha/NNP 2/CD mixin/NN
+oracle/NNP hash/NN mixin/NN
+postgre/NNP sql/NNP sha/NNP mixin/NN
+chr/NNP
+concat/NN pair/NN
+concat/NN
+left/NN
+length/NN
+lower/JJR
+l/FW pad/NN
+l/FW trim/NN
+md5/NNP
+ord/NN
+replace/VB
+reverse/NN
+right/NN
+r/FW pad/NN
+r/FW trim/NN
+sha1/NNP
+sha/NNP 224/CD
+sha256/NNP
+sha384/NNP
+sha512/NNP
+str/NN index/NN
+sub/JJ str/NN
+trim/VB
+upper/JJ
+multi/JJ col/NN source/NN
+related/JJ in/IN
+related/JJ lookup/NN mixin/NN
+related/JJ exact/JJ
+related/JJ less/JJR than/IN
+related/JJ greater/JJR than/IN
+related/JJ greater/JJR than/IN or/CC equal/JJ
+related/JJ less/JJR than/IN or/CC equal/JJ
+related/JJ is/VBZ null/JJ
+json/NNP field/NN
+data/NNS contains/VBZ
+contained/VBN by/IN
+has/VBZ key/NN lookup/NN
+has/VBZ key/NN
+has/VBZ keys/NNS
+has/VBZ any/DT keys/NNS
+has/VBZ key/NN or/CC array/NN index/NN
+case/NN insensitive/JJ mixin/NN
+json/NNP exact/VBP
+jsoni/NNP contains/VBZ
+key/NN transform/NN
+key/NN text/NN transform/NN
+key/NN transform/NN text/NN lookup/NN mixin/NN
+key/NN transform/NN is/VBZ null/JJ
+key/NN transform/NN in/IN
+key/NN transform/NN exact/VBP
+key/NN transform/NN i/PRP exact/VBZ
+key/NN transform/NN i/PRP contains/VBZ
+key/NN transform/NN starts/VBZ with/IN
+key/NN transform/NN i/PRP starts/VBZ with/IN
+key/NN transform/NN ends/VBZ with/IN
+key/NN transform/NN i/PRP ends/VBZ with/IN
+key/NN transform/NN regex/NNP
+key/NN transform/NN i/PRP regex/NNP
+key/NN transform/NN numeric/JJ lookup/NN mixin/NN
+key/NN transform/NN lt/NNP
+key/NN transform/NN lte/NNP
+key/NN transform/NN gt/NNP
+key/NN transform/NN gte/NNP
+key/NN transform/NN factory/NN
+order/NN wrt/NNP
+field/NN file/NN
+file/NN descriptor/NN
+file/NN field/NN
+image/NN file/NN descriptor/NN
+image/NN field/NN file/NN
+image/NN field/NN
+field/NN cache/NN mixin/NN
+check/VB field/NN default/JJ mixin/NN
+related/JJ field/NN
+foreign/JJ object/NN
+foreign/JJ key/NN
+one/CD to/IN one/CD field/NN
+many/JJ to/IN many/JJ field/NN
+generated/VBN field/NN
+foreign/JJ object/NN rel/NNP
+many/JJ to/IN one/CD rel/NNP
+one/CD to/IN one/CD rel/NNP
+many/JJ to/IN many/JJ rel/NNP
+not/RB provided/VBN
+field/NN
+boolean/NN field/NN
+char/NN field/NN
+comma/NN separated/VBN integer/NN field/NN
+date/NN time/NN check/NN mixin/NN
+date/NN field/NN
+date/NN time/NN field/NN
+decimal/JJ field/NN
+duration/NN field/NN
+email/NN field/NN
+file/NN path/NN field/NN
+float/NN field/NN
+integer/NN field/NN
+big/JJ integer/NN field/NN
+small/JJ integer/NN field/NN
+ip/NNP address/NN field/NN
+generic/JJ ip/NNP address/NN field/NN
+null/JJ boolean/NN field/NN
+positive/JJ integer/NN rel/NNP db/NNP type/NN mixin/NN
+positive/JJ big/JJ integer/NN field/NN
+positive/JJ integer/NN field/NN
+positive/JJ small/JJ integer/NN field/NN
+slug/NN field/NN
+text/NN field/NN
+time/NN field/NN
+url/NNP field/NN
+binary/JJ field/NN
+uuid/NNP field/NN
+auto/JJ field/NN mixin/NN
+auto/JJ field/NN meta/NN
+auto/JJ field/NN
+big/JJ auto/JJ field/NN
+small/JJ auto/JJ field/NN
+foreign/JJ key/NN deferred/JJ attribute/NN
+forward/JJ many/JJ to/TO one/CD descriptor/NN
+forward/JJ one/CD to/TO one/CD descriptor/NN
+reverse/JJ one/CD to/TO one/CD descriptor/NN
+reverse/JJ many/JJ to/IN one/CD descriptor/NN
+related/JJ manager/NN
+many/JJ to/IN many/JJ descriptor/NN
+many/JJ related/JJ manager/NN
+reference/NN
+table/NN
+table/NN columns/NNS
+columns/NNS
+index/NN name/NN
+index/NN columns/NNS
+foreign/JJ key/NN name/NN
+statement/NN
+expressions/NNS
+cursor/NN wrapper/NN
+cursor/NN debug/VB wrapper/NN
+database/NN creation/NN
+database/NN features/NNS
+flexible/JJ field/NN lookup/NN dict/NN
+database/NN introspection/NN
+list/NN aggregate/NN
+std/NN dev/NN pop/NN
+std/NN dev/NN samp/NN
+var/NN pop/NN
+var/NN samp/NN
+database/NN operations/NNS
+database/NN wrapper/NN
+sq/NNP lite/JJ cursor/NN wrapper/NN
+database/NN client/NN
+database/NN schema/NN editor/NN
+interval/NN to/TO seconds/NNPS
+seconds/NNS to/TO interval/NN
+uninitialized/JJ operators/NNS descriptor/NN
+oracle/NNP param/NN
+variable/JJ wrapper/NN
+format/NN style/NN placeholder/NN cursor/NN
+database/NN validation/NN
+insert/VB var/NN
+oracle/NNP datetime/NN
+bulk/JJ insert/NN mapper/NN
+base/JJ database/NN creation/NN
+base/JJ database/NN features/NNS
+base/JJ database/NN introspection/NN
+base/JJ database/NN operations/NNS
+base/JJ database/NN wrapper/NN
+base/JJ database/NN validation/NN
+base/JJ database/NN client/NN
+base/JJ database/NN schema/NN editor/NN
+dummy/JJ database/NN features/NNS
+base/JJ tz/NNP loader/NN
+specific/JJ tz/NN loader/NN
+django/NNP range/NN dumper/NN
+isolation/NN level/NN
+jsonb/NNP
+cursor/NN mixin/NN
+server/NN binding/NN cursor/NN
+cursor/NN
+server/NN side/NN cursor/NN
+dummy/JJ node/NN
+migration/NN graph/NN
+operation/NN writer/NN
+migration/NN writer/NN
+migration/NN recorder/NN
+migration/NN
+meta/NNP
+ambiguity/NN error/NN
+bad/JJ migration/NN error/NN
+circular/JJ dependency/NN error/NN
+inconsistent/JJ migration/NN history/NN
+invalid/JJ bases/NNS error/NN
+irreversible/JJ error/NN
+node/NN not/RB found/VBN error/NN
+migration/NN schema/NN missing/VBG
+invalid/JJ migration/NN plan/NN
+migration/NN executor/NN
+project/NN state/NN
+app/NN config/NN stub/NN
+state/NN apps/NNS
+migration/NN loader/NN
+migration/NN questioner/NN
+interactive/JJ migration/NN questioner/NN
+non/RB interactive/JJ migration/NN questioner/NN
+operation/NN dependency/NN
+type/NN
+migration/VB autodetector/NNP
+base/JJ serializer/NN
+base/JJ sequence/NN serializer/NN
+base/JJ unordered/JJ sequence/NN serializer/NN
+base/JJ simple/JJ serializer/NN
+choices/NNS serializer/NN
+date/NN time/NN serializer/NN
+datetime/NN datetime/NN serializer/NN
+decimal/JJ serializer/NN
+deconstructable/JJ serializer/NN
+dictionary/NN serializer/NN
+enum/NN serializer/NN
+float/NN serializer/NN
+frozen/JJ set/NN serializer/NN
+function/NN type/NN serializer/NN
+functools/NNS partial/JJ serializer/NN
+iterable/JJ serializer/NN
+model/NN field/NN serializer/NN
+model/NN manager/NN serializer/NN
+operation/NN serializer/NN
+path/NN like/IN serializer/NN
+path/NN serializer/NN
+regex/NNP serializer/NN
+sequence/NN serializer/NN
+set/NN serializer/NN
+settings/NNS reference/NN serializer/NN
+tuple/NN serializer/NN
+type/NN serializer/NN
+uuid/NNP serializer/NN
+serializer/NN
+swappable/JJ tuple/NN
+regex/NNP object/NN
+migration/NN optimizer/NN
+field/NN operation/NN
+add/VB field/NN
+remove/VB field/NN
+alter/VB field/NN
+rename/VB field/NN
+separate/VB database/NN and/CC state/NN
+run/VB sql/NNP
+run/VB python/NNP
+operation/NN category/NN
+model/NN operation/NN
+create/VB model/NN
+delete/VB model/NN
+rename/VB model/NN
+model/NN option/NN operation/NN
+alter/VB model/NN table/NN
+alter/VB model/NN table/NN comment/NN
+alter/VB together/RB option/NN operation/NN
+alter/VB unique/NN together/RB
+alter/VB index/NN together/RB
+alter/VB order/NN with/IN respect/NN to/TO
+alter/VB model/NN options/NNS
+alter/VB model/NN managers/NNS
+index/NN operation/NN
+add/VB index/NN
+remove/VB index/NN
+rename/VB index/NN
+add/VB constraint/NN
+remove/VB constraint/NN
+unordered/JJ object/NN list/NN warning/NN
+invalid/JJ page/NN
+page/NN not/RB an/DT integer/NN
+empty/JJ page/NN
+paginator/NN
+page/NN
+field/NN does/VBZ not/RB exist/VBP
+app/NN registry/NN not/RB ready/JJ
+object/NN does/VBZ not/RB exist/VBP
+multiple/JJ objects/NNS returned/VBN
+suspicious/JJ operation/NN
+suspicious/JJ multipart/JJ form/NN
+suspicious/JJ file/NN operation/NN
+disallowed/VBN host/NN
+disallowed/VBN redirect/NN
+too/RB many/JJ fields/NNS sent/VBN
+too/RB many/JJ files/NNS sent/VBN
+request/VB data/NN too/RB big/JJ
+request/NN aborted/VBN
+bad/JJ request/NN
+permission/NN denied/VBN
+view/NN does/VBZ not/RB exist/VBP
+middleware/NN not/RB used/VBN
+improperly/RB configured/VBN
+field/NN error/NN
+validation/NN error/NN
+empty/JJ result/NN set/NN
+full/JJ result/NN set/NN
+synchronous/JJ only/RB operation/NN
+regex/NNP validator/NN
+url/NNP validator/NN
+email/NN validator/NN
+base/JJ validator/NN
+max/JJ value/NN validator/NN
+min/JJ value/NN validator/NN
+step/NN value/NN validator/NN
+min/JJ length/NN validator/NN
+max/JJ length/NN validator/NN
+decimal/JJ validator/NN
+file/NN extension/NN validator/NN
+prohibit/VB null/JJ characters/NNS validator/NN
+bad/JJ signature/NN
+signature/NN expired/JJ
+json/NNP serializer/NN
+signer/NN
+timestamp/NN signer/NN
+deserializer/NN
+def/VB used/JJ expat/NN parser/NN
+def/VB used/JJ xml/NNP exception/NN
+dtd/NNP forbidden/VBN
+entities/NNS forbidden/VBN
+external/JJ reference/NN forbidden/VBN
+django/NNP json/NNP encoder/NN
+django/NNP safe/JJ dumper/NN
+serializer/NN does/VBZ not/RB exist/VBP
+serialization/NN error/NN
+deserialization/NN error/NN
+m/FW 2/CD m/FW deserialization/NN error/NN
+progress/NN bar/NN
+deserialized/VBN object/NN
+bad/JJ serializer/NN
+bad/JJ header/NN error/NN
+mime/NNP mixin/NN
+safe/JJ mime/NNP message/NN
+safe/JJ mime/NNP text/NN
+safe/JJ mime/NNP multipart/NN
+email/NN message/NN
+email/NN multi/JJ alternatives/NNS
+cached/VBN dns/NNP name/NN
+email/NN backend/NN
+base/JJ email/NN backend/NN
+wsgi/NNP server/NN
+threaded/VBN wsgi/NNP server/NN
+server/NN handler/NN
+wsgi/NNP request/NN handler/NN
+asgi/NNP request/NN
+asgi/NNP handler/NN
+limited/JJ stream/NN
+wsgi/NNP request/NN
+wsgi/NNP handler/NN
+base/JJ handler/NN
+uploaded/VBN file/NN
+temporary/JJ uploaded/VBN file/NN
+in/IN memory/NN uploaded/VBN file/NN
+simple/JJ uploaded/VBN file/NN
+image/NN file/NN
+file/NN
+content/NN file/NN
+temporary/JJ file/NN
+offset/NN
+offset/NN union/NNP
+overlapped/JJ
+file/NN proxy/NN mixin/NN
+upload/VB file/NN exception/NN
+stop/VB upload/NN
+skip/VB file/NN
+stop/VB future/JJ handlers/NNS
+file/NN upload/NN handler/NN
+temporary/JJ file/NN upload/NN handler/NN
+memory/NN file/NN upload/NN handler/NN
+timing/NN mixin/NN
+in/IN memory/NN file/NN node/NN
+in/IN memory/NN dir/NN node/NN
+in/IN memory/NN storage/NN
+invalid/JJ storage/NN error/NN
+storage/NN handler/NN
+storage/NN settings/NNS mixin/NN
+storage/NN
+file/NN system/NN storage/NN
+default/JJ storage/NN
+template/NN command/NN
+command/NN error/NN
+system/NN check/NN error/NN
+command/NN parser/NN
+django/NNP help/NN formatter/NN
+output/NN wrapper/NN
+base/JJ command/NN
+app/NN command/NN
+label/NN command/NN
+management/NN utility/NN
+style/NN
+command/NN
+translatable/JJ file/NN
+build/VB file/NN
+proxy/NN model/NN warning/NN
+single/JJ zip/NNP reader/NN
+tags/NNS
+check/VB registry/NN
+check/VB message/NN
+debug/VB
+info/NN
+warning/NN
+critical/JJ
+cache/NN handler/NN
+dummy/JJ cache/NN
+redis/NNP serializer/NN
+redis/NNP cache/NN client/NN
+redis/NNP cache/NN
+loc/NNP mem/NN cache/NN
+file/NN based/JJ cache/NN
+invalid/JJ cache/NN backend/NN error/NN
+cache/NN key/NN warning/NN
+invalid/JJ cache/NN key/NN
+base/JJ cache/NN
+base/NN database/NN cache/NN
+cache/NN entry/NN
+database/NN cache/NN
+base/JJ mem/NN cached/VBN cache/NN
+py/NNP lib/NN mc/NNP cache/NN
+py/NNP mem/NN cache/NN cache/NN
+static/JJ files/NNS handler/NN mixin/NN
+asgi/NNP static/JJ files/NNS handler/NN
+static/JJ live/JJ server/NN test/NN case/NN
+base/JJ finder/NN
+file/NN system/NN finder/NN
+app/NN directories/NNS finder/NNP
+base/JJ storage/NN finder/NN
+default/JJ storage/NN finder/NN
+static/JJ files/NNS storage/NN
+hashed/VBN files/NNS mixin/NN
+manifest/VB files/NNS mixin/NN
+manifest/VB static/JJ files/NNS storage/NN
+configured/JJ storage/NN
+static/JJ files/NNS config/NN
+flat/JJ page/NN admin/NN
+flatpage/NNP form/NN
+flatpage/NNP fallback/JJ middleware/NN
+flat/JJ pages/NNS config/NN
+flat/JJ page/NN
+flat/JJ page/NN sitemap/NN
+flatpage/NNP node/NN
+minimum/JJ length/NN validator/NN
+user/NN attribute/NN similarity/NN validator/NN
+common/JJ password/NN validator/NN
+numeric/JJ password/NN validator/NN
+base/JJ user/NN manager/NN
+abstract/JJ base/JJ user/NN
+perm/NNP lookup/NN dict/NN
+perm/NNP wrapper/NNP
+password/NN reset/NN token/NN generator/NN
+group/NN admin/NNP
+user/NN admin/NN
+ascii/NNP username/NN validator/NN
+unicode/NNP username/NN validator/NN
+base/JJ password/NN hasher/NN
+pbkdf/NNP 2/CD password/NN hasher/NN
+pbkdf/NNP 2/CD sha1/NNP password/NN hasher/NN
+argon/NN 2/CD password/NN hasher/NN
+b/FW crypt/NN sha256/NNP password/NN hasher/NN
+b/FW crypt/NN password/NN hasher/NN
+s/FW crypt/NN password/NN hasher/NN
+md5/NNP password/NN hasher/NN
+read/NN only/JJ password/NN hash/NN widget/NN
+read/NN only/JJ password/NN hash/NN field/NN
+username/NN field/NN
+set/VB password/NN mixin/NN
+base/JJ user/NN creation/NN form/NN
+user/NN creation/NN form/NN
+user/NN change/NN form/NN
+authentication/NN form/NN
+password/NN reset/NN form/NN
+set/VB password/NN form/NN
+password/NN change/NN form/NN
+admin/NN password/NN change/NN form/NN
+authentication/NN middleware/NN
+remote/JJ user/NN middleware/NN
+persistent/JJ remote/JJ user/NN middleware/NN
+access/NN mixin/NN
+login/NN required/VBN mixin/NN
+permission/NN required/VBN mixin/NN
+user/NN passes/NNS test/NN mixin/NN
+base/JJ backend/NN
+model/NN backend/NN
+allow/VB all/DT users/NNS model/NN backend/NN
+remote/JJ user/NN backend/NN
+allow/VB all/DT users/NNS remote/JJ user/NN backend/NN
+redirect/VB url/NNP mixin/NN
+login/NN view/NN
+logout/NN view/NN
+password/NN context/NN mixin/NN
+password/NN reset/NN view/NN
+password/NN reset/NN done/VBN view/NN
+password/NN reset/NN confirm/VB view/NN
+password/NN reset/NN complete/VB view/NN
+password/NN change/NN view/NN
+password/NN change/NN done/VBN view/NN
+auth/NN config/NN
+permission/NN manager/NN
+permission/NN
+group/NN manager/NN
+group/NN
+user/NN manager/NN
+permissions/NNS mixin/NN
+abstract/JJ user/NN
+user/NN
+anonymous/JJ user/NN
+not/RB running/VBG in/IN tty/NNP exception/NN
+message/NN failure/NN
+messages/NNS test/NN mixin/NN

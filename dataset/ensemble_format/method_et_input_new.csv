@@ -1,0 +1,3728 @@
+,ID,TYPE,DECLARATION,PROJECT,FILE
+0,0,Histogram[][],"newDistributionBlock()
+",hadoop,HadoopLogsAnalyzer.java
+2,2,Histogram,"getDistribution(Histogram[][] block, JobOutcome outcome, LoggedJob.JobType type)
+",hadoop,HadoopLogsAnalyzer.java
+3,3,void,"usage()
+",hadoop,HadoopLogsAnalyzer.java
+4,4,boolean,"pathIsDirectory(Path p) throws IOException
+",hadoop,HadoopLogsAnalyzer.java
+5,5,int,"initializeHadoopLogsAnalyzer(String[] args) throws FileNotFoundException, IOException
+",hadoop,HadoopLogsAnalyzer.java
+6,6,LineReader,"maybeUncompressedPath(Path p) throws FileNotFoundException, IOException
+",hadoop,HadoopLogsAnalyzer.java
+7,7,boolean,"setNextDirectoryInputStream() throws FileNotFoundException, IOException
+",hadoop,HadoopLogsAnalyzer.java
+8,8,String,"readInputLine() throws IOException
+",hadoop,HadoopLogsAnalyzer.java
+9,9,String,"readCountedLine() throws IOException
+",hadoop,HadoopLogsAnalyzer.java
+10,10,void,"unreadCountedLine(String unreadee)
+",hadoop,HadoopLogsAnalyzer.java
+11,11,boolean,"apparentConfFileHeader(String header)
+",hadoop,HadoopLogsAnalyzer.java
+12,12,boolean,"apparentXMLFileStart(String line)
+",hadoop,HadoopLogsAnalyzer.java
+13,13,String>,"readBalancedLine() throws IOException
+",hadoop,HadoopLogsAnalyzer.java
+14,14,void,"incorporateSpread(Histogram taskTimes, Histogram[][] spreadTo, JobOutcome outcome, LoggedJob.JobType jtype)
+",hadoop,HadoopLogsAnalyzer.java
+15,15,void,"canonicalDistributionsEnter(Histogram[][] block, JobOutcome outcome, LoggedJob.JobType type, long value)
+",hadoop,HadoopLogsAnalyzer.java
+16,16,void,"processJobLine(ParsedLine line) throws JsonProcessingException, IOException
+",hadoop,HadoopLogsAnalyzer.java
+17,17,void,"processTaskLine(ParsedLine line)
+",hadoop,HadoopLogsAnalyzer.java
+18,18,Pattern,"counterPattern(String counterName)
+",hadoop,HadoopLogsAnalyzer.java
+19,19,String,"parseCounter(String counterString, String counterName)
+",hadoop,HadoopLogsAnalyzer.java
+20,20,void,"set(long value)
+",hadoop,HadoopLogsAnalyzer.java
+21,21,void,"incorporateCounter(SetField thunk, String counterString, String counterName)
+",hadoop,HadoopLogsAnalyzer.java
+22,22,void,"incorporateCounters(LoggedTaskAttempt attempt2, String counterString)
+",hadoop,HadoopLogsAnalyzer.java
+41,41,ParsedHost,"getAndRecordParsedHost(String hostName)
+",hadoop,HadoopLogsAnalyzer.java
+42,42,void,"processMapAttemptLine(ParsedLine line)
+",hadoop,HadoopLogsAnalyzer.java
+43,43,void,"processReduceAttemptLine(ParsedLine line)
+",hadoop,HadoopLogsAnalyzer.java
+44,44,void,"processParsedLine(ParsedLine line) throws JsonProcessingException, IOException
+",hadoop,HadoopLogsAnalyzer.java
+45,45,void,"printDistributionSet(String title, Histogram[][] distSet)
+",hadoop,HadoopLogsAnalyzer.java
+46,46,void,"printSingleDistributionData(Histogram dist)
+",hadoop,HadoopLogsAnalyzer.java
+47,47,void,"maybeMateJobAndConf() throws IOException
+",hadoop,HadoopLogsAnalyzer.java
+48,48,ArrayList<LoggedDiscreteCDF>,"mapCDFArrayList(Histogram[] data)
+",hadoop,HadoopLogsAnalyzer.java
+49,49,void,"finalizeJob() throws IOException
+",hadoop,HadoopLogsAnalyzer.java
+50,50,int,"run(String[] args) throws IOException
+",hadoop,HadoopLogsAnalyzer.java
+52,52,void,"main(String[] args)
+",hadoop,HadoopLogsAnalyzer.java
+53,53,void,"testConnConfiguratior() throws IOException
+",hadoop,TestURLConnectionFactory.java
+54,54,HttpURLConnection,"configure(HttpURLConnection conn) throws IOException
+",hadoop,TestURLConnectionFactory.java
+56,56,void,"putCounters(Map<String, Long> counters)
+",hadoop,ParsedTaskAttempt.java
+57,57,Long>,"obtainCounters()
+",hadoop,ParsedTaskAttempt.java
+58,58,void,"putDiagnosticInfo(String msg)
+",hadoop,ParsedTaskAttempt.java
+59,59,String,"obtainDiagnosticInfo()
+",hadoop,ParsedTaskAttempt.java
+60,60,void,"putTrackerName(String trackerName)
+",hadoop,ParsedTaskAttempt.java
+61,61,String,"obtainTrackerName()
+",hadoop,ParsedTaskAttempt.java
+62,62,void,"putHttpPort(int port)
+",hadoop,ParsedTaskAttempt.java
+63,63,Integer,"obtainHttpPort()
+",hadoop,ParsedTaskAttempt.java
+64,64,void,"putShufflePort(int port)
+",hadoop,ParsedTaskAttempt.java
+65,65,Integer,"obtainShufflePort()
+",hadoop,ParsedTaskAttempt.java
+66,66,void,"dumpParsedTaskAttempt()
+",hadoop,ParsedTaskAttempt.java
+67,67,LocalResourceProto,"getProto()
+",hadoop,LocalResourcePBImpl.java
+68,68,int,"hashCode()
+",hadoop,LocalResourcePBImpl.java
+69,69,boolean,"equals(Object other)
+",hadoop,LocalResourcePBImpl.java
+70,70,String,"toString()
+",hadoop,LocalResourcePBImpl.java
+71,71,void,"mergeLocalToBuilder()
+",hadoop,LocalResourcePBImpl.java
+72,72,void,"maybeInitBuilder()
+",hadoop,LocalResourcePBImpl.java
+73,73,long,"getSize()
+",hadoop,LocalResourcePBImpl.java
+74,74,void,"setSize(long size)
+",hadoop,LocalResourcePBImpl.java
+75,75,long,"getTimestamp()
+",hadoop,LocalResourcePBImpl.java
+76,76,void,"setTimestamp(long timestamp)
+",hadoop,LocalResourcePBImpl.java
+77,77,LocalResourceType,"getType()
+",hadoop,LocalResourcePBImpl.java
+78,78,void,"setType(LocalResourceType type)
+",hadoop,LocalResourcePBImpl.java
+79,79,URL,"getResource()
+",hadoop,LocalResourcePBImpl.java
+80,80,void,"setResource(URL resource)
+",hadoop,LocalResourcePBImpl.java
+81,81,LocalResourceVisibility,"getVisibility()
+",hadoop,LocalResourcePBImpl.java
+82,82,void,"setVisibility(LocalResourceVisibility visibility)
+",hadoop,LocalResourcePBImpl.java
+83,83,String,"getPattern()
+",hadoop,LocalResourcePBImpl.java
+84,84,void,"setPattern(String pattern)
+",hadoop,LocalResourcePBImpl.java
+85,85,LocalResourceTypeProto,"convertToProtoFormat(LocalResourceType e)
+",hadoop,LocalResourcePBImpl.java
+86,86,LocalResourceType,"convertFromProtoFormat(LocalResourceTypeProto e)
+",hadoop,LocalResourcePBImpl.java
+91,91,String,"getDiagnosticMessage()
+",hadoop,ResourceFailedLocalizationEvent.java
+92,92,String,"joinPaths(String path1, String path2)
+",hadoop,SwiftUtils.java
+93,93,boolean,"isDirectory(FileStatus fileStatus)
+",hadoop,SwiftUtils.java
+94,94,boolean,"isFilePretendingToBeDirectory(FileStatus fileStatus)
+",hadoop,SwiftUtils.java
+95,95,boolean,"isRootDir(SwiftObjectPath swiftObject)
+",hadoop,SwiftUtils.java
+96,96,void,"debug(Log log, String text, Object... args)
+",hadoop,SwiftUtils.java
+97,97,void,"debugEx(Log log, String text, Exception ex)
+",hadoop,SwiftUtils.java
+98,98,void,"trace(Log log, String text, Object... args)
+",hadoop,SwiftUtils.java
+99,99,String,"partitionFilenameFromNumber(int partNumber)
+",hadoop,SwiftUtils.java
+100,100,String,"ls(FileSystem fileSystem, Path path) throws IOException
+",hadoop,SwiftUtils.java
+101,101,String,"fileStatsToString(FileStatus[] stats, String separator)
+",hadoop,SwiftUtils.java
+102,102,void,"validateReadArgs(byte[] buffer, int off, int len)
+",hadoop,SwiftUtils.java
+103,103,void,"testMkDirRmDir() throws Throwable
+",hadoop,AbstractContractMkdirTest.java
+104,104,void,"testMkDirRmRfDir() throws Throwable
+",hadoop,AbstractContractMkdirTest.java
+105,105,void,"testNoMkdirOverFile() throws Throwable
+",hadoop,AbstractContractMkdirTest.java
+106,106,void,"testMkdirOverParentFile() throws Throwable
+",hadoop,AbstractContractMkdirTest.java
+107,107,byte[],"targetToData(HAServiceTarget target)
+",hadoop,ZKFailoverController.java
+108,108,HAServiceTarget,"dataToTarget(byte[] data)
+",hadoop,ZKFailoverController.java
+109,109,void,"loginAsFCUser() throws IOException
+",hadoop,ZKFailoverController.java
+110,110,void,"checkRpcAdminAccess() throws AccessControlException, IOException
+",hadoop,ZKFailoverController.java
+111,111,InetSocketAddress,"getRpcAddressToBindTo()
+",hadoop,ZKFailoverController.java
+112,112,PolicyProvider,"getPolicyProvider()
+",hadoop,ZKFailoverController.java
+113,113,String,"getScopeInsideParentNode()
+",hadoop,ZKFailoverController.java
+114,114,HAServiceTarget,"getLocalTarget()
+",hadoop,ZKFailoverController.java
+117,117,int,"doRun(String[] args) throws HadoopIllegalArgumentException, IOException, InterruptedException
+",hadoop,ZKFailoverController.java
+118,118,void,"badArg(String arg)
+",hadoop,ZKFailoverController.java
+119,119,void,"printUsage()
+",hadoop,ZKFailoverController.java
+120,120,int,"formatZK(boolean force, boolean interactive) throws IOException, InterruptedException
+",hadoop,ZKFailoverController.java
+121,121,boolean,"confirmFormat()
+",hadoop,ZKFailoverController.java
+122,122,void,"initHM()
+",hadoop,ZKFailoverController.java
+123,123,void,"initRPC() throws IOException
+",hadoop,ZKFailoverController.java
+124,124,void,"startRPC() throws IOException
+",hadoop,ZKFailoverController.java
+125,125,void,"initZK() throws HadoopIllegalArgumentException, IOException, KeeperException
+",hadoop,ZKFailoverController.java
+126,126,String,"getParentZnode()
+",hadoop,ZKFailoverController.java
+127,127,void,"mainLoop() throws InterruptedException
+",hadoop,ZKFailoverController.java
+128,128,void,"fatalError(String err)
+",hadoop,ZKFailoverController.java
+129,129,void,"becomeActive() throws ServiceFailedException
+",hadoop,ZKFailoverController.java
+130,130,void,"recordActiveAttempt(ActiveAttemptRecord record)
+",hadoop,ZKFailoverController.java
+131,131,ActiveAttemptRecord,"waitForActiveAttempt(int timeoutMillis) throws InterruptedException
+",hadoop,ZKFailoverController.java
+132,132,StateChangeRequestInfo,"createReqInfo()
+",hadoop,ZKFailoverController.java
+133,133,void,"becomeStandby()
+",hadoop,ZKFailoverController.java
+134,134,void,"fenceOldActive(byte[] data)
+",hadoop,ZKFailoverController.java
+135,135,void,"doFence(HAServiceTarget target)
+",hadoop,ZKFailoverController.java
+136,136,void,"cedeActive(final int millisToCede) throws AccessControlException, ServiceFailedException, IOException
+",hadoop,ZKFailoverController.java
+138,138,void,"doCedeActive(int millisToCede) throws AccessControlException, ServiceFailedException, IOException
+",hadoop,ZKFailoverController.java
+139,139,void,"gracefulFailoverToYou() throws ServiceFailedException, IOException
+",hadoop,ZKFailoverController.java
+141,141,void,"doGracefulFailover() throws ServiceFailedException, IOException, InterruptedException
+",hadoop,ZKFailoverController.java
+142,142,void,"checkEligibleForFailover() throws ServiceFailedException
+",hadoop,ZKFailoverController.java
+143,143,HAServiceTarget,"getCurrentActive() throws IOException, InterruptedException
+",hadoop,ZKFailoverController.java
+144,144,void,"recheckElectability()
+",hadoop,ZKFailoverController.java
+145,145,void,"scheduleRecheck(long whenNanos)
+",hadoop,ZKFailoverController.java
+147,147,void,"verifyChangedServiceState(HAServiceState changedState)
+",hadoop,ZKFailoverController.java
+148,148,State,"getLastHealthState()
+",hadoop,ZKFailoverController.java
+149,149,void,"setLastHealthState(HealthMonitor.State newState)
+",hadoop,ZKFailoverController.java
+150,150,ActiveStandbyElector,"getElectorForTests()
+",hadoop,ZKFailoverController.java
+151,151,ZKFCRpcServer,"getRpcServerForTests()
+",hadoop,ZKFailoverController.java
+154,154,void,"enterNeutralMode()
+",hadoop,ZKFailoverController.java
+155,155,void,"notifyFatalError(String errorMessage)
+",hadoop,ZKFailoverController.java
+158,158,void,"enteredState(HealthMonitor.State newState)
+",hadoop,ZKFailoverController.java
+159,159,void,"reportServiceStatus(HAServiceStatus status)
+",hadoop,ZKFailoverController.java
+160,160,void,"setConf(Configuration conf)
+",hadoop,StaticMapping.java
+162,162,void,"addNodeToRack(String name, String rackId)
+",hadoop,StaticMapping.java
+163,163,List<String>,"resolve(List<String> names)
+",hadoop,StaticMapping.java
+164,164,boolean,"isSingleSwitch()
+",hadoop,StaticMapping.java
+165,165,String>,"getSwitchMap()
+",hadoop,StaticMapping.java
+167,167,void,"resetMap()
+",hadoop,StaticMapping.java
+168,168,void,"reloadCachedMappings()
+",hadoop,StaticMapping.java
+170,170,org.apache.hadoop.mapred.JobID,"fromYarn(JobId id)
+",hadoop,TypeConverter.java
+172,172,JobId,"toYarn(org.apache.hadoop.mapreduce.JobID id)
+",hadoop,TypeConverter.java
+173,173,String,"fromClusterTimeStamp(long clusterTimeStamp)
+",hadoop,TypeConverter.java
+174,174,long,"toClusterTimeStamp(String identifier)
+",hadoop,TypeConverter.java
+198,198,TaskTrackerInfo[],"fromYarnNodes(List<NodeReport> nodes)
+",hadoop,TypeConverter.java
+200,200,JobStatus[],"fromYarnApps(List<ApplicationReport> applications, Configuration conf)
+",hadoop,TypeConverter.java
+202,202,QueueInfo[],"fromYarnQueueInfo(List<org.apache.hadoop.yarn.api.records.QueueInfo> queues, Configuration conf)
+",hadoop,TypeConverter.java
+203,203,QueueAclsInfo[],"fromYarnQueueUserAclsInfo(List<QueueUserACLInfo> userAcls)
+",hadoop,TypeConverter.java
+204,204,RetryPolicy,"getDefaultRetryPolicy(Configuration conf, String retryPolicyEnabledKey, boolean defaultRetryPolicyEnabled, String retryPolicySpecKey, String defaultRetryPolicySpec, final Class<? extends Exception> remoteExceptionToRetry)
+",hadoop,RetryUtils.java
+205,205,RetryAction,"shouldRetry(Exception e, int retries, int failovers, boolean isMethodIdempotent) throws Exception
+",hadoop,RetryUtils.java
+207,207,RetryPolicy,"getMultipleLinearRandomRetry(Configuration conf, String retryPolicyEnabledKey, boolean defaultRetryPolicyEnabled, String retryPolicySpecKey, String defaultRetryPolicySpec)
+",hadoop,RetryUtils.java
+208,208,void,"setUp() throws Exception
+",hadoop,TestSwiftFileSystemLsOperations.java
+209,209,void,"createTestSubdirs() throws IOException
+",hadoop,TestSwiftFileSystemLsOperations.java
+210,210,void,"testListLevelTest() throws Exception
+",hadoop,TestSwiftFileSystemLsOperations.java
+211,211,void,"testListLevelTestHadoop() throws Exception
+",hadoop,TestSwiftFileSystemLsOperations.java
+212,212,void,"testListStatusEmptyDirectory() throws Exception
+",hadoop,TestSwiftFileSystemLsOperations.java
+213,213,void,"testListStatusFile() throws Exception
+",hadoop,TestSwiftFileSystemLsOperations.java
+214,214,void,"testListEmptyRoot() throws Throwable
+",hadoop,TestSwiftFileSystemLsOperations.java
+215,215,void,"testListNonEmptyRoot() throws Throwable
+",hadoop,TestSwiftFileSystemLsOperations.java
+216,216,void,"testListStatusRootDir() throws Throwable
+",hadoop,TestSwiftFileSystemLsOperations.java
+217,217,void,"testListStatusFiltered() throws Throwable
+",hadoop,TestSwiftFileSystemLsOperations.java
+218,218,Object,"getDatum()
+",hadoop,TaskFailedEvent.java
+219,219,void,"setDatum(Object odatum)
+",hadoop,TaskFailedEvent.java
+220,220,TaskID,"getTaskId()
+",hadoop,TaskFailedEvent.java
+221,221,String,"getError()
+",hadoop,TaskFailedEvent.java
+222,222,long,"getFinishTime()
+",hadoop,TaskFailedEvent.java
+223,223,TaskType,"getTaskType()
+",hadoop,TaskFailedEvent.java
+224,224,TaskAttemptID,"getFailedAttemptID()
+",hadoop,TaskFailedEvent.java
+225,225,String,"getTaskStatus()
+",hadoop,TaskFailedEvent.java
+226,226,Counters,"getCounters()
+",hadoop,TaskFailedEvent.java
+227,227,EventType,"getEventType()
+",hadoop,TaskFailedEvent.java
+228,228,String,"getSelectQuery()
+",hadoop,OracleDBRecordReader.java
+229,229,void,"setSessionTimeZone(Configuration conf, Connection conn) throws SQLException
+",hadoop,OracleDBRecordReader.java
+230,230,void,"runCommand(DFSAdmin admin, boolean expectError, String... args) throws Exception
+",hadoop,TestQuota.java
+232,232,void,"testDSQuotaExceededExceptionIsHumanReadable() throws Exception
+",hadoop,TestQuota.java
+233,233,void,"testQuotaCommands() throws Exception
+",hadoop,TestQuota.java
+235,235,void,"testNamespaceCommands() throws Exception
+",hadoop,TestQuota.java
+236,236,void,"testSpaceCommands() throws Exception
+",hadoop,TestQuota.java
+237,237,void,"checkContentSummary(final ContentSummary expected, final ContentSummary computed)
+",hadoop,TestQuota.java
+238,238,void,"testMaxSpaceQuotas() throws Exception
+",hadoop,TestQuota.java
+239,239,void,"testBlockAllocationAdjustsUsageConservatively() throws Exception
+",hadoop,TestQuota.java
+240,240,void,"testMultipleFilesSmallerThanOneBlock() throws Exception
+",hadoop,TestQuota.java
+241,241,RegisterDatanodeResponseProto,"registerDatanode(RpcController controller, RegisterDatanodeRequestProto request) throws ServiceException
+",hadoop,DatanodeProtocolServerSideTranslatorPB.java
+242,242,HeartbeatResponseProto,"sendHeartbeat(RpcController controller, HeartbeatRequestProto request) throws ServiceException
+",hadoop,DatanodeProtocolServerSideTranslatorPB.java
+243,243,BlockReportResponseProto,"blockReport(RpcController controller, BlockReportRequestProto request) throws ServiceException
+",hadoop,DatanodeProtocolServerSideTranslatorPB.java
+244,244,CacheReportResponseProto,"cacheReport(RpcController controller, CacheReportRequestProto request) throws ServiceException
+",hadoop,DatanodeProtocolServerSideTranslatorPB.java
+245,245,BlockReceivedAndDeletedResponseProto,"blockReceivedAndDeleted(RpcController controller, BlockReceivedAndDeletedRequestProto request) throws ServiceException
+",hadoop,DatanodeProtocolServerSideTranslatorPB.java
+246,246,ErrorReportResponseProto,"errorReport(RpcController controller, ErrorReportRequestProto request) throws ServiceException
+",hadoop,DatanodeProtocolServerSideTranslatorPB.java
+247,247,VersionResponseProto,"versionRequest(RpcController controller, VersionRequestProto request) throws ServiceException
+",hadoop,DatanodeProtocolServerSideTranslatorPB.java
+248,248,ReportBadBlocksResponseProto,"reportBadBlocks(RpcController controller, ReportBadBlocksRequestProto request) throws ServiceException
+",hadoop,DatanodeProtocolServerSideTranslatorPB.java
+249,249,CommitBlockSynchronizationResponseProto,"commitBlockSynchronization(RpcController controller, CommitBlockSynchronizationRequestProto request) throws ServiceException
+",hadoop,DatanodeProtocolServerSideTranslatorPB.java
+250,250,void,"logSuccess(String user, String operation, String target)
+",hadoop,HSAuditLogger.java
+251,251,String,"createSuccessLog(String user, String operation, String target)
+",hadoop,HSAuditLogger.java
+252,252,void,"addRemoteIP(StringBuilder b)
+",hadoop,HSAuditLogger.java
+253,253,void,"add(Keys key, String value, StringBuilder b)
+",hadoop,HSAuditLogger.java
+254,254,void,"start(Keys key, String value, StringBuilder b)
+",hadoop,HSAuditLogger.java
+255,255,void,"logFailure(String user, String operation, String perm, String target, String description)
+",hadoop,HSAuditLogger.java
+256,256,String,"createFailureLog(String user, String operation, String perm, String target, String description)
+",hadoop,HSAuditLogger.java
+257,257,void,"getMetrics(MetricsCollector collector, boolean all)
+",hadoop,MetricsSource.java
+258,258,void,"shutdown() throws Exception
+",hadoop,TestAclConfigFlag.java
+259,259,void,"testModifyAclEntries() throws Exception
+",hadoop,TestAclConfigFlag.java
+260,260,void,"testRemoveAclEntries() throws Exception
+",hadoop,TestAclConfigFlag.java
+261,261,void,"testRemoveDefaultAcl() throws Exception
+",hadoop,TestAclConfigFlag.java
+262,262,void,"testRemoveAcl() throws Exception
+",hadoop,TestAclConfigFlag.java
+263,263,void,"testSetAcl() throws Exception
+",hadoop,TestAclConfigFlag.java
+264,264,void,"testGetAclStatus() throws Exception
+",hadoop,TestAclConfigFlag.java
+265,265,void,"testEditLog() throws Exception
+",hadoop,TestAclConfigFlag.java
+266,266,void,"testFsImage() throws Exception
+",hadoop,TestAclConfigFlag.java
+267,267,void,"expectException()
+",hadoop,TestAclConfigFlag.java
+268,268,void,"initCluster(boolean format, boolean aclsEnabled) throws Exception
+",hadoop,TestAclConfigFlag.java
+269,269,void,"restart(boolean checkpoint, boolean aclsEnabled) throws Exception
+",hadoop,TestAclConfigFlag.java
+270,270,Server,"getServer(Class<?> protocol, Object instance, InetSocketAddress addr, Configuration conf, SecretManager<? extends TokenIdentifier> secretManager, int numHandlers, String portRangeConfig)
+",hadoop,RpcServerFactory.java
+271,271,void,"bindTo(Path path, Configuration conf) throws IOException
+",hadoop,ConcatenatedInputFilesDemuxer.java
+272,272,InputStream>,"getNext() throws IOException
+",hadoop,ConcatenatedInputFilesDemuxer.java
+273,273,void,"close() throws IOException
+",hadoop,ConcatenatedInputFilesDemuxer.java
+274,274,int,"read() throws IOException
+",hadoop,ConcatenatedInputFilesDemuxer.java
+278,278,String,"nextFileName() throws IOException
+",hadoop,ConcatenatedInputFilesDemuxer.java
+280,280,void,"serviceInit(Configuration conf) throws Exception
+",hadoop,LeveldbTimelineStore.java
+281,281,void,"serviceStop() throws Exception
+",hadoop,LeveldbTimelineStore.java
+283,283,CountingReentrantLock<K>,"getLock(K key)
+",hadoop,LeveldbTimelineStore.java
+284,284,void,"returnLock(CountingReentrantLock<K> lock)
+",hadoop,LeveldbTimelineStore.java
+285,285,KeyBuilder,"newInstance()
+",hadoop,LeveldbTimelineStore.java
+289,289,byte[],"getBytes() throws IOException
+",hadoop,LeveldbTimelineStore.java
+290,290,byte[],"getBytesForLookup() throws IOException
+",hadoop,LeveldbTimelineStore.java
+291,291,String,"getNextString() throws IOException
+",hadoop,LeveldbTimelineStore.java
+292,292,long,"getNextLong() throws IOException
+",hadoop,LeveldbTimelineStore.java
+293,293,int,"getOffset()
+",hadoop,LeveldbTimelineStore.java
+294,294,TimelineEntity,"getEntity(String entityId, String entityType, EnumSet<Field> fields) throws IOException
+",hadoop,LeveldbTimelineStore.java
+296,296,TimelineEvents,"getEntityTimelines(String entityType, SortedSet<String> entityIds, Long limit, Long windowStart, Long windowEnd, Set<String> eventType) throws IOException
+",hadoop,LeveldbTimelineStore.java
+297,297,int,"compare(byte[] o1, byte[] o2)
+",hadoop,LeveldbTimelineStore.java
+298,298,boolean,"prefixMatches(byte[] prefix, int prefixlen, byte[] b)
+",hadoop,LeveldbTimelineStore.java
+299,299,TimelineEntities,"getEntities(String entityType, Long limit, Long windowStart, Long windowEnd, String fromId, Long fromTs, NameValuePair primaryFilter, Collection<NameValuePair> secondaryFilters, EnumSet<Field> fields) throws IOException
+",hadoop,LeveldbTimelineStore.java
+300,300,TimelineEntities,"getEntityByTime(byte[] base, String entityType, Long limit, Long starttime, Long endtime, String fromId, Long fromTs, Collection<NameValuePair> secondaryFilters, EnumSet<Field> fields) throws IOException
+",hadoop,LeveldbTimelineStore.java
+301,301,void,"put(TimelineEntity entity, TimelinePutResponse response)
+",hadoop,LeveldbTimelineStore.java
+302,302,void,"writePrimaryFilterEntries(WriteBatch writeBatch, Map<String, Set<Object>> primaryFilters, byte[] key, byte[] value) throws IOException
+",hadoop,LeveldbTimelineStore.java
+304,304,byte[],"getStartTime(String entityId, String entityType) throws IOException
+",hadoop,LeveldbTimelineStore.java
+305,305,Long,"getStartTimeLong(String entityId, String entityType) throws IOException
+",hadoop,LeveldbTimelineStore.java
+306,306,StartAndInsertTime,"getAndSetStartTime(String entityId, String entityType, Long startTime, List<TimelineEvent> events) throws IOException
+",hadoop,LeveldbTimelineStore.java
+307,307,StartAndInsertTime,"checkStartTimeInDb(EntityIdentifier entity, Long suggestedStartTime) throws IOException
+",hadoop,LeveldbTimelineStore.java
+308,308,byte[],"createStartTimeLookupKey(String entityId, String entityType) throws IOException
+",hadoop,LeveldbTimelineStore.java
+309,309,byte[],"createEntityMarkerKey(String entityId, String entityType, byte[] revStartTime) throws IOException
+",hadoop,LeveldbTimelineStore.java
+310,310,byte[],"addPrimaryFilterToKey(String primaryFilterName, Object primaryFilterValue, byte[] key) throws IOException
+",hadoop,LeveldbTimelineStore.java
+311,311,byte[],"createEntityEventKey(String entityId, String entityType, byte[] revStartTime, byte[] revEventTimestamp, String eventType) throws IOException
+",hadoop,LeveldbTimelineStore.java
+312,312,TimelineEvent,"getEntityEvent(Set<String> eventTypes, byte[] key, int offset, byte[] value) throws IOException
+",hadoop,LeveldbTimelineStore.java
+313,313,byte[],"createPrimaryFilterKey(String entityId, String entityType, byte[] revStartTime, String name, Object value) throws IOException
+",hadoop,LeveldbTimelineStore.java
+314,314,void,"addPrimaryFilter(TimelineEntity entity, byte[] key, int offset) throws IOException
+",hadoop,LeveldbTimelineStore.java
+315,315,byte[],"createOtherInfoKey(String entityId, String entityType, byte[] revStartTime, String name) throws IOException
+",hadoop,LeveldbTimelineStore.java
+316,316,String,"parseRemainingKey(byte[] b, int offset)
+",hadoop,LeveldbTimelineStore.java
+317,317,byte[],"createRelatedEntityKey(String entityId, String entityType, byte[] revStartTime, String relatedEntityId, String relatedEntityType) throws IOException
+",hadoop,LeveldbTimelineStore.java
+318,318,void,"addRelatedEntity(TimelineEntity entity, byte[] key, int offset) throws IOException
+",hadoop,LeveldbTimelineStore.java
+319,319,byte[],"createReverseRelatedEntityKey(String entityId, String entityType, byte[] revStartTime, String relatedEntityId, String relatedEntityType) throws IOException
+",hadoop,LeveldbTimelineStore.java
+320,320,void,"clearStartTimeCache()
+",hadoop,LeveldbTimelineStore.java
+321,321,int,"getStartTimeReadCacheSize(Configuration conf)
+",hadoop,LeveldbTimelineStore.java
+322,322,int,"getStartTimeWriteCacheSize(Configuration conf)
+",hadoop,LeveldbTimelineStore.java
+323,323,List<String>,"getEntityTypes() throws IOException
+",hadoop,LeveldbTimelineStore.java
+324,324,void,"deleteKeysWithPrefix(WriteBatch writeBatch, byte[] prefix, DBIterator iterator)
+",hadoop,LeveldbTimelineStore.java
+325,325,boolean,"deleteNextEntity(String entityType, byte[] reverseTimestamp, DBIterator iterator, DBIterator pfIterator, boolean seeked) throws IOException
+",hadoop,LeveldbTimelineStore.java
+326,326,void,"discardOldEntities(long timestamp) throws IOException, InterruptedException
+",hadoop,LeveldbTimelineStore.java
+327,327,DBIterator,"getDbIterator(boolean fillCache)
+",hadoop,LeveldbTimelineStore.java
+328,328,Version,"loadVersion() throws IOException
+",hadoop,LeveldbTimelineStore.java
+329,329,void,"storeVersion(Version state) throws IOException
+",hadoop,LeveldbTimelineStore.java
+330,330,void,"dbStoreVersion(Version state) throws IOException
+",hadoop,LeveldbTimelineStore.java
+331,331,Version,"getCurrentVersion()
+",hadoop,LeveldbTimelineStore.java
+332,332,void,"checkVersion() throws IOException
+",hadoop,LeveldbTimelineStore.java
+334,334,ContainerId,"getContainerId()
+",hadoop,ContainerStartData.java
+335,335,void,"setContainerId(ContainerId containerId)
+",hadoop,ContainerStartData.java
+336,336,Resource,"getAllocatedResource()
+",hadoop,ContainerStartData.java
+337,337,void,"setAllocatedResource(Resource resource)
+",hadoop,ContainerStartData.java
+338,338,NodeId,"getAssignedNode()
+",hadoop,ContainerStartData.java
+339,339,void,"setAssignedNode(NodeId nodeId)
+",hadoop,ContainerStartData.java
+340,340,Priority,"getPriority()
+",hadoop,ContainerStartData.java
+341,341,void,"setPriority(Priority priority)
+",hadoop,ContainerStartData.java
+343,343,void,"setStartTime(long startTime)
+",hadoop,ContainerStartData.java
+344,344,Byte,"parse(String str) throws Exception
+",hadoop,ByteParam.java
+345,345,String,"getDomain()
+",hadoop,ByteParam.java
+346,346,void,"testRegisterNodeManagerRequest()
+",hadoop,TestRegisterNodeManagerRequest.java
+347,347,void,"testRegisterNodeManagerRequestWithNullArrays()
+",hadoop,TestRegisterNodeManagerRequest.java
+348,348,void,"init(FilterConfig filterConfig) throws ServletException
+",hadoop,CrossOriginFilter.java
+349,349,void,"doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException
+",hadoop,CrossOriginFilter.java
+350,350,void,"destroy()
+",hadoop,CrossOriginFilter.java
+351,351,void,"doCrossFilter(HttpServletRequest req, HttpServletResponse res)
+",hadoop,CrossOriginFilter.java
+352,352,String,"getAllowedHeadersHeader()
+",hadoop,CrossOriginFilter.java
+353,353,String,"getAllowedMethodsHeader()
+",hadoop,CrossOriginFilter.java
+354,354,void,"initializeAllowedMethods(FilterConfig filterConfig)
+",hadoop,CrossOriginFilter.java
+355,355,void,"initializeAllowedHeaders(FilterConfig filterConfig)
+",hadoop,CrossOriginFilter.java
+356,356,void,"initializeAllowedOrigins(FilterConfig filterConfig)
+",hadoop,CrossOriginFilter.java
+357,357,void,"initializeMaxAge(FilterConfig filterConfig)
+",hadoop,CrossOriginFilter.java
+358,358,String,"encodeHeader(final String header)
+",hadoop,CrossOriginFilter.java
+359,359,boolean,"isCrossOrigin(String origin)
+",hadoop,CrossOriginFilter.java
+360,360,boolean,"isOriginAllowed(String origin)
+",hadoop,CrossOriginFilter.java
+361,361,boolean,"areHeadersAllowed(String accessControlRequestHeaders)
+",hadoop,CrossOriginFilter.java
+362,362,boolean,"isMethodAllowed(String accessControlRequestMethod)
+",hadoop,CrossOriginFilter.java
+364,364,String,"getHost()
+",hadoop,NodeIdPBImpl.java
+365,365,void,"setHost(String host)
+",hadoop,NodeIdPBImpl.java
+366,366,int,"getPort()
+",hadoop,NodeIdPBImpl.java
+367,367,void,"setPort(int port)
+",hadoop,NodeIdPBImpl.java
+368,368,void,"build()
+",hadoop,NodeIdPBImpl.java
+369,369,void,"testReflect(Object value, String schema) throws Exception
+",hadoop,AvroTestUtil.java
+373,373,void,"emitRecord(String contextName, String recordName, OutputRecord outRec) throws IOException
+",hadoop,GangliaContext.java
+374,374,void,"emitMetric(String name, String type, String value) throws IOException
+",hadoop,GangliaContext.java
+375,375,String,"getUnits(String metricName)
+",hadoop,GangliaContext.java
+376,376,int,"getSlope(String metricName)
+",hadoop,GangliaContext.java
+377,377,int,"getTmax(String metricName)
+",hadoop,GangliaContext.java
+378,378,int,"getDmax(String metricName)
+",hadoop,GangliaContext.java
+379,379,void,"xdr_string(String s)
+",hadoop,GangliaContext.java
+380,380,void,"pad()
+",hadoop,GangliaContext.java
+381,381,void,"xdr_int(int i)
+",hadoop,GangliaContext.java
+383,383,void,"tearDown() throws Exception
+",hadoop,TestMRCredentials.java
+384,384,void,"createKeysAsJson(String fileName) throws FileNotFoundException, IOException
+",hadoop,TestMRCredentials.java
+385,385,void,"test() throws IOException
+",hadoop,TestMRCredentials.java
+386,386,void,"transition(RMStateStore store, RMStateStoreEvent event)
+",hadoop,RMStateStore.java
+391,391,Container,"getMasterContainer()
+",hadoop,RMStateStore.java
+392,392,ApplicationAttemptId,"getAttemptId()
+",hadoop,RMStateStore.java
+393,393,Credentials,"getAppAttemptCredentials()
+",hadoop,RMStateStore.java
+394,394,RMAppAttemptState,"getState()
+",hadoop,RMStateStore.java
+395,395,String,"getFinalTrackingUrl()
+",hadoop,RMStateStore.java
+396,396,String,"getDiagnostics()
+",hadoop,RMStateStore.java
+398,398,FinalApplicationStatus,"getFinalApplicationStatus()
+",hadoop,RMStateStore.java
+399,399,int,"getAMContainerExitStatus()
+",hadoop,RMStateStore.java
+400,400,ApplicationId,"getAppId()
+",hadoop,RMStateStore.java
+401,401,long,"getSubmitTime()
+",hadoop,RMStateStore.java
+403,403,int,"getAttemptCount()
+",hadoop,RMStateStore.java
+404,404,ApplicationSubmissionContext,"getApplicationSubmissionContext()
+",hadoop,RMStateStore.java
+405,405,ApplicationAttemptState,"getAttempt(ApplicationAttemptId attemptId)
+",hadoop,RMStateStore.java
+406,406,String,"getUser()
+",hadoop,RMStateStore.java
+410,410,Long>,"getTokenState()
+",hadoop,RMStateStore.java
+411,411,Set<DelegationKey>,"getMasterKeyState()
+",hadoop,RMStateStore.java
+412,412,int,"getDTSequenceNumber()
+",hadoop,RMStateStore.java
+413,413,ApplicationState>,"getApplicationState()
+",hadoop,RMStateStore.java
+414,414,RMDTSecretManagerState,"getRMDTSecretManagerState()
+",hadoop,RMStateStore.java
+415,415,AMRMTokenSecretManagerState,"getAMRMTokenSecretManagerState()
+",hadoop,RMStateStore.java
+416,416,void,"setRMDispatcher(Dispatcher dispatcher)
+",hadoop,RMStateStore.java
+418,418,void,"serviceStart() throws Exception
+",hadoop,RMStateStore.java
+419,419,void,"initInternal(Configuration conf) throws Exception
+",hadoop,RMStateStore.java
+420,420,void,"startInternal() throws Exception
+",hadoop,RMStateStore.java
+422,422,void,"closeInternal() throws Exception
+",hadoop,RMStateStore.java
+427,427,int,"getAndIncrementEpoch() throws Exception
+",hadoop,RMStateStore.java
+428,428,RMState,"loadState() throws Exception
+",hadoop,RMStateStore.java
+429,429,void,"storeNewApplication(RMApp app)
+",hadoop,RMStateStore.java
+430,430,void,"updateApplicationState(ApplicationState appState)
+",hadoop,RMStateStore.java
+431,431,void,"storeApplicationStateInternal(ApplicationId appId, ApplicationStateData appStateData) throws Exception
+",hadoop,RMStateStore.java
+432,432,void,"updateApplicationStateInternal(ApplicationId appId, ApplicationStateData appStateData) throws Exception
+",hadoop,RMStateStore.java
+433,433,void,"storeNewApplicationAttempt(RMAppAttempt appAttempt)
+",hadoop,RMStateStore.java
+434,434,void,"updateApplicationAttemptState(ApplicationAttemptState attemptState)
+",hadoop,RMStateStore.java
+435,435,void,"storeApplicationAttemptStateInternal(ApplicationAttemptId attemptId, ApplicationAttemptStateData attemptStateData) throws Exception
+",hadoop,RMStateStore.java
+436,436,void,"updateApplicationAttemptStateInternal(ApplicationAttemptId attemptId, ApplicationAttemptStateData attemptStateData) throws Exception
+",hadoop,RMStateStore.java
+437,437,void,"storeRMDelegationTokenAndSequenceNumber(RMDelegationTokenIdentifier rmDTIdentifier, Long renewDate, int latestSequenceNumber)
+",hadoop,RMStateStore.java
+438,438,void,"storeRMDelegationTokenAndSequenceNumberState(RMDelegationTokenIdentifier rmDTIdentifier, Long renewDate, int latestSequenceNumber) throws Exception
+",hadoop,RMStateStore.java
+439,439,void,"removeRMDelegationToken(RMDelegationTokenIdentifier rmDTIdentifier, int sequenceNumber)
+",hadoop,RMStateStore.java
+440,440,void,"removeRMDelegationTokenState(RMDelegationTokenIdentifier rmDTIdentifier) throws Exception
+",hadoop,RMStateStore.java
+441,441,void,"updateRMDelegationTokenAndSequenceNumber(RMDelegationTokenIdentifier rmDTIdentifier, Long renewDate, int latestSequenceNumber)
+",hadoop,RMStateStore.java
+442,442,void,"updateRMDelegationTokenAndSequenceNumberInternal(RMDelegationTokenIdentifier rmDTIdentifier, Long renewDate, int latestSequenceNumber) throws Exception
+",hadoop,RMStateStore.java
+443,443,void,"storeRMDTMasterKey(DelegationKey delegationKey)
+",hadoop,RMStateStore.java
+444,444,void,"storeRMDTMasterKeyState(DelegationKey delegationKey) throws Exception
+",hadoop,RMStateStore.java
+445,445,void,"removeRMDTMasterKey(DelegationKey delegationKey)
+",hadoop,RMStateStore.java
+446,446,void,"removeRMDTMasterKeyState(DelegationKey delegationKey) throws Exception
+",hadoop,RMStateStore.java
+447,447,void,"storeOrUpdateAMRMTokenSecretManagerState(AMRMTokenSecretManagerState amrmTokenSecretManagerState, boolean isUpdate)
+",hadoop,RMStateStore.java
+448,448,void,"removeApplication(RMApp app)
+",hadoop,RMStateStore.java
+449,449,void,"removeApplicationStateInternal(ApplicationState appState) throws Exception
+",hadoop,RMStateStore.java
+450,450,Credentials,"getCredentialsFromAppAttempt(RMAppAttempt appAttempt)
+",hadoop,RMStateStore.java
+451,451,void,"handleStoreEvent(RMStateStoreEvent event)
+",hadoop,RMStateStore.java
+452,452,void,"notifyStoreOperationFailed(Exception failureCause)
+",hadoop,RMStateStore.java
+453,453,void,"notifyApplication(RMAppEvent event)
+",hadoop,RMStateStore.java
+454,454,void,"notifyApplicationAttempt(RMAppAttemptEvent event)
+",hadoop,RMStateStore.java
+455,455,void,"handle(RMStateStoreEvent event)
+",hadoop,RMStateStore.java
+456,456,void,"deleteStore() throws Exception
+",hadoop,RMStateStore.java
+457,457,void,"journal(JournalInfo journalInfo, long epoch, long firstTxnId, int numTxns, byte[] records) throws IOException
+",hadoop,JournalProtocol.java
+458,458,void,"startLogSegment(JournalInfo journalInfo, long epoch, long txid) throws IOException
+",hadoop,JournalProtocol.java
+459,459,FenceResponse,"fence(JournalInfo journalInfo, long epoch, String fencerInfo) throws IOException
+",hadoop,JournalProtocol.java
+460,460,void,"testSortedMapWritable()
+",hadoop,TestSortedMapWritable.java
+461,461,void,"testForeignClass()
+",hadoop,TestSortedMapWritable.java
+462,462,void,"testEqualsAndHashCode()
+",hadoop,TestSortedMapWritable.java
+463,463,void,"testPutAll()
+",hadoop,TestSortedMapWritable.java
+464,464,String,"getScheme()
+",hadoop,HarFileSystem.java
+465,465,void,"initializeMetadataCache(Configuration conf)
+",hadoop,HarFileSystem.java
+466,466,void,"initialize(URI name, Configuration conf) throws IOException
+",hadoop,HarFileSystem.java
+467,467,Configuration,"getConf()
+",hadoop,HarFileSystem.java
+468,468,int,"getHarVersion() throws IOException
+",hadoop,HarFileSystem.java
+469,469,Path,"archivePath(Path p)
+",hadoop,HarFileSystem.java
+470,470,URI,"decodeHarURI(URI rawURI, Configuration conf) throws IOException
+",hadoop,HarFileSystem.java
+471,471,String,"decodeString(String str) throws UnsupportedEncodingException
+",hadoop,HarFileSystem.java
+472,472,String,"decodeFileName(String fname) throws UnsupportedEncodingException
+",hadoop,HarFileSystem.java
+473,473,Path,"getWorkingDirectory()
+",hadoop,HarFileSystem.java
+474,474,Path,"getInitialWorkingDirectory()
+",hadoop,HarFileSystem.java
+475,475,FsStatus,"getStatus(Path p) throws IOException
+",hadoop,HarFileSystem.java
+476,476,String,"getHarAuth(URI underLyingUri)
+",hadoop,HarFileSystem.java
+477,477,URI,"getCanonicalUri()
+",hadoop,HarFileSystem.java
+478,478,URI,"canonicalizeUri(URI uri)
+",hadoop,HarFileSystem.java
+479,479,URI,"getUri()
+",hadoop,HarFileSystem.java
+480,480,void,"checkPath(Path path)
+",hadoop,HarFileSystem.java
+481,481,Path,"resolvePath(Path p) throws IOException
+",hadoop,HarFileSystem.java
+482,482,Path,"getPathInHar(Path path)
+",hadoop,HarFileSystem.java
+483,483,Path,"makeRelative(String initial, Path p)
+",hadoop,HarFileSystem.java
+484,484,Path,"makeQualified(Path path)
+",hadoop,HarFileSystem.java
+485,485,BlockLocation[],"fixBlockLocations(BlockLocation[] locations, long start, long len, long fileOffsetInHar)
+",hadoop,HarFileSystem.java
+486,486,BlockLocation[],"getFileBlockLocations(FileStatus file, long start, long len) throws IOException
+",hadoop,HarFileSystem.java
+487,487,int,"getHarHash(Path p)
+",hadoop,HarFileSystem.java
+488,488,void,"fileStatusesInIndex(HarStatus parent, List<FileStatus> statuses) throws IOException
+",hadoop,HarFileSystem.java
+489,489,FileStatus,"toFileStatus(HarStatus h, Map<String, FileStatus> cache) throws IOException
+",hadoop,HarFileSystem.java
+490,490,boolean,"isDir()
+",hadoop,HarFileSystem.java
+491,491,String,"getName()
+",hadoop,HarFileSystem.java
+492,492,String,"getPartName()
+",hadoop,HarFileSystem.java
+493,493,long,"getStartIndex()
+",hadoop,HarFileSystem.java
+494,494,long,"getLength()
+",hadoop,HarFileSystem.java
+495,495,long,"getModificationTime()
+",hadoop,HarFileSystem.java
+496,496,FileStatus,"getFileStatus(Path f) throws IOException
+",hadoop,HarFileSystem.java
+497,497,HarStatus,"getFileHarStatus(Path f) throws IOException
+",hadoop,HarFileSystem.java
+498,498,FileChecksum,"getFileChecksum(Path f, long length)
+",hadoop,HarFileSystem.java
+499,499,FSDataInputStream,"open(Path f, int bufferSize) throws IOException
+",hadoop,HarFileSystem.java
+500,500,FileSystem[],"getChildFileSystems()
+",hadoop,HarFileSystem.java
+501,501,FSDataOutputStream,"create(Path f, FsPermission permission, boolean overwrite, int bufferSize, short replication, long blockSize, Progressable progress) throws IOException
+",hadoop,HarFileSystem.java
+502,502,FSDataOutputStream,"createNonRecursive(Path f, boolean overwrite, int bufferSize, short replication, long blockSize, Progressable progress) throws IOException
+",hadoop,HarFileSystem.java
+503,503,FSDataOutputStream,"append(Path f, int bufferSize, Progressable progress) throws IOException
+",hadoop,HarFileSystem.java
+505,505,boolean,"setReplication(Path src, short replication) throws IOException
+",hadoop,HarFileSystem.java
+506,506,boolean,"rename(Path src, Path dst) throws IOException
+",hadoop,HarFileSystem.java
+508,508,boolean,"delete(Path f, boolean recursive) throws IOException
+",hadoop,HarFileSystem.java
+509,509,FileStatus[],"listStatus(Path f) throws IOException
+",hadoop,HarFileSystem.java
+510,510,Path,"getHomeDirectory()
+",hadoop,HarFileSystem.java
+511,511,void,"setWorkingDirectory(Path newDir)
+",hadoop,HarFileSystem.java
+512,512,boolean,"mkdirs(Path f, FsPermission permission) throws IOException
+",hadoop,HarFileSystem.java
+513,513,void,"copyFromLocalFile(boolean delSrc, boolean overwrite, Path src, Path dst) throws IOException
+",hadoop,HarFileSystem.java
+515,515,void,"copyToLocalFile(boolean delSrc, Path src, Path dst) throws IOException
+",hadoop,HarFileSystem.java
+516,516,Path,"startLocalOutput(Path fsOutputFile, Path tmpLocalFile) throws IOException
+",hadoop,HarFileSystem.java
+517,517,void,"completeLocalOutput(Path fsOutputFile, Path tmpLocalFile) throws IOException
+",hadoop,HarFileSystem.java
+518,518,void,"setOwner(Path p, String username, String groupname) throws IOException
+",hadoop,HarFileSystem.java
+519,519,void,"setTimes(Path p, long mtime, long atime) throws IOException
+",hadoop,HarFileSystem.java
+520,520,void,"setPermission(Path p, FsPermission permission) throws IOException
+",hadoop,HarFileSystem.java
+521,521,int,"available() throws IOException
+",hadoop,HarFileSystem.java
+523,523,void,"mark(int readLimit)
+",hadoop,HarFileSystem.java
+524,524,void,"reset() throws IOException
+",hadoop,HarFileSystem.java
+528,528,long,"skip(long n) throws IOException
+",hadoop,HarFileSystem.java
+529,529,long,"getPos() throws IOException
+",hadoop,HarFileSystem.java
+530,530,void,"seek(final long pos) throws IOException
+",hadoop,HarFileSystem.java
+531,531,void,"validatePosition(final long pos) throws IOException
+",hadoop,HarFileSystem.java
+532,532,boolean,"seekToNewSource(long targetPos) throws IOException
+",hadoop,HarFileSystem.java
+534,534,void,"readFully(long pos, byte[] b, int offset, int length) throws IOException
+",hadoop,HarFileSystem.java
+536,536,void,"setReadahead(Long readahead) throws IOException
+",hadoop,HarFileSystem.java
+537,537,void,"setDropBehind(Boolean dropBehind) throws IOException
+",hadoop,HarFileSystem.java
+538,538,FileStatus,"getPartFileStatus(Path partPath) throws IOException
+",hadoop,HarFileSystem.java
+539,539,long,"getMasterIndexTimestamp()
+",hadoop,HarFileSystem.java
+540,540,long,"getArchiveIndexTimestamp()
+",hadoop,HarFileSystem.java
+541,541,int,"getVersion()
+",hadoop,HarFileSystem.java
+542,542,void,"parseMetaData() throws IOException
+",hadoop,HarFileSystem.java
+543,543,HarMetaData,"getMetadata()
+",hadoop,HarFileSystem.java
+544,544,boolean,"removeEldestEntry(Map.Entry<K, V> eldest)
+",hadoop,HarFileSystem.java
+545,545,FsServerDefaults,"getServerDefaults() throws IOException
+",hadoop,HarFileSystem.java
+547,547,long,"getUsed() throws IOException
+",hadoop,HarFileSystem.java
+548,548,long,"getDefaultBlockSize()
+",hadoop,HarFileSystem.java
+550,550,short,"getDefaultReplication()
+",hadoop,HarFileSystem.java
+552,552,String,"getTestString() throws Exception
+",hadoop,TestUTF8.java
+553,553,void,"testWritable() throws Exception
+",hadoop,TestUTF8.java
+554,554,void,"testGetBytes() throws Exception
+",hadoop,TestUTF8.java
+555,555,void,"testIO() throws Exception
+",hadoop,TestUTF8.java
+556,556,void,"testNullEncoding() throws Exception
+",hadoop,TestUTF8.java
+557,557,void,"testNonBasicMultilingualPlane() throws Exception
+",hadoop,TestUTF8.java
+558,558,void,"testInvalidUTF8() throws Exception
+",hadoop,TestUTF8.java
+559,559,void,"test5ByteUtf8Sequence() throws Exception
+",hadoop,TestUTF8.java
+560,560,void,"testInvalidUTF8Truncated() throws Exception
+",hadoop,TestUTF8.java
+562,562,void,"setProgressable(Progressable reporter)
+",hadoop,BasicTypeSorterBase.java
+563,563,void,"addKeyValue(int recordOffset, int keyLength, int valLength)
+",hadoop,BasicTypeSorterBase.java
+564,564,void,"setInputBuffer(OutputBuffer buffer)
+",hadoop,BasicTypeSorterBase.java
+565,565,long,"getMemoryUtilized()
+",hadoop,BasicTypeSorterBase.java
+566,566,RawKeyValueIterator,"sort()
+",hadoop,BasicTypeSorterBase.java
+568,568,void,"grow()
+",hadoop,BasicTypeSorterBase.java
+570,570,Progress,"getProgress()
+",hadoop,BasicTypeSorterBase.java
+571,571,DataOutputBuffer,"getKey() throws IOException
+",hadoop,BasicTypeSorterBase.java
+572,572,ValueBytes,"getValue() throws IOException
+",hadoop,BasicTypeSorterBase.java
+573,573,boolean,"next() throws IOException
+",hadoop,BasicTypeSorterBase.java
+577,577,void,"writeUncompressedBytes(DataOutputStream outStream) throws IOException
+",hadoop,BasicTypeSorterBase.java
+578,578,void,"writeCompressedBytes(DataOutputStream outStream) throws IllegalArgumentException, IOException
+",hadoop,BasicTypeSorterBase.java
+579,579,String[],"getExecString()
+",hadoop,TestShell.java
+580,580,void,"parseExecResult(BufferedReader lines) throws IOException
+",hadoop,TestShell.java
+581,581,int,"getRunCount()
+",hadoop,TestShell.java
+582,582,void,"testInterval() throws IOException
+",hadoop,TestShell.java
+583,583,void,"assertInString(String string, String search)
+",hadoop,TestShell.java
+584,584,void,"testShellCommandExecutorToString() throws Throwable
+",hadoop,TestShell.java
+585,585,void,"testShellCommandTimeout() throws Throwable
+",hadoop,TestShell.java
+586,586,int,"countTimerThreads()
+",hadoop,TestShell.java
+587,587,void,"testShellCommandTimerLeak() throws Exception
+",hadoop,TestShell.java
+589,589,void,"testLogalyzer() throws Exception
+",hadoop,TestLogalyzer.java
+590,590,void,"checkResult() throws Exception
+",hadoop,TestLogalyzer.java
+591,591,Path,"createLogFile() throws IOException
+",hadoop,TestLogalyzer.java
+593,593,ApplicationId,"getApplicationId()
+",hadoop,MoveApplicationAcrossQueuesRequestPBImpl.java
+594,594,void,"setApplicationId(ApplicationId appId)
+",hadoop,MoveApplicationAcrossQueuesRequestPBImpl.java
+595,595,String,"getTargetQueue()
+",hadoop,MoveApplicationAcrossQueuesRequestPBImpl.java
+596,596,void,"setTargetQueue(String queue)
+",hadoop,MoveApplicationAcrossQueuesRequestPBImpl.java
+598,598,void,"mergeLocalToProto()
+",hadoop,MoveApplicationAcrossQueuesRequestPBImpl.java
+605,605,void,"updateProcessTree()
+",hadoop,TestResourceCalculatorProcessTree.java
+606,606,String,"getProcessTreeDump()
+",hadoop,TestResourceCalculatorProcessTree.java
+607,607,long,"getCumulativeRssmem(int age)
+",hadoop,TestResourceCalculatorProcessTree.java
+608,608,long,"getCumulativeVmem(int age)
+",hadoop,TestResourceCalculatorProcessTree.java
+609,609,long,"getCumulativeCpuTime()
+",hadoop,TestResourceCalculatorProcessTree.java
+610,610,boolean,"checkPidPgrpidForMatch()
+",hadoop,TestResourceCalculatorProcessTree.java
+611,611,void,"testCreateInstance()
+",hadoop,TestResourceCalculatorProcessTree.java
+612,612,void,"testCreatedInstanceConfigured()
+",hadoop,TestResourceCalculatorProcessTree.java
+613,613,Collection,"constructorFailParams()
+",hadoop,TestServerConstructor.java
+614,614,void,"constructorFail()
+",hadoop,TestServerConstructor.java
+615,615,void,"writeVInt(DataOutput out, int n) throws IOException
+",hadoop,Utils.java
+616,616,void,"writeVLong(DataOutput out, long n) throws IOException
+",hadoop,Utils.java
+617,617,int,"readVInt(DataInput in) throws IOException
+",hadoop,Utils.java
+618,618,long,"readVLong(DataInput in) throws IOException
+",hadoop,Utils.java
+619,619,void,"writeString(DataOutput out, String s) throws IOException
+",hadoop,Utils.java
+620,620,String,"readString(DataInput in) throws IOException
+",hadoop,Utils.java
+621,621,void,"write(DataOutput out) throws IOException
+",hadoop,Utils.java
+622,622,int,"getMajor()
+",hadoop,Utils.java
+623,623,int,"getMinor()
+",hadoop,Utils.java
+624,624,int,"size()
+",hadoop,Utils.java
+626,626,boolean,"compatibleWith(Version other)
+",hadoop,Utils.java
+627,627,int,"compareTo(Version that)
+",hadoop,Utils.java
+630,630,int,"lowerBound(List<? extends T> list, T key, Comparator<? super T> cmp)
+",hadoop,Utils.java
+631,631,int,"upperBound(List<? extends T> list, T key, Comparator<? super T> cmp)
+",hadoop,Utils.java
+634,634,void,"testClusterAdmins()
+",hadoop,TestJobAclsManager.java
+635,635,void,"testClusterNoAdmins()
+",hadoop,TestJobAclsManager.java
+636,636,void,"testAclsOff()
+",hadoop,TestJobAclsManager.java
+637,637,void,"testGroups()
+",hadoop,TestJobAclsManager.java
+638,638,void,"setup() throws Exception
+",hadoop,TestEncryptionZones.java
+639,639,void,"teardown()
+",hadoop,TestEncryptionZones.java
+640,640,void,"assertNumZones(final int numZones) throws IOException
+",hadoop,TestEncryptionZones.java
+641,641,void,"assertZonePresent(String keyName, String path) throws IOException
+",hadoop,TestEncryptionZones.java
+642,642,void,"testBasicOperations() throws Exception
+",hadoop,TestEncryptionZones.java
+644,644,void,"testListEncryptionZonesAsNonSuperUser() throws Exception
+",hadoop,TestEncryptionZones.java
+646,646,void,"testGetEZAsNonSuperUser() throws Exception
+",hadoop,TestEncryptionZones.java
+648,648,void,"doRenameEncryptionZone(FSTestWrapper wrapper) throws Exception
+",hadoop,TestEncryptionZones.java
+649,649,void,"testRenameFileSystem() throws Exception
+",hadoop,TestEncryptionZones.java
+650,650,void,"testRenameFileContext() throws Exception
+",hadoop,TestEncryptionZones.java
+651,651,FileEncryptionInfo,"getFileEncryptionInfo(Path path) throws Exception
+",hadoop,TestEncryptionZones.java
+652,652,void,"testReadWrite() throws Exception
+",hadoop,TestEncryptionZones.java
+653,653,void,"testCipherSuiteNegotiation() throws Exception
+",hadoop,TestEncryptionZones.java
+654,654,void,"testCreateEZWithNoProvider() throws Exception
+",hadoop,TestEncryptionZones.java
+655,655,void,"startFileAfterGenerateKey() throws IOException
+",hadoop,TestEncryptionZones.java
+656,656,Void,"call() throws Exception
+",hadoop,TestEncryptionZones.java
+658,658,void,"doFault() throws Exception
+",hadoop,TestEncryptionZones.java
+659,659,void,"doCleanup() throws Exception
+",hadoop,TestEncryptionZones.java
+660,660,void,"testStartFileRetry() throws Exception
+",hadoop,TestEncryptionZones.java
+668,668,LoggedJob,"rawNextJob() throws IOException
+",hadoop,DeskewedJobTraceReader.java
+669,669,LoggedJob,"nextJob() throws IOException, OutOfOrderException
+",hadoop,DeskewedJobTraceReader.java
+670,670,void,"fillSkewBuffer() throws IOException
+",hadoop,DeskewedJobTraceReader.java
+671,671,int,"neededSkewBufferSize()
+",hadoop,DeskewedJobTraceReader.java
+673,673,long,"waitForVerification(int infoPort, FileSystem fs, Path file, int blocksValidated, long newTime, long timeout) throws IOException, TimeoutException
+",hadoop,TestDatanodeBlockScanner.java
+674,674,void,"testDatanodeBlockScanner() throws IOException, TimeoutException
+",hadoop,TestDatanodeBlockScanner.java
+675,675,boolean,"corruptReplica(ExtendedBlock blk, int replica) throws IOException
+",hadoop,TestDatanodeBlockScanner.java
+676,676,void,"testBlockCorruptionPolicy() throws Exception
+",hadoop,TestDatanodeBlockScanner.java
+677,677,void,"testBlockCorruptionRecoveryPolicy1() throws Exception
+",hadoop,TestDatanodeBlockScanner.java
+678,678,void,"testBlockCorruptionRecoveryPolicy2() throws Exception
+",hadoop,TestDatanodeBlockScanner.java
+679,679,void,"blockCorruptionRecoveryPolicy(int numDataNodes, short numReplicas, int numCorruptReplicas) throws Exception
+",hadoop,TestDatanodeBlockScanner.java
+680,680,void,"testTruncatedBlockReport() throws Exception
+",hadoop,TestDatanodeBlockScanner.java
+681,681,boolean,"changeReplicaLength(ExtendedBlock blk, int dnIndex, int lenDelta) throws IOException
+",hadoop,TestDatanodeBlockScanner.java
+682,682,void,"waitForBlockDeleted(ExtendedBlock blk, int dnIndex, long timeout) throws TimeoutException, InterruptedException
+",hadoop,TestDatanodeBlockScanner.java
+683,683,void,"testReplicaInfoParsing() throws Exception
+",hadoop,TestDatanodeBlockScanner.java
+684,684,void,"testReplicaInfoParsingSingle(String subDirPath)
+",hadoop,TestDatanodeBlockScanner.java
+685,685,void,"testDuplicateScans() throws Exception
+",hadoop,TestDatanodeBlockScanner.java
+687,687,EnumSet<E>,"toEnumSet(final Class<E> clazz, final E... values)
+",hadoop,EnumSetParam.java
+689,689,String,"getValueString()
+",hadoop,EnumSetParam.java
+692,692,void,"testDirNoAnnotation() throws Exception
+",hadoop,TestHFSTestCase.java
+693,693,void,"testJettyNoAnnotation() throws Exception
+",hadoop,TestHFSTestCase.java
+694,694,void,"testJettyNoAnnotation2() throws Exception
+",hadoop,TestHFSTestCase.java
+695,695,void,"testHdfsNoAnnotation() throws Exception
+",hadoop,TestHFSTestCase.java
+696,696,void,"testHdfsNoAnnotation2() throws Exception
+",hadoop,TestHFSTestCase.java
+697,697,void,"testDirAnnotation() throws Exception
+",hadoop,TestHFSTestCase.java
+698,698,void,"waitFor()
+",hadoop,TestHFSTestCase.java
+699,699,boolean,"evaluate() throws Exception
+",hadoop,TestHFSTestCase.java
+700,700,void,"waitForTimeOutRatio1()
+",hadoop,TestHFSTestCase.java
+702,702,void,"waitForTimeOutRatio2()
+",hadoop,TestHFSTestCase.java
+704,704,void,"sleepRatio1()
+",hadoop,TestHFSTestCase.java
+705,705,void,"sleepRatio2()
+",hadoop,TestHFSTestCase.java
+706,706,void,"testHadoopFileSystem() throws Exception
+",hadoop,TestHFSTestCase.java
+707,707,void,"doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
+",hadoop,TestHFSTestCase.java
+708,708,void,"testJetty() throws Exception
+",hadoop,TestHFSTestCase.java
+709,709,void,"testException0()
+",hadoop,TestHFSTestCase.java
+710,710,void,"testException1()
+",hadoop,TestHFSTestCase.java
+711,711,void,"validateOptions() throws ParseException
+",hadoop,RPCCallBenchmark.java
+712,712,Options,"buildOptions()
+",hadoop,RPCCallBenchmark.java
+713,713,void,"processOptions(CommandLine line, Options opts) throws ParseException
+",hadoop,RPCCallBenchmark.java
+716,716,Server,"startServer(MyOptions opts) throws IOException
+",hadoop,RPCCallBenchmark.java
+717,717,long,"getTotalCpuTime(Iterable<? extends Thread> threads)
+",hadoop,RPCCallBenchmark.java
+719,719,TestContext,"setupClientTestContext(final MyOptions opts) throws IOException, InterruptedException
+",hadoop,RPCCallBenchmark.java
+721,721,void,"doAnAction() throws Exception
+",hadoop,RPCCallBenchmark.java
+722,722,String,"doEcho(String msg) throws Exception
+",hadoop,RPCCallBenchmark.java
+723,723,RpcServiceWrapper,"createRpcClient(MyOptions opts) throws IOException
+",hadoop,RPCCallBenchmark.java
+730,730,void,"setNameNodeLoggingLevel(Level logLevel)
+",hadoop,NNThroughputBenchmark.java
+731,731,String,"getOpName()
+",hadoop,NNThroughputBenchmark.java
+732,732,void,"parseArguments(List<String> args) throws IOException
+",hadoop,NNThroughputBenchmark.java
+733,733,void,"generateInputs(int[] opsPerThread) throws IOException
+",hadoop,NNThroughputBenchmark.java
+734,734,String,"getExecutionArgument(int daemonId)
+",hadoop,NNThroughputBenchmark.java
+735,735,long,"executeOp(int daemonId, int inputIdx, String arg1) throws IOException
+",hadoop,NNThroughputBenchmark.java
+736,736,void,"printResults()
+",hadoop,NNThroughputBenchmark.java
+737,737,void,"benchmark() throws IOException
+",hadoop,NNThroughputBenchmark.java
+738,738,boolean,"isInPorgress()
+",hadoop,NNThroughputBenchmark.java
+739,739,void,"cleanUp() throws IOException
+",hadoop,NNThroughputBenchmark.java
+740,740,int,"getNumOpsExecuted()
+",hadoop,NNThroughputBenchmark.java
+741,741,long,"getCumulativeTime()
+",hadoop,NNThroughputBenchmark.java
+742,742,long,"getElapsedTime()
+",hadoop,NNThroughputBenchmark.java
+743,743,long,"getAverageTime()
+",hadoop,NNThroughputBenchmark.java
+744,744,double,"getOpsPerSecond()
+",hadoop,NNThroughputBenchmark.java
+745,745,String,"getBaseDir()
+",hadoop,NNThroughputBenchmark.java
+746,746,String,"getClientName(int idx)
+",hadoop,NNThroughputBenchmark.java
+747,747,void,"incrementStats(int ops, long time)
+",hadoop,NNThroughputBenchmark.java
+748,748,boolean,"verifyOpArgument(List<String> args)
+",hadoop,NNThroughputBenchmark.java
+749,749,void,"printStats()
+",hadoop,NNThroughputBenchmark.java
+752,752,void,"benchmarkOne() throws IOException
+",hadoop,NNThroughputBenchmark.java
+753,753,boolean,"isInProgress()
+",hadoop,NNThroughputBenchmark.java
+754,754,void,"terminate()
+",hadoop,NNThroughputBenchmark.java
+764,764,void,"dummyActionNoSynch(int daemonId, int fileIdx)
+",hadoop,NNThroughputBenchmark.java
+785,785,int,"getNodePort(int num) throws IOException
+",hadoop,NNThroughputBenchmark.java
+787,787,String,"getXferAddr()
+",hadoop,NNThroughputBenchmark.java
+788,788,void,"register() throws IOException
+",hadoop,NNThroughputBenchmark.java
+790,790,boolean,"addBlock(Block blk)
+",hadoop,NNThroughputBenchmark.java
+791,791,void,"formBlockReport()
+",hadoop,NNThroughputBenchmark.java
+792,792,long[],"getBlockReportList()
+",hadoop,NNThroughputBenchmark.java
+794,794,int,"replicateBlocks() throws IOException
+",hadoop,NNThroughputBenchmark.java
+795,795,int,"transferBlocks(Block[] blocks, DatanodeInfo[][] xferTargets, String[][] targetStorageIDs) throws IOException
+",hadoop,NNThroughputBenchmark.java
+796,796,int,"getNumDatanodes()
+",hadoop,NNThroughputBenchmark.java
+800,800,ExtendedBlock,"addBlocks(String fileName, String clientName) throws IOException
+",hadoop,NNThroughputBenchmark.java
+807,807,void,"decommissionNodes() throws IOException
+",hadoop,NNThroughputBenchmark.java
+811,811,double,"getBlocksPerSecond()
+",hadoop,NNThroughputBenchmark.java
+813,813,void,"runBenchmark(Configuration conf, List<String> args) throws Exception
+",hadoop,NNThroughputBenchmark.java
+820,820,String,"getExpectedOwner() throws Exception
+",hadoop,TestBlobMetadata.java
+821,821,String,"getExpectedPermissionString(String permissionString) throws Exception
+",hadoop,TestBlobMetadata.java
+822,822,void,"testContainerVersionMetadata() throws Exception
+",hadoop,TestBlobMetadata.java
+823,823,NativeAzureFileSystem,"getFs()
+",hadoop,TestBlobMetadata.java
+824,824,String>,"getContainerMetadata()
+",hadoop,TestBlobMetadata.java
+828,828,void,"testPreExistingContainerVersionMetadata() throws Exception
+",hadoop,TestBlobMetadata.java
+829,829,void,"testFirstContainerVersionMetadata() throws Exception
+",hadoop,TestBlobMetadata.java
+830,830,void,"testPermissionMetadata() throws Exception
+",hadoop,TestBlobMetadata.java
+831,831,void,"testOldPermissionMetadata() throws Exception
+",hadoop,TestBlobMetadata.java
+832,832,void,"testFolderMetadata() throws Exception
+",hadoop,TestBlobMetadata.java
+833,833,void,"checkBlockLocation(final BlockLocation loc) throws Exception
+",hadoop,TestBlockLocation.java
+836,836,void,"testBlockLocationConstructors() throws Exception
+",hadoop,TestBlockLocation.java
+837,837,void,"testBlockLocationSetters() throws Exception
+",hadoop,TestBlockLocation.java
+838,838,Object,"get()
+",hadoop,ObjectWritable.java
+839,839,Class,"getDeclaredClass()
+",hadoop,ObjectWritable.java
+842,842,void,"readFields(DataInput in) throws IOException
+",hadoop,ObjectWritable.java
+846,846,void,"writeObject(DataOutput out, Object instance, Class declaredClass, Configuration conf) throws IOException
+",hadoop,ObjectWritable.java
+848,848,Object,"readObject(DataInput in, Configuration conf) throws IOException
+",hadoop,ObjectWritable.java
+850,850,Message,"tryInstantiateProtobuf(Class<?> protoClass, DataInput dataIn) throws IOException
+",hadoop,ObjectWritable.java
+851,851,Method,"getStaticProtobufMethod(Class<?> declaredClass, String method, Class<?>... args)
+",hadoop,ObjectWritable.java
+852,852,Class<?>,"loadClass(Configuration conf, String className)
+",hadoop,ObjectWritable.java
+857,857,void,"map(WritableComparable key, Writable value, OutputCollector<WritableComparable, IntWritable> output, Reporter reporter) throws IOException
+",hadoop,ExternalMapReduce.java
+858,858,void,"reduce(WritableComparable key, Iterator<Writable> values, OutputCollector<WritableComparable, IntWritable> output, Reporter reporter) throws IOException
+",hadoop,ExternalMapReduce.java
+861,861,void,"testDefaultOffsets()
+",hadoop,TestBinaryPartitioner.java
+862,862,void,"testCustomOffsets()
+",hadoop,TestBinaryPartitioner.java
+863,863,void,"testLowerBound()
+",hadoop,TestBinaryPartitioner.java
+864,864,void,"testUpperBound()
+",hadoop,TestBinaryPartitioner.java
+866,866,void,"flush() throws IOException
+",hadoop,EventWriter.java
+868,868,JhCounters,"toAvro(Counters counters)
+",hadoop,EventWriter.java
+870,870,void,"testFs() throws Exception
+",hadoop,TestFileSystem.java
+872,872,void,"testCommandFormat() throws Exception
+",hadoop,TestFileSystem.java
+873,873,void,"createControlFile(FileSystem fs, long megaBytes, int numFiles, long seed) throws Exception
+",hadoop,TestFileSystem.java
+877,877,void,"writeTest(FileSystem fs, boolean fastCheck) throws Exception
+",hadoop,TestFileSystem.java
+881,881,void,"readTest(FileSystem fs, boolean fastCheck) throws Exception
+",hadoop,TestFileSystem.java
+885,885,void,"seekTest(FileSystem fs, boolean fastCheck) throws Exception
+",hadoop,TestFileSystem.java
+887,887,void,"testFsCache() throws Exception
+",hadoop,TestFileSystem.java
+889,889,void,"runTestCache(int port) throws Exception
+",hadoop,TestFileSystem.java
+891,891,void,"testFsClose() throws Exception
+",hadoop,TestFileSystem.java
+892,892,void,"testFsShutdownHook() throws Exception
+",hadoop,TestFileSystem.java
+893,893,void,"testCacheKeysAreCaseInsensitive() throws Exception
+",hadoop,TestFileSystem.java
+894,894,void,"testFsUniqueness(long megaBytes, int numFiles, long seed) throws Exception
+",hadoop,TestFileSystem.java
+895,895,void,"setClosedSet(Set<FileSystem> closedSet)
+",hadoop,TestFileSystem.java
+903,903,boolean,"hasNext() throws IOException
+",hadoop,BackupStore.java
+905,905,DataInputBuffer,"nextValue()
+",hadoop,BackupStore.java
+906,906,DataInputBuffer,"nextKey()
+",hadoop,BackupStore.java
+907,907,void,"reinitialize() throws IOException
+",hadoop,BackupStore.java
+908,908,void,"exitResetMode() throws IOException
+",hadoop,BackupStore.java
+909,909,DataOutputStream,"getOutputStream(int length) throws IOException
+",hadoop,BackupStore.java
+910,910,void,"updateCounters(int length)
+",hadoop,BackupStore.java
+911,911,void,"clearMark() throws IOException
+",hadoop,BackupStore.java
+912,912,void,"clearSegmentList() throws IOException
+",hadoop,BackupStore.java
+913,913,void,"unreserve(long len)
+",hadoop,BackupStore.java
+915,915,int,"createNewMemoryBlock(int requestedSize, int minSize)
+",hadoop,BackupStore.java
+916,916,boolean,"reserveSpace(int length) throws IOException
+",hadoop,BackupStore.java
+919,919,void,"createInMemorySegment() throws IOException
+",hadoop,BackupStore.java
+922,922,void,"activate() throws IOException
+",hadoop,BackupStore.java
+923,923,void,"createInDiskSegment() throws IOException
+",hadoop,BackupStore.java
+924,924,boolean,"isActive()
+",hadoop,BackupStore.java
+925,925,V>,"createSpillFile() throws IOException
+",hadoop,BackupStore.java
+926,926,boolean,"reserve(int requestedSize, InputStream in)
+",hadoop,BackupStore.java
+932,932,void,"testCompressorPoolCounts()
+",hadoop,TestCodecPool.java
+933,933,void,"testDecompressorPoolCounts()
+",hadoop,TestCodecPool.java
+934,934,void,"preHead(Page.HTML<_> html)
+",hadoop,ContainerLogsPage.java
+935,935,SubView>,"content()
+",hadoop,ContainerLogsPage.java
+936,936,void,"render(Block html)
+",hadoop,ContainerLogsPage.java
+937,937,void,"printLogFile(Block html, File logFile)
+",hadoop,ContainerLogsPage.java
+938,938,void,"printLogFileDirectory(Block html, List<File> containerLogsDirs)
+",hadoop,ContainerLogsPage.java
+939,939,void,"clusterSetupAtBegining() throws IOException, LoginException, URISyntaxException
+",hadoop,TestViewFsFileStatusHdfs.java
+940,940,void,"testFileStatusSerialziation() throws IOException, URISyntaxException
+",hadoop,TestViewFsFileStatusHdfs.java
+941,941,void,"testGetFileChecksum() throws IOException, URISyntaxException
+",hadoop,TestViewFsFileStatusHdfs.java
+942,942,void,"cleanup() throws IOException
+",hadoop,TestViewFsFileStatusHdfs.java
+948,948,InputStream,"getInputStream(int bufferSize, byte[] key, byte[] iv) throws IOException
+",hadoop,TestCryptoStreams.java
+954,954,void,"hflush() throws IOException
+",hadoop,TestCryptoStreams.java
+955,955,void,"hsync() throws IOException
+",hadoop,TestCryptoStreams.java
+956,956,void,"checkStream() throws IOException
+",hadoop,TestCryptoStreams.java
+969,969,void,"releaseBuffer(ByteBuffer buffer)
+",hadoop,TestCryptoStreams.java
+972,972,FileDescriptor,"getFileDescriptor() throws IOException
+",hadoop,TestCryptoStreams.java
+976,976,DatanodeStorageInfo,"chooseLocalStorage(Node localMachine, Set<Node> excludedNodes, long blocksize, int maxNodesPerRack, List<DatanodeStorageInfo> results, boolean avoidStaleNodes, StorageType storageType, boolean fallbackToLocalRack) throws NotEnoughReplicasException
+",hadoop,BlockPlacementPolicyWithNodeGroup.java
+977,977,DatanodeDescriptor,"secondNode(Node localMachine, List<DatanodeStorageInfo> results)
+",hadoop,BlockPlacementPolicyWithNodeGroup.java
+978,978,DatanodeStorageInfo,"chooseLocalRack(Node localMachine, Set<Node> excludedNodes, long blocksize, int maxNodesPerRack, List<DatanodeStorageInfo> results, boolean avoidStaleNodes, StorageType storageType) throws NotEnoughReplicasException
+",hadoop,BlockPlacementPolicyWithNodeGroup.java
+979,979,void,"chooseRemoteRack(int numOfReplicas, DatanodeDescriptor localMachine, Set<Node> excludedNodes, long blocksize, int maxReplicasPerRack, List<DatanodeStorageInfo> results, boolean avoidStaleNodes, StorageType storageType) throws NotEnoughReplicasException
+",hadoop,BlockPlacementPolicyWithNodeGroup.java
+980,980,DatanodeStorageInfo,"chooseLocalNodeGroup(NetworkTopologyWithNodeGroup clusterMap, Node localMachine, Set<Node> excludedNodes, long blocksize, int maxNodesPerRack, List<DatanodeStorageInfo> results, boolean avoidStaleNodes, StorageType storageType) throws NotEnoughReplicasException
+",hadoop,BlockPlacementPolicyWithNodeGroup.java
+981,981,String,"getRack(final DatanodeInfo cur)
+",hadoop,BlockPlacementPolicyWithNodeGroup.java
+982,982,int,"addToExcludedNodes(DatanodeDescriptor chosenNode, Set<Node> excludedNodes)
+",hadoop,BlockPlacementPolicyWithNodeGroup.java
+983,983,int,"addDependentNodesToExcludedNodes(DatanodeDescriptor chosenNode, Set<Node> excludedNodes)
+",hadoop,BlockPlacementPolicyWithNodeGroup.java
+984,984,Collection<DatanodeStorageInfo>,"pickupReplicaSet(Collection<DatanodeStorageInfo> first, Collection<DatanodeStorageInfo> second)
+",hadoop,BlockPlacementPolicyWithNodeGroup.java
+985,985,boolean,"accept(File dir, String name)
+",hadoop,TestCheckpoint.java
+987,987,void,"checkForSNNThreads()
+",hadoop,TestCheckpoint.java
+988,988,void,"checkFile(FileSystem fileSys, Path name, int repl) throws IOException
+",hadoop,TestCheckpoint.java
+989,989,void,"cleanupFile(FileSystem fileSys, Path name) throws IOException
+",hadoop,TestCheckpoint.java
+990,990,void,"testNameDirError() throws IOException
+",hadoop,TestCheckpoint.java
+991,991,void,"testWriteTransactionIdHandlesIOE() throws Exception
+",hadoop,TestCheckpoint.java
+992,992,void,"testReloadOnEditReplayFailure() throws IOException
+",hadoop,TestCheckpoint.java
+993,993,void,"testTooManyEditReplayFailures() throws IOException
+",hadoop,TestCheckpoint.java
+994,994,void,"testSecondaryNamenodeError1() throws IOException
+",hadoop,TestCheckpoint.java
+995,995,void,"testSecondaryNamenodeError2() throws IOException
+",hadoop,TestCheckpoint.java
+996,996,void,"testSecondaryNamenodeError3() throws IOException
+",hadoop,TestCheckpoint.java
+997,997,void,"testSecondaryFailsWithErrorBeforeSettingHeaders() throws IOException
+",hadoop,TestCheckpoint.java
+998,998,void,"doSecondaryFailsToReturnImage() throws IOException
+",hadoop,TestCheckpoint.java
+999,999,File,"filePathContaining(final String substring)
+",hadoop,TestCheckpoint.java
+1001,1001,boolean,"isTimeUnit(int unit)
+",jdk,Result.java
+1002,1002,boolean,"isWorkUnit(int unit)
+",jdk,Result.java
+1003,1003,String,"parseRateOpt(String opt)
+",jdk,Result.java
+1004,1004,int,"parseUnit(String c)
+",jdk,Result.java
+1005,1005,void,"setReps(int reps)
+",jdk,Result.java
+1006,1006,void,"setUnits(int units)
+",jdk,Result.java
+1007,1007,void,"setUnitName(String name)
+",jdk,Result.java
+1008,1008,void,"addTime(long time)
+",jdk,Result.java
+1009,1009,void,"setError(Throwable t)
+",jdk,Result.java
+1010,1010,void,"setModifiers(Hashtable modifiers)
+",jdk,Result.java
+1012,1012,int,"getRepsPerRun()
+",jdk,Result.java
+1013,1013,int,"getUnitsPerRep()
+",jdk,Result.java
+1014,1014,long,"getUnitsPerRun()
+",jdk,Result.java
+1015,1015,Hashtable,"getModifiers()
+",jdk,Result.java
+1016,1016,long,"getNumRuns()
+",jdk,Result.java
+1017,1017,long,"getTime(int index)
+",jdk,Result.java
+1018,1018,double,"getRepsPerSecond(int index)
+",jdk,Result.java
+1019,1019,double,"getUnitsPerSecond(int index)
+",jdk,Result.java
+1020,1020,long,"getTotalReps()
+",jdk,Result.java
+1021,1021,long,"getTotalUnits()
+",jdk,Result.java
+1022,1022,long,"getTotalTime()
+",jdk,Result.java
+1023,1023,double,"getAverageRepsPerSecond()
+",jdk,Result.java
+1024,1024,double,"getAverageUnitsPerSecond()
+",jdk,Result.java
+1025,1025,String,"getAverageString()
+",jdk,Result.java
+1026,1026,void,"summarize()
+",jdk,Result.java
+1031,1031,void,"run()
+",jdk,J2DBench.java
+1033,1033,String,"loadOptions(String filename)
+",jdk,J2DBench.java
+1036,1036,String,"saveOptions(String filename)
+",jdk,J2DBench.java
+1039,1039,JFileChooser,"getFileChooser()
+",jdk,J2DBench.java
+1040,1040,boolean,"saveOrDiscardLastResults()
+",jdk,J2DBench.java
+1041,1041,String,"inputUserStr(String type)
+",jdk,J2DBench.java
+1042,1042,boolean,"saveResults()
+",jdk,J2DBench.java
+1047,1047,void,"startGUI()
+",jdk,J2DBench.java
+1048,1048,Dimension,"getPreferredSize()
+",jdk,J2DBench.java
+1049,1049,void,"actionPerformed(ActionEvent e)
+",jdk,J2DBench.java
+1055,1055,void,"windowClosing(WindowEvent e)
+",jdk,J2DBench.java
+1056,1056,void,"runTests(boolean showresults)
+",jdk,J2DBench.java
+1057,1057,void,"setTitle(String title)
+",jdk,ResultSet.java
+1058,1058,void,"setDescription(String desc)
+",jdk,ResultSet.java
+1059,1059,void,"record(Result result)
+",jdk,ResultSet.java
+1062,1062,Color,"makeAlphaColor(Color opaque, int alpha)
+",jdk,GraphicsTests.java
+1064,1064,Object,"initTest(TestEnvironment env, Result result)
+",jdk,GraphicsTests.java
+1065,1065,int,"pixelsTouched(Context ctx)
+",jdk,GraphicsTests.java
+1066,1066,Context,"createContext()
+",jdk,GraphicsTests.java
+1067,1067,Dimension,"getOutputSize(int w, int h)
+",jdk,GraphicsTests.java
+1068,1068,void,"initContext(TestEnvironment env, Context ctx)
+",jdk,GraphicsTests.java
+1069,1069,void,"cleanupTest(TestEnvironment env, Object ctx)
+",jdk,GraphicsTests.java
+1070,1070,String,"getShortName()
+",jdk,GraphicsTests.java
+1071,1071,String,"getDescription()
+",jdk,GraphicsTests.java
+1073,1073,double,"scaleForPoint(AffineTransform at, double xorig, double yorig, double x, double y, int w, int h)
+",jdk,GraphicsTests.java
+1074,1074,Dimension,"scaleForTransform(AffineTransform at, Dimension dim)
+",jdk,GraphicsTests.java
+1095,1095,void,"initContents(File f) throws IOException
+",jdk,InputStreamTests.java
+1099,1099,void,"runTest(Object ctx, int numReps)
+",jdk,InputStreamTests.java
+1129,1129,void,"initIIOWriteFormats()
+",jdk,OutputImageTests.java
+1134,1134,boolean,"isCompatible(Object val)
+",jdk,OutputImageTests.java
+1139,1139,void,"imageStarted(ImageWriter source, int imageIndex)
+",jdk,OutputImageTests.java
+1140,1140,void,"imageProgress(ImageWriter source, float percentageDone)
+",jdk,OutputImageTests.java
+1141,1141,void,"imageComplete(ImageWriter source)
+",jdk,OutputImageTests.java
+1142,1142,void,"thumbnailStarted(ImageWriter source, int imageIndex, int thumbnailIndex)
+",jdk,OutputImageTests.java
+1143,1143,void,"thumbnailProgress(ImageWriter source, float percentageDone)
+",jdk,OutputImageTests.java
+1144,1144,void,"thumbnailComplete(ImageWriter source)
+",jdk,OutputImageTests.java
+1145,1145,void,"writeAborted(ImageWriter source)
+",jdk,OutputImageTests.java
+1147,1147,void,"initIIOReadFormats()
+",jdk,InputImageTests.java
+1162,1162,void,"sequenceStarted(ImageReader source, int minIndex)
+",jdk,InputImageTests.java
+1163,1163,void,"sequenceComplete(ImageReader source)
+",jdk,InputImageTests.java
+1170,1170,void,"readAborted(ImageReader source)
+",jdk,InputImageTests.java
+1173,1173,String,"getAbbreviatedModifierDescription(Object value)
+",jdk,OutputTests.java
+1174,1174,String,"getModifierValueName(Object val)
+",jdk,OutputTests.java
+1175,1175,void,"initOutput()
+",jdk,OutputTests.java
+1176,1176,ImageOutputStream,"createImageOutputStream() throws IOException
+",jdk,OutputTests.java
+1177,1177,void,"closeOriginalStream() throws IOException
+",jdk,OutputTests.java
+1203,1203,BufferedImage,"createBufferedImage(int width, int height, String type, boolean hasAlpha)
+",jdk,IIOTests.java
+1208,1208,void,"initInput()
+",jdk,InputTests.java
+1211,1211,ImageInputStream,"createImageInputStream() throws IOException
+",jdk,InputTests.java
+1216,1216,String,"getUnitName()
+",jdk,PixelTests.java
+1219,1219,BufferedImage,"getImage()
+",jdk,PixelTests.java
+1234,1234,JComponent,"getJComponent()
+",jdk,RenderTests.java
+1235,1235,void,"restoreDefault()
+",jdk,RenderTests.java
+1237,1237,String,"setOption(String key, String value)
+",jdk,RenderTests.java
+1240,1240,Color[],"makeGradientColors(int numColors, boolean alpha)
+",jdk,RenderTests.java
+1241,1241,LinearGradientPaint,"makeLinear(int numColors, boolean alpha)
+",jdk,RenderTests.java
+1242,1242,RadialGradientPaint,"makeRadial(int numColors, boolean alpha)
+",jdk,RenderTests.java
+1243,1243,TexturePaint,"makeTexturePaint(int size, boolean alpha)
+",jdk,RenderTests.java
+1288,1288,Float[],"floatObjectList(float[] input)
+",jdk,TextTests.java
+1289,1289,String[],"floatStringList(float[] input)
+",jdk,TextTests.java
+1292,1292,String[],"intStringList(int[] input)
+",jdk,TextTests.java
+1295,1295,String,"getString(Object key, int len)
+",jdk,TextTests.java
+1296,1296,String,"getSimpleString(Object key)
+",jdk,TextTests.java
+1310,1310,String,"physicalFontNameFor(String textname, int textlen, String text)
+",jdk,TextTests.java
+1311,1311,String,"getValString(Object value)
+",jdk,TextTests.java
+1330,1330,char,"first()
+",jdk,TextConstructionTests.java
+1331,1331,char,"last()
+",jdk,TextConstructionTests.java
+1332,1332,char,"current()
+",jdk,TextConstructionTests.java
+1334,1334,char,"previous()
+",jdk,TextConstructionTests.java
+1335,1335,char,"setIndex(int position)
+",jdk,TextConstructionTests.java
+1336,1336,int,"getBeginIndex()
+",jdk,TextConstructionTests.java
+1337,1337,int,"getEndIndex()
+",jdk,TextConstructionTests.java
+1338,1338,int,"getIndex()
+",jdk,TextConstructionTests.java
+1339,1339,Object,"clone()
+",jdk,TextConstructionTests.java
+1388,1388,ImageContent[],"values()
+",jdk,ColorConvertOpTests.java
+1390,1390,Option,"createImageTypeList(ListType listType)
+",jdk,ColorConvertOpTests.java
+1399,1399,ColorSpace,"getColorSpace(TestEnvironment env)
+",jdk,CMMTests.java
+1405,1405,Option,"createImageList()
+",jdk,EmbeddedProfileTests.java
+1413,1413,Image,"makeImage(TestEnvironment env, int w, int h)
+",jdk,ImageTests.java
+1419,1419,int,"getTransparency()
+",jdk,ImageTests.java
+1421,1421,String,"setValueFromString(String value)
+",jdk,ImageTests.java
+1422,1422,void,"modifyTest(TestEnvironment env)
+",jdk,ImageTests.java
+1423,1423,void,"restoreTest(TestEnvironment env)
+",jdk,ImageTests.java
+1444,1444,void,"readResults(String filename)
+",jdk,J2DAnalyzer.java
+1445,1445,void,"addResultSet(ResultSetHolder rs)
+",jdk,J2DAnalyzer.java
+1447,1447,void,"readResultSet(BufferedReader in, SingleResultSetHolder srs) throws IOException
+",jdk,J2DAnalyzer.java
+1448,1448,void,"readResult(BufferedReader in, ResultHolder rh) throws IOException
+",jdk,J2DAnalyzer.java
+1449,1449,String,"getStringAttribute(String line, String attrname)
+",jdk,J2DAnalyzer.java
+1450,1450,long,"getLongAttribute(String line, String attrname)
+",jdk,J2DAnalyzer.java
+1451,1451,int,"getIntAttribute(String line, String attrname)
+",jdk,J2DAnalyzer.java
+1453,1453,String,"getTitle()
+",jdk,J2DAnalyzer.java
+1454,1454,Enumeration,"getKeyEnumeration()
+",jdk,J2DAnalyzer.java
+1455,1455,Enumeration,"getResultEnumeration()
+",jdk,J2DAnalyzer.java
+1456,1456,ResultHolder,"getResultByKey(String key)
+",jdk,J2DAnalyzer.java
+1458,1458,ResultSetHolder,"getResultSet(int index)
+",jdk,J2DAnalyzer.java
+1462,1462,boolean,"hasMoreElements()
+",jdk,J2DAnalyzer.java
+1463,1463,Object,"nextElement()
+",jdk,J2DAnalyzer.java
+1468,1468,void,"setEndTime(long ms)
+",jdk,J2DAnalyzer.java
+1469,1469,long,"getEndTime()
+",jdk,J2DAnalyzer.java
+1470,1470,void,"setProperty(String key, String value)
+",jdk,J2DAnalyzer.java
+1471,1471,Hashtable,"getProperties()
+",jdk,J2DAnalyzer.java
+1472,1472,void,"addResult(ResultHolder rh)
+",jdk,J2DAnalyzer.java
+1478,1478,void,"setName(String name)
+",jdk,J2DAnalyzer.java
+1481,1481,String,"getShortKey()
+",jdk,J2DAnalyzer.java
+1482,1482,String,"makeKey(boolean prunecommon)
+",jdk,J2DAnalyzer.java
+1484,1484,int,"getReps()
+",jdk,J2DAnalyzer.java
+1487,1487,void,"addOption(String key, String value)
+",jdk,J2DAnalyzer.java
+1488,1488,Hashtable,"getOptions()
+",jdk,J2DAnalyzer.java
+1490,1490,double,"getSpread()
+",jdk,J2DAnalyzer.java
+1491,1491,double,"getScore()
+",jdk,J2DAnalyzer.java
+1492,1492,double,"getBestScore()
+",jdk,J2DAnalyzer.java
+1493,1493,Vector,"getAllScores()
+",jdk,J2DAnalyzer.java
+1494,1494,double,"calcPercent(double base, double val)
+",jdk,J2DAnalyzer.java
+1495,1495,String,"format(double val)
+",jdk,J2DAnalyzer.java
+1497,1497,void,"setMode(int mode)
+",jdk,J2DAnalyzer.java
+1499,1499,PrintWriter,"openFile(String name, int nSwitch)
+",jdk,HTMLSeriesReporter.java
+1500,1500,void,"generateSeriesReport(String resultsDir, ArrayList xmlFileNames)
+",jdk,HTMLSeriesReporter.java
+1505,1505,void,"printIIOTable(String resultsFile)
+",jdk,IIOComparator.java
+1506,1506,void,"printWikiTable()
+",jdk,IIOComparator.java
+1507,1507,void,"printHtmlTable()
+",jdk,IIOComparator.java
+1508,1508,void,"printHtmlCell(String s, String color, String align)
+",jdk,IIOComparator.java
+1509,1509,String[],"toSortedArray(Enumeration e, boolean special)
+",jdk,IIOComparator.java
+1511,1511,void,"sort2(String[] strs)
+",jdk,IIOComparator.java
+1512,1512,int,"magic(String s)
+",jdk,IIOComparator.java
+1516,1516,void,"setGroupLevel(int level)
+",jdk,XMLHTMLReporter.java
+1517,1517,void,"addGroup(String testName)
+",jdk,XMLHTMLReporter.java
+1518,1518,String,"getDisplayGroupName(String group)
+",jdk,XMLHTMLReporter.java
+1519,1519,String,"getGroup(String testName)
+",jdk,XMLHTMLReporter.java
+1521,1521,void,"generateReport(String resultsDir, String xmlFileName)
+",jdk,XMLHTMLReporter.java
+1522,1522,void,"generateComparisonReport(String resultsDir, String baseXMLFileName, String targetXMLFileName)
+",jdk,XMLHTMLReporter.java
+1523,1523,void,"generateGroupSummaryReport(J2DAnalyzer.SingleResultSetHolder baseSRSH, J2DAnalyzer.SingleResultSetHolder targetSRSH, Map consolBaseResult, Map consolTargetResult, Map testCaseBaseResult, Map testCaseResultCount, Map testCaseTargetResult)
+",jdk,XMLHTMLReporter.java
+1524,1524,void,"generateTestCaseSummaryReport(J2DAnalyzer.SingleResultSetHolder baseSRSH, J2DAnalyzer.SingleResultSetHolder targetSRSH, Map consolBaseResult, Map consolTargetResult, Map testCaseBaseResult, Map testCaseResultCount, Map testCaseTargetResult)
+",jdk,XMLHTMLReporter.java
+1525,1525,String,"getTestResultsTableForSummary(String testName, double baseScore, double targetScore)
+",jdk,XMLHTMLReporter.java
+1526,1526,String,"getStatusTableForSummary(String curGroupName, String testName, int nBetter, int nSame, int nWorse)
+",jdk,XMLHTMLReporter.java
+1527,1527,String,"getPerformanceTableForTestcase(String testName, int nBetter, int nSame, int nWorse)
+",jdk,XMLHTMLReporter.java
+1528,1528,String[],"generateTestCaseReport(String curGroupName, Object key, J2DAnalyzer.SingleResultSetHolder baseSRSH, J2DAnalyzer.SingleResultSetHolder targetSRSH, Map testCaseResultCount, Map testCaseBaseResult, Map testCaseTargetResult)
+",jdk,XMLHTMLReporter.java
+1529,1529,String,"getFooter()
+",jdk,XMLHTMLReporter.java
+1530,1530,String,"getHeader(J2DAnalyzer.SingleResultSetHolder baseSRSH, J2DAnalyzer.SingleResultSetHolder targetSRSH, String title, String sysPropLoc)
+",jdk,XMLHTMLReporter.java
+1531,1531,String,"getHeaderTitle(String title)
+",jdk,XMLHTMLReporter.java
+1532,1532,void,"generateSysPropsReport(J2DAnalyzer.SingleResultSetHolder srsh)
+",jdk,XMLHTMLReporter.java
+1533,1533,int,"selectColor(double baseScore, double targetScore)
+",jdk,XMLHTMLReporter.java
+1534,1534,double,"calculateSpeedupPercentage(double baseScore, double targetScore)
+",jdk,XMLHTMLReporter.java
+1537,1537,void,"addDependency(Modifier mod)
+",jdk,Test.java
+1539,1539,void,"addDependencies(Group g, boolean recursive)
+",jdk,Test.java
+1542,1542,void,"runOneTest(TestEnvironment env)
+",jdk,Test.java
+1546,1546,void,"runTestLoop(TestEnvironment env, Result result, Object ctx)
+",jdk,Test.java
+1547,1547,int,"calibrate(TestEnvironment env, Object ctx)
+",jdk,Test.java
+1548,1548,int,"adjustWidth(int w, int h)
+",jdk,Test.java
+1551,1551,Modifier,"getModifier()
+",jdk,Test.java
+1552,1552,Modifier.Filter,"getFilter()
+",jdk,Test.java
+1554,1554,void,"recurseAndRun(TestEnvironment env, Test test)
+",jdk,Test.java
+1557,1557,void,"runAllTests()
+",jdk,TestEnvironment.java
+1558,1558,void,"startTiming()
+",jdk,TestEnvironment.java
+1559,1559,void,"stopTiming()
+",jdk,TestEnvironment.java
+1560,1560,long,"getTimeMillis()
+",jdk,TestEnvironment.java
+1561,1561,long,"getTimeNanos()
+",jdk,TestEnvironment.java
+1562,1562,Dimension,"getPreferredSize()
+",jdk,TestEnvironment.java
+1564,1564,Image,"getSrcImage()
+",jdk,TestEnvironment.java
+1565,1565,void,"stop()
+",jdk,TestEnvironment.java
+1566,1566,boolean,"isStopped()
+",jdk,TestEnvironment.java
+1567,1567,void,"setTestImage(Image img)
+",jdk,TestEnvironment.java
+1568,1568,void,"setSrcImage(Image img)
+",jdk,TestEnvironment.java
+1569,1569,void,"erase()
+",jdk,TestEnvironment.java
+1570,1570,Graphics,"getGraphics()
+",jdk,TestEnvironment.java
+1571,1571,int,"getWidth()
+",jdk,TestEnvironment.java
+1572,1572,int,"getHeight()
+",jdk,TestEnvironment.java
+1574,1574,int,"getRepCount()
+",jdk,TestEnvironment.java
+1575,1575,long,"getTestTime()
+",jdk,TestEnvironment.java
+1576,1576,void,"sync()
+",jdk,TestEnvironment.java
+1577,1577,boolean,"idle()
+",jdk,TestEnvironment.java
+1578,1578,void,"setModifier(Modifier o, Object v)
+",jdk,TestEnvironment.java
+1580,1580,boolean,"isEnabled(Modifier o)
+",jdk,TestEnvironment.java
+1581,1581,int,"getIntValue(Modifier o)
+",jdk,TestEnvironment.java
+1582,1582,void,"removeModifier(Modifier o)
+",jdk,TestEnvironment.java
+1585,1585,void,"flushToScreen()
+",jdk,TestEnvironment.java
+1587,1587,Timer,"getImpl()
+",jdk,TestEnvironment.java
+1600,1600,Modifier.Iterator,"getIterator(TestEnvironment env)
+",jdk,Modifier.java
+1603,1603,String,"getTreeName()
+",jdk,Modifier.java
+1609,1609,Group,"getParent()
+",jdk,Node.java
+1610,1610,String,"getNodeName()
+",jdk,Node.java
+1615,1615,void,"setNext(Node node)
+",jdk,Node.java
+1616,1616,void,"traverse(Visitor v)
+",jdk,Node.java
+1623,1623,void,"addChild(Node child)
+",jdk,Group.java
+1624,1624,Node.Iterator,"getChildIterator()
+",jdk,Group.java
+1625,1625,Node.Iterator,"getRecursiveChildIterator()
+",jdk,Group.java
+1626,1626,Node,"getFirstChild()
+",jdk,Group.java
+1627,1627,boolean,"isBordered()
+",jdk,Group.java
+1628,1628,boolean,"isTabbed()
+",jdk,Group.java
+1629,1629,boolean,"isHidden()
+",jdk,Group.java
+1630,1630,boolean,"isHorizontal()
+",jdk,Group.java
+1631,1631,void,"setBordered(boolean b)
+",jdk,Group.java
+1632,1632,void,"setTabbed()
+",jdk,Group.java
+1634,1634,void,"setHidden()
+",jdk,Group.java
+1635,1635,void,"setHorizontal()
+",jdk,Group.java
+1641,1641,void,"addEnableButtons(JPanel p)
+",jdk,Group.java
+1642,1642,void,"restoreAllDefaults()
+",jdk,Group.java
+1644,1644,void,"writeAll(final PrintWriter pw)
+",jdk,Group.java
+1663,1663,void,"setDestination(TestEnvironment env)
+",jdk,Destinations.java
+1665,1665,String,"getLongDescription(boolean opacity, boolean shaped)
+",jdk,Destinations.java
+1680,1680,boolean,"isDefault()
+",jdk,Option.java
+1685,1685,String,"getOptionString()
+",jdk,Option.java
+1694,1694,void,"updateGUI()
+",jdk,Option.java
+1698,1698,JComponent,"getJComponent()
+",jdk,Option.java
+1720,1720,void,"insertString(int offs, String str, AttributeSet a) throws BadLocationException
+",jdk,Option.java
+1723,1723,String[],"trim(String[] list, int size)
+",jdk,Option.java
+1729,1729,void,"setNumRows(int numrows)
+",jdk,Option.java
+1731,1731,void,"valueChanged(ListSelectionEvent e)
+",jdk,Option.java
+1733,1733,int,"findValueIndex(Object value)
+",jdk,Option.java
+1737,1737,String[],"makeNames(int[] intvalues)
+",jdk,Option.java
+1738,1738,Object[],"makeValues(int[] intvalues)
+",jdk,Option.java
+1749,1749,boolean,"getBooleanValue()
+",jdk,Option.java
+1754,1754,String,"setValue(int v)
+",jdk,Option.java
+1760,1760,void,"remove()
+",jdk,Option.java
+1765,1765,void,"addLayoutComponent(String name, Component comp)
+",jdk,CompactLayout.java
+1766,1766,void,"removeLayoutComponent(Component comp)
+",jdk,CompactLayout.java
+1767,1767,Dimension,"preferredLayoutSize(Container parent)
+",jdk,CompactLayout.java
+1768,1768,Dimension,"minimumLayoutSize(Container parent)
+",jdk,CompactLayout.java
+1770,1770,void,"layoutContainer(Container parent)
+",jdk,CompactLayout.java
+1771,1771,void,"dispatchEvent(AWTEvent event)
+",jdk,CodePointInputMethod.java
+1772,1772,void,"composeUnicodeEscape(char c)
+",jdk,CodePointInputMethod.java
+1773,1773,void,"waitEscapeCharacter(char c)
+",jdk,CodePointInputMethod.java
+1774,1774,void,"waitDigit(char c)
+",jdk,CodePointInputMethod.java
+1775,1775,void,"waitDigit2(char c)
+",jdk,CodePointInputMethod.java
+1776,1776,void,"waitBackSlashOrLowSurrogate(char c)
+",jdk,CodePointInputMethod.java
+1777,1777,void,"sendComposedText()
+",jdk,CodePointInputMethod.java
+1778,1778,void,"sendCommittedText()
+",jdk,CodePointInputMethod.java
+1779,1779,void,"moveCaretLeft()
+",jdk,CodePointInputMethod.java
+1780,1780,void,"moveCaretRight()
+",jdk,CodePointInputMethod.java
+1781,1781,void,"deletePreviousCharacter()
+",jdk,CodePointInputMethod.java
+1782,1782,void,"deleteCharacter()
+",jdk,CodePointInputMethod.java
+1783,1783,void,"startComposition()
+",jdk,CodePointInputMethod.java
+1784,1784,void,"cancelComposition()
+",jdk,CodePointInputMethod.java
+1785,1785,void,"finishComposition()
+",jdk,CodePointInputMethod.java
+1786,1786,int,"getCodePoint(StringBuffer sb, int from, int to)
+",jdk,CodePointInputMethod.java
+1787,1787,void,"beep()
+",jdk,CodePointInputMethod.java
+1789,1789,void,"deactivate(boolean isTemporary)
+",jdk,CodePointInputMethod.java
+1790,1790,void,"dispose()
+",jdk,CodePointInputMethod.java
+1791,1791,Object,"getControlObject()
+",jdk,CodePointInputMethod.java
+1792,1792,void,"endComposition()
+",jdk,CodePointInputMethod.java
+1793,1793,Locale,"getLocale()
+",jdk,CodePointInputMethod.java
+1794,1794,void,"hideWindows()
+",jdk,CodePointInputMethod.java
+1795,1795,boolean,"isCompositionEnabled()
+",jdk,CodePointInputMethod.java
+1796,1796,void,"notifyClientWindowChange(Rectangle location)
+",jdk,CodePointInputMethod.java
+1797,1797,void,"reconvert()
+",jdk,CodePointInputMethod.java
+1798,1798,void,"removeNotify()
+",jdk,CodePointInputMethod.java
+1799,1799,void,"setCharacterSubsets(Character.Subset[] subsets)
+",jdk,CodePointInputMethod.java
+1800,1800,void,"setCompositionEnabled(boolean enable)
+",jdk,CodePointInputMethod.java
+1801,1801,void,"setInputMethodContext(InputMethodContext context)
+",jdk,CodePointInputMethod.java
+1802,1802,boolean,"setLocale(Locale locale)
+",jdk,CodePointInputMethod.java
+1803,1803,InputMethod,"createInputMethod() throws Exception
+",jdk,CodePointInputMethodDescriptor.java
+1804,1804,Locale[],"getAvailableLocales()
+",jdk,CodePointInputMethodDescriptor.java
+1805,1805,String,"getInputMethodDisplayName(Locale inputLocale, Locale displayLanguage)
+",jdk,CodePointInputMethodDescriptor.java
+1806,1806,Image,"getInputMethodIcon(Locale inputLocale)
+",jdk,CodePointInputMethodDescriptor.java
+1807,1807,boolean,"hasDynamicLocaleList()
+",jdk,CodePointInputMethodDescriptor.java
+1812,1812,int,"getColumnCount()
+",jdk,TableExample3.java
+1813,1813,int,"getRowCount()
+",jdk,TableExample3.java
+1814,1814,Object,"getValueAt(int row, int col)
+",jdk,TableExample3.java
+1815,1815,String,"getColumnName(int column)
+",jdk,TableExample3.java
+1816,1816,Class<?>,"getColumnClass(int col)
+",jdk,TableExample3.java
+1817,1817,boolean,"isCellEditable(int row, int col)
+",jdk,TableExample3.java
+1818,1818,void,"setValueAt(Object aValue, int row, int column)
+",jdk,TableExample3.java
+1820,1820,void,"executeQuery(String query)
+",jdk,JDBCAdapter.java
+1828,1828,String,"dbRepresentation(int column, Object value)
+",jdk,JDBCAdapter.java
+1830,1830,int,"getColumnIndex(Object identifier)
+",jdk,OldJTable.java
+1831,1831,TableColumn,"addColumn(Object columnIdentifier, int width)
+",jdk,OldJTable.java
+1835,1835,void,"removeColumn(Object columnIdentifier)
+",jdk,OldJTable.java
+1836,1836,void,"addRow(Object[] rowData)
+",jdk,OldJTable.java
+1838,1838,void,"removeRow(int rowIndex)
+",jdk,OldJTable.java
+1839,1839,void,"moveRow(int startIndex, int endIndex, int toIndex)
+",jdk,OldJTable.java
+1840,1840,void,"insertRow(int rowIndex, Object[] rowData)
+",jdk,OldJTable.java
+1843,1843,void,"setDataVector(Object[][] newData, List<?> columnIds)
+",jdk,OldJTable.java
+1845,1845,void,"checkDefaultTableModel()
+",jdk,OldJTable.java
+1849,1849,boolean,"editColumnRow(Object identifier, int row)
+",jdk,OldJTable.java
+1850,1850,void,"moveColumn(Object columnIdentifier, Object targetColumnIdentifier)
+",jdk,OldJTable.java
+1851,1851,boolean,"isColumnSelected(Object identifier)
+",jdk,OldJTable.java
+1867,1867,TableModel,"getModel()
+",jdk,TableMap.java
+1868,1868,void,"setModel(TableModel model)
+",jdk,TableMap.java
+1876,1876,void,"tableChanged(TableModelEvent e)
+",jdk,TableMap.java
+1878,1878,int,"compareRowsByColumn(int row1, int row2, int column)
+",jdk,TableSorter.java
+1880,1880,void,"reallocateIndexes()
+",jdk,TableSorter.java
+1882,1882,void,"checkModel()
+",jdk,TableSorter.java
+1884,1884,void,"n2sort()
+",jdk,TableSorter.java
+1885,1885,void,"shuttlesort(int[] from, int[] to, int low, int high)
+",jdk,TableSorter.java
+1886,1886,void,"swap(int i, int j)
+",jdk,TableSorter.java
+1889,1889,void,"sortByColumn(int column)
+",jdk,TableSorter.java
+1891,1891,void,"addMouseListenerToHeaderInTable(JTable table)
+",jdk,TableSorter.java
+1892,1892,void,"mouseClicked(MouseEvent e)
+",jdk,TableSorter.java
+1893,1893,void,"activateConnectionDialog()
+",jdk,TableExample.java
+1894,1894,void,"createConnectionDialog()
+",jdk,TableExample.java
+1898,1898,void,"connect()
+",jdk,TableExample.java
+1899,1899,void,"fetch()
+",jdk,TableExample.java
+1900,1900,JScrollPane,"createTable()
+",jdk,TableExample.java
+1907,1907,File,"createNewFolder(File containingDir) throws IOException
+",jdk,ExampleFileSystemView.java
+1908,1908,File[],"getRoots()
+",jdk,ExampleFileSystemView.java
+1909,1909,String,"getSystemDisplayName(File f)
+",jdk,ExampleFileSystemView.java
+1911,1911,void,"putDescription(File f, String fileDescription)
+",jdk,ExampleFileView.java
+1913,1913,void,"putTypeDescription(String extension, String typeDescription)
+",jdk,ExampleFileView.java
+1915,1915,String,"getTypeDescription(File f)
+",jdk,ExampleFileView.java
+1916,1916,String,"getExtension(File f)
+",jdk,ExampleFileView.java
+1917,1917,void,"putIcon(String extension, Icon icon)
+",jdk,ExampleFileView.java
+1918,1918,Icon,"getIcon(File f)
+",jdk,ExampleFileView.java
+1919,1919,Boolean,"isTraversable(File f)
+",jdk,ExampleFileView.java
+1921,1921,Dimension,"getMaximumSize()
+",jdk,FileChooserDemo.java
+1923,1923,void,"resetFileFilters(boolean enableFilters, boolean showExtensionInDescription)
+",jdk,FileChooserDemo.java
+1924,1924,FileFilter,"createFileFilter(String description, boolean showExtensionInDescription, String... extensions)
+",jdk,FileChooserDemo.java
+1925,1925,String,"createFileNameFilterDescriptionFromExtensions(String description, String[] extensions)
+",jdk,FileChooserDemo.java
+1927,1927,void,"back()
+",jdk,FileChooserDemo.java
+1931,1931,String,"getResultString()
+",jdk,FileChooserDemo.java
+1933,1933,void,"loadImage(File f)
+",jdk,FileChooserDemo.java
+1934,1934,void,"propertyChange(PropertyChangeEvent e)
+",jdk,FileChooserDemo.java
+1935,1935,void,"paint(Graphics g)
+",jdk,FileChooserDemo.java
+1938,1938,Insets,"getInsets()
+",jdk,FileChooserDemo.java
+1939,1939,GlobalControls,"getControls()
+",jdk,DemoInstVarsAccessor.java
+1940,1940,MemoryMonitor,"getMemoryMonitor()
+",jdk,DemoInstVarsAccessor.java
+1941,1941,PerformanceMonitor,"getPerformanceMonitor()
+",jdk,DemoInstVarsAccessor.java
+1942,1942,JTabbedPane,"getTabbedPane()
+",jdk,DemoInstVarsAccessor.java
+1944,1944,void,"setGroupColumns(int columns)
+",jdk,DemoInstVarsAccessor.java
+1945,1945,JCheckBoxMenuItem,"getVerboseCB()
+",jdk,DemoInstVarsAccessor.java
+1946,1946,JCheckBoxMenuItem,"getCcthreadCB()
+",jdk,DemoInstVarsAccessor.java
+1947,1947,JCheckBoxMenuItem,"getPrintCB()
+",jdk,DemoInstVarsAccessor.java
+1948,1948,Color,"getBackgroundColor()
+",jdk,DemoInstVarsAccessor.java
+1949,1949,JCheckBoxMenuItem,"getMemoryCB()
+",jdk,DemoInstVarsAccessor.java
+1950,1950,JCheckBoxMenuItem,"getPerfCB()
+",jdk,DemoInstVarsAccessor.java
+1951,1951,Intro,"getIntro()
+",jdk,DemoInstVarsAccessor.java
+1953,1953,void,"doRunAction()
+",jdk,RunWindow.java
+1956,1956,void,"sleepPerTab()
+",jdk,RunWindow.java
+1958,1958,void,"printDemo(final DemoGroup dg)
+",jdk,RunWindow.java
+1966,1966,void,"invokeAndWait(Runnable run)
+",jdk,RunWindow.java
+1967,1967,int,"getDelay()
+",jdk,RunWindow.java
+1968,1968,void,"setDelay(int delay)
+",jdk,RunWindow.java
+1970,1970,void,"setNumRuns(int numRuns)
+",jdk,RunWindow.java
+1971,1971,boolean,"getExit()
+",jdk,RunWindow.java
+1972,1972,void,"setExit(boolean exit)
+",jdk,RunWindow.java
+1973,1973,boolean,"isZoomCBSelected()
+",jdk,RunWindow.java
+1974,1974,void,"setZoomCBSelected(boolean b)
+",jdk,RunWindow.java
+1975,1975,boolean,"isPrintCBSelected()
+",jdk,RunWindow.java
+1976,1976,void,"setPrintCBIsSelected(boolean b)
+",jdk,RunWindow.java
+1977,1977,boolean,"getBuffersFlag()
+",jdk,RunWindow.java
+1978,1978,void,"setBuffersFlag(boolean buffersFlag)
+",jdk,RunWindow.java
+1979,1979,int,"getBufBeg()
+",jdk,RunWindow.java
+1980,1980,void,"setBufBeg(int bufBeg)
+",jdk,RunWindow.java
+1981,1981,int,"getBufEnd()
+",jdk,RunWindow.java
+1982,1982,void,"setBufEnd(int bufEnd)
+",jdk,RunWindow.java
+1985,1985,void,"setDemoBorder(JPanel p)
+",jdk,DemoPanel.java
+1986,1986,JMenuBar,"createMenuBar()
+",jdk,J2Ddemo.java
+1987,1987,void,"createRunWindow()
+",jdk,J2Ddemo.java
+1989,1989,void,"windowClosing(WindowEvent e)
+",jdk,J2Ddemo.java
+1990,1990,void,"startRunWindow()
+",jdk,J2Ddemo.java
+2000,2000,String,"getPluginGroupId()
+",maven,"DefaultExceptionHandler.java
+"
+2001,2001,String,"getPluginArtifactId()
+",maven,"DefaultExceptionHandler.java
+"
+2002,2002,String,"getPluginVersion()
+",maven,"DefaultExceptionHandler.java
+"
+2003,2003,String,"getGoal()
+",maven,"DefaultExceptionHandler.java
+"
+2004,2004,MavenProject,"getProject()
+",maven,"DefaultExceptionHandler.java
+"
+2005,2005,PluginDescriptor,"loadPlugin(Plugin plugin, List<RemoteRepository> repositories, RepositorySystemSession session) throws PluginNotFoundException, PluginResolutionException, PluginDescriptorParsingException, InvalidPluginDescriptorException
+",maven,"DefaultExceptionHandler.java
+"
+2006,2006,void,"executeMojo(MavenSession session, MojoExecution mojoExecution) throws MojoFailureException, MojoExecutionException, PluginConfigurationException, PluginManagerException
+",maven,"DefaultExceptionHandler.java
+"
+2007,2007,ClassRealm,"getPluginRealm(MavenSession session, PluginDescriptor pluginDescriptor) throws PluginResolutionException, PluginManagerException
+",maven,"DefaultExceptionHandler.java
+"
+2008,2008,MojoDescriptor,"getMojoDescriptor(Plugin plugin, String goal, List<RemoteRepository> repositories, RepositorySystemSession session) throws PluginNotFoundException, PluginResolutionException, PluginDescriptorParsingException, MojoNotFoundException, InvalidPluginDescriptorException
+",maven,"DefaultExceptionHandler.java
+"
+2009,2009,ClassRealm,"getRealm()
+",maven,"DefaultExceptionHandler.java
+"
+2010,2010,List<Artifact>,"getArtifacts()
+",maven,"DefaultExceptionHandler.java
+"
+2011,2011,Key,"createKey(Plugin plugin, ClassLoader parentRealm, Map<String, ClassLoader> foreignImports, DependencyFilter dependencyFilter, List<RemoteRepository> repositories, RepositorySystemSession session)
+",maven,"DefaultExceptionHandler.java
+"
+2025,2025,int,"hash(Object obj)
+",maven,"DefaultExceptionHandler.java
+"
+2026,2026,String,"toMessage(String message, List<String> errors)
+",maven,"DefaultExceptionHandler.java
+"
+2027,2027,Plugin,"getPlugin()
+",maven,"DefaultExceptionHandler.java
+"
+2028,2028,boolean,"eq(T s1, T s2)
+",maven,"DefaultExceptionHandler.java
+"
+2030,2030,int,"pluginHashCode(Plugin plugin)
+",maven,"DefaultExceptionHandler.java
+"
+2031,2031,boolean,"pluginEquals(Plugin a, Plugin b)
+",maven,"DefaultExceptionHandler.java
+"
+2032,2032,boolean,"dependenciesEquals(List<Dependency> a, List<Dependency> b)
+",maven,"DefaultExceptionHandler.java
+"
+2033,2033,boolean,"exclusionsEquals(List<Exclusion> a, List<Exclusion> b)
+",maven,"DefaultExceptionHandler.java
+"
+2035,2035,PluginDescriptor,"getPluginDescriptorForPrefix(String prefix)
+",maven,"DefaultExceptionHandler.java
+"
+2036,2036,Plugin,"getPluginDefinitionForPrefix(String prefix, MavenSession session, MavenProject project)
+",maven,"DefaultExceptionHandler.java
+"
+2037,2037,PluginDescriptor,"verifyPlugin(Plugin plugin, MavenProject project, Settings settings, ArtifactRepository localRepository) throws ArtifactResolutionException, PluginVersionResolutionException, ArtifactNotFoundException, InvalidVersionSpecificationException, InvalidPluginException, PluginManagerException, PluginNotFoundException, PluginVersionNotFoundException
+",maven,"DefaultExceptionHandler.java
+"
+2038,2038,Object,"getPluginComponent(Plugin plugin, String role, String roleHint) throws PluginManagerException, ComponentLookupException
+",maven,"DefaultExceptionHandler.java
+"
+2039,2039,Object>,"getPluginComponents(Plugin plugin, String role) throws ComponentLookupException, PluginManagerException
+",maven,"DefaultExceptionHandler.java
+"
+2040,2040,PluginDescriptor,"loadPluginDescriptor(Plugin plugin, MavenProject project, MavenSession session) throws ArtifactResolutionException, PluginVersionResolutionException, ArtifactNotFoundException, InvalidVersionSpecificationException, InvalidPluginException, PluginManagerException, PluginNotFoundException, PluginVersionNotFoundException
+",maven,"DefaultExceptionHandler.java
+"
+2041,2041,PluginDescriptor,"loadPluginFully(Plugin plugin, MavenProject project, MavenSession session) throws ArtifactResolutionException, PluginVersionResolutionException, ArtifactNotFoundException, InvalidVersionSpecificationException, InvalidPluginException, PluginManagerException, PluginNotFoundException, PluginVersionNotFoundException
+",maven,"DefaultExceptionHandler.java
+"
+2042,2042,String,"getPrefix()
+",maven,"DefaultExceptionHandler.java
+"
+2043,2043,DefaultPluginPrefixRequest,"setPrefix(String prefix)
+",maven,"DefaultExceptionHandler.java
+"
+2044,2044,List<String>,"getPluginGroups()
+",maven,"DefaultExceptionHandler.java
+"
+2045,2045,DefaultPluginPrefixRequest,"setPluginGroups(List<String> pluginGroups)
+",maven,"DefaultExceptionHandler.java
+"
+2046,2046,Model,"getPom()
+",maven,"DefaultExceptionHandler.java
+"
+2047,2047,DefaultPluginPrefixRequest,"setPom(Model pom)
+",maven,"DefaultExceptionHandler.java
+"
+2048,2048,List<RemoteRepository>,"getRepositories()
+",maven,"DefaultExceptionHandler.java
+"
+2049,2049,DefaultPluginPrefixRequest,"setRepositories(List<RemoteRepository> repositories)
+",maven,"DefaultExceptionHandler.java
+"
+2050,2050,RepositorySystemSession,"getRepositorySession()
+",maven,"DefaultExceptionHandler.java
+"
+2051,2051,DefaultPluginPrefixRequest,"setRepositorySession(RepositorySystemSession session)
+",maven,"DefaultExceptionHandler.java
+"
+2052,2052,String,"getGroupId()
+",maven,"DefaultExceptionHandler.java
+"
+2053,2053,String,"getArtifactId()
+",maven,"DefaultExceptionHandler.java
+"
+2054,2054,ArtifactRepository,"getRepository()
+",maven,"DefaultExceptionHandler.java
+"
+2068,2068,PluginPrefixResult,"resolveFromProject(PluginPrefixRequest request)
+",maven,"DefaultExceptionHandler.java
+"
+2070,2070,PluginPrefixResult,"resolveFromRepository(PluginPrefixRequest request)
+",maven,"DefaultExceptionHandler.java
+"
+2071,2071,PluginPrefixResult,"processResults(PluginPrefixRequest request, RequestTrace trace, List<MetadataResult> results, List<MetadataRequest> requests)
+",maven,"DefaultExceptionHandler.java
+"
+2073,2073,void,"invalidMetadata(RepositorySystemSession session, RequestTrace trace, org.eclipse.aether.metadata.Metadata metadata, ArtifactRepository repository, Exception exception)
+",maven,"DefaultExceptionHandler.java
+"
+2075,2075,void,"setGroupId(String groupId)
+",maven,"DefaultExceptionHandler.java
+"
+2077,2077,void,"setArtifactId(String artifactId)
+",maven,"DefaultExceptionHandler.java
+"
+2079,2079,void,"setRepository(ArtifactRepository repository)
+",maven,"DefaultExceptionHandler.java
+"
+2080,2080,String,"createMessage(Plugin plugin, String descriptorLocation, Throwable e)
+",maven,"DefaultExceptionHandler.java
+"
+2082,2082,PluginResolutionException,"getException()
+",maven,"DefaultExceptionHandler.java
+"
+2091,2091,boolean,"isTypeCompatible(Class<?> type, Object value)
+",maven,"DefaultExceptionHandler.java
+"
+2092,2092,String,"stripTokens(String expr)
+",maven,"DefaultExceptionHandler.java
+"
+2093,2093,File,"alignToBaseDirectory(File file)
+",maven,"DefaultExceptionHandler.java
+"
+2094,2094,PluginDescriptor,"getPluginDescriptor(Plugin plugin, List<RemoteRepository> repositories, RepositorySystemSession session) throws PluginResolutionException, PluginDescriptorParsingException, InvalidPluginDescriptorException
+",maven,"DefaultExceptionHandler.java
+"
+2096,2096,void,"checkRequiredMavenVersion(PluginDescriptor pluginDescriptor) throws PluginIncompatibleException
+",maven,"DefaultExceptionHandler.java
+"
+2097,2097,void,"setupPluginRealm(PluginDescriptor pluginDescriptor, MavenSession session, ClassLoader parent, List<String> imports, DependencyFilter filter) throws PluginResolutionException, PluginContainerException
+",maven,"DefaultExceptionHandler.java
+"
+2098,2098,ExtensionRealmCache.CacheRecord,"setupExtensionsRealm(MavenProject project, Plugin plugin, RepositorySystemSession session) throws PluginManagerException
+",maven,"DefaultExceptionHandler.java
+"
+2099,2099,T,"getConfiguredMojo(Class<T> mojoInterface, MavenSession session, MojoExecution mojoExecution) throws PluginConfigurationException, PluginContainerException
+",maven,"DefaultExceptionHandler.java
+"
+2100,2100,void,"releaseMojo(Object mojo, MojoExecution mojoExecution)
+",maven,"DefaultExceptionHandler.java
+"
+2102,2102,void,"beforeMojoExecution(MojoExecutionEvent event) throws MojoExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2103,2103,void,"afterMojoExecutionSuccess(MojoExecutionEvent event) throws MojoExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2104,2104,void,"afterExecutionFailure(MojoExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2105,2105,void,"setSession(MavenSession session)
+",maven,"DefaultExceptionHandler.java
+"
+2106,2106,MavenSession,"getSession()
+",maven,"DefaultExceptionHandler.java
+"
+2109,2109,ExtensionDescriptor,"getDescriptor()
+",maven,"DefaultExceptionHandler.java
+"
+2118,2118,List<Parameter>,"getParameters()
+",maven,"DefaultExceptionHandler.java
+"
+2119,2119,void,"decomposeParameterIntoUserInstructions(MojoDescriptor mojo, Parameter param, StringBuilder messageBuffer)
+",maven,"DefaultExceptionHandler.java
+"
+2120,2120,String,"buildDiagnosticMessage()
+",maven,"DefaultExceptionHandler.java
+"
+2121,2121,void,"execute(List<MojoExecution> mojos, MavenSession session, MojoExecutionRunner mojoExecutionRunner) throws LifecycleExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2122,2122,String,"getPluginKey()
+",maven,"DefaultExceptionHandler.java
+"
+2134,2134,Source,"getSource()
+",maven,"DefaultExceptionHandler.java
+"
+2135,2135,String,"getExecutionId()
+",maven,"DefaultExceptionHandler.java
+"
+2138,2138,Xpp3Dom,"getConfiguration()
+",maven,"DefaultExceptionHandler.java
+"
+2139,2139,void,"setConfiguration(Xpp3Dom configuration)
+",maven,"DefaultExceptionHandler.java
+"
+2140,2140,String,"identify()
+",maven,"DefaultExceptionHandler.java
+"
+2141,2141,String,"getLifecyclePhase()
+",maven,"DefaultExceptionHandler.java
+"
+2142,2142,void,"setLifecyclePhase(String lifecyclePhase)
+",maven,"DefaultExceptionHandler.java
+"
+2148,2148,void,"setMojoDescriptor(MojoDescriptor mojoDescriptor)
+",maven,"DefaultExceptionHandler.java
+"
+2149,2149,List<MojoExecution>>,"getForkedExecutions()
+",maven,"DefaultExceptionHandler.java
+"
+2150,2150,void,"setForkedExecutions(String projectKey, List<MojoExecution> forkedExecutions)
+",maven,"DefaultExceptionHandler.java
+"
+2153,2153,MojoExecution,"getMojoExecution()
+",maven,"DefaultExceptionHandler.java
+"
+2154,2154,String,"constructMessage(MojoExecution mojoExecution, Throwable cause)
+",maven,"DefaultExceptionHandler.java
+"
+2174,2174,void,"notifyFieldChangeUsingSetter(String fieldName, Object value, Object target)
+",maven,"DefaultExceptionHandler.java
+"
+2175,2175,void,"notifyFieldChangeUsingReflection(String fieldName, Object value, Object target)
+",maven,"DefaultExceptionHandler.java
+"
+2177,2177,Artifact,"toArtifact(Plugin plugin, RepositorySystemSession session)
+",maven,"DefaultExceptionHandler.java
+"
+2179,2179,DependencyNode,"resolveCoreExtension(Plugin plugin, DependencyFilter dependencyFilter, List<RemoteRepository> repositories, RepositorySystemSession session) throws PluginResolutionException
+",maven,"DefaultExceptionHandler.java
+"
+2181,2181,DependencyNode,"resolveInternal(Plugin plugin, Artifact pluginArtifact, DependencyFilter dependencyFilter, List<RemoteRepository> repositories, RepositorySystemSession session) throws PluginResolutionException
+",maven,"DefaultExceptionHandler.java
+"
+2182,2182,boolean,"visitEnter(DependencyNode node)
+",maven,"DefaultExceptionHandler.java
+"
+2183,2183,boolean,"visitLeave(DependencyNode node)
+",maven,"DefaultExceptionHandler.java
+"
+2184,2184,void,"removeBannedDependencies(Collection<Artifact> artifacts)
+",maven,"DefaultExceptionHandler.java
+"
+2185,2185,void,"startProcessChildren(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2186,2186,boolean,"isLegacyCoreArtifact(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2187,2187,void,"endProcessChildren(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2188,2188,void,"includeArtifact(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2189,2189,boolean,"isWagonProvider(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2190,2190,void,"manageArtifact(Artifact artifact, Artifact replacement)
+",maven,"DefaultExceptionHandler.java
+"
+2191,2191,void,"omitForCycle(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2192,2192,void,"omitForNearer(Artifact omitted, Artifact kept)
+",maven,"DefaultExceptionHandler.java
+"
+2193,2193,void,"restrictRange(Artifact artifact, Artifact replacement, VersionRange newRange)
+",maven,"DefaultExceptionHandler.java
+"
+2194,2194,void,"selectVersionFromRange(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2195,2195,void,"testArtifact(Artifact node)
+",maven,"DefaultExceptionHandler.java
+"
+2196,2196,void,"updateScope(Artifact artifact, String scope)
+",maven,"DefaultExceptionHandler.java
+"
+2197,2197,void,"updateScopeCurrentPom(Artifact artifact, String ignoredScope)
+",maven,"DefaultExceptionHandler.java
+"
+2198,2198,Collection<Parameter>,"getMissingParameters()
+",maven,"DefaultExceptionHandler.java
+"
+2201,2201,void,"notify(String fieldName, Object value)
+",maven,"DefaultExceptionHandler.java
+"
+2202,2202,void,"warnDeprecated(String fieldName, Object value)
+",maven,"DefaultExceptionHandler.java
+"
+2203,2203,Object,"evaluateValue(String value)
+",maven,"DefaultExceptionHandler.java
+"
+2205,2205,void,"validate(Artifact pluginArtfiact, PluginDescriptor pluginDescriptor, List<String> errors)
+",maven,"DefaultExceptionHandler.java
+"
+2211,2211,PluginDescriptor,"extractPluginDescriptor(Artifact pluginArtifact, Plugin plugin) throws PluginDescriptorParsingException, InvalidPluginDescriptorException
+",maven,"DefaultExceptionHandler.java
+"
+2212,2212,String,"getPluginDescriptorLocation()
+",maven,"DefaultExceptionHandler.java
+"
+2213,2213,PluginDescriptor,"parsePluginDescriptor(InputStream is, Plugin plugin, String descriptorLocation) throws PluginDescriptorParsingException
+",maven,"DefaultExceptionHandler.java
+"
+2217,2217,void,"createPluginRealm(PluginDescriptor pluginDescriptor, MavenSession session, ClassLoader parent, Map<String, ClassLoader> foreignImports, DependencyFilter filter) throws PluginResolutionException, PluginContainerException
+",maven,"DefaultExceptionHandler.java
+"
+2218,2218,void,"discoverPluginComponents(final ClassRealm pluginRealm, Plugin plugin, PluginDescriptor pluginDescriptor) throws PluginContainerException
+",maven,"DefaultExceptionHandler.java
+"
+2219,2219,List<org.eclipse.aether.artifact.Artifact>,"toAetherArtifacts(final List<Artifact> pluginArtifacts)
+",maven,"DefaultExceptionHandler.java
+"
+2220,2220,List<Artifact>,"toMavenArtifacts(DependencyNode root, PreorderNodeListGenerator nlg)
+",maven,"DefaultExceptionHandler.java
+"
+2221,2221,ClassLoader>,"calcImports(MavenProject project, ClassLoader parent, List<String> imports)
+",maven,"DefaultExceptionHandler.java
+"
+2223,2223,void,"populatePluginFields(Object mojo, MojoDescriptor mojoDescriptor, ClassRealm pluginRealm, PlexusConfiguration configuration, ExpressionEvaluator expressionEvaluator) throws PluginConfigurationException
+",maven,"DefaultExceptionHandler.java
+"
+2224,2224,void,"validateParameters(MojoDescriptor mojoDescriptor, PlexusConfiguration configuration, ExpressionEvaluator expressionEvaluator) throws ComponentConfigurationException, PluginParameterException
+",maven,"DefaultExceptionHandler.java
+"
+2227,2227,List<Artifact>,"resolveExtensionArtifacts(Plugin extensionPlugin, List<RemoteRepository> repositories, RepositorySystemSession session) throws PluginResolutionException
+",maven,"DefaultExceptionHandler.java
+"
+2236,2236,boolean,"selectDependency(Dependency dependency)
+",maven,"DefaultExceptionHandler.java
+"
+2237,2237,DependencySelector,"deriveChildSelector(DependencyCollectionContext context)
+",maven,"DefaultExceptionHandler.java
+"
+2248,2248,void,"info(CharSequence content)
+",maven,"DefaultExceptionHandler.java
+"
+2251,2251,void,"warn(CharSequence content)
+",maven,"DefaultExceptionHandler.java
+"
+2254,2254,void,"error(CharSequence content)
+",maven,"DefaultExceptionHandler.java
+"
+2257,2257,boolean,"isDebugEnabled()
+",maven,"DefaultExceptionHandler.java
+"
+2258,2258,boolean,"isInfoEnabled()
+",maven,"DefaultExceptionHandler.java
+"
+2259,2259,boolean,"isWarnEnabled()
+",maven,"DefaultExceptionHandler.java
+"
+2260,2260,boolean,"isErrorEnabled()
+",maven,"DefaultExceptionHandler.java
+"
+2267,2267,void,"assertUniqueKey(Key key)
+",maven,"DefaultExceptionHandler.java
+"
+2275,2275,String,"getBaseMessage()
+",maven,"DefaultExceptionHandler.java
+"
+2302,2302,void,"setVersion(String version)
+",maven,"DefaultExceptionHandler.java
+"
+2307,2307,void,"selectVersion(DefaultPluginVersionResult result, PluginVersionRequest request, Versions versions) throws PluginVersionResolutionException
+",maven,"DefaultExceptionHandler.java
+"
+2309,2309,void,"mergeMetadata(RepositorySystemSession session, RequestTrace trace, Versions versions, org.eclipse.aether.metadata.Metadata metadata, ArtifactRepository repository)
+",maven,"DefaultExceptionHandler.java
+"
+2314,2314,PluginVersionResult>,"getCache(SessionData data)
+",maven,"DefaultExceptionHandler.java
+"
+2323,2323,Set<Artifact>,"resolveImpl(Collection<? extends MavenProject> projects, Collection<String> scopesToCollect, Collection<String> scopesToResolve, MavenSession session, Set<String> projectIds) throws ArtifactResolutionException, ArtifactNotFoundException
+",maven,"DefaultExceptionHandler.java
+"
+2324,2324,Set<String>,"getIgnorableArtifacts(Collection<? extends MavenProject> projects)
+",maven,"DefaultExceptionHandler.java
+"
+2326,2326,File,"getModuleFile()
+",maven,"DefaultExceptionHandler.java
+"
+2327,2327,String,"getModuleName()
+",maven,"DefaultExceptionHandler.java
+"
+2328,2328,void,"addExcludes(Set<String> excludes)
+",maven,"DefaultExceptionHandler.java
+"
+2329,2329,void,"addCoreExcludes(Set<String> excludes)
+",maven,"DefaultExceptionHandler.java
+"
+2330,2330,MojoFailureException,"getMojoFailureException()
+",maven,"DefaultExceptionHandler.java
+"
+2331,2331,String,"getProjectId()
+",maven,"DefaultExceptionHandler.java
+"
+2332,2332,Set<String>,"getExportedArtifacts()
+",maven,"DefaultExceptionHandler.java
+"
+2333,2333,ClassLoader>,"getExportedPackages()
+",maven,"DefaultExceptionHandler.java
+"
+2334,2334,ClassRealm,"getClassRealm()
+",maven,"DefaultExceptionHandler.java
+"
+2337,2337,CoreExtensionEntry,"discoverFrom(ClassRealm loader)
+",maven,"DefaultExceptionHandler.java
+"
+2341,2341,String,"getScope()
+",maven,"DefaultExceptionHandler.java
+"
+2344,2344,void,"addScopeInternal(String scope)
+",maven,"DefaultExceptionHandler.java
+"
+2345,2345,boolean,"include(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2346,2346,void,"addScopes(Collection<String> scopes)
+",maven,"DefaultExceptionHandler.java
+"
+2347,2347,void,"addScope(String scope)
+",maven,"DefaultExceptionHandler.java
+"
+2348,2348,Set<String>,"getScopes()
+",maven,"DefaultExceptionHandler.java
+"
+2352,2352,List<String>,"getPatterns()
+",maven,"DefaultExceptionHandler.java
+"
+2357,2357,List<ArtifactFilter>,"getFilters()
+",maven,"DefaultExceptionHandler.java
+"
+2364,2364,Predicate<Exclusion>,"sameArtifactId(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2365,2365,Predicate<Exclusion>,"sameGroupId(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2366,2366,Predicate<Exclusion>,"exclude(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2368,2368,void,"throwErrors(ArtifactResolutionRequest request, ArtifactResolutionResult result) throws ArtifactResolutionException
+",maven,"DefaultExceptionHandler.java
+"
+2369,2369,List<T>,"toList(Collection<T> items)
+",maven,"DefaultExceptionHandler.java
+"
+2370,2370,Artifact,"getArtifact()
+",maven,"DefaultExceptionHandler.java
+"
+2373,2373,List<String>,"getDependencyTrail() throws OverConstrainedVersionException
+",maven,"DefaultExceptionHandler.java
+"
+2374,2374,List<Artifact>,"getTrail() throws OverConstrainedVersionException
+",maven,"DefaultExceptionHandler.java
+"
+2375,2375,boolean,"isResolved()
+",maven,"DefaultExceptionHandler.java
+"
+2376,2376,boolean,"isChildOfRootNode()
+",maven,"DefaultExceptionHandler.java
+"
+2377,2377,Iterator<ResolutionNode>,"getChildrenIterator()
+",maven,"DefaultExceptionHandler.java
+"
+2378,2378,int,"getDepth()
+",maven,"DefaultExceptionHandler.java
+"
+2379,2379,List<ArtifactRepository>,"getRemoteRepositories()
+",maven,"DefaultExceptionHandler.java
+"
+2381,2381,void,"enable()
+",maven,"DefaultExceptionHandler.java
+"
+2382,2382,void,"disable()
+",maven,"DefaultExceptionHandler.java
+"
+2383,2383,boolean,"filterTrail(ArtifactFilter filter) throws OverConstrainedVersionException
+",maven,"DefaultExceptionHandler.java
+"
+2385,2385,void,"setArtifact(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2388,2388,ArtifactResolutionRequest,"setArtifactDependencies(Set<Artifact> artifactDependencies)
+",maven,"DefaultExceptionHandler.java
+"
+2389,2389,Set<Artifact>,"getArtifactDependencies()
+",maven,"DefaultExceptionHandler.java
+"
+2390,2390,ArtifactRepository,"getLocalRepository()
+",maven,"DefaultExceptionHandler.java
+"
+2391,2391,ArtifactResolutionRequest,"setLocalRepository(ArtifactRepository localRepository)
+",maven,"DefaultExceptionHandler.java
+"
+2393,2393,ArtifactResolutionRequest,"setRemoteRepositories(List<ArtifactRepository> remoteRepositories)
+",maven,"DefaultExceptionHandler.java
+"
+2394,2394,ArtifactFilter,"getCollectionFilter()
+",maven,"DefaultExceptionHandler.java
+"
+2395,2395,ArtifactResolutionRequest,"setCollectionFilter(ArtifactFilter filter)
+",maven,"DefaultExceptionHandler.java
+"
+2396,2396,ArtifactFilter,"getResolutionFilter()
+",maven,"DefaultExceptionHandler.java
+"
+2397,2397,ArtifactResolutionRequest,"setResolutionFilter(ArtifactFilter filter)
+",maven,"DefaultExceptionHandler.java
+"
+2398,2398,List<ResolutionListener>,"getListeners()
+",maven,"DefaultExceptionHandler.java
+"
+2399,2399,ArtifactResolutionRequest,"setListeners(List<ResolutionListener> listeners)
+",maven,"DefaultExceptionHandler.java
+"
+2400,2400,ArtifactResolutionRequest,"addListener(ResolutionListener listener)
+",maven,"DefaultExceptionHandler.java
+"
+2401,2401,Artifact>,"getManagedVersionMap()
+",maven,"DefaultExceptionHandler.java
+"
+2402,2402,ArtifactResolutionRequest,"setManagedVersionMap(Map<String, Artifact> managedVersionMap)
+",maven,"DefaultExceptionHandler.java
+"
+2403,2403,ArtifactResolutionRequest,"setResolveRoot(boolean resolveRoot)
+",maven,"DefaultExceptionHandler.java
+"
+2404,2404,boolean,"isResolveRoot()
+",maven,"DefaultExceptionHandler.java
+"
+2405,2405,ArtifactResolutionRequest,"setResolveTransitively(boolean resolveDependencies)
+",maven,"DefaultExceptionHandler.java
+"
+2406,2406,boolean,"isResolveTransitively()
+",maven,"DefaultExceptionHandler.java
+"
+2408,2408,boolean,"isOffline()
+",maven,"DefaultExceptionHandler.java
+"
+2409,2409,ArtifactResolutionRequest,"setOffline(boolean offline)
+",maven,"DefaultExceptionHandler.java
+"
+2410,2410,boolean,"isForceUpdate()
+",maven,"DefaultExceptionHandler.java
+"
+2411,2411,ArtifactResolutionRequest,"setForceUpdate(boolean forceUpdate)
+",maven,"DefaultExceptionHandler.java
+"
+2412,2412,ArtifactResolutionRequest,"setServers(List<Server> servers)
+",maven,"DefaultExceptionHandler.java
+"
+2413,2413,List<Server>,"getServers()
+",maven,"DefaultExceptionHandler.java
+"
+2414,2414,ArtifactResolutionRequest,"setMirrors(List<Mirror> mirrors)
+",maven,"DefaultExceptionHandler.java
+"
+2415,2415,List<Mirror>,"getMirrors()
+",maven,"DefaultExceptionHandler.java
+"
+2416,2416,ArtifactResolutionRequest,"setProxies(List<Proxy> proxies)
+",maven,"DefaultExceptionHandler.java
+"
+2417,2417,List<Proxy>,"getProxies()
+",maven,"DefaultExceptionHandler.java
+"
+2418,2418,ArtifactResolutionRequest,"setCache(RepositoryCache cache)
+",maven,"DefaultExceptionHandler.java
+"
+2431,2431,Artifact,"getOriginatingArtifact()
+",maven,"DefaultExceptionHandler.java
+"
+2432,2432,ArtifactResolutionResult,"setOriginatingArtifact(final Artifact originatingArtifact)
+",maven,"DefaultExceptionHandler.java
+"
+2433,2433,void,"addArtifact(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2435,2435,void,"setArtifacts(Set<Artifact> artifacts)
+",maven,"DefaultExceptionHandler.java
+"
+2436,2436,Set<ResolutionNode>,"getArtifactResolutionNodes()
+",maven,"DefaultExceptionHandler.java
+"
+2437,2437,void,"setArtifactResolutionNodes(Set<ResolutionNode> resolutionNodes)
+",maven,"DefaultExceptionHandler.java
+"
+2438,2438,boolean,"hasMissingArtifacts()
+",maven,"DefaultExceptionHandler.java
+"
+2439,2439,List<Artifact>,"getMissingArtifacts()
+",maven,"DefaultExceptionHandler.java
+"
+2440,2440,ArtifactResolutionResult,"addMissingArtifact(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2441,2441,ArtifactResolutionResult,"setUnresolvedArtifacts(final List<Artifact> unresolvedArtifacts)
+",maven,"DefaultExceptionHandler.java
+"
+2442,2442,boolean,"isSuccess()
+",maven,"DefaultExceptionHandler.java
+"
+2443,2443,boolean,"hasExceptions()
+",maven,"DefaultExceptionHandler.java
+"
+2444,2444,List<Exception>,"getExceptions()
+",maven,"DefaultExceptionHandler.java
+"
+2445,2445,boolean,"hasVersionRangeViolations()
+",maven,"DefaultExceptionHandler.java
+"
+2446,2446,ArtifactResolutionResult,"addVersionRangeViolation(Exception e)
+",maven,"DefaultExceptionHandler.java
+"
+2447,2447,OverConstrainedVersionException,"getVersionRangeViolation(int i)
+",maven,"DefaultExceptionHandler.java
+"
+2448,2448,List<Exception>,"getVersionRangeViolations()
+",maven,"DefaultExceptionHandler.java
+"
+2449,2449,boolean,"hasMetadataResolutionExceptions()
+",maven,"DefaultExceptionHandler.java
+"
+2450,2450,ArtifactResolutionResult,"addMetadataResolutionException(ArtifactResolutionException e)
+",maven,"DefaultExceptionHandler.java
+"
+2451,2451,ArtifactResolutionException,"getMetadataResolutionException(int i)
+",maven,"DefaultExceptionHandler.java
+"
+2452,2452,List<ArtifactResolutionException>,"getMetadataResolutionExceptions()
+",maven,"DefaultExceptionHandler.java
+"
+2453,2453,boolean,"hasErrorArtifactExceptions()
+",maven,"DefaultExceptionHandler.java
+"
+2454,2454,ArtifactResolutionResult,"addErrorArtifactException(ArtifactResolutionException e)
+",maven,"DefaultExceptionHandler.java
+"
+2455,2455,List<ArtifactResolutionException>,"getErrorArtifactExceptions()
+",maven,"DefaultExceptionHandler.java
+"
+2456,2456,boolean,"hasCircularDependencyExceptions()
+",maven,"DefaultExceptionHandler.java
+"
+2457,2457,ArtifactResolutionResult,"addCircularDependencyException(CyclicDependencyException e)
+",maven,"DefaultExceptionHandler.java
+"
+2458,2458,CyclicDependencyException,"getCircularDependencyException(int i)
+",maven,"DefaultExceptionHandler.java
+"
+2459,2459,List<CyclicDependencyException>,"getCircularDependencyExceptions()
+",maven,"DefaultExceptionHandler.java
+"
+2462,2462,List<T>,"initList(final List<T> l)
+",maven,"DefaultExceptionHandler.java
+"
+2464,2464,ArtifactHandler,"getArtifactHandler(String type)
+",maven,"DefaultExceptionHandler.java
+"
+2465,2465,void,"addHandlers(Map<String, ArtifactHandler> handlers)
+",maven,"DefaultExceptionHandler.java
+"
+2468,2468,Set<String>,"getHandlerTypes()
+",maven,"DefaultExceptionHandler.java
+"
+2482,2482,void,"setExtension(final String extension)
+",maven,"DefaultExceptionHandler.java
+"
+2483,2483,String,"getClassifier()
+",maven,"DefaultExceptionHandler.java
+"
+2484,2484,void,"setClassifier(final String classifier)
+",maven,"DefaultExceptionHandler.java
+"
+2485,2485,String,"getDirectory()
+",maven,"DefaultExceptionHandler.java
+"
+2486,2486,void,"setDirectory(final String directory)
+",maven,"DefaultExceptionHandler.java
+"
+2487,2487,String,"getPackaging()
+",maven,"DefaultExceptionHandler.java
+"
+2488,2488,void,"setPackaging(final String packaging)
+",maven,"DefaultExceptionHandler.java
+"
+2489,2489,boolean,"isIncludesDependencies()
+",maven,"DefaultExceptionHandler.java
+"
+2490,2490,void,"setIncludesDependencies(final boolean includesDependencies)
+",maven,"DefaultExceptionHandler.java
+"
+2491,2491,String,"getLanguage()
+",maven,"DefaultExceptionHandler.java
+"
+2492,2492,void,"setLanguage(final String language)
+",maven,"DefaultExceptionHandler.java
+"
+2493,2493,boolean,"isAddedToClasspath()
+",maven,"DefaultExceptionHandler.java
+"
+2494,2494,void,"setAddedToClasspath(final boolean addedToClasspath)
+",maven,"DefaultExceptionHandler.java
+"
+2495,2495,String,"getRepositoryId()
+",maven,"DefaultExceptionHandler.java
+"
+2496,2496,ResolutionGroup,"retrieve(MetadataResolutionRequest request) throws ArtifactMetadataRetrievalException
+",maven,"DefaultExceptionHandler.java
+"
+2498,2498,List<ArtifactVersion>,"retrieveAvailableVersions(MetadataResolutionRequest request) throws ArtifactMetadataRetrievalException
+",maven,"DefaultExceptionHandler.java
+"
+2500,2500,List<ArtifactVersion>,"retrieveAvailableVersionsFromDeploymentRepository(Artifact artifact, ArtifactRepository localRepository, ArtifactRepository remoteRepository) throws ArtifactMetadataRetrievalException
+",maven,"DefaultExceptionHandler.java
+"
+2501,2501,RepositorySystemSession,"overlay(ArtifactRepository repository, RepositorySystemSession session, RepositorySystem system)
+",maven,"DefaultExceptionHandler.java
+"
+2503,2503,String,"getPathForLocalArtifact(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2504,2504,String,"getPathForRemoteArtifact(Artifact artifact, RemoteRepository repository, String context)
+",maven,"DefaultExceptionHandler.java
+"
+2505,2505,String,"getPathForLocalMetadata(Metadata metadata)
+",maven,"DefaultExceptionHandler.java
+"
+2506,2506,String,"getPathForRemoteMetadata(Metadata metadata, RemoteRepository repository, String context)
+",maven,"DefaultExceptionHandler.java
+"
+2507,2507,LocalArtifactResult,"find(RepositorySystemSession session, LocalArtifactRequest request)
+",maven,"DefaultExceptionHandler.java
+"
+2511,2511,boolean,"storedInArtifactVersionDirectory()
+",maven,"DefaultExceptionHandler.java
+"
+2512,2512,boolean,"storedInGroupDirectory()
+",maven,"DefaultExceptionHandler.java
+"
+2515,2515,String,"getBaseVersion()
+",maven,"DefaultExceptionHandler.java
+"
+2516,2516,String,"nullify(String str)
+",maven,"DefaultExceptionHandler.java
+"
+2518,2518,String,"getRemoteFilename()
+",maven,"DefaultExceptionHandler.java
+"
+2519,2519,String,"getLocalFilename(ArtifactRepository repository)
+",maven,"DefaultExceptionHandler.java
+"
+2520,2520,String,"insertRepositoryKey(String filename, String repositoryKey)
+",maven,"DefaultExceptionHandler.java
+"
+2521,2521,void,"merge(org.apache.maven.repository.legacy.metadata.ArtifactMetadata metadata)
+",maven,"DefaultExceptionHandler.java
+"
+2523,2523,void,"storeInLocalRepository(ArtifactRepository localRepository, ArtifactRepository remoteRepository) throws RepositoryMetadataStoreException
+",maven,"DefaultExceptionHandler.java
+"
+2524,2524,String,"extendedToString()
+",maven,"DefaultExceptionHandler.java
+"
+2525,2525,String,"pathOf(org.apache.maven.artifact.Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2526,2526,String,"pathOfRemoteRepositoryMetadata(ArtifactMetadata artifactMetadata)
+",maven,"DefaultExceptionHandler.java
+"
+2527,2527,String,"pathOfLocalRepositoryMetadata(ArtifactMetadata metadata, ArtifactRepository repository)
+",maven,"DefaultExceptionHandler.java
+"
+2528,2528,String,"getUrl()
+",maven,"DefaultExceptionHandler.java
+"
+2529,2529,void,"setUrl(String url)
+",maven,"DefaultExceptionHandler.java
+"
+2530,2530,String,"getBasedir()
+",maven,"DefaultExceptionHandler.java
+"
+2531,2531,String,"getProtocol()
+",maven,"DefaultExceptionHandler.java
+"
+2532,2532,String,"getId()
+",maven,"DefaultExceptionHandler.java
+"
+2533,2533,void,"setId(String id)
+",maven,"DefaultExceptionHandler.java
+"
+2534,2534,ArtifactRepositoryPolicy,"getSnapshots()
+",maven,"DefaultExceptionHandler.java
+"
+2535,2535,void,"setSnapshotUpdatePolicy(ArtifactRepositoryPolicy policy)
+",maven,"DefaultExceptionHandler.java
+"
+2536,2536,ArtifactRepositoryPolicy,"getReleases()
+",maven,"DefaultExceptionHandler.java
+"
+2537,2537,void,"setReleaseUpdatePolicy(ArtifactRepositoryPolicy policy)
+",maven,"DefaultExceptionHandler.java
+"
+2538,2538,ArtifactRepositoryLayout,"getLayout()
+",maven,"DefaultExceptionHandler.java
+"
+2539,2539,void,"setLayout(ArtifactRepositoryLayout layout)
+",maven,"DefaultExceptionHandler.java
+"
+2541,2541,boolean,"isUniqueVersion()
+",maven,"DefaultExceptionHandler.java
+"
+2542,2542,boolean,"isBlacklisted()
+",maven,"DefaultExceptionHandler.java
+"
+2543,2543,void,"setBlacklisted(boolean blackListed)
+",maven,"DefaultExceptionHandler.java
+"
+2545,2545,List<String>,"findVersions(org.apache.maven.artifact.Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2546,2546,boolean,"isProjectAware()
+",maven,"DefaultExceptionHandler.java
+"
+2547,2547,void,"setAuthentication(Authentication authentication)
+",maven,"DefaultExceptionHandler.java
+"
+2548,2548,Authentication,"getAuthentication()
+",maven,"DefaultExceptionHandler.java
+"
+2549,2549,void,"setProxy(Proxy proxy)
+",maven,"DefaultExceptionHandler.java
+"
+2550,2550,Proxy,"getProxy()
+",maven,"DefaultExceptionHandler.java
+"
+2551,2551,List<ArtifactRepository>,"getMirroredRepositories()
+",maven,"DefaultExceptionHandler.java
+"
+2552,2552,void,"setMirroredRepositories(List<ArtifactRepository> mirroredRepositories)
+",maven,"DefaultExceptionHandler.java
+"
+2553,2553,boolean,"isBlocked()
+",maven,"DefaultExceptionHandler.java
+"
+2554,2554,void,"setBlocked(boolean blocked)
+",maven,"DefaultExceptionHandler.java
+"
+2568,2568,void,"setMetadata(Metadata metadata)
+",maven,"DefaultExceptionHandler.java
+"
+2569,2569,boolean,"isSnapshot()
+",maven,"DefaultExceptionHandler.java
+"
+2570,2570,int,"getNature()
+",maven,"DefaultExceptionHandler.java
+"
+2571,2571,ArtifactRepositoryPolicy,"getPolicy(ArtifactRepository repository)
+",maven,"DefaultExceptionHandler.java
+"
+2574,2574,void,"resolveAlways(RepositoryMetadata metadata, ArtifactRepository localRepository, ArtifactRepository remoteRepository) throws RepositoryMetadataResolutionException
+",maven,"DefaultExceptionHandler.java
+"
+2575,2575,void,"deploy(ArtifactMetadata metadata, ArtifactRepository localRepository, ArtifactRepository deploymentRepository) throws RepositoryMetadataDeploymentException
+",maven,"DefaultExceptionHandler.java
+"
+2576,2576,void,"install(ArtifactMetadata metadata, ArtifactRepository localRepository) throws RepositoryMetadataInstallationException
+",maven,"DefaultExceptionHandler.java
+"
+2591,2591,void,"updateRepositoryMetadata(ArtifactRepository localRepository, ArtifactRepository remoteRepository) throws IOException, XmlPullParserException
+",maven,"DefaultExceptionHandler.java
+"
+2593,2593,Metadata,"createMetadata(Artifact artifact, Versioning versioning)
+",maven,"DefaultExceptionHandler.java
+"
+2594,2594,Versioning,"createVersioning(Snapshot snapshot)
+",maven,"DefaultExceptionHandler.java
+"
+2605,2605,boolean,"isStrict(Map<String, ?> options)
+",maven,"DefaultExceptionHandler.java
+"
+2606,2606,int,"getLineNumber()
+",maven,"DefaultExceptionHandler.java
+"
+2607,2607,int,"getColumnNumber()
+",maven,"DefaultExceptionHandler.java
+"
+2614,2614,String,"pathOfRepositoryMetadata(ArtifactMetadata metadata, String filename)
+",maven,"DefaultExceptionHandler.java
+"
+2616,2616,String,"formatAsDirectory(String directory)
+",maven,"DefaultExceptionHandler.java
+"
+2637,2637,String,"protocol(final String url)
+",maven,"DefaultExceptionHandler.java
+"
+2638,2638,String,"basedir(String url)
+",maven,"DefaultExceptionHandler.java
+"
+2639,2639,String,"decode(String url)
+",maven,"DefaultExceptionHandler.java
+"
+2655,2655,RepositoryRequest,"getRepositoryRequest(MavenSession session, MavenProject project)
+",maven,"DefaultExceptionHandler.java
+"
+2664,2664,Artifact,"createArtifact(String groupId, String artifactId, String version, String scope, String type)
+",maven,"DefaultExceptionHandler.java
+"
+2665,2665,Artifact,"createArtifactWithClassifier(String groupId, String artifactId, String version, String type, String classifier)
+",maven,"DefaultExceptionHandler.java
+"
+2666,2666,Artifact,"createDependencyArtifact(String groupId, String artifactId, VersionRange versionRange, String type, String classifier, String scope)
+",maven,"DefaultExceptionHandler.java
+"
+2670,2670,Artifact,"createBuildArtifact(String groupId, String artifactId, String version, String packaging)
+",maven,"DefaultExceptionHandler.java
+"
+2671,2671,Artifact,"createProjectArtifact(String groupId, String artifactId, String version)
+",maven,"DefaultExceptionHandler.java
+"
+2672,2672,Artifact,"createParentArtifact(String groupId, String artifactId, String version)
+",maven,"DefaultExceptionHandler.java
+"
+2673,2673,Artifact,"createPluginArtifact(String groupId, String artifactId, VersionRange versionRange)
+",maven,"DefaultExceptionHandler.java
+"
+2675,2675,Artifact,"createExtensionArtifact(String groupId, String artifactId, VersionRange versionRange)
+",maven,"DefaultExceptionHandler.java
+"
+2694,2694,void,"toArtifacts(Collection<org.apache.maven.artifact.Artifact> artifacts, Collection<? extends DependencyNode> nodes, List<String> trail, DependencyFilter filter)
+",maven,"DefaultExceptionHandler.java
+"
+2696,2696,Dependency,"toDependency(org.apache.maven.artifact.Artifact artifact, Collection<org.apache.maven.model.Exclusion> exclusions)
+",maven,"DefaultExceptionHandler.java
+"
+2697,2697,List<RemoteRepository>,"toRepos(List<ArtifactRepository> repos)
+",maven,"DefaultExceptionHandler.java
+"
+2698,2698,RemoteRepository,"toRepo(ArtifactRepository repo)
+",maven,"DefaultExceptionHandler.java
+"
+2700,2700,RepositoryPolicy,"toPolicy(ArtifactRepositoryPolicy policy)
+",maven,"DefaultExceptionHandler.java
+"
+2701,2701,Authentication,"toAuthentication(org.apache.maven.artifact.repository.Authentication auth)
+",maven,"DefaultExceptionHandler.java
+"
+2702,2702,Proxy,"toProxy(org.apache.maven.repository.Proxy proxy)
+",maven,"DefaultExceptionHandler.java
+"
+2703,2703,ArtifactHandler,"newHandler(Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2704,2704,ArtifactType,"newArtifactType(String id, ArtifactHandler handler)
+",maven,"DefaultExceptionHandler.java
+"
+2706,2706,Exclusion,"toExclusion(org.apache.maven.model.Exclusion exclusion)
+",maven,"DefaultExceptionHandler.java
+"
+2707,2707,ArtifactTypeRegistry,"newArtifactTypeRegistry(ArtifactHandlerManager handlerManager)
+",maven,"DefaultExceptionHandler.java
+"
+2710,2710,WorkspaceRepository,"getWorkspace(RepositorySystemSession session)
+",maven,"DefaultExceptionHandler.java
+"
+2711,2711,boolean,"repositoriesEquals(List<RemoteRepository> r1, List<RemoteRepository> r2)
+",maven,"DefaultExceptionHandler.java
+"
+2712,2712,int,"repositoriesHashCode(List<RemoteRepository> repositories)
+",maven,"DefaultExceptionHandler.java
+"
+2713,2713,int,"repositoryHashCode(RemoteRepository repository)
+",maven,"DefaultExceptionHandler.java
+"
+2714,2714,boolean,"policyEquals(RepositoryPolicy p1, RepositoryPolicy p2)
+",maven,"DefaultExceptionHandler.java
+"
+2715,2715,boolean,"repositoryEquals(RemoteRepository r1, RemoteRepository r2)
+",maven,"DefaultExceptionHandler.java
+"
+2716,2716,void,"startEvent(String eventName, String target, long timestamp)
+",maven,"DefaultExceptionHandler.java
+"
+2717,2717,void,"endEvent(String eventName, String target, long timestamp)
+",maven,"DefaultExceptionHandler.java
+"
+2718,2718,void,"errorEvent(String eventName, String target, long timestamp, Throwable cause)
+",maven,"DefaultExceptionHandler.java
+"
+2719,2719,void,"addEventMonitor(EventMonitor monitor)
+",maven,"DefaultExceptionHandler.java
+"
+2720,2720,void,"dispatchStart(String event, String target)
+",maven,"DefaultExceptionHandler.java
+"
+2721,2721,void,"dispatchEnd(String event, String target)
+",maven,"DefaultExceptionHandler.java
+"
+2722,2722,void,"dispatchError(String event, String target, Throwable cause)
+",maven,"DefaultExceptionHandler.java
+"
+2728,2728,List<MavenProject>,"getAllProjects()
+",maven,"DefaultExceptionHandler.java
+"
+2729,2729,List<MavenProject>,"getSortedProjects()
+",maven,"DefaultExceptionHandler.java
+"
+2730,2730,List<MavenProject>,"getDownstreamProjects(MavenProject project, boolean transitive)
+",maven,"DefaultExceptionHandler.java
+"
+2732,2732,List<MavenProject>,"getUpstreamProjects(MavenProject project, boolean transitive)
+",maven,"DefaultExceptionHandler.java
+"
+2737,2737,Result<ProjectDependencyGraph>,"sessionDependencyGraph(final MavenSession session) throws CycleDetectedException, DuplicateProjectException
+",maven,"DefaultExceptionHandler.java
+"
+2738,2738,Result<ProjectDependencyGraph>,"reactorDependencyGraph(MavenSession session, List<MavenProject> projects) throws CycleDetectedException, DuplicateProjectException, MavenExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2739,2739,List<MavenProject>,"trimProjectsToRequest(List<MavenProject> activeProjects, ProjectDependencyGraph graph, MavenExecutionRequest request) throws MavenExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2740,2740,List<MavenProject>,"trimSelectedProjects(List<MavenProject> projects, List<MavenProject> allSortedProjects, ProjectDependencyGraph graph, MavenExecutionRequest request) throws MavenExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2741,2741,Set<MavenProject>,"getProjectsBySelectors(MavenExecutionRequest request, List<MavenProject> projects, Set<String> projectSelectors, boolean required) throws MavenExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2742,2742,List<MavenProject>,"trimResumedProjects(List<MavenProject> projects, ProjectDependencyGraph graph, MavenExecutionRequest request) throws MavenExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2743,2743,List<MavenProject>,"trimExcludedProjects(List<MavenProject> projects, ProjectDependencyGraph graph, MavenExecutionRequest request) throws MavenExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2744,2744,List<MavenProject>,"includeAlsoMakeTransitively(List<MavenProject> projects, MavenExecutionRequest request, ProjectDependencyGraph graph) throws MavenExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2745,2745,void,"enrichRequestFromResumptionData(List<MavenProject> projects, MavenExecutionRequest request)
+",maven,"DefaultExceptionHandler.java
+"
+2746,2746,List<MavenProject>,"getProjectsInRequestScope(MavenExecutionRequest request, List<MavenProject> projects) throws MavenExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2747,2747,String,"formatProjects(List<MavenProject> projects)
+",maven,"DefaultExceptionHandler.java
+"
+2748,2748,boolean,"isMatchingProject(MavenProject project, String selector, File reactorDirectory)
+",maven,"DefaultExceptionHandler.java
+"
+2749,2749,File,"getReactorDirectory(MavenExecutionRequest request)
+",maven,"DefaultExceptionHandler.java
+"
+2750,2750,List<MavenProject>,"getProjectsForMavenReactor(MavenSession session) throws ProjectBuildingException
+",maven,"DefaultExceptionHandler.java
+"
+2751,2751,void,"validateProjects(List<MavenProject> projects, MavenExecutionRequest request) throws MavenExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2756,2756,List<MavenProject>,"applyFilter(Collection<? extends MavenProject> projects)
+",maven,"DefaultExceptionHandler.java
+"
+2762,2762,MavenExecutionResult,"setProject(MavenProject project)
+",maven,"DefaultExceptionHandler.java
+"
+2764,2764,MavenExecutionResult,"setTopologicallySortedProjects(List<MavenProject> topologicallySortedProjects)
+",maven,"DefaultExceptionHandler.java
+"
+2765,2765,List<MavenProject>,"getTopologicallySortedProjects()
+",maven,"DefaultExceptionHandler.java
+"
+2766,2766,DependencyResolutionResult,"getDependencyResolutionResult()
+",maven,"DefaultExceptionHandler.java
+"
+2767,2767,MavenExecutionResult,"setDependencyResolutionResult(DependencyResolutionResult dependencyResolutionResult)
+",maven,"DefaultExceptionHandler.java
+"
+2769,2769,MavenExecutionResult,"addException(Throwable t)
+",maven,"DefaultExceptionHandler.java
+"
+2771,2771,BuildSummary,"getBuildSummary(MavenProject project)
+",maven,"DefaultExceptionHandler.java
+"
+2772,2772,void,"addBuildSummary(BuildSummary summary)
+",maven,"DefaultExceptionHandler.java
+"
+2773,2773,boolean,"canResume()
+",maven,"DefaultExceptionHandler.java
+"
+2774,2774,void,"setCanResume(boolean canResume)
+",maven,"DefaultExceptionHandler.java
+"
+2776,2776,boolean,"isInteractiveMode()
+",maven,"DefaultExceptionHandler.java
+"
+2781,2781,List<Profile>,"getProfiles()
+",maven,"DefaultExceptionHandler.java
+"
+2782,2782,List<String>,"getActiveProfiles()
+",maven,"DefaultExceptionHandler.java
+"
+2784,2784,void,"beforeProjectExecution(ProjectExecutionEvent event) throws LifecycleExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2785,2785,void,"beforeProjectLifecycleExecution(ProjectExecutionEvent event) throws LifecycleExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2786,2786,void,"afterProjectExecutionSuccess(ProjectExecutionEvent event) throws LifecycleExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2787,2787,void,"afterProjectExecutionFailure(ProjectExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2788,2788,void,"addProjectActivation(String selector, boolean active, boolean optional)
+",maven,"DefaultExceptionHandler.java
+"
+2789,2789,Stream<ProjectActivationSettings>,"getProjects(final Predicate<ActivationSettings> predicate)
+",maven,"DefaultExceptionHandler.java
+"
+2790,2790,Set<String>,"getProjectSelectors(final Predicate<ActivationSettings> predicate)
+",maven,"DefaultExceptionHandler.java
+"
+2791,2791,Set<String>,"getRequiredActiveProjectSelectors()
+",maven,"DefaultExceptionHandler.java
+"
+2792,2792,Set<String>,"getOptionalActiveProjectSelectors()
+",maven,"DefaultExceptionHandler.java
+"
+2793,2793,Set<String>,"getRequiredInactiveProjectSelectors()
+",maven,"DefaultExceptionHandler.java
+"
+2794,2794,Set<String>,"getOptionalInactiveProjectSelectors()
+",maven,"DefaultExceptionHandler.java
+"
+2795,2795,List<String>,"getSelectedProjects()
+",maven,"DefaultExceptionHandler.java
+"
+2796,2796,List<String>,"getExcludedProjects()
+",maven,"DefaultExceptionHandler.java
+"
+2797,2797,void,"overwriteActiveProjects(List<String> activeProjectSelectors)
+",maven,"DefaultExceptionHandler.java
+"
+2798,2798,void,"overwriteInactiveProjects(List<String> inactiveProjectSelectors)
+",maven,"DefaultExceptionHandler.java
+"
+2799,2799,void,"activateRequiredProject(String selector)
+",maven,"DefaultExceptionHandler.java
+"
+2800,2800,void,"activateOptionalProject(String selector)
+",maven,"DefaultExceptionHandler.java
+"
+2801,2801,void,"deactivateRequiredProject(String selector)
+",maven,"DefaultExceptionHandler.java
+"
+2802,2802,void,"deactivateOptionalProject(String selector)
+",maven,"DefaultExceptionHandler.java
+"
+2803,2803,boolean,"isEmpty()
+",maven,"DefaultExceptionHandler.java
+"
+2808,2808,List<MojoExecution>,"getExecutionPlan()
+",maven,"DefaultExceptionHandler.java
+"
+2809,2809,Throwable,"getCause()
+",maven,"DefaultExceptionHandler.java
+"
+2810,2810,PluginInfo,"getPluginInfo(final Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2813,2813,String,"getPluginPrefix()
+",maven,"DefaultExceptionHandler.java
+"
+2814,2814,String,"getPluginName()
+",maven,"DefaultExceptionHandler.java
+"
+2815,2815,MavenProject,"searchForProject(MavenSession mavenSession, Artifact artifact)
+",maven,"DefaultExceptionHandler.java
+"
+2816,2816,Plugin,"searchForPluginGroupLevelRepositoryMetadata(MavenProject mavenProject)
+",maven,"DefaultExceptionHandler.java
+"
+2817,2817,void,"projectDiscoveryStarted(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2818,2818,void,"sessionStarted(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2819,2819,void,"sessionEnded(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2820,2820,void,"projectSkipped(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2821,2821,void,"projectStarted(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2822,2822,void,"projectSucceeded(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2823,2823,void,"projectFailed(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2824,2824,void,"mojoSkipped(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2825,2825,void,"mojoStarted(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2826,2826,void,"mojoSucceeded(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2827,2827,void,"mojoFailed(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2828,2828,void,"forkStarted(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2829,2829,void,"forkSucceeded(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2830,2830,void,"forkFailed(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2831,2831,void,"forkedProjectStarted(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2832,2832,void,"forkedProjectSucceeded(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2833,2833,void,"forkedProjectFailed(ExecutionEvent event)
+",maven,"DefaultExceptionHandler.java
+"
+2834,2834,MavenExecutionRequest,"copy(MavenExecutionRequest original)
+",maven,"DefaultExceptionHandler.java
+"
+2835,2835,String,"getBaseDirectory()
+",maven,"DefaultExceptionHandler.java
+"
+2837,2837,File,"getLocalRepositoryPath()
+",maven,"DefaultExceptionHandler.java
+"
+2838,2838,List<String>,"getGoals()
+",maven,"DefaultExceptionHandler.java
+"
+2839,2839,Properties,"getSystemProperties()
+",maven,"DefaultExceptionHandler.java
+"
+2840,2840,Properties,"getUserProperties()
+",maven,"DefaultExceptionHandler.java
+"
+2842,2842,String,"getReactorFailureBehavior()
+",maven,"DefaultExceptionHandler.java
+"
+2845,2845,boolean,"isResume()
+",maven,"DefaultExceptionHandler.java
+"
+2846,2846,String,"getResumeFrom()
+",maven,"DefaultExceptionHandler.java
+"
+2847,2847,String,"getMakeBehavior()
+",maven,"DefaultExceptionHandler.java
+"
+2849,2849,boolean,"isShowErrors()
+",maven,"DefaultExceptionHandler.java
+"
+2851,2851,MavenExecutionRequest,"setActiveProfiles(List<String> activeProfiles)
+",maven,"DefaultExceptionHandler.java
+"
+2852,2852,MavenExecutionRequest,"setInactiveProfiles(List<String> inactiveProfiles)
+",maven,"DefaultExceptionHandler.java
+"
+2853,2853,ProjectActivation,"getProjectActivation()
+",maven,"DefaultExceptionHandler.java
+"
+2854,2854,ProfileActivation,"getProfileActivation()
+",maven,"DefaultExceptionHandler.java
+"
+2856,2856,MavenExecutionRequest,"setPluginArtifactRepositories(List<ArtifactRepository> pluginArtifactRepositories)
+",maven,"DefaultExceptionHandler.java
+"
+2857,2857,void,"setProjectBuildingConfiguration(ProjectBuildingRequest projectBuildingConfiguration)
+",maven,"DefaultExceptionHandler.java
+"
+2859,2859,List<String>,"getInactiveProfiles()
+",maven,"DefaultExceptionHandler.java
+"
+2860,2860,TransferListener,"getTransferListener()
+",maven,"DefaultExceptionHandler.java
+"
+2861,2861,int,"getLoggingLevel()
+",maven,"DefaultExceptionHandler.java
+"
+2863,2863,boolean,"isUpdateSnapshots()
+",maven,"DefaultExceptionHandler.java
+"
+2864,2864,boolean,"isNoSnapshotUpdates()
+",maven,"DefaultExceptionHandler.java
+"
+2865,2865,String,"getGlobalChecksumPolicy()
+",maven,"DefaultExceptionHandler.java
+"
+2866,2866,boolean,"isRecursive()
+",maven,"DefaultExceptionHandler.java
+"
+2867,2867,MavenExecutionRequest,"setBaseDirectory(File basedir)
+",maven,"DefaultExceptionHandler.java
+"
+2869,2869,MavenExecutionRequest,"setShowErrors(boolean showErrors)
+",maven,"DefaultExceptionHandler.java
+"
+2870,2870,MavenExecutionRequest,"setGoals(List<String> goals)
+",maven,"DefaultExceptionHandler.java
+"
+2872,2872,MavenExecutionRequest,"setLocalRepositoryPath(File localRepository)
+",maven,"DefaultExceptionHandler.java
+"
+2874,2874,MavenExecutionRequest,"setSystemProperties(Properties properties)
+",maven,"DefaultExceptionHandler.java
+"
+2875,2875,MavenExecutionRequest,"setUserProperties(Properties userProperties)
+",maven,"DefaultExceptionHandler.java
+"
+2876,2876,MavenExecutionRequest,"setReactorFailureBehavior(String failureBehavior)
+",maven,"DefaultExceptionHandler.java
+"
+2877,2877,MavenExecutionRequest,"setSelectedProjects(List<String> selectedProjects)
+",maven,"DefaultExceptionHandler.java
+"
+2878,2878,MavenExecutionRequest,"setExcludedProjects(List<String> excludedProjects)
+",maven,"DefaultExceptionHandler.java
+"
+2879,2879,MavenExecutionRequest,"setResume(boolean resume)
+",maven,"DefaultExceptionHandler.java
+"
+2880,2880,MavenExecutionRequest,"setResumeFrom(String project)
+",maven,"DefaultExceptionHandler.java
+"
+2881,2881,MavenExecutionRequest,"setMakeBehavior(String makeBehavior)
+",maven,"DefaultExceptionHandler.java
+"
+2882,2882,MavenExecutionRequest,"addActiveProfile(String profile)
+",maven,"DefaultExceptionHandler.java
+"
+2883,2883,MavenExecutionRequest,"addInactiveProfile(String profile)
+",maven,"DefaultExceptionHandler.java
+"
+2884,2884,MavenExecutionRequest,"addActiveProfiles(List<String> profiles)
+",maven,"DefaultExceptionHandler.java
+"
+2885,2885,MavenExecutionRequest,"addInactiveProfiles(List<String> profiles)
+",maven,"DefaultExceptionHandler.java
+"
+2886,2886,MavenExecutionRequest,"setUseReactor(boolean reactorActive)
+",maven,"DefaultExceptionHandler.java
+"
+2887,2887,boolean,"useReactor()
+",maven,"DefaultExceptionHandler.java
+"
+2888,2888,MavenExecutionRequest,"setPomFile(String pomFilename)
+",maven,"DefaultExceptionHandler.java
+"
+2890,2890,MavenExecutionRequest,"setInteractiveMode(boolean interactive)
+",maven,"DefaultExceptionHandler.java
+"
+2891,2891,MavenExecutionRequest,"setTransferListener(TransferListener transferListener)
+",maven,"DefaultExceptionHandler.java
+"
+2892,2892,MavenExecutionRequest,"setLoggingLevel(int loggingLevel)
+",maven,"DefaultExceptionHandler.java
+"
+2894,2894,MavenExecutionRequest,"setUpdateSnapshots(boolean updateSnapshots)
+",maven,"DefaultExceptionHandler.java
+"
+2895,2895,MavenExecutionRequest,"setNoSnapshotUpdates(boolean noSnapshotUpdates)
+",maven,"DefaultExceptionHandler.java
+"
+2896,2896,MavenExecutionRequest,"setGlobalChecksumPolicy(String globalChecksumPolicy)
+",maven,"DefaultExceptionHandler.java
+"
+2899,2899,MavenExecutionRequest,"addProxy(Proxy proxy)
+",maven,"DefaultExceptionHandler.java
+"
+2902,2902,MavenExecutionRequest,"addServer(Server server)
+",maven,"DefaultExceptionHandler.java
+"
+2905,2905,MavenExecutionRequest,"addMirror(Mirror mirror)
+",maven,"DefaultExceptionHandler.java
+"
+2907,2907,MavenExecutionRequest,"setProfiles(List<Profile> profiles)
+",maven,"DefaultExceptionHandler.java
+"
+2910,2910,MavenExecutionRequest,"addPluginGroup(String pluginGroup)
+",maven,"DefaultExceptionHandler.java
+"
+2911,2911,MavenExecutionRequest,"addPluginGroups(List<String> pluginGroups)
+",maven,"DefaultExceptionHandler.java
+"
+2912,2912,MavenExecutionRequest,"setRecursive(boolean recursive)
+",maven,"DefaultExceptionHandler.java
+"
+2913,2913,boolean,"isProjectPresent()
+",maven,"DefaultExceptionHandler.java
+"
+2914,2914,MavenExecutionRequest,"setProjectPresent(boolean projectPresent)
+",maven,"DefaultExceptionHandler.java
+"
+2915,2915,File,"getUserSettingsFile()
+",maven,"DefaultExceptionHandler.java
+"
+2916,2916,MavenExecutionRequest,"setUserSettingsFile(File userSettingsFile)
+",maven,"DefaultExceptionHandler.java
+"
+2917,2917,File,"getGlobalSettingsFile()
+",maven,"DefaultExceptionHandler.java
+"
+2918,2918,MavenExecutionRequest,"setGlobalSettingsFile(File globalSettingsFile)
+",maven,"DefaultExceptionHandler.java
+"
+2919,2919,File,"getUserToolchainsFile()
+",maven,"DefaultExceptionHandler.java
+"
+2920,2920,MavenExecutionRequest,"setUserToolchainsFile(File userToolchainsFile)
+",maven,"DefaultExceptionHandler.java
+"
+2921,2921,File,"getGlobalToolchainsFile()
+",maven,"DefaultExceptionHandler.java
+"
+2922,2922,MavenExecutionRequest,"setGlobalToolchainsFile(File globalToolchainsFile)
+",maven,"DefaultExceptionHandler.java
+"
+2923,2923,MavenExecutionRequest,"addRemoteRepository(ArtifactRepository repository)
+",maven,"DefaultExceptionHandler.java
+"
+2925,2925,MavenExecutionRequest,"addPluginArtifactRepository(ArtifactRepository repository)
+",maven,"DefaultExceptionHandler.java
+"
+2926,2926,List<ArtifactRepository>,"getPluginArtifactRepositories()
+",maven,"DefaultExceptionHandler.java
+"
+2927,2927,ProjectBuildingRequest,"getProjectBuildingRequest()
+",maven,"DefaultExceptionHandler.java
+"
+2928,2928,MavenExecutionRequest,"addProfile(Profile profile)
+",maven,"DefaultExceptionHandler.java
+"
+2929,2929,RepositoryCache,"getRepositoryCache()
+",maven,"DefaultExceptionHandler.java
+"
+2930,2930,MavenExecutionRequest,"setRepositoryCache(RepositoryCache repositoryCache)
+",maven,"DefaultExceptionHandler.java
+"
+2931,2931,ExecutionListener,"getExecutionListener()
+",maven,"DefaultExceptionHandler.java
+"
+2932,2932,MavenExecutionRequest,"setExecutionListener(ExecutionListener executionListener)
+",maven,"DefaultExceptionHandler.java
+"
+2933,2933,void,"setDegreeOfConcurrency(final int degreeOfConcurrency)
+",maven,"DefaultExceptionHandler.java
+"
+2934,2934,int,"getDegreeOfConcurrency()
+",maven,"DefaultExceptionHandler.java
+"
+2935,2935,WorkspaceReader,"getWorkspaceReader()
+",maven,"DefaultExceptionHandler.java
+"
+2936,2936,MavenExecutionRequest,"setWorkspaceReader(WorkspaceReader workspaceReader)
+",maven,"DefaultExceptionHandler.java
+"
+2937,2937,boolean,"isCacheTransferError()
+",maven,"DefaultExceptionHandler.java
+"
+2938,2938,MavenExecutionRequest,"setCacheTransferError(boolean cacheTransferError)
+",maven,"DefaultExceptionHandler.java
+"
+2939,2939,boolean,"isCacheNotFound()
+",maven,"DefaultExceptionHandler.java
+"
+2940,2940,MavenExecutionRequest,"setCacheNotFound(boolean cacheNotFound)
+",maven,"DefaultExceptionHandler.java
+"
+2941,2941,boolean,"isUseLegacyLocalRepository()
+",maven,"DefaultExceptionHandler.java
+"
+2942,2942,MavenExecutionRequest,"setUseLegacyLocalRepository(boolean useLegacyLocalRepositoryManager)
+",maven,"DefaultExceptionHandler.java
+"
+2943,2943,MavenExecutionRequest,"setBuilderId(String builderId)
+",maven,"DefaultExceptionHandler.java
+"
+2944,2944,String,"getBuilderId()
+",maven,"DefaultExceptionHandler.java
+"
+2945,2945,List<ToolchainModel>>,"getToolchains()
+",maven,"DefaultExceptionHandler.java
+"
+2946,2946,MavenExecutionRequest,"setToolchains(Map<String, List<ToolchainModel>> toolchains)
+",maven,"DefaultExceptionHandler.java
+"
+2947,2947,void,"setMultiModuleProjectDirectory(File directory)
+",maven,"DefaultExceptionHandler.java
+"
+2948,2948,File,"getMultiModuleProjectDirectory()
+",maven,"DefaultExceptionHandler.java
+"
+2949,2949,MavenExecutionRequest,"setEventSpyDispatcher(EventSpyDispatcher eventSpyDispatcher)
+",maven,"DefaultExceptionHandler.java
+"
+2950,2950,EventSpyDispatcher,"getEventSpyDispatcher()
+",maven,"DefaultExceptionHandler.java
+"
+2951,2951,Object>,"getData()
+",maven,"DefaultExceptionHandler.java
+"
+2957,2957,void,"enter()
+",maven,"DefaultExceptionHandler.java
+"
+2958,2958,ScopeState,"getScopeState()
+",maven,"DefaultExceptionHandler.java
+"
+2959,2959,void,"exit() throws MojoExecutionException
+",maven,"DefaultExceptionHandler.java
+"
+2960,2960,void,"seed(Class<T> clazz, Provider<T> value)
+",maven,"DefaultExceptionHandler.java
+"
+2962,2962,Provider<T>,"scope(final Key<T> key, final Provider<T> unscoped)
+",maven,"DefaultExceptionHandler.java
+"
+2963,2963,Provider<T>,"seededKeyProvider()
+",maven,"DefaultExceptionHandler.java
+"
+2967,2967,Collection<WeakMojoExecutionListener>,"getProvidedListeners()
+",maven,"DefaultExceptionHandler.java
+"

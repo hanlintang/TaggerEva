@@ -1,0 +1,663 @@
+data/NNS
+size/NN
+p/FW
+end/NN
+nal/NNP start/NN
+is/VBZ key/JJ frame/NN
+priority/NN
+s/FW
+avc/NNP packet/NN
+src/NN
+packet/NN
+sps/NNP
+sps/NNP size/NN
+pps/NNP
+pps/NNP size/NN
+header/NN
+new/JJ packet/NN data/NNS
+new/JJ packet/NN size/NN
+header/NN data/NNS
+header/NN size/NN
+sei/FW data/NNS
+sei/FW size/NN
+vi/NNP
+ovi/NNP
+video/NN
+i/FW
+effect/NN
+file/NN
+info/NN
+ai/NNP
+view/NN
+unused/JJ
+locale/NN
+module/NN config/NN path/NN
+store/NN
+path/NN
+argc/NNP
+argv/NNP
+width/NN
+height/NN
+oai/NNP
+sdr/NNP white/NN level/NN
+hdr/NN nominal/JJ peak/NN level/NN
+idx/NN
+id/NN
+unversioned/JJ id/NN
+channel/NN
+source/NN
+param/NN
+p/FW start/NN
+mutex/NN
+proc/NN
+v/FW first/NN
+name/NN
+p/FW table/NN
+uuid/NNP
+ref/NN
+src/NN c/FW
+dest/NN c/FW
+src/NN a/FW
+dest/NN a/FW
+volume/NN
+source/NN data/NNS
+is/VBZ private/JJ
+array/NN
+cb/NNP
+private/JJ data/NNS
+private/JJ
+context/NN
+type/NN
+settings/NNS
+hot/JJ key/NN data/NNS
+object/NN
+destroy/VB
+p/FW first/NN
+p/FW hash/NN
+p/FW first/NN uuid/NNP
+p/FW head/NN
+p/FW uuid/NNP head/NN
+obj/NN
+v/FW
+conversion/NN
+frame/NN rate/NN divisor/NN
+mix/NN idx/NN
+callback/NN
+encoder/NN
+task/NN
+wait/VB
+handler/NN
+weak/JJ
+protocol/NN
+f/FW
+ver/NN
+key/NN
+pressed/JJ
+last/JJ obs/FW ver/NN
+dst/NNP
+filter/NN
+new/JJ name/NN
+create/VB private/JJ
+frame/NN
+format/NN
+new/JJ path/NN
+event/NN
+mouse/NN up/RP
+click/VB count/NN
+mouse/NN leave/VB
+x/FW delta/NN
+y/FW delta/NN
+focus/NN
+key/VB up/RP
+centered/JJ
+parent/NN
+child/NN
+ref/NN frame/NN
+seconds/NNS
+sample/NN rate/NN
+frames/NNS
+duration/NN
+timestamp/NN
+os/NNP time/NN
+expected/JJ
+ts/NNP
+diff/NN
+in/IN
+muted/JJ
+ts/NNP 1/CD
+ts/NNP 2/CD
+audio/NN
+offset/NN
+full/JJ range/NN
+trc/NNP
+val/NN
+tex/NN render/VB
+tex/NNP
+rotation/NN
+count/VB
+preferred/JJ spaces/NNS
+cur/NN idx/NN
+movement/NN
+index/NN
+plane/NN
+y/FW
+lines/NNS
+captions/NNS
+balance/NN
+audio/NN in/IN
+sys/NN time/NN
+target/NN
+tech/NN name/NN
+filter/NN flags/NNS
+parent/JJ flags/NNS
+allow/VB direct/JJ
+space/NN
+enum/NN callback/NN
+flags/NNS
+mixers/NNS
+color/NN matrix/NN
+color/NN range/NN min/NN
+color/NN range/NN max/NN
+texture/NN
+x/FW
+cx/FW
+cy/FW
+flip/VB
+hidden/JJ
+enabled/VBN
+signal/NN
+delay/VB
+mix/NN
+channels/NNS
+vol/NN
+vol/NN data/NNS
+action/NN
+unbuffered/JJ
+decouple/VB
+enable/VB
+active/JJ
+pause/VB
+ms/NNP
+hevc/NNP packet/NN
+module/NN
+func/NN
+trace/NN
+module/NN name/NN
+module/NN base/NN
+module/NN size/NN
+thread/NN
+entry/NN
+first/JJ thread/NN
+exception/NN
+mixer/NN idx/NN
+shutdown/NN
+extra/JJ data/NNS
+reroute/VB id/NN
+input/NN
+expected/JJ selection/NN
+layouts/NNS
+av/FW layout/NN
+mp/FW layout/NN
+require/VB default/JJ unspec/JJ
+p/FW ctx/NN
+img/NN fmt/NN dst/NNP
+img/NN fmt/NN src/NN
+status/NN
+property/NN
+expect/VB
+a/FW
+b/FW
+w/FW
+h/FW
+bytes/NNS
+rgb/NNP
+alpha/NN
+s/FW test/NN
+img/NN
+new/JJ
+line/NN
+c/FW
+abs/NNP
+tolerance/NN
+out/NN dir/NN
+ref/NN dir/NN
+err/NN
+d/FW
+log/NN
+lev/NNP
+w/FW stream/NN
+args/NNP
+str/NN
+handle/VB
+dict/NN
+kv/NNP
+tal/NNP loc/NN ctx/NN
+item/NN
+lst/NNP
+num/NN c/FW
+img/NN fmt/NN
+not/RB if/IN fmt/NN
+csp/NNP
+levels/NNS
+env/NN
+string/NN
+utf/NNP chars/NNS
+error/NN
+logging/VBG
+j/FW fields/NNS
+j/FW fields/NNS mapping/NN
+global/JJ
+root/NN
+p/FW 1/CD
+p/FW 2/CD
+out/NN url/NNP
+dir/NN
+ta/FW parent/NN
+queue/NN
+wakeup/NN ctx/NN
+on/IN lock/NN ctx/NN
+fn/NNP
+fn/NNP data/NNS
+timeout/NN
+until/RB
+arg/NN
+ctx/NN
+pool/NN
+init/VB threads/NNS
+min/JJ threads/NNS
+max/JJ threads/NNS
+fn/NNP ctx/NN
+allow/VB queue/NN
+max/JJ depth/NN
+indent/NN
+user/NN cp/NN
+buf/NN
+cp/NN
+template/NN
+suffix/NN len/NN
+file/NN path/NN
+str/NN 1/CD
+str/NN 2/CD
+reject/VB
+accept/VB
+haystack/NN
+needle/NN
+sep/VB
+rest/NN
+tok/NN
+out/NN left/JJ
+out/NN right/JJ
+start/NN
+base/NN
+prefix/NN
+out/NN next/JJ
+append/VB min/NN
+append/VB
+fmt/NN
+ap/FW
+suffix/NN
+hex/NN
+out/NN
+ret/NNP
+k/FW
+lang/NN
+l/FW 1/CD
+s/FW 1/CD
+l/FW 2/CD
+s/FW 2/CD
+waiter/NN
+value/NN
+slave/NN
+uu/FW
+in/IN start/NN
+in/IN end/NN
+tag/NN
+seed/NN
+name/NN 1/CD
+name/NN 2/CD
+n/FW
+ptr/NN
+loc/NN
+element/NN size/NN
+next/JJ idx/NN
+at/IN
+append/VB len/NN
+stream/NN
+url/NNP
+ok/NN
+proto/NN
+len/NN
+pos/NN
+keep/VB
+s/FW info/NN
+filename/NN
+forward/VB
+buf/NN size/NN
+mem/NN
+total/NN
+forward/JJ size/NN
+new/JJ pos/NN
+cmd/NN
+max/JJ size/NN
+arch/NN
+priv/JJ
+buffer/NN
+whence/WRB
+request/NN
+mpa/NNP
+r/FW
+max/JJ volumes/NNS
+max/JJ len/NN
+cur/NN
+streams/NNS
+num/NN streams/NNS
+del/VB sys/NN
+fe/FW fd/FW
+adapter/NN
+frontend/NN
+demux/NN cnt/NN
+cnt/NN
+fd/FW
+pid/NNP
+pes/NNP type/NN
+dev/NN no/NN
+service/NN id/NN
+fe/FW status/NN
+fd/FW frontend/NN
+tm/VB out/RP
+t/FW
+secfd/FW
+sat/NNP no/NN
+polv/NNP
+hi/UH lo/FW
+cmd/NN seq/NN
+freq/NN
+s/FW rate/NN
+pol/NNP
+stream/NN id/NN
+spec/NN inv/NN
+diseqc/NNP
+modulation/NN
+hp/FW code/NN rate/NN
+transmission/NN mode/NN
+guard/NN interval/NN
+bandwidth/NN
+lp/FW code/NN rate/NN
+hier/NNP
+band/NN width/NN
+device/NN
+speed/NN
+ext/NNP
+sig/NN
+aid/NNP
+sid/NNP
+cr/FW
+mod/NN string/NN
+vdr/NNP par/NN str/NN
+pid/NNP string/NN
+list/NN add/VB
+cfg/NN full/JJ transponder/NN
+del/VB sys/NN mask/NN
+prog/NN name/NN
+target/NN fmt/NN
+track/NN
+in/IN pos/NN
+function/NN
+sector/NN
+st/FW
+playlist/NN
+title/NN
+ev/FW
+title/NN guess/VB
+list/NN
+opts/NNP
+f/FW name/NN
+fn/FW start/NN
+s/FW list/NN
+n/FW sub/NN
+limit/NN fuzziness/NN
+limit/NN type/NN
+n/FW subs/NNS
+paths/NNS
+cfg/NNP path/NN
+mp/FW ctx/NN
+db/FW
+ao/FW c/FW
+buf/NN sz/NN
+rate/NN
+old/JJ
+ao/FW
+pts/NNP
+l/FW
+ud/FW
+job/NN
+free/JJ fn/NN
+arg/NN count/NN
+need/VB f/FW sync/NN
+need/VB reclaim/VB cache/NN
+job/NN type/NN
+ct/FW
+type/NN name/NN
+db/NN id/NN
+tracking/NN
+lua/NNP scripts/NNS
+lua/NNP
+functions/NNS lib/NN ctx/NN
+blocks/NNS
+use/VB tls/NNP
+length/NN
+do/VB f/FW sync/NN
+announced/JJ tcp/NNP port/NN
+announced/JJ tls/NNP port/NN
+announced/JJ c/FW port/NN
+node/NN
+shard/NN id/NN
+hard/JJ
+msg/NN len/NN
+link/NN
+conn/NN
+el/FW
+priv/JJ data/NNS
+mask/NN
+node/NN name/NN
+failing/VBG
+sender/NN
+master/NN
+del/VB node/NN
+node/NN id/NN
+ip/NNP
+port/NN
+c/FW port/NN
+hdr/NNP
+tls/NNP port/NN
+tcp/NNP port/NN
+g/FW
+gossip/NN msg/NN
+announced/JJ ip/NNP
+sender/NN config/NN epoch/NN
+slots/NNS
+data/NN size/NN
+gossip/NN count/NN
+msg/NN block/NN
+message/NN
+module/NN id/NN
+payload/NN
+sharded/VBN
+reason/NN
+max/JJ slaves/NNS
+handshake/NN timeout/NN
+now/NN
+bitmap/NN
+slot/NN
+from/IN node/NN
+to/IN node/NN
+ci/FW
+slot/NN info/NN pairs/NNS
+slot/NN info/NN pairs/NNS count/NN
+tls/NNP primary/NN
+o/FW
+del/VB
+start/NN slot/NN
+end/NN slot/NN
+nodes/NNS
+hash/NN slot/NN
+num/NN nodes/NNS
+slave/NN idx/NN
+tids/NNPS
+tids/NNPS len/NN
+level/NN
+msg/NN
+ret/NN code/NN
+key/NN 1/CD
+key/NN 2/CD
+more/JJR mem/NN
+used/JJ ratio/NN
+metric/NN
+current/JJ value/NN
+current/JJ base/NN
+factor/NN
+now/JJ ms/NN
+time/NN idx/NN
+allow/VB eviction/NN
+in/NN usage/NN
+out/NN usage/NN
+update/VB daylight/NN info/NN
+us/NNP time/NN
+update/VB cached/VBN time/NN
+us/NNP
+event/NN loop/NN
+client/NN data/NNS
+process/NN class/NN
+sfd/NNP
+accept/VB handler/NN
+parent/NN name/NN
+sub/NN name/NN
+sub/NN command/NN
+declared/JJ name/NN
+commands/NNS
+oa/FW
+container/NN
+strict/JJ
+latency/NN histogram/NN
+duration/NN hist/NN
+reply/NN
+full/JJ err/NN
+name/NN len/NN
+unlink/VB unix/NNP socket/NN
+error/NN code/NN
+reply/NN flags/NNS
+num/NN args/NNP
+rs/FW
+use/NN map/NN
+with/IN flags/NNS
+num/NN cmds/NNS
+histogram/NN name/NN
+histogram/NN
+repl/NNP state/NN
+tmp/NN
+section/NN dict/NN
+sections/NNS
+sec/NNP
+defaults/NNS
+out/IN all/DT
+out/IN everything/NN
+blocking/NN keys/NNS
+blocking/NN keys/NNS on/IN no/DT key/NN
+watched/NN keys/NNS
+all/DT sections/NNS
+everything/NN
+warning/NN
+listener/NN
+purpose/NN
+info/NN type/NN
+p/FW name/NN
+keys/NNS
+size/NN hint/NN
+exec/NN name/NN
+allocation/NN size/NN
+var/NN name/NN
+cpu/NNP list/NN
+sd/FW notify/VB msg/NN
+mode/NN
+score/VB
+ele/NNP
+zsl/NNP
+update/NN
+cur/NN score/NN
+new/JJ score/NN
+spec/NN
+range/NN
+start/NN node/NN
+start/NN level/NN
+rank/NN
+min/NN
+max/NN
+dest/NNP
+ex/NNP
+vstr/NNP
+vlen/NNP
+s/FW ptr/NN
+e/FW ptr/NN
+cstr/NNP
+clen/NNP
+zl/FW
+lp/FW
+deleted/VBN
+z/FW obj/NN
+val/NN len/NN hint/NN
+encoding/NN
+cap/NN
+max/JJ ele/NNP len/NN
+tot/JJ ele/NNP len/NN
+member/NN
+in/NN flags/NNS
+out/NN flags/NNS
+zs/FW
+reverse/NN
+output/NN score/NN
+e/FW
+zsetobj/NNP
+zsetsize/NNP
+range/NN type/NN
+op/NN
+aggregate/NN
+total/JJ len/NN
+set/VB num/NN
+dst/NNP z/FW set/NN
+dst/NNP key/NN
+num/NN keys/NNS index/NN
+cardinality/NN only/RB
+value/NN length/NN in/IN bytes/NNS
+result/NN count/NN
+client/NN
+with/IN scores/NNS
+limit/NN
+argc/NNP start/NN
+direction/NN
+keyv/NNP
+keyc/NNP
+where/WRB
+emit/VB key/NN
+use/VB nested/JJ array/NN
+reply/VB nil/NNP when/WRB empty/JJ
+num/NN keys/NNS
+timeout/NN idx/NN
+vals/NNS
+l/FW
+num/NN keys/NNS idx/NN
+is/VBZ block/NN
+swap/NN type/NN
+es/FW
+l/FW range/NN
+r/FW range/NN
+host/NN socket/NN
+cfg/NNP
+from/IN
+thread/NN id/NN
+add/VB
+slen/NNP
+capacity/NN
+int/NNP enc/NNP
+enc/NNP len/NN
+int/NNP buf/NN
+entry/NN size/NN

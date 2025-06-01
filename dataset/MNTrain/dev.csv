@@ -1,0 +1,578 @@
+,ID,SEQUENCE,POS,PROJECT,type,is_labeled,FILE
+0,0,on ready,IN JJ,libgdx,method,1,SoundManager.java
+1,1,on timeout,IN NN,libgdx,method,1,SoundManager.java
+2,2,get instance,VB NN,libgdx,method,1,SoundManager.java
+6,6,set debug mode,VB VB NN,libgdx,method,1,SoundManager.java
+7,7,get debug mode,VB VB NN,libgdx,method,1,SoundManager.java
+8,8,set flash version,VB NN NN,libgdx,method,1,SoundManager.java
+9,9,get flash version,VB NN NN,libgdx,method,1,SoundManager.java
+10,10,create sound,VB NN,libgdx,method,1,SoundManager.java
+11,11,reboot,VB,libgdx,method,1,SoundManager.java
+14,14,is mono,VBZ JJ,libgdx,method,1,AudioDevice.java
+15,15,write samples,VB NNS,libgdx,method,1,AudioDevice.java
+17,17,get latency,VB NN,libgdx,method,1,AudioDevice.java
+19,19,set volume,VB NN,libgdx,method,1,AudioDevice.java
+20,20,copy stream,VB NN,libgdx,method,1,StreamUtils.java
+26,26,copy stream to byte array,VB NN TO NN NN,libgdx,method,1,StreamUtils.java
+28,28,copy stream to string,VB NN TO NN,libgdx,method,1,StreamUtils.java
+31,31,close quietly,VB RB,libgdx,method,1,StreamUtils.java
+32,32,to byte array,TO NN NN,libgdx,method,1,StreamUtils.java
+33,33,get buffer,VB NN,libgdx,method,1,StreamUtils.java
+35,35,get c ptr,VB FW NN,libgdx,method,1,btTypedConstraint.java
+36,36,finalize,VB,libgdx,method,1,btTypedConstraint.java
+42,42,set num constraint rows,VB NN NN NNS,libgdx,method,1,btTypedConstraint.java
+43,43,get num constraint rows,VB NN NN NNS,libgdx,method,1,btTypedConstraint.java
+44,44,set nub,VB NN,libgdx,method,1,btTypedConstraint.java
+45,45,get nub,VB NN,libgdx,method,1,btTypedConstraint.java
+46,46,get fixed body,VB JJ NN,libgdx,method,1,btTypedConstraint.java
+51,51,set fps,VB NNP,libgdx,method,1,btTypedConstraint.java
+52,52,get fps,VB NNP,libgdx,method,1,btTypedConstraint.java
+53,53,set erp,VB NNP,libgdx,method,1,btTypedConstraint.java
+54,54,get erp,VB NNP,libgdx,method,1,btTypedConstraint.java
+55,55,set j etj 1 linear axis,VB FW FW CD JJ NN,libgdx,method,1,btTypedConstraint.java
+56,56,get j etj 1 linear axis,VB FW FW CD JJ NN,libgdx,method,1,btTypedConstraint.java
+57,57,set j etj 1 angular axis,VB FW FW CD JJ NN,libgdx,method,1,btTypedConstraint.java
+58,58,get j etj 1 angular axis,VB FW FW CD JJ NN,libgdx,method,1,btTypedConstraint.java
+59,59,set j etj 2 linear axis,VB FW FW CD JJ NN,libgdx,method,1,btTypedConstraint.java
+60,60,get j etj 2 linear axis,VB FW FW CD JJ NN,libgdx,method,1,btTypedConstraint.java
+61,61,set j etj 2 angular axis,VB FW FW CD JJ NN,libgdx,method,1,btTypedConstraint.java
+62,62,get j etj 2 angular axis,VB FW FW CD JJ NN,libgdx,method,1,btTypedConstraint.java
+63,63,set rowskip,VB NNP,libgdx,method,1,btTypedConstraint.java
+64,64,get rowskip,VB NNP,libgdx,method,1,btTypedConstraint.java
+65,65,set constraint error,VB NN NN,libgdx,method,1,btTypedConstraint.java
+66,66,get constraint error,VB NN NN,libgdx,method,1,btTypedConstraint.java
+67,67,set cfm,VB FW,libgdx,method,1,btTypedConstraint.java
+68,68,get cfm,VB FW,libgdx,method,1,btTypedConstraint.java
+69,69,set lower limit,VB JJR NN,libgdx,method,1,btTypedConstraint.java
+70,70,get lower limit,VB JJR NN,libgdx,method,1,btTypedConstraint.java
+71,71,set upper limit,VB JJ NN,libgdx,method,1,btTypedConstraint.java
+72,72,get upper limit,VB JJ NN,libgdx,method,1,btTypedConstraint.java
+73,73,set findex,VB NNP,libgdx,method,1,btTypedConstraint.java
+74,74,get findex,VB NNP,libgdx,method,1,btTypedConstraint.java
+75,75,set num iterations,VB JJ NNS,libgdx,method,1,btTypedConstraint.java
+76,76,get num iterations,VB JJ NNS,libgdx,method,1,btTypedConstraint.java
+77,77,set damping,VB NN,libgdx,method,1,btTypedConstraint.java
+78,78,get damping,VB NN,libgdx,method,1,btTypedConstraint.java
+79,79,get override num solver iterations,VB NN NN NN NNS,libgdx,method,1,btTypedConstraint.java
+80,80,set override num solver iterations,VB NN NN NN NNS,libgdx,method,1,btTypedConstraint.java
+81,81,build jacobian,VB NN,libgdx,method,1,btTypedConstraint.java
+82,82,setup solver constraint,NN NN NN,libgdx,method,1,btTypedConstraint.java
+83,83,get info 1,VB NN CD,libgdx,method,1,btTypedConstraint.java
+84,84,get info 2,VB NN CD,libgdx,method,1,btTypedConstraint.java
+85,85,internal set applied impulse,JJ VB VBN NN,libgdx,method,1,btTypedConstraint.java
+86,86,internal get applied impulse,JJ VB VBN NN,libgdx,method,1,btTypedConstraint.java
+87,87,get breaking impulse threshold,VB VBG NN NN,libgdx,method,1,btTypedConstraint.java
+88,88,set breaking impulse threshold,VB VBG NN NN,libgdx,method,1,btTypedConstraint.java
+90,90,set enabled,VB VBD,libgdx,method,1,btTypedConstraint.java
+91,91,solve constraint obsolete,VB NN NN,libgdx,method,1,btTypedConstraint.java
+92,92,get rigid body a,VB JJ NN NN,libgdx,method,1,btTypedConstraint.java
+93,93,get rigid body b,VB JJ NN NN,libgdx,method,1,btTypedConstraint.java
+94,94,get user constraint type,VB NN NN NN,libgdx,method,1,btTypedConstraint.java
+95,95,set user constraint type,VB NN NN NN,libgdx,method,1,btTypedConstraint.java
+96,96,set user constraint id,VB NN NN NN,libgdx,method,1,btTypedConstraint.java
+97,97,get user constraint id,VB NN NN NN,libgdx,method,1,btTypedConstraint.java
+98,98,set user constraint ptr,VB NN NN NN,libgdx,method,1,btTypedConstraint.java
+99,99,get user constraint ptr,VB NN NN NN,libgdx,method,1,btTypedConstraint.java
+100,100,set joint feedback,VB JJ NN,libgdx,method,1,btTypedConstraint.java
+101,101,get joint feedback,VB JJ NN,libgdx,method,1,btTypedConstraint.java
+102,102,get uid,VB NNP,libgdx,method,1,btTypedConstraint.java
+103,103,needs feedback,VBZ NN,libgdx,method,1,btTypedConstraint.java
+104,104,enable feedback,VB NN,libgdx,method,1,btTypedConstraint.java
+105,105,get applied impulse,VB VBN NN,libgdx,method,1,btTypedConstraint.java
+106,106,get constraint type,VB NN NN,libgdx,method,1,btTypedConstraint.java
+107,107,set dbg draw size,VB FW NN NN,libgdx,method,1,btTypedConstraint.java
+108,108,get dbg draw size,VB FW NN NN,libgdx,method,1,btTypedConstraint.java
+109,109,set param,VB NN,libgdx,method,1,btTypedConstraint.java
+111,111,get param,VB NN,libgdx,method,1,btTypedConstraint.java
+113,113,calculate serialize buffer size,VB VB NN NN,libgdx,method,1,btTypedConstraint.java
+114,114,serialize,VB,libgdx,method,1,btTypedConstraint.java
+115,115,character,NN,libgdx,method,1,Executor.java
+117,117,start process,VB NN,libgdx,method,1,Executor.java
+119,119,touch down,VB RP,libgdx,method,1,Dialog.java
+121,121,changed,VBD,libgdx,method,1,Dialog.java
+122,122,keyboard focus changed,NN NN VBD,libgdx,method,1,Dialog.java
+123,123,scroll focus changed,NN NN VBD,libgdx,method,1,Dialog.java
+124,124,focus changed,NN VBD,libgdx,method,1,Dialog.java
+125,125,set stage,VB NN,libgdx,method,1,Dialog.java
+126,126,get content table,VB NN NN,libgdx,method,1,Dialog.java
+127,127,get button table,VB NN NN,libgdx,method,1,Dialog.java
+128,128,text,NN,libgdx,method,1,Dialog.java
+131,131,button,NN,libgdx,method,1,Dialog.java
+136,136,show,VB,libgdx,method,1,Dialog.java
+138,138,hide,VB,libgdx,method,1,Dialog.java
+140,140,set object,VB NN,libgdx,method,1,Dialog.java
+142,142,key down,NN RP,libgdx,method,1,Dialog.java
+143,143,result,NN,libgdx,method,1,Dialog.java
+144,144,cancel,VB,libgdx,method,1,Dialog.java
+149,149,create physics world,VB NN NN,libgdx,method,1,Box2DTest.java
+150,150,begin contact,VB NN,libgdx,method,1,Box2DTest.java
+151,151,end contact,VB NN,libgdx,method,1,Box2DTest.java
+152,152,pre solve,IN VB,libgdx,method,1,Box2DTest.java
+153,153,post solve,IN VB,libgdx,method,1,Box2DTest.java
+154,154,create boxes,VB NNS,libgdx,method,1,Box2DTest.java
+156,156,render box,VB NN,libgdx,method,1,Box2DTest.java
+157,157,report fixture,VB NN,libgdx,method,1,Box2DTest.java
+159,159,touch dragged,VB VBD,libgdx,method,1,Box2DTest.java
+160,160,touch up,VB RP,libgdx,method,1,Box2DTest.java
+162,162,get bodies,VB NNS,libgdx,method,1,ConstantVolumeJoint.java
+163,163,get joints,VB NNS,libgdx,method,1,ConstantVolumeJoint.java
+164,164,inflate,VB,libgdx,method,1,ConstantVolumeJoint.java
+165,165,destructor,NN,libgdx,method,1,ConstantVolumeJoint.java
+166,166,get body area,VB NN NN,libgdx,method,1,ConstantVolumeJoint.java
+167,167,get solver area,VB NN NN,libgdx,method,1,ConstantVolumeJoint.java
+168,168,constrain edges,VB NNS,libgdx,method,1,ConstantVolumeJoint.java
+169,169,init velocity constraints,VB NN NNS,libgdx,method,1,ConstantVolumeJoint.java
+170,170,solve position constraints,VB NN NNS,libgdx,method,1,ConstantVolumeJoint.java
+171,171,solve velocity constraints,VB NN NNS,libgdx,method,1,ConstantVolumeJoint.java
+172,172,get anchor a,VB NN NN,libgdx,method,1,ConstantVolumeJoint.java
+173,173,get anchor b,VB NN NN,libgdx,method,1,ConstantVolumeJoint.java
+174,174,get reaction force,VB NN NN,libgdx,method,1,ConstantVolumeJoint.java
+175,175,get reaction torque,VB NN NN,libgdx,method,1,ConstantVolumeJoint.java
+176,176,compute triangles,VB NNS,libgdx,method,1,DelaunayTriangulator.java
+179,179,circum circle,NNS NN,libgdx,method,1,DelaunayTriangulator.java
+181,181,quicksort partition,NN NN,libgdx,method,1,DelaunayTriangulator.java
+184,184,sort methods and sections,VB NNS CC NNS,libgdx,method,1,RobustJavaMethodParser.java
+186,186,align method bodies,VB NN NNS,libgdx,method,1,RobustJavaMethodParser.java
+187,187,get java methods,VB NN NNS,libgdx,method,1,RobustJavaMethodParser.java
+188,188,create method,VB NN,libgdx,method,1,RobustJavaMethodParser.java
+189,189,get argument type,VB NN NN,libgdx,method,1,RobustJavaMethodParser.java
+190,190,get outer class,VB JJ NN,libgdx,method,1,RobustJavaMethodParser.java
+191,191,get jni sections,VB NNP NNS,libgdx,method,1,RobustJavaMethodParser.java
+192,192,get native code bodies,VB JJ NN NNS,libgdx,method,1,RobustJavaMethodParser.java
+193,193,get comments,VB NNS,libgdx,method,1,RobustJavaMethodParser.java
+194,194,nano time,NN NN,libgdx,method,1,TimeUtils.java
+195,195,millis,NNS,libgdx,method,1,TimeUtils.java
+196,196,nanos to millis,NNS TO NNS,libgdx,method,1,TimeUtils.java
+197,197,millis to nanos,NNS TO NNS,libgdx,method,1,TimeUtils.java
+198,198,time since nanos,NN IN NNS,libgdx,method,1,TimeUtils.java
+199,199,time since millis,NN IN NNS,libgdx,method,1,TimeUtils.java
+204,204,set mesh parts ptr,VB NN NNS NN,libgdx,method,1,btStridingMeshInterfaceData.java
+205,205,get mesh parts ptr,VB NN NNS NN,libgdx,method,1,btStridingMeshInterfaceData.java
+206,206,set scaling,VB VBG,libgdx,method,1,btStridingMeshInterfaceData.java
+207,207,get scaling,VB VBG,libgdx,method,1,btStridingMeshInterfaceData.java
+208,208,set num mesh parts,VB NN NN NNS,libgdx,method,1,btStridingMeshInterfaceData.java
+209,209,get num mesh parts,VB NN NN NNS,libgdx,method,1,btStridingMeshInterfaceData.java
+210,210,set padding,VB NN,libgdx,method,1,btStridingMeshInterfaceData.java
+211,211,get padding,VB NN,libgdx,method,1,btStridingMeshInterfaceData.java
+212,212,pop,VB,libgdx,method,1,IOrderedStack.java
+214,214,push,VB,libgdx,method,1,IOrderedStack.java
+216,216,to j box ojbox2d,TO FW NN FW,libgdx,method,1,JointDef.java
+217,217,allocate,VB,libgdx,method,1,ShortBuffer.java
+218,218,wrap,VB,libgdx,method,1,ShortBuffer.java
+221,221,array offset,NN NN,libgdx,method,1,ShortBuffer.java
+222,222,as read only buffer,IN VBN RB VB,libgdx,method,1,ShortBuffer.java
+223,223,compact,VB,libgdx,method,1,ShortBuffer.java
+225,225,duplicate,VB,libgdx,method,1,ShortBuffer.java
+231,231,has array,VBZ NN,libgdx,method,1,ShortBuffer.java
+233,233,is direct,VBZ JJ,libgdx,method,1,ShortBuffer.java
+234,234,order,VB,libgdx,method,1,ShortBuffer.java
+235,235,protected array,JJ NN,libgdx,method,1,ShortBuffer.java
+236,236,protected array offset,JJ NN NN,libgdx,method,1,ShortBuffer.java
+237,237,protected has array,JJ VBZ NN,libgdx,method,1,ShortBuffer.java
+246,246,get client height,VB NN NN,libgdx,method,1,ResizableWidgetCollection.java
+247,247,get client width,VB NN NN,libgdx,method,1,ResizableWidgetCollection.java
+248,248,get offset height,VB NN NN,libgdx,method,1,ResizableWidgetCollection.java
+249,249,get offset width,VB NN NN,libgdx,method,1,ResizableWidgetCollection.java
+250,250,update sizes,VB NNS,libgdx,method,1,ResizableWidgetCollection.java
+254,254,check widget size,VB NN NN,libgdx,method,1,ResizableWidgetCollection.java
+255,255,get resize check delay,VB VB NN NN,libgdx,method,1,ResizableWidgetCollection.java
+256,256,is resize checking enabled,VBZ VB NN VBN,libgdx,method,1,ResizableWidgetCollection.java
+259,259,set resize check delay,VB VB NN NN,libgdx,method,1,ResizableWidgetCollection.java
+260,260,set resize checking enabled,VBN VB NN VBN,libgdx,method,1,ResizableWidgetCollection.java
+261,261,update widget size,VB NN NN,libgdx,method,1,ResizableWidgetCollection.java
+262,262,on resize,IN VB,libgdx,method,1,ResizableWidgetCollection.java
+265,265,can render,MD VB,libgdx,method,1,Shader.java
+266,266,begin,VB,libgdx,method,1,Shader.java
+269,269,on generic motion,IN JJ NN,libgdx,method,1,AndroidInputThreePlus.java
+270,270,add generic motion listener,VB JJ NN NN,libgdx,method,1,AndroidInputThreePlus.java
+275,275,set string,VB NN,libgdx,method,1,btHashString.java
+277,277,set hash,VB NN,libgdx,method,1,btHashString.java
+278,278,get hash,VB NN,libgdx,method,1,btHashString.java
+279,279,portable string compare,JJ NN NN,libgdx,method,1,btHashString.java
+285,285,set transform,VB NN,libgdx,method,1,btCompoundShapeChild.java
+286,286,get transform,VB NN,libgdx,method,1,btCompoundShapeChild.java
+287,287,set child shape,VB NN NN,libgdx,method,1,btCompoundShapeChild.java
+288,288,get child shape,VB NN NN,libgdx,method,1,btCompoundShapeChild.java
+289,289,set child shape type,VB NN NN NN,libgdx,method,1,btCompoundShapeChild.java
+290,290,get child shape type,VB NN NN NN,libgdx,method,1,btCompoundShapeChild.java
+291,291,set child margin,VB NN NN,libgdx,method,1,btCompoundShapeChild.java
+292,292,get child margin,VB NN NN,libgdx,method,1,btCompoundShapeChild.java
+293,293,set node,VB NN,libgdx,method,1,btCompoundShapeChild.java
+294,294,get node,VB NN,libgdx,method,1,btCompoundShapeChild.java
+296,296,find constructor,VB NN,libgdx,method,1,ReflectionPool.java
+297,297,new object,JJ NN,libgdx,method,1,ReflectionPool.java
+307,307,create color texture,VB NN NN,libgdx,method,1,FrameBufferCubemap.java
+308,308,dispose color texture,VB NN NN,libgdx,method,1,FrameBufferCubemap.java
+309,309,bind,VB,libgdx,method,1,FrameBufferCubemap.java
+310,310,next side,JJ NN,libgdx,method,1,FrameBufferCubemap.java
+311,311,bind side,VB NN,libgdx,method,1,FrameBufferCubemap.java
+312,312,get side,VB NN,libgdx,method,1,FrameBufferCubemap.java
+321,321,activate particles,VB NNS,libgdx,method,1,ModelInfluencer.java
+322,322,kill particles,VB NNS,libgdx,method,1,ModelInfluencer.java
+324,324,allocate channels,VB NNS,libgdx,method,1,ModelInfluencer.java
+325,325,save,VB,libgdx,method,1,ModelInfluencer.java
+326,326,load,VB,libgdx,method,1,ModelInfluencer.java
+330,330,needs gl 2 0,NNS FW CD CD,libgdx,method,1,GroupTest.java
+331,331,mouse moved,NN VBN,libgdx,method,1,GroupTest.java
+332,332,draw,VB,libgdx,method,1,GroupTest.java
+334,334,set group strategy,VB NN NN,libgdx,method,1,DecalBatch.java
+342,342,clear,VB,libgdx,method,1,DecalBatch.java
+362,362,get tile width,VB NN NN,libgdx,method,1,TiledMapTileLayer.java
+363,363,get tile height,VB NN NN,libgdx,method,1,TiledMapTileLayer.java
+364,364,get cell,VB NN,libgdx,method,1,TiledMapTileLayer.java
+365,365,set cell,VB NN,libgdx,method,1,TiledMapTileLayer.java
+366,366,get tile,VB NN,libgdx,method,1,TiledMapTileLayer.java
+367,367,set tile,VB NN,libgdx,method,1,TiledMapTileLayer.java
+368,368,get flip horizontally,VB NN RB,libgdx,method,1,TiledMapTileLayer.java
+369,369,set flip horizontally,VBN NN RB,libgdx,method,1,TiledMapTileLayer.java
+370,370,get flip vertically,VB NN RB,libgdx,method,1,TiledMapTileLayer.java
+371,371,set flip vertically,VB NN RB,libgdx,method,1,TiledMapTileLayer.java
+372,372,get rotation,VB NN,libgdx,method,1,TiledMapTileLayer.java
+373,373,set rotation,VB NN,libgdx,method,1,TiledMapTileLayer.java
+378,378,resume,VB,libgdx,method,1,ApplicationListener.java
+380,380,overlaps,VBZ,libgdx,method,1,Sphere.java
+384,384,surface area,JJ NN,libgdx,method,1,Sphere.java
+394,394,get color,VB NN,libgdx,method,1,BitmapFont.java
+395,395,set color,VB NN,libgdx,method,1,BitmapFont.java
+397,397,get scale x,VB NN NN,libgdx,method,1,BitmapFont.java
+398,398,get scale y,VB NN NN,libgdx,method,1,BitmapFont.java
+399,399,get region,VB NN,libgdx,method,1,BitmapFont.java
+400,400,get regions,VB NNS,libgdx,method,1,BitmapFont.java
+402,402,get line height,VB NN NN,libgdx,method,1,BitmapFont.java
+403,403,get space width,VB NN NN,libgdx,method,1,BitmapFont.java
+404,404,get x height,VB NN NN,libgdx,method,1,BitmapFont.java
+405,405,get cap height,VB NN NN,libgdx,method,1,BitmapFont.java
+406,406,get ascent,VB NN,libgdx,method,1,BitmapFont.java
+407,407,get descent,VB NN,libgdx,method,1,BitmapFont.java
+408,408,is flipped,VBZ VBN,libgdx,method,1,BitmapFont.java
+410,410,set fixed width glyphs,VBN JJ NN NNS,libgdx,method,1,BitmapFont.java
+411,411,set use integer positions,VB VB NN NNS,libgdx,method,1,BitmapFont.java
+412,412,uses integer positions,VBZ NN NNS,libgdx,method,1,BitmapFont.java
+415,415,owns texture,VBZ NN,libgdx,method,1,BitmapFont.java
+416,416,set owns texture,VB VBZ NN,libgdx,method,1,BitmapFont.java
+417,417,new font cache,VB NN NN,libgdx,method,1,BitmapFont.java
+419,419,get kerning,VB NN,libgdx,method,1,BitmapFont.java
+420,420,set kerning,VB NN,libgdx,method,1,BitmapFont.java
+422,422,index of,NN IN,libgdx,method,1,BitmapFont.java
+424,424,set glyph region,VB NN NN,libgdx,method,1,BitmapFont.java
+425,425,set line height,VB NN NN,libgdx,method,1,BitmapFont.java
+426,426,set glyph,VB NN,libgdx,method,1,BitmapFont.java
+427,427,get first glyph,VB JJ NN,libgdx,method,1,BitmapFont.java
+428,428,has glyph,VBZ NN,libgdx,method,1,BitmapFont.java
+429,429,get glyph,VB NN,libgdx,method,1,BitmapFont.java
+430,430,get glyphs,VB NNS,libgdx,method,1,BitmapFont.java
+431,431,get wrap index,VB VB NN,libgdx,method,1,BitmapFont.java
+432,432,is break char,VBZ JJ NN,libgdx,method,1,BitmapFont.java
+433,433,is whitespace,VBZ NN,libgdx,method,1,BitmapFont.java
+434,434,get image path,VB NN NN,libgdx,method,1,BitmapFont.java
+435,435,get image paths,VB NN NNS,libgdx,method,1,BitmapFont.java
+436,436,get font file,VB NN NN,libgdx,method,1,BitmapFont.java
+437,437,set scale,VB NN,libgdx,method,1,BitmapFont.java
+439,439,scale,NN,libgdx,method,1,BitmapFont.java
+444,444,set type constraint data,VB NN NN NNS,libgdx,method,1,btConeTwistConstraintData.java
+445,445,get type constraint data,VB NN NN NNS,libgdx,method,1,btConeTwistConstraintData.java
+446,446,set rb a frame,VB FW NN NN,libgdx,method,1,btConeTwistConstraintData.java
+447,447,get rb a frame,VB FW NN NN,libgdx,method,1,btConeTwistConstraintData.java
+448,448,set rb b frame,VB FW FW NN,libgdx,method,1,btConeTwistConstraintData.java
+449,449,get rb b frame,VB FW FW NN,libgdx,method,1,btConeTwistConstraintData.java
+450,450,set swing span 1,VB NN NN CD,libgdx,method,1,btConeTwistConstraintData.java
+451,451,get swing span 1,VB NN NN CD,libgdx,method,1,btConeTwistConstraintData.java
+452,452,set swing span 2,VB NN NN CD,libgdx,method,1,btConeTwistConstraintData.java
+453,453,get swing span 2,VB NN NN CD,libgdx,method,1,btConeTwistConstraintData.java
+454,454,set twist span,VB NN NN,libgdx,method,1,btConeTwistConstraintData.java
+455,455,get twist span,VB NN NN,libgdx,method,1,btConeTwistConstraintData.java
+456,456,set limit softness,VB NN NN,libgdx,method,1,btConeTwistConstraintData.java
+457,457,get limit softness,VB NN NN,libgdx,method,1,btConeTwistConstraintData.java
+458,458,set bias factor,VB NN NN,libgdx,method,1,btConeTwistConstraintData.java
+459,459,get bias factor,VB NN NN,libgdx,method,1,btConeTwistConstraintData.java
+460,460,set relaxation factor,VB NN NN,libgdx,method,1,btConeTwistConstraintData.java
+461,461,get relaxation factor,VB NN NN,libgdx,method,1,btConeTwistConstraintData.java
+464,464,set pad,VB NN,libgdx,method,1,btConeTwistConstraintData.java
+465,465,get pad,VB NN,libgdx,method,1,btConeTwistConstraintData.java
+476,476,set idt,VB NNP,libgdx,method,1,btSoftColliders.java
+477,477,get idt,VB NNP,libgdx,method,1,btSoftColliders.java
+478,478,set margin,VB NN,libgdx,method,1,btSoftColliders.java
+479,479,get margin,VB NN,libgdx,method,1,btSoftColliders.java
+480,480,set friction,VB NN,libgdx,method,1,btSoftColliders.java
+481,481,get friction,VB NN,libgdx,method,1,btSoftColliders.java
+482,482,set threshold,VB NN,libgdx,method,1,btSoftColliders.java
+483,483,get threshold,VB NN,libgdx,method,1,btSoftColliders.java
+484,484,solve contact,VB NN,libgdx,method,1,btSoftColliders.java
+489,489,set psb,VB NNP,libgdx,method,1,btSoftColliders.java
+490,490,get psb,VB NNP,libgdx,method,1,btSoftColliders.java
+491,491,set col obj wrap,VB NN NN NN,libgdx,method,1,btSoftColliders.java
+492,492,get col obj wrap,VB NN NN NN,libgdx,method,1,btSoftColliders.java
+493,493,process col obj,VB NN NN,libgdx,method,1,btSoftColliders.java
+498,498,set bodies,VB NNS,libgdx,method,1,btSoftColliders.java
+500,500,process soft soft,VB JJ JJ,libgdx,method,1,btSoftColliders.java
+505,505,do node,VB NN,libgdx,method,1,btSoftColliders.java
+508,508,set col obj etcolobj1 wrap,VB NN NN FW NN,libgdx,method,1,btSoftColliders.java
+509,509,get col obj etcolobj1 wrap,VB NN NN FW NN,libgdx,method,1,btSoftColliders.java
+510,510,set rigid body,VB JJ NN,libgdx,method,1,btSoftColliders.java
+511,511,get rigid body,VB JJ NN,libgdx,method,1,btSoftColliders.java
+512,512,set dynmargin,VB NNP,libgdx,method,1,btSoftColliders.java
+513,513,get dynmargin,VB NNP,libgdx,method,1,btSoftColliders.java
+514,514,set stamargin,VB NNP,libgdx,method,1,btSoftColliders.java
+515,515,get stamargin,VB NNP,libgdx,method,1,btSoftColliders.java
+522,522,set mrg,VB NN,libgdx,method,1,btSoftColliders.java
+523,523,get mrg,VB NN,libgdx,method,1,btSoftColliders.java
+528,528,gl read buffer,FW NN NN,libgdx,method,1,LwjglGL30.java
+529,529,gl draw range elements,FW NN NN NNS,libgdx,method,1,LwjglGL30.java
+531,531,gl tex image lteximage3 d,FW NN NN FW NN,libgdx,method,1,LwjglGL30.java
+533,533,gl tex sub image ltexsubimage3 d,FW NN JJ NN FW NN,libgdx,method,1,LwjglGL30.java
+535,535,gl copy tex sub image lcopytexsubimage3 d,FW VBP JJ NN NN NN NN,libgdx,method,1,LwjglGL30.java
+536,536,gl gen queries,FW VB NNS,libgdx,method,1,LwjglGL30.java
+538,538,gl delete queries,FW VB NNS,libgdx,method,1,LwjglGL30.java
+540,540,gl is query,FW VBZ NN,libgdx,method,1,LwjglGL30.java
+541,541,gl begin query,FW VB NN,libgdx,method,1,LwjglGL30.java
+542,542,gl end query,FW VB NN,libgdx,method,1,LwjglGL30.java
+543,543,gl get queryiv,FW VB FW,libgdx,method,1,LwjglGL30.java
+544,544,gl get query objectuiv,FW VB NN FW,libgdx,method,1,LwjglGL30.java
+545,545,gl unmap buffer,FW NN NN,libgdx,method,1,LwjglGL30.java
+546,546,gl get buffer pointerv,FW VB NN FW,libgdx,method,1,LwjglGL30.java
+547,547,gl draw buffers,FW VB NNS,libgdx,method,1,LwjglGL30.java
+548,548,gl uniform matrix luniformmatrix2x luniformmatrix2x3fv,FW JJ NN FW FW,libgdx,method,1,LwjglGL30.java
+549,549,gl uniform matrix luniformmatrix3x luniformmatrix3x2fv,FW JJ NN FW FW,libgdx,method,1,LwjglGL30.java
+550,550,gl uniform matrix luniformmatrix2x luniformmatrix2x4fv,FW JJ NN FW FW,libgdx,method,1,LwjglGL30.java
+551,551,gl uniform matrix luniformmatrix4x luniformmatrix4x2fv,FW JJ NN FW FW,libgdx,method,1,LwjglGL30.java
+552,552,gl uniform matrix luniformmatrix3x luniformmatrix3x4fv,FW JJ NN FW FW,libgdx,method,1,LwjglGL30.java
+553,553,gl uniform matrix luniformmatrix4x luniformmatrix4x3fv,FW JJ NN FW FW,libgdx,method,1,LwjglGL30.java
+554,554,gl blit framebuffer,FW NN NN,libgdx,method,1,LwjglGL30.java
+555,555,gl bind framebuffer,FW VB NN,libgdx,method,1,LwjglGL30.java
+556,556,gl bind renderbuffer,FW VB NNP,libgdx,method,1,LwjglGL30.java
+557,557,gl check framebuffer status,FW VB NN NN,libgdx,method,1,LwjglGL30.java
+558,558,gl delete framebuffers,FW VB NNS,libgdx,method,1,LwjglGL30.java
+559,559,gl delete framebuffer,FW VB NN,libgdx,method,1,LwjglGL30.java
+560,560,gl delete renderbuffers,FW VB NNPS,libgdx,method,1,LwjglGL30.java
+561,561,gl delete renderbuffer,FW VB NNP,libgdx,method,1,LwjglGL30.java
+562,562,gl generate mipmap,FW VB NN,libgdx,method,1,LwjglGL30.java
+563,563,gl gen framebuffers,FW VB NNS,libgdx,method,1,LwjglGL30.java
+564,564,gl gen framebuffer,FW VB NN,libgdx,method,1,LwjglGL30.java
+565,565,gl gen renderbuffers,FW VB NNS,libgdx,method,1,LwjglGL30.java
+566,566,gl gen renderbuffer,FW VB NN,libgdx,method,1,LwjglGL30.java
+567,567,gl get renderbuffer parameteriv,FW VB NN FW,libgdx,method,1,LwjglGL30.java
+568,568,gl is framebuffer,FW VBZ NN,libgdx,method,1,LwjglGL30.java
+569,569,gl is renderbuffer,FW VBZ NNP,libgdx,method,1,LwjglGL30.java
+570,570,gl renderbuffer storage,FW NNP NN,libgdx,method,1,LwjglGL30.java
+571,571,gl renderbuffer storage multisample,FW NNP NN JJ,libgdx,method,1,LwjglGL30.java
+572,572,gl framebuffer texture lframebuffertexture2 d,FW NN NN FW NN,libgdx,method,1,LwjglGL30.java
+573,573,gl framebuffer renderbuffer,FW NN NNP,libgdx,method,1,LwjglGL30.java
+574,574,gl framebuffer texture layer,FW NN NN NN,libgdx,method,1,LwjglGL30.java
+575,575,gl flush mapped buffer range,FW VB VBN NN NN,libgdx,method,1,LwjglGL30.java
+576,576,gl bind vertex array,FW VB NN NN,libgdx,method,1,LwjglGL30.java
+577,577,gl delete vertex arrays,FW VB NN NNS,libgdx,method,1,LwjglGL30.java
+579,579,gl gen vertex arrays,FW VB NN NNS,libgdx,method,1,LwjglGL30.java
+581,581,gl is vertex array,FW VBZ NN NN,libgdx,method,1,LwjglGL30.java
+582,582,gl begin transform feedback,FW VB VB NN,libgdx,method,1,LwjglGL30.java
+583,583,gl end transform feedback,FW VB VB NN,libgdx,method,1,LwjglGL30.java
+584,584,gl bind buffer range,FW VB NN NN,libgdx,method,1,LwjglGL30.java
+585,585,gl bind buffer base,FW VB NN NN,libgdx,method,1,LwjglGL30.java
+586,586,gl transform feedback varyings,FW VB NN NNS,libgdx,method,1,LwjglGL30.java
+587,587,gl vertex attrib i pointer,FW NN NN FW NN,libgdx,method,1,LwjglGL30.java
+588,588,gl get vertex attrib iiv,FW VB NN NN FW,libgdx,method,1,LwjglGL30.java
+589,589,gl get vertex attrib iuiv,FW VB NN FW FW,libgdx,method,1,LwjglGL30.java
+590,590,gl vertex attrib i lvertexattribi4i,FW NN NN FW FW,libgdx,method,1,LwjglGL30.java
+591,591,gl vertex attrib i lvertexattribi4ui,FW NN NN NN VBP,libgdx,method,1,LwjglGL30.java
+592,592,gl get uniformuiv,FW VB FW,libgdx,method,1,LwjglGL30.java
+593,593,gl get frag data location,FW VB NN NNS NN,libgdx,method,1,LwjglGL30.java
+594,594,gl uniform luniform1uiv,FW VB FW,libgdx,method,1,LwjglGL30.java
+595,595,gl uniform luniform3uiv,FW VB FW,libgdx,method,1,LwjglGL30.java
+596,596,gl uniform luniform4uiv,FW VB FW,libgdx,method,1,LwjglGL30.java
+597,597,gl clear bufferiv,FW VB FW,libgdx,method,1,LwjglGL30.java
+598,598,gl clear bufferuiv,FW VB FW,libgdx,method,1,LwjglGL30.java
+599,599,gl clear bufferfv,FW VB FW,libgdx,method,1,LwjglGL30.java
+600,600,gl clear bufferfi,FW VB FW,libgdx,method,1,LwjglGL30.java
+601,601,gl get stringi,FW VB FW,libgdx,method,1,LwjglGL30.java
+602,602,gl copy buffer sub data,FW VB NN NN NNS,libgdx,method,1,LwjglGL30.java
+603,603,gl get uniform indices,FW VB JJ NNS,libgdx,method,1,LwjglGL30.java
+604,604,gl get active uniformsiv,FW VB JJ FW,libgdx,method,1,LwjglGL30.java
+605,605,gl get uniform block index,FW VB JJ NN FW,libgdx,method,1,LwjglGL30.java
+606,606,gl get active uniform blockiv,FW VB JJ JJ FW,libgdx,method,1,LwjglGL30.java
+607,607,gl get active uniform block name,FW VB JJ JJ NN NN,libgdx,method,1,LwjglGL30.java
+609,609,gl uniform block binding,FW VB NN NN,libgdx,method,1,LwjglGL30.java
+610,610,gl draw arrays instanced,FW VB NNS VBN,libgdx,method,1,LwjglGL30.java
+611,611,gl draw elements instanced,FW VB NNS VBN,libgdx,method,1,LwjglGL30.java
+612,612,gl get integer getinteger6 lgetinteger64v,FW VB NN FW FW,libgdx,method,1,LwjglGL30.java
+613,613,gl get buffer parameteri getbufferparameteri6 lgetbufferparameteri64v,FW VB NN FW FW FW,libgdx,method,1,LwjglGL30.java
+614,614,gl gen samplers,FW VB NNS,libgdx,method,1,LwjglGL30.java
+616,616,gl delete samplers,FW VB NNS,libgdx,method,1,LwjglGL30.java
+618,618,gl is sampler,FW VBZ NN,libgdx,method,1,LwjglGL30.java
+619,619,gl bind sampler,FW VB NN,libgdx,method,1,LwjglGL30.java
+620,620,gl sampler parameteri,FW NN FW,libgdx,method,1,LwjglGL30.java
+621,621,gl sampler parameteriv,FW NN FW,libgdx,method,1,LwjglGL30.java
+622,622,gl sampler parameterf,FW NN FW,libgdx,method,1,LwjglGL30.java
+623,623,gl sampler parameterfv,FW NN FW,libgdx,method,1,LwjglGL30.java
+624,624,gl get sampler parameteriv,FW VB NN FW,libgdx,method,1,LwjglGL30.java
+625,625,gl get sampler parameterfv,FW VB NN FW,libgdx,method,1,LwjglGL30.java
+626,626,gl vertex attrib divisor,FW NN NN NN,libgdx,method,1,LwjglGL30.java
+627,627,gl bind transform feedback,FW VB NN NN,libgdx,method,1,LwjglGL30.java
+628,628,gl delete transform feedbacks,FW VB NN NNS,libgdx,method,1,LwjglGL30.java
+630,630,gl gen transform feedbacks,FW VB NN NNS,libgdx,method,1,LwjglGL30.java
+632,632,gl is transform feedback,FW VBZ NN NN,libgdx,method,1,LwjglGL30.java
+633,633,gl pause transform feedback,FW VB NN NN,libgdx,method,1,LwjglGL30.java
+634,634,gl resume transform feedback,FW VB NN NN,libgdx,method,1,LwjglGL30.java
+635,635,gl program parameteri,FW NN FW,libgdx,method,1,LwjglGL30.java
+636,636,gl invalidate framebuffer,FW VB NN,libgdx,method,1,LwjglGL30.java
+637,637,gl invalidate sub framebuffer,FW VB NN NN,libgdx,method,1,LwjglGL30.java
+648,648,set use reference frame a,VB VB NN NN FW,libgdx,method,1,btHingeConstraintDoubleData.java
+649,649,get use reference frame a,VB VB NN NN FW,libgdx,method,1,btHingeConstraintDoubleData.java
+650,650,set angular only,VB JJ RB,libgdx,method,1,btHingeConstraintDoubleData.java
+651,651,get angular only,VB JJ RB,libgdx,method,1,btHingeConstraintDoubleData.java
+652,652,set enable angular motor,VB VB JJ NN,libgdx,method,1,btHingeConstraintDoubleData.java
+653,653,get enable angular motor,VB VB JJ NN,libgdx,method,1,btHingeConstraintDoubleData.java
+654,654,set motor target velocity,VB NN NN NN,libgdx,method,1,btHingeConstraintDoubleData.java
+655,655,get motor target velocity,VB NN NN NN,libgdx,method,1,btHingeConstraintDoubleData.java
+656,656,set max motor impulse,VB JJ NN NN,libgdx,method,1,btHingeConstraintDoubleData.java
+657,657,get max motor impulse,VB JJ NN NN,libgdx,method,1,btHingeConstraintDoubleData.java
+668,668,play,VB,libgdx,method,1,IOSSound.java
+672,672,loop,VB,libgdx,method,1,IOSSound.java
+678,678,set looping,VB NN,libgdx,method,1,IOSSound.java
+679,679,set pitch,VB NN,libgdx,method,1,IOSSound.java
+681,681,set pan,VB NN,libgdx,method,1,IOSSound.java
+687,687,get sound source,VB NN NN,libgdx,method,1,IOSSound.java
+691,691,remove value,VB NN,libgdx,method,1,DelayedRemovalArray.java
+693,693,remove range,VB NN,libgdx,method,1,DelayedRemovalArray.java
+695,695,insert,VB,libgdx,method,1,DelayedRemovalArray.java
+702,702,shuffle,VB,libgdx,method,1,DelayedRemovalArray.java
+703,703,truncate,VB,libgdx,method,1,DelayedRemovalArray.java
+704,704,with,IN,libgdx,method,1,DelayedRemovalArray.java
+710,710,allow completion,VB NN,libgdx,method,1,ParticleEffect.java
+711,711,is complete,VBZ JJ,libgdx,method,1,ParticleEffect.java
+712,712,set duration,VB NN,libgdx,method,1,ParticleEffect.java
+713,713,set position,VB NN,libgdx,method,1,ParticleEffect.java
+714,714,set flip,VB NN,libgdx,method,1,ParticleEffect.java
+715,715,flip y,VB NN,libgdx,method,1,ParticleEffect.java
+716,716,get emitters,VB NNS,libgdx,method,1,ParticleEffect.java
+717,717,find emitter,VB NN,libgdx,method,1,ParticleEffect.java
+722,722,load emitters,VB NNS,libgdx,method,1,ParticleEffect.java
+723,723,load emitter images,VB NN NNS,libgdx,method,1,ParticleEffect.java
+726,726,load texture,VB NN,libgdx,method,1,ParticleEffect.java
+728,728,get bounding box,VB VBG NN,libgdx,method,1,ParticleEffect.java
+729,729,scale effect,NN NN,libgdx,method,1,ParticleEffect.java
+730,730,set emitters clean up blend function,VB NNS VBP RP NN NN,libgdx,method,1,ParticleEffect.java
+738,738,is read only,VBZ NN RB,libgdx,method,1,IntToByteBufferAdapter.java
+746,746,get byte buffer,VB NN NN,libgdx,method,1,IntToByteBufferAdapter.java
+752,752,generate,VB,libgdx,method,1,AndroidNdkScriptGenerator.java
+753,753,gather source files,VB NN NNS,libgdx,method,1,AndroidNdkScriptGenerator.java
+754,754,match,VB,libgdx,method,1,AndroidNdkScriptGenerator.java
+767,767,is,VBZ,libgdx,method,1,CubemapAttribute.java
+771,771,set style,VB NN,libgdx,method,1,ImageButton.java
+772,772,get style,VB NN,libgdx,method,1,ImageButton.java
+773,773,update image,VB NN,libgdx,method,1,ImageButton.java
+776,776,get image cell,VB NN NN,libgdx,method,1,ImageButton.java
+779,779,create shader,VB NN,libgdx,method,1,FrameBufferTest.java
+781,781,load tile layer,VB NN NN,libgdx,method,1,BaseTmxMapLoader.java
+782,782,load object group,VB NN NN,libgdx,method,1,BaseTmxMapLoader.java
+783,783,load image layer,VB NN NN,libgdx,method,1,BaseTmxMapLoader.java
+784,784,load basic layer info,VB JJ NN NN,libgdx,method,1,BaseTmxMapLoader.java
+785,785,load object,VB NN,libgdx,method,1,BaseTmxMapLoader.java
+786,786,load properties,VB NNS,libgdx,method,1,BaseTmxMapLoader.java
+787,787,create tile layer cell,VB NN NN NN,libgdx,method,1,BaseTmxMapLoader.java
+788,788,get tile ids,VB NN NNS,libgdx,method,1,BaseTmxMapLoader.java
+789,789,unsigned byte to int,JJ NN TO NN,libgdx,method,1,BaseTmxMapLoader.java
+790,790,get relative file handle,VB JJ NN NN,libgdx,method,1,BaseTmxMapLoader.java
+799,799,put all,VB JJ,libgdx,method,1,ObjectFloatMap.java
+800,800,put resize,VB VB,libgdx,method,1,ObjectFloatMap.java
+802,802,put stash,VB NN,libgdx,method,1,ObjectFloatMap.java
+804,804,get stash,VB NN,libgdx,method,1,ObjectFloatMap.java
+805,805,get and increment,VB CC NN,libgdx,method,1,ObjectFloatMap.java
+806,806,get and increment stash,VB CC NN NN,libgdx,method,1,ObjectFloatMap.java
+808,808,remove stash,VB NN,libgdx,method,1,ObjectFloatMap.java
+809,809,remove stash index,VB NN NN,libgdx,method,1,ObjectFloatMap.java
+810,810,shrink,VB,libgdx,method,1,ObjectFloatMap.java
+813,813,contains value,VBZ NN,libgdx,method,1,ObjectFloatMap.java
+814,814,contains key,VBZ NN,libgdx,method,1,ObjectFloatMap.java
+815,815,contains key stash,VB JJ NN,libgdx,method,1,ObjectFloatMap.java
+816,816,find key,VB NN,libgdx,method,1,ObjectFloatMap.java
+817,817,ensure capacity,VB NN,libgdx,method,1,ObjectFloatMap.java
+819,819,hash 2,NN CD,libgdx,method,1,ObjectFloatMap.java
+820,820,hash 3,NN CD,libgdx,method,1,ObjectFloatMap.java
+825,825,entries,NNS,libgdx,method,1,ObjectFloatMap.java
+830,830,find next index,VB JJ NN,libgdx,method,1,ObjectFloatMap.java
+838,838,to array,TO NN,libgdx,method,1,ObjectFloatMap.java
+845,845,on template checked,IN NN VBN,libgdx,method,1,TemplatePickerPanel.java
+847,847,set one model selection required,VB CD NN NN JJ,libgdx,method,1,TemplatePickerPanel.java
+848,848,set multiple selection allowed,VB JJ NN VBN,libgdx,method,1,TemplatePickerPanel.java
+849,849,set excluded templates,VB JJ NNS,libgdx,method,1,TemplatePickerPanel.java
+850,850,set loaded templates,VB JJ NNS,libgdx,method,1,TemplatePickerPanel.java
+851,851,get template name,VB NN NN,libgdx,method,1,TemplatePickerPanel.java
+852,852,reload templates,VB NNS,libgdx,method,1,TemplatePickerPanel.java
+853,853,initialize components,VB NNS,libgdx,method,1,TemplatePickerPanel.java
+855,855,get preferred scrollable viewport size,VB JJ JJ NN NN,libgdx,method,1,TemplatePickerPanel.java
+857,857,template checked,NN VBN,libgdx,method,1,TemplatePickerPanel.java
+858,858,on resource loaded,IN NN VBN,libgdx,method,1,TemplatePickerPanel.java
+859,859,set zero,VB CD,libgdx,method,1,Vec2.java
+863,863,sub,VB,libgdx,method,1,Vec2.java
+864,864,mul,VB,libgdx,method,1,Vec2.java
+865,865,negate,VB,libgdx,method,1,Vec2.java
+866,866,negate local,VB NN,libgdx,method,1,Vec2.java
+867,867,add local,VB NN,libgdx,method,1,Vec2.java
+869,869,sub local,VB NN,libgdx,method,1,Vec2.java
+870,870,mul local,VB NN,libgdx,method,1,Vec2.java
+871,871,skew,NN,libgdx,method,1,Vec2.java
+874,874,length squared,NN VBN,libgdx,method,1,Vec2.java
+876,876,is valid,VBZ JJ,libgdx,method,1,Vec2.java
+878,878,abs local,FW JJ,libgdx,method,1,Vec2.java
+882,882,abs to out,FW TO NN,libgdx,method,1,Vec2.java
+886,886,cross to out,NN TO NN,libgdx,method,1,Vec2.java
+887,887,cross to out unsafe,NN TO NN JJ,libgdx,method,1,Vec2.java
+891,891,negate to out,NN TO NN,libgdx,method,1,Vec2.java
+894,894,min to out,NN TO NN,libgdx,method,1,Vec2.java
+895,895,max to out,NN NN RP,libgdx,method,1,Vec2.java
+898,898,add mesh,VB NN,libgdx,method,1,ModelData.java
+903,903,set dispatcher 1,VB NN CD,libgdx,method,1,btCollisionAlgorithmConstructionInfo.java
+904,904,get dispatcher 1,VB NN CD,libgdx,method,1,btCollisionAlgorithmConstructionInfo.java
+905,905,set manifold,VB NN,libgdx,method,1,btCollisionAlgorithmConstructionInfo.java
+906,906,get manifold,VB NN,libgdx,method,1,btCollisionAlgorithmConstructionInfo.java
+907,907,is sdk location valid,VBZ NNP NN JJ,libgdx,method,1,GdxSetup.java
+908,908,is empty directory,VBZ JJ NN,libgdx,method,1,GdxSetup.java
+909,909,is sdk up to date,VBZ NN IN TO NN,libgdx,method,1,GdxSetup.java
+910,910,get latest api,VB JJS NNP,libgdx,method,1,GdxSetup.java
+911,911,get latest tools,VB JJS NNS,libgdx,method,1,GdxSetup.java
+912,912,read a p i version,VB NN NN NN NN,libgdx,method,1,GdxSetup.java
+913,913,read build tools version,VB NN NNS NN,libgdx,method,1,GdxSetup.java
+914,914,versions equal,NNS VBP,libgdx,method,1,GdxSetup.java
+915,915,compare versions,VB NNS,libgdx,method,1,GdxSetup.java
+916,916,convert tools,VB NNS,libgdx,method,1,GdxSetup.java
+918,918,copy and replace,VB CC VB,libgdx,method,1,GdxSetup.java
+919,919,read resource,VB NN,libgdx,method,1,GdxSetup.java
+921,921,read resource as string,VB NN IN NN,libgdx,method,1,GdxSetup.java
+923,923,write file,VB NN,libgdx,method,1,GdxSetup.java
+925,925,copy file,VB NN,libgdx,method,1,GdxSetup.java
+927,927,print help,VB NN,libgdx,method,1,GdxSetup.java
+928,928,parse args,VB NNS,libgdx,method,1,GdxSetup.java
+929,929,parse gwt inherits,VB NNP NNS,libgdx,method,1,GdxSetup.java
+930,930,parse gradle args,VB NN NNS,libgdx,method,1,GdxSetup.java
+931,931,contains dependency,VBZ NN,libgdx,method,1,GdxSetup.java
+939,939,get end color,VB NN NN,libgdx,method,1,ColorAction.java
+940,940,set end color,VB NN NN,libgdx,method,1,ColorAction.java
+944,944,get center,VB NN,libgdx,method,1,BoundingBox.java
+945,945,get center x,VB NN NN,libgdx,method,1,BoundingBox.java
+946,946,get center y,VB NN NN,libgdx,method,1,BoundingBox.java
+947,947,get center z,VB NN NN,libgdx,method,1,BoundingBox.java
+948,948,get corner 0 0 0,VB NN CD CD CD,libgdx,method,1,BoundingBox.java
+949,949,get corner 0 0 1,VB NN CD CD CD,libgdx,method,1,BoundingBox.java
+950,950,get corner 0 1 0,VB NN CD CD CD,libgdx,method,1,BoundingBox.java
+951,951,get corner 0 1 1,VB NN CD CD CD,libgdx,method,1,BoundingBox.java
+952,952,get corner 1 0 0,VB NN CD CD CD,libgdx,method,1,BoundingBox.java
+953,953,get corner 1 0 1,VB NN CD CD CD,libgdx,method,1,BoundingBox.java
+954,954,get corner 1 1 0,VB NN CD CD CD,libgdx,method,1,BoundingBox.java
+955,955,get corner 1 1 1,VB NN CD CD CD,libgdx,method,1,BoundingBox.java
+956,956,get dimensions,VB NNS,libgdx,method,1,BoundingBox.java
+960,960,get min,VB NN,libgdx,method,1,BoundingBox.java
+961,961,get max,VB NN,libgdx,method,1,BoundingBox.java
+966,966,inf,VB,libgdx,method,1,BoundingBox.java
+968,968,clr,VB,libgdx,method,1,BoundingBox.java
+975,975,intersects,VBZ,libgdx,method,1,BoundingBox.java
+986,986,get stage x,VB NN NN,libgdx,method,1,InputEvent.java
+987,987,set stage x,VB NN NN,libgdx,method,1,InputEvent.java
+988,988,get stage y,VB NN NN,libgdx,method,1,InputEvent.java
+989,989,set stage y,VB NN NN,libgdx,method,1,InputEvent.java
+992,992,get pointer,VB NN,libgdx,method,1,InputEvent.java
+993,993,set pointer,VB NN,libgdx,method,1,InputEvent.java
+994,994,get button,VB NN,libgdx,method,1,InputEvent.java
+995,995,set button,VB NN,libgdx,method,1,InputEvent.java
+996,996,get key code,VB JJ NN,libgdx,method,1,InputEvent.java
+997,997,set key code,VB JJ NN,libgdx,method,1,InputEvent.java
+998,998,get character,VB NN,libgdx,method,1,InputEvent.java
+999,999,set character,VB NN,libgdx,method,1,InputEvent.java

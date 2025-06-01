@@ -1,0 +1,1604 @@
+,ID,SEQUENCE,POS,PROJECT,FILE
+0,0,new distribution block,JJ NN NN,hadoop,HadoopLogsAnalyzer.java
+1,2,get distribution,VB NN,hadoop,HadoopLogsAnalyzer.java
+2,3,usage,NN,hadoop,HadoopLogsAnalyzer.java
+3,4,path is directory,NN VBZ NN,hadoop,HadoopLogsAnalyzer.java
+4,5,initialize hadoop logs analyzer,VB NNP NNS NN,hadoop,HadoopLogsAnalyzer.java
+5,6,maybe uncompressed path,RB JJ NN,hadoop,HadoopLogsAnalyzer.java
+6,7,set next directory input stream,VB JJ NN NN NN,hadoop,HadoopLogsAnalyzer.java
+7,8,read input line,VB NN NN,hadoop,HadoopLogsAnalyzer.java
+8,9,read counted line,VB VBN NN,hadoop,HadoopLogsAnalyzer.java
+9,10,unread counted line,JJ VBN NN,hadoop,HadoopLogsAnalyzer.java
+10,11,apparent conf file header,JJ NN NN NN,hadoop,HadoopLogsAnalyzer.java
+11,12,apparent xml file start,JJ NNP NN NN,hadoop,HadoopLogsAnalyzer.java
+12,13,read balanced line,JJ JJ NN,hadoop,HadoopLogsAnalyzer.java
+13,14,incorporate spread,JJ NN,hadoop,HadoopLogsAnalyzer.java
+14,15,canonical distributions enter,JJ NNS VB,hadoop,HadoopLogsAnalyzer.java
+15,16,process job line,VB NN NN,hadoop,HadoopLogsAnalyzer.java
+16,17,process task line,VB NN NN,hadoop,HadoopLogsAnalyzer.java
+17,18,counter pattern,NN NN,hadoop,HadoopLogsAnalyzer.java
+18,19,parse counter,VB NN,hadoop,HadoopLogsAnalyzer.java
+19,20,set,VB,hadoop,HadoopLogsAnalyzer.java
+20,21,incorporate counter,JJ NN,hadoop,HadoopLogsAnalyzer.java
+21,22,incorporate counters,JJ NNS,hadoop,HadoopLogsAnalyzer.java
+22,41,get and record parsed host,VB IN VB JJ NN,hadoop,HadoopLogsAnalyzer.java
+23,42,process map attempt line,VB NN VB NN,hadoop,HadoopLogsAnalyzer.java
+24,43,process reduce attempt line,VB VB VB NN,hadoop,HadoopLogsAnalyzer.java
+25,44,process parsed line,VB JJ NN,hadoop,HadoopLogsAnalyzer.java
+26,45,print distribution set,VB NN NN,hadoop,HadoopLogsAnalyzer.java
+27,46,print single distribution data,VB JJ NN NN,hadoop,HadoopLogsAnalyzer.java
+28,47,maybe mate job and conf,RB NN NN IN NN,hadoop,HadoopLogsAnalyzer.java
+29,48,map cdf array list,VB NNP NN NN,hadoop,HadoopLogsAnalyzer.java
+30,49,finalize job,VB NN,hadoop,HadoopLogsAnalyzer.java
+31,50,run,VB,hadoop,HadoopLogsAnalyzer.java
+32,52,main,NN,hadoop,HadoopLogsAnalyzer.java
+33,53,test conn configuratior,VB NN NN,hadoop,TestURLConnectionFactory.java
+34,54,configure,VB,hadoop,TestURLConnectionFactory.java
+35,56,put counters,VB NNS,hadoop,ParsedTaskAttempt.java
+36,57,obtain counters,VB NNS,hadoop,ParsedTaskAttempt.java
+37,58,put diagnostic info,VB JJ NN,hadoop,ParsedTaskAttempt.java
+38,59,obtain diagnostic info,VB JJ NN,hadoop,ParsedTaskAttempt.java
+39,60,put tracker name,VB NN NN,hadoop,ParsedTaskAttempt.java
+40,61,obtain tracker name,VB NN NN,hadoop,ParsedTaskAttempt.java
+41,62,put http port,VB NNP NN,hadoop,ParsedTaskAttempt.java
+42,63,obtain http port,VB NNP NN,hadoop,ParsedTaskAttempt.java
+43,64,put shuffle port,VB NN NN,hadoop,ParsedTaskAttempt.java
+44,65,obtain shuffle port,VB NN NN,hadoop,ParsedTaskAttempt.java
+45,66,dump parsed task attempt,VB JJ NN NN,hadoop,ParsedTaskAttempt.java
+46,67,get proto,VB NN,hadoop,LocalResourcePBImpl.java
+47,68,hash code,NN NN,hadoop,LocalResourcePBImpl.java
+48,69,equals,VBZ,hadoop,LocalResourcePBImpl.java
+49,70,to string,TO NN,hadoop,LocalResourcePBImpl.java
+50,71,merge local to builder,VB NN TO NN,hadoop,LocalResourcePBImpl.java
+51,72,maybe init builder,RB JJ NN,hadoop,LocalResourcePBImpl.java
+52,73,get size,VB NN,hadoop,LocalResourcePBImpl.java
+53,74,set size,VB NN,hadoop,LocalResourcePBImpl.java
+54,75,get timestamp,VB NN,hadoop,LocalResourcePBImpl.java
+55,76,set timestamp,VB NN,hadoop,LocalResourcePBImpl.java
+56,77,get type,VB NN,hadoop,LocalResourcePBImpl.java
+57,78,set type,VB NN,hadoop,LocalResourcePBImpl.java
+58,79,get resource,VB NN,hadoop,LocalResourcePBImpl.java
+59,80,set resource,VB NN,hadoop,LocalResourcePBImpl.java
+60,81,get visibility,VB NN,hadoop,LocalResourcePBImpl.java
+61,82,set visibility,VB NN,hadoop,LocalResourcePBImpl.java
+62,83,get pattern,VB NN,hadoop,LocalResourcePBImpl.java
+63,84,set pattern,VB NN,hadoop,LocalResourcePBImpl.java
+64,85,convert to proto format,VB TO NN NN,hadoop,LocalResourcePBImpl.java
+65,86,convert from proto format,VB IN NN NN,hadoop,LocalResourcePBImpl.java
+66,91,get diagnostic message,VB JJ NN,hadoop,ResourceFailedLocalizationEvent.java
+67,92,join paths,VB NNS,hadoop,SwiftUtils.java
+68,93,is directory,VBZ NN,hadoop,SwiftUtils.java
+69,94,is file pretending to be directory,VBZ NN VBG TO VB NN,hadoop,SwiftUtils.java
+70,95,is root dir,VBZ NN NN,hadoop,SwiftUtils.java
+71,96,debug,VB,hadoop,SwiftUtils.java
+72,97,debug ex,VB NN,hadoop,SwiftUtils.java
+73,98,trace,VB,hadoop,SwiftUtils.java
+74,99,partition filename from number,NN NN IN NN,hadoop,SwiftUtils.java
+75,100,ls,VB,hadoop,SwiftUtils.java
+76,101,file stats to string,NN NNS IN NN,hadoop,SwiftUtils.java
+77,102,validate read args,VB VBN NNS,hadoop,SwiftUtils.java
+78,103,test mk dir rm dir,VB VB NN VB NN,hadoop,AbstractContractMkdirTest.java
+79,104,test mk dir rm rf dir,VB VB NN VB NNP NN,hadoop,AbstractContractMkdirTest.java
+80,105,test no mkdir over file,VB JJ NNP IN NN,hadoop,AbstractContractMkdirTest.java
+81,106,test mkdir over parent file,VB NNP IN NN NN,hadoop,AbstractContractMkdirTest.java
+82,107,target to data,NN TO NN,hadoop,ZKFailoverController.java
+83,108,data to target,NN TO NN,hadoop,ZKFailoverController.java
+84,109,login as fc user,VB IN NNP NN,hadoop,ZKFailoverController.java
+85,110,check rpc admin access,VB NNP NN NN,hadoop,ZKFailoverController.java
+86,111,get rpc address to bind to,VB NNP NN TO VB TO,hadoop,ZKFailoverController.java
+87,112,get policy provider,VB NN NN,hadoop,ZKFailoverController.java
+88,113,get scope inside parent node,VB NN IN JJ NN,hadoop,ZKFailoverController.java
+89,114,get local target,VB JJ NN,hadoop,ZKFailoverController.java
+90,117,do run,VB VBP,hadoop,ZKFailoverController.java
+91,118,bad arg,JJ NN,hadoop,ZKFailoverController.java
+92,119,print usage,VB NN,hadoop,ZKFailoverController.java
+93,120,format zk,VB FW,hadoop,ZKFailoverController.java
+94,121,confirm format,VB NN,hadoop,ZKFailoverController.java
+95,122,init hm,VB FW,hadoop,ZKFailoverController.java
+96,123,init rpc,VB NNP,hadoop,ZKFailoverController.java
+97,124,start rpc,VB NNP,hadoop,ZKFailoverController.java
+98,125,init zk,VB FW,hadoop,ZKFailoverController.java
+99,126,get parent znode,VB JJ NNP,hadoop,ZKFailoverController.java
+100,127,main loop,JJ NN,hadoop,ZKFailoverController.java
+101,128,fatal error,JJ NN,hadoop,ZKFailoverController.java
+102,129,become active,VB JJ,hadoop,ZKFailoverController.java
+103,130,record active attempt,VB JJ NN,hadoop,ZKFailoverController.java
+104,131,wait for active attempt,VB IN JJ NN,hadoop,ZKFailoverController.java
+105,132,create req info,VB NN NN,hadoop,ZKFailoverController.java
+106,133,become standby,VB JJ,hadoop,ZKFailoverController.java
+107,134,fence old active,VB JJ JJ,hadoop,ZKFailoverController.java
+108,135,do fence,VB VBP,hadoop,ZKFailoverController.java
+109,136,cede active,VB JJ,hadoop,ZKFailoverController.java
+110,138,do cede active,VB VBP JJ,hadoop,ZKFailoverController.java
+111,139,graceful failover to you,JJ NN TO PRP,hadoop,ZKFailoverController.java
+112,141,do graceful failover,VB JJ NN,hadoop,ZKFailoverController.java
+113,142,check eligible for failover,VB JJ IN NN,hadoop,ZKFailoverController.java
+114,143,get current active,VB JJ JJ,hadoop,ZKFailoverController.java
+115,144,recheck electability,VB NN,hadoop,ZKFailoverController.java
+116,145,schedule recheck,NN VBP,hadoop,ZKFailoverController.java
+117,147,verify changed service state,VB JJ NN NN,hadoop,ZKFailoverController.java
+118,148,get last health state,VB JJ NN NN,hadoop,ZKFailoverController.java
+119,149,set last health state,VB JJ NN NN,hadoop,ZKFailoverController.java
+120,150,get elector for tests,VB NN IN NNS,hadoop,ZKFailoverController.java
+121,151,get rpc server for tests,VB NNP NN IN NNS,hadoop,ZKFailoverController.java
+122,154,enter neutral mode,VB JJ NN,hadoop,ZKFailoverController.java
+123,155,notify fatal error,VB JJ NN,hadoop,ZKFailoverController.java
+124,158,entered state,VBN NN,hadoop,ZKFailoverController.java
+125,159,report service status,VB NN NN,hadoop,ZKFailoverController.java
+126,160,set conf,VB NN,hadoop,StaticMapping.java
+127,162,add node to rack,VB NN TO NN,hadoop,StaticMapping.java
+128,163,resolve,VB,hadoop,StaticMapping.java
+129,164,is single switch,VBZ JJ NN,hadoop,StaticMapping.java
+130,165,get switch map,VB NN NN,hadoop,StaticMapping.java
+131,167,reset map,VB NN,hadoop,StaticMapping.java
+132,168,reload cached mappings,VB VBD NNS,hadoop,StaticMapping.java
+133,170,from yarn,IN NN,hadoop,TypeConverter.java
+134,172,to yarn,TO NN,hadoop,TypeConverter.java
+135,173,from cluster time stamp,IN NN NN NN,hadoop,TypeConverter.java
+136,174,to cluster time stamp,TO NN NN NN,hadoop,TypeConverter.java
+137,198,from yarn nodes,IN NN NNS,hadoop,TypeConverter.java
+138,200,from yarn apps,IN NN NNS,hadoop,TypeConverter.java
+139,202,from yarn queue info,IN NN NN NN,hadoop,TypeConverter.java
+140,203,from yarn queue user acls info,IN NN NN NN NNPS NN,hadoop,TypeConverter.java
+141,204,get default retry policy,VB JJ VBP NN,hadoop,RetryUtils.java
+142,205,should retry,MD VB,hadoop,RetryUtils.java
+143,207,get multiple linear random retry,VB JJ JJ JJ VBP,hadoop,RetryUtils.java
+144,208,set up,VB RP,hadoop,TestSwiftFileSystemLsOperations.java
+145,209,create test subdirs,VB NN NNS,hadoop,TestSwiftFileSystemLsOperations.java
+146,210,test list level test,VB VB NN NN,hadoop,TestSwiftFileSystemLsOperations.java
+147,211,test list level test hadoop,VB VB NN NN NNP,hadoop,TestSwiftFileSystemLsOperations.java
+148,212,test list status empty directory,VB VB NN JJ NN,hadoop,TestSwiftFileSystemLsOperations.java
+149,213,test list status file,VB VB NN NN,hadoop,TestSwiftFileSystemLsOperations.java
+150,214,test list empty root,VB VB JJ NN,hadoop,TestSwiftFileSystemLsOperations.java
+151,215,test list non empty root,VB VB RB JJ NN,hadoop,TestSwiftFileSystemLsOperations.java
+152,216,test list status root dir,VB VB NN JJ NN,hadoop,TestSwiftFileSystemLsOperations.java
+153,217,test list status filtered,VB VB NN VBD,hadoop,TestSwiftFileSystemLsOperations.java
+154,218,get datum,VB NN,hadoop,TaskFailedEvent.java
+155,219,set datum,VB NN,hadoop,TaskFailedEvent.java
+156,220,get task id,VB NN NN,hadoop,TaskFailedEvent.java
+157,221,get error,VB NN,hadoop,TaskFailedEvent.java
+158,222,get finish time,VB NN NN,hadoop,TaskFailedEvent.java
+159,223,get task type,VB NN NN,hadoop,TaskFailedEvent.java
+160,224,get failed attempt id,VB JJ NN NN,hadoop,TaskFailedEvent.java
+161,225,get task status,VB NN NN,hadoop,TaskFailedEvent.java
+162,226,get counters,VB NNS,hadoop,TaskFailedEvent.java
+163,227,get event type,VB NN NN,hadoop,TaskFailedEvent.java
+164,228,get select query,VB VB NN,hadoop,OracleDBRecordReader.java
+165,229,set session time zone,VB NN NN NN,hadoop,OracleDBRecordReader.java
+166,230,run command,VB NN,hadoop,TestQuota.java
+167,232,test ds quota exceeded exception is human readable,VB FW NN VBN NN VBZ NN JJ,hadoop,TestQuota.java
+168,233,test quota commands,VB NN NNS,hadoop,TestQuota.java
+169,235,test namespace commands,VB NN NNS,hadoop,TestQuota.java
+170,236,test space commands,VB NN NNS,hadoop,TestQuota.java
+171,237,check content summary,VB NN NN,hadoop,TestQuota.java
+172,238,test max space quotas,VB JJ NN NNS,hadoop,TestQuota.java
+173,239,test block allocation adjusts usage conservatively,VB NN NN VBZ NN RB,hadoop,TestQuota.java
+174,240,test multiple files smaller than one block,VB JJ NNS JJR IN CD NN,hadoop,TestQuota.java
+175,241,register datanode,VB NN,hadoop,DatanodeProtocolServerSideTranslatorPB.java
+176,242,send heartbeat,VB NN,hadoop,DatanodeProtocolServerSideTranslatorPB.java
+177,243,block report,NN NN,hadoop,DatanodeProtocolServerSideTranslatorPB.java
+178,244,cache report,NN NN,hadoop,DatanodeProtocolServerSideTranslatorPB.java
+179,245,block received and deleted,NN VBN CC VBN,hadoop,DatanodeProtocolServerSideTranslatorPB.java
+180,246,error report,NN NN,hadoop,DatanodeProtocolServerSideTranslatorPB.java
+181,247,version request,NN NN,hadoop,DatanodeProtocolServerSideTranslatorPB.java
+182,248,report bad blocks,VB JJ NNS,hadoop,DatanodeProtocolServerSideTranslatorPB.java
+183,249,commit block synchronization,VB NN NN,hadoop,DatanodeProtocolServerSideTranslatorPB.java
+184,250,log success,VB NN,hadoop,HSAuditLogger.java
+185,251,create success log,VB NN NN,hadoop,HSAuditLogger.java
+186,252,add remote ip,VB JJ NN,hadoop,HSAuditLogger.java
+187,253,add,VB,hadoop,HSAuditLogger.java
+188,254,start,VB,hadoop,HSAuditLogger.java
+189,255,log failure,VB NN,hadoop,HSAuditLogger.java
+190,256,create failure log,VB NN NN,hadoop,HSAuditLogger.java
+191,257,get metrics,VB NNS,hadoop,MetricsSource.java
+192,258,shutdown,NN,hadoop,TestAclConfigFlag.java
+193,259,test modify acl entries,VB VB NNP NNS,hadoop,TestAclConfigFlag.java
+194,260,test remove acl entries,VB VB NNP NNS,hadoop,TestAclConfigFlag.java
+195,261,test remove default acl,VB VB JJ NNP,hadoop,TestAclConfigFlag.java
+196,262,test remove acl,VB VB NNP,hadoop,TestAclConfigFlag.java
+197,263,test set acl,VB VB NNP,hadoop,TestAclConfigFlag.java
+198,264,test get acl status,VB VB NN NN,hadoop,TestAclConfigFlag.java
+199,265,test edit log,VB VB NN,hadoop,TestAclConfigFlag.java
+200,266,test fs image,VB NN NN,hadoop,TestAclConfigFlag.java
+201,267,expect exception,VB NN,hadoop,TestAclConfigFlag.java
+202,268,init cluster,VB NN,hadoop,TestAclConfigFlag.java
+203,269,restart,VB,hadoop,TestAclConfigFlag.java
+204,270,get server,VB NN,hadoop,RpcServerFactory.java
+205,271,bind to,VB TO,hadoop,ConcatenatedInputFilesDemuxer.java
+206,272,get next,VB NN,hadoop,ConcatenatedInputFilesDemuxer.java
+207,273,close,VB,hadoop,ConcatenatedInputFilesDemuxer.java
+208,274,read,VB,hadoop,ConcatenatedInputFilesDemuxer.java
+209,278,next file name,JJ NN NN,hadoop,ConcatenatedInputFilesDemuxer.java
+210,280,service init,NN VB,hadoop,LeveldbTimelineStore.java
+211,281,service stop,NN VB,hadoop,LeveldbTimelineStore.java
+212,283,get lock,VB NN,hadoop,LeveldbTimelineStore.java
+213,284,return lock,VB NN,hadoop,LeveldbTimelineStore.java
+214,285,new instance,JJ NN,hadoop,LeveldbTimelineStore.java
+215,289,get bytes,VB NNS,hadoop,LeveldbTimelineStore.java
+216,290,get bytes for lookup,VB NNS IN NN,hadoop,LeveldbTimelineStore.java
+217,291,get next string,VB JJ NN,hadoop,LeveldbTimelineStore.java
+218,292,get next long,VB JJ NN,hadoop,LeveldbTimelineStore.java
+219,293,get offset,VB NN,hadoop,LeveldbTimelineStore.java
+220,294,get entity,VB NN,hadoop,LeveldbTimelineStore.java
+221,296,get entity timelines,VB NN NNS,hadoop,LeveldbTimelineStore.java
+222,297,compare,VB,hadoop,LeveldbTimelineStore.java
+223,298,prefix matches,NN VBZ,hadoop,LeveldbTimelineStore.java
+224,299,get entities,VB NNS,hadoop,LeveldbTimelineStore.java
+225,300,get entity by time,VB NN IN NN,hadoop,LeveldbTimelineStore.java
+226,301,put,VB,hadoop,LeveldbTimelineStore.java
+227,302,write primary filter entries,VB JJ NN NNS,hadoop,LeveldbTimelineStore.java
+228,304,get start time,VB NN NN,hadoop,LeveldbTimelineStore.java
+229,305,get start time long,VB NN NN NN,hadoop,LeveldbTimelineStore.java
+230,306,get and set start time,VB CC VB NN NN,hadoop,LeveldbTimelineStore.java
+231,307,check start time in db,VB NN NN IN NN,hadoop,LeveldbTimelineStore.java
+232,308,create start time lookup key,VB NN NN NN NN,hadoop,LeveldbTimelineStore.java
+233,309,create entity marker key,VB NN NN NN,hadoop,LeveldbTimelineStore.java
+234,310,add primary filter to key,VB JJ NN TO NN,hadoop,LeveldbTimelineStore.java
+235,311,create entity event key,VB NN NN NN,hadoop,LeveldbTimelineStore.java
+236,312,get entity event,VB NN NN,hadoop,LeveldbTimelineStore.java
+237,313,create primary filter key,VB NN NN NN,hadoop,LeveldbTimelineStore.java
+238,314,add primary filter,VB JJ NN,hadoop,LeveldbTimelineStore.java
+239,315,create other info key,VB JJ NN NN,hadoop,LeveldbTimelineStore.java
+240,316,parse remaining key,VB JJ NN,hadoop,LeveldbTimelineStore.java
+241,317,create related entity key,VB JJ NN NN,hadoop,LeveldbTimelineStore.java
+242,318,add related entity,VB JJ NN,hadoop,LeveldbTimelineStore.java
+243,319,create reverse related entity key,VB JJ JJ NN NN,hadoop,LeveldbTimelineStore.java
+244,320,clear start time cache,VB NN NN NN,hadoop,LeveldbTimelineStore.java
+245,321,get start time read cache size,VB NN NN VB NN NN,hadoop,LeveldbTimelineStore.java
+246,322,get start time write cache size,VB NN NN VB NN NN,hadoop,LeveldbTimelineStore.java
+247,323,get entity types,VB NN NNS,hadoop,LeveldbTimelineStore.java
+248,324,delete keys with prefix,VB NNS IN NN,hadoop,LeveldbTimelineStore.java
+249,325,delete next entity,VB JJ NN,hadoop,LeveldbTimelineStore.java
+250,326,discard old entities,VB JJ NNS,hadoop,LeveldbTimelineStore.java
+251,327,get db iterator,VB NN NN,hadoop,LeveldbTimelineStore.java
+252,328,load version,VB NN,hadoop,LeveldbTimelineStore.java
+253,329,store version,VB NN,hadoop,LeveldbTimelineStore.java
+254,330,db store version,NN NN NN,hadoop,LeveldbTimelineStore.java
+255,331,get current version,VB JJ NN,hadoop,LeveldbTimelineStore.java
+256,332,check version,VB NN,hadoop,LeveldbTimelineStore.java
+257,334,get container id,VB NN NN,hadoop,ContainerStartData.java
+258,335,set container id,VB NN NN,hadoop,ContainerStartData.java
+259,336,get allocated resource,VB JJ NN,hadoop,ContainerStartData.java
+260,337,set allocated resource,VB JJ NN,hadoop,ContainerStartData.java
+261,338,get assigned node,VB JJ NN,hadoop,ContainerStartData.java
+262,339,set assigned node,VB JJ NN,hadoop,ContainerStartData.java
+263,340,get priority,VB NN,hadoop,ContainerStartData.java
+264,341,set priority,VB NN,hadoop,ContainerStartData.java
+265,343,set start time,VB NN NN,hadoop,ContainerStartData.java
+266,344,parse,VB,hadoop,ByteParam.java
+267,345,get domain,VB NN,hadoop,ByteParam.java
+268,346,test register node manager request,VB NN NN NN NN,hadoop,TestRegisterNodeManagerRequest.java
+269,347,test register node manager request with null arrays,VB NN NN NN NN IN JJ NNS,hadoop,TestRegisterNodeManagerRequest.java
+270,348,init,VB,hadoop,CrossOriginFilter.java
+271,349,do filter,VB NN,hadoop,CrossOriginFilter.java
+272,350,destroy,VB,hadoop,CrossOriginFilter.java
+273,351,do cross filter,VB JJ NN,hadoop,CrossOriginFilter.java
+274,352,get allowed headers header,VB VBN NNS NN,hadoop,CrossOriginFilter.java
+275,353,get allowed methods header,VB VBN NNS NN,hadoop,CrossOriginFilter.java
+276,354,initialize allowed methods,VB VBN NNS,hadoop,CrossOriginFilter.java
+277,355,initialize allowed headers,VB VBN NNS,hadoop,CrossOriginFilter.java
+278,356,initialize allowed origins,VB VBN NNS,hadoop,CrossOriginFilter.java
+279,357,initialize max age,VB JJ NN,hadoop,CrossOriginFilter.java
+280,358,encode header,VB NN,hadoop,CrossOriginFilter.java
+281,359,is cross origin,VBZ JJ NN,hadoop,CrossOriginFilter.java
+282,360,is origin allowed,VBZ NN VBD,hadoop,CrossOriginFilter.java
+283,361,are headers allowed,VBP NNS VBD,hadoop,CrossOriginFilter.java
+284,362,is method allowed,VBZ NN VBD,hadoop,CrossOriginFilter.java
+285,364,get host,VB NN,hadoop,NodeIdPBImpl.java
+286,365,set host,VB NN,hadoop,NodeIdPBImpl.java
+287,366,get port,VB NN,hadoop,NodeIdPBImpl.java
+288,367,set port,VB NN,hadoop,NodeIdPBImpl.java
+289,368,build,VB,hadoop,NodeIdPBImpl.java
+290,369,test reflect,VB VB,hadoop,AvroTestUtil.java
+291,373,emit record,VB NN,hadoop,GangliaContext.java
+292,374,emit metric,VB NN,hadoop,GangliaContext.java
+293,375,get units,VB NNS,hadoop,GangliaContext.java
+294,376,get slope,VB NN,hadoop,GangliaContext.java
+295,377,get tmax,VB NNP,hadoop,GangliaContext.java
+296,378,get dmax,VB NNP,hadoop,GangliaContext.java
+297,379,xdr string,NNP NN,hadoop,GangliaContext.java
+298,380,pad,NN,hadoop,GangliaContext.java
+299,381,xdr int,NNP NN,hadoop,GangliaContext.java
+300,383,tear down,VB RP,hadoop,TestMRCredentials.java
+301,384,create keys as json,VB NNS IN NN,hadoop,TestMRCredentials.java
+302,385,test,VB,hadoop,TestMRCredentials.java
+303,386,transition,NN,hadoop,RMStateStore.java
+304,391,get master container,VB NN NN,hadoop,RMStateStore.java
+305,392,get attempt id,VB NN NN,hadoop,RMStateStore.java
+306,393,get app attempt credentials,VB NN NN NNS,hadoop,RMStateStore.java
+307,394,get state,VB NN,hadoop,RMStateStore.java
+308,395,get final tracking url,VB JJ VBG NNP,hadoop,RMStateStore.java
+309,396,get diagnostics,VB NNS,hadoop,RMStateStore.java
+310,398,get final application status,VB JJ NN NN,hadoop,RMStateStore.java
+311,399,get am container exit status,VB FW NN NN NN,hadoop,RMStateStore.java
+312,400,get app id,VB NN NN,hadoop,RMStateStore.java
+313,401,get submit time,VB NN NN,hadoop,RMStateStore.java
+314,403,get attempt count,VB NN NN,hadoop,RMStateStore.java
+315,404,get application submission context,VB NN NN NN,hadoop,RMStateStore.java
+316,405,get attempt,VB NN,hadoop,RMStateStore.java
+317,406,get user,VB NN,hadoop,RMStateStore.java
+318,410,get token state,VB NN NN,hadoop,RMStateStore.java
+319,411,get master key state,VB NN NN NN,hadoop,RMStateStore.java
+320,412,get dt sequence number,VB NN NN NN,hadoop,RMStateStore.java
+321,413,get application state,VB NN NN,hadoop,RMStateStore.java
+322,414,get rm dt secret manager state,VB VB FW NN NN NN,hadoop,RMStateStore.java
+323,415,get am rm token secret manager state,VB NN VB NN NN NN NN,hadoop,RMStateStore.java
+324,416,set rm dispatcher,VB VB NN,hadoop,RMStateStore.java
+325,418,service start,NN NN,hadoop,RMStateStore.java
+326,419,init internal,VB NN,hadoop,RMStateStore.java
+327,420,start internal,VB NN,hadoop,RMStateStore.java
+328,422,close internal,VB NN,hadoop,RMStateStore.java
+329,427,get and increment epoch,VB CC VB NN,hadoop,RMStateStore.java
+330,428,load state,VB NN,hadoop,RMStateStore.java
+331,429,store new application,VB JJ NN,hadoop,RMStateStore.java
+332,430,update application state,VB NN NN,hadoop,RMStateStore.java
+333,431,store application state internal,VB NN NN NN,hadoop,RMStateStore.java
+334,432,update application state internal,JJ NN NN JJ,hadoop,RMStateStore.java
+335,433,store new application attempt,VB JJ NN NN,hadoop,RMStateStore.java
+336,434,update application attempt state,VB NN NN NN,hadoop,RMStateStore.java
+337,435,store application attempt state internal,VB NN NN NN NN,hadoop,RMStateStore.java
+338,436,update application attempt state internal,VB NN NN NN NN,hadoop,RMStateStore.java
+339,437,store rm delegation token and sequence number,VB VB NN NN CC NN NN,hadoop,RMStateStore.java
+340,438,store rm delegation token and sequence number state,VB VB NN NN CC NN NN NN,hadoop,RMStateStore.java
+341,439,remove rm delegation token,VB VB NN NN,hadoop,RMStateStore.java
+342,440,remove rm delegation token state,VB VB NN NN NN,hadoop,RMStateStore.java
+343,441,update rm delegation token and sequence number,VB VB NN NN CC NN NN,hadoop,RMStateStore.java
+344,442,update rm delegation token and sequence number internal,VB VB NN NN CC NN NN NN,hadoop,RMStateStore.java
+345,443,store rm dt master key,VB VB FW NN NN,hadoop,RMStateStore.java
+346,444,store rm dt master key state,VB VB FW NN JJ NN,hadoop,RMStateStore.java
+347,445,remove rm dt master key,VB VB FW NN NN,hadoop,RMStateStore.java
+348,446,remove rm dt master key state,VB VB FW NN NN NN,hadoop,RMStateStore.java
+349,447,store or update am rm token secret manager state,VB CC VB NN VB NN JJ NN NN,hadoop,RMStateStore.java
+350,448,remove application,VB NN,hadoop,RMStateStore.java
+351,449,remove application state internal,VB NN NN NN,hadoop,RMStateStore.java
+352,450,get credentials from app attempt,VB NNS IN NN NN,hadoop,RMStateStore.java
+353,451,handle store event,VB NN NN,hadoop,RMStateStore.java
+354,452,notify store operation failed,VB NN NN VBD,hadoop,RMStateStore.java
+355,453,notify application,VB NN,hadoop,RMStateStore.java
+356,454,notify application attempt,VB NN NN,hadoop,RMStateStore.java
+357,455,handle,VB,hadoop,RMStateStore.java
+358,456,delete store,VB NN,hadoop,RMStateStore.java
+359,457,journal,NN,hadoop,JournalProtocol.java
+360,458,start log segment,VB NN NN,hadoop,JournalProtocol.java
+361,459,fence,VB,hadoop,JournalProtocol.java
+362,460,test sorted map writable,VB VBD NN JJ,hadoop,TestSortedMapWritable.java
+363,461,test foreign class,VB JJ NN,hadoop,TestSortedMapWritable.java
+364,462,test equals and hash code,VB NNS CC NN NN,hadoop,TestSortedMapWritable.java
+365,463,test put all,VB VBD DT,hadoop,TestSortedMapWritable.java
+366,464,get scheme,VB NN,hadoop,HarFileSystem.java
+367,465,initialize metadata cache,VB NNS NN,hadoop,HarFileSystem.java
+368,466,initialize,VB,hadoop,HarFileSystem.java
+369,467,get conf,VB NN,hadoop,HarFileSystem.java
+370,468,get har version,VB NNP NN,hadoop,HarFileSystem.java
+371,469,archive path,VB NN,hadoop,HarFileSystem.java
+372,470,decode har uri,VB NNP NNP,hadoop,HarFileSystem.java
+373,471,decode string,VB NN,hadoop,HarFileSystem.java
+374,472,decode file name,VB NN NN,hadoop,HarFileSystem.java
+375,473,get working directory,VB VBG NN,hadoop,HarFileSystem.java
+376,474,get initial working directory,VB JJ VBG NN,hadoop,HarFileSystem.java
+377,475,get status,VB NN,hadoop,HarFileSystem.java
+378,476,get har auth,VB NNP NN,hadoop,HarFileSystem.java
+379,477,get canonical uri,VB JJ NNP,hadoop,HarFileSystem.java
+380,478,canonicalize uri,VB NNP,hadoop,HarFileSystem.java
+381,479,get uri,VB NNP,hadoop,HarFileSystem.java
+382,480,check path,VB NN,hadoop,HarFileSystem.java
+383,481,resolve path,VB NN,hadoop,HarFileSystem.java
+384,482,get path in har,VB NN IN NNP,hadoop,HarFileSystem.java
+385,483,make relative,VB JJ,hadoop,HarFileSystem.java
+386,484,make qualified,VB JJ,hadoop,HarFileSystem.java
+387,485,fix block locations,VB NN NNS,hadoop,HarFileSystem.java
+388,486,get file block locations,VB NN NN NNS,hadoop,HarFileSystem.java
+389,487,get har hash,VB NNP NN,hadoop,HarFileSystem.java
+390,488,file statuses in index,NN NNS IN NN,hadoop,HarFileSystem.java
+391,489,to file status,TO NN NN,hadoop,HarFileSystem.java
+392,490,is dir,VBZ NN,hadoop,HarFileSystem.java
+393,491,get name,VB NN,hadoop,HarFileSystem.java
+394,492,get part name,VB NN NN,hadoop,HarFileSystem.java
+395,493,get start index,VB NN NN,hadoop,HarFileSystem.java
+396,494,get length,VB NN,hadoop,HarFileSystem.java
+397,495,get modification time,VB NN NN,hadoop,HarFileSystem.java
+398,496,get file status,VB NN NN,hadoop,HarFileSystem.java
+399,497,get file har status,VB NN NNP NN,hadoop,HarFileSystem.java
+400,498,get file checksum,VB NN NN,hadoop,HarFileSystem.java
+401,499,open,VB,hadoop,HarFileSystem.java
+402,500,get child file systems,VB NN NN NNS,hadoop,HarFileSystem.java
+403,501,create,VB,hadoop,HarFileSystem.java
+404,502,create non recursive,VB RB JJ,hadoop,HarFileSystem.java
+405,503,append,VB,hadoop,HarFileSystem.java
+406,505,set replication,VB NN,hadoop,HarFileSystem.java
+407,506,rename,VB,hadoop,HarFileSystem.java
+408,508,delete,VB,hadoop,HarFileSystem.java
+409,509,list status,VB NN,hadoop,HarFileSystem.java
+410,510,get home directory,VB NN NN,hadoop,HarFileSystem.java
+411,511,set working directory,VB JJ NN,hadoop,HarFileSystem.java
+412,512,mkdirs,NNP,hadoop,HarFileSystem.java
+413,513,copy from local file,VB IN JJ NN,hadoop,HarFileSystem.java
+414,515,copy to local file,VB TO JJ NN,hadoop,HarFileSystem.java
+415,516,start local output,VB JJ NN,hadoop,HarFileSystem.java
+416,517,complete local output,VB JJ NN,hadoop,HarFileSystem.java
+417,518,set owner,VB NN,hadoop,HarFileSystem.java
+418,519,set times,VB NNS,hadoop,HarFileSystem.java
+419,520,set permission,VB NN,hadoop,HarFileSystem.java
+420,521,available,JJ,hadoop,HarFileSystem.java
+421,523,mark,VB,hadoop,HarFileSystem.java
+422,524,reset,VB,hadoop,HarFileSystem.java
+423,528,skip,VB,hadoop,HarFileSystem.java
+424,529,get pos,VB NN,hadoop,HarFileSystem.java
+425,530,seek,VB,hadoop,HarFileSystem.java
+426,531,validate position,VB NN,hadoop,HarFileSystem.java
+427,532,seek to new source,VB TO JJ NN,hadoop,HarFileSystem.java
+428,534,read fully,VB RB,hadoop,HarFileSystem.java
+429,536,set readahead,VB NN,hadoop,HarFileSystem.java
+430,537,set drop behind,VB NN IN,hadoop,HarFileSystem.java
+431,538,get part file status,VB JJ NN NN,hadoop,HarFileSystem.java
+432,539,get master index timestamp,VB JJ NN NN,hadoop,HarFileSystem.java
+433,540,get archive index timestamp,VB NN NN NN,hadoop,HarFileSystem.java
+434,541,get version,VB NN,hadoop,HarFileSystem.java
+435,542,parse meta data,VB NN NNS,hadoop,HarFileSystem.java
+436,543,get metadata,VB NNS,hadoop,HarFileSystem.java
+437,544,remove eldest entry,VB JJS NN,hadoop,HarFileSystem.java
+438,545,get server defaults,VB NN NNS,hadoop,HarFileSystem.java
+439,547,get used,VB VBN,hadoop,HarFileSystem.java
+440,548,get default block size,VB JJ NN NN,hadoop,HarFileSystem.java
+441,550,get default replication,VB JJ NN,hadoop,HarFileSystem.java
+442,552,get test string,VB JJ NN,hadoop,TestUTF8.java
+443,553,test writable,VB JJ,hadoop,TestUTF8.java
+444,554,test get bytes,VB VB NNS,hadoop,TestUTF8.java
+445,555,test i o,VB NN NN,hadoop,TestUTF8.java
+446,556,test null encoding,VB JJ VBG,hadoop,TestUTF8.java
+447,557,test non basic multilingual plane,VB RB JJ JJ NN,hadoop,TestUTF8.java
+448,558,test invalid utf8,VB JJ NNP,hadoop,TestUTF8.java
+449,559,test 5 byte utf8 sequence,VB CD NN NNP NN,hadoop,TestUTF8.java
+450,560,test invalid utf8 truncated,VB JJ NNP JJ,hadoop,TestUTF8.java
+451,562,set progressable,VB JJ,hadoop,BasicTypeSorterBase.java
+452,563,add key value,VB NN NN,hadoop,BasicTypeSorterBase.java
+453,564,set input buffer,VB NN NN,hadoop,BasicTypeSorterBase.java
+454,565,get memory utilized,VB NN JJ,hadoop,BasicTypeSorterBase.java
+455,566,sort,VB,hadoop,BasicTypeSorterBase.java
+456,568,grow,VB,hadoop,BasicTypeSorterBase.java
+457,570,get progress,VB NN,hadoop,BasicTypeSorterBase.java
+458,571,get key,VB NN,hadoop,BasicTypeSorterBase.java
+459,572,get value,VB NN,hadoop,BasicTypeSorterBase.java
+460,573,next,JJ,hadoop,BasicTypeSorterBase.java
+461,577,write uncompressed bytes,VB JJ NNS,hadoop,BasicTypeSorterBase.java
+462,578,write compressed bytes,NN JJ NNS,hadoop,BasicTypeSorterBase.java
+463,579,get exec string,VB NN NN,hadoop,TestShell.java
+464,580,parse exec result,VB NN NN,hadoop,TestShell.java
+465,581,get run count,VB NN NN,hadoop,TestShell.java
+466,582,test interval,VB NN,hadoop,TestShell.java
+467,583,assert in string,VB IN NN,hadoop,TestShell.java
+468,584,test shell command executor to string,VB NN NN NN TO NN,hadoop,TestShell.java
+469,585,test shell command timeout,VB NN NN NN,hadoop,TestShell.java
+470,586,count timer threads,VB NN NNS,hadoop,TestShell.java
+471,587,test shell command timer leak,VB NN NN NN NN,hadoop,TestShell.java
+472,589,test logalyzer,VB NN,hadoop,TestLogalyzer.java
+473,590,check result,VB NN,hadoop,TestLogalyzer.java
+474,591,create log file,VB NN NN,hadoop,TestLogalyzer.java
+475,593,get application id,VB NN NN,hadoop,MoveApplicationAcrossQueuesRequestPBImpl.java
+476,594,set application id,VB NN NN,hadoop,MoveApplicationAcrossQueuesRequestPBImpl.java
+477,595,get target queue,VB NN NN,hadoop,MoveApplicationAcrossQueuesRequestPBImpl.java
+478,596,set target queue,VB NN NN,hadoop,MoveApplicationAcrossQueuesRequestPBImpl.java
+479,598,merge local to proto,VB JJ TO NN,hadoop,MoveApplicationAcrossQueuesRequestPBImpl.java
+480,605,update process tree,VB NN NN,hadoop,TestResourceCalculatorProcessTree.java
+481,606,get process tree dump,VB NN NN NN,hadoop,TestResourceCalculatorProcessTree.java
+482,607,get cumulative rssmem,VB JJ NNP,hadoop,TestResourceCalculatorProcessTree.java
+483,608,get cumulative vmem,VB JJ NN,hadoop,TestResourceCalculatorProcessTree.java
+484,609,get cumulative cpu time,VB JJ NNP NN,hadoop,TestResourceCalculatorProcessTree.java
+485,610,check pid pgrpid for match,VB NNP NNP IN NN,hadoop,TestResourceCalculatorProcessTree.java
+486,611,test create instance,VB VB NN,hadoop,TestResourceCalculatorProcessTree.java
+487,612,test created instance configured,VB VBN NN VBD,hadoop,TestResourceCalculatorProcessTree.java
+488,613,constructor fail params,NN NN NNS,hadoop,TestServerConstructor.java
+489,614,constructor fail,NN NN,hadoop,TestServerConstructor.java
+490,615,write v int,VB FW NN,hadoop,Utils.java
+491,616,write v long,VB FW NN,hadoop,Utils.java
+492,617,read v int,VB FW NN,hadoop,Utils.java
+493,618,read v long,VB FW NN,hadoop,Utils.java
+494,619,write string,VB NN,hadoop,Utils.java
+495,620,read string,VB NN,hadoop,Utils.java
+496,621,write,VB,hadoop,Utils.java
+497,622,get major,VB NN,hadoop,Utils.java
+498,623,get minor,VB NN,hadoop,Utils.java
+499,624,size,NN,hadoop,Utils.java
+500,626,compatible with,JJ IN,hadoop,Utils.java
+501,627,compare to,VB TO,hadoop,Utils.java
+502,630,lower bound,JJR NN,hadoop,Utils.java
+503,631,upper bound,JJR NN,hadoop,Utils.java
+504,634,test cluster admins,VB NN NNS,hadoop,TestJobAclsManager.java
+505,635,test cluster no admins,VB NN DT NNS,hadoop,TestJobAclsManager.java
+506,636,test acls off,VB NNPS IN,hadoop,TestJobAclsManager.java
+507,637,test groups,VB NNS,hadoop,TestJobAclsManager.java
+508,638,setup,NN,hadoop,TestEncryptionZones.java
+509,639,teardown,NN,hadoop,TestEncryptionZones.java
+510,640,assert num zones,VB NN NNS,hadoop,TestEncryptionZones.java
+511,641,assert zone present,VB NN JJ,hadoop,TestEncryptionZones.java
+512,642,test basic operations,VB JJ NNS,hadoop,TestEncryptionZones.java
+513,644,test list encryption zones as non super user,VB NN NN NNS IN RB JJ NN,hadoop,TestEncryptionZones.java
+514,646,test get e z as non super user,VB VB FW FW IN RB JJ NN,hadoop,TestEncryptionZones.java
+515,648,do rename encryption zone,VB VB NN NN,hadoop,TestEncryptionZones.java
+516,649,test rename file system,VB VB NN NN,hadoop,TestEncryptionZones.java
+517,650,test rename file context,VB VB NN NN,hadoop,TestEncryptionZones.java
+518,651,get file encryption info,VB NN NN NN,hadoop,TestEncryptionZones.java
+519,652,test read write,VB VB VB,hadoop,TestEncryptionZones.java
+520,653,test cipher suite negotiation,VB NN NN NN,hadoop,TestEncryptionZones.java
+521,654,test create e z with no provider,VB VB FW FW IN DT NN,hadoop,TestEncryptionZones.java
+522,655,start file after generate key,VB NN IN VB NN,hadoop,TestEncryptionZones.java
+523,656,call,VB,hadoop,TestEncryptionZones.java
+524,658,do fault,VB NN,hadoop,TestEncryptionZones.java
+525,659,do cleanup,VB NN,hadoop,TestEncryptionZones.java
+526,660,test start file retry,VB NN NN NN,hadoop,TestEncryptionZones.java
+527,668,raw next job,JJ JJ NN,hadoop,DeskewedJobTraceReader.java
+528,669,next job,JJ NN,hadoop,DeskewedJobTraceReader.java
+529,670,fill skew buffer,VB JJ NN,hadoop,DeskewedJobTraceReader.java
+530,671,needed skew buffer size,VBN JJ NN NN,hadoop,DeskewedJobTraceReader.java
+531,673,wait for verification,VB IN NN,hadoop,TestDatanodeBlockScanner.java
+532,674,test datanode block scanner,VB NN NN NN,hadoop,TestDatanodeBlockScanner.java
+533,675,corrupt replica,JJ NN,hadoop,TestDatanodeBlockScanner.java
+534,676,test block corruption policy,VB NN NN NN,hadoop,TestDatanodeBlockScanner.java
+535,677,test block corruption recovery policy 1,VB NN NN NN NN CD,hadoop,TestDatanodeBlockScanner.java
+536,678,test block corruption recovery policy 2,VB NN NN NN NN CD,hadoop,TestDatanodeBlockScanner.java
+537,679,block corruption recovery policy,NN NN NN NN,hadoop,TestDatanodeBlockScanner.java
+538,680,test truncated block report,VB JJ NN NN,hadoop,TestDatanodeBlockScanner.java
+539,681,change replica length,VB NN NN,hadoop,TestDatanodeBlockScanner.java
+540,682,wait for block deleted,VB IN NN VBN,hadoop,TestDatanodeBlockScanner.java
+541,683,test replica info parsing,VB NN NN VBG,hadoop,TestDatanodeBlockScanner.java
+542,684,test replica info parsing single,VB NN NN VBG JJ,hadoop,TestDatanodeBlockScanner.java
+543,685,test duplicate scans,VB NN NNS,hadoop,TestDatanodeBlockScanner.java
+544,687,to enum set,TO NN NN,hadoop,EnumSetParam.java
+545,689,get value string,VB NN NN,hadoop,EnumSetParam.java
+546,692,test dir no annotation,VB NN DT NN,hadoop,TestHFSTestCase.java
+547,693,test jetty no annotation,VB NN DT NN,hadoop,TestHFSTestCase.java
+548,694,test jetty no annotation 2,VB NN DT NN CD,hadoop,TestHFSTestCase.java
+549,695,test hdfs no annotation,VB NNP DT NN,hadoop,TestHFSTestCase.java
+550,696,test hdfs no annotation 2,VB NNP DT NN CD,hadoop,TestHFSTestCase.java
+551,697,test dir annotation,VB NN NN,hadoop,TestHFSTestCase.java
+552,698,wait for,VB IN,hadoop,TestHFSTestCase.java
+553,699,evaluate,VB,hadoop,TestHFSTestCase.java
+554,700,wait for time out ratio 1,VB IN NN IN NN CD,hadoop,TestHFSTestCase.java
+555,702,wait for time out ratio 2,VB IN NN IN NN CD,hadoop,TestHFSTestCase.java
+556,704,sleep ratio 1,VB NN CD,hadoop,TestHFSTestCase.java
+557,705,sleep ratio 2,VB NN CD,hadoop,TestHFSTestCase.java
+558,706,test hadoop file system,VB NN NN NN,hadoop,TestHFSTestCase.java
+559,707,do get,VB VB,hadoop,TestHFSTestCase.java
+560,708,test jetty,VB NN,hadoop,TestHFSTestCase.java
+561,709,test exception 0,VB NN CD,hadoop,TestHFSTestCase.java
+562,710,test exception 1,VB NN CD,hadoop,TestHFSTestCase.java
+563,711,validate options,VB NNS,hadoop,RPCCallBenchmark.java
+564,712,build options,VB NNS,hadoop,RPCCallBenchmark.java
+565,713,process options,VB NNS,hadoop,RPCCallBenchmark.java
+566,716,start server,VB NN,hadoop,RPCCallBenchmark.java
+567,717,get total cpu time,VB JJ NNP NN,hadoop,RPCCallBenchmark.java
+568,719,setup client test context,NN NN NN NN,hadoop,RPCCallBenchmark.java
+569,721,do an action,VB DT NN,hadoop,RPCCallBenchmark.java
+570,722,do echo,VB NN,hadoop,RPCCallBenchmark.java
+571,723,create rpc client,VB NN NN,hadoop,RPCCallBenchmark.java
+572,730,set name node logging level,VB NN NN VBG NN,hadoop,NNThroughputBenchmark.java
+573,731,get op name,VB NN NN,hadoop,NNThroughputBenchmark.java
+574,732,parse arguments,VB NNS,hadoop,NNThroughputBenchmark.java
+575,733,generate inputs,VB NNS,hadoop,NNThroughputBenchmark.java
+576,734,get execution argument,VB NN NN,hadoop,NNThroughputBenchmark.java
+577,735,execute op,VB NN,hadoop,NNThroughputBenchmark.java
+578,736,print results,VB NNS,hadoop,NNThroughputBenchmark.java
+579,737,benchmark,NN,hadoop,NNThroughputBenchmark.java
+580,738,is in porgress,VBZ IN NN,hadoop,NNThroughputBenchmark.java
+581,739,clean up,VB RP,hadoop,NNThroughputBenchmark.java
+582,740,get num ops executed,VB NN NNS VBD,hadoop,NNThroughputBenchmark.java
+583,741,get cumulative time,VB JJ NN,hadoop,NNThroughputBenchmark.java
+584,742,get elapsed time,VB JJ NN,hadoop,NNThroughputBenchmark.java
+585,743,get average time,VB JJ NN,hadoop,NNThroughputBenchmark.java
+586,744,get ops per second,VB NNS IN NN,hadoop,NNThroughputBenchmark.java
+587,745,get base dir,VB NN NN,hadoop,NNThroughputBenchmark.java
+588,746,get client name,VB NN NN,hadoop,NNThroughputBenchmark.java
+589,747,increment stats,NN NNS,hadoop,NNThroughputBenchmark.java
+590,748,verify op argument,VB NN NN,hadoop,NNThroughputBenchmark.java
+591,749,print stats,VB NNS,hadoop,NNThroughputBenchmark.java
+592,752,benchmark one,NN CD,hadoop,NNThroughputBenchmark.java
+593,753,is in progress,VBZ IN NN,hadoop,NNThroughputBenchmark.java
+594,754,terminate,VB,hadoop,NNThroughputBenchmark.java
+595,764,dummy action no synch,JJ NN DT NN,hadoop,NNThroughputBenchmark.java
+596,785,get node port,VB NN NN,hadoop,NNThroughputBenchmark.java
+597,787,get xfer addr,VB NN NN,hadoop,NNThroughputBenchmark.java
+598,788,register,NN,hadoop,NNThroughputBenchmark.java
+599,790,add block,VB NN,hadoop,NNThroughputBenchmark.java
+600,791,form block report,VB NN NN,hadoop,NNThroughputBenchmark.java
+601,792,get block report list,VB NN NN NN,hadoop,NNThroughputBenchmark.java
+602,794,replicate blocks,VB NNS,hadoop,NNThroughputBenchmark.java
+603,795,transfer blocks,VB NNS,hadoop,NNThroughputBenchmark.java
+604,796,get num datanodes,VB NN NNS,hadoop,NNThroughputBenchmark.java
+605,800,add blocks,VB NNS,hadoop,NNThroughputBenchmark.java
+606,807,decommission nodes,NN NNS,hadoop,NNThroughputBenchmark.java
+607,811,get blocks per second,VB NNS IN NN,hadoop,NNThroughputBenchmark.java
+608,813,run benchmark,VB NN,hadoop,NNThroughputBenchmark.java
+609,820,get expected owner,VB JJ NN,hadoop,TestBlobMetadata.java
+610,821,get expected permission string,VB JJ NN NN,hadoop,TestBlobMetadata.java
+611,822,test container version metadata,VB NN NN NNS,hadoop,TestBlobMetadata.java
+612,823,get fs,VB NN,hadoop,TestBlobMetadata.java
+613,824,get container metadata,VB NN NNS,hadoop,TestBlobMetadata.java
+614,828,test pre existing container version metadata,VB IN JJ NN NN NNS,hadoop,TestBlobMetadata.java
+615,829,test first container version metadata,VB DT NN NN NNS,hadoop,TestBlobMetadata.java
+616,830,test permission metadata,VB NN NNS,hadoop,TestBlobMetadata.java
+617,831,test old permission metadata,VB JJ NN NNS,hadoop,TestBlobMetadata.java
+618,832,test folder metadata,VB NN NNS,hadoop,TestBlobMetadata.java
+619,833,check block location,VB NN NN,hadoop,TestBlockLocation.java
+620,836,test block location constructors,VB NN NN NNS,hadoop,TestBlockLocation.java
+621,837,test block location setters,VB NN NN NNS,hadoop,TestBlockLocation.java
+622,838,get,VB,hadoop,ObjectWritable.java
+623,839,get declared class,VB JJ NN,hadoop,ObjectWritable.java
+624,842,read fields,VB NNS,hadoop,ObjectWritable.java
+625,846,write object,VB NN,hadoop,ObjectWritable.java
+626,848,read object,VB NN,hadoop,ObjectWritable.java
+627,850,try instantiate protobuf,VB NN NN,hadoop,ObjectWritable.java
+628,851,get static protobuf method,VB JJ NN NN,hadoop,ObjectWritable.java
+629,852,load class,VB NN,hadoop,ObjectWritable.java
+630,857,map,VB,hadoop,ExternalMapReduce.java
+631,858,reduce,VB,hadoop,ExternalMapReduce.java
+632,861,test default offsets,VB JJ NNS,hadoop,TestBinaryPartitioner.java
+633,862,test custom offsets,VB JJ NNS,hadoop,TestBinaryPartitioner.java
+634,863,test lower bound,VB JJR NN,hadoop,TestBinaryPartitioner.java
+635,864,test upper bound,VB NN NN,hadoop,TestBinaryPartitioner.java
+636,866,flush,VB,hadoop,EventWriter.java
+637,868,to avro,TO NNP,hadoop,EventWriter.java
+638,870,test fs,VB NN,hadoop,TestFileSystem.java
+639,872,test command format,VB NN NN,hadoop,TestFileSystem.java
+640,873,create control file,VB NN NN,hadoop,TestFileSystem.java
+641,877,write test,VB NN,hadoop,TestFileSystem.java
+642,881,read test,VB NN,hadoop,TestFileSystem.java
+643,885,seek test,VB NN,hadoop,TestFileSystem.java
+644,887,test fs cache,VB NNP NN,hadoop,TestFileSystem.java
+645,889,run test cache,VB NN NN,hadoop,TestFileSystem.java
+646,891,test fs close,VB NN NN,hadoop,TestFileSystem.java
+647,892,test fs shutdown hook,VB NN NN NN,hadoop,TestFileSystem.java
+648,893,test cache keys are case insensitive,VB NN NNS VBP NN JJ,hadoop,TestFileSystem.java
+649,894,test fs uniqueness,VB NN NN,hadoop,TestFileSystem.java
+650,895,set closed set,VB JJ NN,hadoop,TestFileSystem.java
+651,903,has next,VBZ NN,hadoop,BackupStore.java
+652,905,next value,JJ NN,hadoop,BackupStore.java
+653,906,next key,JJ NN,hadoop,BackupStore.java
+654,907,reinitialize,VB,hadoop,BackupStore.java
+655,908,exit reset mode,VB NN NN,hadoop,BackupStore.java
+656,909,get output stream,VB NN NN,hadoop,BackupStore.java
+657,910,update counters,VB NNS,hadoop,BackupStore.java
+658,911,clear mark,VB NN,hadoop,BackupStore.java
+659,912,clear segment list,VB NN NN,hadoop,BackupStore.java
+660,913,unreserve,NN,hadoop,BackupStore.java
+661,915,create new memory block,VB JJ NN NN,hadoop,BackupStore.java
+662,916,reserve space,VB NN,hadoop,BackupStore.java
+663,919,create in memory segment,VB IN NN NN,hadoop,BackupStore.java
+664,922,activate,VB,hadoop,BackupStore.java
+665,923,create in disk segment,VB IN NN NN,hadoop,BackupStore.java
+666,924,is active,VBZ JJ,hadoop,BackupStore.java
+667,925,create spill file,VB NN NN,hadoop,BackupStore.java
+668,926,reserve,VB,hadoop,BackupStore.java
+669,932,test compressor pool counts,VB NN NN NNS,hadoop,TestCodecPool.java
+670,933,test decompressor pool counts,VB NN NN NNS,hadoop,TestCodecPool.java
+671,934,pre head,IN VBP,hadoop,ContainerLogsPage.java
+672,935,content,NN,hadoop,ContainerLogsPage.java
+673,936,render,VB,hadoop,ContainerLogsPage.java
+674,937,print log file,VB NN NN,hadoop,ContainerLogsPage.java
+675,938,print log file directory,VB NN NN NN,hadoop,ContainerLogsPage.java
+676,939,cluster setup at begining,VB NN IN VBG,hadoop,TestViewFsFileStatusHdfs.java
+677,940,test file status serialziation,VB NN NN NN,hadoop,TestViewFsFileStatusHdfs.java
+678,941,test get file checksum,VB VB NN NN,hadoop,TestViewFsFileStatusHdfs.java
+679,942,cleanup,NN,hadoop,TestViewFsFileStatusHdfs.java
+680,948,get input stream,VB NN NN,hadoop,TestCryptoStreams.java
+681,954,hflush,NNP,hadoop,TestCryptoStreams.java
+682,955,hsync,NNP,hadoop,TestCryptoStreams.java
+683,956,check stream,VB NN,hadoop,TestCryptoStreams.java
+684,969,release buffer,VB NN,hadoop,TestCryptoStreams.java
+685,972,get file descriptor,VB NN NN,hadoop,TestCryptoStreams.java
+686,976,choose local storage,VB JJ NN,hadoop,BlockPlacementPolicyWithNodeGroup.java
+687,977,second node,CD NN,hadoop,BlockPlacementPolicyWithNodeGroup.java
+688,978,choose local rack,VB JJ NN,hadoop,BlockPlacementPolicyWithNodeGroup.java
+689,979,choose remote rack,VB JJ NN,hadoop,BlockPlacementPolicyWithNodeGroup.java
+690,980,choose local node group,VB JJ NN NN,hadoop,BlockPlacementPolicyWithNodeGroup.java
+691,981,get rack,VB NN,hadoop,BlockPlacementPolicyWithNodeGroup.java
+692,982,add to excluded nodes,VB TO JJ NNS,hadoop,BlockPlacementPolicyWithNodeGroup.java
+693,983,add dependent nodes to excluded nodes,VB JJ NNS TO JJ NNS,hadoop,BlockPlacementPolicyWithNodeGroup.java
+694,984,pickup replica set,NN NN NN,hadoop,BlockPlacementPolicyWithNodeGroup.java
+695,985,accept,VB,hadoop,TestCheckpoint.java
+696,987,check for s n n threads,VB IN FW FW FW NNS,hadoop,TestCheckpoint.java
+697,988,check file,VB NN,hadoop,TestCheckpoint.java
+698,989,cleanup file,NN NN,hadoop,TestCheckpoint.java
+699,990,test name dir error,VB NN NN NN,hadoop,TestCheckpoint.java
+700,991,test write transaction id handles i o e,VB VB NN NN VBZ NN NN FW,hadoop,TestCheckpoint.java
+701,992,test reload on edit replay failure,VB VB IN NN NN NN,hadoop,TestCheckpoint.java
+702,993,test too many edit replay failures,VB RB JJ VBP NN NNS,hadoop,TestCheckpoint.java
+703,994,test secondary namenode error 1,VB JJ NN NN CD,hadoop,TestCheckpoint.java
+704,995,test secondary namenode error 2,VB JJ NN NN CD,hadoop,TestCheckpoint.java
+705,996,test secondary namenode error 3,VB JJ NN NN CD,hadoop,TestCheckpoint.java
+706,997,test secondary fails with error before setting headers,VB JJ NNS IN NN IN VBG NNS,hadoop,TestCheckpoint.java
+707,998,do secondary fails to return image,VB JJ NNS TO VB NN,hadoop,TestCheckpoint.java
+708,999,file path containing,NN NN VBG,hadoop,TestCheckpoint.java
+709,1001,is time unit,VBZ NN NN,jdk,Result.java
+710,1002,is work unit,VBZ NN NN,jdk,Result.java
+711,1003,parse rate opt,VB NN NN,jdk,Result.java
+712,1004,parse unit,VB NN,jdk,Result.java
+713,1005,set reps,VB NNS,jdk,Result.java
+714,1006,set units,VB NNS,jdk,Result.java
+715,1007,set unit name,VB NN NN,jdk,Result.java
+716,1008,add time,VB NN,jdk,Result.java
+717,1009,set error,VB NN,jdk,Result.java
+718,1010,set modifiers,VB NNS,jdk,Result.java
+719,1012,get reps per run,VB NNS IN NN,jdk,Result.java
+720,1013,get units per rep,VB NNS IN NN,jdk,Result.java
+721,1014,get units per run,VB NNS IN NN,jdk,Result.java
+722,1015,get modifiers,VB NNS,jdk,Result.java
+723,1016,get num runs,VB NN NNS,jdk,Result.java
+724,1017,get time,VB NN,jdk,Result.java
+725,1018,get reps per second,VB NNS IN NN,jdk,Result.java
+726,1019,get units per second,VB NNS IN NN,jdk,Result.java
+727,1020,get total reps,VB JJ NNS,jdk,Result.java
+728,1021,get total units,VB JJ NNS,jdk,Result.java
+729,1022,get total time,VB JJ NN,jdk,Result.java
+730,1023,get average reps per second,VB JJ NNS IN NN,jdk,Result.java
+731,1024,get average units per second,VB JJ NNS IN NN,jdk,Result.java
+732,1025,get average string,VB JJ NN,jdk,Result.java
+733,1026,summarize,VB,jdk,Result.java
+734,1031,visit,VB,jdk,J2DBench.java
+735,1033,load options,VB NNS,jdk,J2DBench.java
+736,1036,save options,VB NNS,jdk,J2DBench.java
+737,1039,get file chooser,VB NN NN,jdk,J2DBench.java
+738,1040,save or discard last results,VB CC VB JJ NNS,jdk,J2DBench.java
+739,1041,input user str,VB NN NN,jdk,J2DBench.java
+740,1042,save results,VB NNS,jdk,J2DBench.java
+741,1047,start gui,VB NNP,jdk,J2DBench.java
+742,1048,get preferred size,VB JJ NN,jdk,J2DBench.java
+743,1049,action performed,NN VBN,jdk,J2DBench.java
+744,1055,run tests,VB NNS,jdk,J2DBench.java
+745,1056,window closing,NN VBG,jdk,J2DBench.java
+746,1057,set title,VB NN,jdk,ResultSet.java
+747,1058,set description,VB NN,jdk,ResultSet.java
+748,1059,record,VB,jdk,ResultSet.java
+749,1062,make alpha color,VB NN NN,jdk,GraphicsTests.java
+750,1064,init test,VB NN,jdk,GraphicsTests.java
+751,1065,pixels touched,NNS VBN,jdk,GraphicsTests.java
+752,1066,create context,VB NN,jdk,GraphicsTests.java
+753,1067,get output size,VB NN NN,jdk,GraphicsTests.java
+754,1068,init context,VB NN,jdk,GraphicsTests.java
+755,1069,cleanup test,VB NN,jdk,GraphicsTests.java
+756,1070,get short name,VB JJ NN,jdk,GraphicsTests.java
+757,1071,get description,VB NN,jdk,GraphicsTests.java
+758,1073,scale for point,VB IN VB,jdk,GraphicsTests.java
+759,1074,scale for transform,VB IN VB,jdk,GraphicsTests.java
+760,1095,init contents,VB NNS,jdk,InputStreamTests.java
+761,1099,run test,VB NN,jdk,InputStreamTests.java
+762,1129,init iio write formats,VB NNP VBP NNS,jdk,OutputImageTests.java
+763,1134,is compatible,VBZ JJ,jdk,OutputImageTests.java
+764,1139,image started,NN VBD,jdk,OutputImageTests.java
+765,1140,image progress,NN VB,jdk,OutputImageTests.java
+766,1141,image complete,NN VB,jdk,OutputImageTests.java
+767,1142,thumbnail started,NN VBD,jdk,OutputImageTests.java
+768,1143,thumbnail progress,NN VB,jdk,OutputImageTests.java
+769,1144,thumbnail complete,NN VB,jdk,OutputImageTests.java
+770,1145,write aborted,VB VBN,jdk,OutputImageTests.java
+771,1147,init iio read formats,VB NNP VBP NNS,jdk,InputImageTests.java
+772,1162,sequence started,NN VBD,jdk,InputImageTests.java
+773,1163,sequence complete,NN VB,jdk,InputImageTests.java
+774,1170,read aborted,NN VBN,jdk,InputImageTests.java
+775,1173,get abbreviated modifier description,VB JJ NN NN,jdk,OutputTests.java
+776,1174,get modifier value name,VB NN NN NN,jdk,OutputTests.java
+777,1175,init output,VB NN,jdk,OutputTests.java
+778,1176,create image output stream,VB NN NN NN,jdk,OutputTests.java
+779,1177,close original stream,VB JJ NN,jdk,OutputTests.java
+780,1203,create buffered image,VB JJ NN,jdk,IIOTests.java
+781,1208,init input,VB NN,jdk,InputTests.java
+782,1211,create image input stream,VB NN NN NN,jdk,InputTests.java
+783,1216,get unit name,VB NN NN,jdk,PixelTests.java
+784,1219,get image,VB NN,jdk,PixelTests.java
+785,1234,get j component,VB FW NN,jdk,RenderTests.java
+786,1235,restore default,VB NN,jdk,RenderTests.java
+787,1237,set option,VB NN,jdk,RenderTests.java
+788,1240,make gradient colors,VB NN NNS,jdk,RenderTests.java
+789,1241,make linear,VB NN,jdk,RenderTests.java
+790,1242,make radial,VB NN,jdk,RenderTests.java
+791,1243,make texture paint,VB NN NN,jdk,RenderTests.java
+792,1288,float object list,NN NN NN,jdk,TextTests.java
+793,1289,float string list,NN NN NN,jdk,TextTests.java
+794,1292,int string list,NN NN NN,jdk,TextTests.java
+795,1295,get string,VB NN,jdk,TextTests.java
+796,1296,get simple string,VB JJ NN,jdk,TextTests.java
+797,1310,physical font name for,JJ NN NN IN,jdk,TextTests.java
+798,1311,get val string,VB NN NN,jdk,TextTests.java
+799,1330,first,JJ,jdk,TextConstructionTests.java
+800,1331,last,JJ,jdk,TextConstructionTests.java
+801,1332,current,JJ,jdk,TextConstructionTests.java
+802,1334,previous,JJ,jdk,TextConstructionTests.java
+803,1335,set index,VB NN,jdk,TextConstructionTests.java
+804,1336,get begin index,VB JJ NN,jdk,TextConstructionTests.java
+805,1337,get end index,VB JJ NN,jdk,TextConstructionTests.java
+806,1338,get index,VB NN,jdk,TextConstructionTests.java
+807,1339,clone,VB,jdk,TextConstructionTests.java
+808,1388,values,NNS,jdk,ColorConvertOpTests.java
+809,1390,create image type list,VB NN NN NN,jdk,ColorConvertOpTests.java
+810,1399,get color space,VB NN NN,jdk,CMMTests.java
+811,1405,create image list,VB NN NN,jdk,EmbeddedProfileTests.java
+812,1413,make image,VB NN,jdk,ImageTests.java
+813,1419,get transparency,VB NN,jdk,ImageTests.java
+814,1421,set value from string,VBN NN IN NN,jdk,ImageTests.java
+815,1422,modify test,VB NN,jdk,ImageTests.java
+816,1423,restore test,VB NN,jdk,ImageTests.java
+817,1444,read results,VB NNS,jdk,J2DAnalyzer.java
+818,1445,add result set,VB NN NN,jdk,J2DAnalyzer.java
+819,1447,read result set,VB NN NN,jdk,J2DAnalyzer.java
+820,1448,read result,VB NN,jdk,J2DAnalyzer.java
+821,1449,get string attribute,VB NN NN,jdk,J2DAnalyzer.java
+822,1450,get long attribute,VB NN NN,jdk,J2DAnalyzer.java
+823,1451,get int attribute,VB NN NN,jdk,J2DAnalyzer.java
+824,1453,get title,VB NN,jdk,J2DAnalyzer.java
+825,1454,get key enumeration,VB NN NN,jdk,J2DAnalyzer.java
+826,1455,get result enumeration,VB NN NN,jdk,J2DAnalyzer.java
+827,1456,get result by key,VB NN IN NN,jdk,J2DAnalyzer.java
+828,1458,get result set,VB NN NN,jdk,J2DAnalyzer.java
+829,1462,has more elements,VBZ JJ NNS,jdk,J2DAnalyzer.java
+830,1463,next element,JJ NN,jdk,J2DAnalyzer.java
+831,1468,set end time,VB NN NN,jdk,J2DAnalyzer.java
+832,1469,get end time,VB NN NN,jdk,J2DAnalyzer.java
+833,1470,set property,VB NN,jdk,J2DAnalyzer.java
+834,1471,get properties,VB NNS,jdk,J2DAnalyzer.java
+835,1472,add result,VB NN,jdk,J2DAnalyzer.java
+836,1478,set name,VB NN,jdk,J2DAnalyzer.java
+837,1481,get short key,VB JJ NN,jdk,J2DAnalyzer.java
+838,1482,make key,VB NN,jdk,J2DAnalyzer.java
+839,1484,get reps,VB NNS,jdk,J2DAnalyzer.java
+840,1487,add option,VB NN,jdk,J2DAnalyzer.java
+841,1488,get options,VB NNS,jdk,J2DAnalyzer.java
+842,1490,get spread,VB NN,jdk,J2DAnalyzer.java
+843,1491,get score,VB NN,jdk,J2DAnalyzer.java
+844,1492,get best score,VB JJS NN,jdk,J2DAnalyzer.java
+845,1493,get all scores,VB DT NNS,jdk,J2DAnalyzer.java
+846,1494,calc percent,VB NN,jdk,J2DAnalyzer.java
+847,1495,format,NN,jdk,J2DAnalyzer.java
+848,1497,set mode,VB NN,jdk,J2DAnalyzer.java
+849,1499,open file,VB NN,jdk,HTMLSeriesReporter.java
+850,1500,generate series report,VB NNS NN,jdk,HTMLSeriesReporter.java
+851,1505,print iio table,VB NNP NN,jdk,IIOComparator.java
+852,1506,print wiki table,VB NN NN,jdk,IIOComparator.java
+853,1507,print html table,VB NN NN,jdk,IIOComparator.java
+854,1508,print html cell,VB NN NN,jdk,IIOComparator.java
+855,1509,to sorted array,TO VBN NN,jdk,IIOComparator.java
+856,1511,sort 2,VB CD,jdk,IIOComparator.java
+857,1512,magic,NN,jdk,IIOComparator.java
+858,1516,set group level,VB NN NN,jdk,XMLHTMLReporter.java
+859,1517,add group,VB NN,jdk,XMLHTMLReporter.java
+860,1518,get display group name,VB NN NN NN,jdk,XMLHTMLReporter.java
+861,1519,get group,VB NN,jdk,XMLHTMLReporter.java
+862,1521,generate report,VB NN,jdk,XMLHTMLReporter.java
+863,1522,generate comparison report,VB NN NN,jdk,XMLHTMLReporter.java
+864,1523,generate group summary report,VB NN NN NN,jdk,XMLHTMLReporter.java
+865,1524,generate test case summary report,VB NN NN NN NN,jdk,XMLHTMLReporter.java
+866,1525,get test results table for summary,VB NN NNS NN IN NN,jdk,XMLHTMLReporter.java
+867,1526,get status table for summary,VB NN NN IN NN,jdk,XMLHTMLReporter.java
+868,1527,get performance table for testcase,VB NN NN IN NN,jdk,XMLHTMLReporter.java
+869,1528,generate test case report,VB NN NN NN,jdk,XMLHTMLReporter.java
+870,1529,get footer,VB NN,jdk,XMLHTMLReporter.java
+871,1530,get header,VB NN,jdk,XMLHTMLReporter.java
+872,1531,get header title,VB NN NN,jdk,XMLHTMLReporter.java
+873,1532,generate sys props report,VB NN NNS NN,jdk,XMLHTMLReporter.java
+874,1533,select color,VB NN,jdk,XMLHTMLReporter.java
+875,1534,calculate speedup percentage,VB NN NN,jdk,XMLHTMLReporter.java
+876,1537,add dependency,VB NN,jdk,Test.java
+877,1539,add dependencies,VB NNS,jdk,Test.java
+878,1542,run one test,VB CD NN,jdk,Test.java
+879,1546,run test loop,VB NN NN,jdk,Test.java
+880,1547,calibrate,VB,jdk,Test.java
+881,1548,adjust width,VB NN,jdk,Test.java
+882,1551,get modifier,VB NN,jdk,Test.java
+883,1552,get filter,VB NN,jdk,Test.java
+884,1554,recurse and run,VB CC VB,jdk,Test.java
+885,1557,run all tests,VB DT NNS,jdk,TestEnvironment.java
+886,1558,start timing,VB NN,jdk,TestEnvironment.java
+887,1559,stop timing,VB NN,jdk,TestEnvironment.java
+888,1560,get time millis,VB NN NNS,jdk,TestEnvironment.java
+889,1561,get time nanos,VB NN NNS,jdk,TestEnvironment.java
+890,1562,get canvas,VB NN,jdk,TestEnvironment.java
+891,1564,get src image,VB NN NN,jdk,TestEnvironment.java
+892,1565,stop,VB,jdk,TestEnvironment.java
+893,1566,is stopped,VBZ VBN,jdk,TestEnvironment.java
+894,1567,set test image,VB NN NN,jdk,TestEnvironment.java
+895,1568,set src image,VB NN NN,jdk,TestEnvironment.java
+896,1569,erase,VB,jdk,TestEnvironment.java
+897,1570,get graphics,VB NNS,jdk,TestEnvironment.java
+898,1571,get width,VB NN,jdk,TestEnvironment.java
+899,1572,get height,VB NN,jdk,TestEnvironment.java
+900,1574,get rep count,VB NN NN,jdk,TestEnvironment.java
+901,1575,get test time,VB NN NN,jdk,TestEnvironment.java
+902,1576,sync,VB,jdk,TestEnvironment.java
+903,1577,idle,VB,jdk,TestEnvironment.java
+904,1578,set modifier,VB NN,jdk,TestEnvironment.java
+905,1580,is enabled,VBZ VBN,jdk,TestEnvironment.java
+906,1581,get int value,VB NN NN,jdk,TestEnvironment.java
+907,1582,remove modifier,VB NN,jdk,TestEnvironment.java
+908,1585,flush to screen,VB TO NN,jdk,TestEnvironment.java
+909,1587,get impl,VB NN,jdk,TestEnvironment.java
+910,1600,get iterator,VB NN,jdk,Modifier.java
+911,1603,get tree name,VB NN NN,jdk,Modifier.java
+912,1609,get parent,VB NN,jdk,Node.java
+913,1610,get node name,VB NN NN,jdk,Node.java
+914,1615,set next,VB JJ,jdk,Node.java
+915,1616,traverse,VB,jdk,Node.java
+916,1623,add child,VB NN,jdk,Group.java
+917,1624,get child iterator,VB NN NN,jdk,Group.java
+918,1625,get recursive child iterator,VB JJ NN NN,jdk,Group.java
+919,1626,get first child,VB JJ NN,jdk,Group.java
+920,1627,is bordered,VBZ JJ,jdk,Group.java
+921,1628,is tabbed,VBZ JJ,jdk,Group.java
+922,1629,is hidden,VBZ JJ,jdk,Group.java
+923,1630,is horizontal,VBZ JJ,jdk,Group.java
+924,1631,set bordered,VB JJ,jdk,Group.java
+925,1632,set tabbed,VB JJ,jdk,Group.java
+926,1634,set hidden,VB JJ,jdk,Group.java
+927,1635,set horizontal,VB JJ,jdk,Group.java
+928,1641,add enable buttons,VB VB NNS,jdk,Group.java
+929,1642,restore all defaults,VB DT NNS,jdk,Group.java
+930,1644,write all,VB DT,jdk,Group.java
+931,1663,set destination,VB NN,jdk,Destinations.java
+932,1665,get long description,VB JJ NN,jdk,Destinations.java
+933,1680,is default,VBZ NN,jdk,Option.java
+934,1685,get option string,VB NN NN,jdk,Option.java
+935,1694,update gui,VB NNP,jdk,Option.java
+936,1698,item state changed,NN NN VBD,jdk,Option.java
+937,1720,insert string,VB NN,jdk,Option.java
+938,1723,trim,VB,jdk,Option.java
+939,1729,set num rows,VB NN NNS,jdk,Option.java
+940,1731,value changed,NN VBD,jdk,Option.java
+941,1733,find value index,VB NN NN,jdk,Option.java
+942,1737,make names,VB NNS,jdk,Option.java
+943,1738,make values,VB NNS,jdk,Option.java
+944,1749,get boolean value,VB NN NN,jdk,Option.java
+945,1754,set value,VB NN,jdk,Option.java
+946,1760,remove,VB,jdk,Option.java
+947,1765,add layout component,VB NN NN,jdk,CompactLayout.java
+948,1766,remove layout component,VB NN NN,jdk,CompactLayout.java
+949,1767,preferred layout size,JJ NN NN,jdk,CompactLayout.java
+950,1768,minimum layout size,JJ NN NN,jdk,CompactLayout.java
+951,1770,layout container,NN NN,jdk,CompactLayout.java
+952,1771,dispatch event,VB NN,jdk,CodePointInputMethod.java
+953,1772,compose unicode escape,VB NN NN,jdk,CodePointInputMethod.java
+954,1773,wait escape character,VB NN NN,jdk,CodePointInputMethod.java
+955,1774,wait digit,VB NN,jdk,CodePointInputMethod.java
+956,1775,wait digit 2,VB NN CD,jdk,CodePointInputMethod.java
+957,1776,wait back slash or low surrogate,VB JJ NN CC JJ NN,jdk,CodePointInputMethod.java
+958,1777,send composed text,VB VBN NN,jdk,CodePointInputMethod.java
+959,1778,send committed text,VB VBN NN,jdk,CodePointInputMethod.java
+960,1779,move caret left,VB NN NN,jdk,CodePointInputMethod.java
+961,1780,move caret right,VB NN NN,jdk,CodePointInputMethod.java
+962,1781,delete previous character,VB JJ NN,jdk,CodePointInputMethod.java
+963,1782,delete character,VB NN,jdk,CodePointInputMethod.java
+964,1783,start composition,VB NN,jdk,CodePointInputMethod.java
+965,1784,cancel composition,VB NN,jdk,CodePointInputMethod.java
+966,1785,finish composition,VB NN,jdk,CodePointInputMethod.java
+967,1786,get code point,VB NN NN,jdk,CodePointInputMethod.java
+968,1787,beep,VB,jdk,CodePointInputMethod.java
+969,1789,deactivate,VB,jdk,CodePointInputMethod.java
+970,1790,dispose,VB,jdk,CodePointInputMethod.java
+971,1791,get control object,VB NN NN,jdk,CodePointInputMethod.java
+972,1792,end composition,VB NN,jdk,CodePointInputMethod.java
+973,1793,get locale,VB NN,jdk,CodePointInputMethod.java
+974,1794,hide windows,VB NNS,jdk,CodePointInputMethod.java
+975,1795,is composition enabled,VBZ NN VBN,jdk,CodePointInputMethod.java
+976,1796,notify client window change,VB NN NN NN,jdk,CodePointInputMethod.java
+977,1797,reconvert,VB,jdk,CodePointInputMethod.java
+978,1798,remove notify,VB NN,jdk,CodePointInputMethod.java
+979,1799,set character subsets,VB NN NNS,jdk,CodePointInputMethod.java
+980,1800,set composition enabled,VB NN VBN,jdk,CodePointInputMethod.java
+981,1801,set input method context,VB NN NN NN,jdk,CodePointInputMethod.java
+982,1802,set locale,VB NN,jdk,CodePointInputMethod.java
+983,1803,create input method,VB NN NN,jdk,CodePointInputMethodDescriptor.java
+984,1804,get available locales,VB JJ NNS,jdk,CodePointInputMethodDescriptor.java
+985,1805,get input method display name,VB JJ NN NN NN,jdk,CodePointInputMethodDescriptor.java
+986,1806,get input method icon,VB JJ NN NN,jdk,CodePointInputMethodDescriptor.java
+987,1807,has dynamic locale list,VBZ JJ NN NN,jdk,CodePointInputMethodDescriptor.java
+988,1812,get column count,VB NN NN,jdk,TableExample3.java
+989,1813,get row count,VB NN NN,jdk,TableExample3.java
+990,1814,get value at,VB NN IN,jdk,TableExample3.java
+991,1815,get column name,VB NN NN,jdk,TableExample3.java
+992,1816,get column class,VB NN NN,jdk,TableExample3.java
+993,1817,is cell editable,VBZ NN JJ,jdk,TableExample3.java
+994,1818,set value at,VB NN IN,jdk,TableExample3.java
+995,1820,execute query,VB NN,jdk,JDBCAdapter.java
+996,1828,db representation,NN NN,jdk,JDBCAdapter.java
+997,1830,get column index,VB NN NN,jdk,OldJTable.java
+998,1831,add column,VB NN,jdk,OldJTable.java
+999,1835,remove column,VB NN,jdk,OldJTable.java
+1000,1836,add row,VB NN,jdk,OldJTable.java
+1001,1838,remove row,VB NN,jdk,OldJTable.java
+1002,1839,move row,VB NN,jdk,OldJTable.java
+1003,1840,insert row,VB NN,jdk,OldJTable.java
+1004,1843,set data vector,VB NNS NN,jdk,OldJTable.java
+1005,1845,check default table model,VB NN NN NN,jdk,OldJTable.java
+1006,1849,edit column row,VB NN NN,jdk,OldJTable.java
+1007,1850,move column,VB NN,jdk,OldJTable.java
+1008,1851,is column selected,VBZ NN VBN,jdk,OldJTable.java
+1009,1867,get model,VB NN,jdk,TableMap.java
+1010,1868,set model,VB NN,jdk,TableMap.java
+1011,1876,table changed,NN VBN,jdk,TableMap.java
+1012,1878,compare rows by column,VB NNS IN NN,jdk,TableSorter.java
+1013,1880,reallocate indexes,VB NNS,jdk,TableSorter.java
+1014,1882,check model,VB NN,jdk,TableSorter.java
+1015,1884,n 2 sort,NN CD VB,jdk,TableSorter.java
+1016,1885,shuttlesort,NN,jdk,TableSorter.java
+1017,1886,swap,VB,jdk,TableSorter.java
+1018,1889,sort by column,VB IN NN,jdk,TableSorter.java
+1019,1891,add mouse listener to header in table,VB NN NN TO VB IN NN,jdk,TableSorter.java
+1020,1892,mouse clicked,NN VBN,jdk,TableSorter.java
+1021,1893,activate connection dialog,VB NN NN,jdk,TableExample.java
+1022,1894,create connection dialog,VB NN NN,jdk,TableExample.java
+1023,1898,connect,VB,jdk,TableExample.java
+1024,1899,fetch,VB,jdk,TableExample.java
+1025,1900,create table,VB NN,jdk,TableExample.java
+1026,1907,create new folder,VB JJ NN,jdk,ExampleFileSystemView.java
+1027,1908,get roots,VB NNS,jdk,ExampleFileSystemView.java
+1028,1909,get system display name,VB NN NN NN,jdk,ExampleFileSystemView.java
+1029,1911,put description,VB NN,jdk,ExampleFileView.java
+1030,1913,put type description,VB NN NN,jdk,ExampleFileView.java
+1031,1915,get type description,VB NN NN,jdk,ExampleFileView.java
+1032,1916,get extension,VB NN,jdk,ExampleFileView.java
+1033,1917,put icon,VB NN,jdk,ExampleFileView.java
+1034,1918,get icon,VB NN,jdk,ExampleFileView.java
+1035,1919,is traversable,VBZ JJ,jdk,ExampleFileView.java
+1036,1921,get maximum size,VB JJ NN,jdk,FileChooserDemo.java
+1037,1923,reset file filters,VB NN NNS,jdk,FileChooserDemo.java
+1038,1924,create file filter,VB NN NN,jdk,FileChooserDemo.java
+1039,1925,create file name filter description from extensions,VB NN NN JJ NN IN NNS,jdk,FileChooserDemo.java
+1040,1927,back,VB,jdk,FileChooserDemo.java
+1041,1931,get result string,VB NN NN,jdk,FileChooserDemo.java
+1042,1933,load image,VB NN,jdk,FileChooserDemo.java
+1043,1934,property change,NN NN,jdk,FileChooserDemo.java
+1044,1935,paint,VB,jdk,FileChooserDemo.java
+1045,1938,get insets,VB NNS,jdk,FileChooserDemo.java
+1046,1939,get controls,VB NNS,jdk,DemoInstVarsAccessor.java
+1047,1940,get memory monitor,VB NN NN,jdk,DemoInstVarsAccessor.java
+1048,1941,get performance monitor,VB NN NN,jdk,DemoInstVarsAccessor.java
+1049,1942,get tabbed pane,VB JJ NN,jdk,DemoInstVarsAccessor.java
+1050,1944,set group columns,VB NN NN,jdk,DemoInstVarsAccessor.java
+1051,1945,get verbose cb,VB JJ FW,jdk,DemoInstVarsAccessor.java
+1052,1946,get ccthread cb,VB NNP FW,jdk,DemoInstVarsAccessor.java
+1053,1947,get print cb,VB NN FW,jdk,DemoInstVarsAccessor.java
+1054,1948,get background color,VB NN NN,jdk,DemoInstVarsAccessor.java
+1055,1949,get memory cb,VB NN FW,jdk,DemoInstVarsAccessor.java
+1056,1950,get perf cb,VB NN FW,jdk,DemoInstVarsAccessor.java
+1057,1951,get intro,VB NN,jdk,DemoInstVarsAccessor.java
+1058,1953,do run action,VB VB NN,jdk,RunWindow.java
+1059,1956,sleep per tab,VB IN NN,jdk,RunWindow.java
+1060,1958,print demo,VB NN,jdk,RunWindow.java
+1061,1966,invoke and wait,VB CC VB,jdk,RunWindow.java
+1062,1967,get delay,VB NN,jdk,RunWindow.java
+1063,1968,set delay,VB NN,jdk,RunWindow.java
+1064,1970,set num runs,VB NN NNS,jdk,RunWindow.java
+1065,1971,get exit,VB NN,jdk,RunWindow.java
+1066,1972,set exit,VB NN,jdk,RunWindow.java
+1067,1973,is zoom cb selected,VBZ NN FW VBN,jdk,RunWindow.java
+1068,1974,set zoom cb selected,VB NN FW VBN,jdk,RunWindow.java
+1069,1975,is print cb selected,VBZ NN FW VBN,jdk,RunWindow.java
+1070,1976,set print cb is selected,VB NN FW VBZ VBN,jdk,RunWindow.java
+1071,1977,get buffers flag,VB NNS NN,jdk,RunWindow.java
+1072,1978,set buffers flag,VB NNS NN,jdk,RunWindow.java
+1073,1979,get buf beg,VB NN NN,jdk,RunWindow.java
+1074,1980,set buf beg,VB NN NN,jdk,RunWindow.java
+1075,1981,get buf end,VB NN NN,jdk,RunWindow.java
+1076,1982,set buf end,VB NN NN,jdk,RunWindow.java
+1077,1985,set demo border,VB NN NN,jdk,DemoPanel.java
+1078,1986,create menu bar,VB NN NN,jdk,J2Ddemo.java
+1079,1987,create run window,VB NN NN,jdk,J2Ddemo.java
+1080,1989,window closed,NN VBN,jdk,J2Ddemo.java
+1081,1990,start run window,VB VB NN,jdk,J2Ddemo.java
+1082,2000,get plugin group id,VB NN NN NN,maven,PluginManagerException.java
+1083,2001,get plugin artifact id,VB NN NN NN,maven,PluginManagerException.java
+1084,2002,get plugin version,VB NN NN,maven,PluginManagerException.java
+1085,2003,get goal,VB NN,maven,PluginManagerException.java
+1086,2004,get project,VB NN,maven,PluginManagerException.java
+1087,2005,load plugin,VB NN,maven,DefaultBuildPluginManager.java
+1088,2006,execute mojo,VB NNP,maven,DefaultBuildPluginManager.java
+1089,2007,get plugin realm,VB NN NN,maven,DefaultBuildPluginManager.java
+1090,2008,get mojo descriptor,VB NNP NN,maven,DefaultBuildPluginManager.java
+1091,2009,get realm,VB NN,maven,PluginRealmCache.java
+1092,2010,get artifacts,VB NNS,maven,PluginRealmCache.java
+1093,2011,create key,VB NN,maven,PluginRealmCache.java
+1094,2025,hash,NN,maven,DefaultPluginDescriptorCache.java
+1095,2026,to message,TO NN,maven,InvalidPluginDescriptorException.java
+1096,2027,get plugin,VB NN,maven,CycleDetectedInPluginGraphException.java
+1097,2028,eq,VB,maven,CacheUtils.java
+1098,2030,plugin hash code,NN NN NN,maven,CacheUtils.java
+1099,2031,plugin equals,NN VBZ,maven,CacheUtils.java
+1100,2032,dependencies equals,NNS VBZ,maven,CacheUtils.java
+1101,2033,exclusions equals,NNS VBZ,maven,CacheUtils.java
+1102,2035,get plugin descriptor for prefix,VB NN NN IN NN,maven,PluginManager.java
+1103,2036,get plugin definition for prefix,VB NN NN IN NN,maven,PluginManager.java
+1104,2037,verify plugin,VB NN,maven,PluginManager.java
+1105,2038,get plugin component,VB NN NN,maven,PluginManager.java
+1106,2039,get plugin components,VB NN NNS,maven,PluginManager.java
+1107,2040,load plugin descriptor,VB NN NN,maven,PluginManager.java
+1108,2041,load plugin fully,VB NN RB,maven,PluginManager.java
+1109,2042,get prefix,VB NN,maven,DefaultPluginPrefixRequest.java
+1110,2043,set prefix,VB NN,maven,DefaultPluginPrefixRequest.java
+1111,2044,get plugin groups,VB NN NNS,maven,DefaultPluginPrefixRequest.java
+1112,2045,set plugin groups,VB NN NNS,maven,DefaultPluginPrefixRequest.java
+1113,2046,get pom,VB NN,maven,DefaultPluginPrefixRequest.java
+1114,2047,set pom,VB NN,maven,DefaultPluginPrefixRequest.java
+1115,2048,get repositories,VB NNS,maven,DefaultPluginPrefixRequest.java
+1116,2049,set repositories,VB NNS,maven,DefaultPluginPrefixRequest.java
+1117,2050,get repository session,VB NN NN,maven,DefaultPluginPrefixRequest.java
+1118,2051,set repository session,VB NN NN,maven,DefaultPluginPrefixRequest.java
+1119,2052,get group id,VB NN NN,maven,PluginPrefixResult.java
+1120,2053,get artifact id,VB NN NN,maven,PluginPrefixResult.java
+1121,2054,get repository,VB NN,maven,PluginPrefixResult.java
+1122,2068,resolve from project,VB IN NN,maven,DefaultPluginPrefixResolver.java
+1123,2070,resolve from repository,VB IN NN,maven,DefaultPluginPrefixResolver.java
+1124,2071,process results,VB NNS,maven,DefaultPluginPrefixResolver.java
+1125,2073,invalid metadata,JJ NN,maven,DefaultPluginPrefixResolver.java
+1126,2075,set group id,VB NN NN,maven,DefaultPluginPrefixResult.java
+1127,2077,set artifact id,VB NN NN,maven,DefaultPluginPrefixResult.java
+1128,2079,set repository,VB NN,maven,DefaultPluginPrefixResult.java
+1129,2080,create message,VB NN,maven,PluginDescriptorParsingException.java
+1130,2082,get exception,VB NN,maven,PluginArtifactsCache.java
+1131,2091,is type compatible,VBZ NN JJ,maven,PluginParameterExpressionEvaluator.java
+1132,2092,strip tokens,VB NNS,maven,PluginParameterExpressionEvaluator.java
+1133,2093,align to base directory,VB TO NN NN,maven,PluginParameterExpressionEvaluator.java
+1134,2094,get plugin descriptor,VB NN NN,maven,MavenPluginManager.java
+1135,2096,check required maven version,VB JJ NN NN,maven,MavenPluginManager.java
+1136,2097,setup plugin realm,VB NN NN,maven,MavenPluginManager.java
+1137,2098,setup extensions realm,VB NNS NN,maven,MavenPluginManager.java
+1138,2099,get configured mojo,VB JJ NNP,maven,MavenPluginManager.java
+1139,2100,release mojo,VB NNP,maven,MavenPluginManager.java
+1140,2102,before mojo execution,IN NNP NN,maven,CompoundMojoExecutionListener.java
+1141,2103,after mojo execution success,IN NNP NN NN,maven,CompoundMojoExecutionListener.java
+1142,2104,after execution failure,IN NN NN,maven,CompoundMojoExecutionListener.java
+1143,2105,set session,VB NN,maven,LegacySupport.java
+1144,2106,get session,VB NN,maven,LegacySupport.java
+1145,2109,get descriptor,VB NN,maven,ExtensionRealmCache.java
+1146,2118,get parameters,VB NNS,maven,PluginParameterException.java
+1147,2119,decompose parameter into user instructions,VB NN IN NN NNS,maven,PluginParameterException.java
+1148,2120,build diagnostic message,VB JJ NN,maven,PluginParameterException.java
+1149,2121,execute,VB,maven,MojosExecutionStrategy.java
+1150,2122,get plugin key,VB NN NN,maven,PluginLoaderException.java
+1151,2134,get source,VB NN,maven,MojoExecution.java
+1152,2135,get execution id,VB NN NN,maven,MojoExecution.java
+1153,2138,get configuration,VB NN,maven,MojoExecution.java
+1154,2139,set configuration,VB NN,maven,MojoExecution.java
+1155,2140,identify,VB,maven,MojoExecution.java
+1156,2141,get lifecycle phase,VB NN NN,maven,MojoExecution.java
+1157,2142,set lifecycle phase,VB NN NN,maven,MojoExecution.java
+1158,2148,set mojo descriptor,VB NNP NN,maven,MojoExecution.java
+1159,2149,get forked executions,VB JJ NNS,maven,MojoExecution.java
+1160,2150,set forked executions,VB JJ NNS,maven,MojoExecution.java
+1161,2153,get mojo execution,VB NNP NN,maven,PluginExecutionException.java
+1162,2154,construct message,VB NN,maven,PluginExecutionException.java
+1163,2174,notify field change using setter,VB NN NN VBG NN,maven,DebugConfigurationListener.java
+1164,2175,notify field change using reflection,VB NN NN VBG NN,maven,DebugConfigurationListener.java
+1165,2177,to artifact,TO NN,maven,DefaultPluginDependenciesResolver.java
+1166,2179,resolve core extension,VB JJ NN,maven,DefaultPluginDependenciesResolver.java
+1167,2181,resolve internal,VB NN,maven,DefaultPluginDependenciesResolver.java
+1168,2182,visit enter,VB NN,maven,DefaultPluginDependenciesResolver.java
+1169,2183,visit leave,VB NN,maven,DefaultPluginDependenciesResolver.java
+1170,2184,remove banned dependencies,VB JJ NNS,maven,PluginDependencyResolutionListener.java
+1171,2185,start process children,VB NN NNS,maven,PluginDependencyResolutionListener.java
+1172,2186,is legacy core artifact,VBZ JJ JJ NN,maven,PluginDependencyResolutionListener.java
+1173,2187,end process children,VB NN NNS,maven,PluginDependencyResolutionListener.java
+1174,2188,include artifact,VB NN,maven,PluginDependencyResolutionListener.java
+1175,2189,is wagon provider,VBZ NN NN,maven,PluginDependencyResolutionListener.java
+1176,2190,manage artifact,VB NN,maven,PluginDependencyResolutionListener.java
+1177,2191,omit for cycle,VB IN NN,maven,PluginDependencyResolutionListener.java
+1178,2192,omit for nearer,VB IN JJ,maven,PluginDependencyResolutionListener.java
+1179,2193,restrict range,VB NN,maven,PluginDependencyResolutionListener.java
+1180,2194,select version from range,VB NN IN NN,maven,PluginDependencyResolutionListener.java
+1181,2195,test artifact,VB NN,maven,PluginDependencyResolutionListener.java
+1182,2196,update scope,VB NN,maven,PluginDependencyResolutionListener.java
+1183,2197,update scope current pom,VB NN JJ NN,maven,PluginDependencyResolutionListener.java
+1184,2198,get missing parameters,VB JJ NNS,maven,ValidatingConfigurationListener.java
+1185,2201,notify,VB,maven,ValidatingConfigurationListener.java
+1186,2202,warn deprecated,NN VBN,maven,ValidatingConfigurationListener.java
+1187,2203,evaluate value,VB NN,maven,ValidatingConfigurationListener.java
+1188,2205,validate,VB,maven,MavenPluginValidator.java
+1189,2211,extract plugin descriptor,VB NN NN,maven,DefaultMavenPluginManager.java
+1190,2212,get plugin descriptor location,VB NN NN NN,maven,DefaultMavenPluginManager.java
+1191,2213,parse plugin descriptor,VB NN NN,maven,DefaultMavenPluginManager.java
+1192,2217,create plugin realm,VB NN NN,maven,DefaultMavenPluginManager.java
+1193,2218,discover plugin components,VB NN NNS,maven,DefaultMavenPluginManager.java
+1194,2219,to aether artifacts,TO NN NNS,maven,DefaultMavenPluginManager.java
+1195,2220,to maven artifacts,TO NN NNS,maven,DefaultMavenPluginManager.java
+1196,2221,calc imports,VB NNS,maven,DefaultMavenPluginManager.java
+1197,2223,populate plugin fields,VB NN NNS,maven,DefaultMavenPluginManager.java
+1198,2224,validate parameters,VB NNS,maven,DefaultMavenPluginManager.java
+1199,2227,resolve extension artifacts,VB NN NNS,maven,DefaultMavenPluginManager.java
+1200,2236,select dependency,VB NN,maven,WagonExcluder.java
+1201,2237,derive child selector,VB NN NN,maven,WagonExcluder.java
+1202,2248,info,NN,maven,MojoLogWrapper.java
+1203,2251,warn,VB,maven,MojoLogWrapper.java
+1204,2254,error,NN,maven,MojoLogWrapper.java
+1205,2257,is debug enabled,VBZ VB VBN,maven,MojoLogWrapper.java
+1206,2258,is info enabled,VBZ NN VBN,maven,MojoLogWrapper.java
+1207,2259,is warn enabled,VBZ NN VBN,maven,MojoLogWrapper.java
+1208,2260,is error enabled,VBZ NN VBN,maven,MojoLogWrapper.java
+1209,2267,assert unique key,VB JJ NN,maven,DefaultPluginArtifactsCache.java
+1210,2275,get base message,VB NN NN,maven,PluginVersionResolutionException.java
+1211,2302,set version,VB NN,maven,DefaultPluginVersionResult.java
+1212,2307,select version,VB NN,maven,DefaultPluginVersionResolver.java
+1213,2309,merge metadata,VB NNS,maven,DefaultPluginVersionResolver.java
+1214,2314,get cache,VB NN,maven,DefaultPluginVersionResolver.java
+1215,2323,resolve impl,VB NNP,maven,DefaultProjectDependenciesResolver.java
+1216,2324,get ignorable artifacts,VB JJ NNS,maven,DefaultProjectDependenciesResolver.java
+1217,2326,get module file,VB NN NN,maven,MissingModuleException.java
+1218,2327,get module name,VB NN NN,maven,MissingModuleException.java
+1219,2328,add excludes,VB VBZ,maven,ArtifactFilterManagerDelegate.java
+1220,2329,add core excludes,VB JJ VBZ,maven,ArtifactFilterManagerDelegate.java
+1221,2330,get mojo failure exception,VB NNP NN NN,maven,ProjectBuildFailureException.java
+1222,2331,get project id,VB NN NN,maven,ProjectBuildFailureException.java
+1223,2332,get exported artifacts,VB JJ NNS,maven,CoreExports.java
+1224,2333,get exported packages,VB JJ NNS,maven,CoreExports.java
+1225,2334,get class realm,VB NN NN,maven,CoreExtensionEntry.java
+1226,2337,discover from,VB IN,maven,CoreExtensionEntry.java
+1227,2341,get scope,VB NN,maven,ScopeArtifactFilter.java
+1228,2344,add scope internal,VB NN JJ,maven,AbstractScopeArtifactFilter.java
+1229,2345,include,VB,maven,AbstractScopeArtifactFilter.java
+1230,2346,add scopes,VB NNS,maven,CumulativeScopeArtifactFilter.java
+1231,2347,add scope,VB NN,maven,CumulativeScopeArtifactFilter.java
+1232,2348,get scopes,VB NNS,maven,CumulativeScopeArtifactFilter.java
+1233,2352,get patterns,VB NNS,maven,IncludesArtifactFilter.java
+1234,2357,get filters,VB NNS,maven,AndArtifactFilter.java
+1235,2364,same artifact id,JJ NN NN,maven,ExclusionArtifactFilter.java
+1236,2365,same group id,JJ NN NN,maven,ExclusionArtifactFilter.java
+1237,2366,exclude,VB,maven,ExclusionArtifactFilter.java
+1238,2368,throw errors,VB NNS,maven,DefaultResolutionErrorHandler.java
+1239,2369,to list,TO NN,maven,DefaultResolutionErrorHandler.java
+1240,2370,get artifact,VB NN,maven,ResolutionNode.java
+1241,2373,get dependency trail,VB NN NN,maven,ResolutionNode.java
+1242,2374,get trail,VB NN,maven,ResolutionNode.java
+1243,2375,is resolved,VBZ VBN,maven,ResolutionNode.java
+1244,2376,is child of root node,VBZ NN IN NN NN,maven,ResolutionNode.java
+1245,2377,get children iterator,VB NNS NN,maven,ResolutionNode.java
+1246,2378,get depth,VB NN,maven,ResolutionNode.java
+1247,2379,get remote repositories,VB JJ NNS,maven,ResolutionNode.java
+1248,2381,enable,VB,maven,ResolutionNode.java
+1249,2382,disable,VB,maven,ResolutionNode.java
+1250,2383,filter trail,VB NN,maven,ResolutionNode.java
+1251,2385,set artifact,VB NN,maven,ResolutionNode.java
+1252,2388,set artifact dependencies,VB NN NNS,maven,ArtifactResolutionRequest.java
+1253,2389,get artifact dependencies,VB NN NNS,maven,ArtifactResolutionRequest.java
+1254,2390,get local repository,VB JJ NN,maven,ArtifactResolutionRequest.java
+1255,2391,set local repository,VB JJ NN,maven,ArtifactResolutionRequest.java
+1256,2393,set remote repositories,VB JJ NNS,maven,ArtifactResolutionRequest.java
+1257,2394,get collection filter,VB NN NN,maven,ArtifactResolutionRequest.java
+1258,2395,set collection filter,VB NN NN,maven,ArtifactResolutionRequest.java
+1259,2396,get resolution filter,VB NN NN,maven,ArtifactResolutionRequest.java
+1260,2397,set resolution filter,VB NN NN,maven,ArtifactResolutionRequest.java
+1261,2398,get listeners,VB NNS,maven,ArtifactResolutionRequest.java
+1262,2399,set listeners,VB NNS,maven,ArtifactResolutionRequest.java
+1263,2400,add listener,VB NN,maven,ArtifactResolutionRequest.java
+1264,2401,get managed version map,VB JJ NN NN,maven,ArtifactResolutionRequest.java
+1265,2402,set managed version map,VB JJ NN NN,maven,ArtifactResolutionRequest.java
+1266,2403,set resolve root,VB NN NN,maven,ArtifactResolutionRequest.java
+1267,2404,is resolve root,VBZ NN NN,maven,ArtifactResolutionRequest.java
+1268,2405,set resolve transitively,VB NN RB,maven,ArtifactResolutionRequest.java
+1269,2406,is resolve transitively,VBZ NN RB,maven,ArtifactResolutionRequest.java
+1270,2408,is offline,VBZ JJ,maven,ArtifactResolutionRequest.java
+1271,2409,set offline,VB JJ,maven,ArtifactResolutionRequest.java
+1272,2410,is force update,VBZ NN NN,maven,ArtifactResolutionRequest.java
+1273,2411,set force update,VB NN NN,maven,ArtifactResolutionRequest.java
+1274,2412,set servers,VB NNS,maven,ArtifactResolutionRequest.java
+1275,2413,get servers,VB NNS,maven,ArtifactResolutionRequest.java
+1276,2414,set mirrors,VB NNS,maven,ArtifactResolutionRequest.java
+1277,2415,get mirrors,VB NNS,maven,ArtifactResolutionRequest.java
+1278,2416,set proxies,VB NNS,maven,ArtifactResolutionRequest.java
+1279,2417,get proxies,VB NNS,maven,ArtifactResolutionRequest.java
+1280,2418,set cache,VB NN,maven,ArtifactResolutionRequest.java
+1281,2431,get originating artifact,VB VBG NN,maven,ArtifactResolutionResult.java
+1282,2432,set originating artifact,VB VBG NN,maven,ArtifactResolutionResult.java
+1283,2433,add artifact,VB NN,maven,ArtifactResolutionResult.java
+1284,2435,set artifacts,VB NNS,maven,ArtifactResolutionResult.java
+1285,2436,get artifact resolution nodes,VB NN NN NNS,maven,ArtifactResolutionResult.java
+1286,2437,set artifact resolution nodes,VB NN NN NNS,maven,ArtifactResolutionResult.java
+1287,2438,has missing artifacts,VBZ JJ NNS,maven,ArtifactResolutionResult.java
+1288,2439,get missing artifacts,VB JJ NNS,maven,ArtifactResolutionResult.java
+1289,2440,add missing artifact,VB JJ NN,maven,ArtifactResolutionResult.java
+1290,2441,set unresolved artifacts,VB JJ NNS,maven,ArtifactResolutionResult.java
+1291,2442,is success,VBZ NN,maven,ArtifactResolutionResult.java
+1292,2443,has exceptions,VBZ NNS,maven,ArtifactResolutionResult.java
+1293,2444,get exceptions,VB NNS,maven,ArtifactResolutionResult.java
+1294,2445,has version range violations,VBZ NN NN NNS,maven,ArtifactResolutionResult.java
+1295,2446,add version range violation,VB NN NN NN,maven,ArtifactResolutionResult.java
+1296,2447,get version range violation,VB NN NN NN,maven,ArtifactResolutionResult.java
+1297,2448,get version range violations,VB NN NN NNS,maven,ArtifactResolutionResult.java
+1298,2449,has metadata resolution exceptions,VBZ NNS NN NNS,maven,ArtifactResolutionResult.java
+1299,2450,add metadata resolution exception,VB NNS NN NN,maven,ArtifactResolutionResult.java
+1300,2451,get metadata resolution exception,VB NNS NN NN,maven,ArtifactResolutionResult.java
+1301,2452,get metadata resolution exceptions,VB NNS NN NNS,maven,ArtifactResolutionResult.java
+1302,2453,has error artifact exceptions,VBZ NN NN NNS,maven,ArtifactResolutionResult.java
+1303,2454,add error artifact exception,VB NN NN NN,maven,ArtifactResolutionResult.java
+1304,2455,get error artifact exceptions,VB NN NN NNS,maven,ArtifactResolutionResult.java
+1305,2456,has circular dependency exceptions,VBZ JJ NN NNS,maven,ArtifactResolutionResult.java
+1306,2457,add circular dependency exception,VB JJ NN NN,maven,ArtifactResolutionResult.java
+1307,2458,get circular dependency exception,VB JJ NN NN,maven,ArtifactResolutionResult.java
+1308,2459,get circular dependency exceptions,VB JJ NN NNS,maven,ArtifactResolutionResult.java
+1309,2462,init list,VB NN,maven,ArtifactResolutionResult.java
+1310,2464,get artifact handler,VB NN NN,maven,ArtifactHandlerManager.java
+1311,2465,add handlers,VB NNS,maven,ArtifactHandlerManager.java
+1312,2468,get handler types,VB NN NNS,maven,DefaultArtifactHandlerManager.java
+1313,2482,set extension,VB NN,maven,DefaultArtifactHandler.java
+1314,2483,get classifier,VB NN,maven,DefaultArtifactHandler.java
+1315,2484,set classifier,VB NN,maven,DefaultArtifactHandler.java
+1316,2485,get directory,VB NN,maven,DefaultArtifactHandler.java
+1317,2486,set directory,VB NN,maven,DefaultArtifactHandler.java
+1318,2487,get packaging,VB NN,maven,DefaultArtifactHandler.java
+1319,2488,set packaging,VB NN,maven,DefaultArtifactHandler.java
+1320,2489,is includes dependencies,VBZ VBZ NNS,maven,DefaultArtifactHandler.java
+1321,2490,set includes dependencies,VB VBZ NNS,maven,DefaultArtifactHandler.java
+1322,2491,get language,VB NN,maven,DefaultArtifactHandler.java
+1323,2492,set language,VB NN,maven,DefaultArtifactHandler.java
+1324,2493,is added to classpath,VBZ VBN TO NN,maven,DefaultArtifactHandler.java
+1325,2494,set added to classpath,VB VBD TO NN,maven,DefaultArtifactHandler.java
+1326,2495,get repository id,VB NN NN,maven,InvalidRepositoryException.java
+1327,2496,retrieve,VB,maven,ArtifactMetadataSource.java
+1328,2498,retrieve available versions,VB JJ NNS,maven,ArtifactMetadataSource.java
+1329,2500,retrieve available versions from deployment repository,VB JJ NNS IN NN NN,maven,ArtifactMetadataSource.java
+1330,2501,overlay,VB,maven,LegacyLocalRepositoryManager.java
+1331,2503,get path for local artifact,VB NN IN JJ NN,maven,LegacyLocalRepositoryManager.java
+1332,2504,get path for remote artifact,VB NN IN JJ NN,maven,LegacyLocalRepositoryManager.java
+1333,2505,get path for local metadata,VB NN IN JJ NNS,maven,LegacyLocalRepositoryManager.java
+1334,2506,get path for remote metadata,VB NN IN JJ NNS,maven,LegacyLocalRepositoryManager.java
+1335,2507,find,VB,maven,LegacyLocalRepositoryManager.java
+1336,2511,stored in artifact version directory,VBN IN NN NN NN,maven,LegacyLocalRepositoryManager.java
+1337,2512,stored in group directory,VBN IN NN NN,maven,LegacyLocalRepositoryManager.java
+1338,2515,get base version,VB NN NN,maven,LegacyLocalRepositoryManager.java
+1339,2516,nullify,VB,maven,LegacyLocalRepositoryManager.java
+1340,2518,get remote filename,VB JJ NN,maven,LegacyLocalRepositoryManager.java
+1341,2519,get local filename,VB JJ NN,maven,LegacyLocalRepositoryManager.java
+1342,2520,insert repository key,VB NN NN,maven,LegacyLocalRepositoryManager.java
+1343,2521,merge,VB,maven,LegacyLocalRepositoryManager.java
+1344,2523,store in local repository,VB IN JJ NN,maven,LegacyLocalRepositoryManager.java
+1345,2524,extended to string,VBN TO NN,maven,LegacyLocalRepositoryManager.java
+1346,2525,path of,NN IN,maven,LegacyLocalRepositoryManager.java
+1347,2526,path of remote repository metadata,NN IN JJ NN NNS,maven,LegacyLocalRepositoryManager.java
+1348,2527,path of local repository metadata,NN IN JJ NN NNS,maven,LegacyLocalRepositoryManager.java
+1349,2528,get url,VB NNP,maven,LegacyLocalRepositoryManager.java
+1350,2529,set url,VB NNP,maven,LegacyLocalRepositoryManager.java
+1351,2530,get basedir,VB NN,maven,LegacyLocalRepositoryManager.java
+1352,2531,get protocol,VB NN,maven,LegacyLocalRepositoryManager.java
+1353,2532,get id,VB NN,maven,LegacyLocalRepositoryManager.java
+1354,2533,set id,VB NN,maven,LegacyLocalRepositoryManager.java
+1355,2534,get snapshots,VB NNS,maven,LegacyLocalRepositoryManager.java
+1356,2535,set snapshot update policy,VB NN NN NN,maven,LegacyLocalRepositoryManager.java
+1357,2536,get releases,VB NNS,maven,LegacyLocalRepositoryManager.java
+1358,2537,set release update policy,VB NN NN NN,maven,LegacyLocalRepositoryManager.java
+1359,2538,get layout,VB NN,maven,LegacyLocalRepositoryManager.java
+1360,2539,set layout,VB NN,maven,LegacyLocalRepositoryManager.java
+1361,2541,is unique version,VBZ JJ NN,maven,LegacyLocalRepositoryManager.java
+1362,2542,is blacklisted,VBZ VBN,maven,LegacyLocalRepositoryManager.java
+1363,2543,set blacklisted,VB VBN,maven,LegacyLocalRepositoryManager.java
+1364,2545,find versions,VB NNS,maven,LegacyLocalRepositoryManager.java
+1365,2546,is project aware,VBZ NN JJ,maven,LegacyLocalRepositoryManager.java
+1366,2547,set authentication,VB NN,maven,LegacyLocalRepositoryManager.java
+1367,2548,get authentication,VB NN,maven,LegacyLocalRepositoryManager.java
+1368,2549,set proxy,VB NN,maven,LegacyLocalRepositoryManager.java
+1369,2550,get proxy,VB NN,maven,LegacyLocalRepositoryManager.java
+1370,2551,get mirrored repositories,VB JJ NNS,maven,LegacyLocalRepositoryManager.java
+1371,2552,set mirrored repositories,VB JJ NNS,maven,LegacyLocalRepositoryManager.java
+1372,2553,is blocked,VBZ JJ,maven,LegacyLocalRepositoryManager.java
+1373,2554,set blocked,VB JJ,maven,LegacyLocalRepositoryManager.java
+1374,2568,set metadata,VB NNS,maven,RepositoryMetadata.java
+1375,2569,is snapshot,VBZ NN,maven,RepositoryMetadata.java
+1376,2570,get nature,VB NN,maven,RepositoryMetadata.java
+1377,2571,get policy,VB NN,maven,RepositoryMetadata.java
+1378,2574,resolve always,VB RB,maven,RepositoryMetadataManager.java
+1379,2575,deploy,VB,maven,RepositoryMetadataManager.java
+1380,2576,install,VB,maven,RepositoryMetadataManager.java
+1381,2591,update repository metadata,VB NN NNS,maven,AbstractRepositoryMetadata.java
+1382,2593,create metadata,VB NNS,maven,AbstractRepositoryMetadata.java
+1383,2594,create versioning,VB NN,maven,AbstractRepositoryMetadata.java
+1384,2605,is strict,VBZ JJ,maven,DefaultMetadataReader.java
+1385,2606,get line number,VB NN NN,maven,MetadataParseException.java
+1386,2607,get column number,VB NN NN,maven,MetadataParseException.java
+1387,2614,path of repository metadata,NN IN NN NNS,maven,DefaultRepositoryLayout.java
+1388,2616,format as directory,NN IN NN,maven,DefaultRepositoryLayout.java
+1389,2637,protocol,NN,maven,MavenArtifactRepository.java
+1390,2638,basedir,NN,maven,MavenArtifactRepository.java
+1391,2639,decode,VB,maven,MavenArtifactRepository.java
+1392,2655,get repository request,VB NN NN,maven,DefaultRepositoryRequest.java
+1393,2664,create artifact,VB NN,maven,DefaultArtifactFactory.java
+1394,2665,create artifact with classifier,VB NN IN NN,maven,DefaultArtifactFactory.java
+1395,2666,create dependency artifact,VB NN NN,maven,DefaultArtifactFactory.java
+1396,2670,create build artifact,VB NNS NN,maven,DefaultArtifactFactory.java
+1397,2671,create project artifact,VB NN NN,maven,DefaultArtifactFactory.java
+1398,2672,create parent artifact,VB NN NN,maven,DefaultArtifactFactory.java
+1399,2673,create plugin artifact,VB NN NN,maven,DefaultArtifactFactory.java
+1400,2675,create extension artifact,VB NN NN,maven,DefaultArtifactFactory.java
+1401,2694,to artifacts,TO NNS,maven,RepositoryUtils.java
+1402,2696,to dependency,TO NN,maven,RepositoryUtils.java
+1403,2697,to repos,TO NNS,maven,RepositoryUtils.java
+1404,2698,to repo,TO NN,maven,RepositoryUtils.java
+1405,2700,to policy,TO NN,maven,RepositoryUtils.java
+1406,2701,to authentication,TO NN,maven,RepositoryUtils.java
+1407,2702,to proxy,TO NN,maven,RepositoryUtils.java
+1408,2703,new handler,JJ NN,maven,RepositoryUtils.java
+1409,2704,new artifact type,JJ NN NN,maven,RepositoryUtils.java
+1410,2706,to exclusion,TO NN,maven,RepositoryUtils.java
+1411,2707,new artifact type registry,JJ NN NN NN,maven,RepositoryUtils.java
+1412,2710,get workspace,VB NN,maven,RepositoryUtils.java
+1413,2711,repositories equals,NNS VBZ,maven,RepositoryUtils.java
+1414,2712,repositories hash code,NNS NN NN,maven,RepositoryUtils.java
+1415,2713,repository hash code,NN NN NN,maven,RepositoryUtils.java
+1416,2714,policy equals,NN VBZ,maven,RepositoryUtils.java
+1417,2715,repository equals,NN VBZ,maven,RepositoryUtils.java
+1418,2716,start event,VB NN,maven,EventMonitor.java
+1419,2717,end event,VB NN,maven,EventMonitor.java
+1420,2718,error event,NN NN,maven,EventMonitor.java
+1421,2719,add event monitor,VB NN NN,maven,EventDispatcher.java
+1422,2720,dispatch start,VB NN,maven,EventDispatcher.java
+1423,2721,dispatch end,VB NN,maven,EventDispatcher.java
+1424,2722,dispatch error,VB NN,maven,EventDispatcher.java
+1425,2728,get all projects,VB DT NNS,maven,DefaultProjectDependencyGraph.java
+1426,2729,get sorted projects,VB VBN NNS,maven,DefaultProjectDependencyGraph.java
+1427,2730,get downstream projects,VB JJ NNS,maven,DefaultProjectDependencyGraph.java
+1428,2732,get upstream projects,VB JJ NNS,maven,DefaultProjectDependencyGraph.java
+1429,2737,session dependency graph,NN NN NN,maven,DefaultGraphBuilder.java
+1430,2738,reactor dependency graph,NN NN NN,maven,DefaultGraphBuilder.java
+1431,2739,trim projects to request,VB NNS TO NN,maven,DefaultGraphBuilder.java
+1432,2740,trim selected projects,VB JJ NNS,maven,DefaultGraphBuilder.java
+1433,2741,get projects by selectors,VB NNS IN NNS,maven,DefaultGraphBuilder.java
+1434,2742,trim resumed projects,VB VBN NNS,maven,DefaultGraphBuilder.java
+1435,2743,trim excluded projects,VB VBN NNS,maven,DefaultGraphBuilder.java
+1436,2744,include also make transitively,VB RB VBP RB,maven,DefaultGraphBuilder.java
+1437,2745,enrich request from resumption data,VB NN IN NN NNS,maven,DefaultGraphBuilder.java
+1438,2746,get projects in request scope,VB NNS IN NN NN,maven,DefaultGraphBuilder.java
+1439,2747,format projects,VB NNS,maven,DefaultGraphBuilder.java
+1440,2748,is matching project,VBZ JJ NN,maven,DefaultGraphBuilder.java
+1441,2749,get reactor directory,VB NN NN,maven,DefaultGraphBuilder.java
+1442,2750,get projects for maven reactor,VB NNS IN NN NN,maven,DefaultGraphBuilder.java
+1443,2751,validate projects,VB NNS,maven,DefaultGraphBuilder.java
+1444,2756,apply filter,VB NN,maven,FilteredProjectDependencyGraph.java
+1445,2762,set project,VB NN,maven,DefaultMavenExecutionResult.java
+1446,2764,set topologically sorted projects,VB RB VBN NNS,maven,DefaultMavenExecutionResult.java
+1447,2765,get topologically sorted projects,VB RB VBN NNS,maven,DefaultMavenExecutionResult.java
+1448,2766,get dependency resolution result,VB NN NN NN,maven,DefaultMavenExecutionResult.java
+1449,2767,set dependency resolution result,VB NN NN NN,maven,DefaultMavenExecutionResult.java
+1450,2769,add exception,VB NN,maven,DefaultMavenExecutionResult.java
+1451,2771,get build summary,VB NN NN,maven,DefaultMavenExecutionResult.java
+1452,2772,add build summary,VB NN NN,maven,DefaultMavenExecutionResult.java
+1453,2773,can resume,MD VBP,maven,DefaultMavenExecutionResult.java
+1454,2774,set can resume,VB MD VBP,maven,DefaultMavenExecutionResult.java
+1455,2776,is interactive mode,VBZ JJ NN,maven,SettingsAdapter.java
+1456,2781,get profiles,VB NNS,maven,SettingsAdapter.java
+1457,2782,get active profiles,VB JJ NNS,maven,SettingsAdapter.java
+1458,2784,before project execution,IN NN NN,maven,ProjectExecutionListener.java
+1459,2785,before project lifecycle execution,IN NN NN NN,maven,ProjectExecutionListener.java
+1460,2786,after project execution success,IN NN NN NN,maven,ProjectExecutionListener.java
+1461,2787,after project execution failure,IN NN NN NN,maven,ProjectExecutionListener.java
+1462,2788,add project activation,VB NN NN,maven,ProjectActivation.java
+1463,2789,get projects,VB NNS,maven,ProjectActivation.java
+1464,2790,get project selectors,VB NN NNS,maven,ProjectActivation.java
+1465,2791,get required active project selectors,VB JJ JJ NN NNS,maven,ProjectActivation.java
+1466,2792,get optional active project selectors,VB JJ JJ NN NNS,maven,ProjectActivation.java
+1467,2793,get required inactive project selectors,VB JJ JJ NN NNS,maven,ProjectActivation.java
+1468,2794,get optional inactive project selectors,VB JJ JJ NN NNS,maven,ProjectActivation.java
+1469,2795,get selected projects,VB JJ NNS,maven,ProjectActivation.java
+1470,2796,get excluded projects,VB JJ NNS,maven,ProjectActivation.java
+1471,2797,overwrite active projects,VB JJ NNS,maven,ProjectActivation.java
+1472,2798,overwrite inactive projects,VB JJ NNS,maven,ProjectActivation.java
+1473,2799,activate required project,VB JJ NNS,maven,ProjectActivation.java
+1474,2800,activate optional project,VB JJ NNS,maven,ProjectActivation.java
+1475,2801,deactivate required project,VB JJ NNS,maven,ProjectActivation.java
+1476,2802,deactivate optional project,VB JJ NNS,maven,ProjectActivation.java
+1477,2803,is empty,VBZ JJ,maven,ProjectActivation.java
+1478,2808,get execution plan,VB NN NN,maven,ProjectExecutionEvent.java
+1479,2809,get cause,VB NN,maven,ProjectExecutionEvent.java
+1480,2810,get plugin info,VB NN NN,maven,DefaultPluginsMetadataInfoProvider.java
+1481,2813,get plugin prefix,VB NN NN,maven,DefaultPluginsMetadataInfoProvider.java
+1482,2814,get plugin name,VB NN NN,maven,DefaultPluginsMetadataInfoProvider.java
+1483,2815,search for project,VB IN NN,maven,DefaultPluginsMetadataInfoProvider.java
+1484,2816,search for plugin group level repository metadata,VB IN NN NN NN NN NN,maven,DefaultPluginsMetadataInfoProvider.java
+1485,2817,project discovery started,NN NN VBN,maven,ExecutionListener.java
+1486,2818,session started,NN VBD,maven,ExecutionListener.java
+1487,2819,session ended,NN VBD,maven,ExecutionListener.java
+1488,2820,project skipped,NN VBD,maven,ExecutionListener.java
+1489,2821,project started,NN VBD,maven,ExecutionListener.java
+1490,2822,project succeeded,NN VBD,maven,ExecutionListener.java
+1491,2823,project failed,NN VBD,maven,ExecutionListener.java
+1492,2824,mojo skipped,NNP VBD,maven,ExecutionListener.java
+1493,2825,mojo started,NNP VBD,maven,ExecutionListener.java
+1494,2826,mojo succeeded,NNP VBD,maven,ExecutionListener.java
+1495,2827,mojo failed,NNP VBD,maven,ExecutionListener.java
+1496,2828,fork started,NN VBD,maven,ExecutionListener.java
+1497,2829,fork succeeded,NN VBD,maven,ExecutionListener.java
+1498,2830,fork failed,NN VBD,maven,ExecutionListener.java
+1499,2831,forked project started,VBN NN VBD,maven,ExecutionListener.java
+1500,2832,forked project succeeded,VBN NN VBD,maven,ExecutionListener.java
+1501,2833,forked project failed,VBN NN VBD,maven,ExecutionListener.java
+1502,2834,copy,VB,maven,DefaultMavenExecutionRequest.java
+1503,2835,get base directory,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1504,2837,get local repository path,VB JJ NN NN,maven,DefaultMavenExecutionRequest.java
+1505,2838,get goals,VB NNS,maven,DefaultMavenExecutionRequest.java
+1506,2839,get system properties,VB NN NNS,maven,DefaultMavenExecutionRequest.java
+1507,2840,get user properties,VB NN NNS,maven,DefaultMavenExecutionRequest.java
+1508,2842,get reactor failure behavior,VB NN NN NN,maven,DefaultMavenExecutionRequest.java
+1509,2845,is resume,VBZ NN,maven,DefaultMavenExecutionRequest.java
+1510,2846,get resume from,VB NN IN,maven,DefaultMavenExecutionRequest.java
+1511,2847,get make behavior,VB VB NN,maven,DefaultMavenExecutionRequest.java
+1512,2849,is show errors,VBZ NN NNS,maven,DefaultMavenExecutionRequest.java
+1513,2851,set active profiles,VB JJ NNS,maven,DefaultMavenExecutionRequest.java
+1514,2852,set inactive profiles,VB JJ NNS,maven,DefaultMavenExecutionRequest.java
+1515,2853,get project activation,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1516,2854,get profile activation,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1517,2856,set plugin artifact repositories,VB NN NN NNS,maven,DefaultMavenExecutionRequest.java
+1518,2857,set project building configuration,VB NN NN NN,maven,DefaultMavenExecutionRequest.java
+1519,2859,get inactive profiles,VB JJ NNS,maven,DefaultMavenExecutionRequest.java
+1520,2860,get transfer listener,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1521,2861,get logging level,VB VBG NN,maven,DefaultMavenExecutionRequest.java
+1522,2863,is update snapshots,VBZ NN NNS,maven,DefaultMavenExecutionRequest.java
+1523,2864,is no snapshot updates,VBZ DT NN NNS,maven,DefaultMavenExecutionRequest.java
+1524,2865,get global checksum policy,VB JJ NN NN,maven,DefaultMavenExecutionRequest.java
+1525,2866,is recursive,VBZ JJ,maven,DefaultMavenExecutionRequest.java
+1526,2867,set base directory,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1527,2869,set show errors,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1528,2870,set goals,VB NNS,maven,DefaultMavenExecutionRequest.java
+1529,2872,set local repository path,VB JJ NN NN,maven,DefaultMavenExecutionRequest.java
+1530,2874,set system properties,VB NN NNS,maven,DefaultMavenExecutionRequest.java
+1531,2875,set user properties,VB NN NNS,maven,DefaultMavenExecutionRequest.java
+1532,2876,set reactor failure behavior,VB NN NN NN,maven,DefaultMavenExecutionRequest.java
+1533,2877,set selected projects,VB JJ NNS,maven,DefaultMavenExecutionRequest.java
+1534,2878,set excluded projects,VB JJ NNS,maven,DefaultMavenExecutionRequest.java
+1535,2879,set resume,VB NN,maven,DefaultMavenExecutionRequest.java
+1536,2880,set resume from,VB NN IN,maven,DefaultMavenExecutionRequest.java
+1537,2881,set make behavior,VB VB NN,maven,DefaultMavenExecutionRequest.java
+1538,2882,add active profile,VB JJ NN,maven,DefaultMavenExecutionRequest.java
+1539,2883,add inactive profile,VB JJ NN,maven,DefaultMavenExecutionRequest.java
+1540,2884,add active profiles,VB JJ NN,maven,DefaultMavenExecutionRequest.java
+1541,2885,add inactive profiles,VB JJ NN,maven,DefaultMavenExecutionRequest.java
+1542,2886,set use reactor,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1543,2887,use reactor,NN NN,maven,DefaultMavenExecutionRequest.java
+1544,2888,set pom file,VB NNP NN,maven,DefaultMavenExecutionRequest.java
+1545,2890,set interactive mode,VB JJ NN,maven,DefaultMavenExecutionRequest.java
+1546,2891,set transfer listener,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1547,2892,set logging level,VB VBG NN,maven,DefaultMavenExecutionRequest.java
+1548,2894,set update snapshots,VB NN NNS,maven,DefaultMavenExecutionRequest.java
+1549,2895,set no snapshot updates,VB DT NN NNS,maven,DefaultMavenExecutionRequest.java
+1550,2896,set global checksum policy,VB JJ NN NN,maven,DefaultMavenExecutionRequest.java
+1551,2899,add proxy,VB NN,maven,DefaultMavenExecutionRequest.java
+1552,2902,add server,VB NN,maven,DefaultMavenExecutionRequest.java
+1553,2905,add mirror,VB NN,maven,DefaultMavenExecutionRequest.java
+1554,2907,set profiles,VB NNS,maven,DefaultMavenExecutionRequest.java
+1555,2910,add plugin group,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1556,2911,add plugin groups,VB NN NNS,maven,DefaultMavenExecutionRequest.java
+1557,2912,set recursive,VB JJ,maven,DefaultMavenExecutionRequest.java
+1558,2913,is project present,VBZ NN JJ,maven,DefaultMavenExecutionRequest.java
+1559,2914,set project present,VB NN JJ,maven,DefaultMavenExecutionRequest.java
+1560,2915,get user settings file,VB NN NNS NN,maven,DefaultMavenExecutionRequest.java
+1561,2916,set user settings file,VB NN NNS NN,maven,DefaultMavenExecutionRequest.java
+1562,2917,get global settings file,VB JJ NNS NN,maven,DefaultMavenExecutionRequest.java
+1563,2918,set global settings file,VB JJ NNS NN,maven,DefaultMavenExecutionRequest.java
+1564,2919,get user toolchains file,VB NN NNS NN,maven,DefaultMavenExecutionRequest.java
+1565,2920,set user toolchains file,VB NN NNS NN,maven,DefaultMavenExecutionRequest.java
+1566,2921,get global toolchains file,VB JJ NNS NN,maven,DefaultMavenExecutionRequest.java
+1567,2922,set global toolchains file,VB JJ NNS NN,maven,DefaultMavenExecutionRequest.java
+1568,2923,add remote repository,VB JJ NN,maven,DefaultMavenExecutionRequest.java
+1569,2925,add plugin artifact repository,VB NN NN NN,maven,DefaultMavenExecutionRequest.java
+1570,2926,get plugin artifact repositories,VB NN NN NNS,maven,DefaultMavenExecutionRequest.java
+1571,2927,get project building request,VB NN NN NN,maven,DefaultMavenExecutionRequest.java
+1572,2928,add profile,VB NN,maven,DefaultMavenExecutionRequest.java
+1573,2929,get repository cache,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1574,2930,set repository cache,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1575,2931,get execution listener,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1576,2932,set execution listener,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1577,2933,set degree of concurrency,VB NN IN NN,maven,DefaultMavenExecutionRequest.java
+1578,2934,get degree of concurrency,VB NN IN NN,maven,DefaultMavenExecutionRequest.java
+1579,2935,get workspace reader,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1580,2936,set workspace reader,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1581,2937,is cache transfer error,VBZ NN NN NN,maven,DefaultMavenExecutionRequest.java
+1582,2938,set cache transfer error,VB NN NN NN,maven,DefaultMavenExecutionRequest.java
+1583,2939,is cache not found,VBZ NN RB VBN,maven,DefaultMavenExecutionRequest.java
+1584,2940,set cache not found,VB NN RB VBN,maven,DefaultMavenExecutionRequest.java
+1585,2941,is use legacy local repository,VBZ VB JJ JJ NN,maven,DefaultMavenExecutionRequest.java
+1586,2942,set use legacy local repository,VB VB JJ JJ NN,maven,DefaultMavenExecutionRequest.java
+1587,2943,set builder id,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1588,2944,get builder id,VB NN NN,maven,DefaultMavenExecutionRequest.java
+1589,2945,get toolchains,VB NNS,maven,DefaultMavenExecutionRequest.java
+1590,2946,set toolchains,VB NNS,maven,DefaultMavenExecutionRequest.java
+1591,2947,set multi module project directory,VB JJ NN NN NN,maven,DefaultMavenExecutionRequest.java
+1592,2948,get multi module project directory,VB JJ NN NN NN,maven,DefaultMavenExecutionRequest.java
+1593,2949,set event spy dispatcher,VB NN NN NN,maven,DefaultMavenExecutionRequest.java
+1594,2950,get event spy dispatcher,VB NN NN NN,maven,DefaultMavenExecutionRequest.java
+1595,2951,get data,VB NNS,maven,DefaultMavenExecutionRequest.java
+1596,2957,enter,VB,maven,MojoExecutionScope.java
+1597,2958,get scope state,VB NN NN,maven,MojoExecutionScope.java
+1598,2959,exit,VB,maven,MojoExecutionScope.java
+1599,2960,seed,NN,maven,MojoExecutionScope.java
+1600,2962,scope,NN,maven,MojoExecutionScope.java
+1601,2963,seeded key provider,JJ NN NN,maven,MojoExecutionScope.java
+1602,2967,get provided listeners,VB VBN NNS,maven,MojoExecutionScope.java

@@ -1,0 +1,385 @@
+,SEQUENCE,POS,NLTK,CoreNLP,spaCy,Flair
+0,accelerometer data,NM N,NM N,NM N,NM N,NM N
+1,actual,N,JJ,NM,N,N
+2,actual count,NM N,JJ N,NM N,NM N,NM N
+3,actual suffix,NM N,JJ N,NM N,NM N,NM N
+4,added unicode smp,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+5,all open files string,DT NM NM N,DT NM NM N,DT NM NM N,DT NM NM N,DT NM NM N
+6,alt name,NM N,NM N,NM N,NM N,NM N
+7,ambient coefficient,NM N,NM N,NM N,NM N,NM N
+8,apply margin insets,V NM NPL,V NM NPL,NM NM NPL,V NM NPL,V NM NPL
+9,arabic segmenter,NM N,NM N,NM N,NM N,NM N
+10,array class,NM N,NM NN,NM N,NM N,NM N
+11,assertion failed error,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+12,assigns,NPL,NPL,NPL,NPL,NPL
+13,attribute,N,N,N,N,N
+14,avg map,NM N,NM N,NM N,NM N,NM N
+15,b flip horizontally,PRE V VM,PRE V VM,PRE V VM,PRE V VM,PRE V VM
+16,b loop,PRE N,PRE N,NM N,PRE N,PRE N
+17,b multi fullscreen,PRE NM N,PRE NM N,NM NM N,PRE NM N,PRE NM N
+18,b3 push profile timing,PRE V NM N,PRE V NM N,PRE V NM N,PRE V NM N,PRE V NM N
+19,backprop training,NM N,NM N,NM N,NM N,NM N
+20,base category,NM N,NM N,NM N,NM N,NM N
+21,base transform,NM N,NM N,NM N,NM N,NM N
+22,bean configs,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+23,best node,NM N,NM N,NM N,NM N,NM N
+24,binary rule,NM N,NM N,NM N,NM N,NM N
+25,bitmap data size,NM NM N,NM NM NN,NM NM N,NM NM N,NM NM N
+26,bm log,NM N,NM N,NM N,NM N,NM N
+27,breakpoint,N,N,N,N,N
+28,bt collision shape,PRE NM N,PRE NM N,PRE NM N,PRE NM N,PRE NM N
+29,bt deformable contact constraint,PRE NM NM N,PRE NM NM N,PRE NM NM N,PRE NM NM N,PRE NM NM N
+30,bt material,PRE N,PRE N,PRE N,PRE N,PRE N
+31,build minimized fa,V NM N,NM NM N,NM NM N,V NM N,V NM N
+32,build sentence from tokens,V N P NPL,NM NM IN N,NM NM P N,V N P N,NM N P NPL
+33,c at background color,PRE NM NM N,PRE IN NM N,PRE NM NM N,PRE NM NM N,PRE NM NM N
+34,c at font,PRE NM N,PRE IN N,PRE NM N,PRE NM N,PRE NM N
+35,c at grayscale,PRE NM N,PRE IN N,PRE NM N,PRE NM N,PRE NM N
+36,cache body unbuffered,NM N NM,NM N NM,NM N NM,NM N NM,NM N NM
+37,cache control,NM N,NM N,NM NM,NM N,NM N
+38,cache strategy,NM N,NM NN,NM N,NM N,NM N
+39,call id,NM N,NM N,NM N,NM N N,NM N
+40,cam rot z,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+41,category filter factory,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+42,cause matcher,NM N,NM N,NM N,NM N,NM N
+43,certificate pinner,NM N,NM N,NM N,NM N,NM N
+44,check permission,V N,NM N,V N,V N,V N
+45,check t,V N,V N,V N,V N,V N
+46,child categories,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+47,child joint,NM N,NM N,NM NM,NM N,NM N
+48,child statement,NM N,NM NN,NM N,NM N,NM N
+49,chinese treebank parser params,NM NM NM NPL,NM NM NM NPL,NM NM NM NPL,NM NM NM NPL,NM NM NM NPL
+50,cipher suite,NM N,NM N,NM N,NM N,NM N
+51,circle mesh,NM N,NM N,NM N,NM N,NM N
+52,client certificates,NM NPL,NN NNS,NM NPL,NM NPL,NM NPL
+53,client number,NM N,NN NN,NM N,NM N,NM N
+54,clock,N,N,N,N,N
+55,cmd str,NM N,NM N,NM N,NM N,NM N
+56,code exception message,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+57,col length left,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+58,cone translation,NM N,NM N,NM N,NM N,NM N
+59,configure timeouts,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+60,content type string,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+61,contours,NPL,N,N,NPL,NPL
+62,convert bullet to grpc command,V N DT NM N,NM NPL P NM N,V N P PRE N,V N P PRE N,V N P NM N
+63,convex shapes,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+64,cookie,N,N,NM,N,N
+65,core,N,N,N,N,N
+66,credentials,NPL,N,N,NPL,NPL
+67,creds,NPL,NPL,NPL,NPL,NPL
+68,crf non linear log conditional objective function,NM NM NM NM NM NM N,NM NM NM NM NM NM N,NM NM NM NM NM NM N,NM NM NM NM NM NM N,NM NM NM NM NM NM N
+69,curr thread exception,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+70,data buf,NM N,NM N,NM N,NM N,NM N
+71,data point method,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+72,default open,NM N,NM N,NM N,NM N,NM N
+73,delay agnostic enabled,NM N V,NM N V,NM N V,NM N V,NM N V
+74,dep h,NM N,NM N,NM N,NM N,NM N
+75,depth cb,NM N,NM N,NM N,NM N,NM N
+76,depth stencil as texture,NM N P N,NM N P N,NM N P N,NM N P N,NM N P N
+77,describe mismatch safely,V N NM,NM NM N,NM NM N,NM NM N,V NM N
+78,diff fd,NM N,NM N,N NM,NM N,NM N
+79,disk lru cache,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+80,do install status,V NM N,V NM NN,V NM N,V NM N,V NM N
+81,dynamic textured cube demo,NM NM NM N,NM NM NM N,NM NM NM N,NM NM NM N,NM NM NM N
+82,edit count,NM N,NM N,NM N,NM N,NM N
+83,eglew android frame buffer target,PRE PRE NM NM N,PRE PRE NM NM N,PRE NM NM NM N,PRE PRE NM NM N,PRE PRE NM NM N
+84,eglew create platform window surface,PRE V NM NM N,PRE V NM NM N,PRE V NM NM N,PRE V NM NM N,PRE V NM NM N
+85,enable materials,V NPL,V NNS,V NPL,V NPL,V NPL
+86,encoded path segments,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL
+87,encoded values,NM NPL,NM N,NM N,NM N,NM NPL
+88,enum count,NM N,NM N,NM N,NM N,NM N
+89,equals offset,NM N,NM N,NM N,NM N,NM N
+90,exception channels,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+91,expand headers from request,V NPL P N,V NPL IN N,V NPL P N,V NPL P N,V NPL P N
+92,expected exception,NM N,NM N,NM N,NM N,NM N
+93,expected string,NM N,NM N,NM N,NM N,NM N
+94,f context length,NM NM N,PRE NM N,NM NM N,PRE NM N,PRE NM N
+95,f ptr out,PRE NM N,PRE NM N,NM NM N,PRE NM N,PRE NM N
+96,factory class,NM N,NM NN,NM N,NM N,NM N
+97,failed assumptions with message,V NPL P N,NM NPL IN N,NM N P N,NM NPL P N,NM NPL P N
+98,file channel,NM N,NM N,NM N,NM N,NM N
+99,file operator,NM N,NM N,NM N,NM N,NM N
+100,filter spec,NM N,NM N,NM N,NM N,NM N
+101,find syntactic head,V NM N,V NM N,V NM N,V NM N,V NM N
+102,firmata i2c data,NM NM NPL,NM NM N,NM NM N,NM NM NPL,NM NM N
+103,first space,NM N,NM NN,NM N,NM N,NM N
+104,flag,N,N,N,N,N
+105,flags classifier pair,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+106,folder names,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+107,follow component,V N,V N,V N,V N,V N
+108,followup,N,N,N,N,N
+109,force network,NM N,NM NN,V NM,V N,NM N
+110,free positions,NM NPL,NM NNS,NM NPL,NM NPL,NM NPL
+111,free texture,NM N,NM N,NM N,NM N,NM N
+112,from local aabb min,P NM NM N,IN JJ NM N,P NM NM N,P NM NM N,P NM NM N
+113,geometry interface,NM N,NM N,NM N,NM N,NM N
+114,get children,V NPL,V NNS,V NPL,V NPL,V NPL
+115,get controller transform,V NM N,V NM N,V NM N,V NM N,V NM N
+116,get declared methods,V NM NPL,V NM NPL,V NM NPL,V NM NPL,V NM NPL
+117,get diffuse colour,V NM N,V NM N,V NM N,V NM N,V NM N
+118,get down sampling rate,V NM NM N,V NM NM NN,V NM N NM,V NM NM NPL,V NM NM N
+119,get id for name,V N P N,V N IN N,V N P N,V NM N P N,V N P N
+120,get initial window size,V NM NM N,V JJ NM NN,V NM NM N,V NM NM N,V NM NM N
+121,get jf,V N,V N,V N,V N,V N
+122,get label,V N,V N,V N,V N,V N
+123,get longitude,V N,V N,V N,V N,V N
+124,get max shingle diff,V NM NM N,V NM NM N,V NM NM N,V NM NM N,V NM NM N
+125,get message,V N,V N,V N,V N,V N
+126,get number of transitions,V N P NPL,V NN IN NPL,V N P NPL,V N P NPL,V N P NPL
+127,get pid no exceptions,V N DT NPL,V NM DT NPL,V N DT NPL,V N DT NPL,V N DT NPL
+128,get protocol method,NM NM N,NM NM N,V NM N,NM NM N,V NM N
+129,get raw arguments,V NM NPL,V NM NPL,V NM NPL,V NM NPL,V NM NPL
+130,get source name,NM NM N,V NN N,V NM N,NM NM N,V NM N
+131,get start states,V NM NPL,V NM NPL,V NM NPL,V NM NPL,V NM NPL
+132,global scope,NM N,JJ N,NM N,NM N,NM N
+133,glyph id,NM N,NM N,NM N,NM NM N,NM N
+134,h pack,NM N,NM N,NM N,NM N,NM N
+135,h wnd,N NM,NM NM,NM NM,N NM,N NM
+136,headers,NPL,NPL,NPL,NPL,NPL
+137,http1 exchange codec,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+138,http2 error code,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+139,i ar e,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+140,id lumninance min,NM NM N,NM NM N,NM NM N,NM NM NM N,NM NM N
+141,id mention,N NM,NM NM,NM NM,NM N NM,N NM
+142,image,N,NN,N,N,N
+143,img type,NM N,NM N,NM N,NM N,NM N
+144,in,N,IN,N,N,N
+145,in buffer,NM N,IN N,NM N,NM N,NM N
+146,in order wrapped verification mode,P N NM NM N,IN NN NM NM N,NM N NM NM N,P N NM NM N,P N NM NM N
+147,inbound,NM,NM,NM,NM,NM
+148,includes new,NM NM,VBZ JJ,NM NM,NM N,V NM
+149,inertial frame,NM N,NM N,NM N,NM N,NM N
+150,inet socket address,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+151,initial delay milliseconds,NM NM NPL,JJ NM N,NM NM N,NM NM NPL,NM NM NPL
+152,int hex string,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+153,internal,NM,JJ,NM,NM,NM
+154,invalid,NM,NM,NM,NM,NM
+155,inverse dynamics example,NM NM N,NM NM NN,NM NM N,NM NM N,NM NM N
+156,is first capital,V NM N,V NM N,V NM N,V NM N,V NM N
+157,is node a left child leaf,V N DT NM NM N,V N DT NM NM N,V NM N NM NM N,V N DT NM NM N,V N PRE NM NM N
+158,is return bridged,V N NM,V N NM,V NM NM,V N NM,V N NM
+159,jflex dummy lexer,PRE NM N,PRE NM N,PRE NM N,PRE NM N,PRE NM N
+160,keep aspect,V N,V N,V N,V N,V N
+161,key begin,NM N,NM N,NM N,NM N,NM N
+162,key events copy,NM NM N,NM NNS N,NM NM N,NM NM N,NM NM N
+163,key with newline not permitted,N P N VM V,N IN NM RB NM,N P NM VM N,N P NM VM NM,N P N VM NM
+164,kinects copy,NM N,NM N,NM N,NM N,NM N
+165,label regex,NM N,NM N,NM N,NM N,NM N
+166,labels file,NM N,NM N,NM N,NM N,NM N
+167,last gradient,NM N,JJ N,NM N,NM N,NM N
+168,latency arg,NM N,NM N,NM N,NM N,NM N
+169,learned lop expert weights 2 d,NM NM NM NPL D N,NM NM NM NPL CD N,NM NM NM NPL D N,NM NM NM NPL D N,NM NM NM NPL D N
+170,left sisters buffer,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+171,len r,NM N,NM N,NM N,NM N,NM N
+172,less dummy gui helper,NM NM NM N,NM NM NM N,NM NM NM N,NM NM NM N,NM NM NM N
+173,logger,N,N,N,N,N
+174,m angle,PRE N,PRE N,PRE N,PRE N,PRE N
+175,m contact motion 1,PRE NM N D,PRE NM N CD,PRE NM N D,PRE NM N D,PRE NM N D
+176,m fbo height,PRE NM N,PRE NM N,PRE NM N,PRE NM N,PRE NM N
+177,m is indx present,PRE V NM N,PRE V NM N,PRE V NM N,PRE V NM N,PRE V NM N
+178,m line dash offset,PRE NM NM N,PRE NN NM N,PRE NM NM N,PRE NM NM N,PRE NM NM N
+179,m origin,PRE N,PRE N,PRE N,PRE N,PRE N
+180,m preview started,PRE N NM,PRE N NM,PRE N V,PRE N NM,PRE N V
+181,m sky box orientation,PRE NM NM N,PRE NM NM N,PRE NM NM N,PRE NM NM N,PRE NM NM N
+182,m transform change args,PRE NM NM NPL,PRE NM NM NPL,PRE NM NM NPL,PRE NM NM NPL,PRE NM NM NPL
+183,make extractor,V N,NM N,V N,V N,V N
+184,map json adapter,V NM N,NM NM N,N NM N,NM NM N,NM NM N
+185,maps,NPL,NPL,NPL,NPL,NPL
+186,max age seconds long,NM NM NPL NM,NM NN NPL NM,NM NM NPL NM,NM NM NPL NM,NM NM NPL NM
+187,max core,NM N,NM N,NM N,NM N,NM N
+188,max file open,NM N NM,NM N NM,NM NM N,NM N NM,NM N NM
+189,max intermediate cas,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL
+190,max num pixels,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL
+191,max requests per host,NM NPL P N,NM N P N,NM NPL P N,NM NPL P N,NM NPL P N
+192,mention detection evaluator,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+193,mesh scale,NM N,NM N,NM N,NM N,NM N
+194,message,N,N,N,N,N
+195,method name prefixes,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL
+196,method sorter,NM N,NM N,NM N,NM N,NM N
+197,min fresh,NM N,NM N,NM N,NM N,NM N
+198,min fresh seconds,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL
+199,minimized random fa,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+200,move rbt surgeon,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+201,movie media handler,NM NM N,NN NNS N,NM NM N,NM NM N,NM NM N
+202,mpg123 read file,PRE NM N,NM NM N,NM NM N,NM NM N,NM V N
+203,mt,N,N,N,NPL,N
+204,multipart body,NM N,NM N,NM N,NM N,NM N
+205,multiple failure exception,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+206,multiply in front,V P N,NM IN N,NM NM N,V NM N,V P N
+207,mx bean,NM N,NM N,NM N,NM N,NM N
+208,n shininess,NM N,NM N,NM N,NM N,NM N
+209,nav visible,N V,N NM,N NM,N NM,N NM
+210,network security policy,NM NM N,NN NN NN,NM NM N,NM NM N,NM NM N
+211,new files,NM NPL,JJ NPL,NM NPL,NM NPL,NM NPL
+212,notify touch down,V NM N,V NM N,V NM N,V NM N,V NM N
+213,nullable class,NM N,NM NN,NM N,NM N,NM N
+214,nulls ok,NPL NM,NPL NM,NPL NM,NPL NM,NPL NM
+215,num active contexts,NM NM NPL,NM JJ NPL,NM NM NPL,NM NM NPL,NM NM NPL
+216,num axis events,NM NM NPL,NM NM NNS,NM NM NPL,NM NM NPL,NM NM NPL
+217,num cols,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+218,num files,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+219,num keys,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+220,num light,NM N,NM N,NM N,NM N,NM N
+221,num states,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+222,num verts in a,NM NPL P N,NM NPL IN DT,NM NPL P N,NM NPL P N,NM NPL P N
+223,number elementary vegas,NM NM NPL,NN NM NPL,NM NM NPL,NM NM NPL,NM NM NPL
+224,oauth session,NM N,NM NN,NM N,NM N,NM N
+225,oauth session factory,NM NM N,NM NN N,NM NM N,NM NM N,NM NM N
+226,of android life cycle helper,PRE NM NM NM N,IN NM NN NN N,PRE NM NM NM N,PRE NM NM NM N,PRE NM NM NM N
+227,of android object,PRE NM N,IN NM N,PRE NM N,PRE NM N,PRE NM N
+228,of android sound player,PRE NM NM N,IN NM NM NN,PRE NM NM N,PRE NM NM N,PRE NM NM N
+229,of android window,PRE NM N,IN NM N,PRE NM N,PRE NM N,PRE NM N
+230,of orientation listener,PRE NM N,IN NM N,PRE NM N,PRE NM N,PRE NM N
+231,one document,NM N,NM N,NM N,NM N,NM N
+232,op code continuation,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+233,open class tags,NM NM NPL,NM NN NPL,NM NM NPL,NM NM NPL,NM NM NPL
+234,optimize identity cast composition,V NM NM N,V NM NM N,V NM NM N,V NM NM N,V NM NM N
+235,order with,V P,NN IN,V P,V P,V P
+236,ori w,NM N,NM N,NM N,NM N,NM N
+237,original mocking details,NM NM NPL,NM NM NNS,NM NM NPL,NM NM NPL,NM NM NPL
+238,out table,NM N,NM N,NM N,NM N,NM N
+239,outer rule,NM N,NM N,NM N,NM N,NM N
+240,p global info 32,PRE NM N D,PRE JJ N D,NM NM N D,PRE NM N D,PRE NM N D
+241,palette size,NM N,NM NN,NM N,NM N,NM N
+242,parallel computer,NM N,NM NN,NM N,NM N,NM N
+243,parameter assignment,NM N,NM N,NM N,NM N,NM N
+244,parameter signature,NM N,NM N,NM N,NM N,NM N
+245,parent,N,N,N,N,N
+246,parse expires,V NPL,V NPL,NM NPL,V NPL,V NPL
+247,passphrase,N,N,N,N,N
+248,path with native separators,N P NM NPL,N IN NM NPL,N P NM NPL,N P NM NPL,N P NM NPL
+249,patterns annotations,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+250,physics client example,NM NM N,NM NN NN,NM NM N,NM NM N,NM NM N
+251,pickup,N,N,N,N,N
+252,planes,NPL,N,N,NPL,NPL
+253,platform string,NM N,NM N,NM N,NM N,NM N
+254,png read idat data,NM V NM N,NM V NM N,NM NM NM N,NM V NM N,NM V NM N
+255,post file,NM N,NM N,NM N,NM N,NM N
+256,pre map,P N,P N,P N,P N,P N
+257,present scaling,NM N,NM N,NM N,NM N,NM N
+258,previous stream id,NM NM N,JJ NM N,NM NM N,NM NM NM N,NM NM N
+259,print events,NM NPL,NM NNS,NM NPL,NM NPL,NM NPL
+260,promises,NPL,NPL,NPL,NPL,NPL
+261,pronoun,N,N,N,N,N
+262,push reset later,V N VM,V N VM,V N VM,V N VM,V N VM
+263,q tail,NM N,NM N,NM N,NM N,NM N
+264,quad bezier to,NM N P,NM NM P,N NM P,NM N P,NM N P
+265,r hdr,NM N,NM N,NM N,NM N,NM N
+266,rate pointer,NM N,NN N,NM N,NM N,NM N
+267,rconde,N,N,N,N,N
+268,rcp len 2,NM N D,NM N CD,NM N D,NM N D,NM N D
+269,read element text span,V NM NM N,V NM NM N,V NM NM N,V NM NM N,V NM NM N
+270,read pass,V N,V N,V N,V N,V N
+271,read subframe,V N,V N,V N,V N,V N
+272,read text file,V NM N,V NM N,V NM N,V NM N,V NM N
+273,real,N,JJ,N,N,N
+274,refresh interval in millis,NM N P NPL,NM N IN NPL,NM N P NPL,NM N P NPL,NM N P NPL
+275,register with volatility spread,V P NM N,N IN NN N,V P NM N,V P NM N,V P NM N
+276,replace text context,NM NM N,VB NM N,NM NM N,NM NM N,NM NM N
+277,repress ref at loc,V N P N,V N IN N,V NM NM N,V N P N,V N P N
+278,res width,NM N,NM N,NM N,NM N,NM N
+279,reset seated zero pose,V NM NM N,V NM NM N,V NM NM N,V NM NM N,V NM NM N
+280,rest client,NM N,NM NN,NM N,NM N,NM N
+281,retain function,NM N,NM N,NM N,NM N,NM N
+282,rolling friction demo,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+283,rotate desc,NM N,NM N,NM N,NM N,NM N
+284,rt stream ptr,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+285,rtm session,NM N,NM NN,NM N,NM N,NM N
+286,rule chain,NM N,NM NN,NM N,NM N,NM N
+287,rule member validator,NM NM N,NM NN N,NM NM N,NM NM N,NM NM N
+288,rule options,NM NPL,NM NNS,NM NPL,NM NPL,NM NPL
+289,rules of new chain,N P NM N,NNS IN JJ NN,N P NM N,N P NM N,N P NM N
+290,run after params,V NM NPL,V IN NPL,NM NM NPL,V NM NPL,V NM NPL
+291,run before params,V NM NPL,V NM NPL,NM NM NPL,V NM NPL,V NM NPL
+292,run methods,V NPL,V NPL,NM NPL,V NPL,V NPL
+293,runner factory,NM N,NM N,NM N,NM N,NM N
+294,runner for class,V P N,NM IN NN,NM P N,N P N,N P N
+295,runner scheduler,NM N,NM N,NM N,NM N,NM N
+296,s tracking system name,PRE NM NM N,PRE NM NN N,PRE NM NM N,PRE NM NM N,PRE NM NM N
+297,sample mid,NM N,NM N,NM N,NM NPL,NM N
+298,save as quadratic png,V P NM N,V P NM N,V P NM N,V P NM N,V P NM N
+299,save lambdas,V NPL,V N,V N,V N,V NPL
+300,scale and add to,V CJ V P,NM CC V P,NM CJ V P,N CJ V P,N CJ V P
+301,score pos prev,NM N NM,NM N NM,NM N NM,NM N NM,NM N NM
+302,segmenter core annotations,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL
+303,selected account,NM N,NM N,NM N,NM N,NM N
+304,selection width label,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+305,sentence list,NM N,NM N,NM N,NM N,NM N
+306,serialized form,NM N,NM N,NM N,NM N,NM N
+307,session config,NM N,NN N,NM N,NM N,NM N
+308,set add faces points,V V NM NPL,V V VBZ NPL,V V NM NPL,V V NM NPL,V V NM NPL
+309,set dot,V N,V N,V NM,V N,V N
+310,set extra interfaces,V NM NPL,V NM NPL,V NM NPL,V NM NPL,V NM NPL
+311,set frame pen,V NM N,V NM N,V NM N,V NM N,V NM N
+312,set from aligned pixels,V P NM NPL,V IN NM N,V P NM N,V P NM NPL,V P NM NPL
+313,set protocol method,NM NM N,NM NM N,V NM N,NM NM N,NM NM N
+314,set sphere resolution,V NM N,V NM N,V NM N,V NM N,V NM N
+315,set tiling,V N,V N,V N,V N,V N
+316,set tracking space,V NM N,V NM NN,V NM N,V NM N,V NM N
+317,settings,NPL,NPL,NPL,NPL,NPL
+318,shift reduce train options,NM NM NM NPL,NM VB NM NNS,NM NM NM NPL,NM NM NM NPL,NM NM NM NPL
+319,silk bw expander 32,NM NM N D,NM NM N D,NM NM N D,NM NM N D,NM NM N D
+320,size contents,NM NPL,NN NPL,NM NPL,NM NPL,NM NPL
+321,size on first use,N P NM N,NN IN NM N,N P NM N,N P NM N,N P NM N
+322,slack client,NM N,NM NN,NM N,NM N,NM N
+323,sort field data type,NM NM NM N,NM NN NM N,NM NM NM N,NM NM NM N,NM NM NM N
+324,source,N,NN,NM,N,N
+325,source index,NM N,NN NN,NM N,NM N,NM N
+326,speaker,N,N,N,N,N
+327,spline max len,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+328,split argument list,V NM N,V NM N,V NM N,V NM N,V NM N
+329,sqrt per elem,V P N,NM P N,N P N,N P N,NM NM N
+330,stack,N,N,N,N,N
+331,state,N,NN,N,N,N
+332,stream headers,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+333,struct ty,NM N,NM N,NM N,NM N,NM N
+334,su time,NM N,NM NN,NM N,NM N,NM N
+335,sub flags to forward,NM NPL P N,NM NPL P N,NM NM P V,NM NPL P V,NM NPL P N
+336,sub start,NM N,NM N,NM N,NM N,NM N
+337,suite method,NM N,NM N,NM N,NM N,NM N
+338,suite method builder,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+339,supplier class,NM N,NM NN,NM N,NM N,NM N
+340,sx,N,N,N,N,N
+341,sz joint ranges,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL,NM NM NPL
+342,tegra morph init,PRE N V,PRE N V,PRE N V,PRE N V,PRE N V
+343,temporary folder,NM N,JJ N,NM N,NM N,NM N
+344,tex id,NM N,NM N,NM N,NM NM N,NM N
+345,the class,DT N,DT NN,DT N,DT N,DT N
+346,theory,N,N,N,N,N
+347,thread array size,NM NM N,NM NM NN,NM NM N,NM NM N,NM NM N
+348,to sentence,P N,P N,P NM,P N,P N
+349,to xyz,P N,P N,P N,P N,P N
+350,top ngram record,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+351,tot channel,NM N,NM N,NM N,NM N,NM N
+352,total merge throttled time,NM NM NM N,NM NM NM NN,NM NM NM N,NM NM NM N,NM NM NM N
+353,trade price,NM N,NM NN,NM N,NM N,NM N
+354,training examples,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+355,tsurgeon parse exception,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+356,tune treebank,NM N,NM N,NM N,NM N,NM N
+357,unknown word,NM N,NM NN,NM NM,NM N,NM N
+358,unpack texture blend func,V NM NM N,V NM NM N,V NM NM N,V NM NM N,V NM NM N
+359,url from json,N P N,N IN N,N P N,N P N,N P N
+360,usage,N,N,N,N,N
+361,use shadows 1,V NPL D,V NPL CD,V NPL D,V NPL D,V NPL D
+362,user 2 internal index,N P NM N,N CD JJ NN,N P NM N,N P NM N,N P NM N
+363,validate class rules,V NM NPL,V NN NNS,V NM NPL,V NM NPL,V NM NPL
+364,validate instance methods,V NM NPL,V NN N,V NM NPL,V NM NPL,V NM NPL
+365,value count string,NM NM N,NN NM N,NM NM N,NM NM N,NM NM N
+366,value hash,NM N,NN N,NM N,NM N,NM N
+367,value label,NM N,NN N,NM N,NM N,NM N
+368,vary fields,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+369,vertex position,NM N,NM NN,NM N,NM N,NM N
+370,voronoi fracture demo,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+371,want x,V N,NM N,V N,V N,V N
+372,warning failure exception,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+373,form body,NM N,NM N,N N,NM N,NM N
+374,web socket listener,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+375,word lemma tag,NM NM N,NN NM N,NM NM N,NM NM N,NM NM N
+376,world to screen,N P N,NN P N,N P N,N P N,N P N
+377,wrapper class,NM N,NM NN,NM N,NM N,NM N
+378,x 2,N D,N CD,N D,N D,N D
+379,x distance,NM N,NM N,NM N,NM N,NM N
+380,x scale,NM N,NM N,NM N,NM N,NM N
+381,z p i,NM NM N,NM NM N,NM NM N,NM NM N,NM NM N
+382,z probs,NM NPL,NM NPL,NM NPL,NM NPL,NM NPL
+383,z weight,NM N,NM N,NM N,NM N,NM N

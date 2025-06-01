@@ -1,0 +1,2597 @@
+,ID,SEQUENCE,POS,PROJECT,FILE
+0,0,Sequence Not Str,NN RB NN,pandas-main,_typing.py
+1,1,Base Buffer,JJ NN,pandas-main,_typing.py
+2,2,Read Buffer,VB NN,pandas-main,_typing.py
+3,3,Write Buffer,VB NN,pandas-main,_typing.py
+4,4,Read Pickle Buffer,VB NN NN,pandas-main,_typing.py
+5,5,Write Excel Buffer,VB NNP NN,pandas-main,_typing.py
+6,6,Read Csv Buffer,VB NNP NN,pandas-main,_typing.py
+7,7,Test Sub Dict,VB NN NN,pandas-main,conftest.py
+8,8,Test Non Dict Mapping,VB RB NN NN,pandas-main,conftest.py
+9,9,Versioneer Config,NNP NN,pandas-main,_version.py
+10,10,Not This Method,RB DT NN,pandas-main,_version.py
+11,11,Int Casting Na N Error,NN VBG NNP NNP NN,pandas-main,__init__.py
+12,12,Null Frequency Error,JJ NN NN,pandas-main,__init__.py
+13,13,Performance Warning,NN NN,pandas-main,__init__.py
+14,14,Unsupported Function Call,JJ NN NN,pandas-main,__init__.py
+15,15,Unsorted Index Error,JJ NN NN,pandas-main,__init__.py
+16,16,Parser Error,NN NN,pandas-main,__init__.py
+17,17,D type Warning,FW NN NN,pandas-main,__init__.py
+18,18,Empty Data Error,JJ NNS NN,pandas-main,__init__.py
+19,19,Parser Warning,NN NN,pandas-main,__init__.py
+20,20,Merge Error,VB NN,pandas-main,__init__.py
+21,21,Abstract Method Error,JJ NN NN,pandas-main,__init__.py
+22,22,Num ba Util Error,NN FW NN NN,pandas-main,__init__.py
+23,23,Duplicate Label Error,JJ NN NN,pandas-main,__init__.py
+24,24,Invalid Index Error,JJ NN NN,pandas-main,__init__.py
+25,25,Data Error,NN NN,pandas-main,__init__.py
+26,26,Specification Error,NN NN,pandas-main,__init__.py
+27,27,Chained Assignment Error,JJ NN NN,pandas-main,__init__.py
+28,28,Num Expr Clobbering Error,NN NN VBG NN,pandas-main,__init__.py
+29,29,Undefined Variable Error,JJ NN NN,pandas-main,__init__.py
+30,30,Indexing Error,NN NN,pandas-main,__init__.py
+31,31,Pyperclip Exception,NNP NN,pandas-main,__init__.py
+32,32,Pyperclip Windows Exception,NNP NNS NN,pandas-main,__init__.py
+33,33,CSS Warning,NNP NN,pandas-main,__init__.py
+34,34,Possible Data Loss Error,JJ NN NN NN,pandas-main,__init__.py
+35,35,Closed File Error,JJ NN NN,pandas-main,__init__.py
+36,36,Incompatibility Warning,NN NN,pandas-main,__init__.py
+37,37,Attribute Conflict Warning,NN NN NN,pandas-main,__init__.py
+38,38,Database Error,NN NN,pandas-main,__init__.py
+39,39,Possible Precision Loss,JJ NN NN,pandas-main,__init__.py
+40,40,Value Label Type Mismatch,NN NN NN NN,pandas-main,__init__.py
+41,41,Invalid Column Name,JJ NN NN,pandas-main,__init__.py
+42,42,Categorical Conversion Warning,JJ NN NN,pandas-main,__init__.py
+43,43,Lossy Set item Error,JJ VB NN NN,pandas-main,__init__.py
+44,44,No Buffer Present,DT NN JJ,pandas-main,__init__.py
+45,45,Invalid Comparison,JJ NN,pandas-main,__init__.py
+46,46,Subclassed Series,VBN NNS,pandas-main,__init__.py
+47,47,Subclassed Data Frame,VBN NNS NN,pandas-main,__init__.py
+48,48,Plot Accessor,NN NN,pandas-main,_core.py
+49,49,Options,NNS,pandas-main,_misc.py
+50,50,Hist Plot,NNP NN,pandas-main,hist.py
+51,51,Kde Plot,NNP NN,pandas-main,hist.py
+52,52,MPL Plot,NNP NN,pandas-main,core.py
+53,53,Plane Plot,NN NN,pandas-main,core.py
+54,54,Scatter Plot,NN NN,pandas-main,core.py
+55,55,Hex Bin Plot,NN JJ NN,pandas-main,core.py
+56,56,Line Plot,NN NN,pandas-main,core.py
+57,57,Area Plot,NN NN,pandas-main,core.py
+58,58,Bar Plot,NN NN,pandas-main,core.py
+59,59,Barh Plot,NNP NN,pandas-main,core.py
+60,60,Pie Plot,NN NN,pandas-main,core.py
+61,61,Box Plot,NN NN,pandas-main,boxplot.py
+62,62,BP,NNP,pandas-main,boxplot.py
+63,63,Time Converter,NN NN,pandas-main,converter.py
+64,64,Time Formatter,NN NN,pandas-main,converter.py
+65,65,Period Converter,NN NN,pandas-main,converter.py
+66,66,Datetime Converter,NN NN,pandas-main,converter.py
+67,67,Pandas Auto Date Formatter,NNP JJ NN NN,pandas-main,converter.py
+68,68,Pandas Auto Date Locator,NNP JJ NN NN,pandas-main,converter.py
+69,69,Milli Second Locator,NN NN NNP,pandas-main,converter.py
+70,70,Time Series Date Locator,NN NNS NN NN,pandas-main,converter.py
+71,71,Time Series Date Formatter,NN NNS NN NN,pandas-main,converter.py
+72,72,Time Series Timedelta Formatter,NN NNS NNP NN,pandas-main,converter.py
+73,73,Data Frame,NN NN,pandas-main,frame.py
+74,74,Index Slice,NN NN,pandas-main,indexing.py
+75,75,Indexing Mixin,VBG NN,pandas-main,indexing.py
+76,76,Location Indexer,NN NN,pandas-main,indexing.py
+77,77,Loc Indexer,NN NN,pandas-main,indexing.py
+78,78,i Loc Indexer,PRP NN NN,pandas-main,indexing.py
+79,79,Scalar Access Indexer,NN NN NN,pandas-main,indexing.py
+80,80,At Indexer,IN NNP,pandas-main,indexing.py
+81,81,i At Indexer,PRP IN NNP,pandas-main,indexing.py
+82,82,Flags,NNS,pandas-main,flags.py
+83,83,disallow,VB,pandas-main,nanops.py
+84,84,bottleneck switch,NN NN,pandas-main,nanops.py
+85,85,ND Frame,NNP NN,pandas-main,generic.py
+86,86,Pandas Object,NNP NN,pandas-main,base.py
+87,87,No New Attributes Mixin,DT JJ NNS NN,pandas-main,base.py
+88,88,Selection Mixin,NN NN,pandas-main,base.py
+89,89,Index Ops Mixin,NN NN NN,pandas-main,base.py
+90,90,Dir Names Mixin,NN NNS NN,pandas-main,accessor.py
+91,91,Pandas Delegate,NNP NN,pandas-main,accessor.py
+92,92,Cached Accessor,VBN NN,pandas-main,accessor.py
+93,93,Ops Mixin,NN NN,pandas-main,arraylike.py
+94,94,Series,NN,pandas-main,series.py
+95,95,Resampler,NNP,pandas-main,resample.py
+96,96,Group By Mixin,NN IN NNP,pandas-main,resample.py
+97,97,Datetime Index Resampler,NN NN NNP,pandas-main,resample.py
+98,98,Datetime Index Resampler Groupby,NN NN NNP NNP,pandas-main,resample.py
+99,99,Period Index Resampler,NN NN NNP,pandas-main,resample.py
+100,100,Period Index Resampler Groupby,NN NN NNP NNP,pandas-main,resample.py
+101,101,Timedelta Index Resampler,NNP NN NNP,pandas-main,resample.py
+102,102,Timedelta Index Resampler Groupby,NNP NN NNP NNP,pandas-main,resample.py
+103,103,Time Grouper,NN NN,pandas-main,resample.py
+104,104,Multi Index U Int Engine,JJ NN FW NNP NN,pandas-main,multi.py
+105,105,Multi Index Py Int Engine,JJ NN FW NNP NN,pandas-main,multi.py
+106,106,Multi Index,JJ NN,pandas-main,multi.py
+107,107,Period Index,NN NN,pandas-main,period.py
+108,108,Interval Index,NN NN,pandas-main,interval.py
+109,109,Extension Index,NN NN,pandas-main,extension.py
+110,110,ND Array Backed Extension Index,NNP NN VBN NN NN,pandas-main,extension.py
+111,111,Properties,NNS,pandas-main,accessors.py
+112,112,Arrow Temporal Properties,NN JJ NNS,pandas-main,accessors.py
+113,113,Datetime Properties,NN NNS,pandas-main,accessors.py
+114,114,Timedelta Properties,NNP NNS,pandas-main,accessors.py
+115,115,Period Properties,NN NNS,pandas-main,accessors.py
+116,116,Combined Datetime like Properties,VBN NN IN NNS,pandas-main,accessors.py
+117,117,Index,NN,pandas-main,base.py
+118,118,Range Index,NN NN,pandas-main,range.py
+119,119,Datetime Index,NN NN,pandas-main,datetimes.py
+120,120,Categorical Index,JJ NN,pandas-main,category.py
+121,121,Timedelta Index,NNP NNP,pandas-main,timedeltas.py
+122,122,Datetime Index Ops Mixin,NN NN NN NN,pandas-main,datetimelike.py
+123,123,Datetime Timedelta Mixin,NNP NNP NNP,pandas-main,datetimelike.py
+124,124,Pandas Buffer,NNP NN,pandas-main,buffer.py
+125,125,Pandas Buffer Py arrow,NNP NN NNP NN,pandas-main,buffer.py
+126,126,Pandas Data Frame X chg,NNP NNS NN FW NNP,pandas-main,dataframe.py
+127,127,Pandas Column,NNP NN,pandas-main,column.py
+128,128,Dl pack Device Type,NNP NN NN NN,pandas-main,dataframe_protocol.py
+129,129,D type Kind,NN NN NN,pandas-main,dataframe_protocol.py
+130,130,Column Null Type,NN JJ NN,pandas-main,dataframe_protocol.py
+131,131,Column Buffers,NN NNS,pandas-main,dataframe_protocol.py
+132,132,Categorical Description,JJ NN,pandas-main,dataframe_protocol.py
+133,133,Buffer,NN,pandas-main,dataframe_protocol.py
+134,134,Column,NN,pandas-main,dataframe_protocol.py
+135,136,Arrow C Types,NN FW NNS,pandas-main,utils.py
+136,137,Endianness,NN,pandas-main,utils.py
+137,138,Year Month Day Dict,NN NN NN NN,pandas-main,datetimes.py
+138,139,Full datetime Dict,JJ NN NN,pandas-main,datetimes.py
+139,140,Index Type,NN NN,pandas-main,extensions.py
+140,141,Series Type,NN NN,pandas-main,extensions.py
+141,142,Index Model,NN NN,pandas-main,extensions.py
+142,143,Series Model,NN NN,pandas-main,extensions.py
+143,144,Iloc Type,NNP NN,pandas-main,extensions.py
+144,145,I Loc Model,PRP NN NN,pandas-main,extensions.py
+145,146,Py Tables Scope,NNP NNS NN,pandas-main,pytables.py
+146,147,Term,NN,pandas-main,pytables.py
+147,148,Constant,NN,pandas-main,pytables.py
+148,149,Bin Op,JJ NN,pandas-main,pytables.py
+149,150,Filter Bin Op,NN JJ NN,pandas-main,pytables.py
+150,151,Joint Filter Bin Op,JJ NN JJ NN,pandas-main,pytables.py
+151,152,Condition Bin Op,NN NN NN,pandas-main,pytables.py
+152,153,Joint Condition Bin Op,JJ NN NN NN,pandas-main,pytables.py
+153,154,Unary Op,JJ NN,pandas-main,pytables.py
+154,155,Py Tables Expr Visitor,NNP NNS NN NN,pandas-main,pytables.py
+155,156,Py Tables Expr,NNP NNS NN,pandas-main,pytables.py
+156,157,Term Value,NN NN,pandas-main,pytables.py
+157,158,Deep Chain Map,JJ NN NN,pandas-main,scope.py
+158,159,Scope,NN,pandas-main,scope.py
+159,162,Op,NN,pandas-main,ops.py
+160,164,Div,NNP,pandas-main,ops.py
+161,166,Math Call,NN NN,pandas-main,ops.py
+162,167,Func Node,NN NN,pandas-main,ops.py
+163,168,Abstract Engine,JJ NN,pandas-main,engines.py
+164,169,Num Expr Engine,NN NN NN,pandas-main,engines.py
+165,170,Python Engine,NNP NN,pandas-main,engines.py
+166,171,Base Expr Visitor,JJ NN NN,pandas-main,expr.py
+167,172,Pandas Expr Visitor,NNP NN NN,pandas-main,expr.py
+168,173,Python Expr Visitor,NNP NN NN,pandas-main,expr.py
+169,174,Expr,NN,pandas-main,expr.py
+170,175,Group By Indexing Mixin,VB IN NN NN,pandas-main,indexing.py
+171,176,Group By Positional Selector,VB IN JJ NN,pandas-main,indexing.py
+172,177,Group By Nth Selector,VB IN NNP NN,pandas-main,indexing.py
+173,178,Wrapped Cython Op,JJ NNP NN,pandas-main,ops.py
+174,179,Base Grouper,JJ NN,pandas-main,ops.py
+175,180,Bin Grouper,JJ NN,pandas-main,ops.py
+176,181,Data Splitter,NNS NN,pandas-main,ops.py
+177,182,Series Splitter,NN NN,pandas-main,ops.py
+178,183,Frame Splitter,NN NN,pandas-main,ops.py
+179,184,Named Agg,VBN NNP,pandas-main,generic.py
+180,185,Series Group By,NN VB IN,pandas-main,generic.py
+181,186,Data Frame Group By,NN NN VB IN,pandas-main,generic.py
+182,187,Output Key,NN NN,pandas-main,base.py
+183,188,Grouper,NN,pandas-main,grouper.py
+184,189,Grouping,NN,pandas-main,grouper.py
+185,190,Group By Plot,NN IN NN,pandas-main,groupby.py
+186,191,Base Group By,JJ NN RB,pandas-main,groupby.py
+187,192,Group By,VB IN,pandas-main,groupby.py
+188,193,Join Unit,NN NN,pandas-main,concat.py
+189,194,Block,NN,pandas-main,blocks.py
+190,195,EA Backed Block,NNP VBN NN,pandas-main,blocks.py
+191,196,Extension Block,NN NN,pandas-main,blocks.py
+192,197,Numpy Block,NNP NN,pandas-main,blocks.py
+193,198,ND Array Backed Extension Block,NNP NN VBN NN NN,pandas-main,blocks.py
+194,199,Datetime Like Block,NN IN NN,pandas-main,blocks.py
+195,200,Datetime TZ Block,NN NNP NN,pandas-main,blocks.py
+196,201,Block Pair Info,NN NN NN,pandas-main,ops.py
+197,202,Base Block Manager,NN NN NN,pandas-main,managers.py
+198,203,Block Manager,NN NN,pandas-main,managers.py
+199,204,Single Block Manager,JJ NN NN,pandas-main,managers.py
+200,205,Concatenator,NN,pandas-main,concat.py
+201,206,Merge Operation,VB NN,pandas-main,merge.py
+202,207,Ordered Merge,VBN VB,pandas-main,merge.py
+203,208,As Of Merge,IN IN VB,pandas-main,merge.py
+204,209,Unstacker,NN,pandas-main,reshape.py
+205,210,Extension D type,NN NN NN,pandas-main,base.py
+206,211,Storage Extension D type,NN NN NN NN,pandas-main,base.py
+207,212,Registry,NN,pandas-main,base.py
+208,213,Pandas Extension D type,NNP NN NN NN,pandas-main,dtypes.py
+209,214,Categorical D type Type,JJ NN NN NN,pandas-main,dtypes.py
+210,215,Categorical D type,JJ NN NN,pandas-main,dtypes.py
+211,216,Datetime TZD type,NN NN NN,pandas-main,dtypes.py
+212,217,Period D type,NN NN NN,pandas-main,dtypes.py
+213,218,Interval D type,NN NN NN,pandas-main,dtypes.py
+214,219,Numpy EAD type,NNP NNP NN,pandas-main,dtypes.py
+215,220,Base Masked D type,JJ VBN NN NN,pandas-main,dtypes.py
+216,221,Sparse D type,JJ NN NN,pandas-main,dtypes.py
+217,222,Arrow D type,NN NN NN,pandas-main,dtypes.py
+218,223,ND Frame Describer Abstract,NNP NN NN NN,pandas-main,describe.py
+219,224,Series Describer,NN NN,pandas-main,describe.py
+220,225,Data Frame Describer,NN NN NN,pandas-main,describe.py
+221,226,Select N,VB CD,pandas-main,selectn.py
+222,227,Select N Series,VB CD NNS,pandas-main,selectn.py
+223,228,Select N Frame,VB CD NN,pandas-main,selectn.py
+224,229,Object String Array Mixin,NN NN NN NN,pandas-main,object_array.py
+225,230,Base String Array Methods,JJ NN NN NNS,pandas-main,base.py
+226,231,String Methods,NN NNS,pandas-main,accessor.py
+227,232,String D type,NN NN NN,pandas-main,string_.py
+228,233,Base String Array,JJ NN NN,pandas-main,string_.py
+229,234,String Array,NN NN,pandas-main,string_.py
+230,235,Period Array,NN NN,pandas-main,period.py
+231,236,Numpy Extension Array,NN NN NN,pandas-main,numpy_.py
+232,237,Interval Array,NN NN,pandas-main,interval.py
+233,238,Numeric D type,JJ NN NN,pandas-main,numeric.py
+234,239,Numeric Array,JJ NN,pandas-main,numeric.py
+235,240,Base Masked Array,JJ VBN NN,pandas-main,masked.py
+236,241,ND Array Backed Extension Array,NNP NN VBN NN NN,pandas-main,_mixins.py
+237,242,Boolean D type,NN NN NN,pandas-main,boolean.py
+238,243,Boolean Array,NN NN,pandas-main,boolean.py
+239,244,Extension Array,NN NN,pandas-main,base.py
+240,245,Extension Array Supports Any All,NN NN VBZ DT DT,pandas-main,base.py
+241,246,Extension Ops Mixin,NN NN NN,pandas-main,base.py
+242,247,Extension Scalar Ops Mixin,NN NN NN NN,pandas-main,base.py
+243,248,Arrow String Array Mixin,NN NN NN NN,pandas-main,_arrow_string_mixins.py
+244,249,Datetime Array,NN NN,pandas-main,datetimes.py
+245,250,Floating D type,JJ NN NN,pandas-main,floating.py
+246,251,Floating Array,JJ NN,pandas-main,floating.py
+247,252,Float32 D type,NNP NN NN,pandas-main,floating.py
+248,253,Float64 D type,NNP NN NN,pandas-main,floating.py
+249,254,Categorical,JJ,pandas-main,categorical.py
+250,255,Categorical Accessor,JJ NN,pandas-main,categorical.py
+251,256,Arrow String Array,NN NN NN,pandas-main,string_arrow.py
+252,257,Arrow String Array Numpy Semantics,NN NN NN NNP NN,pandas-main,string_arrow.py
+253,258,Integer D type,NN NN NN,pandas-main,integer.py
+254,259,Integer Array,NN NN,pandas-main,integer.py
+255,260,Int8 D type,NNP NN NN,pandas-main,integer.py
+256,261,Int16 D type,NNP NN NN,pandas-main,integer.py
+257,262,Int32 D type,NNP NN NN,pandas-main,integer.py
+258,263,Int64 D type,NN NN NN,pandas-main,integer.py
+259,264,UInt8 D type,NNP NN NN,pandas-main,integer.py
+260,265,UInt16 D type,NNP NN NN,pandas-main,integer.py
+261,266,UInt32 D type,NNP NN NN,pandas-main,integer.py
+262,267,UInt64 D type,NNP NN NN,pandas-main,integer.py
+263,268,Timedelta Array,NNP NN,pandas-main,timedeltas.py
+264,269,Datetime Like Array Mixin,NN IN NN NN,pandas-main,datetimelike.py
+265,270,Date like Ops,NN IN NN,pandas-main,datetimelike.py
+266,271,Time like Ops,NN IN NN,pandas-main,datetimelike.py
+267,272,Base Accessor,JJ NN,pandas-main,accessor.py
+268,273,Sparse Accessor,JJ NN,pandas-main,accessor.py
+269,274,Sparse Frame Accessor,JJ NN NN,pandas-main,accessor.py
+270,275,ellipsis,NN,pandas-main,array.py
+271,276,Sparse Array,JJ NN,pandas-main,array.py
+272,277,Arrow Period Type,NN NN NN,pandas-main,extension_types.py
+273,278,Arrow Interval Type,NN NN NN,pandas-main,extension_types.py
+274,279,Forbidden Extension Type,JJ NN NN,pandas-main,extension_types.py
+275,280,Arrow Accessor,NN NN,pandas-main,accessors.py
+276,281,List Accessor,NN NN,pandas-main,accessors.py
+277,282,Struct Accessor,NN NN,pandas-main,accessors.py
+278,283,Arrow Extension Array,NN NN NN,pandas-main,array.py
+279,284,Base Indexer,JJ NN,pandas-main,objects.py
+280,285,Fixed Window Indexer,JJ NN NN,pandas-main,objects.py
+281,286,Variable Window Indexer,JJ NN NN,pandas-main,objects.py
+282,287,Variable Offset Window Indexer,JJ NN NN NN,pandas-main,objects.py
+283,288,Expanding Indexer,JJ NN,pandas-main,objects.py
+284,289,Fixed Forward Window Indexer,JJ JJ NN NN,pandas-main,objects.py
+285,290,Groupby Indexer,NNP NN,pandas-main,objects.py
+286,291,Exponential Moving Window Indexer,JJ JJ NN NN,pandas-main,objects.py
+287,292,Exponential Moving Window,JJ JJ NN,pandas-main,ewm.py
+288,293,Exponential Moving Window Groupby,JJ JJ NN NNP,pandas-main,ewm.py
+289,294,Online Exponential Moving Window,JJ JJ JJ NN,pandas-main,ewm.py
+290,295,EWM Mean State,NNP JJ NNP,pandas-main,online.py
+291,296,Base Window,JJ NN,pandas-main,rolling.py
+292,297,Base Window Groupby,JJ NN NNP,pandas-main,rolling.py
+293,298,Window,NN,pandas-main,rolling.py
+294,299,Rolling And Expanding Mixin,JJ CC JJ NN,pandas-main,rolling.py
+295,300,Rolling,JJ,pandas-main,rolling.py
+296,301,Rolling Groupby,JJ NNP,pandas-main,rolling.py
+297,302,Expanding,JJ,pandas-main,expanding.py
+298,303,Expanding Groupby,JJ NNP,pandas-main,expanding.py
+299,304,Test nanops Data Frame,VB NNPS NN NN,pandas-main,test_nanops.py
+300,305,Test Ensure Numeric,VB VB NNP,pandas-main,test_nanops.py
+301,306,Test Nan var Fixed Values,VB NNP NN VBN NNS,pandas-main,test_nanops.py
+302,307,Test Nan skew Fixed Values,VB NNP JJ VBN NNS,pandas-main,test_nanops.py
+303,308,Test Nan kurt Fixed Values,VB NNP NNP VBN NNS,pandas-main,test_nanops.py
+304,309,Test Datetime 64 Na N Ops,VB NNP CD NNP NN NN,pandas-main,test_nanops.py
+305,310,Test Factorize,VB VB,pandas-main,test_algos.py
+306,311,Test Unique,VB JJ,pandas-main,test_algos.py
+307,312,Test I sin,NN PRP NNP,pandas-main,test_algos.py
+308,313,Like Nan,IN NNP,pandas-main,test_algos.py
+309,314,Test Value Counts,VB NN NNS,pandas-main,test_algos.py
+310,315,Test Duplicated,VB VBN,pandas-main,test_algos.py
+311,316,Test Hash Table,VB NN NN,pandas-main,test_algos.py
+312,317,Test Rank,VB NN,pandas-main,test_algos.py
+313,318,Test Mode,VB NN,pandas-main,test_algos.py
+314,319,Test Diff,VB NN,pandas-main,test_algos.py
+315,320,Test Take,VB VB,pandas-main,test_take.py
+316,321,Test Extension Take,VB NN VB,pandas-main,test_take.py
+317,322,X,FW,pandas-main,test_register_accessor.py
+318,323,My Accessor,PRP$ NN,pandas-main,test_register_accessor.py
+319,324,Bad,JJ,pandas-main,test_register_accessor.py
+320,325,some call,DT NN,pandas-main,test_common.py
+321,326,Test Is Bool Indexer,NN VBZ NN NN,pandas-main,test_common.py
+322,327,My List,PRP$ NN,pandas-main,test_common.py
+323,328,Test Flags,VB NNS,pandas-main,test_flags.py
+324,329,Test Multi Level,NN JJ NN,pandas-main,test_multilevel.py
+325,330,Test Sorted,VB VBN,pandas-main,test_multilevel.py
+326,331,Test Expressions,VB NNS,pandas-main,test_expressions.py
+327,332,My Class,PRP$ NN,pandas-main,test_downstream.py
+328,333,Foo,NNP,pandas-main,test_errors.py
+329,334,Test Sorting,VB NN,pandas-main,test_sorting.py
+330,335,Test Merge,VB VB,pandas-main,test_sorting.py
+331,336,Test Safe Sort,VB JJ NN,pandas-main,test_sorting.py
+332,337,My EA,PRP$ NNP,pandas-main,test_extension.py
+333,338,Test Extension Array,VB NN NN,pandas-main,test_extension.py
+334,339,Test Masked Arrays,VB VBN NNS,pandas-main,test_masked.py
+335,340,Test 2 D Compat,VB CD NN NN,pandas-main,test_masked.py
+336,341,Test Sparse Array,VB JJ NN,pandas-main,test_sparse.py
+337,342,Test String Array,VB NN NN,pandas-main,test_string.py
+338,344,Test Interval Array,VB NN NN,pandas-main,test_interval.py
+339,345,Test Arrow Array,VB NN NN,pandas-main,test_arrow.py
+340,346,Test Logical Ops,VB NN NNS,pandas-main,test_arrow.py
+341,347,Old Arrow Extension Array,JJ NN NN NN,pandas-main,test_arrow.py
+342,348,Dummy D type,JJ NN NN,pandas-main,test_common.py
+343,349,Dummy Array,JJ NN,pandas-main,test_common.py
+344,350,Test Extension Array D type,VB NN NN NN NN,pandas-main,test_common.py
+345,351,Capturing String Array,VBG NN NN,pandas-main,test_common.py
+346,352,Test Numpy Extension Array,VB NN NN NN,pandas-main,test_numpy.py
+347,354,Test Datetime Array,VB NN NN,pandas-main,test_datetime.py
+348,356,Test Period Array,VB NN NN,pandas-main,test_period.py
+349,358,Test Categorical,VB JJ,pandas-main,test_categorical.py
+350,360,Float Attr D type,NN NN NN NN,pandas-main,array.py
+351,361,Float Attr Array,NN NN NN,pandas-main,array.py
+352,362,List D type,NN NN NN,pandas-main,array.py
+353,363,List Array,NN NN,pandas-main,array.py
+354,364,Date D type,NN NN NN,pandas-main,array.py
+355,365,Date Array,NN NN,pandas-main,array.py
+356,366,Base Set item Tests,JJ NN NN NNS,pandas-main,setitem.py
+357,367,Base Parsing Tests,JJ VBG NNS,pandas-main,io.py
+358,368,Base Casting Tests,JJ VBG NNS,pandas-main,casting.py
+359,369,Base Reduce Tests,JJ VB NNS,pandas-main,reduce.py
+360,370,Base Printing Tests,JJ VBG NNS,pandas-main,printing.py
+361,371,Base Missing Tests,JJ VBG NNS,pandas-main,missing.py
+362,372,Base Ops Util,JJ NNS NN,pandas-main,ops.py
+363,373,Base Arithmetic Ops Tests,JJ JJ NNS NNS,pandas-main,ops.py
+364,374,Base Comparison Ops Tests,JJ NN NNS NNS,pandas-main,ops.py
+365,375,Base Unary Ops Tests,JJ JJ NNS NNS,pandas-main,ops.py
+366,376,Base Accumulate Tests,JJ VB NNS,pandas-main,accumulate.py
+367,377,Base D type Tests,JJ NN NN NNS,pandas-main,dtype.py
+368,378,Base Constructors Tests,JJ NNS NNS,pandas-main,constructors.py
+369,379,Base Extension Tests,JJ NN NNS,pandas-main,base.py
+370,380,Dim 2 Compat Tests,NN CD NN NNS,pandas-main,dim2.py
+371,381,ND Array Backed 2D Tests,NNP NN VBN NNP NNS,pandas-main,dim2.py
+372,382,Base Interface Tests,JJ NN NNS,pandas-main,interface.py
+373,383,Base Get item Tests,JJ VB NN NNS,pandas-main,getitem.py
+374,384,Base Index Tests,JJ NN NNS,pandas-main,index.py
+375,385,Base Methods Tests,JJ NNS NNS,pandas-main,methods.py
+376,386,Extension Tests,NN NNS,pandas-main,__init__.py
+377,387,Base Reshaping Tests,JJ VBG NNS,pandas-main,reshaping.py
+378,388,Base Groupby Tests,JJ NNP NNS,pandas-main,groupby.py
+379,389,JSOND type,NNP NN,pandas-main,array.py
+380,390,JSON Array,NNP NN,pandas-main,array.py
+381,391,Test JSON Array,VB NNP NN,pandas-main,test_json.py
+382,392,Decimal D type,JJ NN NN,pandas-main,array.py
+383,393,Decimal Array,JJ NN,pandas-main,array.py
+384,394,Test Decimal Array,VB JJ NN,pandas-main,test_decimal.py
+385,395,Decimal Array Without From Sequence,JJ NN IN IN NN,pandas-main,test_decimal.py
+386,396,Decimal Array Without Coercion,JJ NN IN NN,pandas-main,test_decimal.py
+387,397,Test Set Ops,VB NN NNS,pandas-main,test_setops.py
+388,398,Test Set Ops Unsorted,VB NN NNS JJ,pandas-main,test_setops.py
+389,400,Test Contains,VB VBZ,pandas-main,test_indexing.py
+390,401,Test Get Loc,VB VB NN,pandas-main,test_indexing.py
+391,402,E,FW,pandas-main,test_indexing.py
+392,403,Test Get Indexer,VB VB NN,pandas-main,test_indexing.py
+393,404,Test Convert Slice Indexer,VB VB NN NN,pandas-main,test_indexing.py
+394,405,Test Put mask,VB VB NN,pandas-main,test_indexing.py
+395,406,Custom Index,JJ NN,pandas-main,test_subclass.py
+396,407,Test Datetime Engine,VB NN NN,pandas-main,test_engines.py
+397,408,Test Timedelta Engine,VB NNP NN,pandas-main,test_engines.py
+398,409,Test Numeric Engine,VB JJ NN,pandas-main,test_engines.py
+399,410,Test Object Engine,VB NN NN,pandas-main,test_engines.py
+400,411,Test Datetime Like,VB NN NNP,pandas-main,test_datetimelike.py
+401,412,Test Common,VB JJ,pandas-main,test_common.py
+402,413,Test Conversion,VB NN,pandas-main,test_any_index.py
+403,414,Test Round Trips,VB NN NNS,pandas-main,test_any_index.py
+404,415,Test Indexing,VB VBG,pandas-main,test_any_index.py
+405,416,Test Rendering,VB VBG,pandas-main,test_any_index.py
+406,417,Test Reductions,VB NNS,pandas-main,test_any_index.py
+407,418,Test Index Constructor Inference,VB NN NN NN,pandas-main,test_index_new.py
+408,419,Test D type Enforced,VB NN NN VBN,pandas-main,test_index_new.py
+409,420,Test Index Constructor Unwrapping,VB NN NN VBG,pandas-main,test_index_new.py
+410,421,Array Like,NN IN,pandas-main,test_index_new.py
+411,422,Test Index Construction Errors,VB NN NN NNS,pandas-main,test_index_new.py
+412,423,Test Base,VB NN,pandas-main,test_old_base.py
+413,424,Test Numeric Base,VB JJ NN,pandas-main,test_old_base.py
+414,425,Test Index,VB NN,pandas-main,test_base.py
+415,426,Test Mixed Int Index,VB VBN NN NN,pandas-main,test_base.py
+416,427,Test Index Utils,VB NN NNS,pandas-main,test_base.py
+417,428,Test Timedelta Index,VB NNP NN,pandas-main,test_setops.py
+418,429,Test Timedelta Index Difference,VB NNP NN NN,pandas-main,test_setops.py
+419,431,Test Get Item,VB VB NN,pandas-main,test_indexing.py
+420,434,Test Where,VB WRB,pandas-main,test_indexing.py
+421,436,Test Maybe Cast Slice Bound,VB RB VB NN NN,pandas-main,test_indexing.py
+422,438,Test Vectorized Timedelta,VB VBN NNP,pandas-main,test_scalar_compat.py
+423,439,Test Freq,VB NN,pandas-main,test_freq_attr.py
+424,440,Test Timedelta Index Arithmetic,VB NNP NN JJ,pandas-main,test_arithmetic.py
+425,441,Test Pickle,VB NN,pandas-main,test_pickle.py
+426,442,Test Timedelta Index Ops,VB NNP NN NNS,pandas-main,test_ops.py
+427,444,Test Timedelta Index Delete,VB NNP NN NN,pandas-main,test_delete.py
+428,445,Test Timedeltas,VB NNP,pandas-main,test_timedelta_range.py
+429,446,Test Join,VB VB,pandas-main,test_join.py
+430,447,Test Search Sorted,VB NN VBN,pandas-main,test_searchsorted.py
+431,448,Test Timedelta Index Rendering,VB NNP NN VBG,pandas-main,test_formats.py
+432,449,Test Timedelta Index Factorize,VB NNP NN VBB,pandas-main,test_factorize.py
+433,450,Test Timedelta Index Shift,VB NNP NN VB,pandas-main,test_shift.py
+434,452,Test Timedelta Index Insert,VB NNP NN NN,pandas-main,test_insert.py
+435,453,Test Repeat,VB NN,pandas-main,test_repeat.py
+436,454,Test Fill NA,VB VB NNP,pandas-main,test_fillna.py
+437,456,Test Set Ops Sort,VB VB NNS NN,pandas-main,test_setops.py
+438,462,Test Slice Locs,VB NN NNS,pandas-main,test_indexing.py
+439,463,Test Get Slice Bounds,VB VB NN NNS,pandas-main,test_indexing.py
+440,464,Test Astype,VB NNP,pandas-main,test_astype.py
+441,465,Test Float Numeric Index,VB NN JJ NN,pandas-main,test_numeric.py
+442,466,Test Numeric Int,VB JJ NN,pandas-main,test_numeric.py
+443,467,Test Int Numeric Index,VB NN JJ NN,pandas-main,test_numeric.py
+444,468,Test Float 16 Index,VB NN CD NN,pandas-main,test_numeric.py
+445,469,Test Join Int64 Index,VB VB NNP NN,pandas-main,test_join.py
+446,470,Test Join UInt64 Index,VB VB NNP NNP,pandas-main,test_join.py
+447,471,Test Interval Index,VB NN NN,pandas-main,test_setops.py
+448,472,Test Interval Range,VB NN NN,pandas-main,test_interval_range.py
+449,473,Constructor Tests,NN NNS,pandas-main,test_constructors.py
+450,474,Test From Arrays,VB IN NNS,pandas-main,test_constructors.py
+451,475,Test From Breaks,VB IN NNS,pandas-main,test_constructors.py
+452,476,Test From Tuples,VB IN NNS,pandas-main,test_constructors.py
+453,477,Test Class Constructors,VB NN NNS,pandas-main,test_constructors.py
+454,487,Test Equals,VB NNS,pandas-main,test_equals.py
+455,489,Astype Tests,NNP NNS,pandas-main,test_astype.py
+456,490,Test Int Subtype,VB NN NN,pandas-main,test_astype.py
+457,491,Test Float Subtype,VB NN NN,pandas-main,test_astype.py
+458,492,Test Datetime like Subtype,VB NN IN NN,pandas-main,test_astype.py
+459,493,Test Interval Index Rendering,VB NN NN NN,pandas-main,test_formats.py
+460,494,Test Interval Tree,VB NN NN,pandas-main,test_interval_tree.py
+461,495,Test Categorical Index Constructors,VB JJ NN NNS,pandas-main,test_constructors.py
+462,501,Test Categorical Index,VB JJ NN,pandas-main,test_category.py
+463,502,Test Categorical Index 2,VB JJ NN CD,pandas-main,test_category.py
+464,504,Test Reindex,VB NN,pandas-main,test_reindex.py
+465,506,Test Append,VB VB,pandas-main,test_append.py
+466,507,Test Categorical Index Repr,VB JJ NN NN,pandas-main,test_formats.py
+467,509,Equals Tests,VBZ NNS,pandas-main,test_equals.py
+468,510,Test Period Index Equals,VB NN NN NNS,pandas-main,test_equals.py
+469,511,Test Datetime Index Equals,VB NN NN NNS,pandas-main,test_equals.py
+470,512,Test Timedelta Index Equals,VB NNP NN NNS,pandas-main,test_equals.py
+471,513,Test Sort Values,VB NN NNS,pandas-main,test_sort_values.py
+472,514,Drop Duplicates,VB NNS,pandas-main,test_drop_duplicates.py
+473,515,Test Drop Duplicates Period Index,VB VB NNS NN NN,pandas-main,test_drop_duplicates.py
+474,516,Test Drop Duplicates Datetime Index,VB VB NNS NN NN,pandas-main,test_drop_duplicates.py
+475,517,Test Drop Duplicates Timedelta Index,VB VB NNS NNP NN,pandas-main,test_drop_duplicates.py
+476,520,Test Get Indexer Non Unique,VB VB NN RB JJ,pandas-main,test_indexing.py
+477,522,Test Period Index,VB NN NN,pandas-main,test_setops.py
+478,523,Test Period Index Disallowed Freqs,VB NN NN VBN NNS,pandas-main,test_constructors.py
+479,525,Test Simple New,VB JJ JJ,pandas-main,test_constructors.py
+480,526,Test Shallow Copy,VB JJ VB,pandas-main,test_constructors.py
+481,527,Test Series Period,VB NN NN,pandas-main,test_constructors.py
+482,533,Test Get Value,VB VB NN,pandas-main,test_indexing.py
+483,535,Test As Of Locs,VB IN IN NNS,pandas-main,test_indexing.py
+484,536,Test Resolution,VB NN,pandas-main,test_resolution.py
+485,537,Test Period Representation,VB NN NN,pandas-main,test_tools.py
+486,538,Test Period Index Conversion,VB NN NN NN,pandas-main,test_tools.py
+487,539,Test Period Index Ops,VB NN NN NNS,pandas-main,test_scalar_compat.py
+488,543,Test Period Range Keywords,VB NN NN NNS,pandas-main,test_period_range.py
+489,544,Test Period Range,VB NN NN,pandas-main,test_period_range.py
+490,545,Test Period Range Disallowed Freqs,VB NN NN VBN NNS,pandas-main,test_period_range.py
+491,548,Test Search sorted,VB VB VBN,pandas-main,test_searchsorted.py
+492,549,Test Period Index Rendering,VB NN NN NN,pandas-main,test_formats.py
+493,551,Test Period Index Shift,VB NN NN VB,pandas-main,test_shift.py
+494,552,Test To Timestamp,VB TO NN,pandas-main,test_to_timestamp.py
+495,553,Test Period Index As Type,VB NN NN IN NN,pandas-main,test_astype.py
+496,554,Test Insert,VB VB,pandas-main,test_insert.py
+497,558,Test Datetime Index Set Ops,VB NN NN VB NNS,pandas-main,test_setops.py
+498,559,Test Business Datetime Index,VB NN NN NN,pandas-main,test_setops.py
+499,560,Test Custom Datetime Index,VB JJ NN NN,pandas-main,test_setops.py
+500,561,Test Datetime Index,VB NN NN,pandas-main,test_constructors.py
+501,562,Test Time Series,VB NN NN,pandas-main,test_constructors.py
+502,571,Test Indexer Between Time,VB NN IN NN,pandas-main,test_indexing.py
+503,572,Test Datetime Index Ops,VB NN NN NN,pandas-main,test_scalar_compat.py
+504,574,Test Datetime Index Arithmetic,VB NN NN JJ,pandas-main,test_arithmetic.py
+505,575,Test Datetime Index Reindex,VB NN NN VB,pandas-main,test_reindex.py
+506,576,Fixed Offset,JJ NN,pandas-main,test_timezones.py
+507,577,Test Datetime Index Timezones,VB NN NN NNS,pandas-main,test_timezones.py
+508,579,Test Datetime Index Iteration,VB NN NN NN,pandas-main,test_iter.py
+509,582,Test Timestamp Equiv Date Range,VB NN NN NN NN,pandas-main,test_date_range.py
+510,583,Test Date Ranges,NN NN NNS,pandas-main,test_date_range.py
+511,584,Test Date Range TZ,NN NN NN NNP,pandas-main,test_date_range.py
+512,585,Test Gen Range Generation,VB VB NN NN,pandas-main,test_date_range.py
+513,586,Test Business Date Range,VB NN NN NN,pandas-main,test_date_range.py
+514,587,Test Custom Date Range,VB JJ NN NN,pandas-main,test_date_range.py
+515,588,Test Date Range Non Na no,VB NN NN RB NNP NNP,pandas-main,test_date_range.py
+516,589,Test Date Range Non Tick Freq,VB NN NN RB NN NN,pandas-main,test_date_range.py
+517,590,Test Split,VB NN,pandas-main,test_npfuncs.py
+518,591,Test Slicing,VB NN,pandas-main,test_partial_slicing.py
+519,594,Test Datetime Index Rendering,VB NN NN NN,pandas-main,test_formats.py
+520,595,Test To Period,VB TO NN,pandas-main,test_to_period.py
+521,596,Test Datetime Index Factorize,VB NN NN VB,pandas-main,test_factorize.py
+522,597,Test Datetime Index Shift,VB NN NN VB,pandas-main,test_shift.py
+523,598,Test TZ Localize,VB NNP VB,pandas-main,test_tz_localize.py
+524,599,Test To Series,VB IN NNP,pandas-main,test_to_series.py
+525,600,Test As Of,VB IN IN,pandas-main,test_asof.py
+526,603,Test Delete,VB VB,pandas-main,test_delete.py
+527,604,Test Date Time Index To Julian Date,VB NN NN NN TO NNP NN,pandas-main,test_to_julian_date.py
+528,605,Test To Py Datetime,VB TO NNP NN,pandas-main,test_to_pydatetime.py
+529,607,Test Normalize,VB VB,pandas-main,test_normalize.py
+530,608,Test Datetime Index Round,VB NN NN NN,pandas-main,test_round.py
+531,610,Test To Frame,VB NN NN,pandas-main,test_to_frame.py
+532,611,Test Datetime Index Fill NA,VB NN NN VB TO,pandas-main,test_fillna.py
+533,612,Test TZ Convert,VB NNP VB,pandas-main,test_tz_convert.py
+534,613,Test Map,VB NN,pandas-main,test_map.py
+535,620,Test Get Level Values,VB VB NN NNS,pandas-main,test_get_level_values.py
+536,621,Test Is Lex sorted,VB VBZ NNP VBN,pandas-main,test_lexsort.py
+537,622,Test Lex sort Depth,VB NNP NN NN,pandas-main,test_lexsort.py
+538,623,Test Repr,VB NN,pandas-main,test_formats.py
+539,624,Test Range Index Set Ops,VB NN NN NN NNS,pandas-main,test_setops.py
+540,625,Test Range Index Constructors,VB NN NN NNS,pandas-main,test_constructors.py
+541,629,Test Range Index,VB NN NN,pandas-main,test_range.py
+542,631,Test Index Set Ops,VB NN VB NNS,pandas-main,test_setops.py
+543,632,Test Index Constructor,VB NN NN,pandas-main,test_constructors.py
+544,637,Test Index Rendering,VB NN NN,pandas-main,test_formats.py
+545,638,Test Reshape,VB VB,pandas-main,test_reshape.py
+546,639,Test Comparison,VB NN,pandas-main,test_interval.py
+547,640,Test Timedelta 64 Array Like Comparisons,VB NNP CD NN IN NNS,pandas-main,test_timedelta64.py
+548,641,Test Timedelta 64 Array Comparisons,VB NNP CD NN NNS,pandas-main,test_timedelta64.py
+549,642,Test Timedelta 64 Arithmetic Unsorted,VB NNP CD JJ JJ,pandas-main,test_timedelta64.py
+550,643,Test Add Sub Na T Masking,VB VB NN NNP FW NN,pandas-main,test_timedelta64.py
+551,644,Test Timedelta Array like Add Sub Ops,VB NNP NN IN VB VB NNS,pandas-main,test_timedelta64.py
+552,645,Test Timedelta Array like Mul Div Ops,VB NNP NN IN VB VB NNS,pandas-main,test_timedelta64.py
+553,646,Test Timedelta 64 Array Like Arithmetic,VB NNP CD NN IN NN,pandas-main,test_timedelta64.py
+554,647,Test Datetime 64 Array Like Comparisons,VB NN CD NN IN NNS,pandas-main,test_datetime64.py
+555,648,Test Datetime 64 Series Comparison,VB NN CD NN NN,pandas-main,test_datetime64.py
+556,649,Test Datetime Index Comparisons,VB NN NN NNS,pandas-main,test_datetime64.py
+557,650,Test Datetime 64 Arithmetic,VB NN CD NN,pandas-main,test_datetime64.py
+558,651,Test Datetime 64 Date Offset Arithmetic,VB NN CD NN NN NN,pandas-main,test_datetime64.py
+559,652,Test Datetime 64 Overflow Handling,VB NN CD NN NN,pandas-main,test_datetime64.py
+560,653,Test Timestamp Series Arithmetic,VB NN NN NN,pandas-main,test_datetime64.py
+561,655,Test Numeric Comparisons,VB JJ NNS,pandas-main,test_numeric.py
+562,656,Test Numeric Array like Arithmetic With Datetime Like,VB JJ NN IN NN IN NN IN,pandas-main,test_numeric.py
+563,657,Test Division By Zero,VB NN IN CD,pandas-main,test_numeric.py
+564,658,Test Multiplication Division,VB NN NN,pandas-main,test_numeric.py
+565,659,Test Addition Subtraction,VB NN NN,pandas-main,test_numeric.py
+566,660,Test U Func Compat,VB FW NN NN,pandas-main,test_numeric.py
+567,661,Test Object D type Equivalence,VB NN FW NN NN,pandas-main,test_numeric.py
+568,662,Test Numeric Arithmetic Unsorted,VB JJ JJ JJ,pandas-main,test_numeric.py
+569,663,Test Period Array Like Comparisons,VB NN NN IN NNS,pandas-main,test_period.py
+570,664,Test Period Index Comparisons,VB NN NN NNS,pandas-main,test_period.py
+571,665,Test Period Series Comparisons,VB NN NN NNS,pandas-main,test_period.py
+572,666,Test Period Index Series Comparison Consistency,VB NN NN NN NN NN,pandas-main,test_period.py
+573,667,Test Period Frame Arithmetic,VB NN NN NN,pandas-main,test_period.py
+574,668,Test Period Index Arithmetic,VB NN NN NN,pandas-main,test_period.py
+575,669,Test Period Series Arithmetic,VB NN NNP NNP,pandas-main,test_period.py
+576,670,Test Period Index Series Methods,VB NN NN NN NNS,pandas-main,test_period.py
+577,671,Test Object Comparisons,VB NN NNS,pandas-main,test_object.py
+578,672,Test Arithmetic,VB NN,pandas-main,test_object.py
+579,673,My Index,PRP$ NN,pandas-main,test_object.py
+580,674,Test Categorical Comparisons,VB JJ NNS,pandas-main,test_categorical.py
+581,675,Test Time Conversion Formats,VB NN NN NNS,pandas-main,test_to_datetime.py
+582,676,Test To Datetime,VB TO NN,pandas-main,test_to_datetime.py
+583,677,Test To Datetime Unit,VB TO NN NN,pandas-main,test_to_datetime.py
+584,678,Test To Datetime Data Frame,VB TO NN NN NN,pandas-main,test_to_datetime.py
+585,679,Test To Datetime Misc,VB TO NNP NNP,pandas-main,test_to_datetime.py
+586,680,Test Guess Datetime Format,VB NN NN NN,pandas-main,test_to_datetime.py
+587,681,Test To Datetime Infer Format,VB TO NN NN NN,pandas-main,test_to_datetime.py
+588,682,Test Days In Month,VB NNS IN NN,pandas-main,test_to_datetime.py
+589,683,Test Datetime Parsing Wrappers,VB NN NN NNS,pandas-main,test_to_datetime.py
+590,684,Test Origin,VB NN,pandas-main,test_to_datetime.py
+591,685,Test Should Cache,VB MD VB,pandas-main,test_to_datetime.py
+592,686,Test To Time,VB TO NN,pandas-main,test_to_time.py
+593,689,Test Index Reductions,VB NN NNS,pandas-main,test_reductions.py
+594,690,Test Series Reductions,VB NN NNS,pandas-main,test_reductions.py
+595,691,Test Datetime 64 Series Reductions,VB NN CD NN NNS,pandas-main,test_reductions.py
+596,692,Test Categorical Series Reductions,VB JJ NN NNS,pandas-main,test_reductions.py
+597,693,Test Series Mode,VB NN NN,pandas-main,test_reductions.py
+598,694,Test Datetime Like Stat Reductions,VB NN IN NN NNS,pandas-main,test_stat_reductions.py
+599,695,Test Series Stat Reductions,VB NN NN NNS,pandas-main,test_stat_reductions.py
+600,696,Test Eval,VB NN,pandas-main,test_eval.py
+601,697,Test Type Casting,VB NN NN,pandas-main,test_eval.py
+602,698,Test Alignment,VB NN,pandas-main,test_eval.py
+603,699,Test Operations,VB NNS,pandas-main,test_eval.py
+604,700,Test Math,VB NN,pandas-main,test_eval.py
+605,701,Test Scope,VB NN,pandas-main,test_eval.py
+606,702,Test Validate,VB VB,pandas-main,test_eval.py
+607,703,Test Selection,VB NN,pandas-main,test_grouping.py
+608,704,Test Grouping,VB NN,pandas-main,test_grouping.py
+609,705,Test Get Group,VB VB NN,pandas-main,test_grouping.py
+610,706,Test Iteration,VB NN,pandas-main,test_grouping.py
+611,707,Test Numeric Only,VB JJ RB,pandas-main,test_numeric_only.py
+612,708,Test Engine,VB NN,pandas-main,test_numba.py
+613,709,Test Counting,VB NN,pandas-main,test_counting.py
+614,710,Raising Object Exception,VBG NN NN,pandas-main,test_counting.py
+615,711,Raising Object,VBG NN,pandas-main,test_counting.py
+616,712,Test Group By,VB VB IN,pandas-main,test_timegrouper.py
+617,713,Group Var Test Mixin,NN NN NN NN,pandas-main,test_libgroupby.py
+618,714,Test Group Var Float64,VB NN NN NNP,pandas-main,test_libgroupby.py
+619,715,Test Group Var Float32,VB NN NN NNP,pandas-main,test_libgroupby.py
+620,716,Test Named Aggregation Series,VB JJ NN NN,pandas-main,test_aggregate.py
+621,717,Test Named Aggregation Data Frame,VB JJ NN NNS NN,pandas-main,test_aggregate.py
+622,718,Test Lambda Mangling,VB NN NN,pandas-main,test_aggregate.py
+623,719,fn class,NNP NN,pandas-main,test_other.py
+624,720,Test Data Frame Plots,VB NNS NN NNS,pandas-main,test_boxplot_method.py
+625,721,Test Data Frame Group By Plots,VB NNS NN VB IN NNS,pandas-main,test_boxplot_method.py
+626,722,Test Series Plots,VB NN NNS,pandas-main,test_hist_method.py
+627,725,Test TS Plot,VB NNP NN,pandas-main,test_datetimelike.py
+628,730,Test Get Standard Colors,VB VB JJ NNS,pandas-main,test_style.py
+629,731,Test Registration,VB NN,pandas-main,test_converter.py
+630,732,Test Date Time Converter,VB NN NN NN,pandas-main,test_converter.py
+631,733,Test Period Converter,VB NN NN,pandas-main,test_converter.py
+632,734,Axis,NN,pandas-main,test_converter.py
+633,735,Test Time Delta Converter,VB NN NN NN,pandas-main,test_converter.py
+634,736,mock axis,VB NN,pandas-main,test_converter.py
+635,738,Test Data Frame Color,VB NNS NN NNP,pandas-main,test_frame_color.py
+636,739,Test Hist With By,VB NNP IN IN,pandas-main,test_hist_box_by.py
+637,740,Test Box With By,VB NN IN IN,pandas-main,test_hist_box_by.py
+638,741,Test Data Frame Plots Subplots,VB NNS NN NNS NNS,pandas-main,test_frame_subplots.py
+639,743,Test Data Frame Plots Groupby,VB NN NN NNS NNP,pandas-main,test_frame_groupby.py
+640,744,Test Frame Legend,VB NN NN,pandas-main,test_frame_legend.py
+641,745,Test Types,VB NNS,pandas-main,test_types.py
+642,746,Base,NN,pandas-main,test_api.py
+643,747,Test PD Api,VB NNP NNP,pandas-main,test_api.py
+644,748,Test Api,VB NNP,pandas-main,test_api.py
+645,749,Test Errors,VB NNS,pandas-main,test_api.py
+646,750,Test Util,VB NNP,pandas-main,test_api.py
+647,751,Test Testing,VB NN,pandas-main,test_api.py
+648,752,Test Block,VB NN,pandas-main,test_internals.py
+649,753,Test Block Manager,VB NN NN,pandas-main,test_internals.py
+650,755,Test Block Placement,VB NN NN,pandas-main,test_internals.py
+651,756,Test Can Hold Element,VB MD VB NN,pandas-main,test_internals.py
+652,757,Test Should Store,VB MD VB,pandas-main,test_internals.py
+653,758,Test Pad Backfill,VB VB NN,pandas-main,test_libalgos.py
+654,759,Test Infinity,VB NN,pandas-main,test_libalgos.py
+655,761,Test Hash Table Unsorted,VB NN NN JJ,pandas-main,test_hashtable.py
+656,762,Test Py Object Hash Table With Nans,VB NNP NN NN NN IN NNPS,pandas-main,test_hashtable.py
+657,763,Test Hash Table With Nans,VB NN NN IN NNPS,pandas-main,test_hashtable.py
+658,764,Test Help Functions,VB NN NNS,pandas-main,test_hashtable.py
+659,765,Test Help Functions With Nans,VB NN NNS IN NNPS,pandas-main,test_hashtable.py
+660,766,Test Misc,VB NNP,pandas-main,test_lib.py
+661,768,Test Indexer,VB NN,pandas-main,test_join.py
+662,769,Test Config,VB NN,pandas-main,test_config.py
+663,770,Test Get Dummies,VB VB NNS,pandas-main,test_get_dummies.py
+664,771,Test Union Categoricals,VB NN NNS,pandas-main,test_union_categoricals.py
+665,772,Test Cross tab,VB JJ NN,pandas-main,test_crosstab.py
+666,773,Test Cartesian Product,VB JJ NN,pandas-main,test_util.py
+667,774,Test Melt,VB NN,pandas-main,test_melt.py
+668,775,Test L reshape,VB FW VB,pandas-main,test_melt.py
+669,776,Test Wide To Long,VB JJ TO JJ,pandas-main,test_melt.py
+670,777,Test Pivot Table,VB NN NN,pandas-main,test_pivot.py
+671,778,Mock Unstacker,VB NN,pandas-main,test_pivot.py
+672,779,Test Pivot,NN NN,pandas-main,test_pivot.py
+673,780,Test Merge Multi,VB VB JJ,pandas-main,test_multi.py
+674,781,Test Join Multi Multi,VB VB JJ JJ,pandas-main,test_multi.py
+675,782,Test Merge Ordered,VB VB JJ,pandas-main,test_merge_ordered.py
+676,783,Not A Data Frame,RB DT NNS NN,pandas-main,test_merge_ordered.py
+677,786,Test Merge D types,VB VB NN NNS,pandas-main,test_merge.py
+678,787,Test Merge Categorical,VB VB JJ,pandas-main,test_merge.py
+679,788,Test Merge On Indexes,VB VB IN NNS,pandas-main,test_merge.py
+680,790,Test As Of Merge,VB IN IN VB,pandas-main,test_merge_asof.py
+681,791,Test Empty Concat,VB JJ NN,pandas-main,test_empty.py
+682,792,Test Invalid Concat,VB JJ NN,pandas-main,test_invalid.py
+683,793,Test Datetime Concat,VB NN NN,pandas-main,test_datetimes.py
+684,794,Test Timezone Concat,VB NN NN,pandas-main,test_datetimes.py
+685,795,Test Period Concat,VB NN NN,pandas-main,test_datetimes.py
+686,796,Test Concatenate,VB VB,pandas-main,test_concat.py
+687,797,Custom Iterator 1,JJ NN CD,pandas-main,test_concat.py
+688,798,Custom Iterator 2,JJ NN CD,pandas-main,test_concat.py
+689,800,Test Concat Append Common,VB NN VB NN,pandas-main,test_append_common.py
+690,801,Test Series Concat,VB NN NN,pandas-main,test_series.py
+691,802,Test Index Concat,VB NN NN,pandas-main,test_index.py
+692,803,Test Multi Index Concat,VB JJ NN NN,pandas-main,test_index.py
+693,804,Test Categorical Concat,VB JJ NN,pandas-main,test_categorical.py
+694,805,Test Concat Sort,VB NN NN,pandas-main,test_sort.py
+695,806,Test Data Frame Concat,VB NNS NN NN,pandas-main,test_dataframe.py
+696,807,Test Stata,VB NNP,pandas-main,test_stata.py
+697,809,Test Basic,VB JJ,pandas-main,test_parquet.py
+698,810,Test Parquet Py Arrow,VB NN NNP NN,pandas-main,test_parquet.py
+699,811,Test Parquet Fast Parquet,VB NN JJ NN,pandas-main,test_parquet.py
+700,812,Test Compression,VB NN,pandas-main,test_pickle.py
+701,813,Test Protocol,VB NN,pandas-main,test_pickle.py
+702,814,Mock Read Response,VB NN NN,pandas-main,test_pickle.py
+703,815,My Tz,PRP$ NNP,pandas-main,test_pickle.py
+704,816,Custom FS Path,JJ NNP NN,pandas-main,test_common.py
+705,817,Test Common IO Capabilities,VB JJ NNP NNS,pandas-main,test_common.py
+706,818,Test M Map Wrapper,VB FW NN NN,pandas-main,test_common.py
+707,819,Test Error,VB NN,pandas-main,test_common.py
+708,820,Mock Sqlite Connection,VB NNP NN,pandas-main,test_sql.py
+709,821,Dummy Exception,JJ NN,pandas-main,test_sql.py
+710,822,Temporary,JJ,pandas-main,test_sql.py
+711,823,Test,NN,pandas-main,test_sql.py
+712,824,Test Memory FS,VB NN NNP,pandas-main,test_fsspec.py
+713,825,Test Clipboard,VB NN,pandas-main,test_clipboard.py
+714,826,Test Read Html,VB VB NNP,pandas-main,test_html.py
+715,827,Unseekable String IO,JJ NNP NNP,pandas-main,test_html.py
+716,828,Mock File,VB NN,pandas-main,test_html.py
+717,829,Error Thread,NN NN,pandas-main,test_html.py
+718,830,Test Feather,VB NN,pandas-main,test_feather.py
+719,831,My Mapping,PRP$ NN,pandas-main,test_printing.py
+720,832,Test P Print Thing,VB NNP NN NN,pandas-main,test_printing.py
+721,833,Test Format Base,VB NN NN,pandas-main,test_printing.py
+722,834,Test Data Frame Formatting,VB NNS NN NN,pandas-main,test_format.py
+723,835,A,FW,pandas-main,test_format.py
+724,836,Test Series Formatting,VB NN NN,pandas-main,test_format.py
+725,837,Test Generic Array Formatter,VB JJ NN NN,pandas-main,test_format.py
+726,838,D type Stub,NN NN NN,pandas-main,test_format.py
+727,839,Ext Type Stub,NN NN NN,pandas-main,test_format.py
+728,840,Test Float Array Formatter,VB NN NN NN,pandas-main,test_format.py
+729,841,Test Timedelta 64 Formatter,VB NNP CD NN,pandas-main,test_format.py
+730,842,Test Datetime 64 Formatter,VB NNP CD NN,pandas-main,test_format.py
+731,843,Test Format Percentiles,VB NN NNS,pandas-main,test_format.py
+732,844,Test Table Schema Repr,VB NN NN NN,pandas-main,test_ipython_compat.py
+733,845,Test HTML Index,VB NNP NN,pandas-main,test_to_html.py
+734,846,Test Repr HTML,VB NN NNP,pandas-main,test_to_html.py
+735,847,Test Eng Formatter,VB NN NN,pandas-main,test_eng_formatting.py
+736,848,Test To CSV,VB TO NNP,pandas-main,test_to_csv.py
+737,849,Mock Encoding,VB NN,pandas-main,test_console.py
+738,850,Test Data Frame To String Formatters,VB NNS NN TO NN NNS,pandas-main,test_to_string.py
+739,851,Test Data Frame To String Col Space,VB NNS NN TO NN NNP NN,pandas-main,test_to_string.py
+740,852,Test Data Frame To String Header,VB NNS NN TO NN NN,pandas-main,test_to_string.py
+741,853,Test Data Frame To String Line Width,VB NNS NN TO NN NN NN,pandas-main,test_to_string.py
+742,854,Test To String Numeric Formatting,VB TO NN JJ NN,pandas-main,test_to_string.py
+743,855,Test Data Frame To String,VB NNS NN TO NN,pandas-main,test_to_string.py
+744,856,Test Series To String,VB NN TO NN,pandas-main,test_to_string.py
+745,857,Test To Latex,VB TO NNP,pandas-main,test_to_latex.py
+746,858,Test To Latex Long table,VB TO NNP JJ NN,pandas-main,test_to_latex.py
+747,859,Test To Latex Header,VB TO NNP NN,pandas-main,test_to_latex.py
+748,860,Test To Latex Bold,VB TO NNP NN,pandas-main,test_to_latex.py
+749,861,Test To Latex Caption Label,VB TO NN NN NN,pandas-main,test_to_latex.py
+750,862,Test To Latex Escape,VB TO NN NN,pandas-main,test_to_latex.py
+751,863,Test To Latex Position,VB TO NN NN,pandas-main,test_to_latex.py
+752,864,Test To Latex Formatters,VB TO NN NNS,pandas-main,test_to_latex.py
+753,865,Test To Latex Multiindex,VB TO NN NNP,pandas-main,test_to_latex.py
+754,866,Custom Styler,JJ NN,pandas-main,test_style.py
+755,867,Test Styler,VB NN,pandas-main,test_style.py
+756,868,Test X port,VB FW NN,pandas-main,test_xport.py
+757,869,Test Sas,VB NNP,pandas-main,test_sas.py
+758,870,Test SAS 7 B DAT,VB NNP CD CD NNP,pandas-main,test_sas7bdat.py
+759,871,Test HDF Store Subclass,VB NNP NN NN,pandas-main,test_subclass.py
+760,872,Test Read Py Tables HDF5,VB VB NNP NNS NNP,pandas-main,test_compat.py
+761,873,Table 1,NN CD,pandas-main,test_keys.py
+762,874,Table 2,NN CD,pandas-main,test_keys.py
+763,875,Table 3,NN CD,pandas-main,test_keys.py
+764,876,Test Readers,VB NNS,pandas-main,test_readers.py
+765,877,Test Excel File Read,VB NNP NN NN,pandas-main,test_readers.py
+766,878,Test Round Trip,VB JJ NN,pandas-main,test_writers.py
+767,879,Test Excel Writer,VB NNP NN,pandas-main,test_writers.py
+768,880,Test Excel Writer Engine Tests,VB NNP NN NN NNS,pandas-main,test_writers.py
+769,881,Dummy Class,JJ NN,pandas-main,test_writers.py
+770,882,Test FS Path,VB NNP NN,pandas-main,test_writers.py
+771,883,Test Build Schema,VB VB NN,pandas-main,test_json_table_schema_ext_dtype.py
+772,884,Test Table Schema Type,VB NN NN NN,pandas-main,test_json_table_schema_ext_dtype.py
+773,885,Test Table Orient,VB NN NN,pandas-main,test_json_table_schema_ext_dtype.py
+774,889,Test Table Orient Reader,VB NN NN NN,pandas-main,test_json_table_schema.py
+775,890,My Reader,PRP$ NN,pandas-main,test_readlines.py
+776,891,Test Pandas Container,VB NNP NN,pandas-main,test_pandas.py
+777,892,Binary Thing,JJ NN,pandas-main,test_pandas.py
+778,893,Test Object,VB NN,pandas-main,test_pandas.py
+779,894,Test JSON Normalize,VB NNP VB,pandas-main,test_normalize.py
+780,895,Test Nested To Record,VB VBN TO VB,pandas-main,test_normalize.py
+781,896,Test Ultra JSON Tests,VB JJ NNP NNS,pandas-main,test_ujson.py
+782,897,O 2,FW CD,pandas-main,test_ujson.py
+783,898,O 1,FW CD,pandas-main,test_ujson.py
+784,899,Dict Test,NN NN,pandas-main,test_ujson.py
+785,902,Test Numpy JSON Tests,VB NNP NNP NNS,pandas-main,test_ujson.py
+786,903,Test Pandas JSON Tests,VB NNP NNP NNS,pandas-main,test_ujson.py
+787,904,Invalid Dialect,JJ NN,pandas-main,test_dialect.py
+788,905,Base Parser,JJ NN,pandas-main,conftest.py
+789,906,C Parser,NNP NN,pandas-main,conftest.py
+790,907,C Parser High Memory,NNP NN JJ NN,pandas-main,conftest.py
+791,908,C Parser Low Memory,NNP NNP NNP NNP,pandas-main,conftest.py
+792,909,Python Parser,NNP NN,pandas-main,conftest.py
+793,910,Py Arrow Parser,NNP NN NN,pandas-main,conftest.py
+794,911,Test S 3,VB FW CD,pandas-main,test_network.py
+795,912,No Next Buffer,DT JJ NN,pandas-main,test_c_parser_only.py
+796,914,Test Text Reader,VB NN NN,pandas-main,test_textreader.py
+797,915,Test Unsupported Features,VB JJ NNS,pandas-main,test_unsupported.py
+798,917,Invalid Buffer,JJ NN,pandas-main,test_file_buffer_url.py
+799,919,No Seek Tell Buffer,DT VB VB NN,pandas-main,test_file_buffer_url.py
+800,920,My Text File Reader,PRP$ NN NN NN,pandas-main,test_common_basic.py
+801,921,My C Parser Wrapper,PRP$ NNP NN NN,pandas-main,test_common_basic.py
+802,922,Test Is NA,VB VBZ NNP,pandas-main,test_missing.py
+803,923,Test NA Obj,VB NNP NN,pandas-main,test_missing.py
+804,924,Test Lib Missing,VB NN VBG,pandas-main,test_missing.py
+805,925,Test Is Valid NA For D type,VB VBZ JJ NNP IN NN NN,pandas-main,test_missing.py
+806,926,Test Numpy EAD type,VB NNP NNP NN,pandas-main,test_common.py
+807,927,Not TZD type,RB NNP NN,pandas-main,test_common.py
+808,928,My Numeric D Type,PRP$ JJ NN NN,pandas-main,test_common.py
+809,929,Mock Numpy Like Array,VB NNP IN NN,pandas-main,test_inference.py
+810,930,Not List Like,RB NN IN,pandas-main,test_inference.py
+811,931,My Data Frame,PRP$ NN NN,pandas-main,test_inference.py
+812,933,D type List,NN NN NN,pandas-main,test_inference.py
+813,934,Dict Like,NN IN,pandas-main,test_inference.py
+814,936,Hashable Class,JJ NN,pandas-main,test_inference.py
+815,937,Unhashable Class 1,JJ NN CD,pandas-main,test_inference.py
+816,938,Unhashable Class 2,JJ NN CD,pandas-main,test_inference.py
+817,939,Test Inference,VB NN,pandas-main,test_inference.py
+818,940,Test Type Inference,VB NN NN,pandas-main,test_inference.py
+819,941,Dummy,JJ,pandas-main,test_inference.py
+820,942,Test Number Scalar,VB NN NN,pandas-main,test_inference.py
+821,943,Test Is Scalar,VB VBZ NN,pandas-main,test_inference.py
+822,944,Numeric,NN,pandas-main,test_inference.py
+823,946,Test Categorical D type,VB JJ NN NN,pandas-main,test_dtypes.py
+824,947,Test Datetime TZD type,VB NN NN NN,pandas-main,test_dtypes.py
+825,948,Test Period D type,VB NN NN NN,pandas-main,test_dtypes.py
+826,949,Test Interval D type,VB NN NN NN,pandas-main,test_dtypes.py
+827,950,Test Categorical D type Parametrized,VB JJ NN NN VBN,pandas-main,test_dtypes.py
+828,951,Test ABC Classes,VB NNP NNS,pandas-main,test_generic.py
+829,952,Test Data Frame Constructors,VB NNS NN NNS,pandas-main,test_constructors.py
+830,953,Dummy Container,JJ NN,pandas-main,test_constructors.py
+831,954,Iter,NN,pandas-main,test_constructors.py
+832,955,Custom Dict,JJ NN,pandas-main,test_constructors.py
+833,956,List,NN,pandas-main,test_constructors.py
+834,957,Datetime Subclass,NN NN,pandas-main,test_constructors.py
+835,958,Test Data Frame Constructor Index Inference,VB NNS NN NN NN NN,pandas-main,test_constructors.py
+836,959,Test Data Frame Constructor With D type Coercion,VB NNS NN NN IN NN NN NN,pandas-main,test_constructors.py
+837,960,Test Data Frame Constructor With Datetime TZ,VB NNS NN NN IN NN NNP,pandas-main,test_constructors.py
+838,961,Test From Scalar,VB IN NN,pandas-main,test_constructors.py
+839,962,Test Allow Non Na no,VB VB RB NNP NNP,pandas-main,test_constructors.py
+840,963,Test Data Frame Nonunique Indexes,VB NNS NN JJ NNS,pandas-main,test_nonunique_indexes.py
+841,964,Test Data Frame Subclassing,VB NNS NN NN,pandas-main,test_subclass.py
+842,965,Custom Series,JJ NN,pandas-main,test_subclass.py
+843,966,Custom Data Frame,JJ NNS NN,pandas-main,test_subclass.py
+844,969,My Subclass With Metadata,PRP$ NN IN NN,pandas-main,test_subclass.py
+845,970,Simple Data Frame Sub Class,JJ NNS NN NN NN,pandas-main,test_subclass.py
+846,971,Simple Series Sub Class,JJ NN NN NN,pandas-main,test_subclass.py
+847,972,Test Subclass Without Constructor,VB NN IN NN,pandas-main,test_subclass.py
+848,973,Dummy Element,JJ NN,pandas-main,test_arithmetic.py
+849,974,Test Frame Comparisons,VB NN NNS,pandas-main,test_arithmetic.py
+850,975,Test Frame Flex Comparisons,VB NN JJ NN,pandas-main,test_arithmetic.py
+851,976,Test Frame Flex Arithmetic,VB NN JJ NN,pandas-main,test_arithmetic.py
+852,977,Test Frame Arithmetic,VB NN NN,pandas-main,test_arithmetic.py
+853,978,Test Frame Arithmetic Unsorted,VB NN NN JJ,pandas-main,test_arithmetic.py
+854,981,Test Data Frame Alter Axes,VB NNS NN VB NNS,pandas-main,test_alter_axes.py
+855,983,Test Data Frame Analytics,VB NNS NN NNS,pandas-main,test_reductions.py
+856,984,Test Data Frame Reductions,VB NNS NN NNS,pandas-main,test_reductions.py
+857,985,Test Nuisance Columns,VB NN NNS,pandas-main,test_reductions.py
+858,986,Test Empty Data Frame Reductions,VB JJ NNS NN NNS,pandas-main,test_reductions.py
+859,987,Test As Array,VB IN NN,pandas-main,test_npfuncs.py
+860,988,Test Data Frame Repr,VB NNS NN NN,pandas-main,test_repr.py
+861,989,Test Data Frame Logical Operators,VB NNS NN JJ NNS,pandas-main,test_logical_ops.py
+862,990,Test Data Frame Validate,VB NNS NN VB,pandas-main,test_validate.py
+863,991,Test Data Frame Reshape,VB NNS NN VB,pandas-main,test_stack_unstack.py
+864,992,Test Stack Unstack Multi Level,VB VB VB JJ NN,pandas-main,test_stack_unstack.py
+865,994,Test Data Frame Unary Operators,VB NNS NN JJ NNS,pandas-main,test_unary.py
+866,995,Test Data Frame Block Internals,VB NNS NN NN NNS,pandas-main,test_block_internals.py
+867,996,Test Compat,VB NN,pandas-main,test_query_eval.py
+868,997,Test Data Frame Eval,VB NNS NN NN,pandas-main,test_query_eval.py
+869,998,Test Data Frame Query With Multi Index,VB NNS NN NN IN JJ NN,pandas-main,test_query_eval.py
+870,999,Test Data Frame Query Num Expr Pandas,VB NNS NN NN NN NN NNP,pandas-main,test_query_eval.py
+871,1000,My Dense,PRP$ JJ,keras-master,demo_custom_layer_backend_agnostic.py
+872,1001,My Dropout,PRP$ NN,keras-master,demo_custom_layer_backend_agnostic.py
+873,1002,My Model,PRP$ NN,keras-master,demo_custom_layer_backend_agnostic.py
+874,1010,Activity Regularization Layer,NN NN NN,keras-master,writing_a_custom_training_loop_in_tensorflow.py
+875,1011,Custom Callback,JJ NN,keras-master,writing_your_own_callbacks.py
+876,1012,Loss And Error Printing Callback,NN CC NN NN NN,keras-master,writing_your_own_callbacks.py
+877,1013,Early Stopping At Min Loss,JJ VBG IN JJ NN,keras-master,writing_your_own_callbacks.py
+878,1014,Custom Learning Rate Scheduler,JJ NN NN NN,keras-master,writing_your_own_callbacks.py
+879,1015,Linear,JJ,keras-master,making_new_layers_and_models_via_subclassing.py
+880,1016,Compute Sum,VB NN,keras-master,making_new_layers_and_models_via_subclassing.py
+881,1019,MLP Block,NNP NN,keras-master,making_new_layers_and_models_via_subclassing.py
+882,1021,Outer Layer,JJ NN,keras-master,making_new_layers_and_models_via_subclassing.py
+883,1022,Outer Layer With Kernel Regularizer,JJ NN IN NN NN,keras-master,making_new_layers_and_models_via_subclassing.py
+884,1025,Custom Dropout,JJ NN,keras-master,making_new_layers_and_models_via_subclassing.py
+885,1026,Sampling,NN,keras-master,making_new_layers_and_models_via_subclassing.py
+886,1027,Encoder,NN,keras-master,making_new_layers_and_models_via_subclassing.py
+887,1028,Decoder,NN,keras-master,making_new_layers_and_models_via_subclassing.py
+888,1029,Variational Auto Encoder,JJ JJ NN,keras-master,making_new_layers_and_models_via_subclassing.py
+889,1030,Custom Model,JJ NN,keras-master,custom_train_step_in_jax.py
+890,1033,My Layer,PRP$ NN,keras-master,understanding_masking_and_padding.py
+891,1034,Temporal Split,JJ NN,keras-master,understanding_masking_and_padding.py
+892,1035,Custom Embedding,JJ NN,keras-master,understanding_masking_and_padding.py
+893,1036,My Activation,PRP$ NN,keras-master,understanding_masking_and_padding.py
+894,1037,Temporal Softmax,JJ NNP,keras-master,understanding_masking_and_padding.py
+895,1039,Custom Dense,JJ NNP,keras-master,functional_api.py
+896,1041,Custom RNN,JJ NNP,keras-master,functional_api.py
+897,1048,GAN,NNP,keras-master,custom_train_step_in_tensorflow.py
+898,1054,Custom MSE,JJ NNP,keras-master,training_with_built_in_methods.py
+899,1055,Categorical True Positives,JJ JJ NNS,keras-master,training_with_built_in_methods.py
+900,1057,Logistic Endpoint,JJ NN,keras-master,training_with_built_in_methods.py
+901,1058,Example Py Dataset,NN NNP NN,keras-master,training_with_built_in_methods.py
+902,1059,Example Torch Dataset,NN NNP NN,keras-master,training_with_built_in_methods.py
+903,1060,Loss History,NN NN,keras-master,training_with_built_in_methods.py
+904,1061,keras export,NNP NN,keras-master,api_export.py
+905,1063,Example Model,NN NN,keras-master,cloning_test.py
+906,1064,Clone Model Test,NN NN NN,keras-master,cloning_test.py
+907,1065,Sequential,JJ,keras-master,sequential.py
+908,1066,Model Test,NN NN,keras-master,model_test.py
+909,1067,Multi Input Model,JJ NN NN,keras-master,model_test.py
+910,1070,Nested Layer,JJ NN,keras-master,model_test.py
+911,1071,Double Nested Layer,JJ JJ NN,keras-master,model_test.py
+912,1072,Variable Mapping Test,JJ NN NN,keras-master,variable_mapping_test.py
+913,1073,Functional,JJ,keras-master,functional.py
+914,1074,Sequential Test,JJ NN,keras-master,sequential_test.py
+915,1075,Dict Layer,NN NN,keras-master,sequential_test.py
+916,1076,List Layer,NN NN,keras-master,sequential_test.py
+917,1077,Dynamic Layer,JJ NN,keras-master,sequential_test.py
+918,1079,Bad Layer,JJ NN,keras-master,sequential_test.py
+919,1080,Model,NN,keras-master,model.py
+920,1081,Functional Test,JJ NN,keras-master,functional_test.py
+921,1082,Canary,NN,keras-master,functional_test.py
+922,1083,Variable,NN,keras-master,exports.py
+923,1084,name scope,NN NN,keras-master,exports.py
+924,1085,JAX Trainer,NNP NN,keras-master,trainer.py
+925,1086,JAX Epoch Iterator,NNP NN NN,keras-master,trainer.py
+926,1087,Jax Layer,NNP NN,keras-master,layer.py
+927,1089,Jax Distribution Lib Test,NNP NN NN NN,keras-master,distribution_lib_test.py
+928,1090,Sharding Capture Layer,NN NN NN,keras-master,distribution_lib_test.py
+929,1091,Jax Optimizer,NNP NN,keras-master,optimizer.py
+930,1092,Device Test,NN NN,keras-master,device_scope_test.py
+931,1093,Compute Output Spec Test,NN NN JJ NN,keras-master,compute_output_spec_test.py
+932,1094,Tensor Flow Trainer,NN NN NNP,keras-master,trainer.py
+933,1095,Deprecated Compiled Metric,VBN VBN NN,keras-master,trainer.py
+934,1096,TF Epoch Iterator,NNP NN NN,keras-master,trainer.py
+935,1097,TF Layer,NNP NN,keras-master,layer.py
+936,1100,Optimizer Distribute Test,NN VB NN,keras-master,optimizer_distribute_test.py
+937,1101,TF Name Scope Test,NNP NN NN NN,keras-master,name_scope_test.py
+938,1102,Custom Model X,JJ NN FW,keras-master,saved_model_test.py
+939,1103,Custom Signature Model,JJ NN NN,keras-master,saved_model_test.py
+940,1104,Saved Model Test,VBN NN NN,keras-master,saved_model_test.py
+941,1105,Custom Layer,JJ NN,keras-master,saved_model_test.py
+942,1109,Custom Layer List,JJ NN NN,keras-master,saved_model_test.py
+943,1110,Custom Layer Dict,JJ NN NN,keras-master,saved_model_test.py
+944,1111,Adder,NN,keras-master,saved_model_test.py
+945,1113,Distribute Test,VB NN,keras-master,distribute_test.py
+946,1114,TF Optimizer,NNP NN,keras-master,optimizer.py
+947,1115,Keras Auto Trackable,NNP JJ JJ,keras-master,trackable.py
+948,1116,Torch Trainer,NNP NN,keras-master,trainer.py
+949,1117,Torch Epoch Iterator,NNP NN NN,keras-master,trainer.py
+950,1118,Torch Layer,NNP NN,keras-master,layer.py
+951,1120,custom gradient,JJ NN,keras-master,core.py
+952,1121,Custom Gradient Function,JJ NN NN,keras-master,core.py
+953,1122,Adam,NNP,keras-master,torch_adam.py
+954,1123,Lion,NNP,keras-master,torch_lion.py
+955,1124,Torch Optimizer,NNP NN,keras-master,torch_optimizer.py
+956,1125,Adam W,NNP FW,keras-master,torch_adamw.py
+957,1126,Nadam,NNP,keras-master,torch_nadam.py
+958,1127,RMS prop,NNP NN,keras-master,torch_rmsprop.py
+959,1128,Ada grad,NNP NN,keras-master,torch_adagrad.py
+960,1129,Ada max,NNP NN,keras-master,torch_adamax.py
+961,1130,SGD,NNP,keras-master,torch_sgd.py
+962,1131,Torch Parallel Optimizer,NNP JJ NN,keras-master,torch_parallel_optimizer.py
+963,1132,Ada delta,NNP NN,keras-master,torch_adadelta.py
+964,1133,Numpy Trainer,NNP NN,keras-master,trainer.py
+965,1134,Numpy Layer,NNP NN,keras-master,layer.py
+966,1136,Keras Variable,NNP NN,keras-master,variables.py
+967,1137,Auto cast Scope,JJ NN NN,keras-master,variables.py
+968,1138,Variable Initialization Test,NN NN NN,keras-master,variables_test.py
+969,1139,Variable Properties Test,NN NNS NN,keras-master,variables_test.py
+970,1140,Variable Numpy Value And Assignment Test,NN NNP NN CC NN NN,keras-master,variables_test.py
+971,1141,Variable D type Shape N dim Repr,NN FW NN NN FW NN NNP,keras-master,variables_test.py
+972,1142,Variable Operations Test,NN NNPS NN,keras-master,variables_test.py
+973,1143,Variable Binary Operations Test,NN JJ NNPS NN,keras-master,variables_test.py
+974,1144,Test Standardize Shape With Torch,VB VB NN IN NNP,keras-master,variables_test.py
+975,1145,Test Standardize Shape With Out Torch,VB VB NN IN RP NNP,keras-master,variables_test.py
+976,1146,Keras Tensor Test,NNP NN NN,keras-master,keras_tensor_test.py
+977,1147,Convert Conv Transpose Padding Args JAX Test,VB NN NN NN NNP NNP NN,keras-master,backend_utils_test.py
+978,1148,Convert Conv Transpose Padding Args Torch Test,VB NN NN NN NNP NNP NN,keras-master,backend_utils_test.py
+979,1149,Compute Conv Transpose Padding Args For JAX Test,VB NN NN NN NNP IN NNP NN,keras-master,backend_utils_test.py
+980,1150,Compute Conv Transpose Padding Args For Torch Test,VB NN NN NN NNP IN NNP NN,keras-master,backend_utils_test.py
+981,1151,Get Output Shape Given TF Padding Test,VB NN NN VBN NNP NN NN,keras-master,backend_utils_test.py
+982,1152,D types Test,FW NNS NN,keras-master,dtypes_test.py
+983,1153,Test Stateless Scope,VB JJ NN,keras-master,stateless_scope_test.py
+984,1154,Global State Test,JJ NN NN,keras-master,global_state_test.py
+985,1156,Stateless Scope,JJ NN,keras-master,stateless_scope.py
+986,1157,Name Scope Test,NN NN NN,keras-master,name_scope_test.py
+987,1158,Keras Tensor,NNP NN,keras-master,keras_tensor.py
+988,1160,Container,NN,keras-master,compute_output_spec_test.py
+989,1161,Random Layer,JJ NN,keras-master,export_lib_test.py
+990,1162,Export Archive Test,NN NN NN,keras-master,export_lib_test.py
+991,1165,Test TFSM Layer,VB NNP NN,keras-master,export_lib_test.py
+992,1166,Export Archive,VB NN,keras-master,export_lib.py
+993,1167,TFSM Layer,NNP NN,keras-master,export_lib.py
+994,1168,Serializable Dict,JJ NN,keras-master,serialization_lib.py
+995,1169,Safe Mode Scope,JJ NN NN,keras-master,serialization_lib.py
+996,1170,Object Sharing Scope,NN NN NN,keras-master,serialization_lib.py
+997,1171,Disk IO Store,NN NNP NN,keras-master,saving_lib.py
+998,1172,H 5 IO Store,FW CD NNP NN,keras-master,saving_lib.py
+999,1173,H 5 Entry,FW CD NN,keras-master,saving_lib.py
+1000,1174,Npz IO Store,NNP NNP NN,keras-master,saving_lib.py
+1001,1175,Custom Object Scope,JJ NN NN,keras-master,object_registration.py
+1002,1177,Layer With Custom Saving,NN IN JJ NN,keras-master,saving_lib_test.py
+1003,1179,Model With Custom Saving,NN IN JJ NN,keras-master,saving_lib_test.py
+1004,1180,Compile Overriding Model,VB JJ NN,keras-master,saving_lib_test.py
+1005,1181,Compile Overriding Sequential,VB JJ JJ,keras-master,saving_lib_test.py
+1006,1182,Subclass Functional,NN JJ,keras-master,saving_lib_test.py
+1007,1183,Saving Test,VBG NN,keras-master,saving_lib_test.py
+1008,1184,Saving API Test,VBG NNP NN,keras-master,saving_lib_test.py
+1009,1185,Growth Factor,NN NN,keras-master,saving_lib_test.py
+1010,1186,Factor Layer,NN NN,keras-master,saving_lib_test.py
+1011,1187,Complex Model,JJ NN,keras-master,saving_lib_test.py
+1012,1188,Saving Battle Test,VBG NN NN,keras-master,saving_lib_test.py
+1013,1189,Normal Model,JJ NN,keras-master,saving_lib_test.py
+1014,1190,Weird Model,JJ NN,keras-master,saving_lib_test.py
+1015,1191,Save Model Tests,VB NN NNS,keras-master,saving_api_test.py
+1016,1192,Load Model Tests,VB NN NNS,keras-master,saving_api_test.py
+1017,1194,Load Weights Tests,VB NNS NNS,keras-master,saving_api_test.py
+1018,1195,Save Model Tests Warning,VB NN NNS NN,keras-master,saving_api_test.py
+1019,1197,Nested Custom Layer,JJ JJ NN,keras-master,serialization_lib_test.py
+1020,1198,Wrapper Layer,NN NN,keras-master,serialization_lib_test.py
+1021,1199,Serialization Lib Test,NN NN NN,keras-master,serialization_lib_test.py
+1022,1200,Plain Functional Subclass,JJ JJ NN,keras-master,serialization_lib_test.py
+1023,1201,Functional Subclass W Custom Init,JJ NN FW JJ NN,keras-master,serialization_lib_test.py
+1024,1203,Shared Activation,JJ NN,keras-master,serialization_lib_test.py
+1025,1205,My Wrapper,PRP$ NN,keras-master,serialization_lib_test.py
+1026,1206,Test Object Registration,VB NN NN,keras-master,object_registration_test.py
+1027,1207,Custom Class,JJ NN,keras-master,object_registration_test.py
+1028,1208,Test Class,NN NN,keras-master,object_registration_test.py
+1029,1209,Other Test Class,JJ NN NN,keras-master,object_registration_test.py
+1030,1211,Alpha Dropout,NN NN,keras-master,layers.py
+1031,1212,Random Height,JJ NN,keras-master,layers.py
+1032,1213,Random Width,JJ NN,keras-master,layers.py
+1033,1214,Thresholded Re LU,VBN NNP NNP,keras-master,layers.py
+1034,1215,Reduction,NN,keras-master,losses.py
+1035,1216,Timeseries Generator,NNS NN,keras-master,sequence.py
+1036,1217,Iterator,NN,keras-master,image.py
+1037,1218,Batch From Files Mixin,NN IN NNS NN,keras-master,image.py
+1038,1219,Directory Iterator,NN NN,keras-master,image.py
+1039,1220,Numpy Array Iterator,NNP NN NN,keras-master,image.py
+1040,1221,Data Frame Iterator,NN NN NN,keras-master,image.py
+1041,1222,Image Data Generator,NN NN NN,keras-master,image.py
+1042,1223,Tokenizer,NN,keras-master,text.py
+1043,1224,Json Utils Test All Backends,NNP NNS NN DT NNS,keras-master,json_utils_test.py
+1044,1225,Enum,NN,keras-master,json_utils_test.py
+1045,1226,Json Utils Test TF,NNP NNS NN NNP,keras-master,json_utils_test.py
+1046,1227,Masked Tensor,VBN NN,keras-master,json_utils_test.py
+1047,1228,Disable Shared Object Scope,VB VBN NN NN,keras-master,serialization.py
+1048,1229,Noop Loading Scope,NN NN NN,keras-master,serialization.py
+1049,1230,Shared Object Loading Scope,VBN NN NN NN,keras-master,serialization.py
+1050,1231,Shared Object Config,VBN NN NN,keras-master,serialization.py
+1051,1232,Shared Object Saving Scope,VBN NN NN NN,keras-master,serialization.py
+1052,1235,Legacy H 5 Weights Test,NN FW CD NNS NN,keras-master,legacy_h5_format_test.py
+1053,1236,Legacy H 5 Whole Model Test,NN FW CD JJ NN NN,keras-master,legacy_h5_format_test.py
+1054,1240,Registered Sub Layer,JJ NN NN,keras-master,legacy_h5_format_test.py
+1055,1241,Legacy H 5 Backwards Compat Test,NN FW CD NNS NN NN,keras-master,legacy_h5_format_test.py
+1056,1250,Directory Creation Test,NN NN NN,keras-master,legacy_h5_format_test.py
+1057,1251,Re LU,NNP NNP,keras-master,activations.py
+1058,1252,Mish,NNP,keras-master,activations.py
+1059,1253,Activations Test,NNS NN,keras-master,activations_test.py
+1060,1254,Loss,NN,keras-master,loss.py
+1061,1255,Example Loss,NN NN,keras-master,loss_test.py
+1062,1256,Loss Test,NN NN,keras-master,loss_test.py
+1063,1257,Mean Squared Error Test,JJ JJ NN NN,keras-master,losses_test.py
+1064,1258,Mean Absolute Error Test,JJ JJ NN NN,keras-master,losses_test.py
+1065,1259,Mean Absolute Percentage Error Test,JJ JJ NN NN NN,keras-master,losses_test.py
+1066,1260,Mean Squared Logarithmic Error Test,JJ JJ JJ NN NN,keras-master,losses_test.py
+1067,1261,Hinge Test,NN NN,keras-master,losses_test.py
+1068,1262,Squared Hinge Test,JJ NN NN,keras-master,losses_test.py
+1069,1263,Categorical Hinge Test,JJ NN NN,keras-master,losses_test.py
+1070,1264,Cosine Similarity Test,NN NN NN,keras-master,losses_test.py
+1071,1265,Huber Loss Test,NNP NNP NN,keras-master,losses_test.py
+1072,1266,Log Cosh Test,NN NN NN,keras-master,losses_test.py
+1073,1267,KL Divergence Test,NNP NN NN,keras-master,losses_test.py
+1074,1268,Poisson Test,NN NN,keras-master,losses_test.py
+1075,1269,Binary Crossentropy Test,JJ NNP NN,keras-master,losses_test.py
+1076,1270,Categorical Crossentropy Test,JJ NNP NN,keras-master,losses_test.py
+1077,1271,Sparse Categorical Crossentropy Test,JJ JJ NNP NN,keras-master,losses_test.py
+1078,1272,Binary Focal Crossentropy Test,JJ JJ NNP NN,keras-master,losses_test.py
+1079,1273,Categorical Focal Crossentropy Test,JJ JJ NNP NN,keras-master,losses_test.py
+1080,1274,CTC Test,NNP NN,keras-master,losses_test.py
+1081,1275,Dice Test,NN NN,keras-master,losses_test.py
+1082,1276,Loss Function Wrapper,NN NN NN,keras-master,losses.py
+1083,1277,Mean Squared Error,JJ JJ NN,keras-master,losses.py
+1084,1278,Mean Absolute Error,JJ JJ NN,keras-master,losses.py
+1085,1279,Mean Absolute Percentage Error,JJ JJ NN NN,keras-master,losses.py
+1086,1280,Mean Squared Logarithmic Error,JJ JJ JJ NN,keras-master,losses.py
+1087,1281,Cosine Similarity,NN NN,keras-master,losses.py
+1088,1282,Huber,NNP,keras-master,losses.py
+1089,1283,Log Cosh,NN NNP,keras-master,losses.py
+1090,1284,Hinge,NN,keras-master,losses.py
+1091,1285,Squared Hinge,JJ NN,keras-master,losses.py
+1092,1286,Categorical Hinge,JJ NN,keras-master,losses.py
+1093,1287,KL Divergence,NNP NN,keras-master,losses.py
+1094,1288,Poisson,NN,keras-master,losses.py
+1095,1289,Binary Crossentropy,JJ NNP,keras-master,losses.py
+1096,1290,Binary Focal Crossentropy,JJ JJ NNP,keras-master,losses.py
+1097,1291,Categorical Crossentropy,JJ NNP,keras-master,losses.py
+1098,1292,Categorical Focal Crossentropy,JJ JJ NNP,keras-master,losses.py
+1099,1293,Sparse Categorical Crossentropy,JJ JJ NNP,keras-master,losses.py
+1100,1294,CTC,NNP,keras-master,losses.py
+1101,1295,Dice,NN,keras-master,losses.py
+1102,1296,Device Mesh,NN NN,keras-master,distribution_lib.py
+1103,1297,Tensor Layout,NNP NN,keras-master,distribution_lib.py
+1104,1298,Distribution,NN,keras-master,distribution_lib.py
+1105,1299,Data Parallel,NNS NN,keras-master,distribution_lib.py
+1106,1300,Model Parallel,NN NN,keras-master,distribution_lib.py
+1107,1301,Layout Map,NN NN,keras-master,distribution_lib.py
+1108,1302,Multi Process Initialize Test,JJ NN VBP NN,keras-master,distribution_lib_test.py
+1109,1303,Device Mesh Test,NN NN NN,keras-master,distribution_lib_test.py
+1110,1304,Tensor Layout Test,NNP NN NN,keras-master,distribution_lib_test.py
+1111,1305,Distribution Test,NN NN,keras-master,distribution_lib_test.py
+1112,1306,Data Parallel Distribution Test,NNS JJ NN NN,keras-master,distribution_lib_test.py
+1113,1307,Model Parallel Distribution Test,NN JJ NN NN,keras-master,distribution_lib_test.py
+1114,1308,Layout Map Test,NN NN NN,keras-master,distribution_lib_test.py
+1115,1309,Seed Generator Test,NN NN NN,keras-master,seed_generator_test.py
+1116,1310,Random Test,JJ NN,keras-master,random_test.py
+1117,1311,Seed Generator,NN NN,keras-master,seed_generator.py
+1118,1312,Optimizer Test,NN NN,keras-master,optimizer_test.py
+1119,1313,Ada max Test,NNP NN NN,keras-master,adamax_test.py
+1120,1314,Adam W Test,NNP FW NNP,keras-master,adamw_test.py
+1121,1315,Ftrl,NNP,keras-master,ftrl.py
+1122,1316,RMS prop Test,NNP NN NN,keras-master,rmsprop_test.py
+1123,1317,Scatter Update Optimizer,NN NN NN,keras-master,optimizer_sparse_test.py
+1124,1318,Optimizer Sparse Test,NN JJ NN,keras-master,optimizer_sparse_test.py
+1125,1319,Ada delta Test,NNP NN NN,keras-master,adadelta_test.py
+1126,1320,Loss Scale Optimizer,NN NN NN,keras-master,loss_scale_optimizer.py
+1127,1322,Loss Scale Optimizer Test,NN NN NN NN,keras-master,loss_scale_optimizer_test.py
+1128,1324,Ftrl Test,NNP NN,keras-master,ftrl_test.py
+1129,1328,SGD Test,NNP NN,keras-master,sgd_test.py
+1130,1330,Base Optimizer,JJ NN,keras-master,base_optimizer.py
+1131,1332,Ada grad Test,NNP NN NN,keras-master,adagrad_test.py
+1132,1333,Ada factor,NNP NN,keras-master,adafactor.py
+1133,1334,Adam Test,NNP NN,keras-master,adam_test.py
+1134,1336,Lion Test,NNP NN,keras-master,lion_test.py
+1135,1338,Legacy Optimizer Warning,NN NN NN,keras-master,__init__.py
+1136,1339,Optimizer,NN,keras-master,optimizer.py
+1137,1340,Ada factor Test,NNP NN NN,keras-master,adafactor_test.py
+1138,1341,Nadam Test,NNP NN,keras-master,nadam_test.py
+1139,1342,Learning Rate Schedule,NN NN NN,keras-master,learning_rate_schedule.py
+1140,1343,Exponential Decay,JJ NN,keras-master,learning_rate_schedule.py
+1141,1344,Piecewise Constant Decay,JJ JJ NN,keras-master,learning_rate_schedule.py
+1142,1345,Polynomial Decay,JJ NN,keras-master,learning_rate_schedule.py
+1143,1346,Inverse Time Decay,JJ NN NN,keras-master,learning_rate_schedule.py
+1144,1347,Cosine Decay,NN NN,keras-master,learning_rate_schedule.py
+1145,1348,Cosine Decay Restarts,NN NN NNS,keras-master,learning_rate_schedule.py
+1146,1349,Test Fit LR Schedules Flow,VB NN NNP NNS NN,keras-master,learning_rate_schedule_test.py
+1147,1350,Exponential Decay Test,JJ NN NN,keras-master,learning_rate_schedule_test.py
+1148,1351,Piecewise Constant Decay Test,JJ JJ NN NN,keras-master,learning_rate_schedule_test.py
+1149,1352,Linear Decay Test,JJ NN NN,keras-master,learning_rate_schedule_test.py
+1150,1353,Sqrt Decay Test,NNP NN NN,keras-master,learning_rate_schedule_test.py
+1151,1354,Inverse Time Decay Test,JJ NN NN NN,keras-master,learning_rate_schedule_test.py
+1152,1355,Cosine Decay Test,NN NN NN,keras-master,learning_rate_schedule_test.py
+1153,1356,Cosine Decay Restarts Test,NN NN NNS NN,keras-master,learning_rate_schedule_test.py
+1154,1357,Constraints Test,NNS NN,keras-master,constraints_test.py
+1155,1358,Constraint,NN,keras-master,constraints.py
+1156,1359,Max Norm,JJ NN,keras-master,constraints.py
+1157,1360,Non Neg,RB NN,keras-master,constraints.py
+1158,1361,Unit Norm,NN NN,keras-master,constraints.py
+1159,1362,Min Max Norm,JJ JJ NN,keras-master,constraints.py
+1160,1363,Regularizers Test,NNS NN,keras-master,regularizers_test.py
+1161,1364,Validate Float Arg Test,VB NN NN NN,keras-master,regularizers_test.py
+1162,1365,Regularizer,NNP,keras-master,regularizers.py
+1163,1366,L 1 L 2,FW CD FW CD,keras-master,regularizers.py
+1164,1367,L 1,FW CD,keras-master,regularizers.py
+1165,1368,L 2,FW CD,keras-master,regularizers.py
+1166,1369,Orthogonal Regularizer,JJ NN,keras-master,regularizers.py
+1167,1370,Naming Utils Test,NN NNPS NN,keras-master,naming_test.py
+1168,1371,Object Without Name,NN IN NN,keras-master,naming_test.py
+1169,1372,Object Without Name Or Class,NN IN NN CC NN,keras-master,naming_test.py
+1170,1373,Mock Keras Object,JJ NNP NN,keras-master,naming_test.py
+1171,1374,Path To String Test,NN IN NN NN,keras-master,file_utils_test.py
+1172,1375,Non String Typed Path Object,RB NN JJ NN NN,keras-master,file_utils_test.py
+1173,1376,Resolve Path Test,VB NN NN,keras-master,file_utils_test.py
+1174,1377,Is Path In Dir Test,VBZ NN IN NN NN,keras-master,file_utils_test.py
+1175,1378,Is Link In Dir Test,VBZ NN IN NN NN,keras-master,file_utils_test.py
+1176,1379,Filter Safe Paths Test,VB JJ NNS NN,keras-master,file_utils_test.py
+1177,1380,Extract Archive Test,VB NNP NN,keras-master,file_utils_test.py
+1178,1381,Get File Test,VB NN NN,keras-master,file_utils_test.py
+1179,1382,Hash File Test,VB NN NN,keras-master,file_utils_test.py
+1180,1383,Test Validate File,VB VB NN,keras-master,file_utils_test.py
+1181,1384,Resolve Hasher Test,VB NN NN,keras-master,file_utils_test.py
+1182,1385,Is Remote Path Test,VBZ JJ NN NN,keras-master,file_utils_test.py
+1183,1386,Test Raise If No G File,VB VB IN DT FW NN,keras-master,file_utils_test.py
+1184,1387,Text Dataset From Directory Test,VB NN IN NN NN,keras-master,text_dataset_utils_test.py
+1185,1388,Torch Module Wrapper,NNP NN NN,keras-master,torch_utils.py
+1186,1389,Image Dataset From Directory Test,NN NN IN NN NN,keras-master,image_dataset_utils_test.py
+1187,1391,Flax Layer,NN NN,keras-master,jax_layer.py
+1188,1392,Timeseries Dataset Test,NNS NN NN,keras-master,timeseries_dataset_utils_test.py
+1189,1393,Tree Test,NN NN,keras-master,tree_test.py
+1190,1394,Prog bar,NN NN,keras-master,progbar.py
+1191,1395,Dot Not Track Scope,NN RB VBP NN,keras-master,tracking.py
+1192,1396,Tracker,NN,keras-master,tracking.py
+1193,1397,Tracked List,VBN NN,keras-master,tracking.py
+1194,1398,Tracked Dict,VBN NN,keras-master,tracking.py
+1195,1399,Tracked Set,VBN NN,keras-master,tracking.py
+1196,1400,Dataset Utils Test,NN NNS NN,keras-master,dataset_utils_test.py
+1197,1401,Dataset,NN,keras-master,dataset_utils_test.py
+1198,1402,Classifier,NN,keras-master,torch_utils_test.py
+1199,1403,Classifier With No Special Casing,NN IN DT JJ NN,keras-master,torch_utils_test.py
+1200,1404,Torch Utils Test,NNP NNS NN,keras-master,torch_utils_test.py
+1201,1405,Test Numerical Utils,VB JJ NNS,keras-master,numerical_utils_test.py
+1202,1406,Flax Training Independent Model,NN NN JJ NN,keras-master,jax_layer_test.py
+1203,1407,Flax Dropout Model,NN NN NN,keras-master,jax_layer_test.py
+1204,1408,Flax Batch Norm Model,NN NN NN NN,keras-master,jax_layer_test.py
+1205,1409,Test Jax Layer,VB NNP NN,keras-master,jax_layer_test.py
+1206,1410,Test Model,VB NN,keras-master,jax_layer_test.py
+1207,1411,My Flax Layer,PRP$ NN NN,keras-master,jax_layer_test.py
+1208,1412,Named Point,JJ NN,keras-master,jax_layer_test.py
+1209,1413,Tracking Test,NN NN,keras-master,tracking_test.py
+1210,1414,TF Graph Scope,NNP NN NN,keras-master,backend_utils.py
+1211,1415,Dynamic Backend,JJ NN,keras-master,backend_utils.py
+1212,1416,DL Prog bar,NNP NNS NN,keras-master,file_utils.py
+1213,1417,Python Utils Test,NNP NNS NN,keras-master,python_utils_test.py
+1214,1418,Lazy Module,JJ NN,keras-master,module_utils.py
+1215,1419,Test Random Seed Setting,VB JJ NN NN,keras-master,rng_utils_test.py
+1216,1420,Test Io Utils,VB NNP NNS,keras-master,io_utils_test.py
+1217,1421,Test Count Loc,VB NN NN,keras-master,code_stats_test.py
+1218,1422,Map To None,VB IN PRP,keras-master,tree.py
+1219,1423,Pad Sequences Test,VB NNS NN,keras-master,sequence_utils_test.py
+1220,1424,Summary Utils Test,VB NNS NN,keras-master,summary_utils_test.py
+1221,1425,D type Size Tests,FW NN NN NNS,keras-master,dtype_utils_test.py
+1222,1426,Is Float Tests,VBZ NN NNS,keras-master,dtype_utils_test.py
+1223,1427,Cast To Common D type,VB IN JJ FW NN,keras-master,dtype_utils_test.py
+1224,1428,Audio Dataset From Directory Test,NN NN IN NN NN,keras-master,audio_dataset_utils_test.py
+1225,1429,Segment Sum,NN NN,keras-master,math.py
+1226,1430,Segment Max,NN NN,keras-master,math.py
+1227,1431,Top K,JJ CD,keras-master,math.py
+1228,1432,In Top K,IN JJ CD,keras-master,math.py
+1229,1433,Logsumexp,NNP,keras-master,math.py
+1230,1434,Extract Sequences,VB NNS,keras-master,math.py
+1231,1435,FFT,NNP,keras-master,math.py
+1232,1436,FFT 2,NNP CD,keras-master,math.py
+1233,1437,RFFT,NNP,keras-master,math.py
+1234,1438,IRFFT,NNP,keras-master,math.py
+1235,1439,STFT,NNP,keras-master,math.py
+1236,1440,ISTFT,NNP,keras-master,math.py
+1237,1441,R sqrt,NNP NNP,keras-master,math.py
+1238,1442,Erf,NNP,keras-master,math.py
+1239,1443,Erf inv,NNP NNP,keras-master,math.py
+1240,1444,Dummy Layer,JJ NN,keras-master,node_test.py
+1241,1445,Node Test,NN NN,keras-master,node_test.py
+1242,1446,Op With Multiple Inputs,NN IN JJ NNS,keras-master,operation_test.py
+1243,1447,Op With Multiple Outputs,NN IN JJ NNS,keras-master,operation_test.py
+1244,1448,Op With Custom Constructor,NN IN JJ NN,keras-master,operation_test.py
+1245,1449,Operation Test,NN NN,keras-master,operation_test.py
+1246,1450,Absolute,JJ,keras-master,numpy.py
+1247,1451,Abs,JJ,keras-master,numpy.py
+1248,1452,Add,VB,keras-master,numpy.py
+1249,1453,All,DT,keras-master,numpy.py
+1250,1454,Any,DT,keras-master,numpy.py
+1251,1455,A max,DT NN,keras-master,numpy.py
+1252,1456,Amin,NNP,keras-master,numpy.py
+1253,1457,Append,VB,keras-master,numpy.py
+1254,1458,A range,DT NN,keras-master,numpy.py
+1255,1459,Arccos,NNP,keras-master,numpy.py
+1256,1460,Arc cosh,NNP NN,keras-master,numpy.py
+1257,1461,Arcsin,NNP,keras-master,numpy.py
+1258,1462,Arc sinh,NNP NNP,keras-master,numpy.py
+1259,1463,Arctan,NNP,keras-master,numpy.py
+1260,1464,Arctan 2,NNP CD,keras-master,numpy.py
+1261,1465,Arc tanh,NNP NNP,keras-master,numpy.py
+1262,1466,Arg max,NNP JJ,keras-master,numpy.py
+1263,1467,Arg min,NNP JJ,keras-master,numpy.py
+1264,1468,Arg sort,NN NN,keras-master,numpy.py
+1265,1469,Array,NN,keras-master,numpy.py
+1266,1470,Average,NN,keras-master,numpy.py
+1267,1471,Bin count,JJ NN,keras-master,numpy.py
+1268,1472,Broadcast To,VB IN,keras-master,numpy.py
+1269,1473,Ceil,VB,keras-master,numpy.py
+1270,1474,Clip,VB,keras-master,numpy.py
+1271,1475,Concatenate,VB,keras-master,numpy.py
+1272,1476,Conjugate,VB,keras-master,numpy.py
+1273,1477,Conj,VB,keras-master,numpy.py
+1274,1478,Copy,VB,keras-master,numpy.py
+1275,1479,Cos,NN,keras-master,numpy.py
+1276,1480,Cosh,NN,keras-master,numpy.py
+1277,1481,Count Nonzero,VB JJ,keras-master,numpy.py
+1278,1482,Cross,VB,keras-master,numpy.py
+1279,1483,Cumprod,NNP,keras-master,numpy.py
+1280,1484,Cumsum,NNP,keras-master,numpy.py
+1281,1485,Diag,NN,keras-master,numpy.py
+1282,1486,Diagonal,NN,keras-master,numpy.py
+1283,1487,Diff,NN,keras-master,numpy.py
+1284,1488,Digitize,VB,keras-master,numpy.py
+1285,1489,Dot,VB,keras-master,numpy.py
+1286,1490,Einsum,NNP,keras-master,numpy.py
+1287,1491,Empty,JJ,keras-master,numpy.py
+1288,1492,Equal,JJ,keras-master,numpy.py
+1289,1493,Exp,NN,keras-master,numpy.py
+1290,1494,Expand Dims,VB NNS,keras-master,numpy.py
+1291,1495,Expm 1,NNP CD,keras-master,numpy.py
+1292,1496,Flip,VB,keras-master,numpy.py
+1293,1497,Floor,VB,keras-master,numpy.py
+1294,1498,Full,JJ,keras-master,numpy.py
+1295,1499,Full Like,JJ JJ,keras-master,numpy.py
+1296,1500,Get Item,VB NN,keras-master,numpy.py
+1297,1501,Greater,JJR,keras-master,numpy.py
+1298,1502,Greater Equal,JJR JJ,keras-master,numpy.py
+1299,1503,H stack,FW NN,keras-master,numpy.py
+1300,1504,Identity,NN,keras-master,numpy.py
+1301,1505,I mag,PRP VBP,keras-master,numpy.py
+1302,1506,Is close,VBZ JJ,keras-master,numpy.py
+1303,1507,Is finite,VBZ JJ,keras-master,numpy.py
+1304,1508,Is inf,VBZ NNP,keras-master,numpy.py
+1305,1509,Is nan,VBZ NNP,keras-master,numpy.py
+1306,1510,Less,JJR,keras-master,numpy.py
+1307,1511,Less Equal,JJR JJ,keras-master,numpy.py
+1308,1512,Linspace,NNP,keras-master,numpy.py
+1309,1513,Log,NN,keras-master,numpy.py
+1310,1514,Log10,NNP,keras-master,numpy.py
+1311,1515,Log 1 p,NN CD FW,keras-master,numpy.py
+1312,1516,Log2,NNP,keras-master,numpy.py
+1313,1517,Log add exp,NN VBP NN,keras-master,numpy.py
+1314,1518,Logical And,JJ CC,keras-master,numpy.py
+1315,1519,Logical Not,JJ RB,keras-master,numpy.py
+1316,1520,Logical Or,JJ CC,keras-master,numpy.py
+1317,1521,Log space,VB NN,keras-master,numpy.py
+1318,1522,Mat mul,NN NN,keras-master,numpy.py
+1319,1523,Max,NN,keras-master,numpy.py
+1320,1524,Maximum,NN,keras-master,numpy.py
+1321,1525,Median,NN,keras-master,numpy.py
+1322,1526,Mesh grid,NN NN,keras-master,numpy.py
+1323,1527,Min,NN,keras-master,numpy.py
+1324,1528,Minimum,NN,keras-master,numpy.py
+1325,1529,Mod,NN,keras-master,numpy.py
+1326,1530,Move axis,NN NN,keras-master,numpy.py
+1327,1531,Nan To Num,NNP IN NN,keras-master,numpy.py
+1328,1532,N dim,FW NN,keras-master,numpy.py
+1329,1533,Nonzero,NNP,keras-master,numpy.py
+1330,1534,Not Equal,RB JJ,keras-master,numpy.py
+1331,1535,Ones Like,NN CC,keras-master,numpy.py
+1332,1536,Zeros Like,NNS CC,keras-master,numpy.py
+1333,1537,Outer,JJ,keras-master,numpy.py
+1334,1538,Pad,NN,keras-master,numpy.py
+1335,1539,Prod,NN,keras-master,numpy.py
+1336,1540,Quantile,NN,keras-master,numpy.py
+1337,1541,Ravel,VB,keras-master,numpy.py
+1338,1542,Real,JJ,keras-master,numpy.py
+1339,1543,Reciprocal,JJ,keras-master,numpy.py
+1340,1544,Repeat,VB,keras-master,numpy.py
+1341,1545,Reshape,VB,keras-master,numpy.py
+1342,1546,Roll,VB,keras-master,numpy.py
+1343,1547,Round,VB,keras-master,numpy.py
+1344,1548,Sign,VB,keras-master,numpy.py
+1345,1549,Sin,NNP,keras-master,numpy.py
+1346,1550,Sinh,NNP,keras-master,numpy.py
+1347,1551,Size,NN,keras-master,numpy.py
+1348,1552,Sort,VB,keras-master,numpy.py
+1349,1553,Split,VB,keras-master,numpy.py
+1350,1554,Stack,NN,keras-master,numpy.py
+1351,1555,Std,NNP,keras-master,numpy.py
+1352,1556,Swapaxes,NNPS,keras-master,numpy.py
+1353,1557,Take,VB,keras-master,numpy.py
+1354,1558,Take Along Axis,VB IN NN,keras-master,numpy.py
+1355,1559,Tan,NNP,keras-master,numpy.py
+1356,1560,Tanh,NNP,keras-master,numpy.py
+1357,1561,Tensor dot,NN NN,keras-master,numpy.py
+1358,1562,Tile,VB,keras-master,numpy.py
+1359,1563,Trace,VB,keras-master,numpy.py
+1360,1564,Tri,NNP,keras-master,numpy.py
+1361,1565,Tril,NNP,keras-master,numpy.py
+1362,1566,Triu,NNP,keras-master,numpy.py
+1363,1567,V dot,FW NN,keras-master,numpy.py
+1364,1568,V stack,FW NN,keras-master,numpy.py
+1365,1569,Where,WRB,keras-master,numpy.py
+1366,1570,Subtract,VB,keras-master,numpy.py
+1367,1571,Multiply,VB,keras-master,numpy.py
+1368,1572,Divide,VB,keras-master,numpy.py
+1369,1573,Divide No Nan,VB DT NNP,keras-master,numpy.py
+1370,1574,True Divide,RB VB,keras-master,numpy.py
+1371,1575,Power,NN,keras-master,numpy.py
+1372,1576,Negative,VB,keras-master,numpy.py
+1373,1577,Square,VB,keras-master,numpy.py
+1374,1578,Sqrt,NNP,keras-master,numpy.py
+1375,1579,Squeeze,VB,keras-master,numpy.py
+1376,1580,Transpose,VB,keras-master,numpy.py
+1377,1581,Mean,VB,keras-master,numpy.py
+1378,1582,Var,NNP,keras-master,numpy.py
+1379,1583,Sum,NN,keras-master,numpy.py
+1380,1584,Zeros,NNS,keras-master,numpy.py
+1381,1585,Ones,NNS,keras-master,numpy.py
+1382,1586,Eye,NN,keras-master,numpy.py
+1383,1587,Floor Divide,NN NN,keras-master,numpy.py
+1384,1588,Logical Xor,JJ NNP,keras-master,numpy.py
+1385,1589,Correlate,VB,keras-master,numpy.py
+1386,1590,Function,NN,keras-master,function.py
+1387,1591,NN Ops Dynamic Shape Test,NNP NNP JJ NN NN,keras-master,nn_test.py
+1388,1592,Softmax Layer,NNP NN,keras-master,nn_test.py
+1389,1594,NN Ops Static Shape Test,NNP NN JJ NN NN,keras-master,nn_test.py
+1390,1595,NN Ops Correctness Test,NNP NN NN NN,keras-master,nn_test.py
+1391,1596,Test Logit Recovery,VB NN NN,keras-master,nn_test.py
+1392,1597,NN Ops D type Test,NNP NN JJ NN NN,keras-master,nn_test.py
+1393,1598,Linalg Ops Dynamic Shape Test,NNP NN JJ NN NN,keras-master,linalg_test.py
+1394,1599,Linalg Ops Static Shape Test,NNP NN JJ NN NN,keras-master,linalg_test.py
+1395,1600,Linalg Ops Correctness Test,NNP NN NN NN,keras-master,linalg_test.py
+1396,1601,Qr Op Test,NNP NN NN,keras-master,linalg_test.py
+1397,1602,Scatter,NN,keras-master,core.py
+1398,1603,Scatter Update,NN NN,keras-master,core.py
+1399,1604,Slice,NN,keras-master,core.py
+1400,1605,Slice Update,NN NN,keras-master,core.py
+1401,1606,While Loop,IN NN,keras-master,core.py
+1402,1607,Stop Gradient,VB NN,keras-master,core.py
+1403,1608,F ori Loop,FW NNP NN,keras-master,core.py
+1404,1609,Unstack,NNP,keras-master,core.py
+1405,1610,Cast,VB,keras-master,core.py
+1406,1611,Cond,NNP,keras-master,core.py
+1407,1612,Symbolic Arguments,JJ NNS,keras-master,symbolic_arguments.py
+1408,1613,Math Ops Dynamic Shape Test,NN NN JJ NN NN,keras-master,math_test.py
+1409,1614,Math Ops Static Shape Test,NN NN JJ NN NN,keras-master,math_test.py
+1410,1615,Math Ops Correctness Test,NN NN NN NN,keras-master,math_test.py
+1411,1616,Math D type Test,NN FW NN NN,keras-master,math_test.py
+1412,1617,Extract Sequences Op Test,VB NNS NNP NN,keras-master,math_test.py
+1413,1618,Segment Sum Test,NN NN NN,keras-master,math_test.py
+1414,1619,Segment Max Test,NN NN NNP,keras-master,math_test.py
+1415,1620,Top K Test,JJ CD NN,keras-master,math_test.py
+1416,1621,In Top K Test,IN JJ CD NN,keras-master,math_test.py
+1417,1622,Logsumexp Test,NNP NN,keras-master,math_test.py
+1418,1623,FFT Test,NNP NN,keras-master,math_test.py
+1419,1624,FFT 2 Test,NNP CD NN,keras-master,math_test.py
+1420,1625,RFFT Test,NNP NN,keras-master,math_test.py
+1421,1626,ISTFT Test,NNP NN,keras-master,math_test.py
+1422,1627,Operation Utils Test,NN NNS NN,keras-master,operation_utils_test.py
+1423,1628,Numpy Two Input Ops Dynamic Shape Test,NNP CD NN NN JJ NN NN,keras-master,numpy_test.py
+1424,1629,Numpy Two Input Ops Static Shape Test,NNP CD NN NN JJ NN NN,keras-master,numpy_test.py
+1425,1630,Numpy One Input Ops Dynamic Shape Test,NNP CD NN NN JJ NN NN,keras-master,numpy_test.py
+1426,1631,Numpy One Input Ops Static Shape Test,NNP CD NN NN JJ NN NN,keras-master,numpy_test.py
+1427,1632,Numpy Two Input Ops Corretness Test,NNP CD NN NN NN NN,keras-master,numpy_test.py
+1428,1633,Numpy One Input Ops Correctness Test,NNP CD NN NN NN NN,keras-master,numpy_test.py
+1429,1634,Numpy Array Create Ops Correctness Test,NN NN VB NN NN NN,keras-master,numpy_test.py
+1430,1635,Sparse Test,JJ NN,keras-master,numpy_test.py
+1431,1636,Numpy D type Test,NNP FW NN NN,keras-master,numpy_test.py
+1432,1637,Relu,NNP,keras-master,nn.py
+1433,1638,Relu 6,NNP CD,keras-master,nn.py
+1434,1639,Sigmoid,NNP,keras-master,nn.py
+1435,1640,Soft plus,JJ NN,keras-master,nn.py
+1436,1641,Soft sign,JJ NN,keras-master,nn.py
+1437,1642,Silu,NNP,keras-master,nn.py
+1438,1643,Log Sigmoid,NN NNP,keras-master,nn.py
+1439,1644,Leaky Relu,JJ NNP,keras-master,nn.py
+1440,1645,Hard Sigmoid,JJ NNP,keras-master,nn.py
+1441,1646,Hard Silu,JJ NNP,keras-master,nn.py
+1442,1647,Elu,NNP,keras-master,nn.py
+1443,1648,Selu,NNP,keras-master,nn.py
+1444,1649,Gelu,NNP,keras-master,nn.py
+1445,1650,Softmax,NNP,keras-master,nn.py
+1446,1651,Log Softmax,NN NNP,keras-master,nn.py
+1447,1652,Max Pool,JJ VB,keras-master,nn.py
+1448,1653,Average Pool,JJ VB,keras-master,nn.py
+1449,1654,Conv,NNP,keras-master,nn.py
+1450,1655,Depthwise Conv,RB NNP,keras-master,nn.py
+1451,1656,Separable Conv,JJ NNP,keras-master,nn.py
+1452,1657,Conv Transpose,NN VB,keras-master,nn.py
+1453,1658,One Hot,CD JJ,keras-master,nn.py
+1454,1662,Multi Hot,JJ JJ,keras-master,nn.py
+1455,1663,Moments,NNS,keras-master,nn.py
+1456,1664,Batch Norm,NN NNP,keras-master,nn.py
+1457,1665,Ctc Loss,NNP NN,keras-master,nn.py
+1458,1666,Normalize,VB,keras-master,nn.py
+1459,1667,Resize,VB,keras-master,image.py
+1460,1668,Affine Transform,JJ NN,keras-master,image.py
+1461,1669,Extract Patches,VB NNP,keras-master,image.py
+1462,1670,Map Coordinates,VB NNS,keras-master,image.py
+1463,1671,Pad Images,VB NNS,keras-master,image.py
+1464,1672,Crop Images,VB NNS,keras-master,image.py
+1465,1673,Cholesky,NNP,keras-master,linalg.py
+1466,1674,Det,NNP,keras-master,linalg.py
+1467,1675,Eig,NNP,keras-master,linalg.py
+1468,1676,Inv,NNP,keras-master,linalg.py
+1469,1677,Lu Factor,NNP NN,keras-master,linalg.py
+1470,1678,Norm,NN,keras-master,linalg.py
+1471,1679,Qr,NNP,keras-master,linalg.py
+1472,1680,Solve,VB,keras-master,linalg.py
+1473,1681,Solve Triangular,VB JJ,keras-master,linalg.py
+1474,1682,SVD,NNP,keras-master,linalg.py
+1475,1683,Operation,NN,keras-master,operation.py
+1476,1684,Node,NN,keras-master,node.py
+1477,1685,Keras History,NNP NN,keras-master,node.py
+1478,1686,Core Ops Static Shape Test,NN NN JJ NN NN,keras-master,core_test.py
+1479,1687,Core Ops Correctness Test,NN NN NN NN,keras-master,core_test.py
+1480,1688,Example Layer,NN NN,keras-master,core_test.py
+1481,1689,Core Ops D type Test,NN NN NN NN NN,keras-master,core_test.py
+1482,1690,Core Ops Calls Tests,NN NN NNS NNS,keras-master,core_test.py
+1483,1691,Image Ops Dynamic Shape Test,NN NN JJ NN NN,keras-master,image_test.py
+1484,1692,Image Ops Static Shape Test,NN NN JJ NN NN,keras-master,image_test.py
+1485,1693,Image Ops Correctness Test,NN NN NN NN,keras-master,image_test.py
+1486,1694,Function Test,NN NN,keras-master,function_test.py
+1487,1695,Symbolic Arguments Test,JJ NNS NN,keras-master,symbolic_arguments_test.py
+1488,1696,Random Normal,JJ NN,keras-master,random_initializers.py
+1489,1697,Truncated Normal,JJ NN,keras-master,random_initializers.py
+1490,1698,Random Uniform,JJ NN,keras-master,random_initializers.py
+1491,1699,Variance Scaling,NN NN,keras-master,random_initializers.py
+1492,1700,Glorot Uniform,NNP NN,keras-master,random_initializers.py
+1493,1701,Glorot Normal,NNP NN,keras-master,random_initializers.py
+1494,1702,Lecun Normal,NNP NN,keras-master,random_initializers.py
+1495,1703,Lecun Uniform,NNP NN,keras-master,random_initializers.py
+1496,1704,He Normal,NNP NN,keras-master,random_initializers.py
+1497,1705,He Uniform,NNP NN,keras-master,random_initializers.py
+1498,1706,Orthogonal Initializer,JJ NN,keras-master,random_initializers.py
+1499,1711,Constant Initializers Test,NN NNS NN,keras-master,constant_initializers_test.py
+1500,1712,Initializers Test,NNS NN,keras-master,random_initializers_test.py
+1501,1713,Initializer,NN,keras-master,initializer.py
+1502,1714,D Type Policy Test,FW NN NN NN,keras-master,dtype_policy_test.py
+1503,1715,Float D Type Policy Test,NN FW NN NN NN,keras-master,dtype_policy_test.py
+1504,1716,Quantized D Type Policy Test,JJ FW NN NN NN,keras-master,dtype_policy_test.py
+1505,1717,D Type Policy Global Functions Test,FW NN NN JJ NNS NN,keras-master,dtype_policy_test.py
+1506,1718,Float D Type Policy Edge Cases Test,NN FW NN NN NN NNS NN,keras-master,dtype_policy_test.py
+1507,1719,Quantized D Type Policy Edge Cases Test,JJ FW NN NN NN NNS NN,keras-master,dtype_policy_test.py
+1508,1720,D Type Policy Global Functions Edge Cases Test,FW NN NN JJ NNS NN NNS NN,keras-master,dtype_policy_test.py
+1509,1721,D Type Policy,FW NN NN,keras-master,dtype_policy.py
+1510,1722,Float D Type Policy,NN FW NN NN,keras-master,dtype_policy.py
+1511,1723,Quantized D Type Policy,JJ FW NN NN,keras-master,dtype_policy.py
+1512,1724,Test Case,NN NN,keras-master,test_case.py
+1513,1726,Get Test Data Test,VB NN NNS NN,keras-master,test_utils_test.py
+1514,1727,Class Distribution Tests,NN NN NNS,keras-master,test_utils_test.py
+1515,1728,Named Product Test,JJ NN NN,keras-master,test_utils_test.py
+1516,1731,Mean Metric Wrapper,JJ NN NN,keras-master,reduction_metrics.py
+1517,1732,Io U Base,NNP FW NN,keras-master,iou_metrics.py
+1518,1733,Io U,NNP FW,keras-master,iou_metrics.py
+1519,1734,Binary Io U,NN NNP FW,keras-master,iou_metrics.py
+1520,1735,Mean Io U,NN NNP FW,keras-master,iou_metrics.py
+1521,1736,One Hot Io U,CD JJ NNP FW,keras-master,iou_metrics.py
+1522,1737,One Hot Mean Io U,CD JJ NN NNP FW,keras-master,iou_metrics.py
+1523,1738,Confusion Matrix,NN NN,keras-master,metrics_utils.py
+1524,1739,AUC Curve,NNP NN,keras-master,metrics_utils.py
+1525,1740,AUC Summation Method,NNP NN NN,keras-master,metrics_utils.py
+1526,1741,Example Metric,NN NN,keras-master,metric_test.py
+1527,1742,Metric Test,NN NN,keras-master,metric_test.py
+1528,1743,F Beta Score,FW NN NN,keras-master,f_score_metrics.py
+1529,1744,F 1 Score,FW CD NN,keras-master,f_score_metrics.py
+1530,1745,False Positives Test,JJ NNS NN,keras-master,confusion_metrics_test.py
+1531,1746,False Negatives Test,JJ NNS NN,keras-master,confusion_metrics_test.py
+1532,1747,True Negatives Test,JJ NNS NN,keras-master,confusion_metrics_test.py
+1533,1748,True Positive Test,JJ JJ NN,keras-master,confusion_metrics_test.py
+1534,1749,Precision Test,NN NN,keras-master,confusion_metrics_test.py
+1535,1750,Recall Test,NN NN,keras-master,confusion_metrics_test.py
+1536,1751,Sensitivity At Specificity Test,NN IN NN NN,keras-master,confusion_metrics_test.py
+1537,1752,Specificity At Sensitivity Test,NN IN NN NN,keras-master,confusion_metrics_test.py
+1538,1753,Precision At Recall Test,NN IN NN NN,keras-master,confusion_metrics_test.py
+1539,1754,Recall At Precision Test,VB IN NN NN,keras-master,confusion_metrics_test.py
+1540,1755,AUC Test,NNP NN,keras-master,confusion_metrics_test.py
+1541,1756,Multi AUC Test,JJ NNP NN,keras-master,confusion_metrics_test.py
+1542,1757,Metric,NN,keras-master,metric.py
+1543,1763,Root Mean Squared Error Test,JJ JJ VBN NN NN,keras-master,regression_metrics_test.py
+1544,1764,Log Cosh Error Test,NN NN NN NN,keras-master,regression_metrics_test.py
+1545,1765,R 2 Score Test,FW CD NN NN,keras-master,regression_metrics_test.py
+1546,1766,Accuracy Test,NN NN,keras-master,accuracy_metrics_test.py
+1547,1767,Binary Accuracy Test,JJ NN NN,keras-master,accuracy_metrics_test.py
+1548,1768,Categorical Accuracy Test,JJ NN NN,keras-master,accuracy_metrics_test.py
+1549,1769,Sparse Categorical Accuracy Test,JJ JJ NN NN,keras-master,accuracy_metrics_test.py
+1550,1770,Top K Categorical Accuracy Test,JJ CD JJ NN NN,keras-master,accuracy_metrics_test.py
+1551,1771,Sparse Top K Categorical Accuracy Test,JJ JJ CD JJ NN NN,keras-master,accuracy_metrics_test.py
+1552,1772,F Beta Score Test,FW NN NN NN,keras-master,f_score_metrics_test.py
+1553,1773,F 1 Score Test,FW CD NN NN,keras-master,f_score_metrics_test.py
+1554,1777,Io U Test,NNP FW NNP,keras-master,iou_metrics_test.py
+1555,1778,Binary Io U Test,NN NN FW NN,keras-master,iou_metrics_test.py
+1556,1779,Mean Io U Test,NN NNP FW NN,keras-master,iou_metrics_test.py
+1557,1780,One Hot Io U Test,CD JJ NNP FW NN,keras-master,iou_metrics_test.py
+1558,1781,One Hot Mean Io U Test,CD JJ NN NNP FW NN,keras-master,iou_metrics_test.py
+1559,1782,Accuracy,NN,keras-master,accuracy_metrics.py
+1560,1783,Binary Accuracy,JJ NN,keras-master,accuracy_metrics.py
+1561,1784,Categorical Accuracy,JJ NN,keras-master,accuracy_metrics.py
+1562,1785,Sparse Categorical Accuracy,JJ JJ NN,keras-master,accuracy_metrics.py
+1563,1786,Top K Categorical Accuracy,JJ CD JJ NN,keras-master,accuracy_metrics.py
+1564,1787,Sparse Top K Categorical Accuracy,JJ JJ CD JJ NN,keras-master,accuracy_metrics.py
+1565,1795,Root Mean Squared Error,JJ JJ JJ NN,keras-master,regression_metrics.py
+1566,1797,Log Cosh Error,NN NN NN,keras-master,regression_metrics.py
+1567,1798,R 2 Score,FW CD NN,keras-master,regression_metrics.py
+1568,1799,Confusion Matrix Condition Count,NN NN NN NN,keras-master,confusion_metrics.py
+1569,1800,False Positives,JJ NNS,keras-master,confusion_metrics.py
+1570,1801,False Negatives,JJ NNS,keras-master,confusion_metrics.py
+1571,1802,True Negatives,JJ NNS,keras-master,confusion_metrics.py
+1572,1803,True Positives,JJ NNS,keras-master,confusion_metrics.py
+1573,1804,Precision,NN,keras-master,confusion_metrics.py
+1574,1805,Recall,NN,keras-master,confusion_metrics.py
+1575,1806,Sensitivity Specificity Base,NN NN NN,keras-master,confusion_metrics.py
+1576,1807,Sensitivity At Specificity,NN IN NN,keras-master,confusion_metrics.py
+1577,1808,Specificity At Sensitivity,NN IN NN,keras-master,confusion_metrics.py
+1578,1809,Precision At Recall,NN IN NN,keras-master,confusion_metrics.py
+1579,1810,Recall At Precision,NN IN NN,keras-master,confusion_metrics.py
+1580,1811,AUC,NNP,keras-master,confusion_metrics.py
+1581,1817,Sum Test,NN NN,keras-master,reduction_metrics_test.py
+1582,1818,Mean Test,NN NN,keras-master,reduction_metrics_test.py
+1583,1819,Metric Wrapper Test,NN NN NN,keras-master,reduction_metrics_test.py
+1584,1825,Callback,NN,keras-master,callback.py
+1585,1826,Callback List,NN NN,keras-master,callback_list.py
+1586,1827,Swap EMA Weights Test,VB NNP NNS NN,keras-master,swap_ema_weights_test.py
+1587,1828,Prog bar Logger,NN NN NN,keras-master,progbar_logger.py
+1588,1829,Reduce LR On Plateau,VB NNP IN NNP,keras-master,reduce_lr_on_plateau.py
+1589,1830,Reduce LR On Plateau Test,VB NNP IN NNP NN,keras-master,reduce_lr_on_plateau_test.py
+1590,1831,Learning Rate Scheduler Test,NN NN NN NN,keras-master,learning_rate_scheduler_test.py
+1591,1832,Learning Rate Scheduler,NN NN NN,keras-master,learning_rate_scheduler.py
+1592,1833,Summary Iterator,NN NN,keras-master,tensorboard_test.py
+1593,1834,Summary File,NN NN,keras-master,tensorboard_test.py
+1594,1835,Test Tensor Board V 2,VB NN NN NN CD,keras-master,tensorboard_test.py
+1595,1836,Layer With Summary,NN IN NN,keras-master,tensorboard_test.py
+1596,1837,Terminate On Na N Test,VB IN NNP NN NN,keras-master,remote_monitor_test.py
+1597,1839,Callback Test,NN NN,keras-master,callback_test.py
+1598,1841,CBK,NNP,keras-master,callback_test.py
+1599,1842,Tensor Board,NN NN,keras-master,tensorboard.py
+1600,1843,Swap EMA Weights,VB NN NNS,keras-master,swap_ema_weights.py
+1601,1844,CSV Logger,NNP NN,keras-master,csv_logger.py
+1602,1845,Custom Dialect,JJ NN,keras-master,csv_logger.py
+1603,1846,Terminate On Na N,VB IN NNP NN,keras-master,terminate_on_nan.py
+1604,1847,CSV Logger Test,NNP NN NN,keras-master,csv_logger_test.py
+1605,1848,History,NN,keras-master,history.py
+1606,1849,Lambda Callback,NN NN,keras-master,lambda_callback.py
+1607,1850,Model Checkpoint,NN NN,keras-master,model_checkpoint.py
+1608,1851,Lambda Callback Test,NN NN NN,keras-master,lambda_callback_test.py
+1609,1852,Early Stopping,JJ NN,keras-master,early_stopping.py
+1610,1853,Remote Monitor,JJ NN,keras-master,remote_monitor.py
+1611,1854,Interrupting Callback,VBG NN,keras-master,backup_and_restore_test.py
+1612,1855,Canary Layer,NNP NN,keras-master,backup_and_restore_test.py
+1613,1856,Backup And Restore Callback Test,VB CC VB NN NN,keras-master,backup_and_restore_test.py
+1614,1857,Model Checkpoint Test,NN NN NN,keras-master,model_checkpoint_test.py
+1615,1858,Early Stopping Test,JJ NN NN,keras-master,early_stopping_test.py
+1616,1859,Dummy Model,JJ NN,keras-master,early_stopping_test.py
+1617,1860,Backup And Restore,VB CC VB,keras-master,backup_and_restore.py
+1618,1861,Custom Scale Layer,JJ NN NN,keras-master,inception_resnet_v2.py
+1619,1862,Test Image Net Utils,VB NN NN NNS,keras-master,imagenet_utils_test.py
+1620,1863,Stochastic Depth,JJ NN,keras-master,convnext.py
+1621,1864,Layer Scale,NN NN,keras-master,convnext.py
+1622,1865,Applications Test,NNS NN,keras-master,applications_test.py
+1623,1866,Quantizers Test,NNS NN,keras-master,quantizers_test.py
+1624,1867,Quantizer,NN,keras-master,quantizers.py
+1625,1868,Abs Max Quantizer,JJ NN NNP,keras-master,quantizers.py
+1626,1869,Layer,NN,keras-master,layer.py
+1627,1870,Call Spec,VB NN,keras-master,layer.py
+1628,1871,Call Context,NN NN,keras-master,layer.py
+1629,1872,Input Spec,NN NN,keras-master,input_spec.py
+1630,1873,Layer Test,NN NN,keras-master,layer_test.py
+1631,1874,Test Layer,NN NN,keras-master,layer_test.py
+1632,1880,Some Layer,DT NN,keras-master,layer_test.py
+1633,1881,RNG Layer,NNP NN,keras-master,layer_test.py
+1634,1882,RNG List Layer,NNP NN NN,keras-master,layer_test.py
+1635,1885,Layer With Metric,NN IN NN,keras-master,layer_test.py
+1636,1886,Nested Layer With Metric,JJ NN IN NN,keras-master,layer_test.py
+1637,1887,Layer With Unbuilt State,NN IN JJ NN,keras-master,layer_test.py
+1638,1888,Kwargs Layer With Unbuilt State,NNP NN IN JJ NN,keras-master,layer_test.py
+1639,1889,Activity Regularizer,NN NN,keras-master,layer_test.py
+1640,1890,Loss Layer,NN NN,keras-master,layer_test.py
+1641,1891,Training Layer,NN NN,keras-master,layer_test.py
+1642,1892,Wrapped Training Layer,JJ NN NN,keras-master,layer_test.py
+1643,1893,Training Layer Explicit,NN NN JJ,keras-master,layer_test.py
+1644,1895,Inner Layer One,JJ NN CD,keras-master,layer_test.py
+1645,1896,Inner Layer Two,JJ NN CD,keras-master,layer_test.py
+1646,1897,Inner Layer Three,JJ NN CD,keras-master,layer_test.py
+1647,1898,Mixed Precision Layer,JJ NN NN,keras-master,layer_test.py
+1648,1899,Basic Masked Layer,JJ VBN NN,keras-master,layer_test.py
+1649,1900,Nested Input Masked Layer,JJ NN VBN NN,keras-master,layer_test.py
+1650,1901,Positional Inputs Masked Layer,JJ NNS VBN NN,keras-master,layer_test.py
+1651,1902,Positional Nested Inputs Masked Layer,JJ JJ NNS VBN NN,keras-master,layer_test.py
+1652,1904,Non Trainable Weights Layer,RB JJ NNS NN,keras-master,layer_test.py
+1653,1905,Nested Non Trainable Weights Layer,VBN RB JJ NNS NN,keras-master,layer_test.py
+1654,1906,No Shape Suffix,DT NN NN,keras-master,layer_test.py
+1655,1907,Non Matching Argument,RB JJ NN,keras-master,layer_test.py
+1656,1908,Matching Arguments,JJ NNS,keras-master,layer_test.py
+1657,1909,Subset Arguments,NN NNS,keras-master,layer_test.py
+1658,1910,Single Argument,JJ NN,keras-master,layer_test.py
+1659,1911,No Training Specified,DT NN VBN,keras-master,layer_test.py
+1660,1916,Random Crop,JJ NN,keras-master,random_crop.py
+1661,1917,Mel Spectrogram,NNP NN,keras-master,audio_preprocessing.py
+1662,1918,Resizing,NN,keras-master,resizing.py
+1663,1919,String Lookup Test,NN NN NN,keras-master,string_lookup_test.py
+1664,1920,Index Lookup,NN NN,keras-master,index_lookup.py
+1665,1921,Null Initializer,JJ NN,keras-master,index_lookup.py
+1666,1922,Index Lookup Layer Test,NN NN NN NN,keras-master,index_lookup_test.py
+1667,1923,Discretization,NN,keras-master,discretization.py
+1668,1924,Random Contrast Test,JJ NN NN,keras-master,random_contrast_test.py
+1669,1925,Random Zoom,JJ NN,keras-master,random_zoom.py
+1670,1927,Hashing Test,NN NN,keras-master,hashing_test.py
+1671,1928,Hashed Crossing,VBN NN,keras-master,hashed_crossing.py
+1672,1929,Hashed Crossing Test,VBN NN NN,keras-master,hashed_crossing_test.py
+1673,1930,Random Flip,JJ NN,keras-master,random_flip.py
+1674,1931,Mocked Random Flip,VBN JJ NN,keras-master,random_flip_test.py
+1675,1932,Random Flip Test,JJ NN NN,keras-master,random_flip_test.py
+1676,1934,Feature,NN,keras-master,feature_space.py
+1677,1935,Feature Space,NN NN,keras-master,feature_space.py
+1678,1936,Random Brightness Test,JJ NN NN,keras-master,random_brightness_test.py
+1679,1937,Hashing,NN,keras-master,hashing.py
+1680,1938,Integer Lookup Test,NN NN NN,keras-master,integer_lookup_test.py
+1681,1939,Center Crop,NN NN,keras-master,center_crop.py
+1682,1940,Random Contrast,JJ NN,keras-master,random_contrast.py
+1683,1941,Text Vectorization Test,NN NN NN,keras-master,text_vectorization_test.py
+1684,1942,Random Brightness,JJ NN,keras-master,random_brightness.py
+1685,1943,Random Rotation Test,JJ NN NN,keras-master,random_rotation_test.py
+1686,1944,Discretization Test,NN NN,keras-master,discretization_test.py
+1687,1945,Random Translation,JJ NN,keras-master,random_translation.py
+1688,1946,Resizing Test,VBG NN,keras-master,resizing_test.py
+1689,1947,Feature Space Test,NN NN NN,keras-master,feature_space_test.py
+1690,1948,Rescaling,NN,keras-master,rescaling.py
+1691,1949,Rescaling Test,NN NN,keras-master,rescaling_test.py
+1692,1950,String Lookup,NN NN,keras-master,string_lookup.py
+1693,1951,Random Zoom Test,JJ NN NN,keras-master,random_zoom_test.py
+1694,1952,Center Crop Test,NN NN NN,keras-master,center_crop_test.py
+1695,1953,Normalization,NN,keras-master,normalization.py
+1696,1954,Integer Lookup,NN NN,keras-master,integer_lookup.py
+1697,1955,Category Encoding Test,NN NN NN,keras-master,category_encoding_test.py
+1698,1956,Mel Spectrogram Test,NNP NN NN,keras-master,audio_preprocessing_test.py
+1699,1957,Random Crop Test,JJ NN NN,keras-master,random_crop_test.py
+1700,1958,Random Rotation,JJ NN,keras-master,random_rotation.py
+1701,1959,TF Data Layer,NNP NN NN,keras-master,tf_data_layer.py
+1702,1960,Category Encoding,NN NN,keras-master,category_encoding.py
+1703,1961,Text Vectorization,NN NN,keras-master,text_vectorization.py
+1704,1962,Random Translation Test,JJ NN NN,keras-master,random_translation_test.py
+1705,1963,Normalization Test,NN NN,keras-master,normalization_test.py
+1706,1964,Max Pooling 1 D,JJ NN CD FW,keras-master,max_pooling1d.py
+1707,1965,Max Pooling 3D,JJ NN NNP,keras-master,max_pooling3d.py
+1708,1966,Average Pooling 3D,JJ NN NNP,keras-master,average_pooling3d.py
+1709,1967,Average Pooling 1 D,JJ NN CD FW,keras-master,average_pooling1d.py
+1710,1968,Global Average Pooling 2 D,JJ JJ NN CD FW,keras-master,global_average_pooling2d.py
+1711,1969,Base Global Pooling,JJ JJ NN,keras-master,base_global_pooling.py
+1712,1970,Global Max Pooling 3D,JJ JJ NN NNP,keras-master,global_max_pooling3d.py
+1713,1971,Global Average Pooling Basic Test,JJ JJ JJ JJ NN,keras-master,global_average_pooling_test.py
+1714,1972,Global Average Pooling Correctness Test,JJ JJ NN NN NN,keras-master,global_average_pooling_test.py
+1715,1973,Max Pooling Basic Test,JJ NN JJ NN,keras-master,max_pooling_test.py
+1716,1974,Max Pooling Correctness Test,JJ NN NN NN,keras-master,max_pooling_test.py
+1717,1975,Average Pooling Basic Test,JJ JJ JJ NN,keras-master,average_pooling_test.py
+1718,1976,Average Pooling Correctness Test,JJ NN NN NN,keras-master,average_pooling_test.py
+1719,1977,Global Max Pooling 2 D,JJ JJ NN CD FW,keras-master,global_max_pooling2d.py
+1720,1978,Global Average Pooling 3D,JJ JJ NN NNP,keras-master,global_average_pooling3d.py
+1721,1979,Global Max Pooling 1 D,JJ JJ NN CD FW,keras-master,global_max_pooling1d.py
+1722,1980,Global Max Pooling Basic Test,JJ JJ NN JJ NN,keras-master,global_max_pooling_test.py
+1723,1981,Global Max Pooling Correctness Test,JJ JJ NN NN NN,keras-master,global_max_pooling_test.py
+1724,1982,Max Pooling 2 D,JJ NN CD FW,keras-master,max_pooling2d.py
+1725,1983,Global Average Pooling 1 D,JJ JJ NN CD NNP,keras-master,global_average_pooling1d.py
+1726,1984,Base Pooling,JJ NN,keras-master,base_pooling.py
+1727,1985,Average Pooling 2 D,JJ NN CD FW,keras-master,average_pooling2d.py
+1728,1986,P Re LU Test,FW NNP NNP NNP,keras-master,prelu_test.py
+1729,1989,Re LU Test,NNP NNP NN,keras-master,relu_test.py
+1730,1990,Activation,NN,keras-master,activation.py
+1731,1991,P Re LU,FW NNP NNP,keras-master,prelu.py
+1732,1992,Activation Test,NN NN,keras-master,activation_test.py
+1733,1993,ELU Test,NNP NN,keras-master,elu_test.py
+1734,1994,Leaky Re LU Test,JJ NNP NNP NN,keras-master,leaky_relu_test.py
+1735,1995,Leaky Re LU,JJ NNP NNP,keras-master,leaky_relu.py
+1736,1996,ELU,NNP,keras-master,elu.py
+1737,1997,Softmax Test,NNP NN,keras-master,softmax_test.py
+1738,1998,Time Distributed Test,NN JJ NN,keras-master,time_distributed_test.py
+1739,1999,Masked Dense,JJ JJ,keras-master,time_distributed_test.py
+1740,2000,Assert Num Queries Context,VB NN NNS NN,django,testcases.py
+1741,2001,Assert Template Used Context,VB NN JJ NN,django,testcases.py
+1742,2002,Assert Template Not Used Context,VB NN RB JJ NN,django,testcases.py
+1743,2003,Database Operation Forbidden,NN NN VBN,django,testcases.py
+1744,2004,Database Failure,NN NN,django,testcases.py
+1745,2005,Simple Test Case,JJ NN NN,django,testcases.py
+1746,2006,Transaction Test Case,NN NN NN,django,testcases.py
+1747,2007,Test Data,NN NN,django,testcases.py
+1748,2009,Check Condition,VB NN,django,testcases.py
+1749,2010,Quiet WSGI Request Handler,JJ NNP NN NN,django,testcases.py
+1750,2011,FS Files Handler,NNP NNS NN,django,testcases.py
+1751,2012,Static Files Handler,JJ NNS NN,django,testcases.py
+1752,2013,Media Files Handler,NN NNS NN,django,testcases.py
+1753,2014,Live Server Thread,JJ NN NN,django,testcases.py
+1754,2015,Live Server Test Case,JJ NN NN NN,django,testcases.py
+1755,2016,Serialize Mixin,VB NN,django,testcases.py
+1756,2017,Debug SQL Text Test Result,VB NNP NN NN NN,django,runner.py
+1757,2018,PDB Debug Result,NNP NN NN,django,runner.py
+1758,2019,Dummy List,JJ NN,django,runner.py
+1759,2020,Remote Test Result,JJ NN NN,django,runner.py
+1760,2021,Remote Test Runner,JJ NN NN,django,runner.py
+1761,2022,Parallel Test Suite,JJ NN NN,django,runner.py
+1762,2023,Shuffler,NN,django,runner.py
+1763,2024,Discover Runner,VB NN,django,runner.py
+1764,2025,Redirect Cycle Error,VB NN NN,django,client.py
+1765,2026,Fake Payload,JJ NN,django,client.py
+1766,2027,Client Handler,NN NN,django,client.py
+1767,2028,Async Client Handler,JJ NN NN,django,client.py
+1768,2029,Request Factory,NN NN,django,client.py
+1769,2030,Async Request Factory,JJ NN NN,django,client.py
+1770,2031,Client Mixin,NN NN,django,client.py
+1771,2032,Client,NN,django,client.py
+1772,2033,Async Client,JJ NN,django,client.py
+1773,2034,Element,NN,django,html.py
+1774,2035,Root Element,NN NN,django,html.py
+1775,2036,HTML Parse Error,NNP NN NN,django,html.py
+1776,2037,Parser,NN,django,html.py
+1777,2038,Approximate,VB,django,utils.py
+1778,2039,Context List,NN NN,django,utils.py
+1779,2040,Test State,NN NN,django,utils.py
+1780,2041,Test Context Decorator,NN NN NN,django,utils.py
+1781,2042,override settings,VB NNS,django,utils.py
+1782,2043,modify settings,VB NNS,django,utils.py
+1783,2044,override system checks,VB NN NNS,django,utils.py
+1784,2045,Capture Queries Context,VB NNS NN,django,utils.py
+1785,2046,ignore warnings,VB NNS,django,utils.py
+1786,2047,override script prefix,VB NN NN,django,utils.py
+1787,2048,Logging Capture Mixin,VBG NN NN,django,utils.py
+1788,2049,isolate apps,VB NNS,django,utils.py
+1789,2050,Time Keeper,NN NN,django,utils.py
+1790,2051,Null Time Keeper,JJ NN NN,django,utils.py
+1791,2052,Token Base,NN NN,django,smartif.py
+1792,2053,Operator,NN,django,smartif.py
+1793,2055,Literal,JJ,django,smartif.py
+1794,2056,End Token,NN NN,django,smartif.py
+1795,2057,If Parser,IN NN,django,smartif.py
+1796,2058,Template Does Not Exist,NN VBZ RB VBP,django,exceptions.py
+1797,2059,Template Syntax Error,NN NN NN,django,exceptions.py
+1798,2060,Context Pop Exception,NN NN NN,django,context.py
+1799,2061,Context Dict,NN NN,django,context.py
+1800,2062,Base Context,NN NN,django,context.py
+1801,2063,Context,NN,django,context.py
+1802,2064,Render Context,VB NN,django,context.py
+1803,2065,Request Context,NN NN,django,context.py
+1804,2066,Content Not Rendered Error,NN RB VBN NN,django,response.py
+1805,2067,Simple Template Response,JJ NN NN,django,response.py
+1806,2068,Template Response,NN NN,django,response.py
+1807,2069,Token Type,NN NN,django,base.py
+1808,2070,Variable Does Not Exist,NN VBZ RB VBP,django,base.py
+1809,2071,Origin,NN,django,base.py
+1810,2072,Template,NN,django,base.py
+1811,2073,Token,NN,django,base.py
+1812,2074,Lexer,NN,django,base.py
+1813,2075,Debug Lexer,VB NN,django,base.py
+1814,2077,Filter Expression,NN NN,django,base.py
+1815,2080,Node List,NN NN,django,base.py
+1816,2081,Text Node,NN NN,django,base.py
+1817,2082,Variable Node,NN NN,django,base.py
+1818,2083,Invalid Template Library,JJ NN NN,django,library.py
+1819,2084,Library,NN,django,library.py
+1820,2085,Tag Helper Node,VB NN NN,django,library.py
+1821,2086,Simple Node,JJ NN,django,library.py
+1822,2087,Inclusion Node,NN NN,django,library.py
+1823,2088,Engine,NN,django,engine.py
+1824,2089,Block Context,NN NN,django,loader_tags.py
+1825,2090,Block Node,NN NN,django,loader_tags.py
+1826,2091,Extends Node,VBZ NN,django,loader_tags.py
+1827,2092,Include Node,VB NN,django,loader_tags.py
+1828,2093,Auto Escape Control Node,JJ NN NN NNP,django,defaulttags.py
+1829,2094,Comment Node,NN NN,django,defaulttags.py
+1830,2095,Csrf Token Node,NNP NN NN,django,defaulttags.py
+1831,2096,Cycle Node,NN NN,django,defaulttags.py
+1832,2097,Debug Node,VB NN,django,defaulttags.py
+1833,2098,Filter Node,NN NN,django,defaulttags.py
+1834,2099,First Of Node,NN IN NN,django,defaulttags.py
+1835,2100,For Node,IN NN,django,defaulttags.py
+1836,2101,If Changed Node,IN VBN NN,django,defaulttags.py
+1837,2102,If Node,NN NN,django,defaulttags.py
+1838,2103,Lorem Node,NNP NN,django,defaulttags.py
+1839,2104,Regroup Node,VB NN,django,defaulttags.py
+1840,2105,Load Node,VB NN,django,defaulttags.py
+1841,2106,Now Node,JJ NN,django,defaulttags.py
+1842,2107,Reset Cycle Node,VB NN NN,django,defaulttags.py
+1843,2108,Spaceless Node,JJ NN,django,defaulttags.py
+1844,2109,Template Tag Node,NN NN NN,django,defaulttags.py
+1845,2110,URL Node,NNP NN,django,defaulttags.py
+1846,2111,Verbatim Node,JJ NN,django,defaulttags.py
+1847,2112,Width Ratio Node,NN NN NN,django,defaulttags.py
+1848,2113,With Node,IN NN,django,defaulttags.py
+1849,2114,Template Literal,NN NN,django,defaulttags.py
+1850,2115,Template If Parser,NN NN NN,django,defaulttags.py
+1851,2116,Invalid Template Engine Error,JJ NN NN NN,django,utils.py
+1852,2117,Engine Handler,NN NN,django,utils.py
+1853,2118,Template Strings,NN NNS,django,dummy.py
+1854,2120,Base Engine,JJ NN,django,base.py
+1855,2121,Jinja 2,NNP CD,django,jinja2.py
+1856,2124,Django Templates,NNP NNS,django,django.py
+1857,2126,Loader,NN,django,locmem.py
+1858,2131,Resolver 404,NN CD,django,exceptions.py
+1859,2132,No Reverse Match,DT JJ NN,django,exceptions.py
+1860,2133,Resolver Match,NN NN,django,resolvers.py
+1861,2134,Locale Regex Descriptor,NN NN NN,django,resolvers.py
+1862,2135,Check URL Mixin,VB NNP NN,django,resolvers.py
+1863,2136,Regex Pattern,NN NN,django,resolvers.py
+1864,2137,Locale Regex Route Descriptor,NN NNP NN NN,django,resolvers.py
+1865,2138,Route Pattern,NN NN,django,resolvers.py
+1866,2139,Locale Prefix Pattern,NN NN NN,django,resolvers.py
+1867,2140,URL Pattern,NNP NN,django,resolvers.py
+1868,2141,URL Resolver,NNP NN,django,resolvers.py
+1869,2142,Int Converter,NNP NN,django,converters.py
+1870,2143,String Converter,NN NN,django,converters.py
+1871,2144,UUID Converter,NNP NN,django,converters.py
+1872,2145,Slug Converter,NN NN,django,converters.py
+1873,2146,Path Converter,NN NN,django,converters.py
+1874,2147,Transaction Management Error,NN NN NN,django,transaction.py
+1875,2148,Atomic,JJ,django,transaction.py
+1876,2149,Error,NN,django,utils.py
+1877,2150,Interface Error,NN NN,django,utils.py
+1878,2153,Operational Error,JJ NN,django,utils.py
+1879,2154,Integrity Error,NN NN,django,utils.py
+1880,2155,Internal Error,JJ NN,django,utils.py
+1881,2156,Programming Error,NN NN,django,utils.py
+1882,2157,Not Supported Error,RB VBN NN,django,utils.py
+1883,2158,Database Error Wrapper,NN NN NN,django,utils.py
+1884,2159,Connection Handler,NN NN,django,utils.py
+1885,2160,Connection Router,NN NN,django,utils.py
+1886,2162,Index Expression,NN NN,django,indexes.py
+1887,2163,SQ Lite Numeric Mixin,NNP JJ JJ NN,django,expressions.py
+1888,2164,Combinable,JJ,django,expressions.py
+1889,2165,Base Expression,JJ NN,django,expressions.py
+1890,2166,Expression,NN,django,expressions.py
+1891,2167,Combined Expression,JJ NN,django,expressions.py
+1892,2168,Duration Expression,NN NN,django,expressions.py
+1893,2169,Temporal Subtraction,JJ NN,django,expressions.py
+1894,2170,F,FW,django,expressions.py
+1895,2171,Resolved Outer Ref,VBN JJ NN,django,expressions.py
+1896,2172,Outer Ref,JJ NN,django,expressions.py
+1897,2173,Sliced,JJ,django,expressions.py
+1898,2174,Func,NN,django,expressions.py
+1899,2175,Value,NN,django,expressions.py
+1900,2176,Raw SQL,NN NNP,django,expressions.py
+1901,2177,Star,NN,django,expressions.py
+1902,2178,Database Default,NN NN,django,expressions.py
+1903,2179,Col,NN,django,expressions.py
+1904,2180,Ref,NN,django,expressions.py
+1905,2181,Expression List,NN NN,django,expressions.py
+1906,2182,Order By List,VB IN NN,django,expressions.py
+1907,2183,Expression Wrapper,NN NN,django,expressions.py
+1908,2184,Negated Expression,JJ NN,django,expressions.py
+1909,2185,When,WRB,django,expressions.py
+1910,2186,Case,NN,django,expressions.py
+1911,2187,Subquery,NN,django,expressions.py
+1912,2188,Exists,VBZ,django,expressions.py
+1913,2189,Order By,VB IN,django,expressions.py
+1914,2191,Window Frame Exclusion,NN NN NN,django,expressions.py
+1915,2192,Window Frame,NN NN,django,expressions.py
+1916,2193,Row Range,NN NN,django,expressions.py
+1917,2194,Value Range,NN NN,django,expressions.py
+1918,2195,Lookup,NN,django,lookups.py
+1919,2196,Transform,VB,django,lookups.py
+1920,2197,Builtin Lookup,JJ NN,django,lookups.py
+1921,2198,Field Get Db Prep Value Mixin,NN VBP NNP NN NN NN,django,lookups.py
+1922,2199,Field Get Db Prep Value Iterable Mixin,NN VBP NN NN NN NN NN,django,lookups.py
+1923,2200,Postgres Operator Lookup,NNP NN NN,django,lookups.py
+1924,2201,Exact,JJ,django,lookups.py
+1925,2202,I Exact,PRP VBP,django,lookups.py
+1926,2203,Greater Than,JJR IN,django,lookups.py
+1927,2204,Greater Than Or Equal,JJR IN CC JJ,django,lookups.py
+1928,2205,Less Than,JJR IN,django,lookups.py
+1929,2206,Less Than Or Equal,JJR IN CC JJ,django,lookups.py
+1930,2207,Integer Field Overflow,NN NN NN,django,lookups.py
+1931,2208,Integer Field Float Rounding,NN NN NN NN,django,lookups.py
+1932,2209,Integer Field Exact,NN NN VBP,django,lookups.py
+1933,2210,Integer Greater Than,NN JJR IN,django,lookups.py
+1934,2211,Integer Greater Than Or Equal,NN JJR IN CC JJ,django,lookups.py
+1935,2212,Integer Less Than,NN JJR IN,django,lookups.py
+1936,2213,Integer Less Than Or Equal,NN JJR IN CC JJ,django,lookups.py
+1937,2214,In,IN,django,lookups.py
+1938,2215,Pattern Lookup,NN NN,django,lookups.py
+1939,2216,Contains,VBZ,django,lookups.py
+1940,2217,I Contains,PRP VBZ,django,lookups.py
+1941,2218,Starts With,VBZ IN,django,lookups.py
+1942,2219,I Starts With,PRP VBZ IN,django,lookups.py
+1943,2220,Ends With,VBZ IN,django,lookups.py
+1944,2221,I Ends With,PRP VBZ IN,django,lookups.py
+1945,2222,Range,NN,django,lookups.py
+1946,2223,Is Null,VBZ JJ,django,lookups.py
+1947,2224,Regex,NNP,django,lookups.py
+1948,2225,I Regex,PRP NNP,django,lookups.py
+1949,2226,Year Lookup,NN NN,django,lookups.py
+1950,2227,Year Exact,NN RB,django,lookups.py
+1951,2228,Year Gt,NN NNP,django,lookups.py
+1952,2229,Year Gte,NN NNP,django,lookups.py
+1953,2230,Year Lt,NN NNP,django,lookups.py
+1954,2231,Year Lte,NN NNP,django,lookups.py
+1955,2232,UUID Text Mixin,NNP NN NN,django,lookups.py
+1956,2233,UUIDI Exact,NNP VBP,django,lookups.py
+1957,2234,UUID Contains,NNP VBZ,django,lookups.py
+1958,2235,UUIDI Contains,NNP VBZ,django,lookups.py
+1959,2236,UUID Starts With,NNP VBZ IN,django,lookups.py
+1960,2237,UUIDI Starts With,NNP VBZ IN,django,lookups.py
+1961,2238,UUID Ends With,NNP VBZ IN,django,lookups.py
+1962,2239,UUIDI Ends With,NNP VBZ IN,django,lookups.py
+1963,2240,Model Signal,NN NN,django,signals.py
+1964,2242,Deferred,JJ,django,base.py
+1965,2243,Model Base,NN NN,django,base.py
+1966,2244,Model State Fields Cache Descriptor,NN NN NNS NN NN,django,base.py
+1967,2245,Model State,NN NN,django,base.py
+1968,2247,On Conflict,IN NN,django,constants.py
+1969,2248,Q,FW,django,query_utils.py
+1970,2249,Deferred Attribute,JJ NN,django,query_utils.py
+1971,2250,class or instance method,NN CC NN NN,django,query_utils.py
+1972,2251,Register Lookup Mixin,NN NN NN,django,query_utils.py
+1973,2252,Filtered Relation,JJ NN,django,query_utils.py
+1974,2253,Base Manager,JJ NN,django,manager.py
+1975,2254,Manager,NN,django,manager.py
+1976,2255,Manager Descriptor,NN NN,django,manager.py
+1977,2256,Empty Manager,JJ NN,django,manager.py
+1978,2257,Base Constraint,JJ NN,django,constraints.py
+1979,2258,Check Constraint,VB NN,django,constraints.py
+1980,2259,Deferrable,JJ,django,constraints.py
+1981,2260,Unique Constraint,JJ NN,django,constraints.py
+1982,2261,Protected Error,JJ NN,django,deletion.py
+1983,2262,Restricted Error,JJ NN,django,deletion.py
+1984,2263,Collector,NN,django,deletion.py
+1985,2264,Alters Data,VBZ NN,django,utils.py
+1986,2265,Aggregate,NN,django,aggregates.py
+1987,2266,Avg,NN,django,aggregates.py
+1988,2267,Count,NN,django,aggregates.py
+1989,2270,Std Dev,NN NN,django,aggregates.py
+1990,2272,Variance,NN,django,aggregates.py
+1991,2273,Base Iterable,JJ JJ,django,query.py
+1992,2274,Model Iterable,NN JJ,django,query.py
+1993,2275,Raw Model Iterable,JJ NN JJ,django,query.py
+1994,2276,Values Iterable,NNS JJ,django,query.py
+1995,2277,Values List Iterable,NNS NN JJ,django,query.py
+1996,2278,Named Values List Iterable,VBN NNS NN JJ,django,query.py
+1997,2279,Flat Values List Iterable,JJ NNS NN JJ,django,query.py
+1998,2280,Query Set,NN NN,django,query.py
+1999,2281,Instance Check Meta,NN NN NN,django,query.py
+2000,2282,Empty Query Set,JJ NN NN,django,query.py
+2001,2283,Raw Query Set,JJ NN NN,django,query.py
+2002,2284,Prefetch,NN,django,query.py
+2003,2285,Related Populator,JJ NN,django,query.py
+2004,2286,Repr Enum,NNP NN,django,enums.py
+2005,2287,Int Enum,NN NN,django,enums.py
+2006,2288,Str Enum,NN NN,django,enums.py
+2007,2289,Choices Type,NNS NN,django,enums.py
+2008,2290,Choices,NNS,django,enums.py
+2009,2291,Integer Choices,NN NNS,django,enums.py
+2010,2292,Text Choices,NN NNS,django,enums.py
+2011,2293,Position Ref,NN NN,django,compiler.py
+2012,2294,SQL Compiler,NNP NN,django,compiler.py
+2013,2295,SQL Insert Compiler,NNP VBP NNP,django,compiler.py
+2014,2296,SQL Delete Compiler,NNP VBP NN,django,compiler.py
+2015,2297,SQL Update Compiler,NNP VBP NN,django,compiler.py
+2016,2298,SQL Aggregate Compiler,NNP VBP NNP,django,compiler.py
+2017,2299,Delete Query,VB NN,django,subqueries.py
+2018,2300,Update Query,VB NN,django,subqueries.py
+2019,2301,Insert Query,VB NN,django,subqueries.py
+2020,2302,Aggregate Query,VB NN,django,subqueries.py
+2021,2303,Multi Join,JJ VB,django,datastructures.py
+2022,2305,Join,VB,django,datastructures.py
+2023,2306,Base Table,JJ NN,django,datastructures.py
+2024,2307,Where Node,WRB NN,django,where.py
+2025,2308,Nothing Node,NN NN,django,where.py
+2026,2309,Extra Where,JJ WRB,django,where.py
+2027,2310,Subquery Constraint,NN NN,django,where.py
+2028,2311,Raw Query,JJ NNP,django,query.py
+2029,2312,Query,NN,django,query.py
+2030,2313,Join Promoter,VB NN,django,query.py
+2031,2315,A Cos,DT NN,django,math.py
+2032,2316,ASin,NNP,django,math.py
+2033,2317,A Tan,DT NNP,django,math.py
+2034,2318,A Tan 2,DT NNP CD,django,math.py
+2035,2321,Cot,NN,django,math.py
+2036,2322,Degrees,NNS,django,math.py
+2037,2325,Ln,NNP,django,math.py
+2038,2328,Pi,NNP,django,math.py
+2039,2330,Radians,NNPS,django,math.py
+2040,2331,Random,NN,django,math.py
+2041,2337,Timezone Mixin,NN NN,django,datetime.py
+2042,2338,Extract,VB,django,datetime.py
+2043,2339,Extract Year,VB NN,django,datetime.py
+2044,2340,Extract Iso Year,VB NNP NN,django,datetime.py
+2045,2341,Extract Month,VB NN,django,datetime.py
+2046,2342,Extract Day,VB NN,django,datetime.py
+2047,2343,Extract Week,VB NN,django,datetime.py
+2048,2344,Extract Week Day,VB NN NN,django,datetime.py
+2049,2345,Extract Iso Week Day,VB NNP NN NN,django,datetime.py
+2050,2346,Extract Quarter,VB NN,django,datetime.py
+2051,2347,Extract Hour,VB NN,django,datetime.py
+2052,2348,Extract Minute,VB NN,django,datetime.py
+2053,2349,Extract Second,VB NN,django,datetime.py
+2054,2350,Now,NN,django,datetime.py
+2055,2351,Trunc Base,VB NN,django,datetime.py
+2056,2352,Trunc,VB,django,datetime.py
+2057,2353,Trunc Year,VB NN,django,datetime.py
+2058,2354,Trunc Quarter,VB NN,django,datetime.py
+2059,2355,Trunc Month,VB NN,django,datetime.py
+2060,2356,Trunc Week,VB NN,django,datetime.py
+2061,2357,Trunc Day,VB NN,django,datetime.py
+2062,2358,Trunc Date,VB NN,django,datetime.py
+2063,2359,Trunc Time,VB NN,django,datetime.py
+2064,2360,Trunc Hour,VB NN,django,datetime.py
+2065,2361,Trunc Minute,VB NN,django,datetime.py
+2066,2362,Trunc Second,VB NN,django,datetime.py
+2067,2363,Cume Dist,NN NN,django,window.py
+2068,2364,Dense Rank,JJ NN,django,window.py
+2069,2365,First Value,JJ NN,django,window.py
+2070,2366,Lag Lead Function,JJ NN NN,django,window.py
+2071,2367,Lag,NN,django,window.py
+2072,2368,Last Value,JJ NN,django,window.py
+2073,2369,Lead,NN,django,window.py
+2074,2370,Nth Value,NN NN,django,window.py
+2075,2371,N tile,FW NN,django,window.py
+2076,2372,Percent Rank,NN NN,django,window.py
+2077,2373,Rank,NN,django,window.py
+2078,2374,Row Number,NN NN,django,window.py
+2079,2375,Fix Decimal Input Mixin,VB JJ NN NN,django,mixins.py
+2080,2376,Fix Duration Input Mixin,VB NN NN NN,django,mixins.py
+2081,2377,Numeric Output Field Mixin,JJ NN NN NN,django,mixins.py
+2082,2379,Coalesce,VB,django,comparison.py
+2083,2380,Collate,VB,django,comparison.py
+2084,2381,Greatest,JJS,django,comparison.py
+2085,2382,JSON Object,NNP NN,django,comparison.py
+2086,2383,Arg Joiner,NN NN,django,comparison.py
+2087,2384,Least,JJS,django,comparison.py
+2088,2385,Null If,JJ IN,django,comparison.py
+2089,2386,My SQL SHA 2 Mixin,PRP$ NNP NNP CD NN,django,text.py
+2090,2387,Oracle Hash Mixin,NNP NN NN,django,text.py
+2091,2388,Postgre SQL SHA Mixin,NNP NNP NNP NN,django,text.py
+2092,2389,Chr,NNP,django,text.py
+2093,2390,Concat Pair,NN NN,django,text.py
+2094,2391,Concat,NN,django,text.py
+2095,2392,Left,NN,django,text.py
+2096,2393,Length,NN,django,text.py
+2097,2394,Lower,JJR,django,text.py
+2098,2395,L Pad,FW NN,django,text.py
+2099,2396,L Trim,FW NN,django,text.py
+2100,2397,MD5,NNP,django,text.py
+2101,2398,Ord,NN,django,text.py
+2102,2400,Replace,VB,django,text.py
+2103,2401,Reverse,NN,django,text.py
+2104,2402,Right,NN,django,text.py
+2105,2403,R Pad,FW NN,django,text.py
+2106,2404,R Trim,FW NN,django,text.py
+2107,2405,SHA1,NNP,django,text.py
+2108,2406,SHA 224,NNP CD,django,text.py
+2109,2407,SHA256,NNP,django,text.py
+2110,2408,SHA384,NNP,django,text.py
+2111,2409,SHA512,NNP,django,text.py
+2112,2410,Str Index,NN NN,django,text.py
+2113,2411,Sub str,JJ NN,django,text.py
+2114,2412,Trim,VB,django,text.py
+2115,2413,Upper,JJ,django,text.py
+2116,2414,Multi Col Source,JJ NN NN,django,related_lookups.py
+2117,2415,Related In,JJ IN,django,related_lookups.py
+2118,2416,Related Lookup Mixin,JJ NN NN,django,related_lookups.py
+2119,2417,Related Exact,JJ JJ,django,related_lookups.py
+2120,2418,Related Less Than,JJ JJR IN,django,related_lookups.py
+2121,2419,Related Greater Than,JJ JJR IN,django,related_lookups.py
+2122,2420,Related Greater Than Or Equal,JJ JJR IN CC JJ,django,related_lookups.py
+2123,2421,Related Less Than Or Equal,JJ JJR IN CC JJ,django,related_lookups.py
+2124,2422,Related Is Null,JJ VBZ JJ,django,related_lookups.py
+2125,2423,JSON Field,NNP NN,django,json.py
+2126,2424,Data Contains,NNS VBZ,django,json.py
+2127,2425,Contained By,VBN IN,django,json.py
+2128,2426,Has Key Lookup,VBZ NN NN,django,json.py
+2129,2427,Has Key,VBZ NN,django,json.py
+2130,2428,Has Keys,VBZ NNS,django,json.py
+2131,2429,Has Any Keys,VBZ DT NNS,django,json.py
+2132,2430,Has Key Or Array Index,VBZ NN CC NN NN,django,json.py
+2133,2431,Case Insensitive Mixin,NN JJ NN,django,json.py
+2134,2432,JSON Exact,NNP VBP,django,json.py
+2135,2433,JSONI Contains,NNP VBZ,django,json.py
+2136,2434,Key Transform,NN NN,django,json.py
+2137,2435,Key Text Transform,NN NN NN,django,json.py
+2138,2436,Key Transform Text Lookup Mixin,NN NN NN NN NN,django,json.py
+2139,2437,Key Transform Is Null,NN NN VBZ JJ,django,json.py
+2140,2438,Key Transform In,NN NN IN,django,json.py
+2141,2439,Key Transform Exact,NN NN VBP,django,json.py
+2142,2440,Key Transform I Exact,NN NN PRP VBZ,django,json.py
+2143,2441,Key Transform I Contains,NN NN PRP VBZ,django,json.py
+2144,2442,Key Transform Starts With,NN NN VBZ IN,django,json.py
+2145,2443,Key Transform I Starts With,NN NN PRP VBZ IN,django,json.py
+2146,2444,Key Transform Ends With,NN NN VBZ IN,django,json.py
+2147,2445,Key Transform I Ends With,NN NN PRP VBZ IN,django,json.py
+2148,2446,Key Transform Regex,NN NN NNP,django,json.py
+2149,2447,Key Transform I Regex,NN NN PRP NNP,django,json.py
+2150,2448,Key Transform Numeric Lookup Mixin,NN NN JJ NN NN,django,json.py
+2151,2449,Key Transform Lt,NN NN NNP,django,json.py
+2152,2450,Key Transform Lte,NN NN NNP,django,json.py
+2153,2451,Key Transform Gt,NN NN NNP,django,json.py
+2154,2452,Key Transform Gte,NN NN NNP,django,json.py
+2155,2453,Key Transform Factory,NN NN NN,django,json.py
+2156,2454,Order Wrt,NN NNP,django,proxy.py
+2157,2455,Field File,NN NN,django,files.py
+2158,2456,File Descriptor,NN NN,django,files.py
+2159,2457,File Field,NN NN,django,files.py
+2160,2458,Image File Descriptor,NN NN NN,django,files.py
+2161,2459,Image Field File,NN NN NN,django,files.py
+2162,2460,Image Field,NN NN,django,files.py
+2163,2461,Field Cache Mixin,NN NN NN,django,mixins.py
+2164,2462,Check Field Default Mixin,VB NN JJ NN,django,mixins.py
+2165,2463,Related Field,JJ NN,django,related.py
+2166,2464,Foreign Object,JJ NN,django,related.py
+2167,2465,Foreign Key,JJ NN,django,related.py
+2168,2466,One To One Field,CD IN CD NN,django,related.py
+2169,2467,Many To Many Field,JJ IN JJ NN,django,related.py
+2170,2468,Generated Field,VBN NN,django,generated.py
+2171,2469,Foreign Object Rel,JJ NN NNP,django,reverse_related.py
+2172,2470,Many To One Rel,JJ IN CD NNP,django,reverse_related.py
+2173,2471,One To One Rel,CD IN CD NNP,django,reverse_related.py
+2174,2472,Many To Many Rel,JJ IN JJ NNP,django,reverse_related.py
+2175,2474,NOT PROVIDED,RB VBN,django,__init__.py
+2176,2475,Field,NN,django,__init__.py
+2177,2476,Boolean Field,NN NN,django,__init__.py
+2178,2477,Char Field,NN NN,django,__init__.py
+2179,2478,Comma Separated Integer Field,NN VBN NN NN,django,__init__.py
+2180,2479,Date Time Check Mixin,NN NN NN NN,django,__init__.py
+2181,2480,Date Field,NN NN,django,__init__.py
+2182,2481,Date Time Field,NN NN NN,django,__init__.py
+2183,2482,Decimal Field,JJ NN,django,__init__.py
+2184,2483,Duration Field,NN NN,django,__init__.py
+2185,2484,Email Field,NN NN,django,__init__.py
+2186,2485,File Path Field,NN NN NN,django,__init__.py
+2187,2486,Float Field,NN NN,django,__init__.py
+2188,2487,Integer Field,NN NN,django,__init__.py
+2189,2488,Big Integer Field,JJ NN NN,django,__init__.py
+2190,2489,Small Integer Field,JJ NN NN,django,__init__.py
+2191,2490,IP Address Field,NNP NN NN,django,__init__.py
+2192,2491,Generic IP Address Field,JJ NNP NN NN,django,__init__.py
+2193,2492,Null Boolean Field,JJ NN NN,django,__init__.py
+2194,2493,Positive Integer Rel Db Type Mixin,JJ NN NNP NNP NN NN,django,__init__.py
+2195,2494,Positive Big Integer Field,JJ JJ NN NN,django,__init__.py
+2196,2495,Positive Integer Field,JJ NN NN,django,__init__.py
+2197,2496,Positive Small Integer Field,JJ JJ NN NN,django,__init__.py
+2198,2497,Slug Field,NN NN,django,__init__.py
+2199,2498,Text Field,NN NN,django,__init__.py
+2200,2499,Time Field,NN NN,django,__init__.py
+2201,2500,URL Field,NNP NN,django,__init__.py
+2202,2501,Binary Field,JJ NN,django,__init__.py
+2203,2502,UUID Field,NNP NN,django,__init__.py
+2204,2503,Auto Field Mixin,JJ NN NN,django,__init__.py
+2205,2504,Auto Field Meta,JJ NN NN,django,__init__.py
+2206,2505,Auto Field,JJ NN,django,__init__.py
+2207,2506,Big Auto Field,JJ JJ NN,django,__init__.py
+2208,2507,Small Auto Field,JJ JJ NN,django,__init__.py
+2209,2508,Foreign Key Deferred Attribute,JJ NN JJ NN,django,related_descriptors.py
+2210,2509,Forward Many To One Descriptor,JJ JJ TO CD NN,django,related_descriptors.py
+2211,2510,Forward One To One Descriptor,JJ CD TO CD NN,django,related_descriptors.py
+2212,2511,Reverse One To One Descriptor,JJ CD TO CD NN,django,related_descriptors.py
+2213,2512,Reverse Many To One Descriptor,JJ JJ IN CD NN,django,related_descriptors.py
+2214,2513,Related Manager,JJ NN,django,related_descriptors.py
+2215,2514,Many To Many Descriptor,JJ IN JJ NN,django,related_descriptors.py
+2216,2515,Many Related Manager,JJ JJ NN,django,related_descriptors.py
+2217,2516,Reference,NN,django,ddl_references.py
+2218,2517,Table,NN,django,ddl_references.py
+2219,2518,Table Columns,NN NNS,django,ddl_references.py
+2220,2519,Columns,NNS,django,ddl_references.py
+2221,2520,Index Name,NN NN,django,ddl_references.py
+2222,2521,Index Columns,NN NNS,django,ddl_references.py
+2223,2522,Foreign Key Name,JJ NN NN,django,ddl_references.py
+2224,2523,Statement,NN,django,ddl_references.py
+2225,2524,Expressions,NNS,django,ddl_references.py
+2226,2525,Cursor Wrapper,NN NN,django,utils.py
+2227,2526,Cursor Debug Wrapper,NN VB NN,django,utils.py
+2228,2527,Database Creation,NN NN,django,creation.py
+2229,2528,Database Features,NN NNS,django,features.py
+2230,2529,Flexible Field Lookup Dict,JJ NN NN NN,django,introspection.py
+2231,2530,Database Introspection,NN NN,django,introspection.py
+2232,2531,List Aggregate,NN NN,django,_functions.py
+2233,2532,Std Dev Pop,NN NN NN,django,_functions.py
+2234,2533,Std Dev Samp,NN NN NN,django,_functions.py
+2235,2534,Var Pop,NN NN,django,_functions.py
+2236,2535,Var Samp,NN NN,django,_functions.py
+2237,2536,Database Operations,NN NNS,django,operations.py
+2238,2537,Database Wrapper,NN NN,django,base.py
+2239,2538,SQ Lite Cursor Wrapper,NNP JJ NN NN,django,base.py
+2240,2539,Database Client,NN NN,django,client.py
+2241,2540,Database Schema Editor,NN NN NN,django,schema.py
+2242,2544,Interval To Seconds,NN TO NNPS,django,functions.py
+2243,2545,Seconds To Interval,NNS TO NN,django,functions.py
+2244,2547,Uninitialized Operators Descriptor,JJ NNS NN,django,base.py
+2245,2549,Oracle Param,NNP NN,django,base.py
+2246,2550,Variable Wrapper,JJ NN,django,base.py
+2247,2551,Format Style Placeholder Cursor,NN NN NN NN,django,base.py
+2248,2552,Database Validation,NN NN,django,validation.py
+2249,2555,Insert Var,VB NN,django,utils.py
+2250,2556,Oracle datetime,NNP NN,django,utils.py
+2251,2557,Bulk Insert Mapper,JJ NN NN,django,utils.py
+2252,2558,Base Database Creation,JJ NN NN,django,creation.py
+2253,2559,Base Database Features,JJ NN NNS,django,features.py
+2254,2560,Base Database Introspection,JJ NN NN,django,introspection.py
+2255,2561,Base Database Operations,JJ NN NNS,django,operations.py
+2256,2562,Base Database Wrapper,JJ NN NN,django,base.py
+2257,2563,Base Database Validation,JJ NN NN,django,validation.py
+2258,2564,Base Database Client,JJ NN NN,django,client.py
+2259,2565,Base Database Schema Editor,JJ NN NN NN,django,schema.py
+2260,2566,Dummy Database Features,JJ NN NNS,django,features.py
+2261,2588,Base Tz Loader,JJ NNP NN,django,psycopg_any.py
+2262,2589,Specific Tz Loader,JJ NN NN,django,psycopg_any.py
+2263,2590,Django Range Dumper,NNP NN NN,django,psycopg_any.py
+2264,2591,Isolation Level,NN NN,django,psycopg_any.py
+2265,2592,Jsonb,NNP,django,psycopg_any.py
+2266,2596,Cursor Mixin,NN NN,django,base.py
+2267,2597,Server Binding Cursor,NN NN NN,django,base.py
+2268,2598,Cursor,NN,django,base.py
+2269,2599,Server Side Cursor,NN NN NN,django,base.py
+2270,2605,Dummy Node,JJ NN,django,graph.py
+2271,2606,Migration Graph,NN NN,django,graph.py
+2272,2607,Operation Writer,NN NN,django,writer.py
+2273,2608,Migration Writer,NN NN,django,writer.py
+2274,2609,Migration Recorder,NN NN,django,recorder.py
+2275,2610,Migration,NN,django,recorder.py
+2276,2611,Meta,NNP,django,recorder.py
+2277,2612,Ambiguity Error,NN NN,django,exceptions.py
+2278,2613,Bad Migration Error,JJ NN NN,django,exceptions.py
+2279,2614,Circular Dependency Error,JJ NN NN,django,exceptions.py
+2280,2615,Inconsistent Migration History,JJ NN NN,django,exceptions.py
+2281,2616,Invalid Bases Error,JJ NNS NN,django,exceptions.py
+2282,2617,Irreversible Error,JJ NN,django,exceptions.py
+2283,2618,Node Not Found Error,NN RB VBN NN,django,exceptions.py
+2284,2619,Migration Schema Missing,NN NN VBG,django,exceptions.py
+2285,2620,Invalid Migration Plan,JJ NN NN,django,exceptions.py
+2286,2621,Migration Executor,NN NN,django,executor.py
+2287,2622,Project State,NN NN,django,state.py
+2288,2623,App Config Stub,NN NN NN,django,state.py
+2289,2624,State Apps,NN NNS,django,state.py
+2290,2626,Migration Loader,NN NN,django,loader.py
+2291,2627,Migration Questioner,NN NN,django,questioner.py
+2292,2628,Interactive Migration Questioner,JJ NN NN,django,questioner.py
+2293,2629,Non Interactive Migration Questioner,RB JJ NN NN,django,questioner.py
+2294,2630,Operation Dependency,NN NN,django,autodetector.py
+2295,2631,Type,NN,django,autodetector.py
+2296,2632,Migration Autodetector,VB NNP,django,autodetector.py
+2297,2633,Base Serializer,JJ NN,django,serializer.py
+2298,2634,Base Sequence Serializer,JJ NN NN,django,serializer.py
+2299,2635,Base Unordered Sequence Serializer,JJ JJ NN NN,django,serializer.py
+2300,2636,Base Simple Serializer,JJ JJ NN,django,serializer.py
+2301,2637,Choices Serializer,NNS NN,django,serializer.py
+2302,2638,Date Time Serializer,NN NN NN,django,serializer.py
+2303,2639,Datetime Datetime Serializer,NN NN NN,django,serializer.py
+2304,2640,Decimal Serializer,JJ NN,django,serializer.py
+2305,2641,Deconstructable Serializer,JJ NN,django,serializer.py
+2306,2642,Dictionary Serializer,NN NN,django,serializer.py
+2307,2643,Enum Serializer,NN NN,django,serializer.py
+2308,2644,Float Serializer,NN NN,django,serializer.py
+2309,2645,Frozen set Serializer,JJ NN NN,django,serializer.py
+2310,2646,Function Type Serializer,NN NN NN,django,serializer.py
+2311,2647,Functools Partial Serializer,NNS JJ NN,django,serializer.py
+2312,2648,Iterable Serializer,JJ NN,django,serializer.py
+2313,2649,Model Field Serializer,NN NN NN,django,serializer.py
+2314,2650,Model Manager Serializer,NN NN NN,django,serializer.py
+2315,2651,Operation Serializer,NN NN,django,serializer.py
+2316,2652,Path Like Serializer,NN IN NN,django,serializer.py
+2317,2653,Path Serializer,NN NN,django,serializer.py
+2318,2654,Regex Serializer,NNP NN,django,serializer.py
+2319,2655,Sequence Serializer,NN NN,django,serializer.py
+2320,2656,Set Serializer,NN NN,django,serializer.py
+2321,2657,Settings Reference Serializer,NNS NN NN,django,serializer.py
+2322,2658,Tuple Serializer,NN NN,django,serializer.py
+2323,2659,Type Serializer,NN NN,django,serializer.py
+2324,2660,UUID Serializer,NNP NN,django,serializer.py
+2325,2661,Serializer,NN,django,serializer.py
+2326,2663,Swappable Tuple,JJ NN,django,migration.py
+2327,2664,Regex Object,NNP NN,django,utils.py
+2328,2665,Migration Optimizer,NN NN,django,optimizer.py
+2329,2666,Field Operation,NN NN,django,fields.py
+2330,2667,Add Field,VB NN,django,fields.py
+2331,2668,Remove Field,VB NN,django,fields.py
+2332,2669,Alter Field,VB NN,django,fields.py
+2333,2670,Rename Field,VB NN,django,fields.py
+2334,2671,Separate Database And State,VB NN CC NN,django,special.py
+2335,2672,Run SQL,VB NNP,django,special.py
+2336,2673,Run Python,VB NNP,django,special.py
+2337,2674,Operation Category,NN NN,django,base.py
+2338,2676,Model Operation,NN NN,django,models.py
+2339,2677,Create Model,VB NN,django,models.py
+2340,2678,Delete Model,VB NN,django,models.py
+2341,2679,Rename Model,VB NN,django,models.py
+2342,2680,Model Option Operation,NN NN NN,django,models.py
+2343,2681,Alter Model Table,VB NN NN,django,models.py
+2344,2682,Alter Model Table Comment,VB NN NN NN,django,models.py
+2345,2683,Alter Together Option Operation,VB RB NN NN,django,models.py
+2346,2684,Alter Unique Together,VB NN RB,django,models.py
+2347,2685,Alter Index Together,VB NN RB,django,models.py
+2348,2686,Alter Order With Respect To,VB NN IN NN TO,django,models.py
+2349,2687,Alter Model Options,VB NN NNS,django,models.py
+2350,2688,Alter Model Managers,VB NN NNS,django,models.py
+2351,2689,Index Operation,NN NN,django,models.py
+2352,2690,Add Index,VB NN,django,models.py
+2353,2691,Remove Index,VB NN,django,models.py
+2354,2692,Rename Index,VB NN,django,models.py
+2355,2693,Add Constraint,VB NN,django,models.py
+2356,2694,Remove Constraint,VB NN,django,models.py
+2357,2695,Unordered Object List Warning,JJ NN NN NN,django,paginator.py
+2358,2696,Invalid Page,JJ NN,django,paginator.py
+2359,2697,Page Not An Integer,NN RB DT NN,django,paginator.py
+2360,2698,Empty Page,JJ NN,django,paginator.py
+2361,2699,Paginator,NN,django,paginator.py
+2362,2700,Page,NN,django,paginator.py
+2363,2701,Field Does Not Exist,NN VBZ RB VBP,django,exceptions.py
+2364,2702,App Registry Not Ready,NN NN RB JJ,django,exceptions.py
+2365,2703,Object Does Not Exist,NN VBZ RB VBP,django,exceptions.py
+2366,2704,Multiple Objects Returned,JJ NNS VBN,django,exceptions.py
+2367,2705,Suspicious Operation,JJ NN,django,exceptions.py
+2368,2706,Suspicious Multipart Form,JJ JJ NN,django,exceptions.py
+2369,2707,Suspicious File Operation,JJ NN NN,django,exceptions.py
+2370,2708,Disallowed Host,VBN NN,django,exceptions.py
+2371,2709,Disallowed Redirect,VBN NN,django,exceptions.py
+2372,2710,Too Many Fields Sent,RB JJ NNS VBN,django,exceptions.py
+2373,2711,Too Many Files Sent,RB JJ NNS VBN,django,exceptions.py
+2374,2712,Request Data Too Big,VB NN RB JJ,django,exceptions.py
+2375,2713,Request Aborted,NN VBN,django,exceptions.py
+2376,2714,Bad Request,JJ NN,django,exceptions.py
+2377,2715,Permission Denied,NN VBN,django,exceptions.py
+2378,2716,View Does Not Exist,NN VBZ RB VBP,django,exceptions.py
+2379,2717,Middleware Not Used,NN RB VBN,django,exceptions.py
+2380,2718,Improperly Configured,RB VBN,django,exceptions.py
+2381,2719,Field Error,NN NN,django,exceptions.py
+2382,2720,Validation Error,NN NN,django,exceptions.py
+2383,2721,Empty Result Set,JJ NN NN,django,exceptions.py
+2384,2722,Full Result Set,JJ NN NN,django,exceptions.py
+2385,2723,Synchronous Only Operation,JJ RB NN,django,exceptions.py
+2386,2724,Regex Validator,NNP NN,django,validators.py
+2387,2725,URL Validator,NNP NN,django,validators.py
+2388,2726,Email Validator,NN NN,django,validators.py
+2389,2727,Base Validator,JJ NN,django,validators.py
+2390,2728,Max Value Validator,JJ NN NN,django,validators.py
+2391,2729,Min Value Validator,JJ NN NN,django,validators.py
+2392,2730,Step Value Validator,NN NN NN,django,validators.py
+2393,2731,Min Length Validator,JJ NN NN,django,validators.py
+2394,2732,Max Length Validator,JJ NN NN,django,validators.py
+2395,2733,Decimal Validator,JJ NN,django,validators.py
+2396,2734,File Extension Validator,NN NN NN,django,validators.py
+2397,2735,Prohibit Null Characters Validator,VB JJ NNS NN,django,validators.py
+2398,2736,Bad Signature,JJ NN,django,signing.py
+2399,2737,Signature Expired,NN JJ,django,signing.py
+2400,2738,JSON Serializer,NNP NN,django,signing.py
+2401,2739,Signer,NN,django,signing.py
+2402,2740,Timestamp Signer,NN NN,django,signing.py
+2403,2742,Deserializer,NN,django,xml_serializer.py
+2404,2743,Def used Expat Parser,VB JJ NN NN,django,xml_serializer.py
+2405,2744,Def used Xml Exception,VB JJ NNP NN,django,xml_serializer.py
+2406,2745,DTD Forbidden,NNP VBN,django,xml_serializer.py
+2407,2746,Entities Forbidden,NNS VBN,django,xml_serializer.py
+2408,2747,External Reference Forbidden,JJ NN VBN,django,xml_serializer.py
+2409,2749,Django JSON Encoder,NNP NNP NN,django,json.py
+2410,2750,Django Safe Dumper,NNP JJ NN,django,pyyaml.py
+2411,2753,Serializer Does Not Exist,NN VBZ RB VBP,django,base.py
+2412,2754,Serialization Error,NN NN,django,base.py
+2413,2755,Deserialization Error,NN NN,django,base.py
+2414,2756,M 2 M Deserialization Error,FW CD FW NN NN,django,base.py
+2415,2757,Progress Bar,NN NN,django,base.py
+2416,2760,Deserialized Object,VBN NN,django,base.py
+2417,2762,Bad Serializer,JJ NN,django,__init__.py
+2418,2763,Bad Header Error,JJ NN NN,django,message.py
+2419,2764,MIME Mixin,NNP NN,django,message.py
+2420,2765,Safe MIME Message,JJ NNP NN,django,message.py
+2421,2766,Safe MIME Text,JJ NNP NN,django,message.py
+2422,2767,Safe MIME Multipart,JJ NNP NN,django,message.py
+2423,2768,Email Message,NN NN,django,message.py
+2424,2769,Email Multi Alternatives,NN JJ NNS,django,message.py
+2425,2770,Cached Dns Name,VBN NNP NN,django,utils.py
+2426,2771,Email Backend,NN NN,django,dummy.py
+2427,2775,Base Email Backend,JJ NN NN,django,base.py
+2428,2777,WSGI Server,NNP NN,django,basehttp.py
+2429,2778,Threaded WSGI Server,VBN NNP NN,django,basehttp.py
+2430,2779,Server Handler,NN NN,django,basehttp.py
+2431,2780,WSGI Request Handler,NNP NN NN,django,basehttp.py
+2432,2781,ASGI Request,NNP NN,django,asgi.py
+2433,2782,ASGI Handler,NNP NN,django,asgi.py
+2434,2783,Limited Stream,JJ NN,django,wsgi.py
+2435,2784,WSGI Request,NNP NN,django,wsgi.py
+2436,2785,WSGI Handler,NNP NN,django,wsgi.py
+2437,2786,Base Handler,JJ NN,django,base.py
+2438,2787,Uploaded File,VBN NN,django,uploadedfile.py
+2439,2788,Temporary Uploaded File,JJ VBN NN,django,uploadedfile.py
+2440,2789,In Memory Uploaded File,IN NN VBN NN,django,uploadedfile.py
+2441,2790,Simple Uploaded File,JJ VBN NN,django,uploadedfile.py
+2442,2791,Image File,NN NN,django,images.py
+2443,2792,File,NN,django,base.py
+2444,2793,Content File,NN NN,django,base.py
+2445,2794,Temporary File,JJ NN,django,temp.py
+2446,2795,OFFSET,NN,django,locks.py
+2447,2796,OFFSET UNION,NN NNP,django,locks.py
+2448,2797,OVERLAPPED,JJ,django,locks.py
+2449,2798,File Proxy Mixin,NN NN NN,django,utils.py
+2450,2799,Upload File Exception,VB NN NN,django,uploadhandler.py
+2451,2800,Stop Upload,VB NN,django,uploadhandler.py
+2452,2801,Skip File,VB NN,django,uploadhandler.py
+2453,2802,Stop Future Handlers,VB JJ NNS,django,uploadhandler.py
+2454,2803,File Upload Handler,NN NN NN,django,uploadhandler.py
+2455,2804,Temporary File Upload Handler,JJ NN NN NN,django,uploadhandler.py
+2456,2805,Memory File Upload Handler,NN NN NN NN,django,uploadhandler.py
+2457,2806,Timing Mixin,NN NN,django,memory.py
+2458,2807,In Memory File Node,IN NN NN NN,django,memory.py
+2459,2808,In Memory Dir Node,IN NN NN NN,django,memory.py
+2460,2809,In Memory Storage,IN NN NN,django,memory.py
+2461,2810,Invalid Storage Error,JJ NN NN,django,handler.py
+2462,2811,Storage Handler,NN NN,django,handler.py
+2463,2812,Storage Settings Mixin,NN NNS NN,django,mixins.py
+2464,2813,Storage,NN,django,base.py
+2465,2814,File System Storage,NN NN NN,django,filesystem.py
+2466,2815,Default Storage,JJ NN,django,__init__.py
+2467,2816,Template Command,NN NN,django,templates.py
+2468,2817,Command Error,NN NN,django,base.py
+2469,2818,System Check Error,NN NN NN,django,base.py
+2470,2819,Command Parser,NN NN,django,base.py
+2471,2820,Django Help Formatter,NNP NN NN,django,base.py
+2472,2821,Output Wrapper,NN NN,django,base.py
+2473,2822,Base Command,JJ NN,django,base.py
+2474,2823,App Command,NN NN,django,base.py
+2475,2824,Label Command,NN NN,django,base.py
+2476,2825,Management Utility,NN NN,django,__init__.py
+2477,2826,Style,NN,django,color.py
+2478,2827,Command,NN,django,startapp.py
+2479,2832,Translatable File,JJ NN,django,makemessages.py
+2480,2833,Build File,VB NN,django,makemessages.py
+2481,2838,Proxy Model Warning,NN NN NN,django,dumpdata.py
+2482,2851,Single Zip Reader,JJ NNP NN,django,loaddata.py
+2483,2856,Tags,NNS,django,registry.py
+2484,2857,Check Registry,VB NN,django,registry.py
+2485,2858,Check Message,VB NN,django,messages.py
+2486,2859,Debug,VB,django,messages.py
+2487,2860,Info,NN,django,messages.py
+2488,2861,Warning,NN,django,messages.py
+2489,2863,Critical,JJ,django,messages.py
+2490,2864,Cache Handler,NN NN,django,__init__.py
+2491,2865,Dummy Cache,JJ NN,django,dummy.py
+2492,2866,Redis Serializer,NNP NN,django,redis.py
+2493,2867,Redis Cache Client,NNP NN NN,django,redis.py
+2494,2868,Redis Cache,NNP NN,django,redis.py
+2495,2869,Loc Mem Cache,NNP NN NN,django,locmem.py
+2496,2870,File Based Cache,NN JJ NN,django,filebased.py
+2497,2871,Invalid Cache Backend Error,JJ NN NN NN,django,base.py
+2498,2872,Cache Key Warning,NN NN NN,django,base.py
+2499,2873,Invalid Cache Key,JJ NN NN,django,base.py
+2500,2874,Base Cache,JJ NN,django,base.py
+2501,2876,Base Database Cache,NN NN NN,django,db.py
+2502,2877,Cache Entry,NN NN,django,db.py
+2503,2878,Database Cache,NN NN,django,db.py
+2504,2879,Base Mem cached Cache,JJ NN VBN NN,django,memcached.py
+2505,2880,Py Lib MC Cache,NNP NN NNP NN,django,memcached.py
+2506,2881,Py Mem cache Cache,NNP NN NN NN,django,memcached.py
+2507,2882,Static Files Handler Mixin,JJ NNS NN NN,django,handlers.py
+2508,2884,ASGI Static Files Handler,NNP JJ NNS NN,django,handlers.py
+2509,2885,Static Live Server Test Case,JJ JJ NN NN NN,django,testing.py
+2510,2886,Base Finder,JJ NN,django,finders.py
+2511,2887,File System Finder,NN NN NN,django,finders.py
+2512,2888,App Directories Finder,NN NNS NNP,django,finders.py
+2513,2889,Base Storage Finder,JJ NN NN,django,finders.py
+2514,2890,Default Storage Finder,JJ NN NN,django,finders.py
+2515,2891,Static Files Storage,JJ NNS NN,django,storage.py
+2516,2892,Hashed Files Mixin,VBN NNS NN,django,storage.py
+2517,2893,Manifest Files Mixin,VB NNS NN,django,storage.py
+2518,2894,Manifest Static Files Storage,VB JJ NNS NN,django,storage.py
+2519,2895,Configured Storage,JJ NN,django,storage.py
+2520,2896,Static Files Config,JJ NNS NN,django,apps.py
+2521,2900,Flat Page Admin,JJ NN NN,django,admin.py
+2522,2901,Flatpage Form,NNP NN,django,forms.py
+2523,2903,Flatpage Fallback Middleware,NNP JJ NN,django,middleware.py
+2524,2904,Flat Pages Config,JJ NNS NN,django,apps.py
+2525,2905,Flat Page,JJ NN,django,models.py
+2526,2907,Flat Page Sitemap,JJ NN NN,django,sitemaps.py
+2527,2908,Flatpage Node,NNP NN,django,flatpages.py
+2528,2910,Minimum Length Validator,JJ NN NN,django,password_validation.py
+2529,2911,User Attribute Similarity Validator,NN NN NN NN,django,password_validation.py
+2530,2912,Common Password Validator,JJ NN NN,django,password_validation.py
+2531,2913,Numeric Password Validator,JJ NN NN,django,password_validation.py
+2532,2914,Base User Manager,JJ NN NN,django,base_user.py
+2533,2915,Abstract Base User,JJ JJ NN,django,base_user.py
+2534,2917,Perm Lookup Dict,NNP NN NN,django,context_processors.py
+2535,2918,Perm Wrapper,NNP NNP,django,context_processors.py
+2536,2919,Password Reset Token Generator,NN NN NN NN,django,tokens.py
+2537,2920,Group Admin,NN NNP,django,admin.py
+2538,2921,User Admin,NN NN,django,admin.py
+2539,2922,ASCII Username Validator,NNP NN NN,django,validators.py
+2540,2923,Unicode Username Validator,NNP NN NN,django,validators.py
+2541,2924,Base Password Hasher,JJ NN NN,django,hashers.py
+2542,2925,PBKDF 2 Password Hasher,NNP CD NN NN,django,hashers.py
+2543,2926,PBKDF 2 SHA1 Password Hasher,NNP CD NNP NN NN,django,hashers.py
+2544,2927,Argon 2 Password Hasher,NN CD NN NN,django,hashers.py
+2545,2928,B Crypt SHA256 Password Hasher,FW NN NNP NN NN,django,hashers.py
+2546,2929,B Crypt Password Hasher,FW NN NN NN,django,hashers.py
+2547,2930,S crypt Password Hasher,FW NN NN NN,django,hashers.py
+2548,2931,MD5 Password Hasher,NNP NN NN,django,hashers.py
+2549,2932,Read Only Password Hash Widget,NN JJ NN NN NN,django,forms.py
+2550,2933,Read Only Password Hash Field,NN JJ NN NN NN,django,forms.py
+2551,2934,Username Field,NN NN,django,forms.py
+2552,2935,Set Password Mixin,VB NN NN,django,forms.py
+2553,2936,Base User Creation Form,JJ NN NN NN,django,forms.py
+2554,2938,User Creation Form,NN NN NN,django,forms.py
+2555,2939,User Change Form,NN NN NN,django,forms.py
+2556,2941,Authentication Form,NN NN,django,forms.py
+2557,2942,Password Reset Form,NN NN NN,django,forms.py
+2558,2943,Set Password Form,VB NN NN,django,forms.py
+2559,2944,Password Change Form,NN NN NN,django,forms.py
+2560,2945,Admin Password Change Form,NN NN NN NN,django,forms.py
+2561,2946,Authentication Middleware,NN NN,django,middleware.py
+2562,2947,Remote User Middleware,JJ NN NN,django,middleware.py
+2563,2948,Persistent Remote User Middleware,JJ JJ NN NN,django,middleware.py
+2564,2949,Access Mixin,NN NN,django,mixins.py
+2565,2950,Login Required Mixin,NN VBN NN,django,mixins.py
+2566,2951,Permission Required Mixin,NN VBN NN,django,mixins.py
+2567,2952,User Passes Test Mixin,NN NNS NN NN,django,mixins.py
+2568,2953,Base Backend,JJ NN,django,backends.py
+2569,2954,Model Backend,NN NN,django,backends.py
+2570,2955,Allow All Users Model Backend,VB DT NNS NN NN,django,backends.py
+2571,2956,Remote User Backend,JJ NN NN,django,backends.py
+2572,2957,Allow All Users Remote User Backend,VB DT NNS JJ NN NN,django,backends.py
+2573,2958,Redirect URL Mixin,VB NNP NN,django,views.py
+2574,2959,Login View,NN NN,django,views.py
+2575,2960,Logout View,NN NN,django,views.py
+2576,2961,Password Context Mixin,NN NN NN,django,views.py
+2577,2962,Password Reset View,NN NN NN,django,views.py
+2578,2963,Password Reset Done View,NN NN VBN NN,django,views.py
+2579,2964,Password Reset Confirm View,NN NN VB NN,django,views.py
+2580,2965,Password Reset Complete View,NN NN VB NN,django,views.py
+2581,2966,Password Change View,NN NN NN,django,views.py
+2582,2967,Password Change Done View,NN NN VBN NN,django,views.py
+2583,2968,Auth Config,NN NN,django,apps.py
+2584,2969,Permission Manager,NN NN,django,models.py
+2585,2970,Permission,NN,django,models.py
+2586,2972,Group Manager,NN NN,django,models.py
+2587,2973,Group,NN,django,models.py
+2588,2975,User Manager,NN NN,django,models.py
+2589,2976,Permissions Mixin,NNS NN,django,models.py
+2590,2978,Abstract User,JJ NN,django,models.py
+2591,2980,User,NN,django,models.py
+2592,2982,Anonymous User,JJ NN,django,models.py
+2593,2996,Not Running In TTY Exception,RB VBG IN NNP NN,django,createsuperuser.py
+2594,2998,Message Failure,NN NN,django,api.py
+2595,2999,Messages Test Mixin,NNS NN NN,django,test.py

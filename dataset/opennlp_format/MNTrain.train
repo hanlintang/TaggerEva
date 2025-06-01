@@ -1,0 +1,5588 @@
+description_NN
+on_IN index_NN module_NN
+read_VB blob_NN
+blob_NN name_NN
+get_VB index_NN to_TO settings_NNS
+get_VB setting_NN
+read_VB from_IN
+write_VB to_TO
+index_NN settings_NNS
+alias_NN
+get_VB alias_NNS
+filtering_NN required_JJ
+get_VB search_NN routing_NN
+search_VB routing_NN
+get_VB index_NN routing_NN
+index_VB routing_NN
+search_VB routing_NN values_NNS
+builder_NN
+new_VB alias_NN meta_NN data_NNS builder_NN
+new_VB alias_NN meta_NN data_NNS
+routing_NN
+to_TO x_NN content_NN
+from_IN x_NN content_NN
+handle_VB request_NN
+set_VB script_NN lang_NN
+set_VB version_NN type_NN
+convert_VB
+test_VB null_JJ pointer_NN
+test_VB invalid_JJ shift_NN
+test_VB bogus_JJ parameter_NN
+get_VB index_NN count_NN
+get_VB shards_NNS
+get_VB docs_NNS
+get_VB store_NN
+get_VB field_NN data_NNS
+get_VB query_NN cache_NN
+get_VB completion_NN
+get_VB segments_NNS
+get_VB percolate_NN
+read_VB indices_NNS stats_NNS
+get_VB indices_NNS
+get_VB total_JJ
+get_VB primaries_NNS
+get_VB replication_NN
+get_VB max_JJ index_NN shards_NNS
+get_VB min_JJ index_NN shards_NNS
+get_VB avg_JJ index_NN shards_NNS
+get_VB max_JJ index_NN primary_JJ shards_NNS
+get_VB min_JJ index_NN primary_JJ shards_NNS
+get_VB avg_JJ index_NN primary_JJ shards_NNS
+get_VB min_JJ index_NN replication_NN
+get_VB avg_JJ index_NN replication_NN
+get_VB max_JJ index_NN replication_NN
+add_VB index_NN shard_NN count_NN
+read_VB shard_NN stats_NNS
+add_VB int_NN min_NN max_NN
+add_VB double_NN min_NN max_NN
+shard_NN handle_VB lookup_NN
+handle_VB shard_NN lookup_NN
+stream_NN shard_NN target_NN
+initial_JJ value_NN
+stream_NN context_NN
+shard_NN target_NN
+total_JJ hits_NNS
+get_VB total_JJ hits_NNS
+max_JJ score_NN
+get_VB max_JJ score_NN
+hits_NNS
+get_VB at_IN
+get_VB hits_NNS
+internal_JJ hits_NNS
+read_VB search_NN hits_NNS
+test_VB parse_VB test_NN section_NN with_IN do_VB section_NN
+test_VB parse_VB test_NN section_NN with_IN do_VB set_VB and_CC skip_VB sections_NNS no_RB skip_VB
+test_VB parse_VB test_NN section_NN with_IN multiple_JJ do_VB sections_NNS
+test_VB parse_VB test_NN section_NN with_IN do_JJ sections_NNS and_CC assertions_NNS
+test_VB small_JJ section_NN
+test_VB if_IN statement_NN
+test_VB while_IN statement_NN
+test_VB do_VB while_IN statement_NN
+test_VB for_IN statement_NN
+test_VB declaration_NN statement_NN
+test_VB continue_NN statement_NN
+test_VB break_NN statement_NN
+test_VB return_NN statement_NN
+test_VB prefer_VB new_JJ indices_NNS
+get_VB index_NN settings_NNS
+test_VB prefer_NN priority_NN indices_NNS
+test_VB priority_NN comparator_NN sort_NN
+all_DT versions_NNS
+get_VB previous_JJ version_NN
+get_VB first_JJ version_NN
+random_JJ version_NN
+random_JJ version_NN between_IN
+requires_VBZ layout_NN
+is_VBZ failed_VBN
+get_VB response_NN
+get_VB failure_NN
+read_VB item_NN response_NN
+new_VB response_NN
+new_VB request_NN builder_NN
+node_VB settings_NNS
+min_JJ external_JJ nodes_NNS
+max_JJ external_JJ nodes_NNS
+test_VB reuse_NN peer_NN recovery_NN
+get_VB service_NN details_NNS
+do_VB start_VB
+do_VB stop_VB
+do_VB close_VB
+reset_VB interval_NN
+get_VB shards_NNS to_TO purge_VB
+get_VB interval_NN
+purge_VB shards_NNS
+set_VB scorer_NN
+needs_VBZ scores_NNS
+collect_VB
+do_VB set_VB next_JJ reader_NN
+get_VB docs_NNS to_TO purge_VB
+process_VB bulk_NN if_IN needed_VBN
+on_IN response_NN
+on_IN failure_NN
+await_VB
+set_VB timeout_NN
+get_VB timeout_NN
+do_VB notify_VB
+visit_VB other_DT
+visit_VB eager_JJ singleton_NN
+visit_VB scope_NN
+visit_VB scope_NN annotation_NN
+visit_VB no_DT scoping_NN
+post_VB match_NN
+match_VB
+match_VB and_CC score_VB
+match_VB and_CC sort_VB
+get_VB query_NN
+counter_VB
+matches_VBZ
+hls_NNP
+top_JJ docs_NNS
+scores_VBZ
+explicit_JJ
+do_VB create_VB test_NN query_NN builder_NN
+do_VB assert_VB lucene_NN query_NN
+test_VB illegal_JJ arguments_NNS
+test_VB from_IN json_NNP
+process_VB existing_VBG recoveries_NNS
+allocate_VB unassigned_JJ
+ignore_VB unassigned_JJ if_IN delayed_JJ
+can_MD be_VB allocated_VBN to_TO at_IN least_JJS one_CD node_NN
+find_VB store_NN
+find_VB matching_JJ nodes_NNS
+fetch_VB data_NNS
+get_VB node_NN with_IN highest_JJS match_NN
+is_VBZ node_NN match_VB by_IN sync_NN id_NN
+has_VBZ any_DT data_NNS
+get_VB value_NN as_IN string_NN
+get_VB deferring_VBG collector_NN
+create_VB top_JJ docs_NNS collector_NN
+get_VB keys_NNS
+get_VB leaf_NN fields_NNS lookup_NN
+test_VB balance_NN all_DT nodes_NNS started_VBN
+test_VB balance_NN incrementally_RB start_VB nodes_NNS
+test_NN balance_NN all_DT nodes_NNS started_VBN add_VB index_NN
+on_IN going_VBG merges_VBZ
+do_VB merge_VB
+before_IN merge_VBG
+after_IN merge_VB
+maybe_RB stall_NN
+get_VB merge_VB thread_NN
+stats_NNS
+refresh_VB config_NN
+get_VB mapper_NN parsers_NNS
+get_VB metadata_NN mapper_NN parsers_NNS
+test_VB index_NN causes_VBZ index_NN creation_NN
+test_VB no_DT replicas_NNS
+test_VB one_CD replica_NN
+test_VB two_CD replicas_NN
+search_VB while_IN creating_VBG index_NN
+types_NNS
+number_NN of_IN shards_NNS
+search_VB type_NN
+filtering_VBG aliases_NNS
+now_RB in_IN millis_NNS
+request_VB cache_NN
+scroll_VB
+set_VB profile_NN
+is_VBZ profile_NN
+cache_NN key_NN
+register_VB streams_NNS
+do_VB reduce_VB
+include_VB fetch_NN
+query_VB result_NN
+search_VB timed_VBN out_RP
+terminated_VBN early_RB
+aggregations_NNS
+profile_NN results_NNS
+pipeline_NN aggregators_NNS
+suggest_VB
+read_VB query_NN search_NN result_NN
+read_VB from_IN with_IN id_NN
+write_VB to_TO no_DT id_NN
+setup_VB mapper_NN parser_NN
+test_VB simple_JJ mappings_NNS
+test_VB external_JJ values_NNS
+node_NN plugins_NNS
+test_VB simple_JJ minimum_JJ master_JJ nodes_NNS
+test_VB multiple_JJ nodes_NNS shutdown_VB non_RB master_JJ nodes_NNS
+test_VB dynamic_JJ update_NN minimum_JJ master_NN nodes_NNS
+assert_VB no_DT master_JJ block_NN on_IN all_DT nodes_NNS
+test_VB can_MD not_RB bring_VB cluster_NN down_RP
+test_VB can_MD not_RB publish_VB without_IN min_JJ mast_NN nodes_NNS
+cluster_NN state_NN processed_VBN
+inner_JJ execute_VB
+get_VB context_NN parser_NN
+additional_JJ settings_NNS
+new_VB directory_NN service_NN
+after_IN index_NN shard_NN closed_VBN
+index_NN shard_NN state_NN changed_VBN
+circuit_NN break_NN
+add_VB estimate_NN bytes_NNS and_CC maybe_RB break_VB
+add_VB without_IN breaking_VBG
+get_VB limit_NN
+get_VB overhead_JJ
+get_VB tripped_VBN count_NN
+get_VB took_VBD
+get_VB took_VBD in_IN millis_NN
+is_VBZ timed_VBN out_RP
+get_VB total_JJ found_VBN
+get_VB total_JJ deleted_VBN
+get_VB total_JJ missing_VBG
+get_VB total_JJ failed_VBN
+get_VB shard_NN failures_NNS
+script_NN
+missing_VBG
+internal_JJ x_NN content_NN
+do_VB internal_JJ x_NN content_NN
+recovery_NN id_NN
+source_NN meta_NN snapshot_NN
+total_JJ translog_NN ops_NNS
+set_VB search_NN context_NN
+inner_JJ hits_NNS
+mapper_NN service_NN
+field_NN data_NNS
+test_VB illegal_JJ values_NNS
+test_VB deprecated_VBN x_NN content_NN
+test_VB to_TO query_VB inner_JJ query_NN type_NN
+test_VB unknown_JJ object_NN exception_NN
+read_VB info_NN from_IN
+get_VB path_NN
+get_VB mount_NN
+get_VB free_JJ
+get_VB available_JJ
+get_VB spins_NNS
+add_VB long_NN
+add_VB double_NN
+read_VB fs_NN info_NN
+all_DT token_NN stream_NN
+all_DT entries_NNS
+increment_NN token_NN
+test_VB wait_NN if_IN ongoing_JJ
+test_VB synced_VBN flush_NN
+test_NN synced_VBN flush_NN with_IN concurrent_JJ indexing_VBG
+assert_VB flush_JJ response_NN equals_VBZ shard_NN stats_NNS
+test_VB unallocated_VBN shards_NNS does_VBZ not_RB hang_VB
+build_VB index_NN field_NN data_NNS cache_NN
+on_IN removal_NN
+apply_VB as_IN long_NN
+load_VB
+on_IN close_VB
+clear_VB
+centroid_NN
+indices_NNS
+indices_NNS options_NNS
+gap_NN policy_NN
+set_VB buckets_NNS paths_NNS map_NN
+get_VB aggregations_NNS
+get_VB suggest_VB
+is_VBZ terminated_VBN early_JJ
+get_VB total_JJ shards_NNS
+get_VB successful_JJ shards_NNS
+get_VB failed_JJ shards_NNS
+get_VB scroll_NN id_NN
+scroll_NN id_NN
+get_VB profile_JJ results_NNS
+test_VB naming_VBG conventions_NNS
+pre_RB visit_VB directory_NN
+visit_VB file_NN
+is_VBZ test_NN case_NN
+visit_VB file_NN failed_JJ
+post_VB visit_NN directory_NN
+assert_VB no_DT violations_NNS
+test_VB issue_NN 8_CD 2_CD 2_CD 6_CD
+test_VB issue_NN 6_CD 6_CD 1_CD 4_CD
+test_VB issue_NN 6_CD 6_CD 3_CD 9_CD
+test_VB track_NN scores_NNS
+test_VB random_JJ sorting_VBG
+test_VB 3_CD 0_CD 7_CD 8_CD
+test_VB score_NN sort_NN direction_NN
+test_VB score_NN sort_NN direction_NN with_IN function_NN score_NN
+test_VB issue_NN 2_CD 9_CD 8_CD 6_CD
+test_VB issue_NN 2_CD 9_CD 9_CD 1_CD
+test_VB simple_JJ sorts_NNS
+test_VB 2_CD 9_CD 2_CD 0_CD
+test_VB sort_NN min_JJ value_NN script_NN
+test_VB documents_NNS with_IN null_JJ value_NN
+test_VB sort_NN missing_VBG numbers_NNS
+test_VB sort_NN missing_VBG strings_NNS
+test_VB ignore_VB unmapped_VBN
+test_VB sort_NN mv_VB field_NN
+test_VB sort_NN on_IN rare_JJ field_NN
+test_VB sort_NN meta_JJ field_NN
+test_VB nested_JJ sort_NN
+test_VB sort_NN duel_NN between_IN single_JJ shard_NN and_CC multi_JJ shard_NN index_NN
+test_VB many_JJ to_TO many_JJ geo_NN points_NNS
+create_VB shuffeld_VBN json_NNP array_NN
+test_VB many_JJ to_TO many_JJ geo_NN points_NNS with_IN different_JJ formats_NNS
+test_VB single_JJ point_NN geo_NN distance_NN sort_NN
+check_VB correct_JJ sort_NN order_NN for_IN geo_NN sort_NN
+create_VB q_NN points_NNS
+test_VB cross_NN index_NN ignore_NN unmapped_VBN
+get_VB content_NN type_NN
+do_VB read_VBP from_IN
+do_VB write_VBP to_IN
+script_NN field_NN to_TO x_NN content_NN
+read_VB template_NN
+create_VB simple_JJ script_NN
+create_VB script_NN
+parse_VB inline_JJ script_NN
+get_VB additional_JJ script_NN parameters_NNS
+get_VB default_JJ script_NN lang_NN
+from_IN id_NN
+from_IN string_NN
+get_VB subset_NN df_FW
+get_VB superset_NN df_FW
+get_VB superset_NN size_NN
+get_VB subset_NN size_NN
+update_VB score_NN
+get_VB doc_NN count_NN
+new_JJ bucket_NN
+get_VB significance_NN score_NN
+get_VB buckets_NNS
+get_VB bucket_NN by_IN key_NN
+test_VB timeout_NN update_NN task_NN
+test_VB acked_VBN update_NN task_NN
+must_MD ack_VB
+on_IN all_DT nodes_NNS acked_VBD
+on_IN ack_VB timeout_NN
+ack_VB timeout_NN
+test_VB acked_VBN update_NN task_NN same_JJ cluster_NN state_NN
+test_VB master_NN aware_JJ execution_NN
+run_VB only_RB on_IN master_NN
+test_VB acked_VBN update_NN task_NN no_DT ack_NN expected_VBD
+test_VB acked_VBN update_NN task_NN timeout_NN zero_DT
+test_VB pending_JJ update_NN task_NN
+test_VB local_JJ node_NN master_NN listener_NN callbacks_NNS
+test_VB prioritized_VBN tasks_NNS
+test_VB cluster_NN state_NN batched_JJ updates_NNS
+cluster_NN state_NN published_VBN
+test_VB cluster_NN state_NN update_NN logging_VBG
+test_VB long_JJ cluster_NN state_NN update_NN logging_VBG
+release_VB
+node_NN services_NNS
+on_IN master_NN
+off_IN master_NN
+executor_NN name_NN
+clean_JJ path_NN
+to_TO array_NN
+build_VB as_IN string_NN
+get_VB reason_NN
+get_VB unassigned_JJ time_NN in_IN millis_NNS
+get_VB unassigned_JJ time_NN in_IN nanos_NNS
+get_VB message_NN
+get_VB details_NNS
+get_VB allocation_NN delay_NN timeout_IN setting_NN nanos_NNS
+get_VB last_JJ computed_JJ left_JJ delay_NN nanos_NNS
+update_VB delay_NN
+get_VB number_NN of_IN delayed_JJ unassigned_JJ
+find_VB smallest_JJS delayed_JJ allocation_NN setting_NN nanos_NNS
+find_VB next_JJ delayed_JJ allocation_NN in_IN
+short_JJ summary_NN
+build_VB result_NN entry_NN
+script_NN service_NN
+test_VB that_DT validation_NN without_IN specifying_VBG search_NN request_NN fails_NNS
+register_VB repository_NN
+unregister_VB repository_NN
+verify_VB repository_NN
+cluster_NN changed_VBN
+repository_NN
+index_NN shard_NN repository_NN
+close_VB repository_NN
+create_VB repository_NN holder_NN
+ensure_VB repository_NN not_RB in_IN use_NN
+failures_NNS
+failed_JJ
+failure_NN description_NN
+test_VB parse_VB id_NN alone_RB
+test_VB fail_NN if_IN id_NN is_VBZ no_DT value_NN
+test_VB parse_VB routing_NN alone_RB
+test_VB parse_VB timestamp_NN alone_RB
+test_VB parse_VB timestamp_NN equals_VBZ
+test_VB parse_VB id_NN and_CC routing_NN and_CC timestamp_NN
+test_VB parse_VB id_NN and_CC routing_NN and_CC timestamp_NN with_IN path_NN
+test_VB parse_VB id_NN with_IN path_NN
+test_VB parse_VB routing_NN with_IN path_NN
+test_VB parse_VB timestamp_NN with_IN path_NN
+test_VB parse_VB id_NN and_CC routing_NN and_CC timestamp_NN within_IN same_JJ path_NN
+test_VB parse_VB id_NN and_CC routing_NN and_CC timestamp_NN within_IN same_JJ path_NN and_CC more_JJR levels_NNS
+test_VB parse_VB id_NN and_CC routing_NN and_CC timestamp_NN with_IN same_JJ repeated_JJ object_NN
+test_VB parse_VB id_NN routing_VBG timestamp_NN with_IN repeated_JJ field_NN
+test_VB parse_VB no_DT id_NN routing_NN with_IN repeated_JJ field_NN and_CC object_NN
+test_VB parse_VB routing_NN with_IN repeated_JJ field_NN and_CC valid_JJ routing_NN
+get_VB ordinals_NNS values_NNS
+ram_NNP bytes_NNS used_VBN
+get_VB child_NN resources_NNS
+get_VB suggestion_NN
+read_VB suggest_NN
+add_VB term_NN
+get_VB entries_NNS
+sort_VB comparator_NN
+new_JJ entry_NN
+inner_JJ read_VB from_IN
+inner_JJ write_VB to_TO
+get_VB text_NN
+new_JJ option_NN
+get_VB highlighted_VBN
+collate_VB match_NN
+set_VB score_NN
+inner_NN to_TO x_NN content_NN
+merge_VB into_IN
+create_VB query_NN builder_NN
+create_VB span_NN term_NN query_NN builders_NNS
+comparator_NN source_NN
+load_VB direct_NN
+parse_VB elements_NNS
+hits_VBZ execution_NN needed_VBN
+hits_VBZ execute_VB
+hit_VB execution_NN needed_VBN
+hit_VB execute_NN
+on_IN module_NN
+flush_VB or_CC close_VB
+new_JJ searcher_NN
+wrap_VB reader_NN
+get_VB core_JJ cache_NN key_NN
+wrap_VB searcher_NN
+max_JJ errors_NNS
+set_VB max_JJ errors_NNS
+separator_NN
+set_VB separator_NN
+realworld_JJ error_NN likelyhood_NN
+set_VB real_JJ word_NN error_NN likelihood_NN
+add_VB generator_NN
+generators_NNS
+set_VB gram_NN size_NN
+gram_NN size_NN
+confidence_NN
+set_VB confidence_NN
+set_VB field_NN
+pre_IN filter_NN
+post_IN filter_NN
+set_VB require_VB unigram_NN
+get_VB require_VB unigram_NN
+set_VB token_NN limit_NN
+get_VB token_NN limit_NN
+set_VB pre_IN tag_NN
+get_VB pre_IN tag_NN
+set_VB post_IN tag_NN
+get_VB post_IN tag_NN
+get_VB collate_VB query_NN script_NN
+set_VB collate_VB query_NN script_NN
+get_VB collate_VB script_NN params_NNS
+set_VB collate_VB script_NN params_NNS
+set_VB collate_VB prune_NN
+collate_VB prune_NN
+current_JJ state_NN
+test_VB all_DT ops_NNS disabled_JJ indexed_JJ scripts_NNS
+parse_VB basic_JJ model_NN
+parse_VB after_IN effect_NN
+test_VB keep_VB types_NNS
+register_VB prototype_NN
+get_VB prototype_NN
+get_VB script_NN lang_NN
+is_VBZ created_VBN
+get_VB field_NN data_NNS type_NN
+test_VB duel_NN all_DT types_NNS single_JJ value_NN
+test_VB duel_NN integers_NNS
+test_VB duel_NN doubles_NNS
+test_VB duel_NN strings_NNS
+test_VB duel_NN global_JJ ordinals_NNS
+test_VB duel_NN geo_NN points_NNS
+test_VB empty_NN
+get_VB numbers_NNS
+duel_NN field_NN data_NNS bytes_NNS
+duel_NN field_NN data_NNS double_NN
+duel_NN field_NN data_NNS long_NN
+duel_NN field_NN data_NNS geo_NN point_NN
+prepare_VB settings_NNS
+prepare_VB environment_NN
+use_VB system_NN properties_NNS
+initialize_VB settings_NNS
+finalize_VB settings_NNS
+random_JJ node_NN name_NN
+replace_VB prompt_NN placeholders_NNS
+prompt_NN for_IN value_NN
+test_VB simple_JJ add_VB
+test_VB simple_JJ add_VB 2_CD
+test_VB simple_JJ add_VB 3_CD
+test_VB simple_JJ add_VB 4_CD
+test_VB simple_JJ add_VB 5_CD
+test_VB response_NN error_NN to_TO x_NN content_NN
+get_VB fields_NNS
+maximum_JJ number_NN of_IN replicas_NNS
+test_VB broadcast_NN operations_NNS
+set_VB features_NNS
+add_VB features_NNS
+test_VB illegal_JJ argument_NN
+test_VB dist_NN
+test_VB pre_IN post_IN
+test_VB parse_VB dist_NN
+test_VB parser_NN exceptions_NNS
+snapshot_NN
+restore_VB
+snapshot_NN status_NN
+verify_VB
+completion_NN stats_NNS
+assert_VB no_DT stopwords_NNS after_IN
+test_VB pattern_NN analyzer_NN
+test_VB standard_JJ h_NN t_NN m_NN l_NN strip_NN analyzer_NN
+test_VB standard_JJ analyzer_NN
+increment_NN
+fill_VB
+documentation_NN
+do_VB request_NN
+process_VB response_NN
+build_VB response_NN
+get_VB table_NN with_IN header_NN
+build_VB table_NN
+significantly_RB smaller_JJR than_IN single_JJ packed_JJ ordinals_NNS
+ordinals_NNS
+get_VB ord_NN
+lookup_NN ord_NN
+get_VB value_NN count_NN
+do_VB set_VBP document_NN
+cardinality_NN
+ord_NN at_IN
+test_VB bulk_NN index_NN creates_VBZ mapping_VBG
+resolve_VB from_IN name_NN
+on_IN no_DT longer_JJR master_NN
+get_VB sum_NN of_IN squares_NNS
+get_VB variance_NN
+get_VB std_JJ deviation_NN
+get_VB std_JJ deviation_NN bound_NN
+get_VB std_JJ deviation_NN as_IN string_NN
+get_VB std_JJ deviation_NN bound_NN as_IN string_NN
+get_VB sum_NN of_IN squares_NNS as_IN string_NN
+get_VB variance_NN as_IN string_NN
+get_VB count_NN
+get_VB time_NN in_IN millis_NN
+add_VB description_NN
+add_VB descriptions_NNS
+find_VB description_NN
+get_VB descriptions_NNS
+get_VB sorted_JJ descriptions_NNS
+dump_VB descriptions_NNS
+test_VB short_JJ line_NN
+test_VB long_JJ line_NN
+test_VB xml_NNP long_JJ line_NN
+do_VB test_NN
+get_VB test_NN data_NNS path_NN
+is_VBZ write_VB action_NN required_VBN
+get_VB anchor_NN
+restore_VB element_NN
+get_VB instance_NN
+get_VB default_JJ templates_NNS
+read_VB file_NN
+global_JJ scheme_NN change_NN
+document_NN created_VBN
+file_NN created_VBN
+ui_NNP settings_NNS changed_VBN
+edit_VB description_NN
+check_VB input_NN
+can_VB close_VBP
+get_VB component_NN name_NN
+add_VB editor_NN bookmark_NN
+add_VB text_NN bookmark_NN
+get_VB auto_NN description_NN
+add_VB file_NN bookmark_NN
+get_VB valid_JJ bookmarks_NNS
+find_VB editor_NN bookmark_NN
+find_VB file_NN bookmark_NN
+find_VB bookmark_NN for_IN mnemonic_NN
+has_VBZ bookmarks_VBN with_IN mnemonics_NNS
+remove_VB bookmark_NN
+read_VB external_JJ
+write_NN external_JJ
+move_VB bookmark_NN up_RP
+move_VB bookmark_NN down_RP
+get_VB next_JJ bookmark_NN
+get_VB previous_JJ bookmark_NN
+get_VB bookmarks_NNS for_IN document_NN
+set_VB mnemonic_NN
+colors_NNS changed_VBN
+before_IN document_NN change_VB
+is_VBZ duplicate_JJ
+document_NN changed_VBN
+move_VB declarations_NNS out_RP
+need_VB to_TO declare_VB out_RP
+get_VB range_NN to_TO select_VB
+indent_JJ comment_NN if_IN necessary_JJ
+parse_VB traditional_JJ for_IN parameter_NN
+parse_VB simple_JJ parameter_NN
+parse_VB catch_VB parameter_NN
+parse_VB optional_JJ modifier_NN
+character_NN needs_VBZ escaping_VBG
+supports_VBZ perl_NNP upportsperl5_FW embedded_VBN comments_NNS
+supports_VBZ possessive_JJ quantifiers_NNS
+supports_VBZ python_NN conditional_JJ refs_NNS
+supports_VB named_JJ group_NN syntax_NN
+supports_VB named_JJ group_NN ref_NN syntax_NN
+supports_VB extended_JJ hex_NN character_NN
+is_VBZ valid_JJ category_NN
+get_VB all_DT known_VBN properties_NNS
+get_VB property_NN description_NN
+get_VB known_VBN character_NN classes_NNS
+get_VB table_NN
+apply_VB value_NN
+is_VBZ row_NN checked_VBN
+get_VB body_NN
+foo_NN bar_NN
+no_DT module_NN configured_VBN
+no_DT jdk_NNP for_IN module_NN
+jdk_NNP misconfigured_VBN
+class_NN not_RB found_VBN
+package_NN not_RB found_VBN
+no_DT jdk_NNP configured_VBN
+bad_JJ module_NN dependencies_NNS
+bar_NN
+get_VB presentation_NN
+has_VBZ type_NN parameters_NNS
+get_VB type_NN parameters_NNS
+get_VB type_NN parameter_NN list_NN
+get_VB doc_NN comment_NN
+is_VBZ deprecated_VBN
+get_VB hierarchical_JJ method_NN signature_NN
+has_VBZ modifier_NN property_NN
+get_VB modifier_NN list_NN
+add_VB modifiers_NNS
+add_VB modifier_NNS
+get_VB return_NN type_NN
+set_VB method_NN return_NN type_NN
+internal_JJ compute_VB
+get_VB return_NN type_NN element_NN
+get_VB parameter_NN list_NN
+add_VB parameter_NN
+get_VB throws_VBZ list_NN
+set_VB constructor_NN
+is_VBZ constructor_NN
+is_VBZ var_NN args_NNS
+get_VB signature_NN
+get_VB name_NN identifier_NN
+find_VB super_JJ methods_NNS
+find_VB super_JJ method_NN signatures_NNS including_VBG static_JJ
+find_VB deepest_JJS super_JJ method_NN
+find_VB deepest_JJS super_JJ methods_NNS
+get_VB containing_VBG class_NN
+set_VB containing_VBG class_NN
+set_VB method_NN kind_NN
+get_VB element_NN icon_NN
+is_VBZ visibility_NN supported_VBN
+set_VB base_NN icon_NN
+is_VBZ equivalent_JJ to_TO
+get_VB use_NN scope_NN
+get_VB containing_VBG file_NN
+get_VB context_NN
+add_VB type_NN parameter_NN
+get_VB origin_NN info_NN
+set_VB origin_NN info_NN
+is_VBZ toolbar_NN place_NN
+is_VBZ main_JJ menu_NN or_CC action_NN search_NN
+is_VBZ popup_NN place_NN
+get_VB raw_JJ dump_NN
+get_VB edt_NNP stack_NN trace_NN
+create_VB contents_NNS index_NN
+get_VB storage_NN
+create_VB input_NN snapshot_NN mapping_NN
+want_VB nonnegative_JJ integral_JJ values_NNS
+create_VB indexing_VBG trace_NN
+save_VB
+clean_VB mapping_NN
+do_VB force_VBP
+get_VB read_VB lock_NN
+get_VB write_VB lock_NN
+process_VB all_DT keys_NNS
+set_VB input_NN id_NN to_TO data_NNS keys_NNS index_NN
+create_VB inputs_NNS index_NN
+compute_VB
+get_VB new_JJ value_NN
+get_VB current_JJ value_NN
+build_VB diff_NN
+deserialize_VB saved_VBN persistent_JJ data_NNS
+get_VB hash_NN of_IN content_NN
+save_VB persistent_JJ data_NNS
+iterate_VB removed_VBN or_CC updated_VBN keys_NNS
+iterate_VB added_VBN keys_NNS
+get_VB new_JJ data_NNS
+process_VB
+update_VB with_IN map_NN
+test_NN 1_CD
+test_NN 2_CD
+test_NN 3_CD
+test_NN 4_CD
+test_NN 5_CD
+test_VB parenthesis_NN
+test_VB or_CC parenthesis_NN
+test_VB comment_NN
+test_VB without_IN spaces_NNS
+test_NN 8_CD
+perform_VB
+get_VB property_NN list_NN
+find_VB property_NN
+is_VBZ zoom_NN supported_VBN
+zoom_NN
+set_VB zoom_NN
+get_VB zoom_NN
+calc_VB label_NN
+build_VB children_NNS
+get_VB child_NN value_NN expression_NN
+is_VBZ expandable_JJ
+get_VB unique_JJ id_NN
+is_VBZ applicable_JJ
+build_VB fix_NN
+move_VB class_NN
+filter_NN imports_NNS
+filter_VB usages_NNS in_IN import_NN statements_NNS
+retarget_VB class_NN refs_NN in_IN moved_VBN
+visit_VB reference_NN element_NN
+find_VB matching_JJ class_NN
+retarget_VB non_JJ code_NN usages_NNS
+visit_VB element_NN
+remove_VB redundant_JJ imports_NNS
+get_VB display_NN name_NN
+build_VB error_NN string_NN
+get_VB family_NN name_NN
+do_VB fix_NN
+qualify_VB references_NNS
+visit_VB reference_NN expression_NN
+build_VB visitor_NN
+visit_VB anonymous_JJ class_NN
+should_MD suggest_VB cast_NN
+get_VB parenthesis_NN owner_NN
+add_VB completions_NNS
+add_VB cast_NN variants_NNS
+get_VB casted_VBN expression_NN type_NN
+create_VB smart_JJ cast_NN element_NN
+handle_VB insert_VB
+comparing_VBG
+m_FW
+get_VB usage_NN type_NN
+is_VBZ search_NN in_IN comments_NNS
+is_VBZ search_NN for_IN text_NN occurences_NNS
+create_VB actions_NNS
+do_VB help_NN action_NN
+create_VB north_JJ panel_NN
+update_VB controls_NNS
+is_VBZ delete_VB
+get_VB delegate_NN
+create_VB center_JJ panel_NN
+need_VB search_VB for_IN text_NN occurrences_NNS
+do_VB ok_JJ action_NN
+is_VBZ safe_JJ delete_VB
+run_VB test_NN case_NN
+test_VB remove_NN trailing_JJ slash_NN
+test_VB remove_VB protocol_NN prefix_NN
+test_VB is_VBZ github_NN url_NNP 1_CD
+test_VB is_VBZ github_NN url_NNP 2_CD
+test_VB get_VB api_NNP url_NNP without_IN protocol_NN
+test_VB get_VB user_NN and_CC repository_NN from_IN remote_JJ url_NNP
+test_VB make_VB github_NN repo_NN from_IN remote_JJ url_NNP
+test_VB get_VB host_NN from_IN url_NNP
+test_VB get_VB api_NNP url_NNP
+create_VB multiple_JJ files_NNS hyperlink_NN info_NN
+get_VB referenced_JJ file_NN
+fix_VB usage_NN
+create_VB snapshot_NN
+apply_VB
+new_VB integrate_NN task_NN
+setup_VB default_NN empty_JJ change_NN list_NN for_IN merge_VB
+refresh_VB changes_NNS
+add_VB name_NN
+get_VB renderer_NN
+get_VB attributes_NNS key_NN
+can_VB do_VBP action_NN
+do_VB action_NN
+show_VB hint_NN
+hide_VB
+get_VB report_NN
+create_VB actions_NNS toolbar_NN
+move_VB to_TO line_NN
+get_VB line_NN data_NNS
+get_VB error_NN stripe_NN color_NN
+get_VB position_NN
+get_VB line_NN entry_NN
+get_VB next_JJ change_NN
+create_VB panel_NN factories_NNS
+create_VB panel_NN
+get_VB panel_NN display_NN name_NN
+update_VB location_NN
+set_VB image_NN
+paint_VB component_NN
+visit_VB py_FW try_VB except_IN statement_NN
+get_VB presentable_JJ name_NN
+get_VB default_JJ value_NN
+calculate_VB result_NN
+is_VBZ acceptable_JJ in_IN context_NN
+get_VB attached_VBN object_NN
+get_VB point_NN
+get_VB expression_NN
+accept_VB py_FW visitor_NN
+get_VB user_NN url_NNP
+is_VBZ covered_VBN by_IN offsets_NNS
+add_VB highlighter_NN to_TO editor_NN incrementally_RB
+is_VBZ file_NN level_NN or_CC gutter_NN annotation_NN
+set_VB highlighters_NNS to_TO editor_NN
+set_VB highlighters_NNS outside_IN range_NN
+generate_VB in_IN start_NN offset_NN order_NN
+set_VB highlighters_NNS in_IN range_NN
+is_VBZ warning_VBG covered_VBN by_IN error_NN
+is_VBZ covered_VBN
+is_VBZ severe_JJ
+create_VB or_CC reuse_VB highlighter_NN for_IN
+consume_VB
+get_VB layer_NN
+get_VB or_CC create_VB
+is_VBZ whitespace_NN optimization_NN allowed_VBN
+disable_VB white_JJ space_NN optimization_NN
+clear_VB white_JJ space_NN optimization_NN flag_NN
+update_VB highlighters_NNS by_IN typing_VBG
+assert_VB markup_NN consistent_NN
+get_VB file_NN
+accepts_VBZ language_NN
+save_VB context_NN
+load_VB context_NN
+clear_VB context_NN
+create_VB fixture_NN
+test_VB rename_VB definition_NN 1_CD
+test_VB rename_VB definition_NN 2_CD
+test_VB rename_VB definition_NN 3_CD
+test_VB rename_VB ns_FW prefix_NN 1_CD
+test_VB rename_VB datatype_NN prefix_NN 1_CD
+test_VB rename_VB included_VBN file_NN
+do_VB test_VB rename_NN
+init_VB component_NN
+add_VB property_NN
+remove_VB item_NN from_IN tree_NN
+remove_VB class_NN from_IN tree_NN
+do_VB remove_VB
+add_VB item_NN in_IN tree_NN
+get_VB index_NN to_TO insert_VB
+add_VB method_NN
+remove_VB class_NN element_NN
+remove_VB property_NN element_NN
+find_VB dynamic_JJ properties_NNS of_IN class_NN
+get_VB property_NN type_NN
+get_VB all_DT containing_VBG classes_NNS
+get_VB root_NN element_NN
+replace_VB dynamic_JJ property_NN name_NN
+replace_VB dynamic_JJ property_NN type_NN
+find_VB concrete_JJ dynamic_JJ method_NN
+remove_VB method_NN element_NN
+remove_VB item_NN element_NN
+replace_VB dynamic_JJ method_NN type_NN
+get_VB or_CC create_VB class_NN element_NN
+get_VB class_NN element_NN by_IN item_NN
+replace_VB dynamic_JJ method_NN name_NN
+get_VB methods_NNS
+fun_NN
+replace_VB class_NN name_NN
+fire_NN change_NN
+fire_NN change_NN code_NN analyze_VB
+find_VB concrete_JJ dynamic_JJ property_NN
+find_VB class_NN element_NN
+dispose_VB component_NN
+project_NN opened_VBN
+project_NN closed_VBN
+create_VB dynamic_JJ element_NN
+register_VB fix_NN actions_NNS
+get_VB input_NN
+set_VB input_NN
+get_VB output_NN
+set_VB output_NN
+get_VB input_NN buffer_NN
+get_VB output_NN buffer_NN
+is_VBZ editable_JJ
+set_VB editable_JJ
+create_VB to_TO string_NN method_NN
+get_VB strategy_NN
+exits_VBZ method_NN dialog_NN
+before_IN create_VB to_TO string_NN method_NN
+after_IN create_VB to_TO string_NN method_NN
+auto_NN import_VB packages_NNS
+execute_VB generate_VB action_NN later_RB
+error_NN ex_NN
+get_VB configurable_JJ filter_NN
+get_VB memory_NN usage_NN
+build_VB for_IN keyword_NN
+build_VB from_IN parameter_NN
+build_VB from_IN property_NN
+get_VB accessor_NN kind_NN
+build_VB from_IN docstring_NN
+is_VBZ attribute_NN
+resolve_VB to_TO doc_NN string_NN owner_NN
+resolve_VB without_IN implicits_NNS
+add_VB inherited_JJ doc_NN string_NN
+add_VB predefined_JJ method_NN doc_NN
+add_VB formatted_VBN doc_NN string_NN
+add_VB type_NN and_CC description_NN from_IN docstring_NN
+get_VB type_NN and_CC description_NN
+build_VB from_IN attribute_NN doc_NN
+remove_VB common_JJ indentation_NN
+add_VB module_NN path_NN
+visit_VB root_NN
+get_VB result_NN
+build_VB quick_JJ fixes_NNS only_RB for_IN on_IN the_IN fly_NN errors_NNS
+visit_VB literal_JJ expression_NN
+get_VB previous_JJ for_IN
+get_VB next_JJ for_IN
+is_VBZ in_IN selection_NN row_NN
+get_VB tab_NN at_IN
+has_VBZ curve_NN space_NN for_IN
+get_VB header_NN rectangle_NN
+get_VB build_NN date_NN
+get_VB major_JJ release_NN build_NN date_NN
+get_VB build_NN
+get_VB product_NN prefix_NN
+get_VB api_NN version_NN
+get_VB major_JJ version_NN
+get_VB minor_JJ version_NN
+get_VB micro_JJ version_NN
+get_VB patch_NN version_NN
+get_VB full_JJ version_NN
+get_VB strict_JJ version_NN
+get_VB version_NN name_NN
+get_VB help_NN u_NN r_NN l_NN
+get_VB company_NN name_NN
+get_VB company_NN u_NN r_NN l_NN
+get_VB help_NN jar_NN path_NN
+get_VB splash_NN image_NN url_NNP
+get_VB splash_NN text_NN color_NN
+get_VB about_IN image_NN url_NNP
+get_VB progress_NN color_NN
+get_VB copyright_JJ foreground_NN
+get_VB progress_NN height_NN
+get_VB progress_NN y_NN
+get_VB license_NN offset_NN y_NN
+get_VB progress_NN x_NN
+get_VB progress_NN tail_NN icon_NN
+get_VB icon_NN url_NNP
+get_VB small_JJ icon_NN url_NNP
+get_VB big_JJ icon_NN url_NNP
+get_VB tool_NN window_NN icon_NN url_NNP
+get_VB welcome_NN screen_NN logo_NN url_NNP
+get_VB customize_VB i_NN d_NN e_NN wizard_JJ steps_NNS provider_NN
+get_VB editor_NN background_NN image_NN url_NNP
+get_VB package_NN code_NN
+is_VBZ e_NN a_NN p_NN
+get_VB update_NN urls_NNPS
+get_VB documentation_NN url_NNP
+get_VB support_NN url_NNP
+get_VB e_NN a_NN p_NN feedback_NN url_NNP
+get_VB release_NN feedback_NN url_NNP
+get_VB plugin_NN manager_NN url_NNP
+get_VB plugins_NNS list_NN url_NNP
+get_VB channels_NNS list_NN url_NNP
+get_VB plugins_NNS download_NN url_NNP
+get_VB builtin_JJ plugins_NNS url_NNP
+get_VB web_NN help_NN url_NNP
+has_VBZ help_NN
+has_VBZ context_NN help_NN
+get_VB whats_NNS new_JJ url_NNP
+get_VB win_NN keymap_NN url_NNP
+get_VB mac_NN keymap_NN url_NNP
+get_VB about_IN foreground_NN
+get_VB about_IN link_NN color_NN
+get_VB full_JJ application_NN name_NN
+show_VB licensee_NN info_JJ
+get_VB statistics_NNS settings_NNS url_NNP
+get_VB statistics_NNS service_NN url_NNP
+get_VB statistics_NNS service_NN key_NN
+get_VB third_JJ party_NN software_NN u_NN r_NN l_NN
+get_VB jetbrains_NNP tv_NN url_NNP
+get_VB eval_NN license_NN url_NNP
+get_VB key_NN conversion_NN url_NNP
+get_VB about_IN logo_NN rect_NN
+is_VBZ beta_NN or_CC r_FW c_FW
+get_VB shadow_NN instance_NN
+set_VB build_NN number_NN
+parse_VB date_NN
+parse_VB color_NN
+get_VB plugin_NN chooser_NN pages_NNS
+is_VBZ essential_JJ plugin_NN
+get_VB checking_NN url_NNP
+get_VB patches_NNS url_NNP
+get_VB category_NN
+get_VB dependent_JJ plugin_NN
+is_VBZ in_IN performance_NN test_NN
+set_VB in_IN performance_NN test_NN
+before_IN
+after_IN
+get_VB extension_NN points_NNS
+add_VB extension_NN point_NN
+caret_NN position_NN changed_VBN
+caret_NN added_VBN
+caret_NN removed_VBN
+is_VBZ selected_VBN
+set_VB selected_JJ
+create_VB settings_NNS page_NN
+get_VB help_NN topic_NN
+get_VB configurable_JJ display_NN name_NN
+create_VB custom_NN settings_NNS
+get_VB new_JJ method_NN options_NNS
+get_VB conflict_NN options_NNS
+add_VB default_JJ vcs_NNP roots_NNS
+matches_VBZ default_JJ mapping_NN
+get_VB match_NN context_NN
+get_VB vcs_NNP root_NN for_IN
+get_VB dirty_JJ roots_NNS
+write_VB to_TO stream_NN
+extract_VB tests_NNS
+get_VB trace_NN files_NNS
+is_VBZ available_JJ
+invoke_VB
+start_VB in_IN write_VB action_NN
+find_VB possible_JJ scopes_NNS
+check_VB expression_NN
+check_VB variable_NN
+check_VB string_NN literal_JJ
+check_VB occurrences_NNS
+check_VB in_IN field_NN initializer_NN
+run_VB refactoring_NN
+move_VB offset_NN to_TO position_NN marker_NN
+get_VB introducer_NN
+perform_VB post_NN introduce_VB tasks_NNS
+add_VB variable_NN
+show_VB scope_NN chooser_NN
+generate_VB declaration_NN
+process_VB expression_NN
+do_VB process_VB expression_NN
+refresh_VB position_NN marker_NN
+generate_VB initializer_NN
+get_VB position_NN marker_NN
+get_VB refactoring_NN name_NN
+get_VB help_NN id_NN
+get_VB dialog_NN
+is_VBZ generated_VBN source_NN
+test_NN 6_CD
+test_NN 7_CD
+test_NN 9_CD
+test_NN 1_CD 0_CD
+test_NN 1_CD 1_CD
+test_NN 1_CD 2_CD
+test_NN 1_CD 3_CD
+test_NN 1_CD 4_CD
+test_VB content_NN
+compose_VB version_NN
+add_VB request_NN for_IN file_NN
+get_VB cvs_NNP command_NN line_NN
+reset_VB cvs_NNP command_NN
+get_VB cvs_NNP arguments_NNS
+is_VBZ check_NN that_IN unedited_VBD
+set_VB check_NN that_IN unedited_VBD
+is_VBZ force_NN even_RB if_IN edited_VBD
+set_VB force_NN even_RB if_IN edited_VBD
+get_VB temporary_JJ watch_NN
+set_VB temporary_JJ watch_NN
+compute_VB constant_JJ expression_NN
+is_VBZ constant_NN
+has_VBZ expression_NN count_NN
+get_VB first_JJ expression_NN in_IN list_NN
+get_VB only_JJ expression_NN in_IN list_NN
+is_VBZ declared_JJ constant_NN
+is_VBZ evaluated_VBN at_IN compile_VB time_NN
+get_VB literal_JJ string_NN
+get_VB literal_JJ
+is_VBZ literal_JJ
+is_VBZ empty_JJ string_NN literal_JJ
+is_VBZ null_JJ literal_JJ
+is_VBZ zero_CD
+is_VBZ one_CD
+is_VBZ negation_NN
+is_VBZ zero_CD literal_JJ
+is_VBZ offset_JJ array_NN access_NN
+expression_NN is_VBZ offset_JJ variable_NN lookup_NN
+is_VBZ variable_NN less_JJR than_IN comparison_NN
+is_VBZ variable_NN greater_JJR than_IN comparison_NN
+is_VBZ zero_CD length_NN array_NN construction_NN
+is_VBZ string_NN concatenation_NN operand_NN
+is_VBZ constructor_NN invocation_NN
+has_VBZ type_NN
+has_VBZ string_NN type_NN
+is_VBZ conversion_NN to_TO string_NN necessary_JJ
+is_VBZ call_NN to_TO method_NN in_IN
+is_VBZ negative_JJ
+get_VB variable_NN from_IN null_JJ comparison_NN
+get_VB variable_NN
+is_VBZ concatenation_NN
+is_VBZ annotated_JJ not_RB null_JJ
+is_VBZ annotated_JJ nullable_JJ
+is_VBZ annotated_JJ
+copy_VB text_NN file_NN to_TO location_NN
+get_VB line_NN separator_NN for_IN
+save_VB line_NN separator_NN for_IN file_NN
+test_VB lambda_NN conversion_NN bug_NN
+can_VB replace_VBP local_JJ
+convert_VB to_TO local_JJ
+can_VB replace_VBP remote_JJ
+convert_VB to_TO remote_JJ
+barangus_NN
+get_VB task_NN icon_NN
+is_VBZ configurable_JJ
+create_VB task_NN
+configure_VB task_NN
+get_VB available_JJ configurations_NNS
+can_VB execute_VBP task_NN
+execute_VB task_NN
+process_NN start_VB scheduled_JJ
+process_NN not_RB started_VBN
+process_NN started_VBN
+process_NN terminated_VBN
+before_IN run_VB
+set_VB settings_NNS
+get_VB settings_NNS
+get_VB dimension_NN service_NN key_NN
+customize_VB cell_NN renderer_NN
+get_VB selected_JJ settings_NNS
+add_VB import_NN candidates_NNS
+execute_VB cell_NN
+start_VB connection_NN
+show_VB dialog_NN url_NNP
+on_IN open_NN
+on_IN output_NN
+on_IN payload_NN
+get_VB connection_NN
+interrupt_VB kernel_NN
+reload_VB kernel_NN
+show_VB warning_NN
+start_VB ipython_NNP server_NN
+do_VB destroy_VB process_NN
+is_VBZ silently_RB destroy_VB on_IN close_NN
+find_VB i_NN python_NN runner_NN
+get_VB host_NN port_NN from_IN url_NNP
+shutdown_VB kernels_NNS
+hyperlink_NN activated_VBN
+get_VB navigatable_JJ
+get_VB virtual_JJ file_NN
+get_VB export_NN text_NN prefix_NN
+get_VB render_VB text_NN prefix_NN
+get_VB line_NN
+get_VB column_NN
+test_VB disjunction_NN
+test_VB simple_JJ
+test_VB foreach_NN
+test_VB try_VB with_IN resources_NNS
+test_VB polyadic_JJ parentheses_NNS
+get_VB intention_NN name_NN
+get_VB relative_JJ path_NN
+get_VB bundle_NN
+on_IN build_NN finished_VBN
+create_VB editor_NN
+get_VB preloader_NN class_NN
+set_VB preloader_NN class_NN
+on_IN target_NN in_IN edit_NN mode_NN changed_VBN
+build_VB classpath_NN
+test_VB unreachable_JJ
+test_VB with_IN suppressed_JJ exceptions_NNS
+get_VB tool_NN window_NN id_NN
+get_VB tool_NN window_NN icon_NN
+get_VB disabled_JJ icon_NN
+get_VB action_NN name_NN
+get_VB start_NN action_NN text_NN
+get_VB context_NN action_NN id_NN
+get_VB binary_JJ content_NN
+get_VB content_NN
+get_VB revision_NN number_NN
+as_IN string_NN
+get_VB parameters_NNS count_NN
+get_VB method_NN
+can_VB change_VBP visibility_NN
+can_VB change_VBP parameters_NNS
+can_VB change_VBP name_NN
+can_VB change_VBP return_JJ type_NN
+get_VB group_NN display_NN name_NN
+visit_VB continue_VBP statement_NN
+visit_VB break_NN statement_NN
+build_JJ command_NN line_NN parameters_NNS
+do_VB create_VB process_NN
+get_VB after_IN task_NN
+find_VB output_NN
+get_VB runner_NN
+get_VB task_NN
+add_VB import_NN if_IN needed_JJ
+name_NN can_MD be_VB statically_RB imported_VBN
+name_NN can_MD be_VB imported_VBN
+contains_VBZ conflicting_JJ class_NN name_NN
+has_VBZ exact_JJ import_NN conflict_NN
+has_VBZ exact_JJ import_NN static_JJ conflict_NN
+has_VBZ on_IN demand_NN import_NN conflict_NN
+has_VBZ default_JJ import_NN conflict_NN
+has_VBZ java_NN lang_NN import_NN conflict_NN
+contains_VBZ conflicting_JJ class_NN
+contains_VBZ conflicting_JJ inner_JJ class_NN
+add_VB static_JJ import_NN
+find_VB on_IN demand_NN import_NN static_JJ statement_NN
+get_VB matching_JJ imports_NNS
+is_VBZ statically_RB imported_VBN
+member_NN referenced_VBN
+is_VBZ reference_NN found_VBN
+contains_VBZ conflicting_JJ reference_NN
+is_VBZ conflicting_JJ reference_NN found_VBN
+remove_VB artifact_NN
+get_VB or_CC create_VB modifiable_JJ artifact_NN
+get_VB modifiable_JJ copy_NN
+remove_VB listener_NN
+is_VBZ modified_VBN
+commit_VB
+method_NN
+declare_VB final_JJ
+initialize_VB in_IN
+get_VB visibility_NN modifier_NN
+is_VBZ static_JJ
+remove_VB local_JJ var_NN
+get_VB dom_NNP name_NN strategy_NN
+get_VB getter_NN method_NN
+get_VB annotation_NN
+get_VB values_NNS
+get_VB common_JJ presentable_JJ name_NN
+get_VB dom_NNP attribute_NN value_NN
+visit_VB local_JJ variable_JJ declaration_NN
+visit_VB field_NN declaration_NN
+visit_VB parameter_NN declaration_NN
+visit_VB method_NN return_NN type_NN
+visit_VB type_NN cast_NN expression_NN
+visit_VB new_JJ expression_NN
+get_VB canonical_JJ text_NN
+get_VB element_NN
+get_VB range_NN in_IN element_NN
+is_VBZ reference_NN to_TO
+bind_VB to_TO element_NN
+handle_VB element_NN rename_VB
+get_VB text_NN range_NN
+is_VBZ enabled_VBN by_IN default_NN
+visit_VB xml_NNP tag_NN
+is_VBZ tag_NN with_IN empty_JJ end_NN not_RB allowed_VBN
+apply_VB fix_NN
+get_VB task_NN name_NN
+get_VB path_NN to_TO git_NN
+set_VB path_NN to_TO git_NN
+set_VB idea_NN ssh_NNP
+get_VB uuid_NNP
+delete_VB resource_NN
+get_VB resources_NNS
+put_VB resource_NN
+get_VB folders_NNS
+get_VB structures_NNS
+get_VB templates_NNS
+set_VB ddm_NNP structure_NN local_JJ service_NN
+set_VB ddm_NNP template_NN local_JJ service_NN
+add_VB page_NN
+add_VB page_NN attachment_NN
+add_VB page_NN attachments_NNS
+add_VB temp_JJ file_NN entry_NN
+add_VB temp_JJ page_NN attachment_NN
+change_VB parent_NN
+copy_VB page_NN attachments_NNS
+delete_VB page_NN
+delete_VB page_NN attachment_NN
+delete_VB page_NN attachments_NNS
+delete_VB temp_JJ file_NN entry_NN
+delete_VB trash_NN page_NN attachments_NNS
+discard_VB draft_NN
+fetch_VB page_NN
+get_VB children_NNS
+get_VB draft_NN page_NN
+get_VB node_NN pages_NNS
+get_VB node_NN pages_NNS rss_NNP
+get_VB osgi_NNP service_NN identifier_NN
+get_VB orphans_NNS
+get_VB page_NN
+get_VB pages_NNS
+get_VB pages_NNS count_NN
+get_VB pages_NNS rss_NNP
+get_VB recent_JJ changes_NNS
+get_VB recent_JJ changes_NNS count_NN
+get_VB temp_JJ file_NN names_NNS
+move_VB page_NN
+move_VB page_NN attachment_NN to_TO trash_NN
+move_VB page_NN to_TO trash_NN
+rename_VB page_NN
+restore_VB page_NN attachment_NN from_IN trash_NN
+restore_VB page_NN from_IN trash_NN
+revert_VB page_NN
+subscribe_VB page_NN
+unsubscribe_VB page_NN
+update_VB page_NN
+test_VB get_VB fields_NNS
+to_TO entity_NN model_NN
+set_VB up_RP class_NN
+test_VB add_VB structure_NN missing_VBG required_VBN element_NN attribute_NN
+test_VB add_VB structure_NN with_IN duplicate_JJ element_NN name_NN
+test_VB add_VB structure_NN with_IN duplicate_JJ element_NN name_NN in_IN parent_JJ
+test_VB add_VB structure_NN with_IN duplicate_JJ key_NN
+test_VB add_VB structure_NN with_IN invalid_JJ element_NN attribute_NN
+test_VB add_VB structure_NN without_IN definition_NN
+test_VB add_VB structure_NN without_IN name_NN
+test_VB copy_NN structure_NN
+test_VB delete_VB structure_NN
+test_VB delete_VB structure_NN referenced_VBN by_IN templates_NNS
+test_VB fetch_NN structure_NN
+test_VB get_VB full_JJ hierarchy_NN ddm_NNP form_IN fields_NNS map_NN
+test_VB get_VB structures_NNS
+test_VB get_VB templates_NNS
+test_VB search_NN by_IN any_DT status_NN
+test_VB search_NN by_IN class_NN name_NN id_NN
+test_VB search_NN by_IN description_NN
+test_VB search_NN by_IN draft_NN status_NN
+test_VB search_NN by_IN keywords_NNS 1_CD
+test_VB search_NN by_IN keywords_NNS 2_CD
+test_VB search_NN by_IN name_NN
+test_VB search_NN by_IN name_NN and_CC description_NN
+test_VB search_NN by_IN name_NN or_CC description_NN
+test_VB search_NN by_IN non_RB existing_JJ storage_NN type_NN
+test_VB search_NN by_IN storage_NN type_NN
+test_VB search_NN count_NN
+test_VB search_NN count_NN by_IN keywords_NNS
+copy_VB structure_NN
+get_VB structure_NN name_NN
+update_VB structure_NN
+get_VB array_NN
+test_VB create_VB
+test_VB remove_VB
+test_VB update_NN new_JJ
+test_VB update_NN existing_VBG
+test_VB count_NN by_IN group_NN id_NN
+test_VB count_NN by_IN c__FW c_FW
+test_VB count_NN by_IN g__FW c__FW c__FW o_FW
+test_VB count_NN by_IN g__FW c__FW c__FW n__FW o__FW s_FW
+test_VB count_NN by_IN g__FW c__FW c__FW n__FW o__FW e_FW
+test_VB find_VB by_IN primary_JJ key_NN existing_JJ
+test_VB find_VB by_IN primary_JJ key_NN missing_JJ
+test_VB find_VB all_DT
+get_VB order_NN by_IN comparator_NN
+test_VB fetch_NN by_IN primary_JJ key_NN existing_VBG
+test_VB fetch_NN by_IN primary_JJ key_NN missing_VBG
+test_VB fetch_NN by_IN primary_JJ keys_NNS with_IN multiple_JJ primary_JJ keys_NNS where_WRB all_DT primary_JJ keys_NNS exist_VBP
+test_VB fetch_NN by_IN primary_JJ keys_NNS with_IN multiple_JJ primary_JJ keys_NNS where_WRB no_DT primary_JJ keys_NNS exist_VBP
+test_VB fetch_NN by_IN primary_JJ keys_NNS with_IN multiple_JJ primary_JJ keys_NNS where_WRB some_DT primary_JJ keys_NNS exist_VBP
+test_VB fetch_NN by_IN primary_JJ keys_NNS with_IN no_DT primary_JJ keys_NNS
+test_VB fetch_NN by_IN primary_JJ keys_NNS with_IN one_CD primary_NN key_NN
+test_VB actionable_JJ dynamic_JJ query_NN
+perform_VB action_NN
+test_VB dynamic_JJ query_NN by_IN primary_JJ key_NN existing_VBG
+test_VB dynamic_JJ query_NN by_IN primary_JJ key_NN missing_VBG
+test_VB dynamic_JJ query_NN by_IN projection_NN existing_VBG
+test_VB dynamic_JJ query_NN by_IN projection_NN missing_VBG
+test_VB reset_NN original_JJ values_NNS
+add_VB social_JJ activity_NN counter_NN
+service_NN
+get_VB servlet_NN
+get_VB wrapped_JJ comment_NN
+activate_VB sync_NN site_NN
+deactivate_VB sync_NN site_NN
+delete_VB sync_NN site_NN
+fetch_VB sync_NN site_NN
+find_VB sync_NN sites_NNS
+get_VB active_JJ sync_NN site_NN ids_NNS
+get_VB sync_NN site_NN persistence_NN
+register_VB model_NN listener_NN
+set_VB file_NN path_NN name_NN
+unregister_VB model_NN listener_NN
+delete_VB sync_NN files_NNS
+get_VB attribute_NN class_NN
+get_VB type_NN class_NN
+get_VB ancestors_NNS
+get_VB parent_NN category_NN
+is_VBZ root_NN category_NN
+do_VB process_NN action_NN
+get_VB jsp_NNP path_NN
+get_VB log_NN
+set_VB servlet_NN context_NN
+add_VB record_NN set_NN
+get_VB attribute_NN definitions_NNS
+get_VB extension_NN attributes_NNS
+get_VB extension_NN uris_NNPS
+test_VB results_NNS when_WRB total_NN less_JJR than_IN start_NN and_CC delta_NN is_VBZ bigger_JJR than_IN total_JJ
+test_VB results_NNS when_WRB total_NN less_JJR than_IN start_NN and_CC delta_NN is_VBZ one_CD
+test_VB results_NNS when_WRB total_NN less_JJR than_IN start_NN and_CC delta_NN is_VBZ three_CD
+test_VB search_NN with_IN one_CD result_NN
+test_VB search_NN with_IN one_CD result_NN when_WRB total_JJ equals_VBZ start_VBP
+test_VB search_NN with_IN one_CD result_NN when_WRB total_NN less_JJR than_IN start_NN
+test_VB search_NN without_IN results_NNS
+test_VB search_NN without_IN results_NNS when_WRB total_NN equals_NNS start_VBP
+test_VB search_NN without_IN results_NNS when_WRB total_NN less_JJR than_IN start_NN
+test_VB search_NN without_IN results_NNS when_WRB total_NN less_JJR than_IN start_NN and_CC delta_NN is_VBZ one_CD
+test_VB search_NN with_IN results_NNS
+test_VB search_NN with_IN results_NNS when_WRB total_NN equals_NNS start_VBP
+test_VB search_NN with_IN results_NNS when_WRB total_NN less_JJR than_IN start_NN
+test_VB search_NN with_IN results_NNS when_WRB total_NN less_JJR than_IN start_NN and_CC delta_NN is_VBZ one_CD
+get_VB search_NN with_IN one_CD result_NN
+get_VB search_NN without_IN results_NNS
+test_VB results_NNS
+get_VB choice_NN
+process_VB action_NN
+do_VBP transactional_JJ command_NN
+persist_VB
+add_VB whip_NN configuration_NN
+add_VB whip_NN dependencies_NNS
+apply_VB to_TO default_NN tasks_NNS
+add_VB asset_NN category_NN property_NN
+add_VB category_NN property_NN
+create_VB asset_NN category_NN property_NN
+delete_VB asset_NN category_NN property_NN
+delete_VB category_NN properties_NNS
+delete_VB category_NN property_NN
+delete_VB persisted_VBN model_NN
+dynamic_JJ query_NN
+dynamic_JJ query_NN count_NN
+fetch_VB asset_NN category_NN property_NN
+get_VB actionable_JJ dynamic_JJ query_NN
+get_VB asset_NN category_NN properties_NNS
+get_VB asset_NN category_NN properties_NNS count_NN
+get_VB asset_NN category_NN property_NN
+get_VB category_NN properties_NNS
+get_VB category_NN property_NN
+get_VB category_NN property_NN values_NNS
+get_VB indexable_JJ actionable_JJ dynamic_JJ query_NN
+get_VB persisted_VBN model_NN
+update_VB asset_NN category_NN property_NN
+update_VB category_NN property_NN
+get_VB service_NN
+set_VB service_NN
+find_VB service_NN
+get_VB service_NN name_NN
+after_IN properties_NNS set_VBD
+set_VB bean_NN matcher_NN
+set_VB method_NN interceptor_NN
+customize_VB proxy_NN factory_NN
+create_VB aop_NNS proxy_NN
+get_VB advices_NNS and_CC advisors_NNS for_IN bean_NN
+convert_VB json_NNP ml_NNP array_NN to_TO xml_NNP
+convert_VB json_NNP ml_NNP object_NN to_TO xml_NNP
+convert_VB xml_NNP to_TO json_NNP ml_NNP array_NN
+convert_VB xml_NNP to_TO json_NNP ml_NNP object_NN
+create_VB java_NN script_NN normalizer_NN json_NNP transformer_NN
+create_VB json_NNP array_NN
+create_VB json_NNP deserializer_NN
+create_VB json_NNP object_NN
+create_VB json_NNP serializer_NN
+create_VB json_NNP validator_NN
+deserialize_VB
+get_VB null_JJ json_NNP
+get_VB unmodifiable_JJ json_NNP object_NN
+loose_RB deserialize_VB
+loose_RB serialize_VB
+loose_RB serialize_VB deep_NN
+serialize_VB
+serialize_VB throwable_JJ
+clear_VB cache_NN
+count_VB with_IN dynamic_JJ query_NN
+find_VB with_IN dynamic_JJ query_NN
+find_VB by_IN uuid_NNP
+find_VB by_IN uuid__NNP first_JJ
+fetch_VB by_IN uuid__NNP first_JJ
+find_VB by_IN uuid__NNP last_JJ
+fetch_VB by_IN uuid__NNP last_JJ
+find_VB by_IN uuid__NNP prev_JJ and_CC next_JJ
+remove_VB by_IN uuid_NNP
+count_VB by_IN uuid_NNP
+find_VB by_IN uuid__NNP c_FW
+find_VB by_IN uuid__NNP c__FW first_JJ
+fetch_VB by_IN uuid__NNP c__FW first_JJ
+find_VB by_IN uuid__NNP c__FW last_JJ
+fetch_VB by_IN uuid__NNP c__FW last_JJ
+find_VB by_IN uuid__NNP c__FW prev_JJ and_CC next_JJ
+remove_VB by_IN uuid__NNP c_FW
+count_VB by_IN uuid__NNP c_FW
+find_VB by_IN c__FW c_FW
+find_VB by_IN c__FW c__FW first_JJ
+fetch_VB by_IN c__FW c__FW first_JJ
+find_VB by_IN c__FW c__FW last_JJ
+fetch_VB by_IN c__FW c__FW last_JJ
+find_VB by_IN c__FW c__FW prev_JJ and_CC next_JJ
+remove_VB by_IN c__FW c_FW
+count_VB by_IN c__FW c_FW
+find_VB by_IN u__FW c__FW c_FW
+fetch_VB by_IN u__FW c__FW c_FW
+remove_VB by_IN u__FW c__FW c_FW
+count_VB by_IN u__FW c__FW c_FW
+find_VB by_IN c__FW c__FW s_FW
+find_VB by_IN c__FW c__FW s__FW first_JJ
+fetch_VB by_IN c__FW c__FW s__FW first_JJ
+find_VB by_IN c__FW c__FW s__FW last_JJ
+fetch_VB by_IN c__FW c__FW s__FW last_JJ
+find_VB by_IN c__FW c__FW s__FW prev_JJ and_CC next_JJ
+remove_VB by_IN c__FW c__FW s_FW
+count_VB by_IN c__FW c__FW s_FW
+cache_NN result_NN
+update_VB impl_NNP
+find_VB by_IN primary_JJ key_NN
+fetch_VB by_IN primary_JJ key_NN
+fetch_VB by_IN primary_JJ keys_NNS
+find_VB all_DT
+remove_VB all_DT
+count_NN all_DT
+get_VB bad_JJ column_NN names_NNS
+get_VB persistence_NN
+set_VB persistence_NN
+translate_VB
+add_VB permission_NN fields_NNS
+get_VB permission_NN boolean_JJ filter_NN
+update_VB permission_NN fields_NNS
+fetch_VB asset_NN entry_NN
+get_VB mine_PRP base_NN models_NNS count_NN
+get_VB parent_NN base_NN model_NN class_NN name_NN
+get_VB recent_JJ base_NN models_NNS count_NN
+get_VB search_NN keywords_NNS
+is_VBZ asset_NN entry_NN visible_JJ
+move_VB base_NN model_NN from_IN trash_NN
+move_VB parent_NN base_NN model_NN to_TO trash_VB
+search_VB base_NN models_NNS count_NN
+search_VB trash_NN entries_NNS count_VBP
+update_VB base_NN model_NN
+add_VB base_NN model_NN with_IN workflow_JJ
+delete_VB parent_NN base_NN model_NN
+get_VB base_NN model_NN
+get_VB base_NN model_NN class_NN
+get_VB not_RB in_IN trash_NN base_NN models_NNS count_NN
+get_VB parent_NN base_NN model_NN
+get_VB unique_JJ title_NN
+get_VB workflowed_VBN model_NN
+move_VB base_NN model_NN to_TO trash_NN
+get_VB indexer_NN
+get_VB indexer_NN registry_NN
+get_NN indexers_NNS
+null_JJ safe_JJ get_VB indexer_NN
+unregister_VB
+to_TO soap_NN model_NN
+to_TO soap_NN models_NNS
+get_VB primary_JJ key_NN
+set_VB primary_JJ key_NN
+get_VB mvcc_NNP version_NN
+set_VB mvcc_NNP version_NN
+set_VB uuid_NNP
+get_VB role_NN id_NN
+set_VB role_NN id_NN
+get_VB company_NN id_NN
+set_VB company_NN id_NN
+get_VB user_NN id_NN
+set_VB user_NN id_NN
+get_VB user_NN name_NN
+set_VB user_NN name_NN
+get_VB create_VB date_NN
+set_VB create_VB date_NN
+get_VB modified_JJ date_NN
+set_VB modified_JJ date_NN
+get_VB class_NN name_NN id_NN
+set_VB class_NN name_NN id_NN
+get_VB class_NN pk_FW
+set_VB class_NN pk_FW
+get_VB subtype_NN
+set_VB subtype_NN
+get_VB expando_NN column_NN local_JJ service_NN
+set_VB expando_NN column_NN local_JJ service_NN
+get_VB expando_NN column_NN service_NN
+set_VB expando_NN column_NN service_NN
+get_VB expando_NN column_NN persistence_NN
+set_VB expando_NN column_NN persistence_NN
+get_VB expando_NN row_NN local_JJ service_NN
+set_VB expando_NN row_NN local_JJ service_NN
+get_VB expando_VB row_NN persistence_NN
+set_VB expando_VB row_NN persistence_NN
+get_VB expando_NN table_NN local_JJ service_NN
+set_VB expando_NN table_NN local_JJ service_NN
+get_VB expando_NN table_NN persistence_NN
+set_VB expando_NN table_NN persistence_NN
+get_VB expando_NN value_NN local_JJ service_NN
+set_VB expando_NN value_NN local_JJ service_NN
+get_VB expando_NN value_NN service_NN
+set_VB expando_NN value_NN service_NN
+get_VB expando_NN value_NN persistence_NN
+set_VB expando_NN value_NN persistence_NN
+get_VB counter_NN local_JJ service_NN
+set_VB counter_NN local_JJ service_NN
+get_VB class_NN name_NN local_JJ service_NN
+set_VB class_NN name_NN local_JJ service_NN
+get_VB class_NN name_NN service_NN
+set_VB class_NN name_NN service_NN
+get_VB class_NN name_NN persistence_NN
+set_VB class_NN name_NN persistence_NN
+get_VB resource_NN local_JJ service_NN
+set_VB resource_NN local_JJ service_NN
+get_VB user_NN local_JJ service_NN
+set_VB user_NN local_JJ service_NN
+get_VB user_NN service_NN
+set_VB user_NN service_NN
+get_VB user_NN persistence_NN
+set_VB user_NN persistence_NN
+get_VB user_NN finder_NN
+set_VB user_NN finder_NN
+get_VB model_NN class_NN
+get_VB model_NN class_NN name_NN
+get_VB model_NN attributes_NNS
+set_VB model_NN attributes_NNS
+get_VB available_JJ language_NN ids_NNS
+get_VB categories_NNS
+get_VB categories_NNS count_NN
+get_VB default_NN language_NN id_NN
+get_VB description_NN current_JJ language_NN id_NN
+get_VB description_NN current_JJ value_NN
+get_VB description_NN map_NN
+get_VB expando_NN bridge_NN
+get_VB last_JJ publish_VB date_NN
+get_VB primary_JJ key_NN obj_NN
+get_VB required_JJ class_NN name_NN ids_NNS
+get_VB selected_JJ class_NN name_NN ids_NNS
+get_VB selected_JJ class_NN type_NN p_FW ks_FW
+get_VB settings_NNS properties_NNS
+get_VB title_NN current_JJ language_NN id_NN
+get_VB title_NN current_JJ value_NN
+get_VB title_NN map_NN
+get_VB unambiguous_JJ title_NN
+get_VB user_NN uuid_NN
+get_VB vocabulary_NN id_NN
+has_VBZ more_JJR than_IN one_CD category_NN selected_VBN
+is_VBZ associated_VBN to_TO class_NN name_NN id_NN
+is_VBZ associated_VBN to_TO class_NN name_NN id_NN and_CC class_NN type_NN p_FW k_FW
+is_VBZ cached_VBN model_NN
+is_VBZ escaped_VBN model_NN
+is_VBZ missing_JJ required_JJ category_NN
+is_VBZ multi_RB valued_VBN
+is_VBZ new_JJ
+is_VBZ required_JJ
+prepare_VB localized_JJ fields_NNS for_IN import_NN
+set_VB cached_VBN model_NN
+set_VB description_NN current_JJ language_NN id_NN
+set_VB description_NN map_NN
+set_VB expando_NN bridge_NN attributes_NNS
+set_VB last_JJ publish_VB date_NN
+set_VB new_JJ
+set_VB primary_JJ key_NN obj_NN
+set_VB settings_NNS properties_NNS
+set_VB title_NN current_JJ language_NN id_NN
+set_VB title_NN map_NN
+set_VB user_NN uuid_NN
+set_VB vocabulary_NN id_NN
+to_TO cache_NN model_NN
+to_TO escaped_JJ model_NN
+to_TO unescaped_JJ model_NN
+to_TO xml_NNP string_NN
+get_VB staged_JJ model_NN type_NN
+get_VB wrapped_JJ asset_NN vocabulary_NN
+get_VB wrapped_JJ model_NN
+is_VBZ entity_NN cache_NN enabled_VBN
+is_VBZ finder_NN cache_NN enabled_VBN
+reset_VB original_JJ values_NNS
+find_VB by_IN company_NN id_NN
+find_VB by_IN company_NN id__NN first_FW
+fetch_VB by_IN company_NN id__NN first_FW
+find_VB by_IN company_NN id__NN last_FW
+fetch_VB by_IN company_NN id__NN last_FW
+find_VB by_IN company_NN id__NN prev_FW and_CC next_NN
+remove_VB by_IN company_NN id_NN
+count_VB by_IN company_NN id_NN
+find_VB by_IN kaleo_NNP definition_NN id_NN
+find_VB by_IN kaleo_NNP definition_NN id__NN first_NN
+fetch_VB by_IN kaleo_NNP definition_NN id__NN first_NN
+find_VB by_IN kaleo_NNP definition_NN id__NN last_NN
+fetch_VB by_IN kaleo_NNP definition_NN id__NN last_NN
+find_VB by_IN kaleo_NNP definition_NN id__NN prev_NN and_CC next_NN
+remove_VB by_IN kaleo_NNP definition_NN id_NN
+count_VB by_IN kaleo_NNP definition_NN id_NN
+find_VB by_IN kaleo_NNP instance_NN id_NN
+find_VB by_IN kaleo_NNP instance_NN id__NN first_NN
+fetch_VB by_IN kaleo_NNP instance_NN id__NN first_NN
+find_VB by_IN kaleo_NNP instance_NN id__NN last_NN
+fetch_VB by_IN kaleo_NNP instance_NN id__NN last_NN
+find_VB by_IN kaleo_NNP instance_NN id__NN prev_NN and_CC next_NN
+remove_VB by_IN kaleo_NNP instance_NN id_NN
+count_VB by_IN kaleo_NNP instance_NN id_NN
+find_VB by_IN kaleo_NNP task_NN instance_NN token_NN id_NN
+find_VB by_IN kaleo_NNP task_NN instance_NN token_NN id__NN first_JJ
+fetch_VB by_IN kaleo_NNP task_NN instance_NN token_NN id__NN first_JJ
+find_VB by_IN kaleo_NNP task_NN instance_NN token_NN id__NN last_JJ
+fetch_VB by_IN kaleo_NNP task_NN instance_NN token_NN id__NN last_JJ
+find_VB by_IN kaleo_NNP task_NN instance_NN token_NN id__NN prev_JJ and_CC next_JJ
+remove_VB by_IN kaleo_NNP task_NN instance_NN token_NN id_NN
+count_VB by_IN kaleo_NNP task_NN instance_NN token_NN id_NN
+find_VB by_IN assignee_NN class_NN name_NN
+find_VB by_IN assignee_NN class_NN name__NN first_JJ
+fetch_VB by_IN assignee_NN class_NN name__NN first_JJ
+find_VB by_IN assignee_NN class_NN name__NN last_JJ
+fetch_VB by_IN assignee_NN class_NN name__NN last_JJ
+find_VB by_IN assignee_NN class_NN name__NN prev_JJ and_CC next_JJ
+remove_VB by_IN assignee_NN class_NN name_NN
+count_VB by_IN assignee_NN class_NN name_NN
+find_VB by_IN g__FW a_FW c_FW p_FW k_FW
+find_VB by_IN g__FW a_FW c_FW p_FW k__FW first_JJ
+fetch_VB by_IN g__FW a_FW c_FW p_FW k__FW first_JJ
+find_VB by_IN g__FW a_FW c_FW p_FW k__FW last_JJ
+fetch_VB by_IN g__FW a_FW c_FW p_FW k__FW last_JJ
+find_VB by_IN g__FW a_FW c_FW p_FW k__FW prev_JJ and_CC next_JJ
+remove_VB by_IN g__FW a_FW c_FW p_FW k_FW
+count_VB by_IN g__FW a_FW c_FW p_FW k_FW
+find_VB by_IN a_FW c_FW n__FW a_FW c_FW p_FW k_FW
+find_VB by_IN a_FW c_FW n__FW a_FW c_FW p_FW k__FW first_JJ
+fetch_VB by_IN a_FW c_FW n__FW a_FW c_FW p_FW k__FW first_JJ
+find_VB by_IN a_FW c_FW n__FW a_FW c_FW p_FW k__FW last_JJ
+fetch_VB by_IN a_FW c_FW n__FW a_FW c_FW p_FW k__FW last_JJ
+find_VB by_IN a_FW c_FW n__FW a_FW c_FW p_FW k__FW prev_JJ and_CC next_JJ
+remove_VB by_IN a_FW c_FW n__FW a_FW c_FW p_FW k_FW
+count_VB by_IN a_FW c_FW n__FW a_FW c_FW p_FW k_FW
+test_VB cache_NN template_NN resource_NN externalization_NN
+test_VB constructors_NNS
+test_VB d_FW d_FW m_FW template_NN resource_NN externalization_NN
+test_VB externalizable_JJ type_NN
+test_VB string_NN template_NN resource_NN externalization_NN
+test_VB u_NN r_NN l_NN template_NN resource_NN externalization_NN
+tear_VB down_RP class_NN
+do_VB verify_VB
+get_VB verify_VB process_NN
+get_VB handler_NN
+process_NN request_VB
+add_VB folder_NN
+delete_VB folder_NN
+delete_VB folders_NNS
+get_VB company_NN folders_NNS
+get_VB company_NN folders_NNS count_NN
+get_VB folder_NN
+get_VB folders_NNS and_CC entries_NNS
+get_VB folders_NNS and_CC entries_NNS count_NN
+get_VB folders_NNS count_NN
+get_VB no_DT asset_NN folders_NNS
+get_VB subfolder_NN ids_NNS
+merge_VB folders_NNS
+move_VB folder_NN
+move_VB folder_NN from_IN trash_NN
+move_VB folder_NN to_TO trash_NN
+rebuild_VB tree_NN
+find_VB tree_NN models_NNS
+rebuild_VB dependent_JJ models_NNS tree_NN paths_NNS
+reindex_VB tree_NN models_NNS
+restore_VB folder_NN from_IN trash_NN
+subscribe_VB folder_NN
+unsubscribe_VB folder_NN
+update_VB asset_NN
+update_VB folder_NN
+update_VB status_NN
+get_VB parent_NN folder_NN id_NN
+move_VB dependents_NNS to_TO trash_NN
+restore_VB dependents_NNS from_IN trash_NN
+get_VB elements_NNS
+get_VB open_NN search_NN instances_NNS
+get_VB search_NN result_NN view_NN u_NN r_NN l_NN
+new_JJ file_NN entry_NN proxy_NN bean_NN
+new_JJ file_NN shortcut_NN proxy_NN bean_NN
+new_JJ file_NN version_NN proxy_NN bean_NN
+new_JJ folder_NN proxy_NN bean_NN
+new_JJ local_JJ repository_NN proxy_NN bean_NN
+new_JJ proxy_NN bean_NN
+new_JJ proxy_NN instance_NN
+to_TO file_NN entry_NN proxy_NN beans_NNS
+to_TO file_NN version_NN proxy_NN beans_NNS
+to_TO folder_NN proxy_NN beans_NNS
+to_TO object_NN proxy_NN beans_NNS
+test_VB in_IN time_NN zone_NN null_JJ recurrence_NN
+test_VB in_IN time_NN zone_NN updates_NNS exception_NN j_NN calendars_NNS
+test_VB in_IN time_NN zone_NN updates_NNS until_IN j_NN calendar_NN
+test_VB in_IN time_NN zone_NN updates_NNS weekdays_NNS
+test_VB custom_JJ portal_NN locale_NN alternate_JJ u_NN r_NN l_NN
+test_VB default_JJ portal_NN locale_NN alternate_JJ u_NN r_NN l_NN
+test_VB localized_JJ site_NN custom_JJ site_NN locale_NN alternate_JJ u_NN r_NN l_NN
+test_VB localized_JJ site_NN default_JJ site_NN locale_NN alternate_JJ u_NN r_NN l_NN
+test_VB nonlocalhost_NN custom_JJ portal_NN locale_NN alternate_JJ u_NN r_NN l_NN
+test_VB nonlocalhost_NN default_JJ portal_NN locale_NN alternate_JJ u_NN r_NN l_NN
+test_VB nonlocalhost_NN localized_JJ site_NN custom_JJ site_NN locale_NN alternate_JJ u_NN r_NN l_NN
+test_VB nonlocalhost_NN localized_JJ site_NN default_JJ site_NN locale_NN alternate_JJ u_NN r_NN l_NN
+generate_VB asset_NN publisher_NN content_NN u_NN r_NN l_NN
+generate_VB u_NN r_NN l_NN
+get_VB theme_NN display_NN
+test_VB alternate_JJ u_NN r_NN l_NN
+get_VB weight_NN
+get_VB names_NNS
+get_VB registry_NN name_NN
+invalidate_NN
+get_VB finder_NN
+set_VB finder_NN
+exec_VB
+get_VB lang_NN dir_NN
+get_VB lang_NN file_NN name_NN
+get_VB portal_NN language_NN properties_NNS file_NN
+get_VB translate_VB client_NN id_NN
+get_VB translate_VB client_NN secret_NN
+is_VBZ plugin_NN
+is_VBZ translate_VB
+set_VB lang_NN dir_NN
+set_VB lang_NN file_NN name_NN
+set_VB plugin_NN
+set_VB portal_NN language_NN properties_NNS file_NN
+set_VB translate_NN
+set_VB translate_NN client_NN id_NN
+set_VB translate_NN client_NN secret_NN
+get_VB complete_JJ args_NNS
+get_VB error_NN message_NN
+set_VB error_NN message_NN
+set_VB expression_NN
+is_VBZ instantiated_VBN
+process_VB kaleo_FW notification_NN recipient_NN
+process_VB kaleo_FW task_NN assignment_NN instance_NN
+add_VB role_NN recipient_NN addresses_NNS
+get_VB role_NN users_NNS
+add_VB content_NN
+add_VB d_NN d_NN m_NN content_NN
+create_VB d_NN d_NN m_NN content_NN
+delete_VB content_NN
+delete_VB contents_NNS
+delete_VB d_NN d_NN m_NN content_NN
+fetch_VB d_NN d_NN m_NN content_NN
+fetch_VB d_NN d_NN m_NN content_NN by_IN uuid_NN and_CC group_NN id_NN
+get_VB contents_NNS
+get_VB contents_NNS count_NN
+get_VB d_NN d_NN m_NN content_NN
+get_VB d_NN d_NN m_NN content_NN by_IN uuid_NN and_CC group_NN id_NN
+get_VB d_NN d_NN m_NN contents_NNS
+get_VB d_NN d_NN m_NN contents_NNS by_IN uuid_NN and_CC company_NN id_NN
+get_VB d_NN d_NN m_NN contents_NNS count_NN
+get_VB export_NN actionable_JJ dynamic_JJ query_NN
+get_VB o_NN s_NN gi_NN service_NN identifier_NN
+update_VB content_NN
+update_VB d_NN d_NN m_NN content_NN
+get_VB wrapped_JJ d_NN d_NN m_NN content_NN local_JJ service_NN
+set_VB wrapped_JJ d_NN d_NN m_NN content_NN local_JJ service_NN
+get_VB wrapped_JJ service_NN
+set_VB wrapped_JJ service_NN
+check_VB roles_NNS
+is_VBZ role_NN allowed_VBN
+is_VBZ role_NN required_VBN
+propagate_VB roles_NNS
+verify_VB policy_NN
+combine_VB
+contains_VBZ all_DT
+distinct_JJ
+is_VBZ not_RB empty_JJ
+remove_VB by_IN prefix_NN
+subset_NN
+register_VB under_IN java_NN type_NN
+get_VB mappings_NNS
+get_VB number_NN
+set_VB number_NN
+get_VB factory_NN
+session_NN factory_NN
+get_VB attribute_NN
+get_VB registration_NN name_NN
+get_VB attribute_JJ name_NN
+get_VB subgraphs_NNS
+get_VB key_JJ subgraphs_NNS
+make_VB subgraph_NN
+internal_JJ make_VB subgraph_NN
+is_VBZ treatable_JJ as_IN
+make_VB key_JJ subgraph_NN
+internal_JJ make_VB key_JJ subgraph_NN
+make_VB immutable_JJ copy_NN
+make_VB safe_JJ map_NN copy_NN
+map_VB to_TO object_NN from_IN full_JJ map_NN
+map_VB to_TO map_VB from_IN object_NN
+add_VB middle_NN equal_JJ to_TO query_NN
+add_VB component_NN
+add_VB composite_NN
+get_VB schema_NN creator_NN
+get_VB schema_NN dropper_NN
+get_VB schema_NN migrator_NN
+get_VB schema_NN validator_NN
+get_VB uid_NNP
+set_VB uid_NNP
+generate_VB hash_NN code_NN
+is_VBZ batch_NN loadable_JJ
+get_VB identifier_NN
+get_VB entity_NN name_NN
+same_JJ identifier_NN
+same_JJ persistent_NN type_NN
+get_VB conf_NN key_NN
+set_VB conf_NN key_NN
+get_VB conf_NN value_NN
+set_VB conf_NN value_NN
+get_VB annotated_JJ classes_NNS
+add_VB config_NN options_NNS
+test_VB eviction_NN
+prepare_VB
+complete_VB
+build_VB isolated_JJ class_NN loader_NN
+release_VB isolated_JJ class_NN loader_NN
+get_VB string_NN lob_NN
+set_VB string_NN lob_NN
+get_VB byte_NN lob_NN
+set_VB byte_NN lob_NN
+get_VB char_NN lob_NN
+set_VB char_NN lob_NN
+test_VB only_RB custom_JJ strategy_NN
+test_VB only_RB custom_JJ strategy_NN consulted_VBN on_IN non_RB dirty_JJ
+can_VB dirty_JJ check_NN
+is_VBZ dirty_JJ
+reset_VB dirty_JJ
+find_VB dirty_JJ
+reset_VB state_NN
+get_VB some_DT personal_JJ detail_NN
+set_VB some_DT personal_JJ detail_NN
+get_VB person_NN
+set_VB person_NN
+setup_VB data_NNS
+cleanup_NN data_NNS
+test_VB explicit_JJ join_NN before_IN fetch_VB joins_NNS
+test_VB explicit_JJ join_NN between_IN fetch_VB joins_NNS
+test_VB explicit_JJ join_NN after_IN fetch_VB joins_NNS
+get_VB b_FW 1_CD
+set_VB b_FW 1_CD
+get_VB entity_NN entry_NN
+get_VB database_NN snapshot_NN
+set_VBN database_NN snapshot_NN
+has_VBZ database_NN snapshot_NN
+is_VBZ dirty_JJ check_NN handled_VBN by_IN interceptor_NN
+set_VB dirty_JJ check_NN handled_VBN by_IN interceptor_NN
+is_VBZ dirty_JJ check_NN possible_JJ
+set_VB dirty_JJ check_NN possible_JJ
+get_VB dirty_JJ properties_NNS
+set_VB dirty_JJ properties_NNS
+has_VB dirty_JJ collection_NN
+set_VB has_VBZ dirty_JJ collection_NN
+get_VB property_NN values_NNS
+set_VB property_NN values_NNS
+register_VB default_NN tuplizer_NN class_NN
+construct_VB tuplizer_NN
+construct_VB default_NN tuplizer_NN
+is_VBZ entity_NN tuplizer_NN implementor_NN
+has_VBZ proper_JJ constructor_NN
+get_VB proper_JJ constructor_NN
+build_VB base_JJ mapping_NN
+get_VB jta_NNP parameters_NNS
+get_VB cache_NN mode_NN parameters_NNS
+prepare_VB cache_NN support_NN
+release_VB cach_NN support_NN
+can_VB use_VB local_JJ mode_NN
+with_IN tx_FW
+register_VB cache_NN
+unregister_VB cache_NN
+register_VB factory_NN
+unregister_VB factory_NN
+get_VB cache_NN test_NN support_NN
+sleep_VB
+avoid_VB concurrent_JJ flush_NN
+create_VB standard_JJ service_NN registry_NN builder_NN
+get_VB region_NN factory_NN class_NN
+lock_VB
+get_VB lock_VB mode_NN
+normalize_VB quoting_NN
+to_TO identifier_NN
+apply_VB global_JJ quoting_NN
+is_VBZ reserved_VBN word_NN
+to_TO meta_JJ data_NNS catalog_NN name_NN
+to_TO meta_JJ data_NNS text_NN
+to_TO meta_JJ data_NNS schema_NNS name_NN
+to_TO meta_JJ data_NNS object_VBP name_NN
+test_VB one_CD to_TO one_CD property_NN ref_NN
+get_VB registration_NN keys_NNS
+get_VB user_NN type_NN
+is_VBZ method_NN of_IN
+get_VB subtypes_NNS
+get_VB property_NN names_NNS
+get_VB property_NN index_NN
+get_VB property_NN value_NN
+get_VB cascade_NN style_NN
+get_VB fetch_VB mode_NN
+is_VBZ component_NN type_NN
+deep_JJ copy_NN
+assemble_VB
+disassemble_VB
+is_VBZ equal_JJ
+get_VB hash_NN code_NN
+get_VB column_NN span_NN
+get_VB returned_VBN class_NN
+is_VBZ mutable_JJ
+null_JJ safe_JJ get_VB
+null_JJ safe_JJ set_VB
+sql_NNP types_NNS
+dictated_VBN sizes_NNS
+default_NN sizes_NNS
+to_TO loggable_JJ string_NN
+get_VB property_NN nullability_NN
+to_TO column_NN nullness_NN
+is_VBZ embedded_VBN
+has_VBZ not_RB null_JJ property_NN
+string_NN to_TO object_NN
+get_VB f_FW
+set_VB f_FW
+on_IN post_IN insert_VB commit_VB failed_JJ
+get_VB code_NN
+set_VB code_NN
+get_VB client_NN id_NN
+set_VB client_NN id_NN
+get_VB delta_NN stamp_NN
+set_VB delta_NN stamp_NN
+info_NN string_NN
+collection_NN info_NN string_NN
+add_VB id_NN to_TO collection_NN info_NN string_NN
+merge_VB blob_NNP
+merge_VB clob_NNP
+merge_VB n_NN clob_NNP
+are_VBP match_NN
+get_VB action_NN
+add_VB duplication_NN strategy_NN
+listeners_NNS
+append_VB listeners_NNS
+append_VB listener_NN
+prepend_VB listeners_NNS
+prepend_VB listener_NN
+listener_NN should_MD get_VB added_VBN
+internal_JJ prepend_VB
+check_VB against_IN base_NN interface_NN
+internal_JJ append_VB
+test_VB no_DT loss_NN
+assert_VB no_DT loss_NN
+convert_VB string_NN
+convert_VB string_NN to_TO integer_NN
+print_VB person_NN
+print_VB persons_NNS
+print_VB person_NN history_NN
+print_VB person_NN at_IN revision_NN
+read_VB and_CC set_VB address_NN
+read_VB new_JJ person_NN
+read_VB modify_VB person_NN
+print_VB address_NN
+print_VB addresses_NNS
+print_VB address_NN history_NN
+print_VB address_NN at_IN revision_NN
+read_VB new_JJ address_NN
+read_VB modify_NN address_NN
+has_VBZ data_NNS
+populate_VB test_NN data_NNS
+test_VB auto_NN quoting_VBG disabled_VBN
+returned_VBN class_NN
+to_TO sql_NNP string_NN
+get_VB typed_VBN values_NNS
+set_VB data_NNS
+get_VB reference_NN
+set_VB reference_NN
+get_VB namespace_NN uri_NNP
+get_VB schema_NN
+resolve_VB local_JJ schema_NN
+resolve_VB local_JJ schema_NN url_NN
+init_VB data_NNS
+test_VB revisions_NNS counts_NNS
+test_VB history_NN of_IN id_NN 1_CD
+test_VB update_NN non_RB null_JJ optional_JJ join_NN to_TO diff_JJ non_RB null_JJ
+test_VB update_NN non_RB null_JJ optional_JJ join_NN to_TO diff_JJ non_RB null_JJ detached_VBN
+test_VB merge_NN non_RB null_JJ optional_JJ join_NN to_TO diff_JJ non_RB null_JJ detached_VBN
+test_VB update_NN non_RB null_JJ optional_JJ join_NN to_TO null_JJ
+test_VB update_NN non_RB null_JJ optional_JJ join_NN to_TO null_JJ detached_VBN
+test_VB merge_VB non_RB null_JJ optional_JJ join_NN to_TO null_JJ detached_VBN
+test_VB update_NN null_RB optional_JJ join_NN to_TO non_RB null_JJ
+test_VB update_NN null_RB optional_JJ join_NN to_TO non_RB null_JJ detached_VBN
+test_VB merge_VB null_RB optional_JJ join_NN to_TO non_RB null_JJ detached_VBN
+generate_VB cache_NN key_NN
+get_VB natural_JJ id_NN values_NNS
+get_VB region_NN
+insert_VB
+after_IN insert_VB
+after_IN update_VB
+class_NN to_TO table_NN name_NN
+property_NN to_TO column_NN name_NN
+table_NN name_NN
+column_NN name_NN
+property_NN to_TO table_NN name_NN
+logical_JJ column_NN name_NN
+collection_NN table_NN name_NN
+logical_JJ collection_NN tablel_NN name_NN
+logical_JJ collection_NN column_NN name_NN
+resolve_VB index_NN
+resolve_VB as_IN alias_NN
+get_VB naked_JJ property_NN type_NN
+resolve_VB as_IN naked_JJ property_NN ref_NN
+resolve_NN as_IN naked_JJ component_NN property_NN ref_NN lhs_NNP
+resolve_NN as_IN naked_JJ component_NN property_NN ref_NN rhs_NNP
+locate_VB single_JJ from_IN element_NN
+get_VB data_NNS type_NN
+set_VB scalar_JJ column_NN text_NN
+get_VB display_JJ text_NN
+get_VB str_NN 1_CD
+set_VB str_NN 1_CD
+get_VB unique_JJ counter_NN
+get_VB referenced_JJ entity_NN name_NN
+is_VBZ in_IN primary_JJ key_NN
+get_VB sql_NNP type_NN
+can_MD be_VB remapped_VBN
+get_VB extractor_NN
+do_VBP extract_VB
+get_VB blob_NN binder_NN
+get_VB binder_NN
+do_VB bind_VB
+get_VB suffixed_VBN key_NN aliases_NNS
+get_VB suffixed_VBN discriminator_NN alias_NN
+get_VB suffixed_VBN version_NN aliases_NNS
+get_VB suffixed_VBN property_NN aliases_NNS
+get_VB row_NN id_NN alias_NN
+get_VB suffix_NN
+get_VB database_NN name_NN
+get_VB database_NN major_JJ version_NN
+get_VB database_NN minor_JJ version_NN
+get_VB driver_NN name_NN
+get_VB driver_NN major_JJ version_NN
+get_VB driver_NN minor_JJ version_NN
+get_VB mapped_VBN class_NN
+has_VBZ parent_NN property_NN
+set_VB parent_NN
+build_VB instantiator_NN
+build_VB getter_NN
+build_VB setter_NN
+instantiate_VB
+is_VBZ instance_NN
+get_VB color_NN
+set_VB color_NN
+with_IN options_NNS
+get_VB type_NN resolver_NN
+get_VB entity_NN persister_NN
+get_VB entity_NN persisters_NNS
+get_VB collection_NN persister_NN
+get_VB collection_NN persisters_NNS
+get_VB jdbc_NNP services_NNS
+get_VB dialect_NN
+get_VB interceptor_NN
+get_VB query_NN plan_NN cache_NN
+get_VB return_NN types_NNS
+get_VB return_NN aliases_NNS
+get_VB implementors_NNS
+get_VB imported_VBN class_NN name_NN
+get_VB update_NN timestamps_NNS cache_NN
+get_VB statistics_NNS implementor_NN
+get_VB named_VBN query_NN
+register_VB named_VBN query_NN definition_NN
+get_VB named_VBN sql_NNP query_NN
+register_VB named_VBN sql_NN query_NN definition_NN
+get_VB result_NN set_NN mapping_NN
+get_VB identifier_NN generator_NN
+get_VB second_JJ level_NN cache_NN region_NN
+get_VB second_JJ level_NN cache_NN region_NN access_NN strategy_NN
+get_VB natural_JJ id_NN cache_NN region_NN
+get_VB natural_JJ id_NN cache_NN region_NN access_NN strategy_NN
+get_VB all_DT second_JJ level_NN cache_NN regions_NNS
+get_VB sql_NNP exception_NN converter_NN
+get_VB sql_NNP exception_NN helper_NN
+open_VB temporary_JJ session_NN
+get_VB collection_NN roles_NNS by_IN entity_NN participant_NN
+get_VB entity_NN not_RB found_VBN delegate_NN
+get_VB sql_NNP function_NN registry_NN
+get_VB fetch_NN profile_NN
+get_VB service_NN registry_NN
+add_VB observer_NN
+get_VB custom_JJ entity_NN dirtiness_NN strategy_NN
+get_VB current_JJ tenant_NN identifier_NN resolver_NN
+get_VB named_VBN query_NN repository_NN
+iterate_VB entity_NN name_NN resolvers_NNS
+locate_VB entity_NN persister_NN
+get_VB deserialization_NN resolver_NN
+test_VB history_NN of_IN ed_NN id_NN 1_CD
+test_VB history_NN of_IN ed_NN id_NN 2_CD
+test_VB history_NN of_IN ing_NN id_NN 1_CD
+test_VB join_VB column_NN names_NNS
+get_VB operand_NN
+register_VB parameters_NNS
+check_VB
+set_VB type_NN using_VBG reflection_NN
+is_VBZ nullable_JJ
+set_VB nullable_JJ
+is_VBZ updateable_JJ
+set_VB updateable_JJ
+get_VB last_JJ update_NN
+set_VB last_JJ update_NN
+get_VB list_JJ attribute_NN
+render_VB projection_NN
+test_VB simple_JJ element_NN
+test_VB composite_JJ element_NN
+test_VB attributed_VBN join_NN
+test_VB lazy_JJ collection_NN of_IN elements_NNS
+test_VB fetch_VB eager_JJ and_CC filter_NN
+test_VB map_NN key_NN type_NN
+test_VB default_NN value_NN column_NN for_IN basic_JJ
+is_VBZ default_NN value_NN collection_NN column_NN present_NN
+is_VBZ collection_NN column_NN present_JJ
+test_VB default_NN table_NN name_NN no_DT overrides_VBZ
+test_VB default_NN table_NN name_NN owner_NN primary_JJ table_NN override_VB
+test_VB default_NN table_NN name_NN owner_NN entity_NN name_NN and_CC pk_NN column_NN override_VB
+test_VB default_NN join_NN column_NN owner_NN primary_JJ table_NN and_CC entity_NN names_NNS override_VBP
+check_VB default_NN collection_NN table_NN name_NN
+test_VB default_NN join_NN column_NN no_DT overrides_VBZ
+test_VB default_NN join_NN column_NN owner_NN primary_JJ table_NN override_VBZ
+test_VB default_NN join_NN column_NN owner_NN entity_NN name_NN and_CC pk_NN column_NN override_VB
+test_VB default_NN table_NN name_NN owner_NN primary_JJ table_NN and_CC entity_NN names_NNS override_VBP
+check_VB default_NN join_NN column_NN name_NN
+configure_VB metadata_NNS builder_NN
+get_VB identifier_NN sub_JJ attributes_NNS
+get_VB composite_JJ collection_NN element_NN sub_JJ attributes_NNS
+get_VB composite_JJ collection_NN index_NN sub_JJ attributes_NNS
+get_VB singular_JJ sub_JJ attributes_NNS
+get_VB attributes_NNS
+get_VB association_NN key_NN
+get_VB association_NN nature_NN
+to_TO entity_NN definition_NN
+to_TO any_DT definition_NN
+to_TO collection_NN definition_NN
+determine_VB fetch_NN plan_NN
+determine_VB cascade_NN style_NN
+get_VB hydrated_JJ compound_NN value_NN extractor_NN
+evict_VB
+evict_VB all_DT
+put_VB from_IN load_VB
+lock_VB item_NN
+lock_VB region_NN
+unlock_JJ item_NN
+unlock_JJ region_NN
+get_VB cache_NN key_NN id_NN
+is_VBZ unwrap_JJ proxies_NNS
+test_VB orm_NNP estorm1_FW support_NN
+get_VB xml_NNP files_NNS
+test_VB all_DT
+test_VB configuration_NN methods_NNS
+set_VB fetch_VB mode_NN
+is_VBZ lazy_JJ
+set_VB lazy_NN
+test_VB entity_NN manager_NN cache_NN modes_NNS
+test_VB query_NN cache_NN modes_NNS
+get_VB relational_JJ value_NN source_NN
+is_VBZ shared_VBN
+bind_VB as_IN parameter_NN
+logged_VBN event_NN
+is_VBZ rollback_NN
+is_VBZ committed_VBN
+is_VBZ marked_VBN for_IN rollback_NN
+get_VB cache_NN concurrency_NN strategy_NN
+create_VB schema_NN
+after_IN session_NN factory_NN built_VBN
+test_VB row_NN id_NN
+test_VB enabling_JJ join_NN fetch_VB profile_NN against_IN self_PRP referential_JJ association_NN
+test_VB it_PRP
+enhacement_NN test_NN
+get_VB identifier_NN generator_NN factory_NN
+get_VB identifier_NN type_NN
+get_VB identifier_NN property_NN name_NN
+get_VB referenced_JJ property_NN type_NN
+get_VB session_NN factory_NN builder_NN
+build_VB session_NN factory_NN
+get_VB u_NN u_NN i_NN d_NN
+get_VB database_NN
+get_VB entity_NN bindings_NNS
+get_VB entity_NN binding_NN
+get_VB collection_NN bindings_NNS
+get_VB collection_NN binding_NN
+get_VB imports_NNS
+get_VB named_VBN query_NN definition_NN
+get_VB named_VBN query_NN definitions_NNS
+get_VB named_VBN native_JJ query_NN definition_NN
+get_VB named_VBN native_JJ query_NN definitions_NNS
+get_VB named_VBN procedure_NN call_NN definitions_NNS
+get_VB result_NN set_VB mapping_NN definitions_NNS
+get_VB type_NN definition_NN
+get_VB filter_NN definitions_NNS
+get_VB filter_NN definition_NN
+get_VB fetch_VB profiles_NNS
+get_VB named_VBN entity_NN graph_NN
+get_VB named_VBN entity_NN graphs_NN
+collect_VB table_NN mappings_NNS
+get_VB sql_NNP function_NN map_NN
+get_VB metadata_NNS building_NN options_NNS
+build_VB named_VBN query_RB repository_NN
+get_VB mapped_VBN superclass_NN mappings_NNS copy_NN
+to_TO insert_VB sql_NNP
+get_VB test_NN 2_CD
+set_VB test_NN 2_CD
+get_VB test_NN
+set_VB test_NN
+accept_VB create_VB commands_NNS
+accept_VB drop_VB commands_NNS
+get_VB java_NN type_NN
+resolve_VB java_NN type_NN descriptor_NN
+test_VB overall_JJ lock_NN mode_NN
+test_VB none_RB lock_NN mode_NN for_IN non_RB select_VB query_NN allowed_VBN
+test_VB native_JJ sql_NNP
+test_VB pessimistic_JJ forced_JJ increment_NN overall_JJ
+test_VB pessimistic_JJ forced_JJ increment_NN specific_JJ
+test_VB optimistic_JJ forced_JJ increment_NN overall_JJ
+test_VB optimistic_JJ forced_JJ increment_NN specific_JJ
+test_VB optimistic_JJ overall_NN
+test_VB no_DT version_NN check_NN after_IN remove_VB
+test_VB optimistic_JJ specific_NN
+test_VB entity_NN lock_NN mode_NN state_NN after_IN query_NN locking_JJ
+get_VB connection_NN provider_NN under_IN test_NN
+get_VB boats_NNS
+set_VB boats_NNS
+test_VB optimistic_JJ lock_NN exclude_VB on_IN name_NN property_NN
+test_VB element_NN collection_NN conversion_NN
+convert_VB to_TO database_NN column_NN
+convert_VB to_TO entity_NN attribute_NN
+render_VB where_WRB string_NN template_NN
+extract_VB until_IN
+render_VB order_NN by_IN string_NN template_NN
+resolve_VB table_NN alias_NN
+translate_VB order_NN by_IN
+get_VB session_NN factory_NN
+get_VB column_NN mapper_NN
+is_VBZ named_JJ parameter_NN
+is_VBZ function_NN or_CC keyword_NN
+is_VBZ function_NN
+is_VBZ identifier_NN
+is_VBZ boolean_NN
+set_VB key_NN
+assert_VB loaded_VBN
+assert_VB not_RB loaded_VBN
+suspend_VB
+test_VB update_VB existing_JJ schema_NN
+test_VB generating_VBG update_NN script_NN
+test_VB referenced_JJ entity_NN has_VBZ changed_VBN
+basic_JJ test_NN
+test_VB lock_NN mode_NN handling_VBG
+test_VB flush_NN mode_NN handling_VBG
+test_VB config_NN value_NN handling_VBG
+get_VB bean_NN manager_NN reference_NN
+get_VB validator_NN factory_NN reference_NN
+get_VB session_NN factory_NN name_NN
+is_VBZ session_NN factory_NN name_NN also_RB jndi_NNP name_NN
+is_VBZ flush_JJ before_IN completion_NN enabled_VBN
+is_VBZ auto_JJ close_NN session_NN enabled_VBN
+is_VBZ statistics_NNS enabled_VBN
+get_VB statement_NN inspector_NN
+get_VB session_NN factory_NN observers_NNS
+get_VB baseline_NN session_NN events_NNS listener_NN builder_NN
+is_VBZ identifier_NN rollback_NN enabled_VBN
+get_VB default_JJ entity_NN mode_NN
+get_VB entity_NN tuplizer_NN factory_NN
+is_VBZ check_NN nullability_NN
+is_VBZ initialize_JJ lazy_JJ state_NN outside_IN transactions_NNS enabled_VBN
+get_VB multi_JJ table_NN bulk_NN id_NN strategy_NN
+get_VB temp_JJ table_NN ddl_NN transaction_NN handling_VBG
+get_VB batch_NN fetch_NN style_NN
+get_VB default_JJ batch_NN fetch_VB size_NN
+get_VB maximum_JJ fetch_VB depth_NN
+get_VB default_JJ null_JJ precedence_NN
+is_VBZ order_NN updates_NNS enabled_VBN
+is_VBZ order_JJ inserts_NNS enabled_VBN
+get_VB multi_JJ tenancy_NN strategy_NN
+is_VBZ jta_NNP track_NN by_IN thread_NN
+get_VB query_NN substitutions_NNS
+is_VBZ strict_JJ jpa_NNP query_NN language_NN compliance_NN
+is_VBZ named_JJ query_NN startup_NN checking_NN enabled_VBN
+is_VBZ second_JJ level_NN cache_NN enabled_VBN
+is_VBZ query_NN cache_NN enabled_VBN
+get_VB query_NN cache_NN factory_NN
+get_VB cache_NN region_NN prefix_NN
+is_VBZ minimal_JJ puts_NNS enabled_VBN
+is_VBZ structured_VBN cache_NN entries_NNS enabled_VBN
+is_VBZ direct_JJ reference_NN cache_NN entries_NNS enabled_VBN
+is_VBZ auto_JJ evict_VB collection_NN cache_NN
+get_VB schema_NN auto_JJ tooling_NN
+get_VB jdbc_NNP batch_NN size_NN
+is_VBZ jdbc_NNP batch_NN versioned_VBN data_NNS
+is_VBZ scrollable_JJ result_NN sets_NNS enabled_VBN
+is_VBZ wrap_VB result_NN sets_NNS enabled_VBN
+is_VBZ get_NN generated_VBN keys_NNS enabled_VBN
+get_VB jdbc_NN fetch_VB size_NN
+get_VB connection_NN release_NN mode_NN
+is_VBZ comments_NNS enabled_VBN
+get_VB entity_NN name_NN resolvers_NNS
+get_VB custom_JJ sql_NNP function_NN map_NN
+set_VB check_NN nullability_NN
+is_VBZ prefer_VB user_NN transaction_NN
+test_VB database_NN column_NN names_NNS
+test_VB database_NN table_NN names_NNS
+get_VB batched_VBN statement_NN count_NN
+get_VB expectation_NN
+get_VB query_NN spaces_NNS
+get_VB table_NN name_NN
+get_VB discriminator_NN type_NN
+get_VB discriminator_NN value_NN
+get_VB discriminator_NN s_NN q_NN l_NN value_NN
+get_VB subclass_NN closure_NN
+get_VB subclass_NN for_IN discriminator_NN value_NN
+get_VB property_NN spaces_NNS
+is_VBZ discriminator_NN formula_NN
+generate_VB select_JJ string_NN
+get_VB discriminator_NN formula_NN
+get_VB key_JJ columns_NNS
+is_VBZ table_NN cascade_NN delete_NN enabled_VBN
+is_VBZ property_NN of_IN table_NN
+from_IN table_NN fragment_NN
+filter_NN fragment_NN
+get_VB subclass_NN property_NN table_NN name_NN
+add_VB discriminator_NN to_TO select_VB
+get_VB property_NN table_NN numbers_NNS in_IN select_NN
+get_VB subclass_NN property_NN table_NN number_NN
+is_VBZ multi_JJ table_NN
+get_VB table_NN span_NN
+get_VB subclass_VB column_NN table_NN number_NN closure_NN
+get_VB subclass_NN formula_NN table_NN number_NN closure_NN
+get_VB table_NN has_VBZ columns_NNS
+get_VB property_NN table_NN numbers_NNS
+generate_VB subquery_NN
+get_VB subclass_NN table_NN key_JJ columns_NN
+get_VB subclass_NN table_NN name_NN
+get_VB subclass_NN table_NN span_NN
+is_VBZ class_NN or_CC superclass_NN table_NN
+get_VB property_NN table_NN name_NN
+get_VB constraint_NN ordered_VBN table_NN name_NN closure_NN
+get_VB contraint_NN ordered_VBN table_NN key_JJ column_NN closure_NN
+get_VB filter_NN alias_NNS generator_NN
+add_VB property_NN auditing_VBG data_NNS
+get_VB property_NN auditing_VBG data_NNS
+get_VB secondary_JJ table_NN dictionary_NN
+get_VB audit_NN table_NN
+set_VB audit_NN table_NN
+set_VB default_NN audited_VBN
+is_VBZ audited_VBN
+process_VB sql_NN
+supports_VBZ limit_NN
+use_VB max_NN for_IN limit_NN
+supports_VBZ limit_NN offset_NN
+supports_VBZ variable_JJ limit_NN
+parse_VB precedence_NN
+build_VB proxy_NN factory_NN
+build_VB proxy_NN factory_NN internal_JJ
+get_VB property_NN values_NNS to_TO insert_VB
+set_VB property_NN values_NNS with_IN optimizer_NN
+get_VB property_NN values_NNS with_IN optimizer_NN
+get_VB entity_NN mode_NN
+is_VBZ lifecycle_NN implementor_NN
+build_VB property_NN getter_NN
+build_VB property_NN setter_NN
+get_VB concrete_JJ proxy_NN class_NN
+after_IN initialize_VB
+determine_VB concrete_JJ subclass_NN entity_NN name_NN
+test_VB supports_NNS
+is_VBZ match_NN
+test_VB create_VB and_CC delete_VB
+validate_VB column_NN
+generate_VB final_JJ name_NN pattern_NN
+test_VB existing_JJ modifiable_JJ after_IN set_VBN session_NN read_VB only_RB
+test_VB existing_JJ read_VB only_RB after_IN set_VB session_NN modifiable_JJ
+test_VB existing_JJ read_VB only_RB after_IN set_VB session_NN modifiable_JJ existing_JJ
+test_VB existing_JJ read_VB only_RB after_IN set_VB session_NN modifiable_JJ existing_JJ entity_NN read_VB only_RB
+test_VB existing_JJ read_VB only_RB after_IN set_VB session_NN modifiable_JJ proxy_NN existing_JJ
+test_VB existing_JJ read_VB only_RB after_IN set_VB session_NN modifiable_JJ existing_JJ proxy_NN read_VB only_RB
+test_VB default_JJ modifiable_JJ with_IN read_VB only_RB query_NN for_IN entity_NN
+test_VB default_JJ read_VB only_RB with_IN modifiable_JJ query_NN for_IN entity_NN
+test_VB default_JJ read_VB only_RB with_IN query_NN for_IN entity_NN
+test_VB default_JJ modifiable_JJ with_IN query_NN for_IN entity_NN
+test_VB default_JJ modifiable_JJ with_IN read_VB only_RB query_NN for_IN collection_VBG entities_NNS
+test_VB default_JJ read_VB only_RB with_IN modifiable_JJ filter_NN collection_NN entities_NNS
+test_VB default_JJ modifiable_JJ with_IN read_VB only_RB filter_JJ collection_NN entities_NNS
+test_VB default_JJ read_VB only_RB with_IN filter_NN collection_NN entities_NNS
+test_VB default_JJ modifiable_JJ with_IN filter_NN collection_NN entities_NNS
+create_VB container_NN
+check_VB container_NN
+check_VB object_NN
+contribute_VB
+build_VB basic_JJ proxy_NN factory_NN
+is_VBZ handled_VBN
+test_VB history_NN of_IN contact_NN
+test_VB history_NN of_IN personal_JJ contact_NN
+do_VB extended_JJ enhancement_NN
+set_VB entity_NN
+read_VB resolve_VB
+build_VB property_NN access_NN
+get_VB property_NN access_NN strategy_NN
+get_VB getter_NN
+get_VB setter_NN
+get_VB for_IN insert_VB
+get_VB member_NN
+get_VB method_NN name_NN
+query_VB for_IN referenced_JJ entity_NN
+set_VB categories_NNS
+get_VB source_NN type_NN
+get_VB source_NN name_NN
+get_VB formula_NN attribute_NN
+get_VB column_NN or_CC formula_NN elements_NNS
+get_VB column_NN attribute_NN
+get_VB size_NN source_NN
+is_VBZ unique_JJ
+get_VB index_NN constraint_NN names_NNS
+get_VB unique_JJ key_NN constraint_NN names_NNS
+build_VB value_NN source_NN
+build_VB column_NN source_NN
+build_VB column_NN sources_NNS
+build_VB value_NN sources_NNS
+interpret_VB nullability_NN to_TO truth_NN value_NN
+validate_VB use_NN of_IN formula_NN attribute_NN
+validate_VB use_NN of_IN column_NN or_CC formula_NN nested_JJ elements_NNS
+validate_VB custom_JJ write_VB fragment_NN
+common_JJ query_NN part_NN
+create_VB valid_JJ data_NNS restrictions_NNS
+create_VB valid_JJ and_CC removed_VBD data_NNS restrictions_NNS
+get_VB query_NN string_NN
+get_VB query_NN removed_VBN string_NN
+test_VB order_NN column_NN in_IN normal_JJ bi_JJ directonal_JJ model_NN
+get_VB line_NN items_NNS
+set_VB line_NN items_NNS
+get_VB order_NN
+set_VB order_NN
+get_VB product_NN
+set_VB product_NN
+get_VB quantity_NN
+set_VB quantity_NN
+get_VB discount_JJ code_NN
+set_VB discount_JJ code_NN
+region_NN
+get_VB panel_NN
+set_VB panel_NN
+get_VB module_NN descriptor_NN
+add_VB configuration_NN
+add_VB exclude_VB rule_NN
+add_VB dependency_NN artifacts_NNS
+add_VB artifacts_NNS
+ivy_JJ artifact_NN attributes_NNS
+get_VB artifact_NN name_NN
+to_TO ivy_JJ artifact_NN
+get_VB target_NN type_NN
+visit_VB method_NN
+generate_VB unsupported_JJ operation_NN exception_NN method_NN
+get_VB classes_NNS dir_NN
+set_VB classes_NNS dir_NN
+get_VB resources_NNS dir_NN
+set_VB resources_NNS dir_NN
+get_VB dirs_NNS
+build_VB finished_VBD
+new_JJ build_NN
+new_JJ test_NN launcher_NN
+get_VB all_DT
+find_VB factory_NN
+find_VB factories_NNS for_IN service_NN type_NN
+find_VB service_NN implementations_NNS
+extract_VB implementation_NN class_NN names_NNS
+get_VB implementation_NN class_NN
+get_VB root_NN
+get_VB all_DT dependencies_NNS
+all_DT dependencies_NNS
+get_VB all_DT components_NNS
+all_DT components_NNS
+get_VB scala_NN compile_VB options_NNS
+get_VB scala_NN classpath_NN
+set_VB scala_NN classpath_NN
+get_VB zinc_NNP classpath_NN
+set_VB zinc_NNP classpath_NN
+set_VB compiler_NN
+get_VB compiler_NN
+configure_VB incremental_JJ compilation_NN
+assert_VB scala_NN classpath_NN is_VBZ non_RB empty_JJ
+get_VB first_JJ level_NN module_NN dependencies_NNS
+get_VB unresolved_JJ module_NN dependencies_NNS
+get_VB files_NNS
+get_VB pattern_NN matcher_NN
+compile_VB
+is_VBZ satisfied_VBN by_IN
+get_VB target_NN project_NN
+is_VBZ exported_VBN
+dispatch_VB
+why_WRB unsatisfied_JJ
+to_TO set_NN
+to_TO domain_NN object_NN set_NN
+to_TO named_VBN domain_NN object_NN set_NN
+to_TO linked_JJ set_NN
+to_TO sorted_JJ set_NN
+to_TO map_NN
+to_TO sorted_JJ map_NN
+to_TO linked_JJ map_NN
+to_TO properties_NNS
+as_IN set_NN
+dispatch_VB to_TO
+get_VB task_NN path_NN
+get_VB root_NN level_NN project_NN
+get_VB project_NN from_IN full_JJ path_NN
+get_VB task_NN from_IN full_JJ path_NN
+get_VB test_NN kind_NN
+get_VB suite_NN name_NN
+get_VB class_NN name_NN
+register_VB jar_NNP
+java_NN tool_NN chain_NN
+project_NN layout_NN
+register_VB platform_NN resolver_NN
+create_VB binaries_NNS
+resolve_VB platforms_NNS
+exported_VBN packages_NNS of_IN
+api_NNP dependencies_NNS of_IN
+component_NN dependencies_NNS of_IN
+naming_VBG scheme_NN for_IN
+create_VB tasks_NNS
+api_NNP jar_NNP task_NN name_NN
+is_VBZ configure_NN method_NN
+publish_VB
+do_VB publish_VB
+get_VB repository_NN transport_NN factory_NN
+get_VB module_NN
+on_IN start_VB work_NN
+on_IN end_VB work_NN
+get_VB compile_NN options_NNS
+set_VB compile_NN options_NNS
+get_VB dependency_NN cache_NN dir_NN
+set_VB dependency_NN cache_NN dir_NN
+server_NN connected_VBN
+continue_VB connection_NN
+scheme_NN prefix_NN
+add_VB all_DT
+index_NN of_IN
+last_JJ index_NN of_IN
+list_VB iterator_NN
+sub_JJ list_NN
+has_VBZ previous_JJ
+next_JJ index_NN
+previous_JJ index_NN
+resolved_JJ module_NN version_NN
+resolved_JJ configuration_NN
+create_VB or_CC get_VB
+get_VB mutation_NN type_NN
+get_VB assembly_NN
+start_VB processing_NN
+process_VB test_NN class_NN
+mixes_VBZ in_IN convention_NN aware_JJ interface_NN
+mixes_VBZ in_IN dynamic_JJ object_NN aware_JJ interface_NN
+mixes_VBZ in_IN extension_NN aware_JJ interface_NN
+mixes_VBZ in_IN groovy_JJ object_NN interface_NN
+caches_VBZ generated_VBN subclass_NN
+does_VBZ not_RB decorate_VB already_RB decorated_VBN class_NN
+overrides_VBZ public_JJ constructors_NNS
+includes_VBZ generic_JJ type_NN information_NN for_IN overridden_VBN constructor_NN
+includes_VBZ annotation_NN information_NN for_IN overridden_VBN constructor_NN
+can_VB construct_VBP instance_NN
+reports_VBZ construction_NN failure_NN
+applies_VBZ convention_NN mapping_VBG to_TO each_DT property_NN
+applies_VBZ convention_NN mapping_VBG to_TO property_NN with_IN multiple_JJ setters_NNS
+applies_VBZ convention_NN mapping_VBG to_TO property_NN with_IN getter_NN covariant_NN type_NN
+applies_VBZ convention_NN mapping_VBG to_TO protected_JJ methods_NNS
+applies_VBZ convention_NN mapping_NN to_TO groovy_NNP boolean_JJ
+applies_VBZ convention_NN mapping_VBG to_TO collection_NN getter_NN
+handles_VBZ various_JJ property_NN types_NNS
+does_VBZ not_RB override_VB methods_NNS from_IN convention_NN aware_JJ interface_NN
+does_VBZ not_RB override_VB methods_NNS from_IN superclasses_NNS marked_VBN with_IN annotation_NN
+does_VBZ not_RB mix_VB in_IN convention_NN mapping_VBG to_TO class_NN with_IN annotation_NN
+does_VBZ not_RB override_VB methods_NNS from_IN dynamic_JJ object_NN aware_JJ interface_NN
+can_MD add_VB dynamic_JJ properties_NNS and_CC methods_NNS to_TO java_NN object_NN
+can_MD add_VB dynamic_JJ properties_NNS and_CC methods_NNS to_TO groovy_NN object_NN
+respects_VBZ properties_NNS added_VBN to_TO meta_JJ class_NN of_IN java_NN object_NN
+respects_VBZ properties_NNS added_VBN to_TO meta_JJ class_NN of_IN groovy_NNP object_NN
+uses_VBZ existing_JJ get_VB as_IN dynamic_JJ object_JJ method_NN
+constructor_NN can_MD call_VB getter_NN
+mixes_VBZ in_IN set_VB value_NN method_NN for_IN single_JJ valued_JJ property_NN
+does_VBZ not_RB use_VB convention_NN value_NN once_RB set_VB value_NN method_NN has_VBZ been_VBN called_VBN
+does_VBZ not_RB mix_VB in_IN set_VB value_NN method_NN for_IN read_VBN only_RB property_NN
+does_VBZ not_RB mix_VB in_IN set_VB value_NN method_NN for_IN multi_JJ value_NN property_NN
+overrides_VBZ existing_JJ set_VBN value_NN method_NN
+adds_VBZ instead_RB of_IN overrides_VBZ set_VB value_NN method_NN if_IN only_RB multi_JJ arg_NN methods_NNS
+does_VBZ not_RB override_VB set_VB value_NN method_NN for_IN property_NN that_DT is_VBZ not_RB convention_NN mapping_VBG aware_JJ
+mixes_VBZ in_IN closure_NN overload_VB for_IN action_NN method_NN
+does_VBZ not_RB override_VB existing_JJ closure_NN overload_VB
+generates_VBZ dsl_NNP object_NN compatible_JJ object_NN
+includes_VBZ not_RB inherited_JJ type_NN annotations_NNS
+get_VB prop_NN
+set_VB prop_NN
+do_VB stuff_NN
+get_VB package_NN protected_VBN
+get_VB protected_VBN
+get_VB private_JJ
+set_VB files_NNS
+get_VB things_NNS
+set_VB things_NNS
+prop_NN
+get_VB convention_NN
+set_VB convention_NN
+get_VB convention_NN value_NN
+get_VB convention_NN mapping_NN
+set_VB convention_NN mapping_NN
+get_VB extensions_NNS
+get_VB as_IN dynamic_JJ object_NN
+get_VB convention_NN property_NN
+set_VB convention_NN property_NN
+convention_NN method_NN
+get_VB array_NN property_NN
+get_VB boolean_JJ property_NN
+get_VB long_JJ property_NN
+get_VB return_JJ value_NN property_NN
+set_VB return_JJ value_NN property_NN
+set_VB boolean_JJ property_NN
+get_VB primitive_JJ
+set_VB primitive_JJ
+is_VBZ bool_NN
+set_VB bool_NN
+get_VB final_JJ getter_NN
+set_VB final_JJ getter_NN
+set_VB write_VB only_RB
+get_VB overloaded_VBN
+set_VB overloaded_VBN
+get_VB interface_NN property_NN
+get_VB property_NN
+get_VB overridden_VBN property_NN
+get_VB other_JJ property_NN
+implement_VB me_PRP
+prompt_VB user_NN to_TO combine_VB tasks_NNS
+show_VB
+populate_VB values_NNS
+setup_VB ui_NNP
+create_VB main_JJ panel_NN
+create_VB separate_JJ sample_JJ panel_NN
+create_VB combined_JJ sample_JJ panel_NN
+get_VB current_JJ selection_NN
+create_VB button_NN panel_NN
+get_VB gradle_NN
+proceed_VB
+get_VB log_NN level_NN
+get_VB stack_NN trace_NN level_NN
+report_VB execution_NN started_VBN
+report_VB number_NN of_IN tasks_NNS to_TO execute_VB
+report_VB task_NN started_VBN
+report_VB task_NN complete_JJ
+report_VB live_JJ output_NN
+report_VB execution_NN finished_VBN
+get_VB custom_JJ gradle_NN executable_JJ
+get_VB compatibility_NN
+build_VB recursively_RB
+collect_VB tasks_NNS
+convert_VB tasks_NNS
+locate_VB
+get_VB meta_JJ data_NNS provider_NN
+select_VB
+create_VB platform_NN tool_NN provider_NN
+init_VB tools_NNS
+init_VB for_IN implementation_NN
+add_VB default_JJ tools_NNS
+configure_VB default_NN tools_NNS
+get_VB platform_NN configuration_NN
+supports_VBZ platform_NN
+get_VB gc_FW hint_NN action_NN
+get_VB health_NN tracker_NN action_NN
+create_VB producer_NN
+get_VB matching_JJ files_NNS
+test_VB ignored_VBN
+get_VB current_JJ time_NN
+handle_VB incoming_NN
+handle_VB outgoing_NN
+stop_VB requested_VBN
+resolved_VBD
+not_RB found_VBN
+set_VB meta_NN data_NNS
+get_VB createable_JJ types_NNS
+get_VB entity_NN instantiator_NN
+artifacts_NNS equal_JJ
+attach_VB artifact_NN
+get_VB causes_NNS
+configure_VB with_IN no_DT java_NN plugin_NN applied_VBN
+configure_VB with_IN java_NN plugin_NN applied_VBN
+setup_VB ear_NN task_NN
+wire_VB ear_NN task_NN conventions_NNS
+configure_VB configurations_NNS
+configure_VB mapping_JJ rules_NNS
+configure_VB jetty_NNP run_NN war_NN
+configure_VB jetty_NNP stop_NN
+configure_VB jetty_NNP run_VB
+get_VB web_NN xml_NNP
+configure_VB abstract_JJ jetty_NN task_NN
+get_VB java_NN convention_NN
+get_VB war_NN convention_NN
+get_VB build_VB analysis_NN
+do_VBP build_VB
+do_VB build_VBP stages_NNS
+add_VB standard_JJ output_NN listener_NN
+add_VB standard_JJ error_NN listener_NN
+is_VBZ incremental_JJ
+do_VB out_IN of_IN date_NN
+do_VB removed_VBN
+get_VB test_NN execution_NN descriptors_NNS
+get_VB test_NN class_NN names_NNS
+get_VB internal_JJ jvm_NNP test_NN requests_NNS
+register_VB global_JJ services_NNS
+register_VB build_NN session_NN services_NNS
+register_VB build_NN services_NNS
+register_VB gradle_NN services_NNS
+register_VB project_NN services_NNS
+convertable_JJ rule_NN
+unconvertable_JJ rules_NNS
+check_VB for_IN null_NN
+get_VB text_NN to_TO search_VBP
+get_VB caret_NN location_NN
+highlight_VB and_CC scroll_VB to_TO result_VBP
+search_VB complete_JJ
+remove_VB result_NN highlights_NNS
+get_VB component_NN
+create_VB text_NN to_TO match_VBP field_NN
+insert_VB update_NN
+remove_VB update_NN
+changed_JJ update_NN
+request_VB search_NN
+get_VB next_JJ available_JJ request_NN
+perform_VB search_NN again_RB
+go_VB to_TO next_JJ match_NN
+go_VB to_TO previous_JJ match_NN
+add_VB additional_JJ fields_NNS
+show_VB normal_JJ color_NN
+show_VB no_DT match_NN color_NN
+enable_VB buttons_NNS and_CC fields_NNS appropriately_RB
+get_VB task_NN configurations_NNS
+get_VB jvm_NNP test_NN kind_NN
+get_VB console_NN
+add_VB dependency_NN descriptors_NNS
+percent_NN of_IN
+format_NN bytes_NNS
+ordinal_JJ
+remove_VB cache_NN entry_NN
+get_VB reference_NN queue_NN
+put_VB cleanup_NN
+stateful_JJ
+new_JJ reader_NN
+new_JJ writer_NN
+get_VB g_FW c_FW hint_NN action_NN
+handle_VB message_NN received_VBN
+report_VB client_NN exit_NN
+add_VB status_NN
+get_VB init_JJ script_NN file_NN
+get_VB single_JJ file_NN
+get_VB as_IN path_NN
+plus_IN
+minus_IN
+get_VB build_NN dependencies_NNS
+add_VB to_TO ant_NN builder_NN
+add_VB as_IN matching_JJ task_NN
+add_VB as_IN file_NN set_NN
+add_VB as_IN resource_NN collection_NN
+get_VB as_IN file_NN trees_NNS
+stop_VB execution_NN if_IN empty_JJ
+as_IN type_NN
+get_VB as_IN file_NN tree_NN
+visit_VB contents_NNS
+visit_VB dependencies_NNS
+get_VB cap_NN display_NN name_NN
+register_VB watch_NN points_NNS
+get_VB project_NN dir_NN
+set_VB project_NN dir_NN
+get_VB build_NN file_NN name_NN
+set_VB build_NN file_NN name_NN
+get_VB build_NN file_NN
+set_VB message_NN output_NN level_NN
+set_VB output_NN print_NN stream_NN
+set_VB emacs_NN mode_NN
+set_VB error_NN print_NN stream_NN
+build_VB started_VBD
+target_NN started_VBD
+target_NN finished_VBD
+task_NN started_VBD
+task_NN finished_VBD
+message_NN logged_VBD
+generate_VB p_FW c_FW h_FW object_NN directory_NN
+generate_VB p_FW c_FW h_FW file_NN
+generate_VB p_FW c_FW h_FW source_NN file_NN
+get_VB header_NN to_TO source_NN file_NN transformer_NN
+get_VB source_NN file_NN extension_NN
+is_VBZ std_JJ out_NN
+is_VBZ std_JJ err_NN
+get_VB cols_NNS
+get_VB build_NN link_NN class_NN
+get_VB build_NN doc_NN handler_NN class_NN
+get_VB doc_NN handler_NN factory_NN class_NN
+get_VB run_VB support_NN classpath_NN dependencies_NNS
+find_VB class_NN path_NN
+get_VB project_NN directory_NN
+get_VB outcomes_NNS
+is_VBZ missing_JJ
+get_VB cached_VBN file_NN
+get_VB cached_VBN at_IN
+get_VB coordinates_NNS
+get_VB exported_JJ headers_NNS
+get_VB implicit_JJ headers_NNS
+get_VB mutable_JJ class_NN loader_NN
+get_VB parent_NN loader_NN
+get_VB enum_NN prop_NN
+get_VB outer_NN
+get_VB some_DT prop_NN
+get_VB inner_JJ class_NN prop_NN
+get_VB manifest_NN
+set_VB manifest_NN
+manifest_NN
+get_VB meta_NN inf_NN
+meta_NN inf_NN
+property_NN missing_JJ
+do_VB set_VB property_NN
+get_VB references_NNS
+import_VB build_NN
+get_VB task_NN dependency_NN names_NNS
+add_VB dependency_NN ordering_NN
+get_VB dependencies_NNS
+get_VB dependent_JJ classes_NNS
+is_VBZ dependency_NN to_TO all_NN
+create_VB instance_NN
+default_JJ encoding_VBG contains_NNS platform_NN encoding_VBG
+unwrap_VB
+collect_VB classes_NNS
+get_VB representation_NN
+get_VB dependency_NN notation_NN
+get_VB compile_VB method_NN
+create_VB compile_VB parameters_NNS
+get_VB class_NN loader_NN packages_NNS
+get_VB attempted_VBN
+attempted_VBN
+apply_VB to_TO
+get_VB ide_NN project_NN dependencies_NNS
+get_VB unresolved_JJ ide_NN repo_NN file_NN dependencies_NNS
+get_VB ide_JJ repo_NN file_NN dependencies_NNS
+get_VB ide_JJ local_JJ file_NN dependencies_NNS
+explain_VB
+new_JJ thread_NN
+create_VB meta_NNS data_NNS
+get_VB bucket_NN name_NN
+get_VB s_FW ets3_FW bucket_NN key_NN
+apply_VB rules_NNS
+language_NN source_NN set_NN factory_NN
+binaries_NNS
+register_VB base_NN binary_JJ spec_NN
+register_VB base_NN language_NN source_NN set_NN
+register_VB source_NN set_NN node_NN initializer_NN
+sources_NNS
+validate_VB language_NN source_NN set_NN registrations_NNS
+copy_VB binary_JJ tasks_NNS to_TO task_NN container_NN
+attach_VB binaries_NNS to_TO assemble_JJ lifecycle_NN
+change_VB descriptor_NN path_NN
+find_VB scripts_NNS
+start_VB children_NNS
+complete_VB children_NNS
+get_VB outputs_NNS file_NN
+get_VB index_NN file_NN
+write_VB index_NN
+writer_NN
+has_VBZ output_NN
+write_VB all_DT output_NN
+write_VB non_RB test_NN output_NN
+write_VB test_NN output_NN
+do_VB read_NN
+reader_NN
+get_VB input_NN file_NN
+set_VB input_NN file_NN
+get_VB output_NN file_NN
+set_VB output_NN file_NN
+get_VB format_NN
+set_VB format_NN
+of_IN
+is_VBZ valid_JJ package_NN name_NN
+create_VB publisher_NN
+collect_VB arguments_NNS
+generate_VB
+exceeds_VBZ windows_NNS command_NN line_NN length_NN limit_NN
+shorten_VBN args_NNS
+set_VB objects_NNS
+set_VB objects_NNS for_IN update_NN
+is_VBZ may_MD implement_VB missing_JJ methods_NNS
+is_VBZ may_MD implement_VB missing_JJ properties_NNS
+has_VBZ property_NN
+has_VBZ method_NN
+invoke_VB method_NN
+create_VB class_NN visitor_NN
+setup_NN u_NN i_NN
+key_NN pressed_VBN
+synchronize_VB display_NN name_NN with_IN command_NN
+set_VB display_NN name_NN text_NN to_TO command_NN line_NN text_NN
+edit_VB favorite_NN
+report_VB error_NN
+configure_VB hierarchy_NN
+get_VB archive_NN file_NN
+get_VB root_NN relative_JJ path_NN
+get_VB std_JJ out_NN print_NN stream_NN
+get_VB std_JJ err_NN print_NN stream_NN
+get_VB std_JJ err_NN
+get_VB std_JJ out_NN
+to_TO execution_NN result_NN
+to_TO execution_NN failure_NN
+assert_VB tasks_NNS executed_VBN
+assert_VB output_NN equals_VBZ
+get_VB compile_VB classpath_NN
+get_VB variants_NNS
+get_VB resolution_NN strategy_NN
+to_TO root_NN component_NN meta_NN data_NNS
+is_VBZ cancellation_NN requested_JJ
+add_VB callback_NN
+remove_VB callback_NN
+started_VBD
+completed_VBD
+output_NN
+failure_NN
+configure_VB endpoint_NN
+get_VB endpoint_NN
+configure_VB error_NN retry_NN count_NN
+get_VB max_JJ error_NN retry_NN count_NN
+remove_VB producer_NN
+worker_NN stopped_VBD
+all_DT producers_NNS finished_JJ
+get_VB delivery_NN
+get_VB channel_NN
+get_VB payload_NN
+create_VB cache_NN factory_NN
+get_VB project_NN path_NN
+get_VB library_NN name_NN
+get_VB parent_NN id_NN
+put_VB and_CC close_VB
+get_VB and_CC close_VB
+init_VB caches_NNS
+close_VB caches_NNS
+creates_VBZ a_DT task_NN inputs_NNS instance_NN
+creates_VBZ a_DT task_NN outputs_NNS internal_JJ instance_NN
+creates_VBZ a_DT task_NN status_NN nagger_NN instance_NN
+creates_VBZ a_DT logging_NN manager_NN and_CC std_JJ output_NN capture_NN
+is_VBZ resolvable_JJ
+get_VB class_NN directories_NNS
+get_VB resource_NN directories_NNS
+get_VB tool_NN chain_NN
+get_VB target_NN platform_NN
+get_VB simple_JJ name_NN
+get_VB package_NN name_NN
+is_VBZ interface_NN
+is_VBZ groovy_JJ
+is_VBZ enum_NN
+get_VB super_JJ class_NN name_NN
+set_VB super_JJ class_NN name_NN
+get_VB super_JJ class_NN
+get_VB interface_NN names_NNS
+add_VB interface_NN name_NN
+get_VB interfaces_NNS
+get_VB inner_JJ class_NN names_NNS
+add_VB inner_JJ class_NN name_NN
+get_VB outer_JJ class_NN name_NN
+set_VBN outer_JJ class_NN name_NN
+add_VB import_NN
+add_VB readable_JJ property_NN
+add_VB writeable_JJ property_NN
+find_VB declared_JJ property_NN
+get_VB declared_JJ property_NN names_NNS
+get_VB declared_JJ properties_NNS
+get_VB declared_JJ methods_NNS
+get_VB declared_JJ method_NN names_NNS
+find_VB declared_JJ method_NN
+find_VB declared_JJ methods_NNS
+get_VB constants_NNS
+add_VB enum_NN constant_NN
+get_VB enum_NN constants_NNS
+get_VB enum_NN constant_NN
+attach_VB
+resolve_VB types_NNS
+visit_VB types_NNS
+get_VB candidate_NN
+register_VB twirl_NN language_NN type_NN
+create_VB generated_VBN scala_NNP source_NN sets_NNS
+register_VB language_NN transform_NN
+get_VB source_NN set_NN type_NN
+get_VB output_NN type_NN
+get_VB binary_JJ tools_NNS
+get_VB transform_NN task_NN
+get_VB task_NN prefix_NN
+apply_VB to_TO binary_NN
+execution_NN started_VBD
+execution_NN finished_VBD
+matches_NNS requested_VBN
+matches_NNS selected_VBN
+get_VB unavailable_JJ message_NN
+accept_VB incoming_NN
+some_DT other_JJ ok_JJ 1_CD
+some_DT other_JJ ok_JJ 2_CD
+parse_VB type_NN
+describe_VB
+same_JJ collection_NN
+unpack_NN
+describe_VB to_TO
+get_VB c_NN compiler_NN
+get_VB cpp_NN compiler_NN
+get_VB rc_FW compiler_NN
+get_VB assembler_NN
+get_VB linker_NN
+get_VB static_JJ lib_NN archiver_NN
+get_VB platform_NN
+get_VB logging_VBG command_NN line_NN converter_NN
+break_VB up_RP command_NN line_NN
+has_VBZ log_NN level_NN defined_VBD
+has_VBZ show_VB stacktrace_NN defined_VBD
+has_VBZ command_NN line_NN options_NNS defined_VBD
+append_VB additional_JJ command_NN line_NN options_NNS
+combine_VB tasks_NNS
+get_VB main_JJ component_NN
+set_VB main_JJ component_NN
+before_IN execute_VB
+after_IN execute_VB
+get_VB last_JJ modified_JJ
+copy_VB to_TO
+get_VB mode_NN
+get_VB objc_NN compiler_NN
+get_VB objcpp_NN compiler_NN
+find_VB resource_NN
+is_VBZ composite_JJ
+create_VB in_IN memory_NN dependency_NN metadata_NNS cache_NN
+create_VB dependency_NN management_NN services_NNS
+create_VB dependency_NN factory_NN
+create_VB cache_NN locking_NN manager_NN
+create_VB build_NN time_NN provider_NN
+create_VB module_NN versions_NNS cache_NN
+create_VB module_NN artifacts_NNS cache_NN
+get_VB arg_NN 0_CD
+set_VB arg_NN 0_CD
+test_VB data_NNS source_NN
+test_VB xa_FW data_NNS source_NN
+test_VB data_NNS sourcewith_NN hot_JJ deployed_VBN jar_NNP
+create_VB driver_NN jar_NNP file_NN
+test_VB add_VB data_NNS source_NN
+test_VB remove_VB data_NNS source_NN
+test_VB modify_VB data_NNS source_NN
+test_VB add_VB xa_FW data_NNS source_NN
+test_VB modify_VB xa_FW data_NNS source_NN
+test_VB remove_VB xa_FW data_NNS source_NN
+head_JJ participant_NN
+terminate_JJ participant_NN
+get_VB invocations_NNS
+reset_VB invocations_NNS
+get_VB instance_NN class_NN name_NN
+get_VB jndi_NNP view_NN instance_NN value_NN
+get_VB definition_NN
+create_VB builder_NN
+build_VB transformation_NN
+handle_VB annotations_NNS
+handle_VB deployment_NN descriptor_NN
+create_VB command_NN handler_NN
+is_VBZ tab_NN complete_JJ
+get_VB schedule_NN expression_NN
+get_VB timer_NN config_NN
+install_VB service_NN
+handle_VB upgrade_NN
+switch_VB to_TO messaging_VBG protocol_NN
+handle_VB event_NN
+get_VB sec_JJ key_NN header_NN
+get_VB sec_JJ accept_NN header_NN
+get_VB http_NNP upgrade_NN endpoint_NN key_NN
+get_VB taglib_NNP uri_NNP
+get_VB taglib_NNP location_NN
+persist_VB serialized_VBN sessions_NNS
+load_VB serialized_VBN sessions_NNS
+create_VB simple_JJ
+get_VB parser_NN description_NN
+undeploy_VB
+get_VB federation_NN service_NN
+test_VB access_NN
+add_VB annotations_NNS
+add_VB annotation_NN
+get_VB annotations_NNS annotated_VBN with_IN
+after_IN class_NN
+deployment_NN
+client_NN deployment_NN
+create_VB deployment_NN
+test_VB ejb_NNP timeout_NN on_IN other_JJ node_NN
+get_VB remote_JJ context_NN
+write_VB content_NN
+write_VB mod_NN cluster_NN config_NN
+write_VB configuration_NN
+write_VB ssl_NNP
+write_VB simple_JJ load_NN provider_NN
+write_VB dynamic_JJ load_NN provider_NN
+write_VB load_NN metric_JJ
+write_VB custom_JJ load_NN metric_NN
+write_VB attribute_NN
+write_VB property_NN
+register_VB children_NNS
+encrypted_VBN and_CC signed_VBN request_NN from_IN alice_NN
+encrypted_VBN and_CC signed_VBN request_NN from_IN john_NN
+encrypted_VBN and_CC signed_VBN request_NN from_IN untrusted_JJ max_NN
+setup_VB wsse_NNP
+get_VB creation_NN time_NN
+get_VB last_JJ accessed_JJ time_NN
+get_VB max_JJ inactive_JJ interval_NN
+take_VB off_RP
+set_VB message_NN received_VBN
+create_VB test_NN archive_NN
+send_VB successfully_RB
+send_VB and_CC rollback_NN
+received_VBN message_NN
+transform_VB resource_NN
+say_VB hello_NN
+configure_VB dependency_NN
+test_VB passivation_NN max_JJ size_NN
+test_VB passivation_NN disabled_JJ bean_VB
+test_VB passivation_NN enabled_JJ bean_NN
+test_VB passivation_NN dd_FW override_VB bean_VB
+test_VB passivation_NN failure_NN
+establish_VB components_NNS
+get_VB deployment_NN
+test_VB deploy_VB undeploy_VB
+test_VB deploy_VB
+test_VB undeploy_VB
+create_VB cli_NNP archive_NN
+get_VB module_NN path_NN
+create_VB jndi_NNP name_NN
+create_VB command_NN dispatcher_NN
+disabled_VBD isabled_JJ 2_CD lc_FW check_NN
+same_JJ session_NN check_NN
+second_JJ session_NN check_NN
+add_VB entities_NNS and_CC evict_VBP all_DT
+evicted_VBN entity_NN cache_NN check_NN
+query_VB cache_NN check_NN
+evict_VB query_NN cache_NN
+query_NN cache_NN check_NN if_IN empty_JJ
+generate_VB query_NN cache_NN stats_NNS
+generate_VB entity_NN cache_NN stats_NNS
+get_VB cache_NN region_NN name_NN
+create_VB employee_NN
+get_VB employee_NN
+get_VB employee_NN query_NN
+get_VB all_DT employees_NNS query_NN
+get_VB model_NN controller_NN client_NN
+test_VB non_RB default_JJ decrementer_NN and_CC incrementer_NN
+check_VB statistics_NNS
+do_VB setup_NN
+create_VB datasource_NN
+remove_VB datasource_NN
+add_VB capacity_NN decrementer_NN property_NN
+add_VB capacity_NN incrementer_NN property_NN
+get_VB capacity_NN decrementer_NN class_NN
+get_VB capacity_NN decrementer_NN properties_NNS
+get_VB capacity_NN incrementer_NN class_NN
+get_VB capacity_NN incrementer_NN properties_NNS
+establish_VB topology_NN
+is_VBZ closeable_JJ
+get_VB beans_NNS
+add_VB bean_NN
+get_VB bean_NN
+release_VB bean_NN
+remove_VB bean_NN
+pre_IN passivate_VB
+post_IN activate_VB
+from_IN annotation_NN
+create_VB configuration_NN builder_NN
+for_IN type_NN
+test_VB deploy_VB redeploy_VB undeploy_VB
+test_VB content_VB object_NN deploy_NN
+test_VB redeploy_VB
+test_VB w_FW fly_VB 3_CD 1_CD 8_CD 4_CD
+check_VB url_NNP
+configure_VB model_NN validators_NNS
+is_VBZ alternatives_NNS required_VBN
+perform_VB validation_NN
+recreate_VB parent_NN service_NN
+get_VB parent_NN service_NN name_NN
+populate_VB model_NN
+test_VB authentication_NN
+test_VB authentication_NN bad_JJ pwd_NN
+test_VB authentication_NN two_CD beans_NNS
+test_VB authentication_NN two_CD beans_NNS re_RB auth_VB
+test_VB authentication_NN two_CD beans_NNS re_RB auth_VB bad_JJ pwd_NN
+test_VB authenticated_VBN call_NN
+test_VB unauthenticated_VBN
+test_VB authentication_NN via_IN servlet_NN
+test_VB authentication_NN re_RB auth_VB via_IN servlet_NN
+test_VB authentication_NN two_CD beans_NN via_IN servlet_NN
+test_VB authentication_NN two_CD beans_NNS re_RB auth_VB via_IN servlet_NN
+test_VB authentication_NN two_CD beans_NNS re_RB auth_VB bad_JJ pwd_NN via_IN servlet_NN
+test_VB icir_NNP single_JJ
+test_VB icir_NNP two_CC beans_NNS
+test_VB icir_NNP two_CD beans_NNS re_RB auth_VB
+get_VB who_WP am_VBP i_NNS
+test_VB icir_NNP via_IN servlet_NN
+test_VB icir_NNP re_RB auth_VB via_IN servlet_NN
+test_VB icir_NNP two_CD beans_NNS via_IN servlet_NN
+test_VB icir_NNP two_CD beans_NNS re_IN auth_VB via_IN servlet_NN
+removed_VBN
+perform_VB runtime_NN
+wrap_VB
+create_VB service_NN
+configure_VB additional_JJ dependencies_NNS
+remove_VB property_NN
+redefine_VB property_NN
+perform_VB boottime_NN
+perform_VB call_NN
+test_VB jax_NN rs_NN with_IN decorated_VBN resource_NN
+remove_VB attribute_NN
+set_VB attribute_NN
+doit_NN
+get_VB target_NN class_NN
+set_VB first_JJ
+get_VB first_JJ
+set_VB second_JJ
+get_VB second_JJ
+endpoint_NN activation_NN
+endpoint_NN deactivation_NN
+get_VB xa_FW resources_NNS
+get_VB bind_NN info_NN
+set_VB bind_NN info_NN
+is_VBZ create_VB binder_NN service_NN
+set_VB create_VB binder_NN service_NN
+get_VB deployment_NN md_FW
+do_VB deploy_VB
+check_VB activation_NN
+get_VB logger_NN
+set_VB recovery_NN for_IN resource_NN adapter_NN in_IN resource_NN adapter_NN repository_NN
+get_VB creation_NN meta_NN data_NNS
+get_VB access_NN meta_NN data_NNS
+get_VB local_JJ context_NN
+perform_VB work_NN
+discover_VB new_JJ lands_NNS
+is_VBZ working_VBG
+trigger_VB report_NN
+register_VB attributes_NNS
+build_VB configuration_NN
+make_VB call_NN
+test_VB sucess_NN
+test_VB failed_VBD
+register_VB operations_NNS
+get_VB username_NN token_NN string_NN
+get_VB username_NN token_NN element_NN
+create_VB wsse_NN username_NN token_NN
+recover_VB services_NNS
+before_IN test_NN method_NN
+after_IN test_NN method_NN
+test_VB session_NN persistence_NN
+create_VB identifier_NN
+restricted_VBN method_NN
+register_VB aliases_NNS
+get_VB lifecycle_NN state_NN
+create_VB next_JJ phase_NN
+before_IN class_NN
+test_VB remote_JJ slsb_NN invocation_NN
+test_VB remote_JJ sfsb_NN invocation_NN
+test_VB remote_JJ singleton_NN invocation_NN
+get_VB app_NN name_NN
+get_VB distinct_JJ name_NN
+test_VB pass_VB by_IN reference_NN semantics_NNS on_IN remote_JJ interface_NN
+get_VB web_NN service_NN annotation_NN
+is_VBZ webservice_NN
+is_VBZ ejb_NNP
+is_VBZ bridge_NN enabled_VBN
+is_VBZ xts_NNP enabled_VBN
+execute_VB on_IN node_NN
+execute_VB on_IN cluster_NN
+submit_VB on_IN node_NN
+submit_VB on_IN cluster_NN
+get_VB resource_NN description_NN resolver_NN
+initialize_VB parsers_NNS
+register_VB transformers_NNS egistertransformers_NNPS 1_CD egistertransformers_NNPS 1_CD 3_CD 0_CD
+register_VB transformers_NNS egistertransformers_NNPS 1_CD egistertransformers_NNPS 1_CD 4_CD 0_CD
+register_VB transformers_NNS egistertransformers_NNPS 2_CD x_NN 0_CD
+convert_VB to_TO target_VB address_NN
+schedule_VB timer_NN
+has_VBZ timer_NN run_VBN
+get_VB portable_JJ extension_NN
+get_VB builder_NN
+create_VB service_NN name_NN
+add_VB trusted_VBN domain_NN
+remove_VB trusted_VBN domain_NN
+configure_VB web_NN components_NNS
+get_VB default_JJ handlers_NNS
+do_VB configure_VB deployment_NN
+bind_VB
+rebind_VB
+unbind_VB
+do_VB post_VB
+send_VB message_NN
+receive_VB message_NN
+test_VB export_VB import_VB journal_NN
+remove_VB all_DT messages_NNS from_IN queue_NN
+export_VB journal_NN
+import_VB journal_NN
+get_VB exception_NN class_NN
+is_VBZ inherited_JJ
+get_VB pojo_NNP endpoints_NNS
+do_VB wrap_NN
+do_VB scheduled_VBN wrap_VB
+get_VB execution_NN properties_NNS
+get_VB managed_VBN task_NN listener_NN
+task_NN aborted_VBN
+task_NN done_VBN
+task_NN starting_VBG
+task_NN submitted_VBN
+get_VB key_JJ affinity_NN service_NN factory_NN
+get_VB module_NN loader_NN
+get_VB potential_JJ view_NN interfaces_NNS
+read_VB element_NN
+get_VB managed_VBN reference_NN factory_NN
+handle_VB service_NN lookup_NN
+validate_VB resource_NN injection_NN point_NN type_NN
+create_VB lazy_JJ resource_NN reference_NN factory_NN
+create_VB resource_NN
+install_VB runtime_NN services_NNS
+build_VB cache_NN factory_NN builder_NN
+get_VB weld_NN container_NN
+handle_VB message_NN
+apply_VB update_NN to_TO runtime_NN
+revert_VB update_NN to_TO runtime_NN
+update_VB or_CC create_VB default_NN exception_NN logging_VBG enabled_VBN service_NN
+get_VB adapter_NN version_NN
+get_VB adapter_NN vendor_NN name_NN
+get_VB adapter_NN name_NN
+get_VB adapter_NN short_JJ description_NN
+get_VB spec_NN version_NN
+get_VB interaction_NN specs_NN supported_VBN
+supports_VBZ execute_VB with_IN input_NN and_CC output_NN record_NN
+supports_VBZ execute_VB with_IN input_NN record_NN only_RB
+supports_VBZ local_JJ transaction_NN demarcation_NN
+print_VB string_NN
+create_VB default_NN instance_NN
+echo_VB
+get_VB max_JJ size_NN
+set_VB max_NNS size_NN
+deployment_NN id_NN p_FW
+deployment_NN s_FW p_FW 1_CD
+test_VB post_VB original_JJ request_NN
+process_VB component_NN config_NN
+infer_VB remote_JJ interface_NN from_IN home_NN
+infer_VB local_JJ interface_NN from_IN local_JJ home_NN
+get_VB channel_NN factory_NN
+get_VB node_NN factory_NN
+get_VB marshalling_VBG context_NN
+rollback_NN runtime_NN
+get_VB timezones_NNS
+test_VB next_JJ day_NN of_IN week_NN
+test_VB calendar_NN based_VBN timeout_NN
+test_VB every_DT second_NN timeout_NN
+test_VB every_DT minute_NN every_DT hour_NN every_DT day_NN
+test_VB every_DT morning_NN five_CD fifteen_NN
+test_VB every_DT weekday_NN eight_CD fifteen_NN
+test_VB every_DT mon_NN wed_NN fri_NN twelve_CD thirty_CD noon_NN
+test_VB every_DT st_FW every_DT 3est_FW every_DT 31st_NN of_IN the_DT month_NN
+test_VB run_VB st_FW run_VB 2_CD est_NNP run_VB 29th_NN of_IN feb_NN
+test_VB some_DT specific_JJ time_NN
+test_VB every_DT st_NN every_DT 1_CD est_NN every_DT 1_CD 0_CD seconds_NNS
+test_VB wfly_NNP 1_CD 4_CD 6_CD 8_CD
+test_VB wfly_NNP wfly_NNP 3_CD t_FW wfly_NNP 3_CD 9_CD st_NNP wfly_NN 3_PCD 9_CD 4_CD est_NNP wfly_NNP 3_CD 9_CD 4_CD 7_CD 1_CD
+test_VB wfly_NNP wfly_NNP 3_CD t_FW wfly_NNP 3_CD 9_CD st_NNP wfly_NN 3_PCD 9_CD 4_CD est_NNP wfly_NNP 3_CD 9_CD 4_CD 7_CD 2_CD
+get_VB timezone_NN specific_JJ schedule_NN expression_NN
+is_VBZ leap_JJ year_NN
+is_VBZ week_NN day_NN
+get_VB subsystem_NN xml_NNP
+get_VB subsystem_NN xsd_FW path_NN
+get_VB subsystem_NN template_NN paths_NNS
+handle_VB unknown_JJ address_NN setting_NN
+register_VB transformers__NN egistertransformers_1__FW 0_CD
+all_DT done_VBN
+lookup_NN id_NN
+get_VB canonical_JJ typecode_NN
+create_VB string_NN
+create_VB wstring_FW
+create_VB sequence_NN
+create_VB array_NN
+create_VB fixed_JJ
+get_VB sequence_NN impl_NNP
+put_VB sequence_NN impl_NNP
+get_VB object_NN id_NN prefix_NN
+get_VB object_NN id_NN
+get_VB anonymous_JJ object_NN id_NN
+get_VB next_JJ object_NN id_NN
+scoped_VBN name_NN
+create_VB a_FW o_FW deployment_NN
+test_VB wrong_JJ a_FW o_FW
+create_VB cf_FW deployment_NN
+test_VB wrong_JJ cf_FW
+create_VB ra_FW deployment_NN
+test_VB wrong_JJ r_FW a_FW
+get_VB component_NN description_NN
+get_VB component_NN class_NN
+get_VB defined_VBN component_NN methods_NNS
+get_VB component_NN interceptors_NNS
+get_VB around_IN timeout_NN interceptors_NNS
+add_VB component_NN interceptor_NN
+add_VB component_NN interceptors_NNS
+add_VB timeout_NN view_NN interceptor_NN
+get_VB create_VB dependencies_NNS
+get_VB start_VB dependencies_NNS
+get_VB views_NNS
+get_VB around_IN construct_VB interceptors_NNS
+add_VB around_IN construct_VB interceptors_NNS
+add_VB around_IN construct_VB interceptor_NN
+get_VB post_IN construct_VB interceptors_NNS
+add_VB post_IN construct_VB interceptors_NNS
+add_VB post_IN construct_VB interceptor_NN
+get_VB pre_IN destroy_VB interceptors_NNS
+add_VB pre_IN destroy_VB interceptors_NNS
+add_VB pre_IN destroy_VB interceptor_NN
+get_VB pre_IN passivate_VB interceptors_NNS
+add_VB pre_IN passivate_VB interceptors_NNS
+add_VB pre_IN passivate_VB interceptor_NN
+get_VB post_IN activate_VB interceptors_NNS
+add_VB post_IN activate_VB interceptors_NNS
+add_VB post_IN activate_VB interceptor_NN
+get_VB application_NN name_NN
+get_VB instance_NN factory_NN
+set_VB instance_NN factory_NN
+get_VB class_NN index_NN
+get_VB component_NN create_VB service_NN factory_NN
+set_VB component_NN create_VB service_NN factory_NN
+get_VB namespace_NN context_NN interceptor_NN factory_NN
+set_VB namespace_NN context_NN interceptor_NN factory_NN
+get_VB module_NN class_NN loader_NN
+get_VB namespace_NN context_NN selector_NN
+set_VB namespace_NN context_NN selector_NN
+get_VB interceptor_NN context_NN keys_NNS
+get_VB concurrent_NN context_NN
+add_VB lifecycle_NN method_NN
+get_VB lifecycle_NN methods_NNS
+get_VB session_NN listeners_NNS
+get_VB session_NN manager_NN
+create_VB session_NN
+register_VB session_NN listener_NN
+remove_VB session_NN listener_NN
+set_VB default_JJ session_NN timeout_NN
+get_VB transient_JJ sessions_NNS
+get_VB active_JJ sessions_NNS
+get_VB all_DT sessions_NNS
+get_VB deployment_NN name_NN
+get_VB statistics_NNS
+add_VB https_NNP listener_NN
+remove_VB https_NNP listener_NN
+add_VB security_NN realm_NN
+remove_VB security_NN realm_NN
+get_VB security_NN domains_NNS
+start_VB context_NN
+stop_VB context_NN
+get_VB servlet_NN context_NN
+get_VB endpoint_NN name_NN
+get_VB endpoint_NN creation_NN options_NNS
+get_VB remote_JJ connection_NN provider_NN creation_NN options_NNS
+get_VB callback_NN handler_NN
+get_VB connection_NN configurations_NNS
+get_VB cluster_NN configuration_NN
+get_VB invocation_NN timeout_NN
+get_VB reconnect_VB tasks_NNS timeout_NN
+get_VB deployment_NN node_NN selector_NN
+add_VB cluster_NN configuration_NN
+set_VB invocation_NN timeout_NN
+set_VB deployment_NN node_NN selector_NN
+get_VB timer_NN service_NN
+await_VB timer_NN call_NN
+reset_VB timer_NN service_NN called_VBN
+get_VB timer_NN info_NN
+is_VBZ persistent_JJ
+is_VBZ calendar_NN
+ejb_NNP timeout_NN
+test_VB add_VB application_NN policy_NN
+test_VB remove_VB application_NN policy_NN
+test_VB get_VB application_NN policy_NN
+test_VB get_VB cipher_NN algorithm_NN
+test_VB set_VB cipher_NN algorithm_NN
+test_VB get_VB cipher_NN key_NN
+test_VB set_VB cipher_NN key_NN
+test_VB get_VB cipher_NN spec_NN
+test_VB set_VB cipher_NN spec_NN
+test_VB get_VB iteration_NN count_NN
+test_VB set_VB iteration_NN count_NN
+test_VB get_VB salt_NN
+test_VB set_VB salt_NN
+test_VB get_VB key_NN store_NN type_NN
+test_VB set_VB key_NN store_NN type_NN
+test_VB get_VB key_NN store_NN u_JJ r_NN l_NN
+test_VB set_VB key_NN store_NN u_JJ r_NN l_NN
+test_VB get_VB key_NN store_NN pass_NN
+test_VB set_VB key_NN store_NN pass_NN
+test_VB get_VB trust_NN store_NN type_NN
+test_VB set_VB trust_NN store_NN type_NN
+test_VB get_VB trust_NN store_NN pass_NN
+test_VB set_VB trust_NN store_NN pass_NN
+test_VB get_VB trust_NN store_NN u_JJ r_NN l_NN
+test_VB set_VB trust_NN store_NN u_JJ r_NN l_NN
+test_VB is_VBZ deep_JJ copy_NN subject_NN mode_NN
+test_VB set_VB deep_JJ copy_NN subject_NN mode_NN
+test_VB get_VB external_JJ password_NN cache_NN instance_NN
+test_VB load_VB password_NN
+service_NN name_NN
+set_VB bravo_NN
+migrate_VB test_NN
+initialize_VB extra_JJ subystems_NNS and_CC model_NN
+get_VB running_JJ mode_NN
+get_VB process_NN type_NN
+get_VB keystore_NN path_NN
+create_VB and_CC fill_VB keystore_NN
+test_VB vault_NN tool_NN
+test_VB vault_NN fallback_NN
+do_VB test_VB vault_NN tool_NN
+generate_VB vault_NN options_NNS map_NN
+get_VB stored_VBN attribute_NN shared_VBN key_NN
+generate_VB args_NNS
+check_VB permission_NN
+check_VB exit_NN
+clean_VB directory_NN
+get_VB artifact_NN class_NN
+pong_NN
+register_VB transformers_NNS egistertransformers1__FW egistertransformers1_3__FW 0_CD
+get_VB resource_NN value_NN
+create_VB s_JJ s_VB o_RP
+find_VB s_JJ s_VB o_RP
+get_VB batcher_NN
+create_VB marshalled_VBN value_NN
+deploy_VB v_FW 3_CD 0_CD
+deploy_VB v_FW ployv3_FW eployv30_FW metadata_NN complete_JJ
+deploy_VB v_FW 2_CD 4_CD
+test_VB filter_NN present_JJ 2_CD 4_CD
+test_VB filter_NN present_JJ 3_CD 0_CD
+test_VB filter_NN present_JJ stfilterpresent3_FW estfilterpresent30_FW metadata_NN complete_JJ
+start_VB and_CC setup_NN container_NN
+test_VB database_NN cert_NN login_NN module_NN
+stop_VB container_NN
+get_VB data_NNS source_NN configurations_NNS
+execute_VB update_NN
+get_VB result_NN list_NN
+get_VB single_JJ result_NN
+set_VB max_JJ results_NNS
+get_VB max_JJ results_NNS
+set_VB first_JJ result_NN
+get_VB first_JJ result_NN
+set_VB hint_NN
+get_VB hints_NNS
+set_VB parameter_NN
+get_VB parameter_NN
+is_VBZ bound_JJ
+get_VB parameter_NN value_NN
+set_VB flush_NN mode_NN
+get_VB flush_NN mode_NN
+set_VB lock_NN mode_NN
+get_VB extended_JJ persistence_NN inheritance_NN type_NN
+set_VB extended_JJ persistence_NN inheritance_NN type_NN
+test_VB web_NN inf_NN lib_NN not_RB accessible_JJ
+test_VB lib_NN accessible_JJ
+test_VB configuration_NN
+get_VB a_FW o_FW properties_NNS
+get_VB c_NN f_NN properties_NNS
+deployment_NN s_FW p_FW 2_CD
+test_VB redirect_NN s_FW p_FW
+test_VB auto_JJ redirect_NN s_FW p_FW
+test_VB post_NN s_FW p_FW
+test_VB unauthorized_JJ access_NN
+path_NN element_NN
+get_VB path_NN element_NN
+get_VB description_NN provider_NN
+register_VB notifications_NNS
+get_VB access_NN constraints_NNS
+is_VBZ runtime_NN
+is_VBZ ordered_JJ child_NN
+get_VB min_JJ threads_NNS
+get_VB max_JJ threads_NNS
+get_VB queue_NN length_NN
+get_VB keep_VB alive_JJ time_NN
+intercept_VB
+dump_VB jndi_NNP
+dump_VB tree_NN entry_NN
+test_VB natural_JJ idload_NNP
+push_VB call_NN
+pop_VB call_NN
+create_VB field_NN test_NN deployment_NN
+test_VB static_JJ injection_NN
+get_VB identification_NN label_NN
+test_VB both_DT persistence_NN unit_NN definitions_NNS
+test_VB persistence_NN contexts_NN annotation_NN
+test_VB persistence_NN units_NNS annotation_NN
+get_VB transaction_NN
+get_VB foo_NN
+test_VB post_NN construct_NN method_NN order_NN
+process_VB hornet_NN q_FW servers_NNS
+process_VB hornet_NN q_FW server_NN
+handle_VB complex_JJ configuration_NN attribute_NN
+handle_VB unknown_JJ configuration_NN attribute_NN
+process_VB connector_NN services_NNS
+process_VB connector_NN service_NN
+process_VB cluster_NN connections_NNS
+process_VB cluster_NN connection_NN
+handle_VB unknown_JJ cluster_NN connection_NN attribute_NN
+check_VB cluster_NN connection_NN constraints_NNS
+check_VB broadcast_NN group_NN constraints_NNS
+process_VB bridges_NNS
+process_VB bridge_NN
+process_VB static_JJ connectors_NNS
+process_VB grouping_VBG handler_NN
+handle_VB unknown_JJ grouping_VBG handler_NN attribute_NN
+process_VB remoting_VBG interceptors_NNS
+process_VB broadcast_NN groups_NNS
+parse_VB broadcast_NN group_NN
+handle_VB unknown_JJ broadcast_NN group_NN attribute_NN
+process_VB discovery_NN groups_NNS
+parse_VB discovery_NN group_NN
+handle_VB unknown_JJ discovery_NN group_NN attribute_NN
+check_VB discovery_NN group_NN constraints_NNS
+process_VB connection_NN factories_NNS
+process_VB jms_NNP destinations_NNS
+process_VB acceptors_NNS
+parse_VB queues_NNS
+parse_VB queue_NN
+process_VB security_NN settings_NNS
+parse_VB security_NN roles_NNS
+parse_VB roles_NNS attribute_NN
+process_VB connectors_NNS
+process_VB address_NN settings_NNS
+parse_VB address_NN settings_NNS
+parse_VB transport_NN configuration_NN
+parse_VB directory_NN
+parse_VB diverts_VBZ
+parse_VB divert_VB
+unhandled_JJ element_NN
+handle_VB element_NN text_NN
+skip_VB element_NN text_NN
+process_VB j_NN m_NN s_NN topic_NN
+process_VB j_NN m_NN s_NN queue_NN
+process_VB connection_NN factory_NN
+process_VB pooled_JJ connection_NN factory_NN
+process_VB jms_NNP connectors_NNS
+create_VB connection_NN factory_NN
+handle_VB unknown_JJ connection_NN factory_NN attribute_NN
+check_VB other_JJ element_NN is_VBZ not_RB already_RB defined_VBN
+check_VB only_RB one_CD of_IN elements_NNS
+run_VB as_IN deployment_NN
+test_VB roles_NNS allowed_VBN overriden__VBN no_DT user_NN
+test_VB roles_NNS allowed_VBN overriden__VBN user_NN 1_CD
+test_VB roles_NNS allowed_VBN overriden_VBN in_IN base_NN class__NN admin_NN
+test_VB roles_NNS allowed_VBN overriden_VBN in_IN base_NN class__NN h_FW r_FW
+test_VB roles_NNS allowed_VBN overriden__VBN user_NN 2_CD
+test_VB permit_VB all_DT override__VB no_DT user_NN
+test_VB permit_VB all_DT override__VB user_NN 1_CD
+test_VB deny_VB all_DT override__VB no_DT user_NN
+test_VB deny_VB all_DT override__VB user_NN 1_CD
+test_VB permit_VB all_DT method_NN with_IN array_NN params_NNS
+manage_VB transaction_NN
+convert_VB attribute_NN
+get_VB base_NN statistics_NNS
+get_VB dynamic_JJ children_NNS names_NNS
+after_IN delivery_NN
+before_IN delivery_NN
+do_VB equals_VBZ
+do_VB invoke_VB
+get_VB application_NN class_NN loader_NN
+get_VB transaction_NN manager_NN
+test_VB direct_JJ lookup_NN
+test_VB annotation_NN injection_NN
+lookup_NN ejb_NNP
+process_VB invocation_NN
+process_VB message_NN
+get_VB weak_JJ affinity_NN
+find_VB method_NN
+write_VB method_NN invocation_NN response_NN
+wrap_VB message_NN output_NN stream_NN
+write_VB async_JJ method_NN notification_NN
+switch_VB class_NN loader_NN
+get_VB class_NN loader_NN
+is_VBZ x_NN t_NN s_NN annotation_NN deployment_NN
+execute_VB read_NN attribute_NN
+preferred_VBD
+get_VB default_JJ access_NN timeout_NN
+set_VB default_JJ access_NN timeout_NN
+create_VB s_JJ s_VB o_RP manager_NN
+get_VB timed_JJ object_NN id_NN
+get_VB initial_JJ date_NN
+get_VB info_NN
+get_VB next_JJ date_NN
+get_VB previous_JJ run_NN
+get_VB timer_NN state_NN
+is_VBZ calendar_NN timer_NN
+query_VB object_NN names_NNS
+add_VB matching_JJ object_NN name_NN
+create_VB object_NN name_NN
+get_VB m_FW bean_NN info_NN
+find_VB handler_NN
+get_VB attribute_NN infos_NN
+add_VB scale_VB down_RP configuration_NN
+ask_VB
+add_VB conditions_NNS to_TO
+is_VBZ if_CC not_RB exists_VBZ
+search_VB
+query_VB index_NN
+make_VB index_NN filter_NN
+make_VB index_NN bound_NN
+make_VB index_NN clustering_VBG
+query_VB data_NNS from_IN index_NN
+is_VBZ ready_JJ to_TO die_VB at_IN
+shutdown_NN blocking_NN
+get_VB age_NN
+contains_VBZ key_NN
+key_NN set_NN
+get_VB functions_NNS
+get_VB columns_NNS
+applies_VBZ to_TO static_JJ columns_NNS
+applies_VBZ to_TO regular_JJ columns_NNS
+is_VBZ if_CC exists_VBZ
+do_VB verb_NN
+execute_VB impl_NN
+codec_NNP for_IN
+java_NN types_NNS
+driver_NN types_NNS
+driver_NN type_NN
+as_IN java_NN class_NN
+is_VBZ null_JJ or_CC empty_JJ
+do_VB commit_VBP
+do_VB abort_VBP
+do_VB pre_IN cleanup_NN
+do_VB post_IN cleanup_NN
+do_VB prepare_VBP
+abort_VB
+prepare_VB to_TO commit_VBP
+finish_VB
+state_NN
+permit_VB redundant_JJ transitions_NNS
+is_VBZ aggregate_JJ
+add_VB input_NN
+marked_VBN for_IN delete_VB at_IN
+local_JJ deletion_NN time_NN
+is_VBZ live_JJ
+digest_VB
+supersedes_VBZ
+deletes_VBZ
+unshared_JJ heap_NN size_NN
+serialized_VBN size_NN
+do_VB sort_NN
+clean_VB dir_NN
+test_VB random_JJ size_NN
+test_VB fixed_JJ size_NN
+test_VB discarded_JJ run_VB
+test_VB all_JJ log_NN configs_NNS
+test_VB log_NN
+verify_VB sizes_NNS
+start_VB threads_NNS
+mb_FW
+random_JJ bytes_NNS
+replay_VB mutation_NN
+close_VB session_NN
+prepared_VBN statement_NN
+can_MD retry_VB driver_NN connection_NN
+get_VB partition_NN key_NN
+append_VB key_NN where_WRB clauses_NNS
+quote_VB
+get_VB range_NN
+get_VB endpoints_NNS
+finished_VBN
+set_VB open_JJ result_NN
+get_VB filename_NN
+get_VB file_NN pointer_NN
+get_VB cf_FW id_NN
+abort_VB or_CC die_VB
+is_VBZ on_IN token_NN
+is_VBZ slice_NN
+is_VBZ eq_JJ
+is_VBZ in_JJ
+is_VBZ contains_VBZ
+is_VBZ not_RB null_JJ
+is_VBZ multi_JJ column_NN
+get_VB first_JJ column_NN
+get_VB last_JJ column_NN
+get_VB column_NN defs_NNS
+has_VBZ bound_NN
+is_VBZ inclusive_JJ
+merge_VB with_IN
+has_VBZ supporting_VBG index_NN
+add_VB row_NN filter_NN to_TO
+append_VB to_TO
+append_VB bound_NN to_TO
+test_VB invalid_JJ protocol_NN version_NN
+test_VB invalid_JJ direction_NN
+test_VB body_NN length_NN over_IN limit_NN
+cs_FW metadata_NNS endpoint_NN
+cs_FW query_NN metadata_NNS
+test_VB racks_NNS
+test_VB new_JJ regions_NNS
+run_VB corruption_NN test_NN
+dump_VB keys_NNS
+index_VB entry_NN clustering_VBG prefix_NN serializer_NN
+warmup_VB
+run_VB multi_JJ
+has_VBZ average_JJ improvement_NN
+average_JJ improvement_NN
+check_VB access_NN
+announce_VB migration_NN
+write_VB boolean_NN
+write_VB byte_NN
+write_VB bytes_NNS
+write_VB char_NN
+write_VB chars_NNS
+write_VB double_NN
+write_VB float_NN
+write_VB int_NN
+write_VB long_NN
+write_VB short_NN
+write_VB utf_NNP
+apply_VB to_TO channel_NN
+for_IN internal_JJ calls_NNS
+for_IN external_JJ calls_NNS
+get_VB cql_NNP query_NN handler_NN
+get_VB remote_JJ address_NN
+get_VB raw_JJ keyspace_NN
+get_VB keyspace_NN
+set_VB keyspace_NN
+login_VB
+has_VBZ all_DT keyspaces_NNS access_NN
+has_VBZ keyspace_NN access_NN
+has_VBZ column_NN family_NN access_NN
+has_VBZ access_NN
+ensure_VB has_VBZ permission_NN
+check_VB permission_NN on_IN resource_NN chain_NN
+prevent_VB system_NN ks_FW schema_NN modification_NN
+validate_VB login_NN
+ensure_VB not_RB anonymous_JJ
+ensure_VB is_VBZ super_JJ
+validate_VB keyspace_NN
+get_VB cql_NNP supported_VBD version_NN
+authorize_VB
+define_VB schema_NN
+test_VB replay_NN
+test_VB legacy_NN replay_NN
+test_VB truncated_JJ replay_NN
+test_VB add_VB batch_NN
+test_VB remove_VB batch_NN
+test_VB replay_VB with_IN no_DT peers_NNS
+get_VB write_VB directory_NN
+get_VB directories_NNS
+default_JJ identity_NN distribution_NN
+new_JJ index_NN instance_NN
+get_VB indexed_VBN value_NN type_NN
+add_VB index_NN clustering_VBG columns_NNS
+get_VB compaction_NN info_NN
+test_VB compaction_NN hook_NN
+populate_VB
+from_IN json_NNP object_NN
+to_TO json_NNP string_NN
+as_IN cql_NNP scql3_FW type_NN
+get_VB serializer_NN
+test_VB wrapped_JJ data_NNS output_NN stream_NN plus_NN
+test_VB wrapped_JJ data_NNS output_NN channel_NN and_CC channel_NN
+test_VB buffered_JJ data_NNS output_NN stream_NN plus_NN and_CC channel_NN
+test_VB data_NNS output_NN buffer_NN
+test_VB data_NNS output_NN buffer_NN zero_CD reallocate_VB
+test_VB data_NNS output_NN direct_JJ byte_NN buffer_NN
+test_VB data_NNS output_NN heap_NN byte_NN buffer_NN
+public_JJ flush_VB
+super_JJ reallocate_VB
+reallocate_VB
+test_VB data_NNS output_NN buffer_NN max_JJ size_NN fake_JJ
+test_VB data_NNS output_NN buffer_NN max_JJ size_NN
+test_VB data_NNS output_NN buffer_NN big_JJ reallocation_NN
+saturated_VBN array_JJ size_NN cast_NN callable_JJ
+checked_VBN array_NN size_NN cast_NN callable_JJ
+validate_VB reallocation_NN callable_JJ
+check_VB throws_VBZ iae_FW
+check_VB throws_VBZ runtime_NN exception_NN
+check_VB throws_VBZ exception_NN
+test_VB safe_JJ memory_NN writer_NN
+test_VB wrapped_JJ file_NN output_NN stream_NN
+test_VB file_NN output_NN stream_NN
+test_VB random_JJ access_NN file_NN
+test_VB sequential_JJ writer_NN
+test_VB write_VB
+test_VB read_VB
+open_JJ connection_NN
+executor_NN
+execute_VB user_NN defined_VBN
+count_VB all_DT batches_NNS
+get_VB total_JJ batches_NNS replayed_VBN
+force_VB batchlog_NN replay_VB
+inspect_VB throwable_JJ
+inspect_VB commit_VB log_NN throwable_JJ
+kill_VB current_JJ jvm_NNP
+user_NN function_NN timeout_NN
+replace_VB killer_NN
+test_VB parse_NN options_NNS
+test_VB incremental_JJ repair_NN with_IN subranges_NNS is_VBZ not_RB global_JJ
+authenticate_VB
+validate_VB configuration_NN
+allocate_VB
+create_VB buffer_NN
+internal_JJ close_NN
+on_IN disk_NN size_NN
+get_VB jmx_NNP metric_NN
+get_VB jmx_NNP thread_NN pools_NNS
+refresh_VB endpoint_NN map_NN
+index_VB on_IN regular_JJ column_NN
+index_VB on_IN first_JJ clustering_VBG column_NN
+index_VB on_IN second_JJ clustering_VBG column_NN
+index_VB on_IN first_JJ partition_NN key_NN column_NN
+index_VB on_IN second_JJ partition_NN key_NN column_NN
+index_VB on_IN non_JJ frozen_JJ list_NN with_IN replace_VB operation_NN
+index_VB on_IN non_JJ frozen_JJ list_NN with_IN in_IN place_NN operation_NN
+index_VB on_IN non_JJ frozen_JJ set_NN with_IN replace_VB operation_NN
+index_VB on_IN non_JJ frozen_JJ set_NN with_IN in_IN place_NN operation_NN
+index_VB on_IN non_JJ frozen_JJ map_NN values_NNS with_IN replace_VB operation_NN
+index_VB on_IN non_JJ frozen_JJ map_NN values_NNS with_IN in_IN place_NN operation_NN
+index_VB on_IN non_JJ frozen_JJ map_NN keys_NNS with_IN replace_VB operation_NN
+index_VB on_IN non_JJ frozen_JJ map_NN keys_NNS with_IN in_IN place_NN operation_NN
+index_VB on_IN non_JJ frozen_JJ map_NN entries_NNS with_IN replace_VB operation_NN
+index_VB on_IN non_JJ frozen_JJ map_NN entries_NNS with_IN in_IN place_NN operation_NN
+index_VB on_IN frozen_JJ list_NN
+index_VB on_IN frozen_JJ set_NN
+index_VB on_IN frozen_JJ map_NN
+index_VB on_IN regular_JJ column_NN with_IN compact_JJ storage_NN
+create_VB indexes_NNS on_IN multiple_JJ map_NN dimensions_NNS
+insert_VB with_IN tombstone_NN removes_VBZ entry_NN from_IN index_NN
+update_VB ttl_NNP on_IN indexed_VBN clustering_VBG value_NN
+index_VB batch_NN statements_NNS
+index_VB statements_NNS with_IN conditions_NNS
+index_VB correctly_RB marked_VBN as_IN build_VB and_CC removed_VBN
+assert_VB index_NN row_NN ttl_NNP
+table_VB definition_NN
+with_IN first_JJ row_NN
+with_IN second_JJ row_NN
+first_JJ query_NN expression_NN
+second_JJ query_NN expression_NN
+update_VB expression_NN
+post_VB update_NN query_NN expression_NN
+missing_VBG index_NN message_NN
+assert_VB primary_JJ key_NN columns_NNS only_RB
+get_VB insert_NN cql_NNP
+get_VB update_NN cql_NNP
+get_VB delete_NN row_NN cql_NNP
+get_VB delete_NN partition_NN cql_NNP
+get_VB primary_JJ key_NN columns_NNS
+get_VB primary_JJ key_NN values_NNS
+get_VB partition_NN key_NN values_NNS
+copy_VB values_NNS from_IN row_NN
+includes_VBZ update_NN
+wait_VB for_IN index_NN build_NN
+test_VB slice_NN predicate_NN
+test_VB abort_VB txn_FW with_IN open_JJ early_JJ should_MD remove_VB ss_FW table_NN
+test_VB abort_VB txn_FW with_IN closed_VBN writer_NN should_MD remove_VB ss_FW table_NN
+test_VB abort_VB txn_FW with_IN closed_VBN and_CC open_VB writer_NN should_MD remove_VB all_JJ ss_FW tables_NNS
+is_VBZ empty_JJ value_NN meaningless_JJ
+compare_VB custom_NN
+compare_VB longs_NNS
+is_VBZ value_NN compatible_JJ with_IN internal_NN
+value_VB length_NN if_IN fixed_JJ
+compare_VB for_IN cql_NNP
+is_VBZ compatible_JJ with_IN
+is_VBZ value_NN compatible_JJ with_IN
+references_NNS
+is_VBZ reversed_VBN
+get_VB row_NN cache_NN save_VB period_NN in_IN seconds_NNS
+set_VB row_NN cache_NN save_VB period_NN in_IN seconds_NNS
+get_VB key_NN cache_NN save_VB period_NN in_IN seconds_NNS
+set_VB key_NN cache_NN save_VB period_NN in_IN seconds_NNS
+get_VB counter_NN cache_NN save_VB period_NN in_IN seconds_NNS
+set_VB counter_NN cache_NN save_VB period_NN in_IN seconds_NNS
+get_VB row_NN cache_NN keys_NNS to_TO save_VBP
+set_VB row_NN cache_NN keys_NNS to_TO save_VBP
+get_VB key_NN cache_NN keys_NNS to_TO save_VBP
+set_VB key_NN cache_NN keys_NNS to_TO save_VBP
+get_VB counter_NN cache_NN keys_NNS to_TO save_VBP
+set_VB counter_NN cache_NN keys_NNS to_TO save_VBP
+invalidate_VB key_NN cache_NN
+invalidate_VB row_NN cache_NN
+invalidate_VB counter_NN cache_NN
+set_VB row_NN cache_NN capacity_NN in_IN mb_NNP
+set_VB key_NN cache_NN capacity_NN in_IN mb_NNP
+set_VB counter_NN cache_NN capacity_NN in_IN mb_NNP
+save_VB caches_NNS
+success_NN
+get_VB elements_NNS type_VB
+name_NN comparator_NN
+value_NN comparator_NN
+is_VBZ multi_JJ cell_NN
+freeze_VB
+is_VBZ compatible_JJ with_IN frozen_JJ
+is_VBZ value_NN compatible_JJ with_IN frozen_JJ
+serialized_VBN values_NNS
+execution_NN controller_NN
+execute_VB internal_NN
+limits_NNS
+get_VB pager_NN
+get_VB local_JJ pager_NN
+selects_VBZ key_NN
+selects_VBZ clustering_VBG
+with_IN validation_NN
+scrub_VB
+update_VB index_NN key_NN
+index_NN available_JJ
+seek_VB to_TO next_JJ row_NN
+save_VB out_IN of_IN order_NN row_NN
+throw_VB if_IN fatal_JJ
+throw_VB if_IN cannot_JJ continue_VBP
+get_VB scrub_NN info_NN
+scrub_VB with_IN result_NN
+begin_VB
+start_VB partition_NN
+next_JJ cell_NN
+test_VB all_DT compressors_NNS
+test_VB array_NN uncompress_VB
+test_VB empty_JJ array_NN
+test_VB short_JJ array_NN
+test_VB long_JJ array_NN
+test_VB mapped_VBN file_NN
+test_VB l_FW z_FW estlz4_FW byte_NN buffers_NNS
+test_VB deflate_VB byte_NN buffers_NNS
+test_VB snappy_JJ byte_NN buffers_NNS
+test_VB byte_NN buffers_NNS
+make_VB b_FW b_FW
+fill_VB b_FW b_FW with_IN random_NN
+test_VB serialization_NN
+run_VB may_MD throw_VBP
+chain_NN
+from_IN name_NN
+dispatch_VB offset_NN
+is_VBZ host_NN alive_JJ
+is_VBZ paused_VBN
+send_VB hints_NNS and_CC await_VB
+send_VB hints_NNS
+send_VB hint_NN
+send_VB encoded_VBN hint_NN
+response_VB
+is_VBZ latency_NN for_IN snitch_NN
+row_NN iterator_NN
+metadata_NNS
+is_VBZ reverse_JJ order_NN
+partition_NN key_NN
+static_JJ row_NN
+bootstrap_NN
+handle_VB stream_NN event_NN
+on_IN success_NN
+get_VB bootstrap_NN tokens_NNS
+get_VB specified_VBN tokens_NNS
+allocate_VB tokens_NNS
+get_VB random_JJ tokens_NNS
+parse_VB double_NN
+values_NNS as_IN clustering_NN
+bounds_NNS as_IN clustering_NN
+get_VB column_NN names_NNS as_IN string_NN
+do_VB merge_VB with_IN
+to_TO primary_JJ key_JJ restriction_NN
+is_VBZ e_FW q_FW
+bounds_NNS
+selection_NN
+fetched_VBN columns_NNS
+includes_VBZ all_DT columns_NN
+includes_VBZ
+can_MD skip_VBP value_NN
+new_JJ tester_NN
+all_DT columns_NNS builder_NN
+selection_NN builder_NN
+included_VBN by_IN subselection_NN
+add_VB sub_JJ selection_NN
+append_VB column_NN def_NN
+make_VB header_NN byte_NN
+enable_VB compaction_NN
+truncate_VB standard_NN leveled_VBN
+test_VB grouper_NN levels_NNS
+test_VB validation_NN multiple_JJ s_FW s_FW table_NN per_IN level_NN
+wait_VB for_IN leveling_VBG
+test_VB compaction_NN progress_NN
+test_VB mutate_VB level_NN
+test_VB new_JJ repaired_VBN s_FW s_FW table_NN
+get_VB compaction_NN aware_JJ writer_NN
+set_VB user_NN defined_VBN
+set_VB compaction_NN type_NN
+test_VB serialize_VB and_CC load_VB key_JJ cache_NN
+test_VB token_NN function_NN with_IN single_JJ column_NN partition_NN key_NN
+test_VB token_NN function_NN with_IN partition_NN key_NN and_CC clustering_NN key_JJ arguments_NNS
+test_VB token_NN function_NN with_IN multi_JJ column_NN partition_NN key_NN
+test_VB single_JJ column_NN partition_NN key_NN with_IN token_NN non_RB token_NN restrictions_NNS mix_NN
+test_VB multi_JJ column_NN partition_NN key_NN with_IN token_NN non_RB token_NN restrictions_NNS mix_NN
+test_VB multi_JJ column_NN partition_NN key_NN with_IN index_NN and_CC token_NN non_RB token_NN restrictions_NNS mix_NN
+test_VB token_NN function_NN with_IN compound_JJ partition_NN and_CC clustering_NN cols_NNS
+test_VB undefined_JJ columns_NNS
+test_VB primary_JJ key_NN only_RB
+test_VB composite_JJ index_NN with_IN p_FW k_FW
+test_VB limit_JJ bug_NN
+test_VB order_NN by_IN multikey_NN
+test_VB index_NN on_IN composite_NN with_IN collections_NNS
+test_VB truncate_VB with_IN caching_VBG
+test_VB range_NN key_NN
+test_VB token_NN function_NN with_IN invalid_JJ column_NN names_NNS
+create_VB reader_NN
+set_VB for_IN slice_NN
+handle_VB pre_IN slice_VB data_NNS
+compute_VB next_NN
+has_VBZ next_JJ internal_NN
+next_JJ internal_NN
+test_VB size_NN metric_NN
+all_DT data_NNS read_VBN
+data_NNS range_NN
+clustering_NN index_NN filter_NN
+is_VBZ names_NNS query_NN
+for_IN sub_NN range_NN
+with_IN updated_JJ limit_NN
+record_VB latency_NN
+query_VB storage_NN
+oldest_JJS unrepaired_JJ tombstone_NN
+check_VB cache_NN filter_NN
+apply_VB to_TO partition_NN
+append_VB c_NN q_NN l_NN where_WRB clause_NN
+post_VB reconciliation_NN processing_NN
+serialize_VB selection_NN
+selection_NN serialized_VBN size_NN
+meter_NN
+timer_NN
+register_VB m_NN bean_NN
+register_VB alias_NN
+remove_VB alias_NN
+object_NN name_NN
+get_VB min_NN
+get_VB max_NN
+get_VB mean_NN
+get_VB std_JJ dev_NN
+get_VB t5_FW et50th_FW percentile_NN
+get_VB t7_FW et75th_FW percentile_NN
+get_VB t9_FW et95th_FW percentile_NN
+get_VB t9_FW et98th_FW percentile_NN
+get_VB t9_FW et99th_FW percentile_NN
+get_VB 9_CD t99_FW et999th_FW percentile_NN
+get_VB mean_JJ rate_NN
+get_VB one_CD minute_NN rate_NN
+get_VB five_CD minute_NN rate_NN
+get_VB fifteen_CD minute_NN rate_NN
+get_VB rate_NN unit_NN
+calculate_VB rate_NN unit_NN
+get_VB duration_NN unit_NN
+get_VB metric_NN name_NN
+has_VBZ scope_NN
+get_VB m_FW bean_NN name_NN
+create_VB m_NN bean_NN name_NN
+choose_VB group_NN
+choose_VB type_NN
+choose_VB name_NN
+read_VB static_JJ row_NN
+partition_NN level_NN deletion_NN
+create_VB deserializer_NN
+seek_VB to_TO position_NN
+update_VB open_JJ marker_NN
+get_VB and_CC clear_JJ open_JJ marker_NN
+is_VBZ done_VBN
+set_VB to_TO block_NN
+column_NN offset_NN
+blocks_NNS count_NN
+update_VB block_NN
+is_VBZ past_JJ current_JJ block_NN
+current_JJ block_NN idx_NN
+current_JJ index_NN
+find_VB block_NN index_NN
+live_JJ
+expiring_VBG
+tombstone_NN
+is_VBZ counter_NN cell_NN
+is_VBZ tombstone_NN
+is_VBZ expiring_VBG
+ttl_NNP
+with_IN updated_VBN value_NN
+mark_VB counter_NN local_JJ to_TO be_VB cleared_VBN
+purge_VB
+update_VB all_DT timestamp_NN
+unshared_JJ heap_NN size_NN excluding_VBG data_NNS
+get_VB or_CC create_VB writer_NN
+get_VB update_NN for_IN
+write_VB partition_NN
+set_VB initialized_VBN
+open_VB without_IN s_FW s_FW tables_NNS
+open_VB and_CC get_VB store_NN
+remove_VB unreadable_JJ s_FW s_FW tables_NNS
+get_VB column_NN family_NN stores_NNS
+get_VB column_NN family_NN store_NN
+has_VBZ column_NN family_NN store_NN
+get_VB timestamped_VBN snapshot_JJ name_NN
+snapshot_NN exists_VBZ
+clear_JJ snapshot_NN
+get_VB all_DT s_FW s_FW tables_NNS
+mock_JJ k_FW s_FW
+create_VB replication_NN strategy_NN
+drop_VB cf_NNP
+unload_VB cf_NNP
+init_VB cf_NNP
+apply_VB from_IN commit_VB log_NN
+get_VB replication_NN strategy_NN
+index_NN partition_NN
+get_VB valid_JJ column_NN families_NNS
+get_VB index_NN column_NN family_NN stores_NNS
+non_RB system_NN
+system_NN
+find_VB by_IN thrift_NN id_NN
+find_VB by_IN thrift_NN id_NN or_CC throw_VB
+find_VB by_IN name_NN
+get_VB thrift_NN field_NN id_NN
+get_VB field_NN name_NN
+unset_JJ host_NN
+is_VBZ set_VBN host_NN
+set_VB host_NN is_VBZ set_VBN
+get_VB datacenter_NN
+set_VB datacenter_NN
+unset_JJ datacenter_NN
+is_VBZ set_VBN datacenter_NN
+set_VBN datacenter_NN is_VBZ set_VBN
+set_VB rack_NN
+unset_JJ rack_NN
+is_VBZ set_VBN rack_NN
+set_VBN rack_NN is_VBZ set_VBN
+set_VB field_NN value_NN
+get_VB field_NN value_NN
+is_VBZ set_VBN
+field_NN for_IN id_NN
+serialize_VB event_NN
+event_NN serialized_VBN size_NN
+node_NN address_NN
+new_JJ node_NN
+removed_VBN node_NN
+moved_VBN node_NNS
+deserialize_VB event_NN
+node_NN up_RP
+node_NN down_RP
+partition_NN count_NN
+row_NN count_NN
+thrift_NN args_NNS
+rejected_VBN execution_NN
+create_VB cached_VBN threadpool_NN with_IN max_JJ size_NN
+create_VB with_IN fixed_JJ pool_NN size_NN
+create_VB with_IN maximum_JJ pool_NN size_NN
+on_IN initial_JJ rejection_NN
+on_IN final_JJ accept_NN
+on_IN final_JJ rejection_NN
+maybe_RB execute_VB immediately_RB
+new_JJ task_NN for_IN
+maybe_RB reset_VB trace_NN session_NN wrapper_NN
+set_VB pool_NN size_NN
+set_VB queue_NN capacity_NN
+set_VB rejected_JJ execution_NN handler_NN
+set_VB keep_VB alive_JJ seconds_NNS
+set_VB bean_NN name_NN
+determine_VB pool_NN size_NN range_NN
+get_VB object_NN
+get_VB object_NN type_NN
+is_VBZ singleton_NN
+get_VB current_JJ transaction_NN context_NN
+set_VB current_JJ transaction_NN context_NN
+remove_VB current_JJ transaction_NN context_NN
+get_VB factory_NN method_NN metadata_NN
+props_NNS
+map_VB with_IN all_DT string_NN values_NNS
+map_NN with_IN non_RB string_NN value_NN
+custom_NN map_VB with_IN non_RB string_NN value_NN
+resolve_VB locale_VB
+test_VB is_VBZ dynamic_JJ proxy_NN when_WRB interface_NN specified_VBN
+test_VB is_VBZ dynamic_JJ proxy_NN when_WRB interface_NN specified_VBN for_IN prototype_NN
+test_VB is_VBZ dynamic_JJ proxy_NN when_WRB autodetecting_VBG interfaces_NNS
+test_VB is_VBZ dynamic_JJ proxy_NN when_WRB autodetecting_VBG interfaces_NNS for_IN prototype_NN
+test_VB double_JJ target_NN sources_NNS are_VBP rejected_VBN
+test_VB double_JJ target_NN source_NN is_VBZ rejected_VBN
+test_VB target_NN source_NN not_RB at_IN end_NN of_IN interceptor_NN names_NNS is_VBZ rejected_VBN
+test_VB get_VB object_NN type_NN with_IN direct_JJ target_NN
+test_VB get_VB object_NN type_NN with_IN target_NN via_IN target_NN source_NN
+test_VB get_VB object_NN type_NN with_IN no_DT target_NN or_CC target_NN source_NN
+test_VB singleton_NN instances_NNS are_VBP equal_JJ
+test_VB prototype_NN instances_NNS are_VBP not_RB equal_JJ
+test_VB prototype_NN instances_NNS are_VBP independent_JJ
+test_VB cglib_NN prototype_NN instance_NN
+test_VB auto_JJ invoker_NN
+test_VB can_MD get_VB factory_JJ reference_NN and_CC manipulate_NN
+test_VB target_NN as_IN inner_JJ bean_NN
+test_VB can_MD add_VB and_CC remove_VB aspect_NN interfaces_NNS on_IN prototype_NN
+test_VB can_MD add_VB and_CC remove_VB advices_NNS on_IN singleton_NN
+test_VB method_NN pointcuts_NNS
+test_VB can_VB add_VBP throws_VBZ advice_NN without_IN advisor_NN
+test_VB empty_JJ interceptor_NN names_NNS
+test_VB globals_NNS without_IN target_NN
+test_VB globals_NNS can_VB add_VB aspect_NN interfaces_NNS
+test_VB serializable_JJ singleton_NN proxy_NN
+test_VB serializable_JJ prototype_NN proxy_NN
+test_VB serializable_JJ singleton_NN proxy_NN factory_NN bean_NN
+test_VB proxy_NN not_RB serializable_JJ because_IN of_IN advice_NN
+test_VB prototype_NN advisor_NN
+test_VB prototype_NN interceptor_NN singleton_NN target_NN
+test_VB inner_JJ bean_NN target_NN using_VBG autowiring_VBG
+test_VB frozen_JJ factory_NN bean_NN
+test_VB detects_NNS interfaces_NNS
+globals_NNS added_VBN
+implements_NNS interface_NN
+get_VB class_NN filter_NN
+get_VB advice_NN
+is_VBZ per_IN instance_NN
+validate_VB interfaces_NNS
+get_VB decorated_VBN navigation_NN handler_NN
+handle_VB navigation_NN
+call_VB next_JJ handler_NN in_IN chain_NN
+can_MD convert_VB
+convert_VB value_NN
+set_VB group_NN
+set_VB job_NN class_NN
+set_VB job_NN data_NNS map_NN
+get_VB job_NN data_NNS map_NN
+set_VB job_NN data_NNS as_IN map_NN
+set_VB durability_NN
+set_VB requests_NNS recovery_NN
+set_VB application_NN context_NN
+set_VB application_NN context_NN job_NN data_NNS key_NN
+lifecycle_NN bean_NN
+before_IN all_DT tests_NNS
+after_IN test_NN suite_NN
+get_VB sql_NNP exception_NN
+get_VB sql_NNP
+set_VB as_IN text_NN
+get_VB as_IN text_NN
+multipart_NN request_NN
+multipart_NN request_NN wrapped_VBN
+process_VB multipart_NN
+do_VBP filter_NN internal_JJ
+copy_VB to_TO byte_NN array_NN
+copy_VB to_TO string_NN
+empty_JJ input_NN
+non_RB closing_VBG
+test_VB byte_NN array_NN resource_NN
+test_VB byte_NN array_NN resource_NN with_IN description_NN
+test_VB input_NN stream_NN resource_NN
+test_VB input_NN stream_NN resource_NN with_IN description_NN
+test_VB class_NN path_NN resource_NN
+test_VB class_NN path_NN resource_NN with_IN class_NN loader_NN
+test_VB class_NN path_NN resource_NN with_IN class_NN
+test_VB file_NN system_NN resource_NN
+test_VB url_NN resource_NN
+do_VB test_VB resource_NN
+test_VB class_NN path_NN resource_NN with_IN relative_JJ path_NN
+test_VB file_NN system_NN resource_NN with_IN relative_JJ path_NN
+test_VB url_NNP resource_NN with_IN relative_JJ path_NN
+test_VB non_NN file_NN resource_NN exists_VBZ
+test_VB abstract_JJ resource_NN exceptions_NNS
+test_VB content_NN length_NN
+test_VB content_NN length_NN with_IN null_JJ input_NN stream_NN
+convert_VB typed_VBN value_NN
+to_TO int_NN
+to_TO boolean_NN
+to_TO double_NN
+to_TO long_NN
+to_TO char_NN
+to_TO short_NN
+to_TO float_NN
+to_TO byte_NN
+set_VB job_NN detail_NN
+set_VB start_NN delay_NN
+set_VB cron_NN expression_NN
+set_VB time_NN zone_NN
+set_VB calendar_NN name_NN
+set_VB misfire_NN instruction_NN
+set_VB misfire_NN instruction_NN name_NN
+set_VB label_NN
+get_VB label_NN
+write_VB tag_NN content_NN
+write_VB tag_NN details_NNS
+set_VB detect_NN handlers_NNS in_IN ancestor_NN contexts_NNS
+init_VB application_NN context_NN
+detect_VB handlers_NNS
+determine_VB urls_NNPS for_IN handler_NN
+mock_VB multipart_JJ http_NNP servlet_NN request_NN with_IN byte_NN array_NN
+mock_VB multipart_JJ http_NNP servlet_NN request_NN with_IN input_NN stream_NN
+do_VB test_VB multipart_JJ http_NN servlet_NN request_NN
+bean_VB definition_NN equality_NN
+bean_VB definition_NN equality_NN with_IN property_NN values_NNS
+bean_VB definition_NN equality_NN with_IN constructor_NN arguments_NNS
+bean_VB definition_NN equality_NN with_IN typed_VBN constructor_NN arguments_NNS
+bean_VB definition_NN holder_NN equality_NN
+bean_VB definition_NN merging_NN
+get_VB aspect_NN instance_NN
+get_VB aspect_NN class_NN loader_NN
+verify_VB ear_NN config_NN
+verify_VB root_NN wac_NNP config_NN
+verify_VB dispatcher_NN wac_NN config_NN
+test_NN a_NN
+test_NN b_NN
+before_IN transaction_NN
+method_NN level_NN scripts_NNS
+after_IN transaction_NN
+assert_VB num_NN users_NNS
+create_VB container_NN factory_NN
+parse_VB common_JJ container_NN properties_NNS
+parse_VB specific_JJ container_NN properties_NNS
+create_VB request_NN factory_NN
+find_VB template_NN source_NN
+get_VB reader_NN
+close_VB template_NN source_NN
+add_VB template_NN
+get_VB template_NN
+with_IN application_NN context_NN
+with_IN application_NN context_NN and_CC lazy_JJ resolution_NN
+do_VB test_VB with_IN application_NN context_NN
+do_VB test_VB parameters_NNS
+do_VB test_VB files_NNS
+do_VB test_VB binding_NN
+with_IN servlet_NN context_NN and_CC filter_NN
+with_IN servlet_NN context_NN and_CC filter_NN with_IN custom_JJ bean_NN name_NN
+set_VB empty_NN
+new_VB file_NN upload_VB
+parse_VB request_NN
+is_VBZ in_IN memory_NN
+set_VB field_NN name_NN
+is_VBZ form_VB field_NN
+set_VB form_VB field_NN
+get_VB headers_NNS
+set_VB headers_NNS
+set_VB field_NN 1_CD
+get_VB field_NN 1_CD
+set_VB field_NN 2_CD
+get_VB field_NN 2_CD
+get_VB street_NN
+set_VB street_NN
+get_VB cross_JJ streets_NNS
+set_VB cross_JJ streets_NNS
+verify_VB closed_VBN
+verify_VB results_NNS
+static_JJ query_NN with_IN row_NN mapper_NN
+prepared_VBN statement_NN creator_NN with_IN row_NN mapper_NN
+prepared_VBN statement_NN setter_NN with_IN row_NN mapper_NN
+query_VB with_IN args_NNS and_CC row_NN mapper_NN
+query_VB with_IN args_NNS and_CC types_NNS and_CC row_NN mapper_NN
+minimal_JJ
+interceptors_NNS
+empty_JJ allowed_VBN origin_NN
+interceptors_NNS with_IN allowed_VBN origins_NNS
+interceptors_NNS passed_VBN to_TO sock_NN js_NNP registration_NN
+handshake_NN handler_NN
+handshake_NN handler_NN passed_VBN to_TO sock_NN js_NN registration_NN
+create_VB mappings_NNS
+add_VB sock_NN js_NNP service_NN mapping_NN
+add_VB web_NN socket_NN handler_NN mapping_NN
+on_IN set_VB up_RP
+create_VB tag_NN writer_NN
+create_VB test_NN bean_NN
+with_IN explicit_JJ non_RB whitespace_NN body_NN content_NN
+with_IN explicit_JJ whitespace_NN body_NN content_NN
+with_IN explicit_JJ empty_JJ whitespace_NN body_NN content_NN
+with_IN errors_NNS
+with_IN errors_NNS and_CC dynamic_JJ attributes_NNS
+with_IN escaped_JJ errors_NNS
+with_IN non_RB escaped_JJ errors_NNS
+with_IN errors_NNS and_CC custom_JJ element_NN
+without_IN errors_NNS
+without_IN errors_NNS instance_NN
+as_IN body_NN tag_NN
+as_IN body_NN tag_NN with_IN existing_JJ messages_NNS attribute_NN
+as_IN body_NN tag_NN with_IN errors_NNS and_CC existing_JJ messages_NNS attribute_VBP in_IN non_JJ page_NN scope_NN are_VBP not_RB clobbered_VBN
+as_IN body_NN tag_NN with_IN no_DT errors_NNS and_CC existing_JJ messages_NNS attribute_VBP in_IN application_NN scope_NN are_VBP not_RB clobbered_VBN
+as_IN body_NN tag_NN with_IN no_DT errors_NNS and_CC existing_JJ messages_NNS attribute_VBP in_IN session_NN scope_NN are_VBP not_RB clobbered_VBN
+as_IN body_NN tag_NN with_IN no_DT errors_NNS and_CC existing_JJ messages_NNS attribute_VBP in_IN page_NN scope_NN are_VBP not_RB clobbered_VBN
+as_IN body_NN tag_NN with_IN no_DT errors_NNS and_CC existing_JJ messages_NNS attribute_VBP in_IN request_NN scope_NN are_VBP not_RB clobbered_VBN
+omitted_VBN path_NN matches_VBZ object_NN errors_NNS only_RB
+specific_JJ path_NN matches_VBZ specific_JJ field_NN only_RB
+star_NN matches_VBZ all_DT errors_NNS
+expose_VB binding_VBG result_NN
+assert_VB element_NN tag_NN opened_VBN
+assert_VB element_NN tag_NN closed_VBN
+assert_VB when_WRB no_DT errors_NNS existing_VBG messages_NNS in_IN scope_NN are_VBP not_RB clobbered_VBN
+resume_VB
+before_IN commit_VB
+before_IN completion_NN
+after_IN commit_VB
+after_IN completion_NN
+pet_NN
+employee_NN
+get_VB transport_NN type_NN
+handle_VB request_NN internal_JJ
+get_VB frame_JJ format_NN
+pre_RB process_VB content_NN
+get_VB prelude_NN
+set_VB target_NN connection_NN factory_NN
+set_VB username_NN
+set_VB password_NN
+set_VB credentials_NNS for_IN current_JJ thread_NN
+remove_VB credentials_NNS from_IN current_JJ thread_NN
+create_VB connection_NN
+do_VB create_VB connection_NN
+create_VB queue_NNS connection_NN
+do_VB create_VB queue_NN connection_NN
+create_VB topic_NN connection_NN
+do_VB create_VB topic_NN connection_NN
+simple_VB bootstrap_NN
+web_NN socket_NN handlers_NNS
+web_NN socket_NN handlers_NNS attributes_NNS
+sock_NN js_NNP
+sock_NN js_NNP attributes_NNS
+load_NN bean_NN definitions_NNS
+unwrap_VB and_CC check_VB decorated_VBN handler_NN type_NN
+after_IN connection_NN established_VBN
+handle_VB transport_NN error_NN
+after_IN connection_NN closed_VBN
+supports_VBZ partial_JJ messages_NNS
+do_VB handshake_VB
+before_IN handshake_VB
+after_IN handshake_VB
+schedule_NN
+schedule_NN at_IN fixed_JJ rate_NN
+schedule_NN with_IN fixed_JJ delay_NN
+encode_VB
+decode_VB input_NN stream_NN
+get_VB lazy_JJ resolution_NN proxy_NN if_IN necessary_JJ
+build_VB lazy_JJ resolution_NN proxy_NN
+get_VB target_NN
+release_VB target_NN
+setup_VB jms_NNP message_NN container_NN full_JJ config_NN
+setup_VB jca_NNP message_NN container_NN full_JJ config_NN
+setup_VB concurrency_NN simple_JJ container_NN
+setup_VB message_NN container_NN no_DT listener_NN
+setup_VB message_NN container_NN unsupported_JJ container_NN
+get_VB endpoint_NN helper_NN
+handle_VB success_NN
+null_JJ safe_JJ get_VB internal_JJ
+null_JJ safe_JJ set_VB internal_JJ
+set_VB application_NN event_NN publisher_NN
+set_VB load_NN time_NN weaver_NN
+servlet_NN request_NN
+session_NN
+principal_NN
+locale_NN from_IN resolver_NN
+time_NN zone_NN
+time_NN zone_NN from_IN resolver_NN
+zone_NN id_NN
+zone_NN id_NN from_IN resolver_NN
+input_NN stream_NN
+web_NN request_NN
+http_NN method_NN
+supported_VBN params_NNS
+get_VB original_JJ
+property_NN source_NN order_NN
+has_VBZ foo_NNP
+get_VB foo_JJ bytes_NNS
+has_VBZ blah_NN
+get_VB blah_NN
+get_VB blah_NN or_CC builder_NN
+test_VB prototype_NN proxy_NN with_IN prototype_NN target_NN
+test_VB singleton_NN proxy_NN with_IN prototype_NN target_NN
+do_VB something_NN
+test_VB standard_NN
+test_VB scoped_VBN
+test_VB scoped_VBN proxy_NN
+test_VB custom_NN
+test_VB custom_NN with_IN asm_NN
+test_VB custom_NN with_IN attribute_JJ override_VB
+test_VB bean_NN 1_CD
+test_VB bean_NN 2_CD
+test_VB no_DT iterators_NNS
+test_VB single_JJ iterator_NN
+test_VB multiple_JJ iterators_NNS
+test_VB in_IN use_NN
+test_VB duplicate_JJ iterators_NNS
+test_VB set_VB value_NN
+test_VB get_VB value_NN type_NN
+check_VB string_NN
+get_VB target_NN stream_NN
+set_VB base_NN url_NNP
+get_VB base_NN url_NNP
+set_MD parse_VB path_NN
+should_MD parse_VB path_NN
+expand_VB
+init_VB uri_NN components_NNS builder_NN
+insert_VB base_NN url_NNP
+set_VB notification_NN type_NN
+set_VB notification_NN types_NNS
+get_VB notification_NN types_NNS
+test_VB get_VB executor_NN qualifier_NN
+create_VB with_IN null_JJ script_NN source_NN
+with_IN reason_NN
+equals_VBZ code_NN
+check_VB active_JJ
+is_VBZ window_NN state_NN allowed_VBN
+is_VBZ portlet_NN mode_NN allowed_VBN
+set_VB portlet_NN mode_NN
+get_VB portlet_NN mode_NN
+set_VB window_NN state_NN
+get_VB window_NN state_NN
+set_VB preferences_NNS
+get_VB preferences_NNS
+get_VB portlet_NN session_NN
+get_VB portal_NN context_NN
+set_VB auth_NN type_NN
+get_VB auth_NN type_NN
+set_VB context_NN path_NN
+get_VB context_NN path_NN
+set_VB remote_JJ user_NN
+get_VB remote_JJ user_NN
+set_VB user_NN principal_NN
+get_VB user_NN principal_NN
+add_VB user_NN role_NN
+is_VBZ user_NN in_IN role_NN
+get_VB attribute_NN names_NNS
+set_VB parameters_NNS
+get_VB parameter_NN names_NNS
+get_VB parameter_NN values_NNS
+get_VB parameter_NN map_NN
+set_VB secure_NN
+is_VBZ secure_JJ
+get_VB requested_JJ session_NN id_NN
+set_VB requested_JJ session_NN id_NN valid_JJ
+is_VBZ requested_JJ session_NN id_NN valid_JJ
+add_VB response_NN content_NN type_NN
+add_VB preferred_JJ response_NN content_NN type_NN
+get_VB response_NN content_NN type_NN
+get_VB response_NN content_NN types_NNS
+add_VB locale_NN
+add_VB preferred_JJ locale_NN
+get_VB locales_NNS
+set_VB scheme_NN
+set_VB server_NN name_NN
+get_VB server_NN name_NN
+set_VB server_NN port_NN
+get_VB server_NN port_NN
+set_VB window_NN i_NN d_NN
+get_VB window_NN i_NN d_NN
+set_VB cookies_NNS
+get_VB cookies_NNS
+get_VB private_JJ parameter_NN map_NN
+get_VB public_JJ parameter_NN map_NN
+register_VB public_JJ parameter_NN
+resolve_VB theme_NN name_NN
+set_VB theme_NN name_NN
+get_VB bean_NN class_NN name_NN
+init_VB pattern_NN representation_NN
+init_VB excluded_JJ pattern_NN representation_NN
+matches_VBZ exclusion_NN
+compile_VB patterns_NNS
+get_VB managed_JJ resource_NN
+get_VB correct_JJ object_NN name_NN
+is_VBZ before_IN advice_NN
+is_VBZ after_IN advice_NN
+set_VB returning_VBG name_NN
+after_IN returning_VBG
+should_MD invoke_VB on_IN return_JJ value_NN of_IN
+matches_VBZ return_JJ value_NN
+customize_VB property_NN sources_NNS
+init_VB property_NN sources_NNS
+send_VB
+convert_VB and_CC send_VB
+cache_NN aspect_NN
+bean_NN configurer_NN aspect_NN
+should_MD resolve_VB message_NN code_NN
+should_MD resolve_VB field_NN message_NN code_NN
+should_MD resolve_VB indexed_JJ field_NN message_NN code_NN
+should_MD resolve_VB message_NN code_NN with_IN prefix_NN
+should_MD resolve_VB field_NN message_NN code_NN with_IN prefix_NN
+should_MD support_VB null_JJ prefix_NN
+should_MD support_VB malformed_JJ index_NN field_NN
+should_MD support_VB null_JJ field_NN type_NN
+should_MD support_VB postfix_NN format_NN
+should_MD support_VB field_NN postfix_NN format_NN
+should_MD support_VB custom_JJ format_NN
+ear_NN
+test_VB dynamic_JJ mode_NN
+test_VB static_JJ mode_NN
+change_VB cache_NN specification_NN recreate_VB cache_NN
+change_VB cache_NN loader_NN recreate_VB cache_NN
+set_VB cache_NN name_NN null_JJ restore_VB dynamic_JJ mode_NN
+cache_NN loader_NN use_NN loading_VBG cache_NN
+mock_JJ cache_NN loader_NN
+send_VB before_IN handler_NN initialized_VBN
+send_VB duplicate_NN before_IN handler_NN initialized_VBN
+send_VB before_IN handler_NN initialized_VBN with_IN error_NN
+send_VB fails_NNS after_IN complete_VB
+send_VB after_IN handler_NN initialized_VBN
+send_VB after_IN handler_NN initialized_VBN with_IN error_NN
+send_VB with_IN error_NN
+on_IN timeout_NN before_IN handler_NN initialized_VBN
+on_IN timeout_NN after_IN handler_NN initialized_VBN
+on_IN completion_NN before_IN handler_NN initialized_VBN
+on_IN completion_NN after_IN handler_NN initialized_VBN
+view_VB class_NN
+get_VB annotations_NNS
+get_VB repeatable_JJ annotation_NN
+get_VB repeatable_JJ annotations_NNS
+get_VB declared_JJ repeatable_JJ annotations_NNS
+find_VB annotation_NN
+search_VB on_IN interfaces_NNS
+is_VBZ interface_NN with_IN annotated_JJ methods_NNS
+find_VB annotation_NN declaring_VBG class_NN
+find_VB annotation_NN declaring_VBG class_NN for_IN types_NNS
+is_VBZ annotation_NN declared_VBN locally_RB
+is_VBZ annotation_NN inherited_VBN
+is_VBZ annotation_NN meta_NN present_JJ
+is_VBZ in_IN java_NN lang_NN annotation_NN package_NN
+get_VB annotation_NN attributes_NNS
+retrieve_VB annotation_NN attributes_NNS
+adapt_VB value_NN
+post_IN process_VB annotation_NN attributes_NNS
+synthesize_VB annotation_NN
+synthesize_VB annotation_NN array_NN
+get_VB attribute_NN alias_NN map_NN
+can_MD expose_VB synthesized_JJ marker_NN
+is_VBZ synthesizable_JJ
+get_VB attribute_NN alias_NN names_NNS
+get_VB attribute_NN override_NN name_NN
+get_VB attribute_NN methods_NNS
+is_VBZ attribute_NN method_NN
+is_VBZ annotation_NN type_NN method_NN
+rethrow_VB annotation_NN configuration_NN exception_NN
+handle_VB introspection_NN failure_NN
+resolve_VB container_NN annotation_NN type_NN
+validate_VB default_JJ value_NN configuration_NN
+validate_VB against_IN
+is_VBZ override_NN for_IN
+is_VBZ alias_NN for_IN
+get_VB other_JJ descriptors_NNS
+get_VB attribute_NN override_NN descriptor_NN
+get_VB aliased_VBN attribute_NN name_NN
+reset_VB static_JJ fields_NNS
+set_VB field_NN with_IN null_JJ target_NN object_NN
+get_VB field_NN with_IN null_JJ target_NN object_NN
+set_VB field_NN with_IN null_JJ target_NN class_NN
+get_VB field_NN with_IN null_JJ target_NN class_NN
+set_VB field_NN with_IN null_JJ name_NN and_CC null_JJ type_NN
+set_VB field_NN with_IN bogus_JJ name_NN
+set_VB field_NN with_IN wrong_JJ type_NN
+set_VB field_NN and_CC get_VB field_NN for_IN standard_JJ use_NN cases_NNS
+set_VB field_NN with_IN null_JJ values_NNS for_IN non_RB primitives_NNS
+set_VB field_NN with_IN null_JJ value_NN for_IN primitive_JJ long_NN
+set_VB field_NN with_IN null_JJ value_NN for_IN primitive_JJ int_NN
+set_VB field_NN with_IN null_JJ value_NN for_IN primitive_JJ boolean_NN
+set_VB field_NN on_IN legacy_JJ entity_NN with_IN side_JJ effects_NNS in_IN to_TO string_NN
+set_VB static_JJ field_NN via_IN class_NN
+set_VB static_JJ field_NN via_IN class_NN with_IN explicit_JJ type_NN
+set_VB static_JJ field_NN via_IN instance_NN
+get_VB static_JJ field_NN via_IN class_NN
+get_VB static_JJ field_NN via_IN instance_NN
+invoke_VB setter_NN method_NN and_CC invoke_VB getter_NN method_NN with_IN explicit_JJ method_NN names_NNS
+invoke_VB setter_NN method_NN and_CC invoke_VB getter_NN method_NN with_IN java_NN bean_NN property_NN names_NNS
+invoke_VB setter_NN method_NN with_IN null_JJ values_NNS for_IN non_RB primitives_NNS
+invoke_VB setter_NN method_NN with_IN null_JJ value_NN for_IN primitive_JJ long_NN
+invoke_VB setter_NN method_NN with_IN null_JJ value_NN for_IN primitive_JJ int_NN
+invoke_VB setter_NN method_NN with_IN null_JJ value_NN for_IN primitive_JJ boolean_NN
+invoke_VB method_NN with_IN autoboxing_VBG and_CC unboxing_VBG
+invoke_VB method_NN with_IN primitive_JJ var_NN args_NNS
+invoke_VB method_NN with_IN primitive_JJ var_NN args_NNS as_IN single_JJ argument_NN
+invoke_VB method_NN simulating_NN lifecycle_NN events_NNS
+invoke_VB init_JJ method_NN before_IN autowiring_VBG
+invoke_VB method_NN with_IN incompatible_JJ argument_NN types_NNS
+invoke_VB method_NN with_IN too_RB few_JJ arguments_NNS
+invoke_VB method_NN with_IN too_RB many_JJ arguments_NNS
+register_VB subscription_NN
+unregister_VB subscription_NN
+unregister_VB all_DT subscriptions_NNS
+find_VB subscriptions_NNS
+active_JJ beans_NNS
+test_VB duplicate_JJ pointcut_NN config_NN
+test_VB missing_JJ pointcut_NN config_NN
+set_VB iso_NNP
+set_VB date_NN style_NN
+set_VB time_NN style_NN
+set_VB date_NN time_NN style_NN
+set_VB style_NN pattern_NN
+convert_VB style_NN character_NN
+create_VB date_NN time_NN formatter_NN
+create_VB bean_NN definition_NN reader_NN
+get_VB resource_NN suffix_NN
+validate_VB merged_JJ context_NN configuration_NN
+equals_VBZ with_IN null_JJ other_JJ object_NN
+equals_VBZ with_IN same_JJ encoding_NN
+equals_VBZ with_IN different_JJ encoding_NN
+equals_VBZ with_IN same_JJ charset_NN
+equals_VBZ with_IN different_JJ charset_NN
+equals_VBZ with_IN encoding_NN and_CC charset_NN
+slash_VB in_IN subtype_NN
+value_NN of_IN no_DT subtype_NN
+value_NN of_IN no_DT subtype_NN slash_NN
+value_NN of_IN illegal_JJ type_NN
+value_NN of_IN illegal_JJ subtype_NN
+value_NN of_IN illegal_JJ charset_NN
+parse_VB charset_NN
+parse_VB quoted_VBN charset_NN
+with_IN conversion_NN service_NN
+test_VB to_TO string_NN
+parse_VB mime_NN type_NN
+parse_VB mime_NN type_NN no_DT subtype_NN
+parse_VB mime_NN type_NN no_DT subtype_NN slash_NN
+parse_VB mime_NN type_NN type_NN range_NN
+parse_VB mime_NN type_NN illegal_JJ type_NN
+parse_VB mime_NN type_NN illegal_JJ subtype_NN
+parse_VB mime_NN type_NN empty_JJ parameter_NN attribute_NN
+parse_VB mime_NN type_NN empty_JJ parameter_NN value_NN
+parse_VB mime_NN type_NN illegal_JJ parameter_NN attribute_NN
+parse_VB mime_NN type_NN illegal_JJ parameter_NN value_NN
+parse_VB mime_NN type_NN illegal_JJ charset_NN
+parse_VB mime_NN type_NN quoted_VBN parameter_NN value_NN
+parse_VB mime_NN type_NN single_JJ quoted_VBN parameter_NN value_NN
+parse_VB mime_NN type_NN illegal_JJ quoted_VBN parameter_NN value_NN
+parse_VB mime_NN types_NNS
+compare_VB to_TO case_NN sensitivity_NN
+equals_VBZ is_VBZ case_NN insensitive_JJ for_IN charsets_NNS
+test_VB singleton_NN scoping_NN
+test_VB request_NN scoping_NN
+test_VB session_NN scoping_NN
+prepare_VB test_NN instance_NN
+inject_VB dependencies_NNS
+set_VB case_NN sensitive_JJ
+set_VB path_NN prefix_NN
+set_VB base_NN package_NN
+build_VB urls_NNPS for_IN handler_NN
+generate_VB path_NN mappings_NNS
+build_VB path_NN prefix_NN
+test_VB introduction_NN was_VBD made_VBN
+test_VB locking_JJ works_NNS
+check_VB not_RB locked_VBN
+test_VB set_VB parameter_NN value_NN with_IN null_NN and_CC type_NN
+test_VB set_VB parameter_NN value_NN with_IN null_NN and_CC type_NN name_NN
+test_VB set_VB parameter_NN value_NN with_IN null_NN and_CC unknown_JJ type_NN
+test_VB set_VB parameter_NN value_NN with_IN null_NN and_CC unknown_JJ type_NN on_IN informix_NN
+test_VB set_VB parameter_NN value_NN with_IN null_NN and_CC unknown_JJ type_NN on_IN derby_NN embedded_JJ
+test_VB set_VB parameter_NN value_NN with_IN null_NN and_CC get_VB parameter_NN type_NN working_JJ
+test_VB set_VB parameter_NN value_NN with_IN null_NN and_CC get_VB parameter_NN type_NN working_JJ but_CC not_RB for_IN other_JJ driver_NN
+test_VB set_VB parameter_NN value_NN with_IN null_JJ and_CC unknown_JJ type_NN and_CC get_VB parameter_NN type_NN not_RB working_JJ
+test_VB set_VB parameter_NN value_NN with_IN string_NN
+test_VB set_VB parameter_NN value_NN with_IN string_NN and_CC special_JJ type_NN
+test_VB set_VB parameter_NN value_NN with_IN string_NN and_CC unknown_JJ type_NN
+test_VB set_VB parameter_NN value_NN with_IN sql_NNP date_NN
+test_VB set_VB parameter_NN value_NN with_IN date_NN and_CC util_NN date_NN
+test_VB set_VB parameter_NN value_NN with_IN date_NN and_CC calendar_NN
+test_VB set_VB parameter_NN value_NN with_IN sql_NNP time_NN
+test_VB set_VB parameter_NN value_NN with_IN time_NN and_CC util_NN date_NN
+test_VB set_VB parameter_NN value_NN with_IN time_NN and_CC calendar_NN
+test_VB set_VB parameter_NN value_NN with_IN sql_NNP timestamp_NN
+test_VB set_VB parameter_NN value_NN with_IN timestamp_NN and_CC util_NN date_NN
+test_VB set_VB parameter_NN value_NN with_IN timestamp_NN and_CC calendar_NN
+test_VB set_VB parameter_NN value_NN with_IN date_NN and_CC unknown_JJ type_NN
+test_VB set_VB parameter_NN value_NN with_IN calendar_NN and_CC unknown_JJ type_NN
+test_VB set_VB parameter_NN value_NN with_IN string_NN and_CC vendor_NN specific_JJ type_NN
+test_VB set_VB parameter_NN value_NN with_IN null_NN and_CC vendor_NN specific_JJ type_NN
+parse_VB listener_NN
+parse_VB listener_NN configuration_NN
+parse_VB acknowledge_VB mode_NN
+for_IN class_NN
+supports_NNS parameter_NN
+create_VB named_JJ value_NN info_NN
+resolve_VB name_NN
+handle_VB missing_JJ value_NN
+get_VB field_NN
+invoke_VB setter_NN method_NN
+invoke_VB getter_NN method_NN
+apply_VB before_IN concurrent_JJ handling_NN
+apply_VB pre_IN process_NN
+apply_VB post_IN process_NN
+trigger_VB after_IN timeout_NN
+trigger_VB after_IN completion_NN
+person_NN
+tiles_NNS definitions_NNS
+set_VB notification_NN infos_NNS
+set_VB notification_NN info_NN mappings_NNS
+get_VB notification_NN info_NN
+extract_VB notification_NN metadata_NNS
+get_VB test_VB bean_NN
+set_VB test_VB bean_NN
+create_VB scoped_VBN proxy_NN
+get_VB target_NN bean_NN name_NN
+is_VBZ scoped_VBN target_NN
+from_IN byte_NN array_NN message_NN
+from_IN string_NN message_NN
+from_IN message_NN no_DT content_NN type_NN header_NN
+from_IN message_NN charset_NN
+from_IN message_NN default_JJ charset_NN
+from_IN message_NN target_NN class_NN not_RB supported_VBN
+from_IN message_NN byte_NN array_NN
+get_VB increment_NN statement_NN
+encode_VB scheme_NN
+encode_VB authority_NN
+encode_VB user_NN info_NN
+encode_VB host_NN
+encode_VB port_NN
+encode_VB path_NN
+encode_VB path_NN segment_NN
+encode_VB query_NN
+encode_VB query_NN param_NN
+encode_VB fragment_NN
+null_JJ defaults_NNS
+send_VB no_DT destination_NN resolver_NN
+convert_VB and_CC send_VB payload_NN
+convert_VB and_CC send_VB payload_NN and_CC headers_NNS
+convert_VB and_CC send_VB payload_NN with_IN post_IN processor_NN
+convert_VB and_CC send_VB payload_NN and_CC headers_NNS with_IN post_IN processor_NN
+receive_VB
+receive_VB and_CC convert_VB
+send_VB and_CC receive_VB
+convert_VB send_VB and_CC receive_VB
+convert_VB send_VB and_CC receive_VB with_IN headers_NNS
+convert_VB send_VB and_CC receive_VB with_IN post_IN processor_NN
+convert_VB send_VB and_CC receive_VB with_IN headers_NNS and_CC post_IN processor_NN
+set_VB receive_VB message_NN
+do_VB send_VB
+do_VB receive_VB
+do_VB send_VB and_CC receive_VB
+register_VB message_NN channel_NN
+resolve_VB destination_NN
+set_VB bean_NN factory_NN
+destroy_VB handler_NN
+get_VB bean_NN factory_NN
+handle_VB navigation_NN without_IN decoration_NN
+handle_VB navigation_NN with_IN decoration_NN
+set_VB support_NN dtd_FW
+is_VBZ support_NN dtd_FW
+set_VB process_NN external_JJ entities_NNS
+is_VBZ process_NN external_JJ entities_NNS
+supports_VBZ
+read_VBN internal_JJ
+read_VB d_NN o_NN m_NN source_NN
+read_VB s_FW a_FW x_FW source_NN
+read_VB st_FW a_FW x_FW source_NN
+read_VB stream_NN source_NN
+get_VB content_NN length_NN
+write_VB internal_JJ
+resolve_VB entity_NN
+set_VB authorized_JJ roles_NNS
+pre_IN handle_VB
+handle_VB not_RB authorized_VBN
+test_VB annotation_NN binding_NN in_IN around_IN advice_NN
+test_VB no_DT matching_VBG without_IN annotation_NN present_JJ
+test_VB pointcut_NN evaulated_VBN against_IN array_NN
+do_VB with_IN annotation_NN
+invoke_VB bean_NN factory_NN post_NN processors_NNS
+register_VB bean_NN post_NN processors_NNS
+sort_VB post_IN processors_NNS
+invoke_VB bean_NN definition_NN registry_NN post_NN processors_NNS
+post_VB process_NN before_IN initialization_NN
+post_VB process_NN after_IN initialization_NN
+is_VBZ infrastructure_NN bean_NN
+post_VB process_NN merged_VBN bean_NN definition_NN
+post_VB process_NN before_IN destruction_NN
+requires_VBZ destruction_NN
+set_VB interceptors_NNS
+get_VB interceptors_NNS
+get_VB request_NN factory_NN
+test_VB imports_NNS
+empty_JJ cache_NN control_NN
+max_JJ age_NN
+max_JJ age_NN and_CC directives_NNS
+max_JJ age_NN and_CC s_FW max_JJ age_NN
+no_DT cache_NN private_JJ
+no_DT store_NN
+get_VB e_FW tag_NN
+test_VB session_NN attribute_NN equal_JJ to_TO
+test_VB session_NN attribute_NN matcher_NN
+create_VB map_NN
+always_RB create_VB new_JJ map_NNS
+test_VB message_NN
+to_TO error_NN code_NN
+lock_VB down_RP nodes_NNS
+all_DT nodes_NNS
+select_VB current_JJ node_NN
+select_VB random_JJ nodes_NNS
+compute_VB assignments_NNS
+best_JJS node_NN split_VB count_NN
+next_JJ token_NN
+get_VB table_NN metadata_NNS
+assert_VB byte_NN code_NN expression_NN type_NN
+assert_VB byte_NN code_NN expression_NN
+assert_VB byte_NN code_NN node_NN
+stop_VB presto_NN
+get_VB requirements_NNS
+should_MD display_VB version_NN
+should_MD run_VB query_NN
+should_MD run_VB batch_NN query_NN
+should_MD use_VB catalog_NN and_CC schema_NN options_NNS
+should_MD run_VB query_NN from_IN file_NN
+launch_VB presto_NN cli_NNP with_IN server_NN argument_NN
+launch_VB presto_NN cli_NNP
+extract_VB conjuncts_NNS
+extract_VB disjuncts_NNS
+and_CC
+or_CC
+binary_JJ expression_NN
+combine_VB conjuncts_NNS
+combine_VB conjuncts_NNS with_IN default_NN
+combine_VB disjuncts_NNS
+combine_VB disjuncts_NNS with_IN default_NN
+strip_VB non_RB deterministic_JJ conjuncts_NNS
+strip_VB deterministic_JJ conjuncts_NNS
+flip_VB comparison_NN
+expression_NN or_CC null_NN symbols_NNS
+remove_VB duplicates_NNS
+negate_VB
+get_VB java_NN types_NNS
+get_VB field_NN decoder_NN name_NN
+get_VB millis_NNS
+get_VB slice_NN
+test_VB create_VB table_NN
+test_VB create_VB table_NN as_IN select_NN
+test_VB symbol_NN aliasing_VBG
+test_VB view_NN
+test_VB view_NN metadata_NN
+test_VB rename_VB table_NN
+test_VB rename_VB column_NN
+test_VB add_VB column_NN
+quick_JJ orc_NNP tester_NN
+full_JJ orc_NNP tester_NN
+test_VB struct_NN round_JJ trip_NN
+test_VB map_NN round_JJ trip_NN
+test_VB list_NN round_JJ trip_NN
+test_VB round_NN trip_JJ type_NN
+assert_VB round_JJ trip_NN
+assert_VB file_NN contents_NNS
+create_VB custom_NN orc_NN record_NN reader_NN
+write_VB orc_NNP column_NN
+set_VB dwrf_FW low_JJ memory_NN flag_NN
+create_VB orc_NNP record_NN writer_NN
+create_VB dwrf_FW record_NN writer_NN
+create_VB settable_JJ struct_NN object_NN inspector_NN
+create_VB table_NN properties_NNS
+insert_VB null_NN every_DT
+create_VB hive_NN struct_NN inspector_NN
+to_TO hive_NN struct_NN
+create_VB hive_NN map_NN inspector_NN
+to_TO hive_NN map_NN
+create_VB hive_NN list_NN inspector_NN
+to_TO hive_NN list_NN
+decode_VB object_NN
+array_NN type_NN
+map_NN type_NN
+row_NN type_NN
+get_VB estimated_VBN size_NN
+get_VB types_NNS
+get_VB group_NN count_NN
+append_VB values_NNS to_TO
+get_VB group_NN ids_NNS
+put_VB if_IN absent_JJ
+add_VB new_JJ group_NN
+start_VB new_JJ page_NN
+rehash_VB
+hash_VB position_NN
+get_VB raw_JJ hash_NN
+position_NN equals_VBZ current_JJ row_NN
+get_VB hash_NN position_NN
+calculate_VB max_JJ fill_VBP
+value_NN of_IN
+get_VB schema_NN name_NN
+to_TO schema_NN table_NN prefix_NN
+test_VB get_VB region_NN
+test_VB get_VB empty_JJ region_NN
+test_VB get_VB region_NN exceptions_NNS
+test_VB get_VB region_NN from_IN no_DT column_NN page_NN
+assert_VB function_NN
+test_VB literal_NN
+test_VB equal_JJ
+test_VB not_RB equal_JJ
+test_VB less_JJR than_IN
+test_VB less_JJR than_IN or_CC equal_JJ
+test_VB greater_JJR than_IN
+test_VB greater_JJR than_IN or_CC equal_JJ
+test_VB between_IN
+test_VB cast_VB to_TO date_NN
+test_VB cast_VB to_TO time_NN
+test_VB cast_VB to_TO time_NN with_IN time_NN zone_NN
+test_VB cast_VB to_TO timestamp_NN with_IN time_NN zone_NN
+test_VB cast_VB to_TO slice_VB
+test_VB cast_VB from_IN slice_NN
+test_VB greatest_JJS
+test_VB least_JJS
+test_VB like_IN
+test_VB distinct_JJ from_IN
+test_VB in_IN
+test_VB in_IN does_VBZ not_RB short_VB circuit_NN
+test_VB search_NN case_NN
+test_VB simple_JJ case_NN
+update_VB configuration_NN
+get_VB byte_JJ code_NN
+format_VB one_CD line_NN
+get_VB child_NN nodes_NNS
+get_VB final_JJ type_NN
+get_VB intermediate_JJ type_NN
+add_VB intermediate_NN
+evaluate_VB intermediate_NN
+evaluate_VB final_JJ
+duration_NN to_TO millis_NNS
+size_NN to_TO bytes_NNS
+get_VB query_NN id_NN
+get_VB principal_NN
+get_VB server_NN version_NN
+get_VB environment_NN
+get_VB catalog_NN
+get_VB remote_JJ client_NN address_NN
+get_VB user_NN agent_NN
+get_VB query_NN state_NN
+get_VB field_NN names_NNS
+get_VB peak_JJ memory_NN bytes_NNS
+get_VB create_VB time_NN
+get_VB execution_NN start_NN time_NN
+get_VB query_NN wall_JJ time_NN ms_NN
+get_VB queued_VBN time_NN ms_NN
+get_VB analysis_NN time_NN ms_NN
+get_VB distributed_VBN planning_NN time_NN ms_NN
+get_VB total_JJ split_VB wall_NN time_NN ms_NN
+get_VB total_JJ split_VB cpu_NNP time_NN ms_NN
+get_VB bytes_NNS per_IN sec_NN
+get_VB bytes_NNS per_IN cpu_NNP sec_NN
+get_VB total_JJ bytes_NNS
+get_VB rows_NNS per_IN sec_NN
+get_VB rows_NNS per_IN cpu_NNP sec_NN
+get_VB total_JJ rows_NNS
+get_VB splits_VBZ
+get_VB error_NN code_NN
+get_VB error_NN code_NN name_NN
+get_VB failure_NN type_NN
+get_VB failure_NN message_NN
+get_VB failure_NN task_NN
+get_VB failure_NN host_NN
+get_VB output_NN stage_NN json_NNP
+get_VB failures_NNS json_NNP
+get_VB inputs_NNS json_NNP
+get_VB session_NN properties_NNS json_NNP
+get_VB data_NNS source_NN name_NN
+get_VB next_JJ batch_NN
+is_VBZ finished_VBN
+get_VB features_NNS
+get_VB view_NN name_NN
+get_VB arguments_NNS
+get_VB column_NN types_NNS
+get_VB completed_VBN bytes_NNS
+get_VB read_JJ time_NN nanos_NNS
+advance_NN next_JJ position_NN
+get_VB boolean_NN
+get_VB long_NN
+get_NN double_NN
+native_JJ value_NN to_TO block_NN
+block_NN to_TO native_JJ value_NN
+get_VB lookup_NN source_NN
+set_VB lookup_NN source_NN
+retain_VB
+delete_VB rows_NNS
+rollback_NN
+read_VB post_NN script_NN
+read_VB metadata_NNS
+to_TO stripe_NN statistics_NNS
+read_VB footer_NN
+to_TO stripe_NN information_NN
+read_VB stripe_NN footer_NN
+to_TO stream_NN
+to_TO column_NN encoding_VBG
+read_VB row_NN indexes_NNS
+to_TO row_NN group_NN index_NN
+to_TO column_NN statistics_NNS
+to_TO boolean_NN statistics_NNS
+to_TO integer_NN statistics_NNS
+to_TO double_NN statistics_NNS
+to_TO string_NN statistics_NNS
+get_VB max_JJ slice_NN
+get_VB min_JJ slice_NN
+first_RB surrogate_JJ character_NN
+concat_VB slices_NNS
+to_TO date_NN statistics_NNS
+to_TO type_NN
+to_TO type_NN kind_NN
+to_TO stream_NN kind_NN
+to_TO column_NN encoding_VBG kind_NN
+to_TO compression_NN
+specialize_VB
+generate_VB aggregation_NN
+create_VB input_NN parameter_NN metadata_NN
+get_VB identity_NN
+get_VB time_NN zone_CD key_NN
+get_VB connector_NN id_NN
+get_VB ordinal_JJ position_NN
+get_VB cassandra_JJ type_NN
+get_VB type_NN arguments_NNS
+is_VBZ partition_NN key_NN
+is_VBZ clustering_VBG key_NN
+is_VBZ indexed_VBN
+get_VB column_NN metadata_NN
+get_VB full_JJ type_NN
+add_VB output_NN buffer_NN
+no_DT more_JJR output_NN buffers_NNS
+get_VB max_JJ buffer_NN size_NN
+set_VB max_JJ buffer_NN size_NN
+get_VB concurrent_JJ request_NN multiplier_NN
+set_VB concurrent_JJ request_NN multiplier_NN
+get_VB min_JJ error_NN duration_NN
+set_VB min_JJ error_NN duration_NN
+get_VB max_JJ response_NN size_NN
+set_VB max_JJ response_NN size_NN
+get_VB client_NN threads_NNS
+set_VBN client_NN threads_NNS
+create_VB stages_NNS
+get_VB stage_NN info_NN
+build_JJ stage_VB info_NN
+get_VB total_JJ memory_NN reservation_NN
+cancel_NN stage_NN
+get_VB child_NN stage_NN ids_NNS
+process_VB schedule_NN results_NNS
+backup_JJ shard_NN
+restore_VB shard_NN
+delete_VB shard_NN
+shard_NN exists_VBN
+get_VB location_NN
+is_VBZ remotely_RB accessible_JJ
+get_VB addresses_NNS
+get_VB catalog_NN name_NN
+get_VB object_NN name_NN
+as_IN schema_NN table_NN name_NN
+convert_VB from_IN schema_NN table_NN name_NN
+rewrite_NN with_IN
+visit_VB plan_NN
+default_NN rewrite_NN
+rewrite_VB
+is_VBZ interpreter_NN enabled_VBN
+set_VB interpreter_NN enabled_VBN
+is_VBZ replace_VB
+has_VBZ unscanned_VBN data_NNS
+end_NN of_IN data_NNS
+next_JJ row_NN
+check_VB field_NN type_NN
+set_VB scan_NN parms_NNS
+fetch_VB keys_NNS
+get_VB input_NN channels_NNS
+create_VB accumulator_NN
+create_VB intermediate_JJ accumulator_NN
+create_VB grouped_VBN accumulator_NN
+create_VB grouped_VBN intermediate_JJ accumulator_NN
+accepts_VBZ
+mapper_NN for_IN
+extract_VB by_IN name_NN
+extract_VB by_IN index_NN
+uuid_NN from_IN bytes_NNS
+uuid_NN to_TO bytes_NNS
+uuid_NN string_NN to_TO bytes_NNS
+get_VB parameterized_VBN type_NN
+instantiate_VB parametric_NN type_NN
+add_VB type_NN
+add_VB parametric_JJ type_NN
+verify_VB type_NN class_NN
+can_MD coerce_VB
+can_MD cast_VB type_NN base_NN
+is_VBZ covariant_JJ parameter_NN position_NN
+get_VB common_JJ super_JJ type_NN
+get_VB common_JJ super_JJ type_NN base_NN
+get_VB common_JJ super_JJ type_NN signature_NN
+on_IN presto_NN
+on_IN presto_NN with_IN
+get_VB topological_JJ split_VB counters_NNS
+create_VB node_NNS selector_NN
+select_NN nodes_NNS
+randomized_VBN nodes_NNS
+select_VB exact_VB nodes_NNS
+get_VB serialized_VBN type_NN
+make_VB class_NN name_NN
+to_TO java_NN identifier_NN string_NN
+define_VB class_NN
+define_VB classes_NNS
+request_VB shutdown_NN
+get_VB active_JJ tasks_NNS
+set_VB shutdown_NN requested_VBN
+is_VB shutdown_VBN requested_JJ
+set_VB optional_JJ config_NN
+set_VB type_NN manager_NN
+set_VB node_NN manager_NN
+set_VB table_NN description_NN supplier_NN
+get_VB services_NNS
+test_VB direct_JJ lazy_NN slice_NN array_NN block_NN encoding_VBG
+test_VB direct_JJ lazy_NN slice_NN array_NN block_NN encoding_VBG with_IN nulls_NNS
+test_VB dictionary_JJ lazy_NN slice_NN array_NN block_NN encoding_VBG with_IN null_JJ vector_NN
+create_VB expected_VBN values_NNS
+create_VB expected_VBN values_NNS with_IN nulls_NNS
+create_VB expected_VBN value_NN
+get_VB or_CC create_VB hyper_JJ log_NN log_NN
+standard_JJ error_NN to_TO buckets_NNS
+log_VB og_FW 2_CD ceiling_NN
+combine_VB state_NN
+create_VB record_NN writer_NN
+get_VB java_NN object_NN inspectors_NNS
+get_VB java_NN object_NN inspector_NN
+check_VB table_NN is_VBZ writable_JJ
+check_VB partition_NN is_VBZ writable_JJ
+check_VB writable_JJ
+get_VB table_NN default_NN location_NN
+path_NN exists_VBZ
+rename_VB directory_NN
+create_VB temporary_JJ path_NN
+create_VB directory_NN
+set_VB throw_VB exception_NN
+get_VB access_NN count_NN
+get_VB all_DT schemas_NNS
+get_VB all_DT tables_NNS
+get_VB partitions_NNS
+query_VB partition_NN keys_NNS
+get_VB replicas_NN
+test_VB cast_NN to_TO timestamp_NN
+test_VB row_NN bigint_NN bigint_NN
+test_VB row_NN bigint_NN double_NN boolean_NN varchar_NN timestamp_NN
+test_VB row_NN hyper_JJ log_NN log_NN
+test_VB nested_JJ rows_NNS with_IN timestamps_NNS with_IN time_NN zones_NNS
+test_VB row_NNS timestamps_IN with_IN time_NN zones_NNS
+test_VB row_NN double_NN double_NN
+test_VB row_NN double_NN bigint_NN
+test_VB row_NN four_CD booleans_NNS
+test_VB row_NN boolean_JJ array_NN
+test_VB row_NN boolean_JJ array_NN map_NN
+test_VB nested_JJ row_NN
+test_VB nested_JJ row_NN with_IN array_NN
+to_TO stack_NN representation_NN
+get_VB stream_NN type_NN
+open_VB stream_NN
+create_VB operator_NN
+duplicate_VB
+get_VB operator_NN context_NN
+needs_VBZ input_NN
+cast_VB json_NNP to_TO varchar_NNP
+cast_VB varchar_NNP to_TO json_NNP
+cast_VB to_TO json_NNP path_NN
+json_NNP format_VB
+json_NNP parse_VB
+varchar_NNP json_NNP array_NN length_NN
+json_NNP array_NN length_NN
+varchar_NNP json_NNP array_NN contains_VBZ
+json_NNP array_NN contains_VBZ
+varchar_NNP json_NNP array_NN get_VB
+json_NNP array_NN get_VB
+varchar_NNP json_NNP extract_VB scalar_NN
+json_NNP extract_VB scalar_NN
+varchar_NNP json_NNP extract_VB
+json_NNP extract_VB
+varchar_NNP json_NNP size_NN
+json_NNP size_NN
+get_VB index_NN handle_NN
+get_VB unresolved_JJ tuple_NN domain_NN
+get_VB record_NN set_NN
+get_VB schema_NN table_NN name_NN
+get_VB results_NNS store_NN
+read_VB queries_NNS
+initialize_VB logging_NN
+get_VB scale_NN factor_NN
+get_VB index_NN column_NN names_NNS
+get_VB fixed_JJ values_NNS
+set_VB double_NN
+set_VB null_NN
+test_VB row_NN number_NN
+create_VB test_NN block_NN
+get_VB greater_JJR value_NN
+test_VB like_IN basic_JJ
+test_VB like_IN newline_NN in_IN pattern_NN
+test_VB like_IN newline_NN before_IN match_NN
+test_VB like_IN newline_NN in_IN match_NN
+test_VB like_IN utf_NNP estlikeutf8_FW pattern_NN
+test_VB like_IN invalid_JJ utf_NNP estlikeinvalidutf8_FW value_NN
+test_VB backslashes_NNS no_DT special_JJ treatment_NN
+test_VB self_NN escaping_VBG
+test_VB alternate_JJ escaped_JJ characters_NNS
+write_VB block_NN
+read_VB block_NN
+read_VB encoding_NN
+write_VB encoding_NN
+test_VB defaults_NNS
+test_VB explicit_JJ property_NN mappings_NNS
+get_VB memory_NN info_NN
+to_TO types_NNS
+process_VB page_NN
+get_VB partition_NN
+test_VB add_VB page_NN
+test_VB null_JJ group_NN
+test_VB get_VB group_NN ids_NNS
+test_VB append_VB to_TO
+test_VB append_VB to_TO multiple_JJ tuples_NNS per_IN group_NN
+test_VB contains_VBZ multiple_JJ columns_NNS
+test_VB force_NN rehash_NN
+test_VB tokenize_VB
+test_VB greediness_NN long_NN first_JJ
+test_VB invalid_JJ token_NN tokenize_VB
+test_VB invalid_JJ token_NN create_VB 1_CD
+test_VB invalid_JJ token_NN create_VB 2_CD
+test_VB create_VB date_NN time_NN formatter_NN
+test_VB non_RB parametric_JJ
+test_VB array_NN
+test_VB variadic_JJ
+test_VB var_NN args_NNS
+test_VB coercion_NN
+test_VB unknown_JJ coercion_NN
+get_VB orc_NNP type_NN kind_NN
+get_VB field_NN count_NN
+get_VB field_NN type_NN index_NN
+append_VB page_NN
+create_VB writer_NN
+generate_VB random_JJ file_NN name_NN
+get_VB data_NNS blocks_NNS
+get_VB partition_NN blocks_NNS
+build_VB row_NN
+get_VB partition_NN update_NN
+initialize_VB serializer_NN
+set_VB long_NN
+get_VB expected_JJ value_NN
+get_VB function_NN name_NN
+construct_VB sql_NN template_NN
+create_VB qualified_JJ column_NN names_NNS
+close_VB current_JJ result_NN set_NN
+get_VB next_JJ result_NN set_NN
+get_VB mapped_VBN column_NN names_NNS
+get_VB table_NN ids_NNS
+get_VB string_NN value_NN
+test_VB parse_VB rgb_NN
+test_VB get_VB component_NN
+test_VB to_TO rgb_NN
+test_VB color_NN
+test_VB bar_NN
+test_VB render_VB boolean_NN
+test_VB render_VB string_NN
+test_VB render_VB long_NN
+test_VB render_VB double_NN
+test_VB interpolate_VB
+to_TO slice_NN
+compile_VB lookup_NN source_NN factory_NN
+compile_VB pages_NNS hash_NN strategy_NN factory_NN
+internal_JJ compile_VB lookup_NN source_NN factory_NN
+internal_JJ compile_VB hash_NN strategy_NN
+generate_VB constructor_NN
+generate_VB get_VB channel_NN count_NN method_NN
+generate_VB get_VB size_NN in_IN bytes_NNS method_NN
+generate_VB append_VB to_TO method_NN
+generate_VB hash_NN position_NN method_NN
+generate_VB hash_NN row_NN method_NN
+type_VB hash_NN code_NN
+generate_VB row_NN equals_VBZ row_NN method_NN
+generate_VB position_NN equals_VBZ row_NN method_NN
+generate_VB position_NN equals_VBZ row_NN with_IN page_NN method_NN
+generate_VB position_NN equals_VBZ position_NN method_NN
+type_VB equals_NNS
+create_VB lookup_NN source_NN
+create_VB pages_NNS hash_NN strategy_NN
+get_VB join_NN channels_NNS
+get_VB serialized_VBN data_NNS
+train_VB
+get_VB training_NN function_NN
+get_VB libsvm_NNP type_NN
+to_TO svm_NNP problem_NN
+to_TO svm_NNP nodes_NNS
+append_VB sample_NN weight_NN
+to_TO pages_NNS
+add_VB remaining_JJ output_NN pages_NNS
+to_TO materialized_VBN result_NN
+assert_VB operator_NN equals_VBZ
+assert_VB operator_NN equals_VBZ ignore_VBP order_NN
+without_IN
+drop_VB channel_NN
+get_VB constraint_NN
+get_VB total_JJ distributed_JJ bytes_NNS
+get_VB free_JJ distributed_JJ bytes_NNS
+get_VB nodes_NNS
+get_VB blocked_JJ nodes_NNS
+get_VB assigned_JJ queries_NNS
+get_VB query_NN memory_NN reservations_NNS
+get_VB table_NN properties_NNS
+get_VB hive_NN storage_NN format_NN
+get_VB partitioned_VBN by_IN
+get_VB retention_NN days_NNS
+get_VB sequence_NN blocks_NNS
+get_VB function_NN parameter_NN types_NNS
+test_VB non_RB trivial_JJ result_NN
+test_VB non_RB trivial_JJ aggregation_NN
+generate_VB methods_NNS
+append_VB pages_NNS
+append_VB row_NN
+is_VBZ full_JJ
+get_VB sample_NN weight_NN
+get_VB symbol_NN
+get_VB output_NN symbols_NNS
+check_VB is_VBZ d_NN a_NN g_NN
+shortest_JJS cycle_NN
+submit_VB
+select_VB queues_NNS
+get_VB or_CC create_VB queues_NNS
+get_VB queue_NN
+get_VB queues_NNS
+get_VB rules_NNS
+get_VB max_JJ queued_VBN
+get_VB max_JJ concurrent_NN
+set_VB session_NN property_NN
+get_VB user_NN regex_NN
+get_VB source_NN regex_NN
+get_VB session_NN property_NN regexes_NNS
+encode_VB synthetic_JJ address_NN
+decode_VB slice_NN index_NN
+decode_NN position_NN
+continue_VB on_IN
+get_VB continuation_NN future_NN
+create_VB query_NN runner_NN
+test_VB standard_JJ error_NN to_TO buckets_NNS
+test_VB standard_JJ error_NN to_TO buckets_VB bounds_NNS
+get_VB comment_NN
+condition_NN
+if_IN true_JJ
+if_IN false_JJ
+test_VB view_NN access_NN control_NN
+test_VB learn_VB
+test_VB learn_VB lib_NN svm_NNP
+assert_VB learn_VB classifer_NN
+map_VB slice_NN of_IN
+write_VB slice_NN
+get_VB object_NN value_NN
+get_VB relation_NN
+get_VB column_NN names_NNS
+classify_VB
+test_VB can_VB coerce_VBP
+test_VB get_VB common_JJ super_JJ type_NN
+assert_VB common_JJ super_JJ type_NN
+set_VB get_VB object_NN http_NNP error_NN code_NN
+set_VB get_VB object_NN metadata_NNS http_NNP code_NN
+set_VB endpoint_NN
+set_VB region_NN
+set_VB s_FW ets3_FW client_NN options_NNS
+change_VB object_NN storage_NN class_NN
+set_VB object_NN redirect_NN location_NN
+list_VB objects_NNS
+list_VB next_JJ batch_NN of_IN objects_NNS
+list_VB versions_NNS
+list_VB next_JJ batch_NN of_IN versions_NNS
+get_VB s_FW ets3_FW account_NN owner_NN
+does_VBZ bucket_NN exist_VB
+list_IN buckets_NNS
+get_VB bucket_NN location_NN
+create_VB bucket_NN

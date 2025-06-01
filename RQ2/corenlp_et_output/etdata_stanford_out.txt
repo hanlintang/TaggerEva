@@ -1,0 +1,384 @@
+accelerometer/NM data/N 
+actual/NM 
+actual/NM count/N 
+actual/NM suffix/N 
+added/NM unicode/NM smp/N 
+all/DT open/NM files/NM string/N 
+alt/NM name/N 
+ambient/NM coefficient/N 
+apply/NM margin/NM insets/NPL 
+arabic/NM segmenter/N 
+array/NM class/N 
+assertion/NM failed/NM error/N 
+assigns/NPL 
+attribute/N 
+avg/NM map/N 
+b/PRE flip/V horizontally/VM 
+b/NM loop/N 
+b/NM multi/NM fullscreen/N 
+b3/PRE push/V profile/NM timing/N 
+backprop/NM training/N 
+base/NM category/N 
+base/NM transform/N 
+bean/NM configs/NPL 
+best/NM node/N 
+binary/NM rule/N 
+bitmap/NM data/NM size/N 
+bm/NM log/N 
+breakpoint/N 
+bt/PRE collision/NM shape/N 
+bt/PRE deformable/NM contact/NM constraint/N 
+bt/PRE material/N 
+build/NM minimized/NM fa/N 
+build/NM sentence/NM from/P tokens/N 
+c/PRE at/NM background/NM color/N 
+c/PRE at/NM font/N 
+c/PRE at/NM grayscale/N 
+cache/NM body/N unbuffered/NM 
+cache/NM control/NM 
+cache/NM strategy/N 
+call/NM id/N 
+cam/NM rot/NM z/N 
+category/NM filter/NM factory/N 
+cause/NM matcher/N 
+certificate/NM pinner/N 
+check/V permission/N 
+check/V t/N 
+child/NM categories/NPL 
+child/NM joint/NM 
+child/NM statement/N 
+chinese/NM treebank/NM parser/NM params/NPL 
+cipher/NM suite/N 
+circle/NM mesh/N 
+client/NM certificates/NPL 
+client/NM number/N 
+clock/N 
+cmd/NM str/N 
+code/NM exception/NM message/N 
+col/NM length/NM left/N 
+cone/NM translation/N 
+configure/NM timeouts/NPL 
+content/NM type/NM string/N 
+contours/N 
+convert/V bullet/N to/P grpc/PRE command/N 
+convex/NM shapes/NPL 
+cookie/NM 
+core/N 
+credentials/N 
+creds/NPL 
+crf/NM non/NM linear/NM log/NM conditional/NM objective/NM function/N 
+curr/NM thread/NM exception/N 
+data/NM buf/N 
+data/NM point/NM method/N 
+default/NM open/N 
+delay/NM agnostic/N enabled/V 
+dep/NM h/N 
+depth/NM cb/N 
+depth/NM stencil/N as/P texture/N 
+describe/NM mismatch/NM safely/N 
+diff/N fd/NM 
+disk/NM lru/NM cache/N 
+do/V install/NM status/N 
+dynamic/NM textured/NM cube/NM demo/N 
+edit/NM count/N 
+eglew/PRE android/NM frame/NM buffer/NM target/N 
+eglew/PRE create/V platform/NM window/NM surface/N 
+enable/V materials/NPL 
+encoded/NM path/NM segments/NPL 
+encoded/NM values/N 
+enum/NM count/N 
+equals/NM offset/N 
+exception/NM channels/NPL 
+expand/V headers/NPL from/P request/N 
+expected/NM exception/N 
+expected/NM string/N 
+f/NM context/NM length/N 
+f/NM ptr/NM out/N 
+factory/NM class/N 
+failed/NM assumptions/N with/P message/N 
+file/NM channel/N 
+file/NM operator/N 
+filter/NM spec/N 
+find/V syntactic/NM head/N 
+firmata/NM i2c/NM data/N 
+first/NM space/N 
+flag/N 
+flags/NM classifier/NM pair/N 
+folder/NM names/NPL 
+follow/V component/N 
+followup/N 
+force/V network/NM 
+free/NM positions/NPL 
+free/NM texture/N 
+from/P local/NM aabb/NM min/N 
+geometry/NM interface/N 
+get/V children/NPL 
+get/V controller/NM transform/N 
+get/V declared/NM methods/NPL 
+get/V diffuse/NM colour/N 
+get/V down/NM sampling/N rate/NM 
+get/V id/N for/P name/N 
+get/V initial/NM window/NM size/N 
+get/V jf/N 
+get/V label/N 
+get/V longitude/N 
+get/V max/NM shingle/NM diff/N 
+get/V message/N 
+get/V number/N of/P transitions/NPL 
+get/V pid/N no/DT exceptions/NPL 
+get/V protocol/NM method/N 
+get/V raw/NM arguments/NPL 
+get/V source/NM name/N 
+get/V start/NM states/NPL 
+global/NM scope/N 
+glyph/NM id/N 
+h/NM pack/N 
+h/NM wnd/NM 
+headers/NPL 
+http1/NM exchange/NM codec/N 
+http2/NM error/NM code/N 
+i/NM ar/NM e/N 
+id/NM lumninance/NM min/N 
+id/NM mention/NM 
+image/N 
+img/NM type/N 
+in/N 
+in/NM buffer/N 
+in/NM order/N wrapped/NM verification/NM mode/N 
+inbound/NM 
+includes/NM new/NM 
+inertial/NM frame/N 
+inet/NM socket/NM address/N 
+initial/NM delay/NM milliseconds/N 
+int/NM hex/NM string/N 
+internal/NM 
+invalid/NM 
+inverse/NM dynamics/NM example/N 
+is/V first/NM capital/N 
+is/V node/NM a/N left/NM child/NM leaf/N 
+is/V return/NM bridged/NM 
+jflex/PRE dummy/NM lexer/N 
+keep/V aspect/N 
+key/NM begin/N 
+key/NM events/NM copy/N 
+key/N with/P newline/NM not/VM permitted/N 
+kinects/NM copy/N 
+label/NM regex/N 
+labels/NM file/N 
+last/NM gradient/N 
+latency/NM arg/N 
+learned/NM lop/NM expert/NM weights/NPL 2/D d/N 
+left/NM sisters/NM buffer/N 
+len/NM r/N 
+less/NM dummy/NM gui/NM helper/N 
+logger/N 
+m/PRE angle/N 
+m/PRE contact/NM motion/N 1/D 
+m/PRE fbo/NM height/N 
+m/PRE is/V indx/NM present/N 
+m/PRE line/NM dash/NM offset/N 
+m/PRE origin/N 
+m/PRE preview/N started/V 
+m/PRE sky/NM box/NM orientation/N 
+m/PRE transform/NM change/NM args/NPL 
+make/V extractor/N 
+map/N json/NM adapter/N 
+maps/NPL 
+max/NM age/NM seconds/NPL long/NM 
+max/NM core/N 
+max/NM file/NM open/N 
+max/NM intermediate/NM cas/NPL 
+max/NM num/NM pixels/NPL 
+max/NM requests/NPL per/P host/N 
+mention/NM detection/NM evaluator/N 
+mesh/NM scale/N 
+message/N 
+method/NM name/NM prefixes/NPL 
+method/NM sorter/N 
+min/NM fresh/N 
+min/NM fresh/NM seconds/NPL 
+minimized/NM random/NM fa/N 
+move/NM rbt/NM surgeon/N 
+movie/NM media/NM handler/N 
+mpg123/NM read/NM file/N 
+mt/N 
+multipart/NM body/N 
+multiple/NM failure/NM exception/N 
+multiply/NM in/NM front/N 
+mx/NM bean/N 
+n/NM shininess/N 
+nav/N visible/NM 
+network/NM security/NM policy/N 
+new/NM files/NPL 
+notify/V touch/NM down/N 
+nullable/NM class/N 
+nulls/NPL ok/NM 
+num/NM active/NM contexts/NPL 
+num/NM axis/NM events/NPL 
+num/NM cols/NPL 
+num/NM files/NPL 
+num/NM keys/NPL 
+num/NM light/N 
+num/NM states/NPL 
+num/NM verts/NPL in/P a/N 
+number/NM elementary/NM vegas/NPL 
+oauth/NM session/N 
+oauth/NM session/NM factory/N 
+of/PRE android/NM life/NM cycle/NM helper/N 
+of/PRE android/NM object/N 
+of/PRE android/NM sound/NM player/N 
+of/PRE android/NM window/N 
+of/PRE orientation/NM listener/N 
+one/NM document/N 
+op/NM code/NM continuation/N 
+open/NM class/NM tags/NPL 
+optimize/V identity/NM cast/NM composition/N 
+order/V with/P 
+ori/NM w/N 
+original/NM mocking/NM details/NPL 
+out/NM table/N 
+outer/NM rule/N 
+p/NM global/NM info/N 32/D 
+palette/NM size/N 
+parallel/NM computer/N 
+parameter/NM assignment/N 
+parameter/NM signature/N 
+parent/N 
+parse/NM expires/NPL 
+passphrase/N 
+path/N with/P native/NM separators/NPL 
+patterns/NM annotations/NPL 
+physics/NM client/NM example/N 
+pickup/N 
+planes/N 
+platform/NM string/N 
+png/NM read/NM idat/NM data/N 
+post/NM file/N 
+pre/P map/N 
+present/NM scaling/N 
+previous/NM stream/NM id/N 
+print/NM events/NPL 
+promises/NPL 
+pronoun/N 
+push/V reset/N later/VM 
+q/NM tail/N 
+quad/N bezier/NM to/P 
+r/NM hdr/N 
+rate/NM pointer/N 
+rconde/N 
+rcp/NM len/N 2/D 
+read/V element/NM text/NM span/N 
+read/V pass/N 
+read/V subframe/N 
+read/V text/NM file/N 
+real/N 
+refresh/NM interval/N in/P millis/NPL 
+register/V with/P volatility/NM spread/N 
+replace/NM text/NM context/N 
+repress/V ref/NM at/NM loc/N 
+res/NM width/N 
+reset/V seated/NM zero/NM pose/N 
+rest/NM client/N 
+retain/NM function/N 
+rolling/NM friction/NM demo/N 
+rotate/NM desc/N 
+rt/NM stream/NM ptr/N 
+rtm/NM session/N 
+rule/NM chain/N 
+rule/NM member/NM validator/N 
+rule/NM options/NPL 
+rules/N of/P new/NM chain/N 
+run/NM after/NM params/NPL 
+run/NM before/NM params/NPL 
+run/NM methods/NPL 
+runner/NM factory/N 
+runner/NM for/P class/N 
+runner/NM scheduler/N 
+s/PRE tracking/NM system/NM name/N 
+sample/NM mid/N 
+save/V as/P quadratic/NM png/N 
+save/V lambdas/N 
+scale/NM and/CJ add/V to/P 
+score/NM pos/N prev/NM 
+segmenter/NM core/NM annotations/NPL 
+selected/NM account/N 
+selection/NM width/NM label/N 
+sentence/NM list/N 
+serialized/NM form/N 
+session/NM config/N 
+set/V add/V faces/NM points/NPL 
+set/V dot/NM 
+set/V extra/NM interfaces/NPL 
+set/V frame/NM pen/N 
+set/V from/P aligned/NM pixels/N 
+set/V protocol/NM method/N 
+set/V sphere/NM resolution/N 
+set/V tiling/N 
+set/V tracking/NM space/N 
+settings/NPL 
+shift/NM reduce/NM train/NM options/NPL 
+silk/NM bw/NM expander/N 32/D 
+size/NM contents/NPL 
+size/N on/P first/NM use/N 
+slack/NM client/N 
+sort/NM field/NM data/NM type/N 
+source/NM 
+source/NM index/N 
+speaker/N 
+spline/NM max/NM len/N 
+split/V argument/NM list/N 
+sqrt/N per/P elem/N 
+stack/N 
+state/N 
+stream/NM headers/NPL 
+struct/NM ty/N 
+su/NM time/N 
+sub/NM flags/NM to/P forward/V 
+sub/NM start/N 
+suite/NM method/N 
+suite/NM method/NM builder/N 
+supplier/NM class/N 
+sx/N 
+sz/NM joint/NM ranges/NPL 
+tegra/PRE morph/N init/V 
+temporary/NM folder/N 
+tex/NM id/N 
+the/DT class/N 
+theory/N 
+thread/NM array/NM size/N 
+to/P sentence/NM 
+to/P xyz/N 
+top/NM ngram/NM record/N 
+tot/NM channel/N 
+total/NM merge/NM throttled/NM time/N 
+trade/NM price/N 
+training/NM examples/NPL 
+tsurgeon/NM parse/NM exception/N 
+tune/NM treebank/N 
+unknown/NM word/NM 
+unpack/V texture/NM blend/NM func/N 
+url/N from/P json/N 
+usage/N 
+use/V shadows/NPL 1/D 
+user/N 2/P internal/NM index/N 
+validate/V class/NM rules/NPL 
+validate/V instance/NM methods/NPL 
+value/NM count/NM string/N 
+value/NM hash/N 
+value/NM label/N 
+vary/NM fields/NPL 
+vertex/NM position/N 
+voronoi/NM fracture/NM demo/N 
+want/V x/N 
+warning/NM failure/NM exception/N 
+form/N body/N 
+web/NM socket/NM listener/N 
+word/NM lemma/NM tag/N 
+world/N to/P screen/N 
+wrapper/NM class/N 
+x/N 2/D 
+x/NM distance/N 
+x/NM scale/N 
+z/NM p/NM i/N 
+z/NM probs/NPL 
+z/NM weight/N 

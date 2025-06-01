@@ -1,0 +1,672 @@
+Loading POS Tagger model ... 
+done (0.064s)
+
+data_NNS
+size_NN
+p_VB
+end_VB
+nal_JJ start_VB
+is_VBZ key_NN frame_NN
+priority_NN
+s_VB
+avc_JJ packet_NN
+src_FW
+packet_NN
+sps_VB
+sps_NNS size_NN
+pps_NNS
+pps_NNS size_NN
+header_NN
+new_JJ packet_NN data_NNS
+new_JJ packet_NN size_NN
+header_NN data_NNS
+header_NN size_NN
+sei_VB data_NNS
+sei_VB size_NN
+vi_VB
+ovi_VB
+video_VB
+i_NN
+effect_VB
+file_NN
+info_NN
+ai_VB
+view_VB
+unused_VBN
+locale_VB
+module_NN config_NN path_NN
+store_NN
+path_NN
+argc_NN
+argv_VB
+width_IN
+height_VB
+oai_VB
+sdr_VB white_JJ level_NN
+hdr_VB nominal_JJ peak_JJ level_NN
+idx_VB
+id_NN
+unversioned_VBN id_NN
+channel_NN
+source_NN
+param_NN
+p_VB start_VB
+mutex_VB
+proc_NN
+v_VB first_JJ
+name_NN
+p_VB table_NN
+uuid_NNP
+ref_NN
+src_FW c_FW
+dest_VB c_NN
+src_FW a_FW
+dest_NN a_NN
+volume_VB
+source_NN data_NNS
+is_VBZ private_JJ
+array_NN
+cb_NN
+private_VB data_NNS
+private_VB
+context_NN
+type_NN
+settings_NNS
+hot_VB key_NN data_NNS
+object_NN
+destroy_VB
+p_VB first_JJ
+p_VB hash_NN
+p_VB first_JJ uuid_NN
+p_VB head_JJ
+p_VB uuid_NNP head_JJ
+obj_NN
+v_VB
+conversion_NN
+frame_JJ rate_NN divisor_NN
+mix_VB idx_NN
+callback_NN
+encoder_VB
+task_NN
+wait_VB
+handler_NN
+weak_VB
+protocol_NN
+f_VB
+ver_NN
+key_NN
+pressed_VBN
+last_JJ obs_NN ver_NN
+dst_VB
+filter_NN
+new_JJ name_NN
+create_VB private_JJ
+frame_NN
+format_VB
+new_JJ path_NN
+event_NN
+mouse_VB up_RP
+click_NN count_NN
+mouse_VB leave_VB
+x_NN delta_NN
+y_VB delta_NN
+focus_IN
+key_NN up_RP
+centered_VBN
+parent_NN
+child_NN
+ref_NN frame_NN
+seconds_NNS
+sample_JJ rate_NN
+frames_NNS
+duration_NN
+timestamp_NN
+os_NNS time_NN
+expected_VBN
+ts_NNS
+diff_JJ
+in_IN
+muted_VBN
+ts_NNS 1_CD
+ts_NNS 2_CD
+audio_VB
+offset_NN
+full_JJ range_NN
+trc_FW
+val_NN
+tex_VB render_VB
+tex_VB
+rotation_NN
+count_VB
+preferred_VBD spaces_NNS
+cur_VB idx_NN
+movement_NN
+index_NN
+plane_NN
+y_VB
+lines_VBZ
+captions_NNS
+balance_NN
+audio_VB in_IN
+sys_NN time_NN
+target_NN
+tech_VB name_NN
+filter_NN flags_NNS
+parent_NN flags_NN
+allow_VB direct_JJ
+space_VB
+enum_NN callback_NN
+flags_VB
+mixers_VBZ
+color_NN matrix_NN
+color_NN range_NN min_NN
+color_NN range_NN max_JJ
+texture_VB
+x_NN
+cx_VB
+cy_VB
+flip_VB
+hidden_NN
+enabled_VBN
+signal_JJ
+delay_NN
+mix_VB
+channels_NNS
+vol_NN
+vol_NN data_NNS
+action_NN
+unbuffered_JJ
+decouple_VB
+enable_VB
+active_JJ
+pause_VB
+ms_NN
+hevc_NN packet_NN
+module_NN
+func_NN
+trace_NN
+module_NN name_NN
+module_NN base_NN
+module_NN size_NN
+thread_VB
+entry_NN
+first_JJ thread_NN
+exception_NN
+mixer_NN idx_NN
+shutdown_VB
+extra_VB data_NNS
+reroute_VB id_NN
+input_NN
+expected_VBN selection_NN
+layouts_VBZ
+av_VB layout_NN
+mp_VB layout_NN
+require_VB default_NN unspec_NNP
+p_VB ctx_NN
+img_VB fmt_NN dst_NN
+img_VB fmt_NN src_FW
+status_NN
+property_NN
+expect_VB
+a_VB
+b_FW
+w_VB
+h_VB
+bytes_NNS
+rgb_NN
+alpha_VB
+s_VB test_VB
+img_VB
+new_JJ
+line_NN
+c_NN
+abs_IN
+tolerance_NN
+out_RP dir_NN
+ref_VB dir_NN
+err_NN
+d_NN
+log_VB
+lev_VB
+w_VB stream_NN
+args_NNS
+str_NN
+handle_VB
+dict_VB
+kv_VB
+tal_JJ loc_NN ctx_NN
+item_NN
+lst_VB
+num_NN c_NN
+img_VB fmt_NN
+not_RB if_IN fmt_JJ
+csp_VB
+levels_NNS
+env_VB
+string_NN
+utf_NNP chars_NNS
+error_NN
+logging_VBG
+j_NN fields_NNS
+j_NN fields_NNS mapping_NN
+global_JJ
+root_NN
+p_FW 1_CD
+p_FW 2_CD
+out_RP url_NNP
+dir_NN
+ta_VB parent_NN
+queue_NN
+wakeup_VB ctx_NN
+on_IN lock_NN ctx_NN
+fn_VB
+fn_VB data_NNS
+timeout_NN
+until_IN
+arg_NN
+ctx_VB
+pool_NN
+init_VB threads_NNS
+min_JJ threads_NNS
+max_JJ threads_NNS
+fn_VB ctx_NN
+allow_NN queue_NN
+max_JJ depth_NN
+indent_JJ
+user_NN cp_NN
+buf_VB
+cp_VB
+template_VB
+suffix_NN len_NN
+file_NN path_NN
+str_NN 1_CD
+str_NN 2_CD
+reject_NN
+accept_VB
+haystack_NN
+needle_VB
+sep_VB
+rest_VB
+tok_VBD
+out_RP left_NN
+out_RP right_NN
+start_VB
+base_NN
+prefix_NN
+out_RP next_JJ
+append_VB min_NN
+append_VB
+fmt_VB
+ap_VB
+suffix_NN
+hex_NN
+out_RP
+ret_VB
+k_FW
+lang_NN
+l_NN 1_CD
+s_FW 1_CD
+l_NN 2_CD
+s_VB 2_CD
+waiter_NN
+value_NN
+slave_VB
+uu_VB
+in_IN start_NN
+in_IN end_NN
+tag_NN
+seed_VBN
+name_NN 1_CD
+name_NN 2_CD
+n_NN
+ptr_VB
+loc_NN
+element_NN size_NN
+next_JJ idx_NN
+at_IN
+append_VB len_NN
+stream_NN
+url_NNP
+ok_JJ
+proto_VB
+len_NN
+pos_VB
+keep_VB
+s_VB info_NN
+filename_NN
+forward_VB
+buf_VB size_NN
+mem_NN
+total_JJ
+forward_VB size_NN
+new_JJ pos_NNS
+cmd_VB
+max_JJ size_NN
+arch_VB
+priv_VB
+buffer_NN
+whence_NN
+request_VB
+mpa_VB
+r_NN
+max_JJ volumes_NNS
+max_JJ len_NN
+cur_VB
+streams_NNS
+num_NN streams_NNS
+del_NN sys_NNS
+fe_VB fd_NN
+adapter_NN
+frontend_VB
+demux_VB cnt_NN
+cnt_VB
+fd_VB
+pid_NN
+pes_VBZ type_NN
+dev_VB no_DT
+service_NN id_NN
+fe_VB status_NN
+fd_VB frontend_JJ
+tm_VB out_NN
+t_VB
+secfd_VB
+sat_VB no_DT
+polv_VB
+hi_VB lo_NN
+cmd_VB seq_NN
+freq_JJ
+s_VB rate_NN
+pol_JJ
+stream_NN id_NN
+spec_VB inv_NN
+diseqc_VB
+modulation_NN
+hp_JJ code_NN rate_NN
+transmission_NN mode_NN
+guard_VB interval_NN
+bandwidth_NN
+lp_JJ code_NN rate_NN
+hier_NN
+band_VB width_IN
+device_NN
+speed_VBN
+ext_VB
+sig_NN
+aid_VB
+sid_NN
+cr_VB
+mod_VB string_NN
+vdr_VB par_NN str_NN
+pid_NN string_NN
+list_VB add_VB
+cfg_VB full_JJ transponder_NN
+del_NN sys_NNS mask_NN
+prog_NN name_NN
+target_NN fmt_NN
+track_NN
+in_IN pos_NN
+function_NN
+sector_NN
+st_VB
+playlist_VB
+title_NN
+ev_VB
+title_NN guess_NN
+list_VB
+opts_NNS
+f_IN name_NN
+fn_NN start_NN
+s_VB list_NN
+n_NN sub_JJ
+limit_NN fuzziness_NN
+limit_NN type_NN
+n_NN subs_NN
+paths_NNS
+cfg_FW path_NN
+mp_VB ctx_NN
+db_NN
+ao_VB c_NN
+buf_VB sz_NN
+rate_NN
+old_VB
+ao_VB
+pts_VBZ
+l_NN
+ud_VB
+job_NN
+free_JJ fn_NN
+arg_NN count_NN
+need_VB f_NN sync_NN
+need_VB reclaim_NN cache_NN
+job_NN type_NN
+ct_VB
+type_NN name_NN
+db_NN id_NN
+tracking_JJ
+lua_VB scripts_NNS
+lua_VB
+functions_NNS lib_NN ctx_NN
+blocks_NNS
+use_VB tls_NNS
+length_NN
+do_VB f_IN sync_NN
+announced_JJ tcp_NN port_NN
+announced_JJ tls_NNS port_NN
+announced_JJ c_NN port_NN
+node_NN
+shard_NN id_NN
+hard_NN
+msg_NN len_NN
+link_NN
+conn_NN
+el_NN
+priv_VB data_NNS
+mask_NN
+node_NN name_NN
+failing_JJ
+sender_VB
+master_NN
+del_NN node_NN
+node_NN id_NN
+ip_VB
+port_VB
+c_NN port_NN
+hdr_VB
+tls_NNS port_NN
+tcp_VB port_NN
+g_VB
+gossip_VB msg_NN
+announced_JJ ip_NN
+sender_VB config_NN epoch_NN
+slots_NNS
+data_NNS size_NN
+gossip_VB count_NN
+msg_JJ block_NN
+message_NN
+module_NN id_NN
+payload_VB
+sharded_VBN
+reason_NN
+max_JJ slaves_NNS
+handshake_VB timeout_NN
+now_NN
+bitmap_VB
+slot_VB
+from_IN node_NN
+to_TO node_NN
+ci_VB
+slot_VB info_NN pairs_NNS
+slot_VB info_NN pairs_NNS count_NN
+tls_VB primary_JJ
+o_VB
+del_NN
+start_VB slot_NN
+end_VB slot_NN
+nodes_NNS
+hash_VB slot_NN
+num_NN nodes_NNS
+slave_VB idx_NN
+tids_NNS
+tids_NNS len_NN
+level_NN
+msg_NN
+ret_VB code_NN
+key_NN 1_CD
+key_NN 2_CD
+more_VB mem_NN
+used_VBN ratio_NN
+metric_NN
+current_JJ value_NN
+current_JJ base_NN
+factor_NN
+now_NN ms_NN
+time_NN idx_NN
+allow_VB eviction_NN
+in_IN usage_NN
+out_RP usage_NN
+update_VB daylight_NN info_NN
+us_VB time_NN
+update_VB cached_VBN time_NN
+us_VB
+event_NN loop_NN
+client_NN data_NNS
+process_VB class_NN
+sfd_VB
+accept_VB handler_NN
+parent_NN name_NN
+sub_JJ name_NN
+sub_JJ command_NN
+declared_JJ name_NN
+commands_NNS
+oa_VB
+container_NN
+strict_VB
+latency_NN histogram_NN
+duration_NN hist_NN
+reply_VB
+full_JJ err_NN
+name_NN len_NN
+unlink_VB unix_NN socket_NN
+error_NN code_NN
+reply_VB flags_NNS
+num_NN args_NNS
+rs_VB
+use_VB map_NN
+with_IN flags_NNS
+num_NN cmds_NNS
+histogram_NN name_NN
+histogram_NN
+repl_VB state_NN
+tmp_VB
+section_NN dict_JJ
+sections_NNS
+sec_JJ
+defaults_NNS
+out_RP all_DT
+out_RP everything_VBG
+blocking_JJ keys_NNS
+blocking_JJ keys_NNS on_IN no_DT key_NN
+watched_VBD keys_NNS
+all_DT sections_NNS
+everything_VBG
+warning_VBG
+listener_NN
+purpose_VB
+info_NN type_NN
+p_FW name_NN
+keys_NNS
+size_NN hint_NN
+exec_NN name_NN
+allocation_NN size_NN
+var_NN name_NN
+cpu_VB list_NN
+sd_VB notify_VB msg_NN
+mode_NN
+score_VB
+ele_VB
+zsl_NN
+update_VB
+cur_VB score_NN
+new_JJ score_NN
+spec_VB
+range_NN
+start_VB node_NN
+start_VB level_NN
+rank_VB
+min_JJ
+max_JJ
+dest_VB
+ex_VB
+vstr_VB
+vlen_NN
+s_VB ptr_NN
+e_VB ptr_NN
+cstr_VB
+clen_NN
+zl_NN
+lp_VB
+deleted_VBN
+z_VB obj_NN
+val_NN len_NN hint_NN
+encoding_VBG
+cap_VB
+max_JJ ele_NN len_NN
+tot_NN ele_NN len_NN
+member_NN
+in_IN flags_NN
+out_RP flags_NN
+zs_VBZ
+reverse_VB
+output_NN score_NN
+e_VB
+zsetobj_NN
+zsetsize_VB
+range_NN type_NN
+op_VB
+aggregate_VB
+total_JJ len_NN
+set_VB num_NN
+dst_VB z_NN set_NN
+dst_VB key_NN
+num_NN keys_NNS index_NN
+cardinality_NN only_RB
+value_NN length_NN in_IN bytes_NNS
+result_NN count_NN
+client_NN
+with_IN scores_NNS
+limit_NN
+argc_NN start_NN
+direction_NN
+keyv_VB
+keyc_NN
+where_WRB
+emit_VB key_NN
+use_VB nested_JJ array_NN
+reply_VB nil_NN when_WRB empty_NN
+num_NN keys_NNS
+timeout_NN idx_NN
+vals_NNS
+l_NN
+num_NN keys_NNS idx_NN
+is_VBZ block_NN
+swap_VB type_NN
+es_VBZ
+l_NN range_NN
+r_NN range_NN
+host_NN socket_NN
+cfg_VB
+from_IN
+thread_NN id_NN
+add_VB
+slen_VB
+capacity_NN
+int_NN enc_NN
+enc_NNP len_NN
+int_NN buf_NN
+entry_VB size_NN
+Average: 7129.0 sent/s 
+
+Total: 663 sent
+Runtime: 0.093s
+Execution time: 0.216 seconds
+

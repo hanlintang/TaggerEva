@@ -1,0 +1,673 @@
+Loading POS Tagger model ... 
+Using 'opennlp.tools.util.jvm.CHMStringInterner' as String interner implementation.
+done (0.454s)
+
+data_NNS
+size_NN
+p_NN
+end_NN
+nal_JJ start_NN
+is_VBZ key_JJ frame_NN
+priority_NN
+s_PRP
+avc_JJ packet_NN
+src_NN
+packet_NN
+sps_NNS
+sps_NNS size_NN
+pps_NN
+pps_NN size_NN
+header_NN
+new_JJ packet_NN data_NNS
+new_JJ packet_NN size_NN
+header_NN data_NNS
+header_NN size_NN
+sei_NN data_NNS
+sei_NN size_NN
+vi_NN
+ovi_NN
+video_NN
+i_FW
+effect_NN
+file_NN
+info_NN
+ai_VBP
+view_NN
+unused_JJ
+locale_NN
+module_NN config_NN path_NN
+store_NN
+path_NN
+argc_NN
+argv_NN
+width_NN
+height_NN
+oai_NNS
+sdr_JJ white_JJ level_NN
+hdr_JJ nominal_JJ peak_NN level_NN
+idx_NN
+id_NN
+unversioned_VBN id_NN
+channel_NN
+source_NN
+param_NN
+p_NN start_NN
+mutex_NN
+proc_NN
+v_NN first_RB
+name_NN
+p_NN table_NN
+uuid_NN
+ref_NN
+src_NN c_NNS
+dest_NN c_NNS
+src_NN a_DT
+dest_NN a_DT
+volume_NN
+source_NN data_NNS
+is_VBZ private_JJ
+array_NN
+cb_NN
+private_JJ data_NNS
+private_JJ
+context_NN
+type_NN
+settings_NNS
+hot_JJ key_NN data_NNS
+object_NN
+destroy_VB
+p_NN first_RB
+p_NN hash_NN
+p_NN first_JJ uuid_NN
+p_NN head_NN
+p_NN uuid_JJ head_NN
+obj_NN
+v_NN
+conversion_NN
+frame_NN rate_NN divisor_NN
+mix_NN idx_NN
+callback_NN
+encoder_NN
+task_NN
+wait_VB
+handler_NN
+weak_JJ
+protocol_NN
+f_NN
+ver_RB
+key_NN
+pressed_VBN
+last_JJ obs_NNS ver_RB
+dst_NN
+filter_NN
+new_JJ name_NN
+create_VBP private_JJ
+frame_NN
+format_NN
+new_JJ path_NN
+event_NN
+mouse_NN up_IN
+click_NN count_NN
+mouse_NN leave_NN
+x_NN delta_NN
+y_JJ delta_NN
+focus_NN
+key_NN up_IN
+centered_VBN
+parent_NN
+child_NN
+ref_NN frame_NN
+seconds_NNS
+sample_NN rate_NN
+frames_NNS
+duration_NN
+timestamp_NN
+os_NNS time_NN
+expected_VBN
+ts_NNS
+diff_NN
+in_IN
+muted_VBN
+ts_NNS 1_CD
+ts_NNS 2_CD
+audio_NN
+offset_VBN
+full_JJ range_NN
+trc_NN
+val_NN
+tex_NN render_NN
+tex_NN
+rotation_NN
+count_NN
+preferred_VBN spaces_NNS
+cur_NN idx_NN
+movement_NN
+index_NN
+plane_NN
+y_NN
+lines_NNS
+captions_NNS
+balance_NN
+audio_NN in_IN
+sys_NNS time_NN
+target_NN
+tech_NN name_NN
+filter_NN flags_NNS
+parent_NN flags_NNS
+allow_VB direct_JJ
+space_NN
+enum_NN callback_NN
+flags_NNS
+mixers_NNS
+color_NN matrix_NN
+color_NN range_NN min_NN
+color_NN range_NN max_NN
+texture_NN
+x_NN
+cx_NN
+cy_NN
+flip_VB
+hidden_VBN
+enabled_VBN
+signal_NN
+delay_NN
+mix_NN
+channels_NNS
+vol_NN
+vol_NN data_NNS
+action_NN
+unbuffered_VBN
+decouple_NN
+enable_VB
+active_JJ
+pause_NN
+ms_NNS
+hevc_NN packet_NN
+module_NN
+func_NN
+trace_NN
+module_NN name_NN
+module_NN base_NN
+module_NN size_NN
+thread_NN
+entry_NN
+first_JJ thread_NN
+exception_NN
+mixer_NN idx_NN
+shutdown_NN
+extra_JJ data_NNS
+reroute_NN id_NN
+input_NN
+expected_VBN selection_NN
+layouts_NNS
+av_NN layout_NN
+mp_NN layout_NN
+require_VB default_NN unspec_IN
+p_NN ctx_NN
+img_JJ fmt_NN dst_NN
+img_JJ fmt_NN src_NN
+status_NN
+property_NN
+expect_VB
+a_DT
+b_NN
+w_WRB
+h_NN
+bytes_NNS
+rgb_NN
+alpha_NN
+s_PRP test_NN
+img_NN
+new_JJ
+line_NN
+c_NN
+abs_NNS
+tolerance_NN
+out_IN dir_NN
+ref_NN dir_NN
+err_NN
+d_NN
+log_NN
+lev_NN
+w_NN stream_NN
+args_NNS
+str_NN
+handle_NN
+dict_NN
+kv_NN
+tal_JJ loc_NN ctx_NN
+item_NN
+lst_NN
+num_NN c_NNS
+img_NN fmt_NN
+not_RB if_IN fmt_NN
+csp_NN
+levels_NNS
+env_NN
+string_NN
+utf_NN chars_NNS
+error_NN
+logging_VBG
+j_NN fields_NNS
+j_NN fields_NNS mapping_VBG
+global_JJ
+root_NN
+p_NN 1_CD
+p_NN 2_CD
+out_IN url_NN
+dir_NN
+ta_TO parent_NN
+queue_NN
+wakeup_NN ctx_NN
+on_IN lock_NN ctx_NN
+fn_NN
+fn_NN data_NNS
+timeout_NN
+until_IN
+arg_NN
+ctx_NN
+pool_NN
+init_NN threads_NNS
+min_NN threads_NNS
+max_NN threads_NNS
+fn_NN ctx_NN
+allow_VB queue_NN
+max_NN depth_NN
+indent_NN
+user_NN cp_NN
+buf_NN
+cp_NN
+template_NN
+suffix_NN len_VBN
+file_NN path_NN
+str_NN 1_CD
+str_NN 2_CD
+reject_VB
+accept_VB
+haystack_NN
+needle_NN
+sep_NN
+rest_NN
+tok_NN
+out_RB left_VBN
+out_RB right_RB
+start_NN
+base_NN
+prefix_NN
+out_IN next_JJ
+append_NN min_NN
+append_NN
+fmt_NN
+ap_NN
+suffix_NN
+hex_NN
+out_IN
+ret_NN
+k_NN
+lang_NN
+l_NN 1_CD
+s_PRP 1_CD
+l_NN 2_CD
+s_PRP 2_CD
+waiter_NN
+value_NN
+slave_NN
+uu_NN
+in_IN start_NN
+in_IN end_NN
+tag_NN
+seed_NN
+name_NN 1_CD
+name_NN 2_CD
+n_NN
+ptr_NN
+loc_NN
+element_NN size_NN
+next_JJ idx_NN
+at_IN
+append_NN len_VBN
+stream_NN
+url_NN
+ok_NN
+proto_NN
+len_VBN
+pos_NNS
+keep_VB
+s_PRP info_VB
+filename_NN
+forward_RB
+buf_NN size_NN
+mem_FW
+total_NN
+forward_RB size_NN
+new_JJ pos_NNS
+cmd_NN
+max_NN size_NN
+arch_NN
+priv_NN
+buffer_NN
+whence_WRB
+request_NN
+mpa_NN
+r_NN
+max_NN volumes_NNS
+max_NN len_VBN
+cur_NN
+streams_NNS
+num_NN streams_NNS
+del_FW sys_NNS
+fe_JJ fd_NN
+adapter_NN
+frontend_CC
+demux_NN cnt_NN
+cnt_NN
+fd_NN
+pid_JJ
+pes_NNS type_NN
+dev_NN no_NN
+service_NN id_NN
+fe_NN status_NN
+fd_NN frontend_CC
+tm_NN out_IN
+t_NN
+secfd_NN
+sat_VBD no_RB
+polv_NN
+hi_PRP lo_NN
+cmd_NN seq_NNS
+freq_NN
+s_PRP rate_NN
+pol_NN
+stream_NN id_NN
+spec_NN inv_NN
+diseqc_NN
+modulation_NN
+hp_JJ code_NN rate_NN
+transmission_NN mode_NN
+guard_NN interval_NN
+bandwidth_NN
+lp_VB code_NN rate_NN
+hier_RBR
+band_NN width_NN
+device_NN
+speed_NN
+ext_NN
+sig_NN
+aid_NN
+sid_NN
+cr_NN
+mod_JJ string_NN
+vdr_JJ par_NN str_NN
+pid_JJ string_NN
+list_NN add_VBP
+cfg_NN full_JJ transponder_NN
+del_FW sys_NNS mask_NN
+prog_NN name_NN
+target_NN fmt_NN
+track_NN
+in_IN pos_NNS
+function_NN
+sector_NN
+st_NN
+playlist_NN
+title_NN
+ev_RB
+title_NN guess_VBP
+list_NN
+opts_NNS
+f_NN name_NN
+fn_JJ start_NN
+s_PRP list_NN
+n_NN sub_NN
+limit_NN fuzziness_NN
+limit_NN type_NN
+n_NN subs_NNS
+paths_NNS
+cfg_NN path_NN
+mp_NN ctx_NN
+db_NN
+ao_FW c_NN
+buf_NN sz_NN
+rate_NN
+old_JJ
+ao_FW
+pts_NNS
+l_NN
+ud_NN
+job_NN
+free_JJ fn_NN
+arg_NN count_NN
+need_NN f_NN sync_NN
+need_NN reclaim_VBP cache_NN
+job_NN type_NN
+ct_NN
+type_NN name_NN
+db_NN id_NN
+tracking_VBG
+lua_NN scripts_NNS
+lua_NN
+functions_NNS lib_NN ctx_NN
+blocks_NNS
+use_NN tls_NNS
+length_NN
+do_VB f_NN sync_NN
+announced_VBN tcp_NN port_NN
+announced_VBN tls_NNS port_NN
+announced_VBN c_NNS port_NN
+node_NN
+shard_JJ id_NN
+hard_RB
+msg_NN len_VBN
+link_NN
+conn_NN
+el_NN
+priv_NN data_NNS
+mask_NN
+node_NN name_NN
+failing_VBG
+sender_NN
+master_NN
+del_FW node_NN
+node_NN id_NN
+ip_NN
+port_NN
+c_NNS port_NN
+hdr_NN
+tls_NNS port_NN
+tcp_NN port_NN
+g_VBG
+gossip_NN msg_NN
+announced_VBN ip_NN
+sender_NN config_NN epoch_NN
+slots_NNS
+data_NNS size_NN
+gossip_NN count_NN
+msg_NN block_NN
+message_NN
+module_NN id_NN
+payload_NN
+sharded_VBN
+reason_NN
+max_NN slaves_NNS
+handshake_NN timeout_NN
+now_RB
+bitmap_NN
+slot_NN
+from_IN node_NN
+to_TO node_NN
+ci_NNS
+slot_NN info_NN pairs_NNS
+slot_NN info_IN pairs_NNS count_VBP
+tls_NNS primary_JJ
+o_IN
+del_FW
+start_NN slot_NN
+end_NN slot_NN
+nodes_NNS
+hash_NN slot_NN
+num_NN nodes_NNS
+slave_NN idx_NN
+tids_NNS
+tids_NNS len_VBN
+level_NN
+msg_NN
+ret_VB code_NN
+key_NN 1_CD
+key_NN 2_CD
+more_RBR mem_FW
+used_VBN ratio_NN
+metric_JJ
+current_JJ value_NN
+current_JJ base_NN
+factor_NN
+now_RB ms_NNS
+time_NN idx_NN
+allow_VB eviction_NN
+in_IN usage_NN
+out_IN usage_NN
+update_NN daylight_NN info_NN
+us_PRP time_NN
+update_NN cached_VBD time_NN
+us_PRP
+event_NN loop_NN
+client_NN data_NNS
+process_NN class_NN
+sfd_NN
+accept_VB handler_NN
+parent_NN name_NN
+sub_NN name_NN
+sub_NN command_NN
+declared_VBD name_NN
+commands_NNS
+oa_NN
+container_NN
+strict_JJ
+latency_RB histogram_NN
+duration_NN hist_NN
+reply_NN
+full_JJ err_NN
+name_NN len_VBN
+unlink_NN unix_NN socket_NN
+error_NN code_NN
+reply_NN flags_NNS
+num_NN args_NNS
+rs_NNS
+use_NN map_NN
+with_IN flags_NNS
+num_NN cmds_NNS
+histogram_NN name_NN
+histogram_NN
+repl_NN state_NN
+tmp_NN
+section_NN dict_NN
+sections_NNS
+sec_NN
+defaults_NNS
+out_IN all_PDT
+out_IN everything_NN
+blocking_VBG keys_NNS
+blocking_VBG keys_NNS on_IN no_DT key_NN
+watched_VBD keys_NNS
+all_DT sections_NNS
+everything_NN
+warning_VBG
+listener_NN
+purpose_NN
+info_NN type_NN
+p_NN name_NN
+keys_NNS
+size_NN hint_NN
+exec_NN name_NN
+allocation_NN size_NN
+var_NN name_NN
+cpu_VBN list_NN
+sd_NN notify_VBP msg_VBG
+mode_NN
+score_NN
+ele_NN
+zsl_NN
+update_NN
+cur_NN score_NN
+new_JJ score_NN
+spec_NN
+range_NN
+start_NN node_NN
+start_NN level_NN
+rank_NN
+min_NN
+max_NN
+dest_NN
+ex_FW
+vstr_NN
+vlen_NN
+s_PRP ptr_MD
+e_NN ptr_NN
+cstr_NN
+clen_VBN
+zl_NN
+lp_NN
+deleted_VBN
+z_NN obj_NN
+val_NN len_VBN hint_NN
+encoding_VBG
+cap_NN
+max_NN ele_NN len_VBN
+tot_NN ele_NN len_VBN
+member_NN
+in_IN flags_NNS
+out_IN flags_NNS
+zs_NNS
+reverse_NN
+output_NN score_NN
+e_NN
+zsetobj_NN
+zsetsize_NN
+range_NN type_NN
+op_NN
+aggregate_NN
+total_NN len_VBN
+set_VBN num_NN
+dst_NN z_NN set_VBN
+dst_NN key_NN
+num_NN keys_NNS index_NN
+cardinality_NN only_RB
+value_NN length_NN in_IN bytes_NNS
+result_NN count_NN
+client_NN
+with_IN scores_NNS
+limit_NN
+argc_JJ start_NN
+direction_NN
+keyv_NN
+keyc_NN
+where_WRB
+emit_NN key_NN
+use_NN nested_VBD array_NN
+reply_NN nil_NN when_WRB empty_JJ
+num_NN keys_NNS
+timeout_NN idx_NN
+vals_NNS
+l_NN
+num_NN keys_NNS idx_VBN
+is_VBZ block_NN
+swap_NN type_NN
+es_NNS
+l_JJ range_NN
+r_NN range_NN
+host_NN socket_NN
+cfg_NN
+from_IN
+thread_NN id_VBN
+add_VB
+slen_JJ
+capacity_NN
+int_NN enc_NN
+enc_NN len_VBN
+int_NN buf_NN
+entry_NN size_NN
+Average: 8840.0 sent/s 
+
+Total: 663 sent
+Runtime: 0.075s
+Execution time: 0.537 seconds
+

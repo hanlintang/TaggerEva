@@ -1,0 +1,2605 @@
+Loading POS Tagger model ... 
+done (0.035s)
+
+sequence_NN not_RB str_IN
+base_NN buffer_NN
+read_VB buffer_NN
+write_VB buffer_NN
+read_VB pickle_NN buffer_NN
+write_VB excel_NN buffer_NN
+read_VB csv_NN buffer_NN
+test_VB sub_JJ dict_NN
+test_VB non_RB dict_JJ mapping_NN
+versioneer_NN config_NN
+not_RB this_JJ method_NN
+int_NN casting_NN na_NN n_NN error_NN
+null_JJ frequency_JJ error_NN
+performance_NN warning_VBG
+unsupported_JJ function_NN call_NN
+unsorted_JJ index_NN error_NN
+parser_NN error_NN
+d_NN type_NN warning_NN
+empty_JJ data_NNS error_NN
+parser_NN warning_VBG
+merge_VB error_NN
+abstract_JJ method_NN error_NN
+num_NN ba_NN util_NN error_NN
+duplicate_VB label_NN error_NN
+invalid_JJ index_NN error_NN
+data_NNS error_NN
+specification_NN error_NN
+chained_VBN assignment_NN error_NN
+num_NN expr_NN clobbering_VBG error_NN
+undefined_JJ variable_NN error_NN
+indexing_VBG error_NN
+pyperclip_VB exception_NN
+pyperclip_VB windows_NNS exception_NN
+css_VB warning_NN
+possible_JJ data_NNS loss_NN error_NN
+closed_VBN file_NN error_NN
+incompatibility_NN warning_VBG
+attribute_NN conflict_NN warning_NN
+database_NN error_NN
+possible_JJ precision_NN loss_NN
+value_NN label_NN type_NN mismatch_NN
+invalid_JJ column_NN name_NN
+categorical_JJ conversion_NN warning_NN
+lossy_VB set_VB item_NN error_NN
+no_DT buffer_NN present_JJ
+invalid_JJ comparison_NN
+subclassed_VBN series_NNS
+subclassed_VBN data_NNS frame_NN
+plot_VB accessor_NN
+options_NNS
+hist_VB plot_NN
+kde_VB plot_NN
+mpl_NN plot_NN
+plane_NN plot_NN
+scatter_NN plot_NN
+hex_NN bin_NN plot_NN
+line_NN plot_NN
+area_VB plot_NN
+bar_NN plot_NN
+barh_VB plot_NN
+pie_VB plot_NN
+box_VB plot_NN
+bp_VB
+time_NN converter_NN
+time_NN formatter_NN
+period_NN converter_NN
+datetime_NN converter_NN
+pandas_VBZ auto_JJ date_NN formatter_NN
+pandas_VBZ auto_JJ date_NN locator_NN
+milli_NN second_JJ locator_NN
+time_NN series_NNS date_NN locator_NN
+time_NN series_NNS date_NN formatter_NN
+time_NN series_NNS timedelta_NN formatter_NN
+data_NNS frame_NN
+index_VB slice_NN
+indexing_VBG mixin_NN
+location_NN indexer_NN
+loc_NN indexer_NN
+i_NN loc_NN indexer_NN
+scalar_VB access_NN indexer_NN
+at_IN indexer_NN
+i_NN at_IN indexer_NN
+flags_VB
+disallow_VB
+bottleneck_VB switch_NN
+nd_VB frame_NN
+pandas_VBZ object_NN
+no_DT new_JJ attributes_NNS mixin_NN
+selection_NN mixin_NN
+index_NN ops_NNS mixin_NN
+dir_NN names_NNS mixin_NN
+pandas_VBZ delegate_NN
+cached_VBN accessor_NN
+ops_NNS mixin_NN
+series_NNS
+resampler_NN
+group_NN by_IN mixin_NN
+datetime_NN index_NN resampler_NN
+datetime_NN index_NN resampler_NN groupby_VBG
+period_NN index_NN resampler_NN
+period_NN index_NN resampler_NN groupby_VBG
+timedelta_NN index_NN resampler_NN
+timedelta_NN index_NN resampler_NN groupby_VBG
+time_NN grouper_NN
+multi_JJ index_NN u_NN int_NN engine_NN
+multi_JJ index_NN py_NN int_NN engine_NN
+multi_JJ index_NN
+period_NN index_NN
+interval_NN index_NN
+extension_NN index_NN
+nd_VB array_NN backed_JJ extension_NN index_NN
+properties_NNS
+arrow_NN temporal_JJ properties_NNS
+datetime_NN properties_NNS
+timedelta_NN properties_NNS
+period_NN properties_NNS
+combined_JJ datetime_NN like_IN properties_NNS
+index_NN
+range_NN index_NN
+datetime_NN index_NN
+categorical_JJ index_NN
+timedelta_NN index_NN
+datetime_NN index_NN ops_NNS mixin_NN
+datetime_NN timedelta_NN mixin_NN
+pandas_VBZ buffer_NN
+pandas_VBZ buffer_NN py_NN arrow_NN
+pandas_VBZ data_NNS frame_NN x_NN chg_NN
+pandas_VBZ column_NN
+dl_NN pack_NN device_NN type_NN
+d_VB type_NN kind_NN
+column_NN null_JJ type_NN
+column_NN buffers_NNS
+categorical_VB description_NN
+buffer_NN
+column_NN
+arrow_NN c_NN types_NNS
+endianness_NN
+year_NN month_NN day_NN dict_JJ
+full_JJ datetime_NN dict_JJ
+index_NN type_NN
+series_NNS type_NN
+index_NN model_NN
+series_NNS model_NN
+iloc_JJ type_NN
+i_NN loc_NN model_NN
+py_FW tables_NNS scope_NN
+term_NN
+constant_NN
+bin_VB op_NN
+filter_NN bin_NN op_NN
+joint_NN filter_NN bin_NN op_NNS
+condition_NN bin_NN op_NN
+joint_NN condition_NN bin_NN op_NN
+unary_JJ op_NN
+py_FW tables_NNS expr_NN visitor_NN
+py_FW tables_NNS expr_NN
+term_VB value_NN
+deep_VB chain_NN map_NN
+scope_NN
+op_VB
+div_VB
+math_NN call_NN
+func_NN node_NN
+abstract_VB engine_NN
+num_NN expr_NN engine_NN
+python_NN engine_NN
+base_NN expr_NN visitor_NN
+pandas_VBZ expr_NN visitor_NN
+python_NN expr_NN visitor_NN
+expr_VB
+group_NN by_IN indexing_VBG mixin_NN
+group_NN by_IN positional_JJ selector_NN
+group_NN by_IN nth_NN selector_NN
+wrapped_JJ cython_NN op_NN
+base_NN grouper_NN
+bin_VB grouper_NN
+data_NNS splitter_NN
+series_NNS splitter_NN
+frame_NN splitter_VBZ
+named_VBN agg_NN
+series_NNS group_NN by_IN
+data_NNS frame_NN group_NN by_IN
+output_NN key_NN
+grouper_VB
+grouping_VBG
+group_NN by_IN plot_NN
+base_NN group_NN by_IN
+group_NN by_IN
+join_VB unit_NN
+block_NN
+ea_JJ backed_JJ block_NN
+extension_NN block_NN
+numpy_JJ block_NN
+nd_VB array_NN backed_JJ extension_NN block_NN
+datetime_NN like_IN block_NN
+datetime_NN tz_NN block_NN
+block_NN pair_NN info_NN
+base_NN block_NN manager_NN
+block_NN manager_NN
+single_JJ block_NN manager_NN
+concatenator_NN
+merge_VB operation_NN
+ordered_VBN merge_VB
+as_IN of_IN merge_VB
+unstacker_JJ
+extension_NN d_NN type_NN
+storage_JJ extension_NN d_NN type_NN
+registry_VB
+pandas_VBZ extension_NN d_NN type_NN
+categorical_VB d_NN type_NN type_NN
+categorical_VB d_NN type_NN
+datetime_NN tzd_NN type_NN
+period_NN d_NN type_NN
+interval_NN d_NN type_NN
+numpy_NN ead_JJ type_NN
+base_NN masked_JJ d_NN type_NN
+sparse_VB d_NN type_NN
+arrow_NN d_NN type_NN
+nd_VB frame_NN describer_NN abstract_JJ
+series_NNS describer_NN
+data_NNS frame_NN describer_NN
+select_VB n_NN
+select_VB n_NN series_NNS
+select_VB n_NN frame_NN
+object_NN string_NN array_NN mixin_NN
+base_NN string_NN array_NN methods_NNS
+string_NN methods_NNS
+string_NN d_NN type_NN
+base_NN string_NN array_NN
+string_NN array_NN
+period_NN array_NN
+numpy_JJ extension_NN array_NN
+interval_JJ array_NN
+numeric_JJ d_NN type_NN
+numeric_JJ array_NN
+base_NN masked_JJ array_NN
+nd_VB array_NN backed_JJ extension_NN array_NN
+boolean_NN d_NN type_NN
+boolean_JJ array_NN
+extension_NN array_NN
+extension_NN array_NN supports_NNS any_NN all_DT
+extension_NN ops_NNS mixin_NN
+extension_NN scalar_NN ops_NNS mixin_NN
+arrow_NN string_NN array_NN mixin_NN
+datetime_NN array_NN
+floating_NN d_NN type_NN
+floating_JJ array_NN
+float32_NN d_NN type_NN
+float64_NN d_NN type_NN
+categorical_JJ
+categorical_JJ accessor_NN
+arrow_NN string_NN array_NN
+arrow_NN string_NN array_NN numpy_NN semantics_NNS
+integer_VB d_NN type_NN
+integer_VB array_NN
+int8_VB d_NN type_NN
+int16_VB d_NN type_NN
+int32_VB d_NN type_NN
+int64_VB d_NN type_NN
+uint8_FW d_NN type_NN
+uint16_NN d_NN type_NN
+uint32_NN d_NN type_NN
+uint64_NN d_NN type_NN
+timedelta_NN array_NN
+datetime_NN like_IN array_NN mixin_NN
+date_VB like_IN ops_NNS
+time_NN like_IN ops_NNS
+base_NN accessor_NN
+sparse_VB accessor_NN
+sparse_VB frame_NN accessor_NN
+ellipsis_VBZ
+sparse_VB array_NN
+arrow_VB period_NN type_NN
+arrow_NN interval_NN type_NN
+forbidden_IN extension_NN type_NN
+arrow_NN accessor_NN
+list_VB accessor_NN
+struct_NN accessor_NN
+arrow_VB extension_NN array_NN
+base_NN indexer_NN
+fixed_JJ window_NN indexer_NN
+variable_NN window_NN indexer_NN
+variable_NN offset_NN window_NN indexer_NN
+expanding_VBG indexer_NN
+fixed_JJ forward_NN window_NN indexer_NN
+groupby_VB indexer_NN
+exponential_JJ moving_NN window_NN indexer_NN
+exponential_JJ moving_NN window_NN
+exponential_JJ moving_NN window_NN groupby_NN
+online_VB exponential_JJ moving_NN window_NN
+ewm_VB mean_NN state_NN
+base_NN window_NN
+base_NN window_NN groupby_NN
+window_NN
+rolling_NN and_CC expanding_NN mixin_NN
+rolling_NN
+rolling_NN groupby_IN
+expanding_VBG
+expanding_VBG groupby_VBN
+test_VB nanops_NNS data_NNS frame_NN
+test_VB ensure_NN numeric_JJ
+test_VB nan_NN var_NN fixed_JJ values_NNS
+test_VB nan_NN skew_NN fixed_JJ values_NNS
+test_VB nan_NN kurt_NN fixed_JJ values_NNS
+test_VB datetime_NN 64_NN na_NN n_NN ops_NNS
+test_VB factorize_NN
+test_VB unique_JJ
+test_VB i_NN sin_NN
+like_IN nan_NN
+test_VB value_NN counts_NNS
+test_VB duplicated_JJ
+test_VB hash_NN table_NN
+test_VB rank_NN
+test_VB mode_NN
+test_VB diff_NN
+test_VB take_VB
+test_VB extension_NN take_NN
+x_NN
+my_VB accessor_NN
+bad_JJ
+some_DT call_NN
+test_VB is_VBZ bool_NN indexer_NN
+my_NN list_NN
+test_VB flags_NN
+test_VB multi_JJ level_NN
+test_VB sorted_JJ
+test_VB expressions_NNS
+my_VB class_NN
+foo_NN
+test_VB sorting_NN
+test_VB merge_VB
+test_VB safe_JJ sort_NN
+my_VB ea_JJ
+test_VB extension_NN array_NN
+test_VB masked_JJ arrays_NN
+test_VB 2_CD d_NN compat_NN
+test_VB sparse_VB array_NN
+test_VB string_NN array_NN
+test_VB interval_NN array_NN
+test_VB arrow_NN array_NN
+test_VB logical_JJ ops_NNS
+old_VB arrow_NN extension_NN array_NN
+dummy_VB d_NN type_NN
+dummy_VB array_NN
+test_VB extension_NN array_NN d_NN type_NN
+capturing_NN string_NN array_NN
+test_VB numpy_JJ extension_NN array_NN
+test_VB datetime_NN array_NN
+test_VB period_NN array_NN
+test_VB categorical_JJ
+float_VB attr_NN d_NN type_NN
+float_VB attr_NN array_NN
+list_VB d_NN type_NN
+list_VB array_NN
+date_NN d_NN type_NN
+date_NN array_NN
+base_NN set_VB item_NN tests_NNS
+base_NN parsing_NN tests_NNS
+base_NN casting_NN tests_NNS
+base_NN reduce_NN tests_NNS
+base_NN printing_NN tests_NNS
+base_NN missing_JJ tests_NNS
+base_NN ops_NNS util_NN
+base_NN arithmetic_NN ops_NNS tests_NNS
+base_NN comparison_NN ops_NNS tests_NNS
+base_NN unary_JJ ops_NNS tests_NNS
+base_NN accumulate_NN tests_NNS
+base_NN d_NN type_NN tests_NNS
+base_NN constructors_NNS tests_NNS
+base_NN extension_NN tests_NNS
+dim_NN 2_CD compat_NN tests_NNS
+nd_VB array_NN backed_JJ 2d_NN tests_NNS
+base_NN interface_NN tests_NNS
+base_NN get_VB item_NN tests_NNS
+base_NN index_NN tests_NNS
+base_NN methods_NNS tests_NNS
+extension_NN tests_NNS
+base_NN reshaping_NN tests_NNS
+base_NN groupby_NN tests_NNS
+jsond_NNP type_NN
+json_NNP array_NN
+test_VB json_NNP array_NN
+decimal_NN d_NN type_NN
+decimal_JJ array_NN
+test_VB decimal_JJ array_NN
+decimal_JJ array_NN without_IN from_IN sequence_NN
+decimal_JJ array_NN without_IN coercion_NN
+test_VB set_VB ops_NNS
+test_VB set_VB ops_NNS unsorted_VBN
+test_VB contains_VBZ
+test_VB get_VB loc_NN
+e_VB
+test_VB get_VB indexer_NN
+test_VB convert_VB slice_NN indexer_NN
+test_VB put_VB mask_NN
+custom_JJ index_NN
+test_VB datetime_NN engine_NN
+test_VB timedelta_NN engine_NN
+test_VB numeric_JJ engine_NN
+test_VB object_NN engine_NN
+test_VB datetime_NN like_IN
+test_VB common_JJ
+test_VB conversion_NN
+test_VB round_JJ trips_NN
+test_VB indexing_NN
+test_VB rendering_NN
+test_VB reductions_NNS
+test_VB index_NN constructor_NN inference_NN
+test_VB d_NN type_NN enforced_VBN
+test_VB index_NN constructor_NN unwrapping_VBG
+array_NN like_IN
+test_VB index_NN construction_NN errors_NNS
+test_VB base_NN
+test_VB numeric_JJ base_NN
+test_VB index_NN
+test_VB mixed_JJ int_NN index_NN
+test_VB index_NN utils_NNS
+test_VB timedelta_NN index_NN
+test_VB timedelta_NN index_NN difference_NN
+test_VB get_VB item_NN
+test_VB where_WRB
+test_VB maybe_JJ cast_NN slice_NN bound_NN
+test_VB vectorized_VBN timedelta_NN
+test_VB freq_JJ
+test_VB timedelta_NN index_NN arithmetic_NN
+test_VB pickle_NN
+test_VB timedelta_NN index_NN ops_NNS
+test_VB timedelta_NN index_NN delete_NN
+test_VB timedeltas_NN
+test_VB join_NN
+test_VB search_NN sorted_JJ
+test_VB timedelta_NN index_NN rendering_NN
+test_VB timedelta_NN index_NN factorize_NN
+test_VB timedelta_NN index_NN shift_NN
+test_VB timedelta_NN index_NN insert_VB
+test_VB repeat_NN
+test_VB fill_NN na_NN
+test_VB set_VB ops_NNS sort_NN
+test_VB slice_NN locs_NN
+test_VB get_VB slice_NN bounds_NNS
+test_VB astype_NN
+test_VB float_NN numeric_JJ index_NN
+test_VB numeric_JJ int_NN
+test_VB int_NN numeric_JJ index_NN
+test_VB float_NN 16_NN index_NN
+test_VB join_NN int64_NN index_NN
+test_VB join_NN uint64_NN index_NN
+test_VB interval_NN index_NN
+test_VB interval_NN range_NN
+constructor_NN tests_NNS
+test_VB from_IN arrays_NN
+test_VB from_IN breaks_NN
+test_VB from_IN tuples_NNS
+test_VB class_NN constructors_NNS
+test_VB equals_VBZ
+astype_VB tests_NNS
+test_VB int_NN subtype_NN
+test_VB float_NN subtype_NN
+test_VB datetime_NN like_IN subtype_NN
+test_VB interval_NN index_NN rendering_NN
+test_VB interval_NN tree_NN
+test_VB categorical_JJ index_NN constructors_NNS
+test_VB categorical_JJ index_NN
+test_VB categorical_JJ index_NN 2_CD
+test_VB reindex_NN
+test_VB append_VB
+test_VB categorical_JJ index_NN repr_NN
+equals_VBZ tests_NNS
+test_VB period_NN index_NN equals_VBZ
+test_VB datetime_NN index_NN equals_VBZ
+test_VB timedelta_NN index_NN equals_VBZ
+test_VB sort_NN values_NNS
+drop_VB duplicates_NNS
+test_VB drop_NN duplicates_NNS period_NN index_NN
+test_VB drop_VB duplicates_NNS datetime_NN index_NN
+test_VB drop_VB duplicates_NNS timedelta_NN index_NN
+test_VB get_VB indexer_NN non_RB unique_JJ
+test_VB period_NN index_NN
+test_VB period_NN index_NN disallowed_VBN freqs_NNS
+test_VB simple_JJ new_JJ
+test_VB shallow_NN copy_NN
+test_VB series_NNS period_NN
+test_VB get_VB value_NN
+test_VB as_IN of_IN locs_FW
+test_VB resolution_NN
+test_VB period_NN representation_NN
+test_VB period_NN index_NN conversion_NN
+test_VB period_NN index_NN ops_NNS
+test_VB period_NN range_NN keywords_NNS
+test_VB period_NN range_NN
+test_VB period_NN range_NN disallowed_VBN freqs_NNS
+test_VB search_NN sorted_JJ
+test_VB period_NN index_NN rendering_NN
+test_VB period_NN index_NN shift_NN
+test_VB to_TO timestamp_NN
+test_VB period_NN index_NN as_IN type_NN
+test_VB insert_VB
+test_VB datetime_NN index_NN set_NN ops_NNS
+test_VB business_NN datetime_NN index_NN
+test_VB custom_JJ datetime_NN index_NN
+test_VB datetime_NN index_NN
+test_VB time_NN series_NNS
+test_VB indexer_NN between_IN time_NN
+test_VB datetime_NN index_NN ops_NNS
+test_VB datetime_NN index_NN arithmetic_NN
+test_VB datetime_NN index_NN reindex_NN
+fixed_JJ offset_NN
+test_VB datetime_NN index_NN timezones_NNS
+test_VB datetime_NN index_NN iteration_NN
+test_VB timestamp_NN equiv_JJ date_NN range_NN
+test_VB date_NN ranges_NN
+test_VB date_NN range_NN tz_NN
+test_VB gen_NN range_NN generation_NN
+test_VB business_NN date_NN range_NN
+test_VB custom_NN date_NN range_NN
+test_VB date_NN range_NN non_RB na_JJ no_DT
+test_VB date_NN range_NN non_RB tick_NN freq_JJ
+test_VB split_VB
+test_VB slicing_NN
+test_VB datetime_NN index_NN rendering_NN
+test_VB to_TO period_NN
+test_VB datetime_NN index_NN factorize_NN
+test_VB datetime_NN index_NN shift_NN
+test_VB tz_NN localize_NN
+test_VB to_TO series_NNS
+test_VB as_IN of_IN
+test_VB delete_VB
+test_VB date_NN time_NN index_NN to_TO julian_NN date_NN
+test_VB to_TO py_NN datetime_NN
+test_VB normalize_VB
+test_VB datetime_NN index_NN round_NN
+test_VB to_TO frame_NN
+test_VB datetime_NN index_NN fill_NN na_NN
+test_VB tz_NN convert_NN
+test_VB map_NN
+test_VB get_VB level_NN values_NNS
+test_VB is_VBZ lex_NN sorted_VBN
+test_VB lex_NN sort_NN depth_NN
+test_VB repr_NN
+test_VB range_NN index_NN set_NN ops_NNS
+test_VB range_NN index_NN constructors_NNS
+test_VB range_NN index_NN
+test_VB index_NN set_NN ops_NNS
+test_VB index_NN constructor_NN
+test_VB index_NN rendering_NN
+test_VB reshape_NN
+test_VB comparison_NN
+test_VB timedelta_NN 64_NN array_NN like_IN comparisons_NNS
+test_VB timedelta_NN 64_NN array_NN comparisons_NNS
+test_VB timedelta_NN 64_NN arithmetic_NN unsorted_JJ
+test_VB add_VB sub_JJ na_NN t_NN masking_JJ
+test_VB timedelta_NN array_NN like_IN add_VB sub_JJ ops_NNS
+test_VB timedelta_NN array_NN like_IN mul_NN div_NN ops_NNS
+test_VB timedelta_NN 64_NN array_NN like_IN arithmetic_NN
+test_VB datetime_NN 64_NN array_NN like_IN comparisons_NNS
+test_VB datetime_NN 64_NN series_NNS comparison_NN
+test_VB datetime_NN index_NN comparisons_NNS
+test_VB datetime_NN 64_NN arithmetic_NN
+test_VB datetime_NN 64_NN date_NN offset_NN arithmetic_NN
+test_VB datetime_NN 64_NN overflow_JJ handling_NN
+test_VB timestamp_NN series_NNS arithmetic_NN
+test_VB numeric_JJ comparisons_NNS
+test_VB numeric_JJ array_NN like_IN arithmetic_NN with_IN datetime_NN like_IN
+test_VB division_NN by_IN zero_CD
+test_VB multiplication_NN division_NN
+test_VB addition_NN subtraction_NN
+test_VB u_NN func_NN compat_NN
+test_VB object_NN d_NN type_NN equivalence_NN
+test_VB numeric_JJ arithmetic_NN unsorted_JJ
+test_VB period_NN array_NN like_IN comparisons_NNS
+test_VB period_NN index_NN comparisons_NNS
+test_VB period_NN series_NNS comparisons_NNS
+test_VB period_NN index_NN series_NNS comparison_NN consistency_NN
+test_VB period_NN frame_NN arithmetic_NN
+test_VB period_NN index_NN arithmetic_NN
+test_VB period_NN series_NNS arithmetic_NN
+test_VB period_NN index_NN series_NNS methods_NNS
+test_VB object_NN comparisons_NNS
+test_VB arithmetic_NN
+my_VB index_NN
+test_VB categorical_JJ comparisons_NNS
+test_VB time_NN conversion_NN formats_NNS
+test_VB to_TO datetime_NN
+test_VB to_TO datetime_NN unit_NN
+test_VB to_TO datetime_NN data_NNS frame_NN
+test_VB to_TO datetime_NN misc_NN
+test_VB guess_NN datetime_NN format_NN
+test_VB to_TO datetime_NN infer_NN format_NN
+test_VB days_NNS in_IN month_NN
+test_VB datetime_NN parsing_NN wrappers_NNS
+test_VB origin_NN
+test_VB should_MD cache_NN
+test_VB to_TO time_NN
+test_VB index_NN reductions_NNS
+test_VB series_NNS reductions_NNS
+test_VB datetime_NN 64_NN series_NNS reductions_NNS
+test_VB categorical_JJ series_NNS reductions_NNS
+test_VB series_NNS mode_NN
+test_VB datetime_NN like_IN stat_NN reductions_NNS
+test_VB series_NNS stat_NN reductions_NNS
+test_VB eval_NN
+test_VB type_NN casting_NN
+test_VB alignment_NN
+test_VB operations_NNS
+test_VB math_NN
+test_VB scope_NN
+test_VB validate_VB
+test_VB selection_NN
+test_VB grouping_NN
+test_VB get_VB group_NN
+test_VB iteration_NN
+test_VB numeric_JJ only_RB
+test_VB engine_NN
+test_VB counting_NN
+raising_JJ object_NN exception_NN
+raising_JJ object_NN
+test_VB group_NN by_IN
+group_NN var_NN test_NN mixin_NN
+test_VB group_NN var_NN float64_NN
+test_VB group_NN var_NN float32_NN
+test_VB named_VBN aggregation_NN series_NNS
+test_VB named_VBN aggregation_NN data_NNS frame_NN
+test_VB lambda_NN mangling_JJ
+fn_VB class_NN
+test_VB data_NNS frame_NN plots_NNS
+test_VB data_NNS frame_NN group_NN by_IN plots_NNS
+test_VB series_NNS plots_NNS
+test_VB ts_NNS plot_NN
+test_VB get_VB standard_NN colors_NNS
+test_VB registration_NN
+test_VB date_NN time_NN converter_NN
+test_VB period_NN converter_NN
+axis_VBZ
+test_VB time_NN delta_NN converter_NN
+mock_VB axis_NN
+test_VB data_NNS frame_NN color_NN
+test_VB hist_NN with_IN by_IN
+test_VB box_NN with_IN by_IN
+test_VB data_NNS frame_NN plots_NNS subplots_NNS
+test_VB data_NNS frame_NN plots_NNS groupby_IN
+test_VB frame_NN legend_NN
+test_VB types_NNS
+base_NN
+test_VB pd_NN api_NN
+test_VB api_NN
+test_VB errors_NNS
+test_VB util_NN
+test_VB testing_NN
+test_VB block_NN
+test_VB block_NN manager_NN
+test_VB block_NN placement_NN
+test_VB can_VB hold_NN element_NN
+test_VB should_MD store_NN
+test_VB pad_NN backfill_NN
+test_VB infinity_NN
+test_VB hash_NN table_NN unsorted_JJ
+test_VB py_NN object_NN hash_NN table_NN with_IN nans_NNS
+test_VB hash_NN table_NN with_IN nans_NNS
+test_VB help_NN functions_NNS
+test_VB help_NN functions_NNS with_IN nans_NNS
+test_VB misc_JJ
+test_VB indexer_NN
+test_VB config_NN
+test_VB get_VB dummies_NNS
+test_VB union_NN categoricals_NNS
+test_VB cross_JJ tab_NN
+test_VB cartesian_NN product_NN
+test_VB melt_NN
+test_VB l_NN reshape_NN
+test_VB wide_VB to_TO long_NN
+test_VB pivot_NN table_NN
+mock_VB unstacker_JJ
+test_VB pivot_NN
+test_VB merge_VB multi_RB
+test_VB join_NN multi_RB multi_JJ
+test_VB merge_VB ordered_VBN
+not_RB a_FW data_NNS frame_NN
+test_VB merge_VB d_NN types_NNS
+test_VB merge_VB categorical_JJ
+test_VB merge_VB on_IN indexes_VBG
+test_VB as_IN of_IN merge_VB
+test_VB empty_JJ concat_NN
+test_VB invalid_JJ concat_NN
+test_VB datetime_NN concat_NN
+test_VB timezone_NN concat_NN
+test_VB period_NN concat_NN
+test_VB concatenate_NN
+custom_NN iterator_NN 1_CD
+custom_NN iterator_NN 2_CD
+test_VB concat_NN append_VB common_JJ
+test_VB series_NNS concat_NN
+test_VB index_NN concat_NN
+test_VB multi_JJ index_NN concat_NN
+test_VB categorical_JJ concat_NN
+test_VB concat_NN sort_NN
+test_VB data_NNS frame_NN concat_JJ
+test_VB stata_NN
+test_VB basic_JJ
+test_VB parquet_NN py_NN arrow_NN
+test_VB parquet_NN fast_NN parquet_NN
+test_VB compression_NN
+test_VB protocol_NN
+mock_VB read_VB response_NN
+my_VB tz_NN
+custom_NN fs_NN path_NN
+test_VB common_JJ io_NN capabilities_NNS
+test_VB m_NN map_NN wrapper_NN
+test_VB error_NN
+mock_VB sqlite_NN connection_NN
+dummy_VB exception_NN
+temporary_JJ
+test_VB
+test_VB memory_NN fs_NN
+test_VB clipboard_NN
+test_VB read_VB html_NN
+unseekable_JJ string_NN io_NN
+mock_NN file_NN
+error_NN thread_NN
+test_VB feather_NN
+my_VB mapping_NN
+test_VB p_NN print_NN thing_NN
+test_VB format_NN base_NN
+test_VB data_NNS frame_NN formatting_NN
+a_VB
+test_VB series_NNS formatting_NN
+test_VB generic_JJ array_NN formatter_NN
+d_NN type_NN stub_NN
+ext_VB type_NN stub_NN
+test_VB float_NN array_NN formatter_NN
+test_VB timedelta_NN 64_NN formatter_NN
+test_VB datetime_NN 64_NN formatter_NN
+test_VB format_NN percentiles_NNS
+test_VB table_NN schema_NN repr_NN
+test_VB html_NN index_NN
+test_VB repr_NN html_NN
+test_VB eng_NN formatter_NN
+test_VB to_TO csv_VB
+mock_JJ encoding_NN
+test_VB data_NNS frame_NN to_TO string_NN formatters_NNS
+test_VB data_NNS frame_NN to_TO string_NN col_NN space_NN
+test_VB data_NNS frame_NN to_TO string_NN header_NN
+test_VB data_NNS frame_NN to_TO string_NN line_NN width_NN
+test_VB to_TO string_NN numeric_JJ formatting_NN
+test_VB data_NNS frame_NN to_TO string_NN
+test_VB series_NNS to_TO string_NN
+test_VB to_TO latex_NN
+test_VB to_TO latex_NN long_NN table_NN
+test_VB to_TO latex_NN header_NN
+test_VB to_TO latex_NN bold_NN
+test_VB to_TO latex_NN caption_NN label_NN
+test_VB to_TO latex_NN escape_NN
+test_VB to_TO latex_NN position_NN
+test_VB to_TO latex_NN formatters_NNS
+test_VB to_TO latex_NN multiindex_NN
+custom_JJ styler_NN
+test_VB styler_NN
+test_VB x_NN port_NN
+test_VB sas_NN
+test_VB sas_NN 7_CD b_FW dat_NN
+test_VB hdf_NN store_NN subclass_NN
+test_VB read_VB py_FW tables_NNS hdf5_NN
+table_NN 1_CD
+table_NN 2_CD
+table_NN 3_CD
+test_VB readers_NNS
+test_VB excel_NN file_NN read_NN
+test_VB round_JJ trip_NN
+test_VB excel_NN writer_NN
+test_VB excel_NN writer_NN engine_NN tests_NNS
+dummy_VB class_NN
+test_VB fs_NN path_NN
+test_VB build_VB schema_NN
+test_VB table_NN schema_NN type_NN
+test_VB table_NN orient_NN
+test_VB table_NN orient_JJ reader_NN
+my_VB reader_NN
+test_VB pandas_NN container_NN
+binary_JJ thing_NN
+test_VB object_NN
+test_VB json_NNP normalize_NN
+test_VB nested_JJ to_TO record_NN
+test_VB ultra_NN json_NNP tests_NNS
+o_NN 2_CD
+o_NN 1_CD
+dict_VB test_VB
+test_VB numpy_NN json_NNP tests_NNS
+test_VB pandas_NNS json_NNP tests_NNS
+invalid_JJ dialect_NN
+base_NN parser_NN
+c_NN parser_NN
+c_NN parser_NN high_NN memory_NN
+c_NN parser_NN low_JJ memory_NN
+python_NN parser_NN
+py_VB arrow_NN parser_NN
+test_VB s_FW 3_CD
+no_DT next_JJ buffer_NN
+test_VB text_NN reader_NN
+test_VB unsupported_JJ features_NNS
+invalid_JJ buffer_NN
+no_DT seek_NN tell_NN buffer_NN
+my_JJ text_NN file_NN reader_NN
+my_VB c_NN parser_NN wrapper_NN
+test_VB is_VBZ na_NN
+test_VB na_NN obj_NN
+test_VB lib_NN missing_VBG
+test_VB is_VBZ valid_JJ na_NN for_IN d_NN type_NN
+test_VB numpy_NN ead_JJ type_NN
+not_RB tzd_VB type_NN
+my_VB numeric_JJ d_NN type_NN
+mock_VB numpy_NN like_IN array_NN
+not_RB list_VB like_IN
+my_VB data_NNS frame_NN
+d_NN type_NN list_NN
+dict_VB like_IN
+hashable_JJ class_NN
+unhashable_JJ class_NN 1_CD
+unhashable_JJ class_NN 2_CD
+test_VB inference_NN
+test_VB type_NN inference_NN
+dummy_VB
+test_VB number_NN scalar_NN
+test_VB is_VBZ scalar_NN
+numeric_JJ
+test_VB categorical_NN d_NN type_NN
+test_VB datetime_NN tzd_NN type_NN
+test_VB period_NN d_NN type_NN
+test_VB interval_NN d_NN type_NN
+test_VB categorical_NN d_NN type_NN parametrized_VBN
+test_VB abc_JJ classes_NNS
+test_VB data_NNS frame_NN constructors_NNS
+dummy_VB container_NN
+iter_NN
+custom_JJ dict_JJ
+list_VB
+datetime_NN subclass_NN
+test_VB data_NNS frame_NN constructor_NN index_NN inference_NN
+test_VB data_NNS frame_NN constructor_NN with_IN d_NN type_NN coercion_NN
+test_VB data_NNS frame_NN constructor_NN with_IN datetime_NN tz_NN
+test_VB from_IN scalar_NN
+test_VB allow_NN non_RB na_JJ no_DT
+test_VB data_NNS frame_NN nonunique_JJ indexes_NNS
+test_VB data_NNS frame_NN subclassing_NN
+custom_JJ series_NNS
+custom_JJ data_NNS frame_NN
+my_VB subclass_NN with_IN metadata_NNS
+simple_JJ data_NNS frame_JJ sub_JJ class_NN
+simple_JJ series_NNS sub_JJ class_NN
+test_VB subclass_NN without_IN constructor_NN
+dummy_VB element_NN
+test_VB frame_NN comparisons_NNS
+test_VB frame_NN flex_NN comparisons_NNS
+test_VB frame_NN flex_NN arithmetic_NN
+test_VB frame_NN arithmetic_NN
+test_VB frame_NN arithmetic_NN unsorted_JJ
+test_VB data_NNS frame_NN alter_JJ axes_NNS
+test_VB data_NNS frame_NN analytics_NNS
+test_VB data_NNS frame_NN reductions_NNS
+test_VB nuisance_JJ columns_NNS
+test_VB empty_JJ data_NNS frame_NN reductions_NNS
+test_VB as_IN array_NN
+test_VB data_NNS frame_NN repr_NN
+test_VB data_NNS frame_NN logical_JJ operators_NNS
+test_VB data_NNS frame_NN validate_NN
+test_VB data_NNS frame_NN reshape_NN
+test_VB stack_NN unstack_JJ multi_JJ level_NN
+test_VB data_NNS frame_NN unary_JJ operators_NNS
+test_VB data_NNS frame_NN block_NN internals_NNS
+test_VB compat_NN
+test_VB data_NNS frame_NN eval_NN
+test_VB data_NNS frame_NN query_NN with_IN multi_JJ index_NN
+test_VB data_NNS frame_NN query_NN num_NN expr_NN pandas_NNS
+my_VB dense_NN
+my_VB dropout_NN
+my_VB model_NN
+activity_NN regularization_NN layer_NN
+custom_JJ callback_NN
+loss_NN and_CC error_NN printing_NN callback_NN
+early_RB stopping_NN at_IN min_JJ loss_NN
+custom_JJ learning_JJ rate_NN scheduler_NN
+linear_NN
+compute_VB sum_NN
+mlp_VB block_NN
+outer_NN layer_NN
+outer_NN layer_NN with_IN kernel_NN regularizer_NN
+custom_JJ dropout_NN
+sampling_JJ
+encoder_VB
+decoder_NN
+variational_JJ auto_NN encoder_NN
+custom_NN model_NN
+my_VB layer_NN
+temporal_JJ split_VB
+custom_JJ embedding_NN
+my_VB activation_NN
+temporal_JJ softmax_NN
+custom_JJ dense_NN
+custom_JJ rnn_NN
+gan_VB
+custom_JJ mse_NN
+categorical_JJ true_NN positives_NNS
+logistic_JJ endpoint_NN
+example_VB py_NN dataset_NN
+example_VB torch_NN dataset_NN
+loss_NN history_NN
+keras_VBZ export_NN
+example_VB model_NN
+clone_VB model_NN test_NN
+sequential_JJ
+model_NN test_NN
+multi_JJ input_NN model_NN
+nested_JJ layer_NN
+double_NN nested_JJ layer_NN
+variable_JJ mapping_NN test_NN
+functional_JJ
+sequential_JJ test_NN
+dict_VB layer_NN
+list_VB layer_NN
+dynamic_JJ layer_NN
+bad_JJ layer_NN
+model_NN
+functional_JJ test_NN
+canary_VB
+variable_NN
+name_NN scope_NN
+jax_NN trainer_NN
+jax_NN epoch_NN iterator_NN
+jax_NN layer_NN
+jax_NN distribution_NN lib_NN test_NN
+sharding_NN capture_NN layer_NN
+jax_NN optimizer_NN
+device_NN test_NN
+compute_VB output_NN spec_NN test_NN
+tensor_NN flow_NN trainer_NN
+deprecated_VBN compiled_VBD metric_JJ
+tf_VB epoch_NN iterator_NN
+tf_VB layer_NN
+optimizer_NN distribute_NN test_NN
+tf_VB name_NN scope_NN test_NN
+custom_NN model_NN x_NN
+custom_JJ signature_NN model_NN
+saved_VBN model_NN test_NN
+custom_JJ layer_NN
+custom_JJ layer_NN list_NN
+custom_JJ layer_NN dict_JJ
+adder_VB
+distribute_VB test_VB
+tf_VB optimizer_NN
+keras_VBZ auto_JJ trackable_NN
+torch_NN trainer_NN
+torch_NN epoch_NN iterator_NN
+torch_NN layer_NN
+custom_JJ gradient_NN
+custom_JJ gradient_NN function_NN
+adam_VB
+lion_NN
+torch_NN optimizer_NN
+adam_VB w_NN
+nadam_NN
+rms_VB prop_NN
+ada_VB grad_NN
+ada_VB max_JJ
+sgd_VB
+torch_NN parallel_NN optimizer_NN
+ada_VB delta_NN
+numpy_NN trainer_NN
+numpy_NN layer_NN
+keras_VBZ variable_NN
+auto_JJ cast_VB scope_NN
+variable_NN initialization_NN test_NN
+variable_NN properties_NNS test_NN
+variable_NN numpy_NN value_NN and_CC assignment_NN test_NN
+variable_NN d_NN type_NN shape_NN n_NN dim_NN repr_NN
+variable_NN operations_NNS test_NN
+variable_NN binary_JJ operations_NNS test_NN
+test_VB standardize_NN shape_NN with_IN torch_NN
+test_VB standardize_NN shape_NN with_IN out_RP torch_NN
+keras_VBZ tensor_NN test_NN
+convert_VB conv_NN transpose_NN padding_NN args_NNS jax_NN test_NN
+convert_VB conv_NN transpose_NN padding_NN args_NNS torch_NN test_NN
+compute_VB conv_NN transpose_NN padding_NN args_NNS for_IN jax_NN test_NN
+compute_VB conv_NN transpose_NN padding_NN args_NNS for_IN torch_NN test_NN
+get_VB output_NN shape_NN given_NN tf_IN padding_NN test_NN
+d_VB types_NNS test_VB
+test_VB stateless_NN scope_NN
+global_JJ state_NN test_NN
+stateless_NN scope_NN
+name_NN scope_NN test_NN
+keras_VBZ tensor_NN
+container_NN
+random_JJ layer_NN
+export_VB archive_NN test_NN
+test_VB tfsm_NN layer_NN
+export_VB archive_NN
+tfsm_VB layer_NN
+serializable_JJ dict_JJ
+safe_JJ mode_NN scope_NN
+object_NN sharing_NN scope_NN
+disk_VB io_NN store_NN
+h_VB 5_FW io_NN store_NN
+h_VB 5_NN entry_NN
+npz_VB io_NN store_NN
+custom_JJ object_NN scope_NN
+layer_NN with_IN custom_NN saving_NN
+model_NN with_IN custom_JJ saving_NN
+compile_VB overriding_VBN model_NN
+compile_VB overriding_JJ sequential_JJ
+subclass_VB functional_JJ
+saving_NN test_NN
+saving_JJ api_NNP test_NN
+growth_NN factor_NN
+factor_NN layer_NN
+complex_VB model_NN
+saving_JJ battle_NN test_NN
+normal_JJ model_NN
+weird_NN model_NN
+save_VB model_NN tests_NNS
+load_VB model_NN tests_NNS
+load_VB weights_NNS tests_NNS
+save_VB model_NN tests_NNS warning_VBG
+nested_JJ custom_NN layer_NN
+wrapper_VB layer_NN
+serialization_NN lib_NN test_NN
+plain_VB functional_JJ subclass_NN
+functional_JJ subclass_NN w_NN custom_NN init_VB
+shared_VBN activation_NN
+my_VB wrapper_NN
+test_VB object_NN registration_NN
+custom_JJ class_NN
+test_VB class_NN
+other_JJ test_NN class_NN
+alpha_VB dropout_NN
+random_JJ height_NN
+random_JJ width_NN
+thresholded_CD re_NN lu_NN
+reduction_VB
+timeseries_NNS generator_NN
+iterator_NN
+batch_NN from_IN files_NNS mixin_NN
+directory_NN iterator_NN
+numpy_JJ array_NN iterator_NN
+data_NNS frame_NN iterator_NN
+image_VB data_NNS generator_NN
+tokenizer_NN
+json_NNP utils_NNP test_VB all_DT backends_NNS
+enum_NN
+json_NNP utils_NNP test_NN tf_NN
+masked_JJ tensor_NN
+disable_VB shared_JJ object_NN scope_NN
+noop_JJ loading_NN scope_NN
+shared_VBN object_NN loading_NN scope_NN
+shared_VBN object_NN config_NN
+shared_VBN object_NN saving_NN scope_NN
+legacy_VB h_NN 5_IN weights_NNS test_NN
+legacy_VB h_NN 5_NN whole_NN model_NN test_NN
+registered_VBN sub_JJ layer_NN
+legacy_VB h_NN 5_NN backwards_NNS compat_NN test_NN
+directory_NN creation_NN test_NN
+re_VB lu_NN
+mish_VB
+activations_NNS test_NN
+loss_NN
+example_VB loss_NN
+loss_NN test_NN
+mean_VB squared_JJ error_NN test_NN
+mean_VB absolute_IN error_NN test_NN
+mean_NN absolute_NN percentage_NN error_NN test_NN
+mean_NN squared_VBN logarithmic_JJ error_NN test_NN
+hinge_VB test_VB
+squared_VBN hinge_NN test_NN
+categorical_JJ hinge_NN test_NN
+cosine_VB similarity_NN test_NN
+huber_VB loss_NN test_NN
+log_VB cosh_NN test_NN
+kl_VB divergence_NN test_NN
+poisson_NN test_NN
+binary_JJ crossentropy_NN test_NN
+categorical_JJ crossentropy_NN test_NN
+sparse_VB categorical_JJ crossentropy_NN test_NN
+binary_JJ focal_JJ crossentropy_NN test_NN
+categorical_JJ focal_JJ crossentropy_NN test_NN
+ctc_VB test_VB
+dice_VB test_VB
+loss_NN function_NN wrapper_NN
+mean_VB squared_JJ error_NN
+mean_VB absolute_JJ error_NN
+mean_NN absolute_NN percentage_NN error_NN
+mean_NN squared_VBN logarithmic_JJ error_NN
+cosine_VB similarity_NN
+huber_NN
+log_VB cosh_NN
+hinge_VB
+squared_VBN hinge_NN
+categorical_JJ hinge_NN
+kl_NN divergence_NN
+poisson_NN
+binary_JJ crossentropy_NN
+binary_JJ focal_JJ crossentropy_NN
+categorical_JJ crossentropy_NN
+categorical_JJ focal_JJ crossentropy_NN
+sparse_VB categorical_JJ crossentropy_NN
+ctc_VB
+dice_VB
+device_NN mesh_NN
+tensor_NN layout_NN
+distribution_NN
+data_NNS parallel_NN
+model_NN parallel_NN
+layout_NN map_NN
+multi_RB process_VB initialize_VB test_NN
+device_VB mesh_NN test_NN
+tensor_VB layout_NN test_NN
+distribution_NN test_NN
+data_NNS parallel_NN distribution_NN test_NN
+model_NN parallel_NN distribution_NN test_NN
+layout_VB map_NN test_NN
+seed_VBN generator_NN test_NN
+random_JJ test_NN
+seed_VBN generator_NN
+optimizer_NN test_NN
+ada_VB max_JJ test_NN
+adam_VB w_NN test_NN
+ftrl_NN
+rms_VB prop_NN test_NN
+scatter_NN update_NN optimizer_NN
+optimizer_NN sparse_VB test_NN
+ada_VB delta_NN test_NN
+loss_NN scale_NN optimizer_NN
+loss_NN scale_VB optimizer_NN test_NN
+ftrl_NN test_NN
+sgd_VB test_VB
+base_NN optimizer_NN
+ada_VB grad_NN test_NN
+ada_VB factor_NN
+adam_VB test_VB
+lion_NN test_NN
+legacy_VB optimizer_NN warning_NN
+optimizer_NN
+ada_VB factor_NN test_NN
+nadam_NN test_NN
+learning_JJ rate_NN schedule_NN
+exponential_JJ decay_NN
+piecewise_VB constant_NN decay_NN
+polynomial_JJ decay_NN
+inverse_VB time_NN decay_NN
+cosine_VB decay_NN
+cosine_VB decay_NN restarts_NNS
+test_VB fit_NN lr_NN schedules_NNS flow_NN
+exponential_JJ decay_NN test_NN
+piecewise_VB constant_NN decay_NN test_NN
+linear_NN decay_NN test_NN
+sqrt_VB decay_NN test_NN
+inverse_VB time_NN decay_NN test_NN
+cosine_VB decay_NN test_NN
+cosine_VB decay_NN restarts_NNS test_NN
+constraints_NNS test_NN
+constraint_VB
+max_JJ norm_NN
+non_RB neg_JJ
+unit_VB norm_JJ
+min_JJ max_NN norm_NN
+regularizers_VB test_VB
+validate_VB float_IN arg_NN test_NN
+regularizer_NN
+l_NN 1_CD l_NN 2_CD
+l_NN 1_CD
+l_NN 2_CD
+orthogonal_JJ regularizer_NN
+naming_VBG utils_NNP test_VB
+object_NN without_IN name_NN
+object_NN without_IN name_NN or_CC class_NN
+mock_VB keras_NNP object_NN
+path_NN to_TO string_NN test_NN
+non_RB string_NN typed_VBN path_NN object_NN
+resolve_VB path_NN test_NN
+is_VBZ path_NN in_IN dir_NN test_NN
+is_VBZ link_NN in_IN dir_NN test_NN
+filter_NN safe_JJ paths_NNS test_NN
+extract_VB archive_NN test_NN
+get_VB file_NN test_NN
+hash_VB file_NN test_NN
+test_VB validate_VB file_NN
+resolve_VB hasher_NN test_NN
+is_VBZ remote_JJ path_NN test_NN
+test_VB raise_NN if_IN no_DT g_NN file_NN
+text_NN dataset_NN from_IN directory_NN test_NN
+torch_NN module_NN wrapper_NN
+image_VB dataset_NN from_IN directory_NN test_NN
+flax_VB layer_NN
+timeseries_NNS dataset_NN test_NN
+tree_NN test_NN
+prog_NN bar_NN
+dot_VB not_RB track_NN scope_NN
+tracker_NN
+tracked_JJ list_NN
+tracked_JJ dict_JJ
+tracked_JJ set_VB
+dataset_VB utils_NNP test_NN
+dataset_VB
+classifier_NN
+classifier_NN with_IN no_DT special_JJ casing_NN
+torch_NN utils_NNP test_NN
+test_VB numerical_JJ utils_NNS
+flax_VB training_JJ independent_NN model_NN
+flax_VB dropout_NN model_NN
+flax_VB batch_NN norm_JJ model_NN
+test_VB jax_NN layer_NN
+test_VB model_NN
+my_VB flax_NN layer_NN
+named_VBN point_NN
+tracking_JJ test_NN
+tf_VB graph_NN scope_NN
+dynamic_JJ backend_JJ
+dl_NN prog_NN bar_NN
+python_VB utils_NNP test_NN
+lazy_JJ module_NN
+test_VB random_JJ seed_NNS setting_NN
+test_VB io_NN utils_NNS
+test_VB count_NN loc_NN
+map_VB to_TO none_NN
+pad_VB sequences_NNS test_VB
+summary_VB utils_NNP test_NN
+d_NN type_NN size_NN tests_NNS
+is_VBZ float_NN tests_NNS
+cast_VB to_TO common_JJ d_JJ type_NN
+audio_VB dataset_NN from_IN directory_NN test_NN
+segment_NN sum_NN
+segment_NN max_JJ
+top_JJ k_FW
+in_IN top_JJ k_FW
+logsumexp_VB
+extract_VB sequences_NNS
+fft_VB
+fft_NN 2_CD
+rfft_VB
+irfft_VB
+stft_NN
+istft_VBZ
+r_NN sqrt_NN
+erf_VB
+erf_VB inv_NN
+dummy_VB layer_NN
+node_NN test_VB
+op_VB with_IN multiple_JJ inputs_NNS
+op_VB with_IN multiple_JJ outputs_NNS
+op_VB with_IN custom_JJ constructor_NN
+operation_NN test_NN
+absolute_VB
+abs_IN
+add_VB
+all_DT
+any_VB
+a_FW max_JJ
+amin_VB
+append_VB
+a_VB range_NN
+arccos_VB
+arc_FW cosh_NN
+arcsin_VB
+arc_FW sinh_NN
+arctan_VB
+arctan_NN 2_CD
+arc_FW tanh_NN
+arg_NN max_JJ
+arg_NN min_JJ
+arg_NN sort_NN
+array_NN
+average_JJ
+bin_VB count_NN
+broadcast_NN to_TO
+ceil_NN
+clip_VB
+concatenate_VB
+conjugate_VB
+conj_NN
+copy_VB
+cos_VB
+cosh_VB
+count_VB nonzero_DT
+cross_VB
+cumprod_VB
+cumsum_NN
+diag_NN
+diagonal_JJ
+diff_JJ
+digitize_VB
+dot_VB
+einsum_NN
+empty_JJ
+equal_JJ
+exp_VB
+expand_VB dims_NNS
+expm_NN 1_CD
+flip_VB
+floor_VB
+full_JJ
+full_JJ like_IN
+get_VB item_NN
+greater_JJR
+greater_JJR equal_JJ
+h_VB stack_NN
+identity_NN
+i_NN mag_NN
+is_VBZ close_NN
+is_VBZ finite_JJ
+is_VBZ inf_NN
+is_VBZ nan_NN
+less_JJR
+less_JJR equal_JJ
+linspace_NN
+log_VB
+log10_NN
+log_NN 1_CD p_NN
+log2_VB
+log_VB add_VB exp_NN
+logical_JJ and_CC
+logical_JJ not_RB
+logical_JJ or_CC
+log_VB space_NN
+mat_VB mul_JJ
+max_JJ
+maximum_JJ
+median_NN
+mesh_VB grid_NN
+min_JJ
+minimum_JJ
+mod_VB
+move_VB axis_NN
+nan_NN to_TO num_NN
+n_NN dim_NN
+nonzero_DT
+not_RB equal_JJ
+ones_CD like_IN
+zeros_CD like_IN
+outer_NN
+pad_VB
+prod_NN
+quantile_VB
+ravel_NN
+real_JJ
+reciprocal_JJ
+repeat_VB
+reshape_VB
+roll_NN
+round_JJ
+sign_NN
+sin_IN
+sinh_NN
+size_NN
+sort_VB
+split_VB
+stack_NN
+std_JJ
+swapaxes_NNS
+take_VB
+take_VB along_NN axis_NN
+tan_NN
+tanh_VB
+tensor_NN dot_NN
+tile_VB
+trace_NN
+tri_VB
+tril_NN
+triu_VB
+v_VB dot_NN
+v_VB stack_NN
+where_WRB
+subtract_VB
+multiply_VB
+divide_VB
+divide_VB no_DT nan_NN
+true_VB divide_NN
+power_NN
+negative_JJ
+square_VB
+sqrt_VB
+squeeze_VB
+transpose_VB
+mean_NN
+var_NN
+sum_NN
+zeros_CD
+ones_CD
+eye_VB
+floor_VB divide_NN
+logical_JJ xor_NN
+correlate_VB
+function_NN
+nn_JJ ops_NNS dynamic_JJ shape_NN test_NN
+softmax_NN layer_NN
+nn_NN ops_NNS static_JJ shape_NN test_NN
+nn_NN ops_NNS correctness_NNS test_NN
+test_VB logit_NN recovery_NN
+nn_VB ops_NNS d_NN type_NN test_NN
+linalg_JJ ops_NNS dynamic_JJ shape_NN test_NN
+linalg_NN ops_NNS static_JJ shape_NN test_NN
+linalg_NN ops_NNS correctness_NNS test_NN
+qr_VB op_NN test_NN
+scatter_NN
+scatter_NN update_NN
+slice_VB
+slice_VB update_NN
+while_VB loop_NN
+stop_VB gradient_NN
+f_VB ori_NN loop_NN
+unstack_JJ
+cast_VB
+cond_VB
+symbolic_NNP arguments_NNS
+math_VB ops_NNS dynamic_JJ shape_NN test_NN
+math_NN ops_NNS static_JJ shape_NN test_NN
+math_NN ops_NNS correctness_NNS test_NN
+math_NN d_NN type_NN test_NN
+extract_VB sequences_NNS op_NN test_NN
+segment_VB sum_NN test_NN
+segment_VB max_JJ test_NN
+top_JJ k_FW test_NN
+in_IN top_JJ k_NN test_NN
+logsumexp_VB test_VB
+fft_VB test_VB
+fft_VB 2_CD test_NN
+rfft_VB test_VB
+istft_VB test_VB
+operation_NN utils_NNP test_NN
+numpy_NN two_CD input_NN ops_NNS dynamic_JJ shape_NN test_NN
+numpy_NN two_CD input_NN ops_NNS static_JJ shape_NN test_NN
+numpy_VB one_CD input_NN ops_NNS dynamic_JJ shape_NN test_NN
+numpy_VB one_CD input_NN ops_NNS static_JJ shape_NN test_NN
+numpy_NN two_CD input_NN ops_NNS corretness_NN test_NN
+numpy_VB one_CD input_NN ops_NNS correctness_NN test_NN
+numpy_JJ array_NN create_VB ops_NNS correctness_NNS test_NN
+sparse_VB test_VB
+numpy_NN d_NN type_NN test_NN
+relu_VB
+relu_NN 6_CD
+sigmoid_NN
+soft_NN plus_NN
+soft_NN sign_NN
+silu_NN
+log_VB sigmoid_NN
+leaky_VB relu_NN
+hard_NN sigmoid_NN
+hard_NN silu_NN
+elu_VB
+selu_VB
+gelu_VB
+softmax_NN
+log_VB softmax_NN
+max_JJ pool_NN
+average_JJ pool_NN
+conv_VB
+depthwise_VB conv_NN
+separable_JJ conv_NN
+conv_VB transpose_NN
+one_CD hot_NN
+multi_JJ hot_NN
+moments_NNS
+batch_NN norm_JJ
+ctc_VB loss_NN
+normalize_VB
+resize_VB
+affine_VB transform_NN
+extract_VB patches_NNS
+map_VB coordinates_NNS
+pad_VB images_NNS
+crop_VB images_NNS
+cholesky_VB
+det_VB
+eig_JJ
+inv_VB
+lu_VB factor_NN
+norm_VB
+qr_VB
+solve_VB
+solve_VB triangular_JJ
+svd_VB
+operation_NN
+node_NN
+keras_VBZ history_NN
+core_VB ops_NNS static_JJ shape_NN test_NN
+core_VB ops_NNS correctness_NNS test_NN
+example_VB layer_NN
+core_VB ops_NNS d_NN type_NN test_NN
+core_VB ops_NNS calls_NNS tests_NNS
+image_VB ops_NNS dynamic_JJ shape_NN test_NN
+image_VB ops_NNS static_JJ shape_NN test_NN
+image_VB ops_NNS correctness_NNS test_NN
+function_NN test_NN
+symbolic_NNP arguments_NNS test_NN
+random_JJ normal_JJ
+truncated_VBN normal_JJ
+random_JJ uniform_NN
+variance_NN scaling_NN
+glorot_VB uniform_NN
+glorot_VB normal_JJ
+lecun_VB normal_JJ
+lecun_VB uniform_NN
+he_VB normal_JJ
+he_VB uniform_NN
+orthogonal_JJ initializer_NN
+constant_VB initializers_NNS test_VB
+initializers_VB test_VB
+initializer_NN
+d_NN type_NN policy_NN test_NN
+float_VB d_NN type_NN policy_NN test_NN
+quantized_VBN d_NN type_NN policy_NN test_NN
+d_NN type_NN policy_NN global_JJ functions_NNS test_NN
+float_VB d_NN type_NN policy_NN edge_NN cases_NNS test_NN
+quantized_VBN d_NN type_NN policy_NN edge_NN cases_NNS test_NN
+d_NN type_NN policy_NN global_JJ functions_NNS edge_NN cases_NNS test_NN
+d_NN type_NN policy_NN
+float_VB d_NN type_NN policy_NN
+quantized_VBN d_NN type_NN policy_NN
+test_VB case_NN
+get_VB test_VB data_NNS test_VB
+class_NN distribution_NN tests_NNS
+named_VBN product_NN test_NN
+mean_NN metric_NN wrapper_NN
+io_VB u_NN base_NN
+io_VB u_NN
+binary_JJ io_NN u_NN
+mean_NN io_NN u_NN
+one_CD hot_NN io_NN u_NN
+one_CD hot_NN mean_NN io_NN u_NN
+confusion_NN matrix_NN
+auc_VB curve_JJ
+auc_VB summation_NN method_NN
+example_JJ metric_NN
+metric_NN test_NN
+f_VB beta_IN score_NN
+f_FW 1_CD score_NN
+false_VB positives_NNS test_VB
+false_VB negatives_NNS test_VB
+true_VB negatives_NNS test_VB
+true_VB positive_JJ test_NN
+precision_NN test_NN
+recall_VB test_VB
+sensitivity_VB at_IN specificity_NN test_NN
+specificity_NN at_IN sensitivity_NN test_NN
+precision_NN at_IN recall_NN test_NN
+recall_VB at_IN precision_NN test_NN
+auc_VB test_VB
+multi_JJ auc_NN test_NN
+metric_NN
+root_NN mean_NN squared_VBN error_NN test_NN
+log_VB cosh_FW error_NN test_NN
+r_NN 2_CD score_NN test_NN
+accuracy_VB test_VB
+binary_JJ accuracy_NN test_NN
+categorical_JJ accuracy_NN test_NN
+sparse_VB categorical_JJ accuracy_NN test_NN
+top_JJ k_FW categorical_JJ accuracy_NN test_NN
+sparse_VB top_JJ k_FW categorical_JJ accuracy_NN test_NN
+f_VB beta_IN score_NN test_NN
+f_FW 1_CD score_NN test_NN
+io_VB u_NN test_NN
+binary_JJ io_NN u_NN test_NN
+mean_NN io_NN u_NN test_NN
+one_CD hot_NN io_NN u_NN test_NN
+one_CD hot_NN mean_NN io_NN u_NN test_NN
+accuracy_VB
+binary_JJ accuracy_NN
+categorical_JJ accuracy_NN
+sparse_VB categorical_JJ accuracy_NN
+top_JJ k_FW categorical_JJ accuracy_NN
+sparse_VB top_JJ k_FW categorical_JJ accuracy_NN
+root_NN mean_NN squared_VBN error_NN
+log_VB cosh_FW error_NN
+r_NN 2_CD score_NN
+confusion_NN matrix_NN condition_NN count_NN
+false_VB positives_NNS
+false_VB negatives_NNS
+true_VB negatives_NNS
+true_VB positives_NNS
+precision_NN
+recall_VB
+sensitivity_VB specificity_NN base_NN
+sensitivity_VB at_IN specificity_NN
+specificity_NN at_IN sensitivity_NN
+precision_NN at_IN recall_NN
+recall_VB at_IN precision_NN
+auc_VB
+sum_NN test_NN
+mean_VB test_VB
+metric_JJ wrapper_NN test_NN
+callback_NN
+callback_NN list_NN
+swap_VB ema_NN weights_NNS test_NN
+prog_NN bar_NN logger_NN
+reduce_VB lr_NN on_IN plateau_NN
+reduce_VB lr_NN on_IN plateau_NN test_NN
+learning_JJ rate_NN scheduler_NN test_NN
+learning_JJ rate_NN scheduler_NN
+summary_NN iterator_NN
+summary_NN file_NN
+test_VB tensor_NN board_NN v_NN 2_CD
+layer_NN with_IN summary_NN
+terminate_VB on_IN na_NN n_NN test_NN
+callback_VB test_VB
+cbk_VB
+tensor_NN board_NN
+swap_VB ema_NN weights_NNS
+csv_VB logger_NN
+custom_JJ dialect_VB
+terminate_VB on_IN na_NN n_NN
+csv_VB logger_NN test_NN
+history_NN
+lambda_VB callback_NN
+model_NN checkpoint_NN
+lambda_VB callback_NN test_NN
+early_RB stopping_NN
+remote_JJ monitor_NN
+interrupting_NN callback_NN
+canary_VB layer_NN
+backup_NN and_CC restore_VB callback_NN test_NN
+model_NN checkpoint_NN test_VB
+early_RB stopping_NN test_NN
+dummy_VB model_NN
+backup_NN and_CC restore_VB
+custom_JJ scale_VB layer_NN
+test_VB image_NN net_NN utils_NNS
+stochastic_JJ depth_NN
+layer_NN scale_NN
+applications_VB test_VB
+quantizers_VB test_VB
+quantizer_NN
+abs_VB max_JJ quantizer_NN
+layer_NN
+call_VB spec_NN
+call_VB context_NN
+input_NN spec_NN
+layer_NN test_NN
+test_VB layer_NN
+some_DT layer_NN
+rng_NN layer_NN
+rng_NN list_NN layer_NN
+layer_NN with_IN metric_NN
+nested_JJ layer_NN with_IN metric_NN
+layer_NN with_IN unbuilt_JJ state_NN
+kwargs_NNS layer_NN with_IN unbuilt_JJ state_NN
+activity_NN regularizer_NN
+loss_NN layer_NN
+training_JJ layer_NN
+wrapped_JJ training_NN layer_NN
+training_JJ layer_NN explicit_JJ
+inner_JJ layer_NN one_CD
+inner_JJ layer_NN two_CD
+inner_JJ layer_NN three_NN
+mixed_VBN precision_NN layer_NN
+basic_JJ masked_JJ layer_NN
+nested_JJ input_NN masked_JJ layer_NN
+positional_JJ inputs_NNS masked_VBN layer_NN
+positional_JJ nested_JJ inputs_NNS masked_VBN layer_NN
+non_RB trainable_JJ weights_NNS layer_NN
+nested_JJ non_RB trainable_JJ weights_NNS layer_NN
+no_DT shape_NN suffix_NN
+non_RB matching_JJ argument_NN
+matching_JJ arguments_NNS
+subset_NN arguments_NNS
+single_JJ argument_NN
+no_DT training_NN specified_VBN
+random_JJ crop_VB
+mel_NN spectrogram_NN
+resizing_NN
+string_NN lookup_NN test_NN
+index_VB lookup_NN
+null_JJ initializer_NN
+index_VB lookup_NN layer_NN test_NN
+discretization_NN
+random_JJ contrast_NN test_NN
+random_JJ zoom_NN
+hashing_NN test_NN
+hashed_VBN crossing_JJ
+hashed_VBN crossing_JJ test_NN
+random_JJ flip_NN
+mocked_VBN random_JJ flip_NN
+random_JJ flip_NN test_NN
+feature_VB
+feature_VB space_NN
+random_JJ brightness_NN test_NN
+hashing_VBZ
+integer_VB lookup_NN test_NN
+center_NN crop_VB
+random_JJ contrast_NN
+text_NN vectorization_NN test_NN
+random_JJ brightness_NN
+random_JJ rotation_NN test_NN
+discretization_VB test_VB
+random_JJ translation_NN
+resizing_NN test_NN
+feature_VB space_NN test_NN
+rescaling_JJ
+rescaling_JJ test_NN
+string_NN lookup_NN
+random_JJ zoom_NN test_NN
+center_NN crop_VB test_NN
+normalization_NN
+integer_VB lookup_NN
+category_VB encoding_NN test_NN
+mel_JJ spectrogram_NN test_NN
+random_JJ crop_VB test_NN
+random_JJ rotation_NN
+tf_VB data_NNS layer_NN
+category_NN encoding_NN
+text_NN vectorization_NN
+random_JJ translation_NN test_NN
+normalization_NN test_NN
+max_JJ pooling_JJ 1_CD d_NN
+max_JJ pooling_JJ 3d_NN
+average_JJ pooling_JJ 3d_NN
+average_VB pooling_JJ 1_CD d_NN
+global_JJ average_NN pooling_JJ 2_CD d_NN
+base_NN global_JJ pooling_NN
+global_JJ max_JJ pooling_JJ 3d_NN
+global_JJ average_JJ pooling_JJ basic_JJ test_NN
+global_JJ average_JJ pooling_JJ correctness_NNS test_NN
+max_JJ pooling_JJ basic_JJ test_NN
+max_JJ pooling_JJ correctness_NN test_NN
+average_JJ pooling_JJ basic_JJ test_NN
+average_JJ pooling_JJ correctness_NNS test_NN
+global_JJ max_JJ pooling_JJ 2_CD d_NN
+global_JJ average_JJ pooling_JJ 3d_CD
+global_JJ max_JJ pooling_JJ 1_CD d_NN
+global_JJ max_JJ pooling_JJ basic_JJ test_NN
+global_JJ max_JJ pooling_JJ correctness_NNS test_NN
+max_JJ pooling_JJ 2_CD d_NN
+global_JJ average_NN pooling_JJ 1_CD d_NN
+base_NN pooling_JJ
+average_VB pooling_JJ 2_CD d_NN
+p_VB re_VB lu_NN test_NN
+re_VB lu_NN test_NN
+activation_NN
+p_VB re_NN lu_NN
+activation_NN test_NN
+elu_VB test_VB
+leaky_VB re_VB lu_NN test_NN
+leaky_VB re_NN lu_NN
+elu_VB
+softmax_NN test_NN
+time_NN distributed_JJ test_NN
+masked_JJ dense_NN
+assert_VB num_NN queries_NNS context_NN
+assert_VB template_NN used_VBN context_NN
+assert_VB template_NN not_RB used_VBN context_NN
+database_VB operation_NN forbidden_NN
+database_NN failure_NN
+simple_VB test_NN case_NN
+transaction_NN test_NN case_NN
+test_VB data_NNS
+check_VB condition_NN
+quiet_VB wsgi_NN request_NN handler_NN
+fs_VB files_NNS handler_NN
+static_JJ files_NNS handler_NN
+media_VB files_NNS handler_NN
+live_JJ server_NN thread_NN
+live_JJ server_NN test_NN case_NN
+serialize_VB mixin_NN
+debug_VB sql_NNP text_NN test_NN result_NN
+pdb_VB debug_NN result_NN
+dummy_VB list_NN
+remote_JJ test_VB result_NN
+remote_JJ test_NN runner_NN
+parallel_NN test_NN suite_NN
+shuffler_NN
+discover_VB runner_NN
+redirect_VB cycle_NN error_NN
+fake_VB payload_NN
+client_NN handler_NN
+async_JJ client_NN handler_NN
+request_VB factory_NN
+async_JJ request_NN factory_NN
+client_NN mixin_NN
+client_NN
+async_JJ client_NN
+element_NN
+root_NN element_NN
+html_NNP parse_VB error_NN
+parser_NN
+approximate_VB
+context_NN list_NN
+test_VB state_NN
+test_VB context_NN decorator_NN
+override_VB settings_NNS
+modify_VB settings_NNS
+override_VB system_NN checks_NNS
+capture_VB queries_NNS context_NN
+ignore_VB warnings_NNS
+override_VB script_NN prefix_NN
+logging_VBG capture_NN mixin_NN
+isolate_VB apps_NNS
+time_NN keeper_NN
+null_JJ time_NN keeper_NN
+token_NN base_NN
+operator_NN
+literal_JJ
+end_VB token_NN
+if_IN parser_NN
+template_VB does_VBZ not_RB exist_VB
+template_VB syntax_JJ error_NN
+context_NN pop_NN exception_NN
+context_NN dict_JJ
+base_NN context_NN
+context_NN
+render_VB context_NN
+request_VB context_NN
+content_NN not_RB rendered_VBN error_NN
+simple_VB template_VB response_NN
+template_VB response_NN
+token_NN type_NN
+variable_NN does_VBZ not_RB exist_VB
+origin_VB
+template_VB
+token_NN
+lexer_VB
+debug_VB lexer_NN
+filter_NN expression_NN
+node_NN list_NN
+text_NN node_NN
+variable_NN node_NN
+invalid_JJ template_NN library_NN
+library_JJ
+tag_NN helper_NN node_NN
+simple_JJ node_NN
+inclusion_NN node_NN
+engine_VB
+block_NN context_NN
+block_NN node_NN
+extends_VBZ node_NN
+include_VB node_NN
+auto_JJ escape_NN control_NN node_NN
+comment_NN node_NN
+csrf_VB token_NN node_NN
+cycle_NN node_NN
+debug_NN node_NN
+filter_NN node_NN
+first_JJ of_IN node_NN
+for_IN node_NN
+if_IN changed_JJ node_NN
+if_IN node_NN
+lorem_NN node_NN
+regroup_VB node_NN
+load_VB node_NN
+now_JJ node_NN
+reset_VB cycle_NN node_NN
+spaceless_VB node_NN
+template_VB tag_NN node_NN
+url_NNP node_NN
+verbatim_NN node_NN
+width_IN ratio_NN node_NN
+with_IN node_NN
+template_VB literal_JJ
+template_VB if_IN parser_NN
+invalid_JJ template_NN engine_NN error_NN
+engine_NN handler_NN
+template_VB strings_NNS
+base_NN engine_NN
+jinja_NN 2_CD
+django_VB templates_NNS
+loader_NN
+resolver_NN 404_CD
+no_DT reverse_JJ match_NN
+resolver_NN match_NN
+locale_VB regex_NN descriptor_NN
+check_VB url_NNP mixin_NN
+regex_VB pattern_NN
+locale_VB regex_NN route_NN descriptor_NN
+route_VB pattern_NN
+locale_VB prefix_NN pattern_NN
+url_NNP pattern_NN
+url_NNP resolver_NN
+int_NN converter_NN
+string_NN converter_NN
+uuid_NNP converter_NN
+slug_VB converter_NN
+path_NN converter_NN
+transaction_NN management_NN error_NN
+atomic_JJ
+error_NN
+interface_VB error_NN
+operational_JJ error_NN
+integrity_NN error_NN
+internal_JJ error_NN
+programming_NN error_NN
+not_RB supported_VBN error_NN
+database_NN error_NN wrapper_NN
+connection_NN handler_NN
+connection_NN router_NN
+index_VB expression_NN
+sq_VB lite_NN numeric_JJ mixin_NN
+combinable_JJ
+base_NN expression_NN
+expression_NN
+combined_JJ expression_NN
+duration_NN expression_NN
+temporal_JJ subtraction_NN
+f_VB
+resolved_JJ outer_NN ref_NN
+outer_NN ref_NN
+sliced_VBN
+func_NN
+value_NN
+raw_VB sql_NNP
+star_NN
+database_NN default_JJ
+col_NN
+ref_NN
+expression_NN list_NN
+order_NN by_IN list_NN
+expression_NN wrapper_NN
+negated_VBN expression_NN
+when_WRB
+case_NN
+subquery_NN
+exists_VBZ
+order_NN by_IN
+window_NN frame_NN exclusion_NN
+window_NN frame_NN
+row_NN range_NN
+value_NN range_NN
+lookup_NN
+transform_VB
+builtin_VB lookup_NN
+field_NN get_VB db_NN prep_NN value_NN mixin_NN
+field_NN get_VB db_NN prep_NN value_NN iterable_JJ mixin_NN
+postgres_VBZ operator_NN lookup_NN
+exact_VB
+i_NN exact_NN
+greater_JJR than_IN
+greater_JJR than_IN or_CC equal_JJ
+less_JJR than_IN
+less_JJR than_IN or_CC equal_JJ
+integer_VB field_NN overflow_VBN
+integer_VB field_NN float_NN rounding_NN
+integer_VB field_NN exact_NN
+integer_VB greater_JJR than_IN
+integer_VB greater_JJR than_IN or_CC equal_JJ
+integer_NN less_JJR than_IN
+integer_NN less_JJR than_IN or_CC equal_JJ
+in_IN
+pattern_NN lookup_NN
+contains_VBZ
+i_NN contains_VBZ
+starts_VBZ with_IN
+i_NN starts_NNS with_IN
+ends_VBZ with_IN
+i_NN ends_NN with_IN
+range_NN
+is_VBZ null_JJ
+regex_VB
+i_NN regex_NN
+year_VB lookup_NN
+year_NN exact_NN
+year_NN gt_NN
+year_NN gte_NN
+year_NN lt_NN
+year_NN lte_NN
+uuid_NNP text_NN mixin_NN
+uuidi_NNP exact_NN
+uuid_NNP contains_VBZ
+uuidi_NNP contains_VBZ
+uuid_NNP starts_NNS with_IN
+uuidi_NNP starts_NNS with_IN
+uuid_NNP ends_NNS with_IN
+uuidi_NNP ends_NNS with_IN
+model_NN signal_JJ
+deferred_VBN
+model_NN base_NN
+model_NN state_NN fields_NNS cache_NN descriptor_NN
+model_NN state_NN
+on_IN conflict_NN
+q_FW
+deferred_VBN attribute_NN
+class_NN or_CC instance_NN method_NN
+register_VB lookup_NN mixin_NN
+filtered_VBN relation_NN
+base_NN manager_NN
+manager_NN
+manager_NN descriptor_NN
+empty_JJ manager_NN
+base_NN constraint_NN
+check_VB constraint_NN
+deferrable_JJ
+unique_JJ constraint_NN
+protected_VBN error_NN
+restricted_VBN error_NN
+collector_NN
+alters_NNS data_NNS
+aggregate_VB
+avg_VB
+count_VB
+std_JJ dev_NN
+variance_NN
+base_NN iterable_JJ
+model_NN iterable_JJ
+raw_VB model_NN iterable_NN
+values_NNS iterable_NN
+values_NNS list_NN iterable_JJ
+named_VBN values_NNS list_NN iterable_JJ
+flat_VB values_NNS list_NN iterable_JJ
+query_VB set_VB
+instance_NN check_NN meta_NN
+empty_JJ query_NN set_NN
+raw_VB query_NN set_NN
+prefetch_VB
+related_VBN populator_NN
+repr_VB enum_NN
+int_VB enum_NN
+str_NN enum_NN
+choices_NNS type_NN
+choices_NNS
+integer_VB choices_NNS
+text_NN choices_NNS
+position_NN ref_NN
+sql_NNP compiler_NN
+sql_NNP insert_VB compiler_NN
+sql_NNP delete_VB compiler_NN
+sql_NNP update_NN compiler_NN
+sql_NNP aggregate_NN compiler_NN
+delete_VB query_NN
+update_VB query_NN
+insert_VB query_NN
+aggregate_VB query_NN
+multi_JJ join_NN
+join_VB
+base_NN table_NN
+where_WRB node_NN
+nothing_JJ node_NN
+extra_VB where_WRB
+subquery_NN constraint_NN
+raw_VB query_NN
+query_VB
+join_VB promoter_NN
+a_VB cos_NNS
+asin_IN
+a_VB tan_NN
+a_VB tan_NN 2_CD
+cot_VB
+degrees_VB
+ln_NN
+pi_VB
+radians_VB
+random_JJ
+timezone_NN mixin_NN
+extract_VB
+extract_VB year_NN
+extract_VB iso_NNS year_NN
+extract_VB month_NN
+extract_VB day_NN
+extract_VB week_NN
+extract_VB week_NN day_NN
+extract_VB iso_NNS week_NN day_NN
+extract_VB quarter_NN
+extract_VB hour_NN
+extract_VB minute_NN
+extract_VB second_JJ
+now_NN
+trunc_VB base_NN
+trunc_JJ
+trunc_JJ year_NN
+trunc_JJ quarter_NN
+trunc_JJ month_NN
+trunc_JJ week_NN
+trunc_JJ day_NN
+trunc_JJ date_NN
+trunc_JJ time_NN
+trunc_JJ hour_NN
+trunc_JJ minute_NN
+trunc_VB second_JJ
+cume_VB dist_NN
+dense_VB rank_NN
+first_JJ value_NN
+lag_JJ lead_VB function_NN
+lag_NN
+last_JJ value_NN
+lead_VB
+nth_NN value_NN
+n_NN tile_NN
+percent_NN rank_NN
+rank_VB
+row_NN number_NN
+fix_VB decimal_JJ input_NN mixin_NN
+fix_VB duration_NN input_NN mixin_NN
+numeric_JJ output_NN field_NN mixin_NN
+coalesce_VB
+collate_VB
+greatest_JJS
+json_NNP object_NN
+arg_NN joiner_NN
+least_VB
+null_JJ if_IN
+my_VB sql_NNP sha_NN 2_CD mixin_NN
+oracle_JJ hash_NN mixin_NN
+postgre_VB sql_NNP sha_NN mixin_NN
+chr_VB
+concat_VB pair_NN
+concat_VB
+left_VB
+length_NN
+lower_NN
+l_NN pad_NN
+l_NN trim_NN
+md5_VB
+ord_NN
+replace_VB
+reverse_VB
+right_VB
+r_NN pad_NN
+r_NN trim_NN
+sha1_VB
+sha_VB 224_CD
+sha256_VB
+sha384_VB
+sha512_VB
+str_NN index_NN
+sub_JJ str_NN
+trim_VB
+upper_NN
+multi_JJ col_NN source_NN
+related_VBN in_IN
+related_VBN lookup_NN mixin_NN
+related_VBN exact_JJ
+related_VBN less_JJR than_IN
+related_VBN greater_JJR than_IN
+related_VBN greater_JJR than_IN or_CC equal_JJ
+related_VBN less_JJR than_IN or_CC equal_JJ
+related_VBN is_VBZ null_JJ
+json_NNP field_NN
+data_NNS contains_VBZ
+contained_VBN by_IN
+has_VBZ key_NN lookup_NN
+has_VBZ key_NN
+has_VBZ keys_NNS
+has_VBZ any_DT keys_NNS
+has_VBZ key_NN or_CC array_NN index_NN
+case_NN insensitive_JJ mixin_NN
+json_NNP exact_NN
+jsoni_NNP contains_VBZ
+key_NN transform_NN
+key_JJ text_NN transform_NN
+key_JJ transform_NN text_NN lookup_NN mixin_NN
+key_NN transform_NN is_VBZ null_JJ
+key_NN transform_NN in_IN
+key_NN transform_NN exact_JJ
+key_NN transform_NN i_NN exact_NN
+key_NN transform_NN i_NN contains_VBZ
+key_NN transform_NN starts_NNS with_IN
+key_NN transform_NN i_NN starts_NNS with_IN
+key_NN transform_NN ends_NNS with_IN
+key_NN transform_NN i_NN ends_NN with_IN
+key_NN transform_NN regex_NN
+key_NN transform_NN i_NN regex_NN
+key_NN transform_NN numeric_JJ lookup_NN mixin_NN
+key_NN transform_NN lt_NN
+key_NN transform_NN lte_NN
+key_NN transform_NN gt_NN
+key_NN transform_NN gte_NN
+key_NN transform_NN factory_NN
+order_NN wrt_NN
+field_NN file_NN
+file_NN descriptor_NN
+file_NN field_NN
+image_NN file_NN descriptor_NN
+image_VB field_NN file_NN
+image_VB field_NN
+field_NN cache_NN mixin_NN
+check_VB field_NN default_NN mixin_NN
+related_VBN field_NN
+foreign_VB object_NN
+foreign_IN key_NN
+one_CD to_TO one_CD field_NN
+many_JJ to_TO many_JJ field_NN
+generated_VBN field_NN
+foreign_VB object_NN rel_NN
+many_JJ to_TO one_CD rel_NN
+one_CD to_TO one_CD rel_NN
+many_JJ to_TO many_JJ rel_NN
+not_RB provided_VBN
+field_NN
+boolean_JJ field_NN
+char_NN field_NN
+comma_VB separated_JJ integer_NN field_NN
+date_NN time_NN check_NN mixin_NN
+date_VB field_NN
+date_NN time_NN field_NN
+decimal_JJ field_NN
+duration_NN field_NN
+email_NN field_NN
+file_NN path_NN field_NN
+float_VB field_NN
+integer_VB field_NN
+big_JJ integer_NN field_NN
+small_JJ integer_NN field_NN
+ip_VB address_NN field_NN
+generic_VB ip_VB address_NN field_NN
+null_JJ boolean_JJ field_NN
+positive_VB integer_NN rel_NN db_NN type_NN mixin_NN
+positive_VB big_JJ integer_NN field_NN
+positive_VB integer_NN field_NN
+positive_VB small_JJ integer_NN field_NN
+slug_VB field_NN
+text_NN field_NN
+time_NN field_NN
+url_NNP field_NN
+binary_JJ field_NN
+uuid_NNP field_NN
+auto_JJ field_NN mixin_NN
+auto_JJ field_NN meta_NN
+auto_JJ field_NN
+big_JJ auto_JJ field_NN
+small_JJ auto_JJ field_NN
+foreign_IN key_NN deferred_VBN attribute_NN
+forward_VB many_JJ to_TO one_CD descriptor_NN
+forward_VB one_CD to_TO one_CD descriptor_NN
+reverse_VB one_CD to_TO one_CD descriptor_NN
+reverse_VB many_JJ to_TO one_CD descriptor_NN
+related_VBN manager_NN
+many_JJ to_TO many_JJ descriptor_NN
+many_JJ related_VBN manager_NN
+reference_NN
+table_NN
+table_JJ columns_NNS
+columns_NNS
+index_NN name_NN
+index_VB columns_NNS
+foreign_VB key_NN name_NN
+statement_NN
+expressions_VB
+cursor_VB wrapper_NN
+cursor_VB debug_NN wrapper_NN
+database_NN creation_NN
+database_NN features_NNS
+flexible_JJ field_NN lookup_NN dict_JJ
+database_NN introspection_NN
+list_VB aggregate_JJ
+std_JJ dev_NN pop_NN
+std_JJ dev_NN samp_NN
+var_NN pop_NN
+var_NN samp_NN
+database_NN operations_NNS
+database_NN wrapper_NN
+sq_VB lite_NN cursor_NN wrapper_NN
+database_NN client_NN
+database_NN schema_NN editor_NN
+interval_NN to_TO seconds_NNS
+seconds_NNS to_TO interval_NN
+uninitialized_VBN operators_NNS descriptor_NN
+oracle_VB param_NN
+variable_NN wrapper_NN
+format_VB style_NN placeholder_NN cursor_NN
+database_NN validation_NN
+insert_VB var_NN
+oracle_VB datetime_NN
+bulk_VB insert_VB mapper_NN
+base_NN database_NN creation_NN
+base_NN database_NN features_NNS
+base_NN database_NN introspection_NN
+base_NN database_NN operations_NNS
+base_NN database_NN wrapper_NN
+base_NN database_NN validation_NN
+base_NN database_NN client_NN
+base_VB database_NN schema_NN editor_NN
+dummy_VB database_NN features_NNS
+base_NN tz_NN loader_NN
+specific_JJ tz_NN loader_NN
+django_VB range_NN dumper_NN
+isolation_VBZ level_NN
+jsonb_NNP
+cursor_VB mixin_NN
+server_NN binding_NN cursor_NN
+cursor_VB
+server_NN side_NN cursor_NN
+dummy_VB node_NN
+migration_NN graph_NN
+operation_NN writer_NN
+migration_NN writer_NN
+migration_NN recorder_NN
+migration_NN
+meta_NN
+ambiguity_VB error_NN
+bad_JJ migration_NN error_NN
+circular_JJ dependency_NN error_NN
+inconsistent_NN migration_NN history_NN
+invalid_JJ bases_NNS error_NN
+irreversible_JJ error_NN
+node_NN not_RB found_VBN error_NN
+migration_NN schema_NN missing_JJ
+invalid_JJ migration_NN plan_NN
+migration_NN executor_NN
+project_NN state_NN
+app_VB config_NN stub_NN
+state_NN apps_NNS
+migration_NN loader_NN
+migration_NN questioner_NN
+interactive_VB migration_NN questioner_NN
+non_RB interactive_JJ migration_NN questioner_NN
+operation_NN dependency_NN
+type_NN
+migration_NN autodetector_NN
+base_NN serializer_NN
+base_NN sequence_NN serializer_NN
+base_NN unordered_JJ sequence_NN serializer_NN
+base_NN simple_JJ serializer_NN
+choices_NNS serializer_NN
+date_NN time_NN serializer_NN
+datetime_NN datetime_NN serializer_NN
+decimal_JJ serializer_NN
+deconstructable_JJ serializer_NN
+dictionary_NN serializer_NN
+enum_NN serializer_NN
+float_VB serializer_NN
+frozen_JJ set_NN serializer_NN
+function_NN type_NN serializer_NN
+functools_NNS partial_NN serializer_NN
+iterable_JJ serializer_NN
+model_NN field_NN serializer_NN
+model_NN manager_NN serializer_NN
+operation_NN serializer_NN
+path_NN like_IN serializer_NN
+path_NN serializer_NN
+regex_VB serializer_NN
+sequence_NN serializer_NN
+set_VB serializer_NN
+settings_NNS reference_NN serializer_NN
+tuple_VB serializer_NN
+type_NN serializer_NN
+uuid_NNP serializer_NN
+serializer_NN
+swappable_JJ tuple_NN
+regex_VB object_NN
+migration_NN optimizer_NN
+field_NN operation_NN
+add_VB field_NN
+remove_VB field_NN
+alter_JJ field_NN
+rename_VB field_NN
+separate_VB database_NN and_CC state_NN
+run_VB sql_NNP
+run_VB python_NN
+operation_NN category_NN
+model_NN operation_NN
+create_VB model_NN
+delete_VB model_NN
+rename_VB model_NN
+model_NN option_NN operation_NN
+alter_NN model_NN table_NN
+alter_NN model_NN table_NN comment_NN
+alter_NN together_NN option_NN operation_NN
+alter_NN unique_JJ together_NN
+alter_JJ index_NN together_NN
+alter_JJ order_NN with_IN respect_NN to_TO
+alter_NN model_NN options_NNS
+alter_NN model_NN managers_NNS
+index_VB operation_NN
+add_VB index_NN
+remove_VB index_NN
+rename_VB index_NN
+add_VB constraint_NN
+remove_VB constraint_NN
+unordered_JJ object_NN list_NN warning_VBG
+invalid_JJ page_NN
+page_NN not_RB an_IN integer_NN
+empty_JJ page_NN
+paginator_NN
+page_NN
+field_NN does_VBZ not_RB exist_VB
+app_VB registry_NN not_RB ready_JJ
+object_NN does_VBZ not_RB exist_VB
+multiple_JJ objects_NNS returned_VBN
+suspicious_JJ operation_NN
+suspicious_JJ multipart_NN form_NN
+suspicious_JJ file_NN operation_NN
+disallowed_JJ host_NN
+disallowed_VB redirect_NN
+too_NNP many_JJ fields_NNS sent_JJ
+too_RB many_JJ files_NNS sent_JJ
+request_VB data_NNS too_NN big_JJ
+request_VB aborted_VBN
+bad_JJ request_NN
+permission_NN denied_VBN
+view_VB does_VBZ not_RB exist_VB
+middleware_VB not_RB used_VBN
+improperly_VB configured_VBN
+field_NN error_NN
+validation_NN error_NN
+empty_JJ result_NN set_NN
+full_JJ result_NN set_NN
+synchronous_VB only_RB operation_NN
+regex_VB validator_NN
+url_NNP validator_NN
+email_NN validator_NN
+base_NN validator_NN
+max_JJ value_NN validator_NN
+min_JJ value_NN validator_NN
+step_VB value_NN validator_NN
+min_JJ length_NN validator_NN
+max_JJ length_NN validator_NN
+decimal_JJ validator_NN
+file_VB extension_NN validator_NN
+prohibit_VB null_JJ characters_NNS validator_NN
+bad_JJ signature_NN
+signature_NN expired_JJ
+json_NNP serializer_NN
+signer_NN
+timestamp_NN signer_NN
+deserializer_NN
+def_VB used_VBN expat_NN parser_NN
+def_VB used_VBN xml_NNP exception_NN
+dtd_VB forbidden_IN
+entities_NNS forbidden_IN
+external_JJ reference_NN forbidden_NN
+django_VB json_NNP encoder_NN
+django_VB safe_JJ dumper_NN
+serializer_NN does_VBZ not_RB exist_VB
+serialization_NN error_NN
+deserialization_NN error_NN
+m_NN 2_CD m_NN deserialization_NN error_NN
+progress_NN bar_NN
+deserialized_VB object_NN
+bad_JJ serializer_NN
+bad_JJ header_NN error_NN
+mime_NN mixin_NN
+safe_JJ mime_NN message_NN
+safe_JJ mime_NN text_NN
+safe_JJ mime_NN multipart_NN
+email_NN message_NN
+email_NN multi_JJ alternatives_NNS
+cached_VBN dns_NNS name_NN
+email_NN backend_NN
+base_NN email_NN backend_NN
+wsgi_NNP server_NN
+threaded_CD wsgi_NNP server_NN
+server_NN handler_NN
+wsgi_VB request_NN handler_NN
+asgi_VB request_NN
+asgi_IN handler_NN
+limited_JJ stream_NN
+wsgi_VB request_NN
+wsgi_NNP handler_NN
+base_NN handler_NN
+uploaded_VBN file_NN
+temporary_JJ uploaded_JJ file_NN
+in_IN memory_NN uploaded_VBN file_NN
+simple_JJ uploaded_VBN file_NN
+image_NN file_NN
+file_NN
+content_VB file_NN
+temporary_JJ file_NN
+offset_NN
+offset_NN union_NN
+overlapped_VBN
+file_NN proxy_NN mixin_NN
+upload_VB file_NN exception_NN
+stop_VB upload_NNP
+skip_VB file_NN
+stop_VB future_NN handlers_NNS
+file_NN upload_NN handler_NN
+temporary_JJ file_NN upload_NN handler_NN
+memory_NN file_NN upload_NN handler_NN
+timing_NN mixin_NN
+in_IN memory_NN file_NN node_NN
+in_IN memory_NN dir_NN node_NN
+in_IN memory_NN storage_NN
+invalid_JJ storage_NN error_NN
+storage_NN handler_NN
+storage_NN settings_NNS mixin_NN
+storage_NN
+file_NN system_NN storage_NN
+default_JJ storage_NN
+template_NN command_NN
+command_NN error_NN
+system_NN check_NN error_NN
+command_NN parser_NN
+django_VB help_NN formatter_NN
+output_NN wrapper_NN
+base_NN command_NN
+app_VB command_NN
+label_JJ command_NN
+management_NN utility_NN
+style_NN
+command_NN
+translatable_JJ file_NN
+build_VB file_NN
+proxy_NN model_NN warning_NN
+single_JJ zip_NN reader_NN
+tags_NNS
+check_VB registry_NN
+check_VB message_NN
+debug_VB
+info_NN
+warning_VBG
+critical_JJ
+cache_NN handler_NN
+dummy_VB cache_NN
+redis_VB serializer_NN
+redis_VB cache_NN client_NN
+redis_VB cache_NN
+loc_VB mem_NN cache_NN
+file_NN based_VBN cache_NN
+invalid_JJ cache_NN backend_VB error_NN
+cache_NN key_NN warning_NN
+invalid_JJ cache_NN key_NN
+base_NN cache_NN
+base_NN database_NN cache_NN
+cache_NN entry_NN
+database_NN cache_NN
+base_NN mem_NN cached_VBN cache_NN
+py_VB lib_NN mc_NN cache_NN
+py_VB mem_NN cache_NN cache_NN
+static_JJ files_NNS handler_NN mixin_NN
+asgi_VB static_JJ files_NNS handler_NN
+static_JJ live_JJ server_NN test_NN case_NN
+base_NN finder_NN
+file_VB system_NN finder_NN
+app_VB directories_NNS finder_NN
+base_NN storage_NN finder_NN
+default_JJ storage_NN finder_NN
+static_JJ files_NNS storage_NN
+hashed_VBN files_NNS mixin_NN
+manifest_VB files_NNS mixin_NN
+manifest_VB static_JJ files_NNS storage_NN
+configured_VBN storage_NN
+static_JJ files_NNS config_NN
+flat_VB page_NN admin_NN
+flatpage_NN form_VB
+flatpage_NN fallback_NN middleware_NN
+flat_VB pages_NNS config_NN
+flat_VB page_NN
+flat_VB page_NN sitemap_NN
+flatpage_NN node_NN
+minimum_JJ length_NN validator_NN
+user_NN attribute_NN similarity_NN validator_NN
+common_JJ password_NN validator_NN
+numeric_JJ password_NN validator_NN
+base_NN user_NN manager_NN
+abstract_VB base_NN user_NN
+perm_VB lookup_NN dict_NN
+perm_VB wrapper_NN
+password_NN reset_NN token_NN generator_NN
+group_NN admin_NN
+user_NN admin_NN
+ascii_VB username_NN validator_NN
+unicode_VB username_NN validator_NN
+base_NN password_NN hasher_NN
+pbkdf_FW 2_CD password_NN hasher_NN
+pbkdf_FW 2_CD sha1_FW password_NN hasher_NN
+argon_NN 2_CD password_NN hasher_NN
+b_FW crypt_NN sha256_NN password_NN hasher_NN
+b_FW crypt_NN password_NN hasher_NN
+s_VB crypt_VB password_NN hasher_NN
+md5_VB password_NN hasher_NN
+read_VB only_RB password_JJ hash_NN widget_NN
+read_VB only_RB password_JJ hash_NN field_NN
+username_VB field_NN
+set_VB password_NN mixin_NN
+base_NN user_NN creation_NN form_NN
+user_NN creation_NN form_NN
+user_NN change_NN form_NN
+authentication_NN form_VB
+password_NN reset_NN form_NN
+set_VB password_NN form_NN
+password_NN change_NN form_NN
+admin_VB password_NN change_NN form_NN
+authentication_NN middleware_JJ
+remote_JJ user_NN middleware_NN
+persistent_VB remote_JJ user_NN middleware_NN
+access_NN mixin_NN
+login_VB required_JJ mixin_NN
+permission_NN required_JJ mixin_NN
+user_NN passes_NNS test_NN mixin_NN
+base_NN backend_NN
+model_NN backend_NN
+allow_VB all_DT users_NNS model_NN backend_NN
+remote_JJ user_NN backend_NN
+allow_VB all_DT users_NNS remote_JJ user_NN backend_NN
+redirect_VB url_NNP mixin_NN
+login_VB view_NN
+logout_NN view_NN
+password_NN context_NN mixin_NN
+password_NN reset_NN view_NN
+password_NN reset_NN done_NN view_NN
+password_NN reset_NN confirm_NN view_NN
+password_NN reset_NN complete_JJ view_NN
+password_NN change_NN view_NN
+password_NN change_NN done_NN view_NN
+auth_VB config_NN
+permission_NN manager_NN
+permission_NN
+group_NN manager_NN
+group_NN
+user_NN manager_NN
+permissions_VB mixin_NN
+abstract_VB user_NN
+user_NN
+anonymous_JJ user_NN
+not_RB running_VBG in_IN tty_NN exception_NN
+message_NN failure_NN
+messages_NNS test_NN mixin_NN
+Average: 10639.3 sent/s 
+
+Total: 2596 sent
+Runtime: 0.244s
+Execution time: 0.292 seconds
+

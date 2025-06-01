@@ -1,0 +1,17 @@
+{
+  "label_smoothing":0.0,
+  "labels":[
+    "CJ",
+    "D",
+    "DT",
+    "N",
+    "NM",
+    "NPL",
+    "P",
+    "PRE",
+    "V",
+    "VM"
+  ],
+  "neg_prefix":"!",
+  "overwrite":false
+}

@@ -1,4 +1,8 @@
+import os
+import sys
 import pandas as pd
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils import evaluate, str2list
 
 modes = ['all', 'method', 'args', 'class', 'nl']

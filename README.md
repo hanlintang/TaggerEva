@@ -36,20 +36,67 @@ Please click [data](./dataset/README.md) to read the introduction of the TaggerE
 
 ## Setup
 ### Docker (Recommended)
-#### Ubuntu
-1. [Click here to download the image.](https://drive.google.com/file/d/1cDxHUTV357YbMwWlXO4EXhrfCzAdCWHM/view?usp=sharing)
-
-2. Configure the docker image and run it:
+#### Create a container from the Docker image
+The Docker image can be obtained in two ways:
+##### Pull from cloud container registry
+1. Run the pull command:
 ```shell
-gunzip -c taggereva_image.tar.gz | docker load
-docker run -it --name taggereva taggereva-image:1.0 /bin/bash
+docker pull registry.cn-beijing.aliyuncs.com/taggereva/taggereva-image
 ```
 
-3. All programs/scripts are located in ```/home/taggereva```
+2. Create a container:
+```shell
+docker run -it --name taggereva registry.cn-beijing.aliyuncs.com/taggereva/taggereva-image
+```
+
+##### Download image file
+1. [Click here to download the image.](https://drive.google.com/file/d/1y748XTYFa1hMLVBOCD0-q050Owwx9Z6X/view?usp=sharing)
+
+
+2. Configure the docker image and run it:
+
+* Ubuntu: 
+```shell
+gunzip -c taggereva_image_v1.2.tar.gz | docker load
+docker run -it --name taggereva taggereva_image:1.2 /bin/bash
+```
+
+* WSL
+    1. Install [7-zip](https://www.7-zip.org/) to unpack ```.tar.gz```;
+    2. Open Docker Desktop;
+    3. Load the image from tar file on PowerShell:
+    ```shell
+    docker load -i .\taggereva_image_v1.2.tar
+    ```
+    4. Create a container:
+    ```shell
+    docker run -it --name taggereva taggereva_image:v1.2
+    ```
+
+* macOS
+    1. Open Docker Desktop;
+    2. Same with Ubuntu.
+
+#### Execute
+1. If the container already exists:
+```shell
+docker start taggereva
+```
+
+```shell
+docker exec -it taggereva /bin/bash
+```
+
+2. All programs/scripts are located in ```/home/taggereva```
 ```shell
 cd /home/taggereva
 ```
 Follow the instructions of each RQ.
+
+Screen records:
+[Windows](https://drive.google.com/file/d/1iuG73_zHq8im2cWtUci3ocKgoMiu6Ln_/view?usp=sharing)
+
+[macOS](https://drive.google.com/file/d/1sWVr8h9wWQd7ciHBWVowdXzFe9xpmPtV/view?usp=sharing)
 
 ### Manual installation
 1. Install the dependencies:

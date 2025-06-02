@@ -95,7 +95,7 @@ Follow the instructions of each RQ.
 
 Screen records:
 
-[Windows](https://drive.google.com/file/d/1iuG73_zHq8im2cWtUci3ocKgoMiu6Ln_/view?usp=sharing)
+[Windows](https://drive.google.com/file/d/1YAGmXIBp6DsWuQ8aaaIFtN9-JIRoaxIh/view?usp=sharing)
 
 [macOS](https://drive.google.com/file/d/1sWVr8h9wWQd7ciHBWVowdXzFe9xpmPtV/view?usp=sharing)
 

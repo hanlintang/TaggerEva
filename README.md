@@ -94,9 +94,12 @@ cd /home/taggereva
 Follow the instructions of each RQ.
 
 Screen records:
+
 [Windows](https://drive.google.com/file/d/1iuG73_zHq8im2cWtUci3ocKgoMiu6Ln_/view?usp=sharing)
 
 [macOS](https://drive.google.com/file/d/1sWVr8h9wWQd7ciHBWVowdXzFe9xpmPtV/view?usp=sharing)
+
+[Ubuntu](https://drive.google.com/file/d/1SEtkcVp2gMww5DqOXbptsJFtasd9l7xh/view?usp=sharing)
 
 ### Manual installation
 1. Install the dependencies:

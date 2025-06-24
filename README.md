@@ -1,5 +1,5 @@
 # TaggerEva
-========
+This repository contains the code and datasets for our paper: "POS Tagging on Code Identifiers: How Far Are We?", accepted and available online in ACM Transactions on Software Engineering and Methodology. [Paper Link](https://dl.acm.org/doi/10.1145/3744919) [BibTex](#citation)
 
 ## Introduction
 * Experimental Data:
@@ -170,3 +170,20 @@ for evaluation.
 
 ## Model
 The nltk, corenlp, opennlp and spacy retrained model has stored in "model". Due to the size limitation of Github, the flair model currently not been committed.
+
+## Citation
+If you use these datasets or code, or find our work helpful, please cite our paper:
+```bibtex
+@article{10.1145/3744919,
+author = {Tang, Hanlin and Jiang, Yanjie and Zhang, Yuxia and Niu, Nan and Liu, Hui},
+title = {POS Tagging on Code Identifiers: How Far Are We?},
+year = {2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3744919},
+doi = {10.1145/3744919},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+}
+```
+
